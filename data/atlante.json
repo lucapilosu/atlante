@@ -4257,7 +4257,8 @@
    "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
    "source_type": "university_research_resource",
    "supports": [
-    "state-ancient-egypt"
+    "state-ancient-egypt",
+    "tech-arch-great-pyramid"
    ],
    "notes": "Cronologia articolata di periodi culturali e dinastici; segnala l'incertezza delle date più antiche."
   },
@@ -4513,7 +4514,8 @@
    "url": "https://whc.unesco.org/en/list/1269/",
    "source_type": "world_heritage_record",
    "supports": [
-    "culture-caral"
+    "culture-caral",
+    "tech-arch-caral"
    ],
    "notes": "Cronologia radiocarbonica dello sviluppo tra circa 3000 e 1800 a.C.; architettura monumentale, piattaforme e piazze circolari infossate."
   },
@@ -4851,7 +4853,8 @@
     "site-rano-kau",
     "event-rapanui-moai-tradition",
     "event-rapanui-birdman-cult",
-    "event-rapanui-unesco-listing"
+    "event-rapanui-unesco-listing",
+    "tech-arch-moai"
    ],
    "notes": "Scheda UNESCO del Patrimonio mondiale: circa 900 moai, oltre 300 piattaforme ahu, cave, arte rupestre, villaggio cerimoniale di Orongo e paesaggio produttivo. Riporta la periodizzazione tradizionale e la narrazione della crisi ecologica, da affiancare alla ricerca archeologica più recente."
   },
@@ -4903,7 +4906,8 @@
    "url": "https://doi.org/10.1038/s41598-024-53063-7",
    "source_type": "peer_reviewed_research_article",
    "supports": [
-    "culture-rapanui"
+    "culture-rapanui",
+    "tech-scr-rongorongo"
    ],
    "notes": "Ferrara, Tassoni, Kromer et al., 2024. Nuove datazioni radiocarboniche su tavolette roŋoroŋo; i risultati riaprono la discussione sulla cronologia del sistema di segni, senza consentire una decifrazione condivisa."
   },
@@ -4915,7 +4919,8 @@
    "source_type": "academic_handbook_chapter",
    "supports": [
     "culture-rapanui",
-    "event-rapanui-moai-tradition"
+    "event-rapanui-moai-tradition",
+    "tech-arch-moai"
    ],
    "notes": "Terry L. Hunt e Carl P. Lipo, 2017. Sintesi archeologica su insediamento, agricoltura, organizzazione sociale, produzione e trasporto dei moai; invita a superare la narrazione semplicistica dell’ecocidio."
   },
@@ -4998,7 +5003,8 @@
    "url": "https://www.metmuseum.org/toah/ht/03/oc.html",
    "source_type": "museum_chronology",
    "supports": [
-    "culture-lapita"
+    "culture-lapita",
+    "tech-nav-lapita"
    ],
    "notes": "Sintesi museale sulla diffusione della cultura Lapita nel Pacifico occidentale e sulle cronologie di insediamento; le date sono approssimative."
   },
@@ -5012,6 +5018,424 @@
     "event-bandung-conference"
    ],
    "notes": "Ricostruzione istituzionale della conferenza, dei 29 governi partecipanti e dei temi di autodeterminazione, cooperazione e decolonizzazione."
+  },
+  {
+   "id": "src-unesco-gobekli-tepe",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Göbekli Tepe",
+   "url": "https://whc.unesco.org/en/list/1572",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-arch-gobekli-tepe"
+   ],
+   "notes": "Cronologia dei recinti megalitici (circa 9600–8200 a.C.) e loro significato come prime architetture monumentali."
+  },
+  {
+   "id": "src-eh-stonehenge",
+   "institution": "English Heritage",
+   "title": "Stonehenge: the first monument",
+   "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history/building/",
+   "source_type": "institutional_heritage_document",
+   "supports": [
+    "tech-arch-stonehenge"
+   ],
+   "notes": "Fasi costruttive: recinto in terra intorno al 3000 a.C., pietre centrali intorno al 2500 a.C."
+  },
+  {
+   "id": "src-rosicrucian-giza",
+   "institution": "Rosicrucian Egyptian Museum",
+   "title": "Old Kingdom Monuments: Pyramids of Giza",
+   "url": "https://egyptianmuseum.org/explore/old-kingdom-monuments-pyramids-of-giza",
+   "source_type": "museum_resource",
+   "supports": [
+    "tech-arch-great-pyramid"
+   ],
+   "notes": "Piramide di Cheope, costruita a partire da circa il 2560 a.C."
+  },
+  {
+   "id": "src-unesco-chartres",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Chartres Cathedral",
+   "url": "https://whc.unesco.org/en/list/81",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-arch-chartres"
+   ],
+   "notes": "Ricostruzione in circa 26 anni dopo l’incendio del 1194."
+  },
+  {
+   "id": "src-unesco-great-zimbabwe",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Great Zimbabwe National Monument",
+   "url": "https://whc.unesco.org/en/list/364",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-arch-great-zimbabwe"
+   ],
+   "notes": "Città costruita tra il 1100 e il 1450 circa, estesa su quasi 800 ettari."
+  },
+  {
+   "id": "src-unesco-nan-madol",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Nan Madol: Ceremonial Centre of Eastern Micronesia",
+   "url": "https://whc.unesco.org/en/list/1503",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-arch-nan-madol"
+   ],
+   "notes": "Isolotti artificiali con strutture megalitiche in basalto costruite tra il 1200 e il 1500 circa."
+  },
+  {
+   "id": "src-jas-belovode",
+   "institution": "Journal of Archaeological Science (Radivojević et al., 2010)",
+   "title": "On the origins of extractive metallurgy: new evidence from Europe",
+   "url": "https://doi.org/10.1016/j.jas.2010.06.012",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-met-belovode"
+   ],
+   "notes": "Fusione del rame a Belovode (Serbia) intorno al 5000 a.C."
+  },
+  {
+   "id": "src-arizona-iblis",
+   "institution": "University of Arizona (tesi di dottorato, L. Frame)",
+   "title": "Prima metallurgia dell’altopiano iranico: Tal-i Iblis, Seh Gabi, Godin Tepe",
+   "url": "https://repository.arizona.edu/handle/10150/195816",
+   "source_type": "university_resource",
+   "supports": [
+    "tech-met-tal-i-iblis"
+   ],
+   "notes": "Crogioli di Tal-i Iblis datati tra la fine del VI e l’inizio del V millennio a.C."
+  },
+  {
+   "id": "src-pnas-andes-gold",
+   "institution": "PNAS (Aldenderfer et al., 2008)",
+   "title": "Four-thousand-year-old gold artifacts from the Lake Titicaca basin, southern Peru",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2278197/",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-met-andes-gold"
+   ],
+   "notes": "Sepoltura datata al 2155–1936 a.C.: il più antico oro lavorato delle Americhe."
+  },
+  {
+   "id": "src-si-chinese-bronzes",
+   "institution": "Smithsonian National Museum of Asian Art",
+   "title": "Ancient Chinese Bronzes: Bronze Age Casting",
+   "url": "https://asia-archive.si.edu/learn/ancient-chinese-bronzes/bronze-age-casting",
+   "source_type": "museum_resource",
+   "supports": [
+    "tech-met-erlitou"
+   ],
+   "notes": "Bronzo in Cina entro il 1700 a.C., con i primi manufatti dalla cultura di Erlitou."
+  },
+  {
+   "id": "src-unesco-burkina-iron",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Ancient Ferrous Metallurgy Sites of Burkina Faso",
+   "url": "https://whc.unesco.org/en/list/1602",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-met-douroula"
+   ],
+   "notes": "Douroula, VIII secolo a.C.: la più antica produzione del ferro individuata in Burkina Faso."
+  },
+  {
+   "id": "src-bm-uruk-tablet",
+   "institution": "British Museum (via Google Arts & Culture)",
+   "title": "The first writing: counting beer for the workers",
+   "url": "https://artsandculture.google.com/asset/the-first-writing-counting-beer-for-the-workers/fgF9ioy89DC2Uw",
+   "source_type": "museum_resource",
+   "supports": [
+    "tech-scr-uruk"
+   ],
+   "notes": "Tavoletta protocuneiforme del 3100–3000 a.C. circa; le più antiche provengono da Uruk."
+  },
+  {
+   "id": "src-worldhistory-hieroglyphs",
+   "institution": "World History Encyclopedia",
+   "title": "Egyptian Hieroglyphs",
+   "url": "https://www.worldhistory.org/Egyptian_Hieroglyphs/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-scr-abydos"
+   ],
+   "notes": "Primi geroglifici datati con sicurezza nel periodo Naqada III / dinastia 0; etichette della tomba U-j."
+  },
+  {
+   "id": "src-natgeo-hieroglyphs",
+   "institution": "National Geographic",
+   "title": "How hieroglyphs became the sacred script of the ancient Egyptians",
+   "url": "https://www.nationalgeographic.com/history/article/ancient-egypt-hieroglyphs",
+   "source_type": "news_science",
+   "supports": [
+    "tech-scr-abydos"
+   ],
+   "notes": "Etichetta in osso della tomba U-j, circa 3200 a.C."
+  },
+  {
+   "id": "src-cambridge-linear-a",
+   "institution": "Cambridge University Press (E. Salgarella, 2025)",
+   "title": "Writing in Bronze Age Crete: ‘Minoan’ Linear A",
+   "url": "https://www.cambridge.org/core/product/identifier/9781009520041/type/ELEMENT",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-scr-linear-a"
+   ],
+   "notes": "Lineare A in uso a Creta e nelle isole egee tra circa 1800 e 1450 a.C., non decifrata."
+  },
+  {
+   "id": "src-worldhistory-oracle-bones",
+   "institution": "World History Encyclopedia",
+   "title": "Oracle Bones",
+   "url": "https://www.worldhistory.org/Oracle_Bones/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-scr-oracle-bones"
+   ],
+   "notes": "Ossa oracolari della dinastia Shang, prime testimonianze scritte cinesi."
+  },
+  {
+   "id": "src-livescience-oracle-bones",
+   "institution": "Live Science",
+   "title": "Oracle bones: 3,250-year-old engraved bones and tortoise shells from ancient China",
+   "url": "https://livescience.com/archaeology/oracle-bones-3-250-year-old-engraved-bones-and-tortoise-shells-from-ancient-china-were-used-to-foretell-the-future",
+   "source_type": "news_science",
+   "supports": [
+    "tech-scr-oracle-bones"
+   ],
+   "notes": "Datazione al tardo periodo Shang, circa 1250–1050 a.C."
+  },
+  {
+   "id": "src-livescience-san-bartolo",
+   "institution": "Live Science",
+   "title": "Earliest Maya Writings Found",
+   "url": "https://www.livescience.com/523-earliest-maya-writings.html",
+   "source_type": "news_science",
+   "supports": [
+    "tech-scr-san-bartolo"
+   ],
+   "notes": "Glifi di San Bartolo, circa 250 a.C.; testi zapotechi di poco precedenti."
+  },
+  {
+   "id": "src-hoi-bi-sheng",
+   "institution": "History of Information",
+   "title": "The Invention of Movable Type in China",
+   "url": "https://historyofinformation.com/detail.php?entryid=25",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-scr-bi-sheng"
+   ],
+   "notes": "Bi Sheng e i caratteri mobili in argilla (1041–1048), nel racconto di Shen Kuo."
+  },
+  {
+   "id": "src-princeton-gutenberg",
+   "institution": "Princeton University Library",
+   "title": "The Gutenberg Bible",
+   "url": "https://dpul.princeton.edu/gutenberg/feature/the-gutenberg-bible",
+   "source_type": "university_resource",
+   "supports": [
+    "tech-scr-gutenberg"
+   ],
+   "notes": "Bibbia latina stampata a Magonza intorno al 1454–55."
+  },
+  {
+   "id": "src-jarce-wadi-al-jarf",
+   "institution": "Journal of the American Research Center in Egypt (Tallet, Marouard)",
+   "title": "The Harbor Facilities of King Khufu on the Red Sea Shore: The Wadi al-Jarf/Tell Ras Budran System",
+   "url": "https://www.lockwoodonlinejournals.com/index.php/jarce/article/view/74",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-nav-wadi-al-jarf"
+   ],
+   "notes": "Il complesso portuale dell’inizio della IV dinastia e i papiri dell’epoca di Cheope."
+  },
+  {
+   "id": "src-archaeology-wadi-al-jarf",
+   "institution": "Archaeology (Archaeological Institute of America)",
+   "title": "World’s Oldest Port",
+   "url": "https://archaeology.org/issues/116-1401/features/1584-wadi-el-jarf-port-papyrus-khufu-cheops",
+   "source_type": "news_science",
+   "supports": [
+    "tech-nav-wadi-al-jarf"
+   ],
+   "notes": "Ancore e molo di Wadi el-Jarf, più antichi di oltre mille anni di ogni altra struttura simile nota."
+  },
+  {
+   "id": "src-nature-skoglund-2016",
+   "institution": "Nature (Skoglund et al., 2016)",
+   "title": "Genomic insights into the peopling of the Southwest Pacific",
+   "url": "https://www.eva.mpg.de/documents/Nature/Skoglund_Genomic_Nature_2016_2366430.pdf",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-nav-lapita"
+   ],
+   "notes": "L’Oceania remota era disabitata prima di circa 3000 anni fa; i lapita la raggiungono con imbarcazioni per lunghe traversate."
+  },
+  {
+   "id": "src-pnas-east-polynesia",
+   "institution": "PNAS (Wilmshurst et al., 2011)",
+   "title": "High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia",
+   "url": "https://pubmed.ncbi.nlm.nih.gov/21187404/",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-nav-east-polynesia"
+   ],
+   "notes": "Isole della Società circa 1025–1120; resto della Polinesia orientale circa 1190–1290."
+  },
+  {
+   "id": "src-nature-vinland",
+   "institution": "Nature (Kuitems et al., 2021)",
+   "title": "Evidence for European presence in the Americas in AD 1021",
+   "url": "https://doi.org/10.1038/s41586-021-03972-8",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-nav-vinland"
+   ],
+   "notes": "Taglio del legno a L’Anse aux Meadows datato al 1021."
+  },
+  {
+   "id": "src-wiki-compass",
+   "institution": "Wikipedia",
+   "title": "History of the compass",
+   "url": "https://en.wikipedia.org/wiki/History_of_the_compass",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-nav-compass"
+   ],
+   "notes": "Sintesi enciclopedica (Shen Kuo 1088; Zhu Yu 1111–1117): punto di partenza da verificare su fonti specialistiche."
+  },
+  {
+   "id": "src-ca-founder-crops",
+   "institution": "Current Anthropology (Weiss, Zohary, 2011)",
+   "title": "The Neolithic Southwest Asian Founder Crops: Their Biology and Archaeobotany",
+   "url": "https://www.journals.uchicago.edu/doi/10.1086/658367",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-agr-fertile-crescent"
+   ],
+   "notes": "Le piante fondatrici dell’agricoltura nell’Asia sud-occidentale, circa 11.000–10.000 anni fa."
+  },
+  {
+   "id": "src-encyclopedia-first-farmers",
+   "institution": "Encyclopedia.com (Ancient Europe 8000 B.C.–A.D. 1000)",
+   "title": "First Farmers of Europe",
+   "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/first-farmers-europe",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-agr-greece"
+   ],
+   "notes": "I primi agricoltori arrivano in Grecia nel primo quarto del VII millennio a.C."
+  },
+  {
+   "id": "src-pnas-balsas-maize",
+   "institution": "PNAS (Ranere et al., 2009)",
+   "title": "The cultural and chronological context of early Holocene maize and squash domestication in the Central Balsas River Valley, Mexico",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2664064/",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-agr-maize"
+   ],
+   "notes": "Mais e zucca domesticati nella valle del Balsas; tracce d’uso del mais da circa 8700 anni fa."
+  },
+  {
+   "id": "src-unesco-kuk",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Kuk Early Agricultural Site",
+   "url": "https://whc.unesco.org/en/list/887",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-agr-kuk"
+   ],
+   "notes": "Coltivazione da almeno 7000 anni, forse 10.000; passaggio all’agricoltura intorno a 6500 anni fa."
+  },
+  {
+   "id": "src-asp-egypt-calendar",
+   "institution": "Astronomical Society of the Pacific, Conference Series 409",
+   "title": "Il calendario civile egizio (contributo agli atti)",
+   "url": "https://www.aspbooks.org/publications/409/116.pdf",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-ast-egypt-calendar"
+   ],
+   "notes": "Calendario di 360 + 5 giorni, probabilmente introdotto nella prima metà del III millennio a.C."
+  },
+  {
+   "id": "src-lda-nebra",
+   "institution": "Landesamt für Denkmalpflege und Archäologie Sachsen-Anhalt (via idw)",
+   "title": "The Nebra Sky Disc: 10th Anniversary of Inclusion in the Memory of the World",
+   "url": "https://idw-online.de/en/news816191",
+   "source_type": "museum_resource",
+   "supports": [
+    "tech-ast-nebra"
+   ],
+   "notes": "Sepolto intorno al 1600 a.C.; la più antica rappresentazione di fenomeni cosmici; registro UNESCO Memoria del mondo dal 2013."
+  },
+  {
+   "id": "src-livius-diaries",
+   "institution": "Livius.org",
+   "title": "Astronomical Diaries",
+   "url": "https://www.livius.org/articles/concept/astronomical-diaries/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "tech-ast-babylon-diaries"
+   ],
+   "notes": "La tavoletta più antica è del 652/651 a.C., la più recente del 61/60 a.C."
+  },
+  {
+   "id": "src-nature-antikythera",
+   "institution": "Nature (Freeth et al., 2006)",
+   "title": "Decoding the ancient Greek astronomical calculator known as the Antikythera Mechanism",
+   "url": "https://ui.adsabs.harvard.edu/abs/2006Natur.444..587F/abstract",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-ast-antikythera"
+   ],
+   "notes": "Dispositivo a ingranaggi costruito tra il 150 e il 100 a.C. circa."
+  },
+  {
+   "id": "src-laq-long-count",
+   "institution": "Latin American Antiquity (2017)",
+   "title": "The Role of Solar Observations in Developing the Preclassic Maya Calendar",
+   "url": "https://doi.org/10.1017/laq.2016.4",
+   "source_type": "peer_reviewed_article",
+   "supports": [
+    "tech-ast-long-count"
+   ],
+   "notes": "Tabella delle più antiche date del Computo lungo nell’area maya e nelle regioni vicine."
+  },
+  {
+   "id": "src-unesco-moenjodaro",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Archaeological Ruins at Moenjodaro",
+   "url": "https://whc.unesco.org/en/list/138",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-idr-mohenjo-daro"
+   ],
+   "notes": "Città del III millennio a.C. con pianta regolare, sistemi di drenaggio e bagni pubblici."
+  },
+  {
+   "id": "src-natgeo-aqueducts",
+   "institution": "National Geographic",
+   "title": "Aqueducts: Quenching Rome’s Thirst",
+   "url": "https://www.nationalgeographic.com/history/history-magazine/article/roman-aqueducts-engineering-innovation",
+   "source_type": "news_science",
+   "supports": [
+    "tech-idr-aqua-appia"
+   ],
+   "notes": "L’Aqua Appia, primo acquedotto di Roma (312 a.C.), quasi tutto sotterraneo."
+  },
+  {
+   "id": "src-unesco-dujiangyan",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Mount Qingcheng and the Dujiangyan Irrigation System",
+   "url": "https://whc.unesco.org/en/list/1001",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tech-idr-dujiangyan"
+   ],
+   "notes": "Sistema di irrigazione costruito intorno al 256 a.C., ancora in uso."
   }
  ],
  "editorial_notes": [
@@ -5019,6 +5443,751 @@
   "Le nuove voci moderne/contemporanee sono semi editoriali per l’esplorazione: le fonti istituzionali sono punti di partenza da approfondire.",
   "La copertura cronologica è intenzionalmente globale ma non esaustiva.",
   "v0.20: ampliamento editoriale globale. Le nuove cronologie sono sintetiche e indicano processi complessi; le date approssimative e discusse sono segnalate e richiedono ulteriore verifica specialistica.",
-  "v0.34: ampliato il repertorio bibliografico con cataloghi museali, biblioteche digitali, collezioni di fonti primarie, progetti universitari e atlanti GIS. I portali generali sono repertori di consultazione, non prove dirette per ogni singola voce."
+  "v0.34: ampliato il repertorio bibliografico con cataloghi museali, biblioteche digitali, collezioni di fonti primarie, progetti universitari e atlanti GIS. I portali generali sono repertori di consultazione, non prove dirette per ogni singola voce.",
+  "v0.47: avviata la vista Tecnologia con un primo campione di attestazioni per ambito e area (editorial_status research-seed). L’assenza di una voce non indica assenza di quella capacità: il campione va ampliato e verificato."
+ ],
+ "technology_domains": [
+  {
+   "id": "architettura",
+   "label": "Architettura monumentale",
+   "description": "Costruzioni di grande scala che richiedono progetto, cave, trasporto e lavoro organizzato."
+  },
+  {
+   "id": "metallurgia",
+   "label": "Metallurgia",
+   "description": "Estrarre e lavorare i metalli: rame dai minerali, leghe come il bronzo, ferro, oro martellato."
+  },
+  {
+   "id": "scrittura",
+   "label": "Scrittura e stampa",
+   "description": "Sistemi di segni che registrano la lingua e, più tardi, la loro riproduzione meccanica."
+  },
+  {
+   "id": "navigazione",
+   "label": "Navigazione",
+   "description": "Porti, imbarcazioni per il mare aperto, traversate oceaniche e strumenti per orientarsi."
+  },
+  {
+   "id": "agricoltura",
+   "label": "Agricoltura",
+   "description": "Coltivazione e domesticazione delle piante: il passaggio dalla raccolta alla produzione del cibo."
+  },
+  {
+   "id": "astronomia",
+   "label": "Astronomia e calendari",
+   "description": "Osservare il cielo, registrarlo in modo sistematico, misurare il tempo."
+  },
+  {
+   "id": "idraulica",
+   "label": "Idraulica",
+   "description": "Governare l’acqua: scarichi urbani, irrigazione, controllo delle piene, acquedotti."
+  }
+ ],
+ "technologies": [
+  {
+   "id": "tech-arch-gobekli-tepe",
+   "domain": "architettura",
+   "name": "Recinti megalitici di Göbekli Tepe",
+   "region": "Asia",
+   "place": "Anatolia sud-orientale (Turchia)",
+   "start_year": -9600,
+   "end_year": -8200,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Grandi recinti circolari e ovali con pilastri monolitici a forma di T, alcuni scolpiti con animali, eretti nel Neolitico preceramico: è tra le più antiche architetture monumentali conosciute.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-gobekli-tepe"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-arch-caral",
+   "domain": "architettura",
+   "name": "Città sacra di Caral",
+   "region": "Americhe",
+   "place": "Valle di Supe (Perù)",
+   "start_year": -3000,
+   "end_year": -1800,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Centro urbano con edifici piramidali, piazze circolari incassate e quartieri residenziali, costruito a partire da circa 5000 anni fa: tra i più antichi delle Americhe.",
+   "related_ids": [
+    "culture-caral"
+   ],
+   "source_ids": [
+    "src-unesco-caral"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-arch-stonehenge",
+   "domain": "architettura",
+   "name": "Stonehenge",
+   "region": "Europa",
+   "place": "Wiltshire (Inghilterra)",
+   "start_year": -3000,
+   "end_year": -2500,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Intorno al 3000 a.C. un recinto circolare di fossato e argini scavato con picconi di corno; intorno al 2500 a.C. la sistemazione delle grandi pietre centrali.",
+   "related_ids": [],
+   "source_ids": [
+    "src-eh-stonehenge"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-arch-great-pyramid",
+   "domain": "architettura",
+   "name": "Grande Piramide di Giza",
+   "region": "Africa",
+   "place": "Giza (Egitto)",
+   "start_year": -2580,
+   "end_year": -2560,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Tomba del faraone Cheope (Khufu), costruita in circa due decenni con blocchi di calcare e granito: la più grande delle piramidi egizie.",
+   "related_ids": [
+    "state-ancient-egypt"
+   ],
+   "source_ids": [
+    "src-rosicrucian-giza",
+    "src-ucl-egypt-chronology"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Le date dei regni dell’Antico Regno variano di alcuni decenni tra le cronologie: per Cheope si trovano, per esempio, 2589–2566 oppure 2551–2528 a.C."
+  },
+  {
+   "id": "tech-arch-chartres",
+   "domain": "architettura",
+   "name": "Cattedrale gotica di Chartres",
+   "region": "Europa",
+   "place": "Chartres (Francia)",
+   "start_year": 1194,
+   "end_year": 1220,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Ricostruita in circa 26 anni dopo l’incendio del 1194, con navata ad archi ogivali, portali scolpiti e grandi vetrate: è considerata il culmine del gotico francese.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-chartres"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-arch-great-zimbabwe",
+   "domain": "architettura",
+   "name": "Grande Zimbabwe",
+   "region": "Africa",
+   "place": "Masvingo (Zimbabwe)",
+   "start_year": 1100,
+   "end_year": 1450,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Città in pietra degli antenati degli Shona: mura monumentali in blocchi di granito posati a secco, senza malta, su un’area di quasi 800 ettari.",
+   "related_ids": [
+    "civilization-great-zimbabwe"
+   ],
+   "source_ids": [
+    "src-unesco-great-zimbabwe"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-arch-moai",
+   "domain": "architettura",
+   "name": "Moai e piattaforme ahu",
+   "region": "Oceania",
+   "place": "Rapa Nui (Isola di Pasqua)",
+   "start_year": 1100,
+   "end_year": 1650,
+   "date_precision": "centuries",
+   "date_confidence": "medium",
+   "summary": "Statue monolitiche scolpite nel tufo vulcanico della cava di Rano Raraku, trasportate per chilometri e innalzate su piattaforme cerimoniali in pietra.",
+   "related_ids": [
+    "event-rapanui-moai-tradition",
+    "culture-rapanui"
+   ],
+   "source_ids": [
+    "src-unesco-rapanui",
+    "src-oxford-rapanui-archaeology"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "UNESCO indica i secoli X–XVI; le ricerche più recenti collocano l’insediamento dell’isola nel XII–XIII secolo. Qui si usa l’intervallo della voce collegata."
+  },
+  {
+   "id": "tech-arch-nan-madol",
+   "domain": "architettura",
+   "name": "Nan Madol",
+   "region": "Oceania",
+   "place": "Pohnpei (Micronesia)",
+   "start_year": 1200,
+   "end_year": 1500,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Circa cento isolotti artificiali sulla barriera corallina, cinti da mura di colonne di basalto disposte a strati incrociati: centro cerimoniale della dinastia Saudeleur.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-nan-madol"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-met-belovode",
+   "domain": "metallurgia",
+   "name": "Fusione del rame a Belovode",
+   "region": "Europa",
+   "place": "Serbia orientale",
+   "start_year": -5000,
+   "end_year": -5000,
+   "date_precision": "approx",
+   "date_confidence": "medium",
+   "summary": "Scorie, minerali e gocce di rame in un villaggio della cultura di Vinča documentano l’estrazione del rame dai minerali intorno al 5000 a.C.: una delle prove dirette più antiche al mondo.",
+   "related_ids": [],
+   "source_ids": [
+    "src-jas-belovode"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-met-tal-i-iblis",
+   "domain": "metallurgia",
+   "name": "Crogioli per il rame di Tal-i Iblis",
+   "region": "Asia",
+   "place": "Kerman (Iran)",
+   "start_year": -5000,
+   "end_year": -4500,
+   "date_precision": "approx",
+   "date_confidence": "medium",
+   "summary": "Centinaia di frammenti di crogioli mostrano una produzione di rame, anche arsenicale, sull’altopiano iranico tra la fine del VI e l’inizio del V millennio a.C.",
+   "related_ids": [],
+   "source_ids": [
+    "src-arizona-iblis"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Nel Vicino Oriente il rame nativo era lavorato a freddo già millenni prima; qui si registra la più antica produzione con crogioli documentata nella fonte."
+  },
+  {
+   "id": "tech-met-andes-gold",
+   "domain": "metallurgia",
+   "name": "Oro martellato di Jiskairumoko",
+   "region": "Americhe",
+   "place": "Bacino del lago Titicaca (Perù)",
+   "start_year": -2155,
+   "end_year": -1936,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Perle d’oro martellato trovate in una sepoltura: il più antico oro lavorato finora noto nelle Americhe.",
+   "related_ids": [],
+   "source_ids": [
+    "src-pnas-andes-gold"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-met-erlitou",
+   "domain": "metallurgia",
+   "name": "Bronzi rituali di Erlitou",
+   "region": "Asia",
+   "place": "Henan (Cina)",
+   "start_year": -1700,
+   "end_year": -1500,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Le fonderie di Erlitou producono i primi vasi cinesi in bronzo con stampi a sezioni in terracotta, tecnica che resterà tipica della Cina.",
+   "related_ids": [],
+   "source_ids": [
+    "src-si-chinese-bronzes"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Secondo lo Smithsonian la Cina arriva al bronzo oltre mille anni dopo Egitto, Mesopotamia e valle dell’Indo."
+  },
+  {
+   "id": "tech-met-douroula",
+   "domain": "metallurgia",
+   "name": "Ferro di Douroula",
+   "region": "Africa",
+   "place": "Burkina Faso",
+   "start_year": -800,
+   "end_year": -701,
+   "date_precision": "centuries",
+   "date_confidence": "medium",
+   "summary": "Resti di una fornace semi-interrata dell’VIII secolo a.C.: la più antica prova di produzione del ferro finora individuata in Burkina Faso.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-burkina-iron"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-scr-uruk",
+   "domain": "scrittura",
+   "name": "Tavolette protocuneiformi di Uruk",
+   "region": "Asia",
+   "place": "Mesopotamia meridionale (Iraq)",
+   "start_year": -3300,
+   "end_year": -3000,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Le prime tavolette d’argilla registrano conti e razioni, per esempio la birra data ai lavoratori: la scrittura nasce come strumento amministrativo.",
+   "related_ids": [],
+   "source_ids": [
+    "src-bm-uruk-tablet"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Le date proposte per le tavolette più antiche oscillano tra circa 3350 e 3000 a.C."
+  },
+  {
+   "id": "tech-scr-abydos",
+   "domain": "scrittura",
+   "name": "Etichette della tomba U-j di Abido",
+   "region": "Africa",
+   "place": "Abido (Egitto)",
+   "start_year": -3300,
+   "end_year": -3100,
+   "date_precision": "range",
+   "date_confidence": "debated",
+   "summary": "Piccole etichette in osso e avorio con pochi segni, legate alle merci di una tomba reale: tra le più antiche attestazioni della scrittura egizia.",
+   "related_ids": [
+    "period-egypt-predynastic"
+   ],
+   "source_ids": [
+    "src-worldhistory-hieroglyphs",
+    "src-natgeo-hieroglyphs"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "La datazione oscilla tra circa 3300 e 3100 a.C. a seconda dei metodi e delle fonti."
+  },
+  {
+   "id": "tech-scr-linear-a",
+   "domain": "scrittura",
+   "name": "Lineare A minoica",
+   "region": "Europa",
+   "place": "Creta",
+   "start_year": -1800,
+   "end_year": -1450,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Scrittura dei palazzi minoici, sillabica e ideografica, ancora non decifrata; la successiva Lineare B, derivata da essa, registra il greco miceneo.",
+   "related_ids": [
+    "culture-minoan-palatial"
+   ],
+   "source_ids": [
+    "src-cambridge-linear-a"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-scr-oracle-bones",
+   "domain": "scrittura",
+   "name": "Ossa oracolari Shang",
+   "region": "Asia",
+   "place": "Anyang (Cina)",
+   "start_year": -1250,
+   "end_year": -1050,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Iscrizioni divinatorie su scapole bovine e carapaci di tartaruga: il più antico ampio corpus di scrittura cinese, antenato dei caratteri moderni.",
+   "related_ids": [
+    "civilization-shang"
+   ],
+   "source_ids": [
+    "src-worldhistory-oracle-bones",
+    "src-livescience-oracle-bones"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "È probabile che in Cina si scrivesse già prima, su supporti deperibili come il bambù."
+  },
+  {
+   "id": "tech-scr-san-bartolo",
+   "domain": "scrittura",
+   "name": "Glifi maya di San Bartolo",
+   "region": "Americhe",
+   "place": "Petén (Guatemala)",
+   "start_year": -300,
+   "end_year": -200,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Una colonna di glifi dipinti su intonaco, datata al radiocarbonio: la più antica scrittura maya nota. Le prime iscrizioni zapoteche, in Messico, sono di poco precedenti.",
+   "related_ids": [
+    "culture-maya"
+   ],
+   "source_ids": [
+    "src-livescience-san-bartolo"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-scr-bi-sheng",
+   "domain": "scrittura",
+   "name": "Caratteri mobili di Bi Sheng",
+   "region": "Asia",
+   "place": "Cina dei Song",
+   "start_year": 1041,
+   "end_year": 1048,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Caratteri in argilla cotta, uno per segno, composti su una piastra e riutilizzabili: il primo sistema di stampa a caratteri mobili, descritto da Shen Kuo.",
+   "related_ids": [
+    "invention-printing-eastasia",
+    "civilization-song"
+   ],
+   "source_ids": [
+    "src-hoi-bi-sheng"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-scr-gutenberg",
+   "domain": "scrittura",
+   "name": "Bibbia di Gutenberg",
+   "region": "Europa",
+   "place": "Magonza (Germania)",
+   "start_year": 1454,
+   "end_year": 1455,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Primo grande libro europeo stampato con caratteri mobili in metallo, inchiostro a base d’olio e torchio, in circa 160–180 copie.",
+   "related_ids": [],
+   "source_ids": [
+    "src-princeton-gutenberg"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-scr-rongorongo",
+   "domain": "scrittura",
+   "name": "Tavolette rongorongo",
+   "region": "Oceania",
+   "place": "Rapa Nui",
+   "start_year": 1493,
+   "end_year": 1864,
+   "date_precision": "range",
+   "date_confidence": "debated",
+   "summary": "Glifi incisi su tavolette di legno, non decifrati. Il legno di una tavoletta risale al 1493–1509, prima dell’arrivo degli europei (1722).",
+   "related_ids": [
+    "culture-rapanui"
+   ],
+   "source_ids": [
+    "src-scirep-rongorongo-2024"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "La data è quella del legno: resta discusso se l’incisione sia coeva e se la scrittura sia nata prima del contatto europeo. Gli europei la documentano nel 1864."
+  },
+  {
+   "id": "tech-nav-wadi-al-jarf",
+   "domain": "navigazione",
+   "name": "Porto di Wadi al-Jarf",
+   "region": "Africa",
+   "place": "Costa egiziana del Mar Rosso",
+   "start_year": -2600,
+   "end_year": -2550,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Molo, ancore in pietra e magazzini per le navi che attraversavano il Mar Rosso verso le miniere del Sinai, all’epoca di Cheope: il più antico porto marittimo finora noto.",
+   "related_ids": [
+    "state-ancient-egypt"
+   ],
+   "source_ids": [
+    "src-jarce-wadi-al-jarf",
+    "src-archaeology-wadi-al-jarf"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Vi sono stati trovati anche i papiri più antichi d’Egitto, tra cui il diario di Merer sul trasporto dei blocchi per la Grande Piramide."
+  },
+  {
+   "id": "tech-nav-lapita",
+   "domain": "navigazione",
+   "name": "Traversate lapita verso l’Oceania remota",
+   "region": "Oceania",
+   "place": "Vanuatu, Figi, Tonga",
+   "start_year": -1100,
+   "end_year": -900,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Navigatori della cultura lapita raggiungono per primi isole mai abitate oltre le Salomone, con imbarcazioni capaci di lunghe traversate in mare aperto.",
+   "related_ids": [
+    "culture-lapita"
+   ],
+   "source_ids": [
+    "src-nature-skoglund-2016",
+    "src-met-oceania-lapita"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-nav-east-polynesia",
+   "domain": "navigazione",
+   "name": "Colonizzazione della Polinesia orientale",
+   "region": "Oceania",
+   "place": "Dalle isole della Società a Hawaii, Rapa Nui e Aotearoa",
+   "start_year": 1025,
+   "end_year": 1290,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Prima le isole della Società (circa 1025–1120), poi in un unico impulso le isole più lontane del Pacifico, tra cui Hawaii, Rapa Nui e Nuova Zelanda (circa 1190–1290).",
+   "related_ids": [
+    "culture-rapanui"
+   ],
+   "source_ids": [
+    "src-pnas-east-polynesia"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-nav-vinland",
+   "domain": "navigazione",
+   "name": "Norreni a L’Anse aux Meadows",
+   "region": "Europa",
+   "place": "Terranova (Canada)",
+   "start_year": 1021,
+   "end_year": 1021,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Legno tagliato con utensili di metallo nel 1021, datato grazie al picco di radiocarbonio del 993: la prima traversata atlantica europea con una data precisa.",
+   "related_ids": [],
+   "source_ids": [
+    "src-nature-vinland"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "La voce è assegnata all’Europa perché riguarda i navigatori norreni, anche se il sito si trova in America."
+  },
+  {
+   "id": "tech-nav-compass",
+   "domain": "navigazione",
+   "name": "Bussola magnetica in navigazione",
+   "region": "Asia",
+   "place": "Cina dei Song",
+   "start_year": 1088,
+   "end_year": 1117,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Shen Kuo descrive l’ago magnetizzato nel 1088; Zhu Yu, in un testo scritto tra il 1111 e il 1117, ne registra l’uso sulle navi quando il cielo è coperto.",
+   "related_ids": [
+    "invention-compass",
+    "civilization-song"
+   ],
+   "source_ids": [
+    "src-wiki-compass"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Fonte enciclopedica di partenza: da sostituire con un riferimento specialistico (per esempio Needham, Science and Civilisation in China)."
+  },
+  {
+   "id": "tech-agr-fertile-crescent",
+   "domain": "agricoltura",
+   "name": "Primi cereali e legumi coltivati",
+   "region": "Asia",
+   "place": "Mezzaluna fertile",
+   "start_year": -9000,
+   "end_year": -8000,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Farro, orzo, lenticchie, piselli, ceci e lino vengono coltivati e domesticati nel Neolitico preceramico, circa 11.000–10.000 anni fa.",
+   "related_ids": [],
+   "source_ids": [
+    "src-ca-founder-crops"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-agr-greece",
+   "domain": "agricoltura",
+   "name": "Prime comunità agricole in Grecia",
+   "region": "Europa",
+   "place": "Tessaglia e Peloponneso (Grecia)",
+   "start_year": -7000,
+   "end_year": -6500,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Agricoltori arrivati dall’Anatolia portano in Grecia cereali, legumi e animali domestici: è l’inizio dell’agricoltura in Europa.",
+   "related_ids": [],
+   "source_ids": [
+    "src-encyclopedia-first-farmers"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "La data esatta è discussa: prima o seconda metà del VII millennio a.C."
+  },
+  {
+   "id": "tech-agr-maize",
+   "domain": "agricoltura",
+   "name": "Domesticazione del mais",
+   "region": "Americhe",
+   "place": "Valle del Balsas (Messico)",
+   "start_year": -7000,
+   "end_year": -6700,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Il mais deriva dal teosinte, un’erba selvatica del Messico sud-occidentale; le prime tracce del suo uso risalgono a circa 8700 anni fa.",
+   "related_ids": [],
+   "source_ids": [
+    "src-pnas-balsas-maize"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-agr-kuk",
+   "domain": "agricoltura",
+   "name": "Agricoltura di Kuk",
+   "region": "Oceania",
+   "place": "Altopiani della Nuova Guinea (Papua Nuova Guinea)",
+   "start_year": -5000,
+   "end_year": -4400,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "In una palude d’altura si passa dalla raccolta alla coltivazione su cumuli e, più tardi, con canali di drenaggio: un’agricoltura nata in modo indipendente.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-kuk"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Tracce di coltivazione forse già 10.000 anni fa; il passaggio all’agricoltura vera e propria è collocato intorno a 7000–6400 anni fa."
+  },
+  {
+   "id": "tech-ast-egypt-calendar",
+   "domain": "astronomia",
+   "name": "Calendario civile egizio di 365 giorni",
+   "region": "Africa",
+   "place": "Egitto",
+   "start_year": -3000,
+   "end_year": -2700,
+   "date_precision": "range",
+   "date_confidence": "debated",
+   "summary": "Dodici mesi di 30 giorni più cinque giorni aggiuntivi: il primo calendario noto basato su un anno di 365 giorni, usato per l’amministrazione.",
+   "related_ids": [
+    "state-ancient-egypt"
+   ],
+   "source_ids": [
+    "src-asp-egypt-calendar"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "L’introduzione è collocata nella prima metà del III millennio a.C.; la data precisa è discussa."
+  },
+  {
+   "id": "tech-ast-nebra",
+   "domain": "astronomia",
+   "name": "Disco di Nebra",
+   "region": "Europa",
+   "place": "Sassonia-Anhalt (Germania)",
+   "start_year": -1600,
+   "end_year": -1600,
+   "date_precision": "approx",
+   "date_confidence": "medium",
+   "summary": "Disco di bronzo con applicazioni d’oro (Sole o Luna piena, falce lunare, stelle): la più antica rappresentazione concreta di fenomeni celesti conosciuta.",
+   "related_ids": [],
+   "source_ids": [
+    "src-lda-nebra"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "Fu sepolto intorno al 1600 a.C.; il disco era probabilmente più antico di alcune generazioni."
+  },
+  {
+   "id": "tech-ast-babylon-diaries",
+   "domain": "astronomia",
+   "name": "Diari astronomici babilonesi",
+   "region": "Asia",
+   "place": "Babilonia (Iraq)",
+   "start_year": -652,
+   "end_year": -61,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Osservazioni quotidiane di Luna, pianeti ed eclissi, insieme a meteo e prezzi, registrate per circa sei secoli: la tavoletta più antica giunta fino a noi è del 652 a.C.",
+   "related_ids": [],
+   "source_ids": [
+    "src-livius-diaries"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-ast-antikythera",
+   "domain": "astronomia",
+   "name": "Meccanismo di Anticitera",
+   "region": "Europa",
+   "place": "Grecia",
+   "start_year": -150,
+   "end_year": -100,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Calcolatore a ingranaggi in bronzo che riproduceva i moti di Sole e Luna e prevedeva le eclissi: nulla di altrettanto complesso è noto per oltre mille anni.",
+   "related_ids": [],
+   "source_ids": [
+    "src-nature-antikythera"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-ast-long-count",
+   "domain": "astronomia",
+   "name": "Computo lungo mesoamericano",
+   "region": "Americhe",
+   "place": "Chiapas e Veracruz (Messico)",
+   "start_year": -36,
+   "end_year": -32,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Le più antiche date incise nel Computo lungo, un conteggio dei giorni a partire da un’origine mitica che richiede lo zero come segnaposto.",
+   "related_ids": [],
+   "source_ids": [
+    "src-laq-long-count"
+   ],
+   "editorial_status": "research-seed",
+   "notes": "La data di 36 a.C. della stele 2 di Chiapa de Corzo non è del tutto certa; la stele C di Tres Zapotes riporta il 32 a.C."
+  },
+  {
+   "id": "tech-idr-mohenjo-daro",
+   "domain": "idraulica",
+   "name": "Scarichi urbani di Mohenjo-daro",
+   "region": "Asia",
+   "place": "Valle dell’Indo (Pakistan)",
+   "start_year": -2600,
+   "end_year": -1900,
+   "date_precision": "range",
+   "date_confidence": "medium",
+   "summary": "Città pianificata con strade ad angolo retto, bagni nelle case e canalette coperte in mattoni lungo le strade: uno dei primi sistemi urbani di drenaggio.",
+   "related_ids": [
+    "civilization-indus"
+   ],
+   "source_ids": [
+    "src-unesco-moenjodaro"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-idr-aqua-appia",
+   "domain": "idraulica",
+   "name": "Aqua Appia",
+   "region": "Europa",
+   "place": "Roma",
+   "start_year": -312,
+   "end_year": -312,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il primo acquedotto di Roma, voluto dal censore Appio Claudio Cieco: corre quasi interamente sotto terra.",
+   "related_ids": [
+    "civilization-rome"
+   ],
+   "source_ids": [
+    "src-natgeo-aqueducts"
+   ],
+   "editorial_status": "research-seed"
+  },
+  {
+   "id": "tech-idr-dujiangyan",
+   "domain": "idraulica",
+   "name": "Sistema di Dujiangyan",
+   "region": "Asia",
+   "place": "Sichuan (Cina)",
+   "start_year": -256,
+   "end_year": -256,
+   "date_precision": "approx",
+   "date_confidence": "high",
+   "summary": "Opera di irrigazione e di controllo delle piene sul fiume Min, che divide e regola l’acqua senza dighe: è ancora in funzione.",
+   "related_ids": [],
+   "source_ids": [
+    "src-unesco-dujiangyan"
+   ],
+   "editorial_status": "research-seed"
+  }
  ]
 }

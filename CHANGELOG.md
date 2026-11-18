@@ -1,5 +1,15 @@
 # Registro delle versioni
 
+## v0.47 · 18 novembre 2026
+- **Vista Tecnologia (nuova).** Si sceglie una voce (all'apertura: la stagione dei moai di Rapa Nui) e, per sette ambiti (architettura monumentale, metallurgia, scrittura e stampa, navigazione, agricoltura, astronomia e calendari, idraulica), si vede area per area la prima attestazione nota e le più recenti fino alla fine della voce, con la distanza in anni ("≈ 3700 anni prima") o "durante". Il confronto è per ambito, non su un'unica scala di progresso; un'area senza voci è segnalata come assenza nel dataset, non come assenza della capacità. Ogni attestazione si apre con riassunto, affidabilità della data, fonti e collegamenti alle voci dell'atlante. In questa vista la barra del tempo è nascosta, perché conta la voce scelta e non l'anno.
+- **Dati.** 38 attestazioni con 38 fonti nuove (UNESCO, musei, articoli scientifici), segnate come "voce di partenza, da approfondire". `build.py` ora controlla anche le attestazioni (ambito, area, anni, fonti).
+- **Barra del tempo a tratti.** Ogni epoca occupa sullo slider lo spazio del suo blocco (più spazio alle epoche recenti, più dense di voci). Pulsanti − e + con passo per epoca: 100 anni in preistoria, 10 in antichità, 5 nel medioevo, 1 in età moderna e contemporanea.
+- **Universo più semplice.** Una corsia per area (Europa, Asia, Africa, Americhe, Oceania, Globale e altro), voci vicine raggruppate, collegamenti mostrati solo toccando una voce, legenda dei temi sopra il disegno.
+- **Palette.** Ottanio profondo resta la principale; al posto delle quattro precedenti ci sono Pergamena, Notte stellata e Terracotta mediterranea.
+- **Navigazione su telefono.** La barra in basso è Esplora · Contemporanei · Tecnologia · Universo · Altro; l'Archivio si apre da "Altro" (su desktop resta tra le schede in alto).
+- **Codice.** Tolto il codice della vecchia timeline "Storie parallele" (funzioni, stili e controlli non più usati).
+- Test: 58 controlli (29 per dispositivo), con i nuovi su vista Tecnologia, slider a tratti, palette e Universo.
+
 ## v0.46 · 18 novembre 2026
 - **Scheda a comparsa.** In Esplora la scheda compare solo quando scegli una voce (dalla ricerca, dall'archivio, da "Apri scheda"); su desktop la mappa occupa tutta la larghezza finché non c'è una scheda. Su telefono la scheda è un pannello che sale dal basso, sopra la barra del tempo, lascia vedere la mappa, si allarga toccando la maniglia e si chiude con ×. Il semplice tocco su un punto della mappa apre il riepilogo, non la scheda.
 - **Un solo comando per il tempo.** Le epoche sono nella barra in basso, sotto lo slider; tolto il riquadro dell'anno dalla pagina. "Reimposta" è in Impostazioni.

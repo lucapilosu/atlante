@@ -7,13 +7,14 @@ Sito: https://lucapilosu.github.io/atlante/
 ## Viste
 - `#esplora`: anno, ricerca, mappa e scheda.
 - `#contemporanei`: scelta una voce, tutte le voci esistite per almeno una parte della sua durata, per area e sulla mappa.
+- `#tecnologia`: scelta una voce, per ogni ambito tecnico e per area le attestazioni note fino a quel momento, con la distanza in anni.
 - `#universo`: Universo storico e confronto fino a 5 voci.
 - `#archivio`: elenco delle voci con filtri propri, copertura per epoca, fonti.
 - `#impostazioni`: palette dei colori, reimpostazione.
 
 ## Struttura
 - `src/atlante.html`: modello della pagina (HTML, CSS, JavaScript) con i segnaposto per dati e versione.
-- `data/atlante.json`: voci, eventi e fonti.
+- `data/atlante.json`: voci, eventi, fonti, ambiti tecnici (`technology_domains`) e attestazioni tecniche (`technologies`).
 - `data/mappa-dettaglio.json`: cartografia di dettaglio (Natural Earth 1:50m, dominio pubblico, tramite il pacchetto npm world-atlas), caricata dalla pagina quando si ingrandisce la mappa.
 - `tools/cartografia_dettaglio.mjs`: rigenera `data/mappa-dettaglio.json`.
 - `versione.json`: numero di versione e data mostrati nella pagina.

@@ -40,6 +40,35 @@ def controlla(db):
                 avvisi.append(f"{v['id']}: collegamento a voce inesistente {r}")
         if not v.get("source_ids"):
             avvisi.append(f"{v['id']}: nessuna fonte")
+
+    # v0.47 · vista Tecnologia: ogni attestazione deve avere ambito, area, anni e fonti valide
+    ambiti = {d["id"] for d in db.get("technology_domains", [])}
+    aree = {"Europa", "Asia", "Africa", "Americhe", "Oceania"}
+    visti = set()
+    for t in db.get("technologies", []):
+        i = t.get("id", "?")
+        if i in visti or i in ids:
+            errori.append(f"{i}: id duplicato (attestazioni tecniche)")
+        visti.add(i)
+        if t.get("domain") not in ambiti:
+            errori.append(f"{i}: ambito sconosciuto {t.get('domain')}")
+        if t.get("region") not in aree:
+            errori.append(f"{i}: area non valida {t.get('region')}")
+        a, b = t.get("start_year"), t.get("end_year")
+        if not isinstance(a, int) or not isinstance(b, int):
+            errori.append(f"{i}: anni non interi ({a}, {b})")
+        elif a > b:
+            errori.append(f"{i}: inizio {a} dopo la fine {b}")
+        elif 0 in (a, b):
+            errori.append(f"{i}: l’anno 0 non esiste")
+        if not t.get("source_ids"):
+            errori.append(f"{i}: attestazione senza fonti")
+        for s in t.get("source_ids") or []:
+            if s not in fonti:
+                errori.append(f"{i}: fonte inesistente {s}")
+        for r in t.get("related_ids") or []:
+            if r not in ids:
+                avvisi.append(f"{i}: collegamento a voce inesistente {r}")
     return errori, avvisi
 
 
@@ -69,7 +98,8 @@ def main():
                      .replace("{{DATA}}", ver["data"]))
     (ROOT / "index.html").write_text(pagina, encoding="utf-8")
     print(f"index.html v{ver['versione']}: {len(db['entities'])} entità, "
-          f"{len(db['events'])} eventi, {len(db['sources'])} fonti")
+          f"{len(db['events'])} eventi, {len(db.get('technologies', []))} attestazioni tecniche, "
+          f"{len(db['sources'])} fonti")
 
 
 if __name__ == "__main__":

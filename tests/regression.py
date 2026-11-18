@@ -96,7 +96,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     R.check("T02", "Versione coerente in titolo, intestazione e footer", ok, f"titolo v{v}")
 
     # T03 slider anno
-    await p.evaluate("()=>{const r=document.getElementById('dockRange');r.value=-500;r.dispatchEvent(new Event('input',{bubbles:true}));r.dispatchEvent(new Event('change',{bubbles:true}))}")
+    await p.evaluate("()=>{const r=document.getElementById('dockRange');r.value=yearToPos(-500);r.dispatchEvent(new Event('input',{bubbles:true}));r.dispatchEvent(new Event('change',{bubbles:true}))}")
     await p.wait_for_timeout(350)
     y = await year(p)
     dock = (await p.text_content("#dockYear")).strip()
@@ -213,7 +213,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T06 contrasto pulsanti del popup, per ogni palette
     low = []
-    for pal in ["deep", "atlantic", "noir", "sand", "graphite"]:
+    for pal in ["deep", "pergamena", "notte", "terracotta"]:
         await p.evaluate("(n)=>{const b=document.querySelector(`.palette-choice[data-palette='${n}']`);if(b)b.click()}", pal)
         await p.wait_for_timeout(120)
         if not await p.is_visible("#mapPointPopup"):
@@ -316,15 +316,20 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.evaluate("()=>{selectItem('civilization-rome',{preserveYear:true});addCompare('culture-maya');addCompare('event-dinastia-han')}")
     state0 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
     bad = []
-    for v in ["contemporanei", "universo", "archivio", "impostazioni", "esplora"]:
-        if mobile:
+    order = ["contemporanei", "tecnologia", "universo", "impostazioni", "archivio", "esplora"] if mobile else ["contemporanei", "tecnologia", "universo", "archivio", "impostazioni", "esplora"]
+    for v in order:
+        if mobile and v == "archivio":
+            # su telefono l'archivio si apre da "Altro"
+            await tap(p, p.locator("#view-impostazioni .more-link"), mobile)
+        elif mobile:
             await tap(p, p.locator(f".mobile-nav a[data-view-link='{v}']"), mobile)
         else:
             await p.click(f".view-tabs a[data-view-link='{v}']")
         await p.wait_for_timeout(400)
         info = await p.evaluate("""()=>({vis:[...document.querySelectorAll('.view')].filter(v=>!v.hidden).map(v=>v.dataset.view),
             hash:location.hash,active:[...document.querySelectorAll('[data-view-link].active')].map(a=>a.dataset.viewLink)})""")
-        if info["vis"] != [v] or info["hash"] != "#" + v or set(info["active"]) != {v}:
+        expect = {"archivio", "impostazioni"} if v == "archivio" else {v}
+        if info["vis"] != [v] or info["hash"] != "#" + v or set(info["active"]) != expect:
             bad.append(f"{v}: {info}")
     state1 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
     R.check("T14", "Viste: una alla volta, link evidenziato, anno/selezione/confronto conservati",
@@ -392,15 +397,15 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             f"senza filtri {n_all[0]}/{n_all[1]} voci; archivio Asia+'impero': {a20['n']} voci {a20['regions']}; ricerca principale trova Roma: {bool(hit_rome)}; dopo il clic vista {v20}")
 
     # T10 palette conservata dopo ricarica
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='noir']`)?.click()")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='notte']`)?.click()")
     await p.reload(wait_until="load"); await p.wait_for_timeout(800)
     pal = await p.evaluate("()=>document.body.dataset.palette")
-    R.check("T10", "La palette scelta resta dopo aver ricaricato la pagina", pal == "noir", f"palette dopo ricarica: {pal}")
+    R.check("T10", "La palette scelta resta dopo aver ricaricato la pagina", pal == "notte", f"palette dopo ricarica: {pal}")
     await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='deep']`)?.click()")
 
     # T21 nessuna vista è più larga dello schermo (niente scorrimento orizzontale della pagina)
     wide = []
-    for v in ["esplora", "contemporanei", "universo", "archivio", "impostazioni"]:
+    for v in ["esplora", "contemporanei", "tecnologia", "universo", "archivio", "impostazioni"]:
         await goto_view(p, v)
         w = await p.evaluate("()=>[document.documentElement.scrollWidth,document.documentElement.clientWidth]")
         if w[0] > w[1] + 1:
@@ -448,6 +453,72 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await goto_view(p, "esplora")
     hidden18 = await p.evaluate("()=>['ricerca-principale','mappa','timeDock'].filter(id=>{const e=document.getElementById(id);if(!e||e.hidden)return true;const r=e.getBoundingClientRect();return !(r.width>0&&r.height>0)})")
     R.check("T18", "Una vecchia scelta di sezioni nascoste non nasconde parti della pagina", not hidden18, f"nascoste: {hidden18}")
+
+    # T26 Tecnologia: per ogni ambito e area, le attestazioni fino alla fine della voce scelta, con la distanza in anni
+    await goto_view(p, "tecnologia")
+    await p.evaluate("()=>{techFocusId=null;techDomain='all';selected=null;showView('tecnologia')}")
+    await p.wait_for_timeout(300)
+    t26 = await p.evaluate("""()=>{const f=ALL.find(x=>x.id==='event-rapanui-moai-tradition');
+        const exp=TECH.filter(t=>t.start_year<=f.end_year).length;
+        document.querySelectorAll('[data-tech-expand]').forEach(b=>b.click());
+        const shown=[...document.querySelectorAll('#techList .tech-item')].map(e=>e.dataset.techId);
+        const late=shown.filter(id=>TECH.find(t=>t.id===id).start_year>f.end_year);
+        const badge=id=>document.querySelector(`#techList [data-tech-id='${id}'] .tech-badge`)?.textContent||'';
+        const dock=document.getElementById('timeDock');
+        return {title:document.getElementById('techTitle').textContent,exp,shown:shown.length,late,
+          pyr:badge('tech-arch-great-pyramid'),moai:badge('tech-arch-moai'),chartres:badge('tech-arch-chartres'),
+          dock:!!(dock&&dock.offsetParent),focus:document.querySelector('.tech-area.is-focus')?.textContent||''}}""")
+    await p.fill("#techSearch", "roma repubblica"); await p.wait_for_timeout(300)
+    await tap(p, p.locator("#techResults [data-tech-pick='civilization-rome']"), mobile); await p.wait_for_timeout(400)
+    t26b = await p.evaluate("""()=>({title:document.getElementById('techTitle').textContent,
+        late:[...document.querySelectorAll('#techList .tech-item')].map(e=>TECH.find(t=>t.id===e.dataset.techId)).filter(t=>t.start_year>476).map(t=>t.id),
+        appia:document.querySelector("#techList [data-tech-id='tech-idr-aqua-appia'] .tech-badge")?.textContent||''})""")
+    await p.screenshot(path=f"{OUT}/{name}_tecnologia.png", full_page=True)
+    ok26 = (t26["title"] == "Durante «Grande stagione degli ahu e dei moai»" and t26["shown"] == t26["exp"] and not t26["late"]
+            and t26["pyr"] == "≈ 3700 anni prima" and t26["moai"] == "durante · legata a questa voce" and t26["chartres"] == "durante la voce scelta"
+            and not t26["dock"] and t26["focus"].startswith("Oceania")
+            and t26b["title"] == "Durante «Roma: Repubblica e Impero»" and not t26b["late"] and t26b["appia"] == "durante · legata a questa voce")
+    R.check("T26", "Tecnologia: attestazioni per ambito e area fino alla voce scelta, distanza in anni, scelta di un’altra voce",
+            ok26, f"{t26['title']}: {t26['shown']}/{t26['exp']} attestazioni, successive {t26['late']}; piramide '{t26['pyr']}', moai '{t26['moai']}', Chartres '{t26['chartres']}'; barra del tempo visibile {t26['dock']}; area evidenziata '{t26['focus']}'; Roma: '{t26b['title']}', successive {t26b['late']}, Aqua Appia '{t26b['appia']}'")
+
+    # T27 slider a tratti: ogni epoca occupa il suo blocco; − e + con passo diverso per epoca
+    await goto_view(p, "esplora")
+    s27 = await p.evaluate("""()=>{const r=document.getElementById('dockRange').getBoundingClientRect(),th=9;
+        const segs=[...document.querySelectorAll('#timeDock .epoch-nav-segment')].map(b=>b.getBoundingClientRect());
+        const bounds=[-1250,500,1700,1963];
+        const off=bounds.map((y,i)=>Math.abs((r.left+th+yearToPos(y)/1000*(r.width-2*th))-segs[i+1].left));
+        const trip=[-9000,-1250,-500,500,1200,1700,1850,1963,2000].filter(y=>y>=YEAR_MIN&&y<=YEAR_MAX).filter(y=>posToYear(yearToPos(y))!==y);
+        const steps=[[-3000,1],[-500,-1],[1200,1],[1990,1],[1990,-1]].map(([y,d])=>stepYear(y,d));
+        return {off:off.map(v=>Math.round(v*10)/10),trip,steps}}""")
+    await click_el(p, "#yearPlus"); await p.wait_for_timeout(250)
+    y_a = await year(p)
+    await click_el(p, "#yearMinus"); await p.wait_for_timeout(250)
+    y_b = await year(p)
+    ok27 = max(s27["off"]) <= 2 and not s27["trip"] and s27["steps"] == [-2900, -510, 1205, 1991, 1989] and y_a != y_b
+    R.check("T27", "Slider a tratti: epoche allineate ai blocchi, passo − / + per epoca (100, 10, 5, 1 anni)",
+            ok27, f"scarto dai confini delle epoche {s27['off']} px; andata e ritorno errati {s27['trip']}; passi {s27['steps']}; con i pulsanti {y_a} → {y_b}")
+
+    # T28 palette: Ottanio profondo principale più Pergamena, Notte stellata, Terracotta mediterranea
+    pals = await p.evaluate("()=>[...document.querySelectorAll('.palette-choice')].map(b=>b.dataset.palette)")
+    looks = {}
+    for pal in pals:
+        await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
+        await p.wait_for_timeout(120)
+        looks[pal] = await p.evaluate("()=>[document.body.classList.contains('themed'),document.body.classList.contains('theme-light'),getComputedStyle(document.body).backgroundColor,document.querySelector('meta[name=theme-color]')?.content]")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='deep']`).click()")
+    ok28 = (pals == ["deep", "pergamena", "notte", "terracotta"] and not looks["deep"][0] and looks["pergamena"][:2] == [True, True]
+            and looks["notte"][:2] == [True, False] and looks["terracotta"][:2] == [True, True] and len({v[2] for v in looks.values()}) == 4)
+    R.check("T28", "Palette: Ottanio profondo più tre nuove, ognuna con il proprio sfondo", ok28, f"{pals}; {looks}")
+
+    # T29 Universo semplificato: corsie per area, legenda, gruppi di voci vicine
+    await goto_view(p, "universo"); await p.wait_for_timeout(300)
+    u29 = await p.evaluate("""()=>({legend:document.getElementById('universeLegend')?.textContent||'',
+        lanes:[...document.querySelectorAll('#universeCanvas .universe-lane-label')].map(t=>t.textContent),
+        status:document.querySelector('.universe-status')?.textContent||''})""")
+    areas = ["Europa", "Asia", "Africa", "Americhe", "Oceania"]
+    ok29 = bool(u29["legend"].strip()) and "gruppi" in u29["status"] and 3 <= len(u29["lanes"]) <= 6 and all(any(l.startswith(a) for a in areas + ["Globale"]) for l in u29["lanes"])
+    R.check("T29", "Universo semplificato: una corsia per area, voci vicine raggruppate, legenda dei temi", ok29, f"corsie {u29['lanes']}; legenda '{u29['legend'][:80]}'; stato '{u29['status'][:80]}'")
+    await goto_view(p, "esplora")
 
     # T01 nessun errore, nessuna richiesta esterna (controllato a fine giro)
     R.check("T01", "Nessun errore JavaScript e nessuna risorsa esterna caricata", not errors and not external,
