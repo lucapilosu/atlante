@@ -11,7 +11,13 @@ import sys, re, json, asyncio
 from playwright.async_api import async_playwright
 
 HTML, OUT = sys.argv[1], sys.argv[2]
-URL = "file://" + HTML
+import os, threading, functools
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
+class _Quiet(SimpleHTTPRequestHandler):
+    def log_message(self, *a): pass
+_srv = ThreadingHTTPServer(("127.0.0.1", 0), functools.partial(_Quiet, directory=os.path.dirname(os.path.abspath(HTML))))
+threading.Thread(target=_srv.serve_forever, daemon=True).start()
+URL = f"http://127.0.0.1:{_srv.server_address[1]}/" + os.path.basename(HTML)
 CHROME = "/usr/bin/google-chrome"
 
 JS_CONTRAST = """
@@ -76,7 +82,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     errors, external = [], set()
     p.on("pageerror", lambda e: errors.append("pageerror: " + str(e)))
     p.on("console", lambda m: errors.append(f"console {m.type}: {m.text}") if m.type == "error" else None)
-    p.on("request", lambda r: external.add(r.url) if not r.url.startswith(("file:", "data:", "blob:")) else None)
+    p.on("request", lambda r: external.add(r.url) if not r.url.startswith(("file:", "data:", "blob:", "http://127.0.0.1")) else None)
     await p.goto(URL, wait_until="load")
     await p.wait_for_timeout(1200)
 
@@ -90,10 +96,12 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     R.check("T02", "Versione coerente in titolo, intestazione e footer", ok, f"titolo v{v}")
 
     # T03 slider anno
-    await set_year(p, -500)
+    await p.evaluate("()=>{const r=document.getElementById('dockRange');r.value=-500;r.dispatchEvent(new Event('input',{bubbles:true}));r.dispatchEvent(new Event('change',{bubbles:true}))}")
+    await p.wait_for_timeout(350)
     y = await year(p)
     dock = (await p.text_content("#dockYear")).strip()
-    R.check("T03", "Lo slider imposta l'anno e la barra in basso lo segue", y == "500 a.C." and dock == y, f"{y} / dock {dock}")
+    vis3 = await p.evaluate("()=>{const r=document.getElementById('dockRange').getBoundingClientRect();return r.width>0&&r.height>0}")
+    R.check("T03", "Lo slider della barra in basso imposta l'anno", y == "500 a.C." and dock == y and vis3, f"{y} / barra {dock}")
 
     # T04 ricerca e selezione risultato
     await p.fill("#search", "roma")
@@ -108,8 +116,22 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     prev_hidden = await p.evaluate("()=>{const b=document.getElementById('searchPreview');return b.hidden||!b.innerHTML.trim()}")
     detail_h = (await p.text_content("#detail h2") or "").strip()
     R.check("T04", "Ricerca: scelta risultato svuota il campo, chiude l'anteprima, apre la scheda",
-            n_hits > 0 and field == "" and prev_hidden and detail_h == first_name,
+            n_hits > 0 and field == "" and prev_hidden and detail_h == first_name and await p.is_visible("#scheda"),
             f"{n_hits} risultati, scheda '{detail_h}'")
+
+    # T22 scheda a comparsa: su telefono è un pannello in basso che lascia vedere la mappa; × la chiude
+    g22 = await p.evaluate("""()=>{const s=document.getElementById('scheda'),r=s.getBoundingClientRect(),d=document.getElementById('timeDock').getBoundingClientRect(),
+        m=document.querySelector('#view-esplora .mapstage').getBoundingClientRect(),cs=getComputedStyle(s);
+        return {sheet:s.classList.contains('is-sheet'),fixed:cs.position==='fixed',top:Math.round(r.top),bottom:Math.round(r.bottom),dockTop:Math.round(d.top),vh:innerHeight,
+          layoutCols:getComputedStyle(s.parentElement).gridTemplateColumns.split(' ').length}}""")
+    await tap(p, p.locator("#sheetClose"), mobile)
+    await p.wait_for_timeout(300)
+    closed22 = await p.evaluate("()=>document.getElementById('scheda').hidden")
+    if mobile:
+        ok22 = g22["sheet"] and g22["fixed"] and g22["bottom"] <= g22["dockTop"] and g22["top"] > g22["vh"] * 0.3 and closed22
+    else:
+        ok22 = (not g22["sheet"]) and g22["layoutCols"] == 2 and closed22
+    R.check("T22", "Scheda a comparsa: si apre con la scelta, non copre la barra del tempo, si chiude con ×", ok22, f"{g22}, chiusa dopo ×: {closed22}")
 
     # Mappa
     await open_details(p, "#mapView")
@@ -130,7 +152,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.wait_for_timeout(400)
     popup_vis = await p.is_visible("#mapPointPopup")
     popup_title = (await p.text_content("#mapPointPopup strong") or "").strip() if popup_vis else ""
-    R.check("T05", "Tap su un punto: popup con titolo, anno invariato", popup_vis and popup_title != "" and await year(p) == y0,
+    sheet_after_tap = await p.evaluate("()=>!document.getElementById('scheda').hidden")
+    R.check("T05", "Tap su un punto: popup con titolo, anno invariato, la scheda non si apre da sola", popup_vis and popup_title != "" and await year(p) == y0 and not sheet_after_tap,
             f"'{popup_title}', anno {y0} -> {await year(p)}")
 
     # T12 popup ancorato: non copre il proprio punto e la freccia lo indica (tutti i punti visibili)
@@ -146,7 +169,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             continue
         await tap(p, m, mobile)
         await p.wait_for_timeout(250)
-        mb = await m.locator("circle").bounding_box()   # misurato dopo il tocco, che può far scorrere la pagina
+        mb = await m.locator("circle.pin").bounding_box()   # misurato dopo il tocco, che può far scorrere la pagina
         geo = await p.evaluate("""()=>{const pp=document.getElementById('mapPointPopup');if(pp.hidden)return null;
             const r=pp.getBoundingClientRect(),a=getComputedStyle(pp,'::after');
             const below=pp.classList.contains('is-below');const ax=r.left+parseFloat(a.left)+7;
@@ -167,7 +190,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T13 il popup resta agganciato al punto dopo uno scroll della pagina e uno zoom della mappa
     measure = """(id)=>{const pp=document.getElementById('mapPointPopup');if(pp.hidden)return {closed:true};
-        const c=document.querySelector(`#pins .map-marker[data-id='${id}'] circle`);if(!c)return {closed:false,gone:true};
+        const c=document.querySelector(`#pins .map-marker[data-id='${id}'] circle.pin`);if(!c)return {closed:false,gone:true};
         const m=c.getBoundingClientRect(),r=pp.getBoundingClientRect(),a=getComputedStyle(pp,'::after'),below=pp.classList.contains('is-below');
         const tx=r.left+parseFloat(a.left)+7,ty=below?r.top-7:r.bottom+7;
         return {closed:false,dist:Math.hypot(m.left+m.width/2-tx,m.top+m.height/2-ty)}}"""
@@ -175,7 +198,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.evaluate("()=>window.scrollBy(0,60)")
     await p.wait_for_timeout(250)
     after_scroll = await p.evaluate(measure, pid)
-    await click_el(p, "#zoomIn")
+    await p.evaluate("()=>{const r=document.getElementById('world').getBoundingClientRect();setMapZoom(mapZoom*1.5,r.left+r.width/2,r.top+r.height/2)}")  # su telefono il pulsante + è nascosto: si usa la stessa funzione del pizzico
     await p.wait_for_timeout(500)
     after_zoom = await p.evaluate(measure, pid)
     ok_scroll = not after_scroll.get("closed") and after_scroll.get("dist", 99) <= 16
@@ -211,10 +234,11 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await tap(p, p.locator("#mapPointPopup .popup-open"), mobile)
     await p.wait_for_timeout(600)
     dh = (await p.text_content("#detail h2") or "").strip()
-    R.check("T07", "'Apri scheda' apre la scheda giusta senza cambiare anno", dh == ptitle and await year(p) == y0, f"'{dh}', anno {y0} -> {await year(p)}")
+    R.check("T07", "'Apri scheda' apre la scheda giusta senza cambiare anno", dh == ptitle and await year(p) == y0 and await p.is_visible("#scheda"), f"'{dh}', anno {y0} -> {await year(p)}")
+    await p.evaluate("()=>closeDetail()")
 
     # T08 confronto: massimo 5, anno invariato (vista Contemporanei)
-    await goto_view(p, "contemporanei")
+    await goto_view(p, "universo")
     await open_details(p, "#moreConfronto")
     y0 = await year(p)
     added = []
@@ -233,40 +257,29 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             f"tentati {len(added)}, presenti {n_cmp}, '{count_txt}', anno {y0} -> {await year(p)}")
     await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id))}")
 
-    # T09 timeline: lo scorrimento orizzontale non cambia anno né ordine righe
-    await open_details(p, "#moreTimeline")
-    await p.wait_for_timeout(300)
-    await p.evaluate("document.getElementById('timeline').scrollIntoView({behavior:'instant'})")
-    await p.wait_for_timeout(300)
-    snap = "()=>[...document.querySelectorAll('#timeHtml .time-row .time-label')].map(e=>e.title)"
-    win = "()=>[timelineViewMin,timelineViewMax]"
-    before, w0, y0 = await p.evaluate(snap), await p.evaluate(win), await year(p)
-    await p.evaluate("document.getElementById('timelinebox').scrollIntoView({block:'center',behavior:'instant'})")
-    await p.wait_for_timeout(300)
-    box = await p.locator("#timelinebox").bounding_box()
-    cx, cy = box["x"] + box["width"] * 0.6, box["y"] + min(box["height"] * 0.5, 160)
-    hit = await p.evaluate("([x,y])=>{const e=document.elementFromPoint(x,y);return e&&e.closest('#timelinebox')?'ok':(e?e.className||e.tagName:'nulla')}", [cx, cy])
-    if mobile:   # trascinamento con un dito, eventi touch reali via CDP
+    # T09 Universo storico: vista dedicata, disegna le voci, il trascinamento sposta il tempo senza cambiare anno
+    await goto_view(p, "universo")
+    await p.wait_for_timeout(400)
+    u0 = await p.evaluate("()=>({nodes:document.querySelectorAll('#universeCanvas [data-uid]').length,center:universeCenter,year:document.getElementById('yearLabel').textContent,w:document.getElementById('universeViewport').getBoundingClientRect().width})")
+    vp = p.locator("#universeViewport")
+    await vp.evaluate("e=>e.scrollIntoView({block:'center',behavior:'instant'})")
+    await p.wait_for_timeout(150)
+    bb = await vp.bounding_box()
+    cx, cy = bb["x"] + bb["width"] * 0.6, bb["y"] + min(bb["height"] * 0.5, 140)
+    if mobile:
         cdp = await p.context.new_cdp_session(p)
         await cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": [{"x": cx, "y": cy}]})
         for i in range(1, 11):
-            await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": [{"x": cx - 18 * i, "y": cy}]})
+            await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": [{"x": cx - 15 * i, "y": cy}]})
             await p.wait_for_timeout(16)
         await cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []})
-    else:        # rotella orizzontale sopra una barra (caso più difficile)
-        bar = await p.locator("#timeHtml .time-bar").first.bounding_box()
-        if bar:
-            cx, cy = bar["x"] + bar["width"] / 2, bar["y"] + bar["height"] / 2
-        await p.mouse.move(cx, cy)
-        await p.mouse.wheel(400, 0)
-    await p.wait_for_timeout(500)
-    after, w1, y1 = await p.evaluate(snap), await p.evaluate(win), await year(p)
-    common = [t for t in before if t in after]
-    order_ok = common == [t for t in after if t in before]
-    moved = abs(w1[0] - w0[0]) > 1
-    R.check("T09", "Timeline: lo scorrimento sposta la finestra ma non cambia anno né ordine delle righe",
-            moved and y1 == y0 and order_ok,
-            f"punto toccato: {hit}; finestra {w0[0]}→{round(w1[0])}, anno {y0} -> {y1}, righe in comune {len(common)} ordine {'ok' if order_ok else 'cambiato'}")
+    else:
+        await p.mouse.move(cx, cy); await p.mouse.down(); await p.mouse.move(cx - 150, cy, steps=8); await p.mouse.up()
+    await p.wait_for_timeout(400)
+    u1 = await p.evaluate("()=>({center:universeCenter,year:document.getElementById('yearLabel').textContent})")
+    R.check("T09", "Universo storico: vista dedicata con le voci disegnate; trascinare sposta il tempo, non l'anno",
+            u0["nodes"] > 20 and u0["w"] > 200 and abs(u1["center"] - u0["center"]) > 1 and u1["year"] == u0["year"],
+            f"{u0['nodes']} elementi disegnati, centro {round(u0['center'])} -> {round(u1['center'])}, anno {u0['year']} -> {u1['year']}")
 
     # T17 filtri della mappa: ogni filtro nasconde solo i punti della sua tipologia (vista Esplora)
     await goto_view(p, "esplora")
@@ -303,7 +316,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.evaluate("()=>{selectItem('civilization-rome',{preserveYear:true});addCompare('culture-maya');addCompare('event-dinastia-han')}")
     state0 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
     bad = []
-    for v in ["contemporanei", "archivio", "impostazioni", "esplora"]:
+    for v in ["contemporanei", "universo", "archivio", "impostazioni", "esplora"]:
         if mobile:
             await tap(p, p.locator(f".mobile-nav a[data-view-link='{v}']"), mobile)
         else:
@@ -387,18 +400,53 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T21 nessuna vista è più larga dello schermo (niente scorrimento orizzontale della pagina)
     wide = []
-    for v in ["esplora", "contemporanei", "archivio", "impostazioni"]:
+    for v in ["esplora", "contemporanei", "universo", "archivio", "impostazioni"]:
         await goto_view(p, v)
         w = await p.evaluate("()=>[document.documentElement.scrollWidth,document.documentElement.clientWidth]")
         if w[0] > w[1] + 1:
             wide.append(f"{v}: {w[0]}px su {w[1]}px")
     R.check("T21", "Nessuna vista più larga dello schermo", not wide, "; ".join(wide) or "tutte le viste entrano in larghezza")
 
+    # T23 epoche nella barra del tempo: un tocco porta all'epoca; il vecchio pannello dell'anno non è più visibile
+    await goto_view(p, "esplora")
+    await tap(p, p.locator("#timeDock .epoch-nav-segment[data-period='medieval']"), mobile)
+    await p.wait_for_timeout(400)
+    e23 = await p.evaluate("()=>({year:document.getElementById('yearLabel').textContent,dock:document.getElementById('dockYear').textContent,active:document.querySelector('#timeDock .epoch-nav-segment.active')?.dataset.period,annoVisibile:!!document.getElementById('anno').offsetParent})")
+    R.check("T23", "Epoche nella barra del tempo: un tocco porta all'epoca, nessun secondo comando dell'anno",
+            e23["year"] == "1000 d.C." and e23["dock"] == "1000 d.C." and e23["active"] == "medieval" and not e23["annoVisibile"], str(e23))
+
+    # T24 cartografia di dettaglio: si carica ingrandendo, linee sottili a ogni zoom, punti di misura costante, zoom fino a 40x
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({behavior:'instant'})")
+    await click_el(p, "#zoomReset")
+    r1 = await p.evaluate("()=>{const c=document.querySelector('#pins circle.pin');return c?Math.round(c.getBoundingClientRect().width):null}")
+    await p.evaluate("()=>{mapZoom=12;mapCx=(9+180)*2.5;mapCy=(90-40)*2.5;applyMapZoom()}")
+    for _ in range(30):
+        if await p.evaluate("()=>mapDetailState!=='loading'"): break
+        await p.wait_for_timeout(200)
+    await p.wait_for_timeout(200)
+    d24 = await p.evaluate("""()=>{const hi=document.getElementById('world').classList.contains('hi');const n=document.querySelectorAll('#world .lod-hi path').length;
+        const cl=document.querySelector('#world .coast-line');const cs=cl?getComputedStyle(cl):null;
+        const c=document.querySelector('#pins circle.pin');
+        return {state:mapDetailState,hi,paths:n,stroke:cs?cs.strokeWidth:null,ve:cs?cs.vectorEffect:null,pin:c?Math.round(c.getBoundingClientRect().width):null}}""")
+    await p.evaluate("()=>setMapZoom(1000,innerWidth/2,innerHeight/2)")
+    zmax = await p.evaluate("()=>mapZoom")
+    await click_el(p, "#zoomReset")
+    lo = await p.evaluate("()=>!document.getElementById('world').classList.contains('hi')")
+    ok24 = (d24["state"] == "ready" and d24["hi"] and d24["paths"] > 50 and d24["stroke"] == "1.1px" and d24["ve"] == "non-scaling-stroke"
+            and zmax == 40 and lo and (r1 is None or d24["pin"] is None or abs(d24["pin"] - r1) <= 3))
+    R.check("T24", "Mappa di dettaglio: caricata ingrandendo, linee sottili, punti di misura costante, zoom fino a 40x",
+            ok24, f"{d24}, punto a zoom 1: {r1}px, zoom massimo {zmax}, torna semplice a zoom 1: {lo}")
+
+    # T25 comandi della mappa sovrapposti: su telefono solo "mondo intero" (lo zoom si fa con due dita)
+    z25 = await p.evaluate("()=>['zoomIn','zoomOut','zoomReset'].map(id=>!!document.getElementById(id).offsetParent)")
+    ok25 = z25 == ([False, False, True] if mobile else [True, True, True])
+    R.check("T25", "Comandi di zoom sulla mappa: compatti, su telefono solo 'mondo intero'", ok25, f"visibili ＋ − ⤢: {z25}")
+
     # T18 una vecchia scelta "sezioni nascoste" (v0.44) non nasconde più nulla
     await p.evaluate("()=>localStorage.setItem('atlante-visible-sections-v09','[]')")
     await p.reload(wait_until="load"); await p.wait_for_timeout(800)
     await goto_view(p, "esplora")
-    hidden18 = await p.evaluate("()=>['anno','ricerca-principale','mappa','scheda'].filter(id=>{const e=document.getElementById(id);return !e||e.hidden||e.offsetParent===null})")
+    hidden18 = await p.evaluate("()=>['ricerca-principale','mappa','timeDock'].filter(id=>{const e=document.getElementById(id);if(!e||e.hidden)return true;const r=e.getBoundingClientRect();return !(r.width>0&&r.height>0)})")
     R.check("T18", "Una vecchia scelta di sezioni nascoste non nasconde parti della pagina", not hidden18, f"nascoste: {hidden18}")
 
     # T01 nessun errore, nessuna richiesta esterna (controllato a fine giro)
