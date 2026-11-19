@@ -1,6 +1,6 @@
 # Registro delle versioni
 
-## v0.50 · 19 novembre 2026 (pronta, da pubblicare)
+## v0.50 · 19 novembre 2026
 - **Verifica delle voci principali.** Le 86 voci di base con rilevanza 1 (le più importanti a livello di manuale) sono state controllate una per una su fonti specifiche: Encyclopaedia Britannica, World History Encyclopedia, Metropolitan Museum, Smarthistory, UNESCO, ONU, OMS, Museo dell’Olocausto di Washington, archivi e servizi pubblici statunitensi, Te Ara, SlaveVoyages, articoli su Nature, PNAS e Science. Il riferimento generale al manuale è stato sostituito con 153 fonti nuove. Stato «Verificata su fonte specifica»; nella nota editoriale di ogni voce c’è cosa è stato confermato.
 - **Correzioni.** Migrazioni bantu: fine al 1500 e datazione segnata come discussa. Unificazione Qin: fine al 207 a.C. Machu Picchu: fine al 1550 e tolta l’affermazione «mai raggiunta dagli spagnoli». Epidemie nelle Americhe: inizio al 1519. Shoah: 1933–1945 con la «soluzione finale» nel 1941–1945. Guerra del Vietnam: inizio al 1954. Magellano e rivoluzione Xinhai: sintesi riscritte su ciò che le fonti confermano.
 - **Rimasti da verificare** su tre voci: i bacini idrici di Angkor, la fine formale del Regno del Kongo (1914) e la data di chiusura (1890) della voce sull’espansione verso ovest degli Stati Uniti; lo dice la nota della voce.
