@@ -3125,5 +3125,91 @@
   ],
   "nota": "Confermati: nel dicembre 1979 l’URSS intervenne in Afghanistan a sostegno del governo comunista contro i mujaheddin, sostenuti da Stati Uniti e altri paesi; il ritiro fu completato nel febbraio 1989; per Britannica il conflitto fu un fattore militare chiave nella dissoluzione dell’URSS.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "event-climate-agreements",
+  "fonti": [
+   {
+    "institution": "UNFCCC (UN Climate Change)",
+    "title": "The Convention and the Paris Agreement",
+    "url": "https://unfccc.int/resource/bigpicture/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Paris Agreement",
+    "url": "https://www.britannica.com/topic/Paris-Agreement-2015"
+   }
+  ],
+  "nota": "Confermati: la Convenzione quadro delle Nazioni Unite sui cambiamenti climatici fu concordata al Vertice della Terra di Rio nel 1992 per prevenire un pericoloso cambiamento climatico di origine umana; l’Accordo di Parigi, adottato il 12 dicembre 2015 alla COP21, punta a contenere il riscaldamento ben sotto i 2 °C rispetto ai livelli preindustriali, cercando di limitarlo a 1,5 °C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-rwanda-genocide",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Rwanda genocide of 1994",
+    "url": "https://www.britannica.com/event/Rwanda-genocide-of-1994"
+   },
+   {
+    "institution": "United Nations",
+    "title": "Outreach Programme on the 1994 Genocide against the Tutsi in Rwanda",
+    "url": "https://www.un.org/en/preventgenocide/rwanda/backgrounders.shtml"
+   }
+  ],
+  "nota": "Confermati: campagna pianificata di sterminio condotta da estremisti hutu in circa cento giorni, tra aprile e luglio 1994; furono uccisi oltre 800.000 civili, in gran parte tutsi ma anche hutu moderati (fino a un milione secondo l’ONU).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-zapatista-uprising",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zapatista National Liberation Army (EZLN)",
+    "url": "https://www.britannica.com/topic/Zapatista-National-Liberation-Army"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Subcomandante Marcos",
+    "url": "https://www.britannica.com/biography/Subcomandante-Marcos"
+   }
+  ],
+  "nota": "Confermati: il 1° gennaio 1994, giorno dell’entrata in vigore del NAFTA, l’Esercito zapatista di liberazione nazionale occupò alcune città del Chiapas chiedendo riforma agraria, diritti e maggiore autonomia politica e culturale per i popoli indigeni.",
+  "parziale": "la composizione «in gran parte maya» non è detta esplicitamente nei passi consultati (Britannica parla di indigeni impoveriti; in Chiapas circa un quarto della popolazione parla lingue maya).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-september-11",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "September 11 attacks",
+    "url": "https://www.britannica.com/event/September-11-attacks"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Afghanistan War",
+    "url": "https://www.britannica.com/event/Afghanistan-War"
+   }
+  ],
+  "nota": "Confermati: l’11 settembre 2001 diciannove militanti di al-Qaeda dirottarono quattro aerei di linea e ne lanciarono due contro le Torri gemelle e uno contro il Pentagono; morirono oltre 3.000 persone; seguirono la «guerra al terrorismo» e lunghe guerre in Afghanistan (dal 2001) e in Iraq (dal 2003).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-arab-spring",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arab Spring",
+    "url": "https://www.britannica.com/event/Arab-Spring"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jasmine Revolution",
+    "url": "https://www.britannica.com/event/Jasmine-Revolution"
+   }
+  ],
+  "nota": "Confermati: ondata di proteste e rivolte (dicembre 2010–2012) partita dalla Tunisia, dove Ben Ali lasciò il potere il 14 gennaio 2011; caddero anche i regimi di Egitto, Libia e Yemen; gli esiti andarono da transizioni fragili (Tunisia) a guerre civili devastanti (Siria, Libia, Yemen).",
+  "data": "2026-11-19"
  }
 ]
