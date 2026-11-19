@@ -461,7 +461,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T26 Tecnologia: per ogni ambito e area, le attestazioni fino alla fine della voce scelta, con la distanza in anni
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techFocusId=null;techDomain='all';selected=null;showView('tecnologia');techMode='dettaglio';renderTecnologia()}")
+    await p.evaluate("()=>{techFocusId='event-rapanui-moai-tradition';techDomain='all';selected=null;showView('tecnologia');techMode='dettaglio';renderTecnologia()}")
     await p.wait_for_timeout(300)
     t26 = await p.evaluate("""()=>{const f=ALL.find(x=>x.id==='event-rapanui-moai-tradition');
         const exp=TECH.filter(t=>t.start_year<=f.end_year).length;
@@ -694,7 +694,7 @@ async def new_checks(p, R, mobile, name):
 
     # T34 Tecnologia, sintesi: un punto per ambito e area, posizione coerente con gli anni, tocco → dettaglio dell'attestazione
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techFocusId=TECH_DEFAULT;techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
+    await p.evaluate("()=>{techFocusId='event-rapanui-moai-tradition';techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
     t34 = await p.evaluate("""()=>{const f=techFocus(),fi=techFirsts(f),keys=Object.keys(fi);
         const band=document.querySelector('#techList .ti-band'),bl=+band.getAttribute('x'),br=bl+ +band.getAttribute('width');
         const marks=[...document.querySelectorAll('#techList .ti-mark')].map(g=>{const c=g.querySelector('circle');return {id:g.dataset.ti,x:+c.getAttribute('cx'),r:+c.getAttribute('r')}});
@@ -773,6 +773,27 @@ async def new_checks(p, R, mobile, name):
         return {n:ALL.length,bad}}""")
     R.check("T39", "Dati: ogni voce ha fonte, livello, rilevanza e area mondiale; le voci verificate hanno una fonte specifica; nessun collegamento rotto né nome doppio",
             not t39["bad"], f"{t39['n']} voci; " + ("; ".join(t39["bad"][:6]) or "tutto in ordine"))
+
+    # T40 Tecnologia senza voce scelta: nessuna voce di partenza; suggerimenti = voci di rilevanza 1 attive nell'anno della barra del tempo
+    await goto_view(p, "esplora")
+    await p.evaluate("()=>{selected=null;techFocusId=null;chosenYear=1300;period=periodForYear(1300);$('yearRange').value=1300;renderAll()}")
+    await goto_view(p, "tecnologia"); await p.wait_for_timeout(300)
+    t40 = await p.evaluate("""()=>{const b=[...document.querySelectorAll('#techSummary .tech-suggest [data-tech-focus]')].map(e=>ALL.find(x=>x.id===e.dataset.techFocus));
+        return {title:document.getElementById('techTitle').textContent,label:document.querySelector('#techSummary .tech-suggest .small')?.textContent||'',
+          n:b.length,bad:b.filter(x=>!x||x.relevance!==1||!(x.start_year<=1300&&x.end_year>=1300)).map(x=>x?x.id:'?'),
+          areas:new Set(b.map(x=>x.world_area)).size,items:document.querySelectorAll('#techList .tech-item,#techList .ti-mark').length,first:b[0]?.id||''}}""")
+    first = t40["first"]
+    if first:
+        await tap(p, p.locator(f"#techSummary [data-tech-focus='{first}']"), mobile); await p.wait_for_timeout(400)
+    t40b = await p.evaluate("()=>({title:document.getElementById('techTitle').textContent,focus:techFocusId})")
+    await p.evaluate("()=>{techFocusId=null;chosenYear=-4000;renderTecnologia()}")
+    t40c = await p.evaluate("()=>[...document.querySelectorAll('#techSummary .tech-suggest [data-tech-focus]')].map(e=>ALL.find(x=>x.id===e.dataset.techFocus)).map(x=>[x.relevance,x.start_year<=-4000&&x.end_year>=-4000])")
+    ok40 = (t40["title"] == "Che cosa sapevano fare, altrove?" and t40["label"] == "Nel 1300 d.C.:" and t40["n"] == 6 and not t40["bad"]
+            and t40["areas"] == 6 and t40["items"] == 0 and t40b["focus"] == first and t40b["title"].startswith("Durante «")
+            and len(t40c) >= 3 and all(a for _, a in t40c) and t40c[0][0] == 1)
+    R.check("T40", "Tecnologia senza voce scelta: nessuna voce di partenza; suggerimenti di rilevanza 1 attivi nell'anno, uno per area; nel 4000 a.C. completati con la rilevanza 2",
+            ok40, f"{t40}; dopo il tocco: {t40b}; 4000 a.C. (rilevanza, attiva): {t40c}")
+    await p.evaluate("()=>{selected=null;techFocusId=null;chosenYear=PERIOD_ANCHOR.all;period='all';$('yearRange').value=chosenYear;renderAll()}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

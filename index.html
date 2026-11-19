@@ -1310,7 +1310,7 @@ function showView(name,opts={}){
  closeMapPointPopup();placeMap();
  const intro=$('mapIntro');if(intro)intro.textContent=name==='contemporanei'?'Luoghi delle voci contemporanee a quella scelta. Tocca un punto per il riepilogo.':'Punti attivi nell’anno selezionato. Tocca un punto per il riepilogo.';
  if(name==='contemporanei'){if((changed||!contempFocusId)&&selected)contempFocusId=selected;contempOpenId=null;renderContemporanei();}
- if(name==='tecnologia'){if((changed||!techFocusId)&&selected)techFocusId=selected;if(!techFocus())techFocusId=TECH_DEFAULT;techOpenId=null;renderTecnologia();}
+ if(name==='tecnologia'){if((changed||!techFocusId)&&selected)techFocusId=selected;techOpenId=null;renderTecnologia();}
  if(name==='confronto'){hideToast();renderComparator();}
  if(changed&&!opts.keepScroll)window.scrollTo(0,0);
  requestAnimationFrame(()=>{applyMapZoom();scheduleMapPinsRender();if(name==='universo'&&typeof uRender==='function'){uRender();if(typeof renderUniverseCompareStrip==='function')renderUniverseCompareStrip()}if(name==='tecnologia'&&techMode==='sintesi'&&($('techList')?.clientWidth||0)!==tiLastW)renderTecnologia();updateDetailPanel();});
@@ -1427,7 +1427,17 @@ var techFocusId=null,techDomain='all',techOpenId=null,techExpanded={};
 const TECH=(DB.technologies||[]).map(t=>({...t,start_year:Number(t.start_year),end_year:Number(t.end_year)}));
 const TECH_DOMAINS=DB.technology_domains||[];
 const TECH_AREAS=['Europa','Asia','Africa','Americhe','Oceania'];
-const TECH_DEFAULT='event-rapanui-moai-tradition';
+const TECH_SUGG_FALLBACK=['event-rapanui-moai-tradition','civilization-rome','culture-maya','state-ancient-egypt','civilization-song'];
+const AREA_ORDER=(DB.world_areas||[]).map(a=>a.id);
+// v0.50: suggerimenti della vista Tecnologia = voci di rilevanza 1 attive nell’anno della barra del tempo, una per area finché ce n’è posto; se sono meno di 3 si aggiungono rilevanza 2 e poi 3
+function techSuggestions(max=6){
+ const pick=lev=>{const act=ALL.filter(x=>x.relevance===lev&&x.id!==techFocusId&&activeIn(x));const by={};act.forEach(x=>{(by[x.world_area||'']=by[x.world_area||'']||[]).push(x)});
+  const keys=Object.keys(by).sort((a,b)=>(AREA_ORDER.indexOf(a)+1||99)-(AREA_ORDER.indexOf(b)+1||99));keys.forEach(k=>by[k].sort((a,b)=>a.start_year-b.start_year||a.name.localeCompare(b.name,'it')));
+  const out=[];for(let r=0;out.length<max&&keys.some(k=>by[k].length>r);r++)keys.forEach(k=>{if(out.length<max&&by[k][r])out.push(by[k][r])});return out};
+ let out=pick(1);for(const lev of [2,3])if(out.length<3)out=out.concat(pick(lev).slice(0,max-out.length));
+ if(out.length)return {label:`Nel ${fmt(chosenYear)}:`,items:out};
+ return {label:'Prova anche:',items:TECH_SUGG_FALLBACK.filter(id=>id!==techFocusId).map(id=>ALL.find(x=>x.id===id)).filter(Boolean)};
+}
 const TECH_CONF={high:'datazione solida',medium:'datazione con margini di incertezza',debated:'datazione discussa'};
 const SRC_BY_ID=Object.fromEntries((DB.sources||[]).map(s=>[s.id,s]));
 function techFocus(){return techFocusId?ALL.find(x=>x.id===techFocusId)||null:null}
@@ -1456,11 +1466,11 @@ function techCard(t,rel,f){
 function renderTecnologia(){
  const sum=$('techSummary'),list=$('techList');if(!sum||!list)return;
  const f=techFocus();
- const sugg=['event-rapanui-moai-tradition','civilization-rome','culture-maya','state-ancient-egypt','civilization-song'].filter(id=>id!==techFocusId).map(id=>ALL.find(x=>x.id===id)).filter(Boolean);
- const suggHtml=`<div class="contemp-suggest"><span class="small">Prova anche:</span>${sugg.map(x=>`<button type="button" data-tech-focus="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div>`;
+ const sg=techSuggestions(),sugg=sg.items;
+ const suggHtml=`<div class="contemp-suggest tech-suggest"><span class="small">${esc(sg.label)}</span>${sugg.map(x=>`<button type="button" data-tech-focus="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div>`;
  if(!f||!TECH.length){
   $('techTitle').textContent='Che cosa sapevano fare, altrove?';
-  sum.innerHTML=suggHtml;list.innerHTML=`<div class="empty">${TECH.length?'Scegli una voce qui sopra.':'Nessuna attestazione tecnica nel dataset.'}</div>`;
+  sum.innerHTML=suggHtml;list.innerHTML=`<div class="empty">${TECH.length?'Cerca una voce qui sopra, oppure tocca una di quelle attive nell’anno scelto con la barra del tempo.':'Nessuna attestazione tecnica nel dataset.'}</div>`;
  }else{
   $('techTitle').textContent=`Durante «${f.name}»`;
   const fArea=techAreaOf(f);
