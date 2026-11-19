@@ -1504,5 +1504,231 @@
   ],
   "nota": "Confermati: dinastia fondata nel 1392 da Yi Seong-gye, con il neoconfucianesimo come ideologia di Stato; re Sejong completò l’hangul nel 1443 e lo pubblicò nel 1446 (Hunmin Jeongeum). WHE chiude la dinastia nel 1897; Britannica nel 1910, includendo l’Impero coreano.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "state-malacca-sultanate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Malaysia: the advent of Islam",
+    "url": "https://www.britannica.com/place/Malaysia/The-advent-of-Islam"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Portuguese Malacca",
+    "url": "https://www.worldhistory.org/Portuguese_Malacca/"
+   }
+  ],
+  "nota": "Confermati: fondato verso il 1400 da Paramesvara sullo stretto tra Oceano Indiano e Mar Cinese Meridionale; il sovrano si convertì all’Islam e Malacca divenne il principale emporio del Sud-est asiatico e il centro regionale di diffusione dell’Islam; conquistato nel 1511 dalla flotta portoghese di Afonso de Albuquerque.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-portuguese-african-voyages",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Map of the Portuguese Commercial Empire, c. 1580",
+    "url": "https://www.worldhistory.org/image/14123/map-of-the-portuguese-commercial-empire-c-1580/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bartolomeu Dias",
+    "url": "https://www.britannica.com/biography/Bartolomeu-Dias"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Portuguese Conquest of India",
+    "url": "https://www.worldhistory.org/article/2025/the-portuguese-conquest-of-india/"
+   }
+  ],
+  "nota": "Confermati: la conquista di Ceuta (1415) segna l’inizio simbolico dell’espansione portoghese; Bartolomeu Dias doppiò il capo di Buona Speranza nel 1488; Vasco da Gama arrivò a Calicut nel maggio 1498, aprendo la rotta marittima diretta tra Europa e Oceano Indiano.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "invention-qhapaq-nan",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Qhapaq Ñan, Andean Road System",
+    "url": "https://whc.unesco.org/en/list/1459/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Inca Road System",
+    "url": "https://www.worldhistory.org/article/757/the-inca-road-system/"
+   }
+  ],
+  "nota": "Confermati: rete inca di strade e strutture associate (ponti, stazioni di sosta e magazzini) estesa per oltre 30.000 km secondo UNESCO, costruita in più secoli anche su infrastrutture preincaiche e giunta alla massima espansione nel XV secolo; teneva unito l’impero (movimento di eserciti, persone, merci). Le stime della lunghezza variano: Britannica indica circa 25.000 km.",
+  "parziale": "l’anno d’inizio 1438 è quello tradizionale di Pachacuti; la rete è in parte più antica.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-pachacuti",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Pachacuti Inca Yupanqui",
+    "url": "https://www.worldhistory.org/Pachacuti_Inca_Yupanqui/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Inti",
+    "url": "https://www.worldhistory.org/Inti/"
+   }
+  ],
+  "nota": "Confermati: nono sovrano inca (regno tradizionale 1438–1471), sconfisse i Chanca nel 1438, avviò la ricostruzione di Cusco e fondò l’impero con conquiste oltre la valle; sotto di lui il culto del Sole (Inti) si affermò come culto imperiale. WHE riporta anche una cronologia alternativa (regno c. 1438–1463).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-fall-of-granada",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Reconquista",
+    "url": "https://www.britannica.com/event/Reconquista"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Spanish Inquisition",
+    "url": "https://www.britannica.com/topic/Spanish-Inquisition"
+   }
+  ],
+  "nota": "Confermati: nel gennaio 1492 Ferdinando e Isabella conquistarono Granada, ultimo regno musulmano della penisola, chiudendo la Reconquista; con l’editto del 31 marzo 1492 imposero agli ebrei la scelta tra esilio e battesimo (oltre 160.000 espulsi secondo Britannica).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "religion-sikhism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sikhism",
+    "url": "https://www.britannica.com/topic/Sikhism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Guru (Sikhism)",
+    "url": "https://www.britannica.com/topic/Guru-Sikhism"
+   }
+  ],
+  "nota": "Confermati: religione monoteista fondata da Guru Nanak (1469–1539) nel Punjab alla fine del XV secolo e guidata da dieci guru umani, fino al passaggio dell’autorità alla scrittura sacra (Guru Granth Sahib).",
+  "parziale": "l’anno d’inizio 1499 non è nelle fonti consultate, che indicano genericamente la fine del XV secolo.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-portuguese-brazil",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Portuguese Brazil",
+    "url": "https://www.worldhistory.org/Portuguese_Brazil/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brazil: ethnic groups (Africans)",
+    "url": "https://www.britannica.com/place/Brazil/Ongoing-domestic-migration"
+   }
+  ],
+  "nota": "Confermati: colonia portoghese dal 1500 all’indipendenza del 1822; economia fondata dal XVI secolo sulle piantagioni di canna da zucchero e poi, tra XVIII e XIX secolo, sulle miniere d’oro e diamanti di Minas Gerais; il Brasile fu di gran lunga il maggiore importatore di schiavi delle Americhe (Britannica: oltre 4,8 milioni di africani tra XVI e XIX secolo, contro circa 3 milioni per tutta l’America spagnola).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-ottoman-conquest-egypt",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egypt: the Ottomans (1517–1798)",
+    "url": "https://www.britannica.com/place/Egypt/The-Ottomans-1517-1798"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Timeline: Ottoman Empire",
+    "url": "https://www.worldhistory.org/timeline/Ottoman_Empire/"
+   }
+  ],
+  "nota": "Confermati: con le vittorie di Marj Dabiq (1516) e Raydaniyya presso il Cairo (22 gennaio 1517) Selim I abbatté il sultanato mamelucco e prese Siria, Palestina, Egitto e Hegiaz; lo sceriffo della Mecca gli consegnò le chiavi della città santa. La Siria fu occupata già nel 1516.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-suleiman",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Süleyman I summary",
+    "url": "https://www.britannica.com/summary/Suleyman-the-Magnificent"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ottoman Empire",
+    "url": "https://www.worldhistory.org/Ottoman_Empire/"
+   }
+  ],
+  "nota": "Confermati: sultano dal 1520 al 1566, detto «il Magnifico» in Europa e Kanuni («il Legislatore») tra gli Ottomani; sotto di lui l’impero raggiunse la massima estensione: Belgrado (1521), Rodi (1522), Mohács (1526) e l’Ungheria, l’Iraq con Baghdad (1534–35).",
+  "parziale": "l’estensione fino al Golfo Persico è dedotta dalla conquista dell’Iraq: l’arrivo a Bassora non compare nelle fonti consultate.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-yucatan-conquest",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mexico: expansion of Spanish rule",
+    "url": "https://www.britannica.com/place/Mexico/Expansion-of-Spanish-rule"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yucatán",
+    "url": "https://www.britannica.com/place/Yucatan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mérida (Mexico)",
+    "url": "https://www.britannica.com/place/Merida-Mexico"
+   }
+  ],
+  "nota": "Confermati: Francisco de Montejo avviò la conquista nel 1526–27, ma per la forte resistenza maya e il terreno difficile ci vollero quasi vent’anni per controllare il nord della penisola; nel 1542 Montejo diede il nome di Mérida alla città maya conquistata di T’ho.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-viceroyalty-peru",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Viceroyalty of Peru",
+    "url": "https://www.britannica.com/place/Viceroyalty-of-Peru"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Colonial Government in the Spanish Empire",
+    "url": "https://www.worldhistory.org/article/2017/colonial-government-in-the-spanish-empire/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Lima: history",
+    "url": "https://www.britannica.com/place/Lima/History"
+   }
+  ],
+  "nota": "Confermati: secondo dei vicereami spagnoli in America, comprendeva inizialmente tutto il Sud America spagnolo tranne la costa venezuelana, con capitale Lima; finì con la battaglia di Ayacucho (9 dicembre 1824). WHE data la fondazione al 1542, Britannica al 1543.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-akbar",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What did Akbar believe in?",
+    "url": "https://www.britannica.com/question/What-did-Akbar-believe-in"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ibadat Khana",
+    "url": "https://www.worldhistory.org/Ibadat_Khana/"
+   }
+  ],
+  "nota": "Confermati: terzo imperatore moghul (1556–1605), consolidò ed estese l’impero accentrandone l’amministrazione; si interessò alle religioni del regno per promuovere la tolleranza, fece costruire nel 1575–76 l’Ibadat Khana per i dibattiti tra teologi di diverse fedi e promosse il Din-i Ilahi.",
+  "data": "2026-11-19"
  }
 ]
