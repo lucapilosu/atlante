@@ -1,6 +1,6 @@
 # Registro delle versioni
 
-## v0.51 · in preparazione (ramo `v0.51`)
+## v0.51 · 19 novembre 2026
 
 - **Contemporanei senza barra del tempo.** La vista parte da una voce, non da un anno: spostare l’anno non cambiava niente (verificato da Claude e confermato da Luca). La barra ora è nascosta, come in Tecnologia e Confronto.
 - **Verifica delle voci di rilevanza 2.** Le 176 voci di base con rilevanza 2 sono state controllate una per una su fonti specifiche, come le 86 di rilevanza 1 nella v0.50: soprattutto Encyclopaedia Britannica e World History Encyclopedia, poi schede UNESCO, ONU, OMS, CDC, National Park Service, Office of the Historian del Dipartimento di Stato, Archivi nazionali USA, Parlamento europeo, UNFCCC, Te Ara e NZHistory, Royal Museums Greenwich, Computer History Museum, National Security Archive e articoli scientifici. Il riferimento generale al manuale (e, in 30 voci, l’elenco UNESCO generico) è stato sostituito con 354 fonti nuove. Registro in `tools/verifica/registro_v051_rilevanza2.json`.
