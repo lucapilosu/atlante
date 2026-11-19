@@ -768,18 +768,19 @@ const YEAR_MAX=Math.ceil((DATA_MAX+DOMAIN_PAD)/100)*100;
 const clampYear=y=>Math.max(YEAR_MIN,Math.min(YEAR_MAX,Math.round(y)));
 const PERIOD_ANCHOR={all:-1487,prehistory:-4000,ancient:-1250,medieval:1000,modern:1700,contemporary:1963};
 $('yearRange').min=YEAR_MIN;$('yearRange').max=YEAR_MAX;
+// v0.50: anno di apertura = uno degli 8 periodi del piano dei contenuti scelto a caso, poi un anno (passo 5) al suo interno con almeno 3 voci di rilevanza 1 attive (2 se gli anni così sono meno di 10)
+// (prima: un anno a caso tra quelli con 2–14 voci attive, che con 437 voci cadeva quasi sempre nella preistoria)
+const OPENING_PERIODS=[[-Infinity,-3500],[-3500,-500],[-500,500],[500,1000],[1000,1500],[1500,1750],[1750,1914],[1914,Infinity]];
+function openingCandidates(){
+  return OPENING_PERIODS.map(([a,b])=>{
+    const ys=[];for(let y=Math.ceil(Math.max(a,YEAR_MIN)/5)*5;y<Math.min(b,YEAR_MAX+1);y+=5){const n=ALL.reduce((s,x)=>s+(x.relevance===1&&x.start_year<=y&&x.end_year>=y?1:0),0);if(n>0)ys.push({year:y,count:n})}
+    let ok=ys.filter(v=>v.count>=3);if(ok.length<10)ok=ys.filter(v=>v.count>=2);if(!ok.length)ok=ys;return ok}).filter(ys=>ys.length);
+}
 function chooseOpeningYear(){
-  const candidates=[];
-  for(let y=Math.ceil(YEAR_MIN/25)*25;y<=YEAR_MAX;y+=25){
-    const n=ALL.reduce((sum,x)=>sum+(x.start_year<=y&&x.end_year>=y?1:0),0);
-    if(n>0)candidates.push({year:y,count:n});
-  }
-  const rich=candidates.filter(x=>x.count>=2&&x.count<=14);
-  const pool=rich.length?rich:(candidates.length?candidates:[{year:-1250,count:1}]);
+  const groups=openingCandidates();if(!groups.length)return clampYear(-1250);
   let previous=null;try{previous=Number(localStorage.getItem('atlante-last-opening-year'));if(!Number.isFinite(previous))previous=null}catch(_e){}
-  let alternatives=pool.filter(x=>x.year!==previous);
-  if(!alternatives.length)alternatives=pool;
-  const pick=alternatives[Math.floor(Math.random()*alternatives.length)].year;
+  const g=groups[Math.floor(Math.random()*groups.length)];let pool=g.filter(v=>v.year!==previous);if(!pool.length)pool=g;
+  const pick=pool[Math.floor(Math.random()*pool.length)].year;
   try{localStorage.setItem('atlante-last-opening-year',String(pick))}catch(_e){}
   return clampYear(pick);
 }

@@ -795,6 +795,14 @@ async def new_checks(p, R, mobile, name):
             ok40, f"{t40}; dopo il tocco: {t40b}; 4000 a.C. (rilevanza, attiva): {t40c}")
     await p.evaluate("()=>{selected=null;techFocusId=null;chosenYear=PERIOD_ANCHOR.all;period='all';$('yearRange').value=chosenYear;renderAll()}")
 
+    # T41 anno di apertura: periodo a caso tra gli 8, anno con almeno 2 voci di rilevanza 1 attive, mai lo stesso due volte di fila
+    t41 = await p.evaluate("""()=>{const per=OPENING_PERIODS.map(()=>0),ys=[],rel1=y=>ALL.filter(x=>x.relevance===1&&x.start_year<=y&&x.end_year>=y).length;
+        for(let i=0;i<800;i++){const y=chooseOpeningYear();ys.push(y);per[OPENING_PERIODS.findIndex(([a,b])=>y>=a&&y<b)]++}
+        return {per,distinct:new Set(ys).size,repeats:ys.filter((y,i)=>i&&y===ys[i-1]).length,minRel1:Math.min(...ys.map(rel1))}}""")
+    ok41 = min(t41["per"]) >= 50 and t41["repeats"] == 0 and t41["minRel1"] >= 2 and t41["distinct"] >= 200
+    R.check("T41", "Anno di apertura: periodo a caso tra gli 8 del piano, anno con voci di rilevanza 1 attive, mai uguale a quello della volta prima",
+            ok41, f"800 aperture simulate: per periodo {t41['per']}; anni diversi {t41['distinct']}; ripetizioni consecutive {t41['repeats']}; minimo voci di rilevanza 1 attive {t41['minRel1']}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
