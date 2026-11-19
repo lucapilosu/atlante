@@ -1,0 +1,1335 @@
+[
+ {
+  "id": "event-neolithic-fertile-crescent",
+  "fonti": [
+   {
+    "institution": "EBSCO Research Starters",
+    "title": "Fertile Crescent",
+    "url": "https://ebsco.com/research-starters/agriculture-and-agribusiness/fertile-crescent"
+   }
+  ],
+  "nota": "Confermati colture fondatrici (farro, monococco, orzo, lenticchie) e primi animali domestici (pecore, capre, bovini, maiali)."
+ },
+ {
+  "id": "event-neolithic-revolution-world",
+  "fonti": [
+   {
+    "institution": "National Geographic Education",
+    "title": "The Farming Revolution",
+    "url": "https://www.nationalgeographic.org/article/development-agriculture/6th-grade/"
+   },
+   {
+    "institution": "PNAS (via PubMed Central)",
+    "title": "Matsuoka et al., A single domestication for maize (2002)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC122905/"
+   }
+  ],
+  "nota": "Agricoltura da circa 12.000 anni fa; domesticazioni indipendenti in più regioni (riso, miglio, fagiolo, cotone, zucca, mais)."
+ },
+ {
+  "id": "invention-maize-domestication",
+  "fonti": [
+   {
+    "institution": "PNAS (via PubMed Central)",
+    "title": "Matsuoka et al., A single domestication for maize (2002)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC122905/"
+   },
+   {
+    "institution": "Archaeology (Archaeological Institute of America)",
+    "title": "Maize domestication in the Balsas basin",
+    "url": "https://archaeology.org/?p=31113"
+   }
+  ],
+  "nota": "Domesticazione unica nel Messico meridionale circa 9.000 anni fa, dal teosinte parviglumis del bacino del Balsas."
+ },
+ {
+  "id": "event-urbanizzazione-di-uruk",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Uruk: The First City (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/essays/uruk-the-first-city"
+   }
+  ],
+  "nota": "Fase urbana di Uruk circa 3500–3100 a.C.; templi e scrittura amministrativa."
+ },
+ {
+  "id": "invention-cuneiform",
+  "fonti": [
+   {
+    "institution": "Smarthistory",
+    "title": "Cuneiform, an introduction",
+    "url": "https://smarthistory.org/cuneiform"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Cuneiform tablet: Late Babylonian grammatical text",
+    "url": "https://metmuseum.org/art/collection/search/321677"
+   }
+  ],
+  "nota": "Ultimo testo datato 75 d.C.; circa 3.000 anni d’uso e una quindicina di lingue."
+ },
+ {
+  "id": "site-giza-pyramids",
+  "fonti": [
+   {
+    "institution": "Smarthistory",
+    "title": "The Great Pyramids of Giza (Old Kingdom)",
+    "url": "https://smarthistory.org/period-culture-style/ancient-egyptian-2/old-kingdom/"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Egypt in the Old Kingdom (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c"
+   }
+  ],
+  "nota": "Smarthistory: c. 2600–2500 a.C.; Met: Cheope r. c. 2551–2528, Chefren c. 2520–2494, Micerino c. 2490–2472. Le cronologie egizie differiscono di qualche decennio."
+ },
+ {
+  "id": "movement-bantu-migrations",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Bantu Migration",
+    "url": "https://www.worldhistory.org/Bantu_Migration/"
+   },
+   {
+    "institution": "Nature",
+    "title": "The genetic legacy of the expansion of Bantu-speaking peoples in Africa (2023)",
+    "url": "https://www.nature.com/articles/s41586-023-06770-6"
+   }
+  ],
+  "correzioni": {
+   "end_year": 1500,
+   "date_confidence": "debated"
+  },
+  "nota": "WHE: dalla metà del II millennio a.C. a prima del 1500 d.C.; gli studi genetici collocano l’inizio tra 6.000 e 4.000 anni fa. Fine portata dal 500 al 1500."
+ },
+ {
+  "id": "culture-phoenician",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "The Phoenicians (1500–300 B.C.)",
+    "url": "https://www.metmuseum.org/toah/hd/phoe/hd_phoe.htm"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tyre",
+    "url": "https://www.britannica.com/place/Tyre"
+   }
+  ],
+  "nota": "Città autonome di mercanti; alfabeto alla radice di quelli occidentali; Tiro presa da Alessandro nel 332 a.C. Il Met fa emergere le città intorno al 1500 a.C.: qui l’inizio è all’età del Ferro (1200 a.C.)."
+ },
+ {
+  "id": "event-bronze-age-collapse",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Bronze Age Collapse",
+    "url": "https://www.worldhistory.org/Bronze_Age_Collapse/"
+   },
+   {
+    "institution": "Nature",
+    "title": "Manning et al., Severe multi-year drought coincident with Hittite collapse around 1198–1196 BC (2023)",
+    "url": "https://www.nature.com/articles/s41586-022-05693-y"
+   }
+  ],
+  "nota": "Crollo tra XIII e XII secolo a.C. con cause intrecciate (siccità, crisi dei commerci, invasioni, rivolte); siccità 1198–1196 a.C. in Anatolia."
+ },
+ {
+  "id": "state-carthage",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Carthage",
+    "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Archaeological Site of Carthage",
+    "url": "https://whc.unesco.org/en/list/37/"
+   }
+  ],
+  "nota": "Fondazione tradizionale 814 a.C. da Tiro; distruzione romana nel 146 a.C. Sicilia persa nella prima guerra punica, Spagna nella seconda."
+ },
+ {
+  "id": "event-punic-wars",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Third Punic War",
+    "url": "https://www.worldhistory.org/Third_Punic_War/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Battle of Carthage (146 BCE)",
+    "url": "https://www.britannica.com/event/Battle-of-Carthage-146-BCE"
+   }
+  ],
+  "nota": "Tre guerre tra 264 e 146 a.C. (264–241, 218–201, 149–146); Cartagine distrutta nel 146 a.C."
+ },
+ {
+  "id": "religion-hinduism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hinduism: the history of Hinduism",
+    "url": "https://www.britannica.com/topic/Hinduism/The-history-of-Hinduism"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Upanishads",
+    "url": "https://www.worldhistory.org/Upanishads/"
+   }
+  ],
+  "nota": "Storia rintracciabile dal 1500 a.C. circa; religione vedica come precursore; Upanishad tra 800 e 500 a.C. Oltre il 90% degli indù vive in India."
+ },
+ {
+  "id": "invention-iron-metallurgy",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iron Age",
+    "url": "https://www.britannica.com/event/Iron-Age"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "The Age of Iron in West Africa",
+    "url": "https://www.metmuseum.org/toah/hd/iron/hd_iron.htm"
+   }
+  ],
+  "nota": "Età del Ferro dal 1200 a.C. circa in Medio Oriente ed Europa sud-orientale; in Africa occidentale fusione del ferro (Nok) forse già dal VI secolo a.C. Le origini africane sono dibattute."
+ },
+ {
+  "id": "event-greek-colonization",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Greek Colonization",
+    "url": "https://www.worldhistory.org/Greek_Colonization/"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Ancient Greece, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/04/eusb.html"
+   }
+  ],
+  "nota": "Colonizzazione dall’800 circa al 500 a.C., in Mediterraneo e Mar Nero, con diffusione di lingua e cultura greca."
+ },
+ {
+  "id": "culture-etruscan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Etruscan",
+    "url": "https://www.britannica.com/topic/Etruscan"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Etruscan Civilization (timeline)",
+    "url": "https://www.worldhistory.org/timeline/Etruscan_Civilization/"
+   }
+  ],
+  "nota": "Fioritura VIII–III secolo a.C.; la cultura villanoviana (IX–VIII sec.) ne è la fase iniziale; assorbiti da Roma, scompaiono come entità distinta nel I secolo a.C."
+ },
+ {
+  "id": "event-classical-athens",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Parthenon (summary)",
+    "url": "https://www.britannica.com/summary/Parthenon"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Athens (timeline)",
+    "url": "https://www.worldhistory.org/timeline/Athens/"
+   }
+  ],
+  "nota": "Atene distrutta dai Persiani nel 480 a.C.; età di Pericle 460–429; Partenone 447–432; guerra del Peloponneso fino al 404 a.C."
+ },
+ {
+  "id": "religion-daoism",
+  "fonti": [
+   {
+    "institution": "Stanford Encyclopedia of Philosophy",
+    "title": "Laozi",
+    "url": "https://plato.stanford.edu/entries/laozi/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dao",
+    "url": "https://www.britannica.com/topic/dao"
+   }
+  ],
+  "nota": "Il testo del Laozi/Daodejing è datato in prevalenza al IV secolo a.C.; per alcuni studiosi Laozi è leggendario. Data d’inizio discussa."
+ },
+ {
+  "id": "site-great-wall",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "The Great Wall",
+    "url": "https://whc.unesco.org/en/list/438/"
+   }
+  ],
+  "sostituisci_unesco_lista": true,
+  "nota": "Intorno al 220 a.C. Qin Shi Huang collega le fortificazioni precedenti; costruzione proseguita fino ai Ming (1368–1644)."
+ },
+ {
+  "id": "event-unificazione-della-cina-sotto-qin",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Qin dynasty",
+    "url": "https://www.britannica.com/topic/Qin-dynasty"
+   }
+  ],
+  "correzioni": {
+   "end_year": -207
+  },
+  "nota": "Dinastia Qin 221–207 a.C. secondo Britannica (prima: fine 206)."
+ },
+ {
+  "id": "event-indian-ocean-monsoon-trade",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Trade between the Romans and the Empires of Asia",
+    "url": "https://www.metmuseum.org/essays/trade-between-the-romans-and-the-empires-of-asia"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Map of the Trade in the Indian Ocean 15th–16th Centuries",
+    "url": "https://www.worldhistory.org/image/20178/map-of-the-trade-in-the-indian-ocean-15th-16th-cen/"
+   }
+  ],
+  "nota": "Grande espansione tra I secolo a.C. e I d.C. grazie ai monsoni; nel XV–XVI secolo mercanti arabi, persiani, indiani, swahili, malesi e cinesi collegano Africa orientale, Arabia, India, Sud-est asiatico e Cina."
+ },
+ {
+  "id": "empire-sasanian",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sasanian dynasty",
+    "url": "https://www.britannica.com/topic/Sasanian-dynasty"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "The Sasanian Empire (224–651 A.D.)",
+    "url": "https://www.metmuseum.org/essays/the-sasanian-empire-224-651-a-d"
+   }
+  ],
+  "nota": "Impero 224–651, zoroastrismo religione di stato, conflitti con Roma e Bisanzio, distrutto dagli Arabi tra 637 e 651."
+ },
+ {
+  "id": "empire-ghana",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Sahel: Art and Empires on the Shores of the Sahara",
+    "url": "https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara/inside-the-exhibition"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ghana (historical West African empire)",
+    "url": "https://www.britannica.com/place/Ghana-historical-West-African-empire"
+   }
+  ],
+  "nota": "Met: circa 300–1200; Britannica: dal VII al XIII secolo (fine nel 1240). Primo grande impero commerciale del Sahel, tra il sale del Sahara e l’oro del Senegal superiore."
+ },
+ {
+  "id": "state-frankish-carolingian",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of France: Frankish expansion",
+    "url": "https://www.britannica.com/topic/history-of-France"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "France: the partitioning of the Carolingian empire",
+    "url": "https://www.britannica.com/place/France/The-partitioning-of-the-Carolingian-empire"
+   }
+  ],
+  "nota": "Clodoveo re dal 481/482; Carlo Magno incoronato a Roma il 25 dicembre 800; trattato di Verdun 843."
+ },
+ {
+  "id": "event-nascita-ed-espansione-dellislam",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Arabian Peninsula, 500–1000 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/06/wap.html"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Islam",
+    "url": "https://www.worldhistory.org/islam/"
+   }
+  ],
+  "nota": "Prima rivelazione e predicazione dal 610; alla metà dell’VIII secolo (750) l’impero va dal Pakistan alla penisola iberica."
+ },
+ {
+  "id": "state-dynasty-tang",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Tang Dynasty (618–907)",
+    "url": "https://www.metmuseum.org/essays/tang-dynasty-618-906"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tang dynasty",
+    "url": "https://www.britannica.com/topic/Tang-dynasty"
+   }
+  ],
+  "nota": "618–907; Chang’an cosmopolita con mercanti dall’India alla Siria; esami per i funzionari; età d’oro della poesia; grande stagione del buddhismo."
+ },
+ {
+  "id": "invention-indian-numerals-zero",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zero (mathematics)",
+    "url": "https://www.britannica.com/science/zero-mathematics"
+   },
+   {
+    "institution": "MacTutor History of Mathematics (Università di St Andrews)",
+    "title": "Brahmagupta",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/"
+   }
+  ],
+  "nota": "Brahmagupta (Brahmasphutasiddhanta, 628) tratta lo zero come numero; il sistema passa al mondo islamico (al-Khwarizmi) e all’Europa con Fibonacci (Liber abaci, 1202)."
+ },
+ {
+  "id": "state-umayyad-caliphate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Umayyad dynasty (summary)",
+    "url": "https://www.britannica.com/summary/Umayyad-dynasty-Islamic-history"
+   }
+  ],
+  "nota": "Prima grande dinastia musulmana (661–750), capitale Damasco; sotto Abd al-Malik l’impero va dalla Spagna all’Asia centrale e all’India."
+ },
+ {
+  "id": "state-al-andalus",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Al-Andalus: The Art of Islamic Spain",
+    "url": "https://www.metmuseum.org/met-publications/al-andalus-the-art-of-islamic-spain"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Spain, 1000–1200: Art at the Frontiers of Faith",
+    "url": "https://www.metmuseum.org/exhibitions/spain-show-cloisters/exhibition-galleries"
+   }
+  ],
+  "nota": "Dal 711 al 1492; califfato di Córdoba dal 929 (Abd al-Rahman III), frammentato nei regni di taifa all’inizio dell’XI secolo; ultimo Granada (nasridi, 1238–1492)."
+ },
+ {
+  "id": "event-vikings",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Lindisfarne raid",
+    "url": "https://www.britannica.com/event/Lindisfarne-Raid"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Vinland (summary)",
+    "url": "https://www.britannica.com/summary/Vinland"
+   }
+  ],
+  "nota": "Incursione di Lindisfarne (8 giugno 793) come inizio dell’età vichinga; rotte dall’Islanda all’Europa orientale; insediamento di L’Anse aux Meadows intorno al 1000."
+ },
+ {
+  "id": "movement-swahili-coast",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Swahili Coast",
+    "url": "https://www.worldhistory.org/Swahili_Coast/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+    "url": "https://whc.unesco.org/en/list/144/"
+   }
+  ],
+  "nota": "Cultura swahili dall’VIII secolo, apogeo XII–XV secolo, commerci con Arabia, Persia, India e Cina; declino con l’arrivo dei Portoghesi nel XVI secolo."
+ },
+ {
+  "id": "event-classic-maya-collapse",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Maya Area, 500–1000 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/06/caa.html"
+   },
+   {
+    "institution": "Science",
+    "title": "Medina-Elizalde e Rohling, Collapse of Classic Maya Civilization Related to Modest Reduction in Precipitation (2012)",
+    "url": "https://www.science.org/doi/10.1126/science.1216629"
+   }
+  ],
+  "nota": "Dall’800 circa conflitti e crisi dei commerci; gran parte dei centri dell’area centrale abbandonati entro il 900; i centri del nord continuano a prosperare; siccità ricorrenti tra 800 e 1000."
+ },
+ {
+  "id": "empire-khmer-angkor",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Khmer empire",
+    "url": "https://www.britannica.com/topic/Khmer-Empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Angkor (summary)",
+    "url": "https://www.britannica.com/summary/Angkor"
+   }
+  ],
+  "nota": "Impero circa 802–1431; Angkor Wat (XII secolo, Suryavarman II) e Angkor Thom (circa 1200, Jayavarman VII). I bacini idrici (baray) non sono coperti dalle fonti citate."
+ },
+ {
+  "id": "movement-italian-communes",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Italian Peninsula, 1000–1400 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/07/eust.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Europe: trade and the Atlantic revolution",
+    "url": "https://www.britannica.com/topic/history-of-Europe/Trade-and-the-Atlantic-revolution"
+   }
+  ],
+  "nota": "Città-stato autonome dalla fine dell’XI all’inizio del XVI secolo; Venezia, Genova, Pisa e Amalfi potenze marittime; Venezia e Genova dominano i commerci con il Medio Oriente."
+ },
+ {
+  "id": "event-crusades",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Crusades",
+    "url": "https://www.britannica.com/event/Crusades"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Crusades: Consequences & Effects",
+    "url": "https://www.worldhistory.org/article/1273/the-crusades-consequences--effects/"
+   }
+  ],
+  "nota": "Prima crociata 1096–1099; caduta di Acri nel 1291; più commerci con il mondo musulmano e più intolleranza; crociate anche nel Baltico e in Iberia."
+ },
+ {
+  "id": "state-delhi-sultanate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Delhi sultanate",
+    "url": "https://www.britannica.com/place/Delhi-sultanate"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Slave (Mamluk) dynasty",
+    "url": "https://www.britannica.com/topic/Mamluk-dynasty-India"
+   }
+  ],
+  "nota": "Dal 1206 (dinastia mamelucca di origine turca) alla vittoria di Babur a Panipat nel 1526 (ultima dinastia Lodi, afghana); respinte più invasioni mongole."
+ },
+ {
+  "id": "event-impero-mongolo",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mongol empire",
+    "url": "https://www.britannica.com/place/Mongol-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pax Mongolica",
+    "url": "https://www.britannica.com/event/Pax-Mongolica"
+   }
+  ],
+  "nota": "Fondato da Gengis Khan nel 1206; il più grande impero terrestre contiguo della storia; scambi favoriti dalla Pax Mongolica; fine della dinastia Yuan in Cina nel 1368."
+ },
+ {
+  "id": "event-maori-settlement",
+  "fonti": [
+   {
+    "institution": "Te Ara – The Encyclopedia of New Zealand",
+    "title": "When was New Zealand first settled?",
+    "url": "https://teara.govt.nz/en/when-was-new-zealand-first-settled"
+   },
+   {
+    "institution": "PNAS",
+    "title": "A new chronology for the Māori settlement of Aotearoa (2022)",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.2207609119"
+   }
+  ],
+  "nota": "Arrivo dalla Polinesia orientale tra 1250 e 1300; la Nuova Zelanda è l’ultima grande terra abitabile a essere popolata."
+ },
+ {
+  "id": "site-tenochtitlan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mexico City: ancient foundations",
+    "url": "https://www.britannica.com/place/Mexico-City/History"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aztec",
+    "url": "https://www.britannica.com/topic/Aztec"
+   }
+  ],
+  "nota": "Fondata nel 1325 su un’isola del lago Texcoco; chinampas; Templo Mayor al centro; conquista di Cortés nel 1521. Popolazione stimata nel 1519 intorno a 200.000–400.000 (stime diverse)."
+ },
+ {
+  "id": "state-kongo-kingdom",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kongo (historical kingdom)",
+    "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Central Africa, 1400–1600 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/08/afc.html"
+   }
+  ],
+  "parziale": "La fine formale nel 1914 non è confermata dalle fonti consultate (World History Encyclopedia indica XIV–XIX secolo).",
+  "nota": "Fondato intorno al 1390 (Lukeni lua Nimi); battesimo del re nel 1491; rapporti con il Portogallo e crescita della tratta; declino nel XVII secolo."
+ },
+ {
+  "id": "site-machu-picchu",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Historic Sanctuary of Machu Picchu",
+    "url": "https://whc.unesco.org/en/list/274/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When was Machu Picchu built?",
+    "url": "https://www.britannica.com/question/When-was-Machu-Picchu-built"
+   }
+  ],
+  "sostituisci_unesco_lista": true,
+  "correzioni": {
+   "end_year": 1550,
+   "summary": "Tenuta reale inca costruita probabilmente per Pachacútec su un crinale delle Ande e abbandonata dopo la conquista spagnola. Rimasta quasi intatta, fu fatta conoscere al mondo esterno solo nel 1911."
+  },
+  "nota": "Costruita e abitata dalla metà del XV alla prima metà del XVI secolo (fine portata dal 1572 al 1550); tenuta di Pachacuti (r. 1438–1471). Tolta l’affermazione «mai raggiunta dagli spagnoli», non confermata dalle fonti."
+ },
+ {
+  "id": "movement-italian-renaissance",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Renaissance",
+    "url": "https://www.britannica.com/event/Renaissance"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Western architecture: the Renaissance",
+    "url": "https://www.britannica.com/art/Western-architecture/The-Renaissance"
+   }
+  ],
+  "nota": "Umanesimo in Italia dal XIV secolo; stile rinascimentale da Firenze all’inizio del Quattrocento, apogeo tra 1490 e 1520; Brunelleschi formula la prospettiva; diffusione in Europa entro la fine del Cinquecento. L’inizio al 1400 è una convenzione."
+ },
+ {
+  "id": "event-columbian-exchange",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Columbian Exchange",
+    "url": "https://www.britannica.com/event/Columbian-exchange"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Columbian Exchange",
+    "url": "https://www.worldhistory.org/Columbian_Exchange/"
+   }
+  ],
+  "nota": "Dal 1492: mais, patate, manioca verso il Vecchio Mondo; cavalli, bovini, maiali verso le Americhe; vaiolo, morbillo e influenza con crolli demografici catastrofici."
+ },
+ {
+  "id": "event-tratta-atlantica-degli-schiavi",
+  "fonti": [
+   {
+    "institution": "SlaveVoyages (Trans-Atlantic Slave Trade Database)",
+    "title": "A Brief Overview of the Trans-Atlantic Slave Trade",
+    "url": "https://legacy.slavevoyages.org/blog/brief-overview-trans-atlantic-slave-trade"
+   },
+   {
+    "institution": "SlaveVoyages",
+    "title": "Estimates: Trans-Atlantic Slave Trade",
+    "url": "https://www.slavevoyages.org/assessment/estimates/"
+   }
+  ],
+  "nota": "Stime 1501–1866, ultimo viaggio nel 1867; circa 12,5 milioni di persone imbarcate in Africa, 10,7 milioni arrivate nelle Americhe."
+ },
+ {
+  "id": "event-magellan-elcano",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ferdinand Magellan",
+    "url": "https://www.britannica.com/biography/Ferdinand-Magellan"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ferdinand Magellan (timeline)",
+    "url": "https://www.worldhistory.org/timeline/Ferdinand_Magellan/"
+   }
+  ],
+  "correzioni": {
+   "summary": "La prima navigazione intorno al mondo attraversa il Pacifico da est a ovest. Magellano muore a Mactan, nelle Filippine, nel 1521; la spedizione rientra in Spagna nel 1522 guidata da Juan Sebastián Elcano, con una sola nave."
+  },
+  "nota": "Partenza 1519, morte di Magellano il 27 aprile 1521, rientro della Victoria il 6 settembre 1522 con 22 dei circa 270 uomini. Tolta l’affermazione sulle «dimensioni reali del Pacifico», non coperta dalle fonti."
+ },
+ {
+  "id": "event-riforma-protestante-e-guerre-di-religione",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Protestant Reformation",
+    "url": "https://www.worldhistory.org/Protestant_Reformation/"
+   }
+  ],
+  "nota": "Inizio nel 1517 con le 95 tesi di Lutero; la periodizzazione 1517–1648 è la più accettata, ma non l’unica."
+ },
+ {
+  "id": "event-thirty-years-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Thirty Years’ War",
+    "url": "https://www.britannica.com/event/Thirty-Years-War"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Peace of Westphalia",
+    "url": "https://www.worldhistory.org/Peace_of_Westphalia/"
+   }
+  ],
+  "nota": "1618–1648; circa 8 milioni di morti secondo WHE; la pace di Vestfalia riconosce piena sovranità territoriale agli stati dell’Impero e dà origine al concetto di sovranità westfaliana."
+ },
+ {
+  "id": "event-smallpox-americas",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Columbian Exchange",
+    "url": "https://www.worldhistory.org/Columbian_Exchange/"
+   },
+   {
+    "institution": "CDC · Emerging Infectious Diseases",
+    "title": "Megadrought and Megadeath in 16th Century Mexico (2002)",
+    "url": "https://wwwnc.cdc.gov/eid/article/8/4/01-0175_article"
+   }
+  ],
+  "correzioni": {
+   "start_year": 1519
+  },
+  "nota": "Vaiolo dal 1519 (WHE); epidemia del 1519–1520 in Messico con 5–8 milioni di morti (CDC); entro il 1650 morto circa il 90% delle popolazioni native secondo le stime. Inizio portato dal 1518 al 1519 come nelle fonti citate."
+ },
+ {
+  "id": "state-new-spain",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Viceroyalty of New Spain",
+    "url": "https://www.britannica.com/place/Viceroyalty-of-New-Spain"
+   }
+  ],
+  "nota": "Primo dei quattro vicereami, istituito nel 1535 e durato fino al 1821; comprendeva i territori spagnoli a nord dell’istmo di Panama."
+ },
+ {
+  "id": "event-potosi-silver",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "City of Potosí",
+    "url": "https://whc.unesco.org/en/list/420/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Silver of the Conquistadors",
+    "url": "https://www.worldhistory.org/article/2049/the-silver-of-the-conquistadors/"
+   }
+  ],
+  "sostituisci_unesco_lista": true,
+  "nota": "Argento del Cerro Rico scoperto nel 1545; nel XVI secolo il più grande complesso industriale del mondo; quartieri dei lavoratori della mita."
+ },
+ {
+  "id": "site-taj-mahal",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Taj Mahal",
+    "url": "https://whc.unesco.org/en/list/252/"
+   }
+  ],
+  "nota": "Mausoleo costruito tra 1631/1632 e 1648 per Mumtaz Mahal; moschea, foresteria e porta completate nel 1653."
+ },
+ {
+  "id": "event-caribbean-sugar",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sugar Revolution",
+    "url": "https://www.britannica.com/topic/Sugar-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Slavery: slavery in the Americas",
+    "url": "https://www.britannica.com/topic/slavery-sociology/Slavery-in-the-Americas"
+   }
+  ],
+  "nota": "Rivoluzione dello zucchero a Barbados dagli anni Quaranta del Seicento; circa due terzi degli schiavi deportati finirono nelle colonie dello zucchero; abolizione nelle colonie britanniche nel 1834."
+ },
+ {
+  "id": "movement-enlightenment",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Enlightenment",
+    "url": "https://www.worldhistory.org/The_Enlightenment/"
+   },
+   {
+    "institution": "Stanford Encyclopedia of Philosophy",
+    "title": "Enlightenment",
+    "url": "https://plato.stanford.edu/entries/enlightenment/"
+   }
+  ],
+  "nota": "Dall’ultimo quarto del XVII all’ultimo quarto del XVIII secolo; ragione, libertà individuale, tolleranza; Locke, Montesquieu, Voltaire, Kant. Beccaria non è citato nelle fonti consultate, ma è un autore illuminista canonico."
+ },
+ {
+  "id": "event-australia-colonization",
+  "fonti": [
+   {
+    "institution": "National Museum of Australia",
+    "title": "The First Fleet arrives at Sydney Cove",
+    "url": "https://digital-classroom.nma.gov.au/defining-moments/first-fleet-arrives-sydney-cove"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Australia",
+    "url": "https://www.britannica.com/topic/history-of-Australia"
+   }
+  ],
+  "nota": "Colonia penale a Sydney Cove dal 26 gennaio 1788; violenze contro gli Eora fin dall’inizio; espropriazione dei popoli aborigeni; federazione nel 1901."
+ },
+ {
+  "id": "event-napoleon",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Napoleon I",
+    "url": "https://www.britannica.com/biography/Napoleon-I"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Napoleon Bonaparte (timeline)",
+    "url": "https://www.worldhistory.org/timeline/Napoleon_Bonaparte/"
+   }
+  ],
+  "nota": "Colpo di stato del 18 brumaio 1799; impero proclamato il 18 maggio 1804; codice civile; sconfitta a Waterloo il 18 giugno 1815."
+ },
+ {
+  "id": "event-abolition-slavery",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Transatlantic Slave Trade Timeline",
+    "url": "https://www.britannica.com/summary/Transatlantic-Slave-Trade-Timeline"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Slavery: ways of ending slavery",
+    "url": "https://www.britannica.com/topic/slavery-sociology/Ways-of-ending-slavery"
+   }
+  ],
+  "nota": "Abolizione britannica della tratta nel 1807; schiavitù abolita nelle colonie britanniche nel 1834, negli Stati Uniti nel 1865, a Cuba nel 1886; il Brasile ultimo nell’emisfero occidentale il 13 maggio 1888."
+ },
+ {
+  "id": "event-indipendenze-dellamerica-latina",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Latin America: the independence of Latin America",
+    "url": "https://www.britannica.com/place/Latin-America/The-independence-of-Latin-America"
+   }
+  ],
+  "nota": "Tra 1808 e 1826 tutta l’America Latina tranne Cuba e Porto Rico si stacca da Spagna e Portogallo; Brasile indipendente il 7 settembre 1822. L’intervallo 1810–1825 indica la fase delle guerre."
+ },
+ {
+  "id": "event-risorgimento",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Risorgimento",
+    "url": "https://www.britannica.com/event/Risorgimento"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: Garibaldi and the Thousand",
+    "url": "https://www.britannica.com/place/Italy/Garibaldi-and-the-Thousand"
+   }
+  ],
+  "nota": "Movimento dal 1815 circa; Regno d’Italia proclamato il 17 marzo 1861; Veneto nel 1866, Roma nel 1870, capitale dal 1871."
+ },
+ {
+  "id": "event-trail-of-tears",
+  "fonti": [
+   {
+    "institution": "U.S. National Archives",
+    "title": "Jackson’s Message to Congress On Indian Removal (1830)",
+    "url": "https://www.archives.gov/milestone-documents/jacksons-message-to-congress-on-indian-removal"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "American Expansion Turns to Official Indian Removal",
+    "url": "https://www.nps.gov/articles/american-expansion-turns-to-indian-removal.htm"
+   }
+  ],
+  "parziale": "La data di fine (1890) non è coperta dalle fonti citate.",
+  "nota": "Indian Removal Act del 28 maggio 1830; deportazioni degli anni Trenta verso il Territorio indiano (circa 100.000 persone secondo NPS); politica estesa verso ovest fino al Pacifico."
+ },
+ {
+  "id": "event-dichiarazione-dindipendenza-degli-stati-uniti",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Declaration of Independence",
+    "url": "https://www.britannica.com/topic/Declaration-of-Independence"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "American Revolution: the end of the war and the Peace of Paris (1783)",
+    "url": "https://www.britannica.com/event/American-Revolution/The-end-of-the-war-and-the-terms-of-the-Peace-of-Paris-1783"
+   }
+  ],
+  "nota": "Approvata dal Congresso continentale il 4 luglio 1776 per le 13 colonie; guerra conclusa dalla pace di Parigi del 3 settembre 1783."
+ },
+ {
+  "id": "event-mass-migration",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica (Students)",
+    "title": "Immigration to the United States: Great Atlantic Migration",
+    "url": "https://kids.britannica.com/students/article/immigration-to-the-United-States/631487"
+   },
+   {
+    "institution": "IOM · World Migration Report 2005",
+    "title": "Capitolo 3 (migrazioni storiche)",
+    "url": "https://publications.iom.int/system/files/pdf/wmr_2005_3.pdf"
+   }
+  ],
+  "nota": "Grande migrazione atlantica dagli anni Quaranta dell’Ottocento; circa 26 milioni di italiani partiti tra 1876 e 1976 (picco nel 1913); circa 10 milioni di cinesi emigrati tra 1840 e 1911."
+ },
+ {
+  "id": "state-british-raj",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "India: Government of India Act of 1858",
+    "url": "https://www.britannica.com/place/India/Government-of-India-Act-of-1858"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Partition of India",
+    "url": "https://www.britannica.com/event/Partition-of-India"
+   }
+  ],
+  "nota": "Dal Government of India Act del 2 agosto 1858 al 15 agosto 1947; carestie ripetute tra 1865 e 1900; rete ferroviaria; Congresso nazionale indiano dal 1885."
+ },
+ {
+  "id": "event-american-civil-war",
+  "fonti": [
+   {
+    "institution": "U.S. National Archives",
+    "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+    "url": "https://www.archives.gov/milestone-documents/13th-amendment"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Causes and Effects of the American Civil War",
+    "url": "https://www.britannica.com/summary/Causes-and-Effects-of-the-American-Civil-War"
+   }
+  ],
+  "nota": "1861–1865 tra Unione e 11 stati secessionisti; XIII emendamento approvato il 31 gennaio e ratificato il 6 dicembre 1865."
+ },
+ {
+  "id": "invention-suez-canal",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Suez Canal",
+    "url": "https://www.britannica.com/topic/Suez-Canal"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did the Suez Canal officially open?",
+    "url": "https://www.britannica.com/topic/When-did-the-Suez-Canal-officially-open"
+   }
+  ],
+  "nota": "Lavori 1859–1869, apertura ufficiale il 17 novembre 1869; rotta marittima più breve tra Europa e Asia."
+ },
+ {
+  "id": "movement-new-imperialism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "New Imperialism",
+    "url": "https://www.britannica.com/topic/New-Imperialism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Berlin West Africa Conference",
+    "url": "https://www.britannica.com/event/Berlin-West-Africa-Conference"
+   }
+  ],
+  "nota": "Dalla seconda metà dell’Ottocento al 1914, Africa e Asia; Conferenza di Berlino 15 novembre 1884 – 26 febbraio 1885, quadro per l’«occupazione effettiva»."
+ },
+ {
+  "id": "event-espansione-coloniale-europea-in-africa",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Scramble for Africa",
+    "url": "https://www.britannica.com/event/Scramble-for-Africa"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Berlin Conference 1884-5",
+    "url": "https://www.worldhistory.org/Berlin_Conference_1884-5/"
+   }
+  ],
+  "nota": "Negli anni Settanta dell’Ottocento gli europei controllavano circa il 10% dell’Africa, nel 1914 circa il 90% (restano indipendenti Etiopia e Liberia)."
+ },
+ {
+  "id": "event-mexican-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mexican Revolution",
+    "url": "https://www.britannica.com/event/Mexican-Revolution"
+   },
+   {
+    "institution": "Library of Congress",
+    "title": "The Mexican Revolution and the United States: timeline",
+    "url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/timeline.html"
+   }
+  ],
+  "nota": "1910–1920 contro la dittatura di Porfirio Díaz; Madero, Villa, Zapata, Carranza, Obregón; Costituzione del 5 febbraio 1917."
+ },
+ {
+  "id": "event-xinhai-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese Revolution (1911–12)",
+    "url": "https://www.britannica.com/event/Chinese-Revolution-1911-1912"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sun Yat-sen: the revolution of 1911",
+    "url": "https://www.britannica.com/biography/Sun-Yat-sen/The-revolution-of-1911"
+   }
+  ],
+  "correzioni": {
+   "summary": "L’ammutinamento di Wuchang (10 ottobre 1911) avvia la rivoluzione che porta all’abdicazione dell’ultimo imperatore, Puyi (12 febbraio 1912), e alla Repubblica di Cina: Sun Yat-sen ne è presidente provvisorio, poi gli succede Yuan Shikai."
+  },
+  "nota": "Precisato che Sun Yat-sen fu presidente provvisorio e lasciò il posto a Yuan Shikai nel febbraio 1912."
+ },
+ {
+  "id": "event-rivoluzione-russa",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Russian Revolution",
+    "url": "https://www.britannica.com/event/Russian-Revolution"
+   }
+  ],
+  "nota": "Due rivoluzioni nel 1917: a febbraio (marzo nel calendario gregoriano) abdica Nicola II; a ottobre (novembre) i bolscevichi di Lenin prendono il potere."
+ },
+ {
+  "id": "event-fascism-italy",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "March on Rome",
+    "url": "https://www.britannica.com/event/March-on-Rome"
+   },
+   {
+    "institution": "United States Holocaust Memorial Museum",
+    "title": "Benito Mussolini",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/benito-mussolini-1"
+   }
+  ],
+  "nota": "Marcia su Roma (28–30 ottobre 1922); Mussolini al governo dal 1922, dittatore dal 1925 al 1943; leggi antisemite del 1938; Patto d’acciaio con Hitler nel maggio 1939."
+ },
+ {
+  "id": "event-great-depression",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Great Depression",
+    "url": "https://www.britannica.com/event/Great-Depression"
+   }
+  ],
+  "nota": "Dal 1929 al 1939 circa, quasi ogni paese colpito; negli Stati Uniti disoccupazione oltre il 20%; il New Deal crea circa 8,5 milioni di posti di lavoro."
+ },
+ {
+  "id": "event-nazi-germany",
+  "fonti": [
+   {
+    "institution": "United States Holocaust Memorial Museum",
+    "title": "The Holocaust and World War II: Key Dates",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates"
+   },
+   {
+    "institution": "United States Holocaust Memorial Museum",
+    "title": "World War II in Europe",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe"
+   }
+  ],
+  "nota": "Hitler cancelliere il 30 gennaio 1933; regime nazista fino al 1945; ideologia razzista e progetto di espansione a est."
+ },
+ {
+  "id": "event-holocaust",
+  "fonti": [
+   {
+    "institution": "United States Holocaust Memorial Museum",
+    "title": "Introduction to the Holocaust",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust"
+   },
+   {
+    "institution": "United States Holocaust Memorial Museum",
+    "title": "How Many People did the Nazis Murder?",
+    "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution"
+   }
+  ],
+  "correzioni": {
+   "start_year": 1933,
+   "summary": "Persecuzione e sterminio sistematico di sei milioni di ebrei europei da parte della Germania nazista e dei suoi alleati, culminati nella «soluzione finale» (1941–1945). Furono perseguitati e uccisi anche rom, disabili, polacchi, prigionieri sovietici e altri gruppi."
+  },
+  "nota": "Il Museo dell’Olocausto di Washington data la Shoah 1933–1945, con la «soluzione finale» nel 1941–1945: inizio portato dal 1941 al 1933."
+ },
+ {
+  "id": "event-hiroshima-nagasaki",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pacific War: Hiroshima and Nagasaki",
+    "url": "https://www.britannica.com/topic/Pacific-War/Hiroshima-and-Nagasaki"
+   },
+   {
+    "institution": "The National WWII Museum",
+    "title": "The End of World War II 1945",
+    "url": "https://www.nationalww2museum.org/war/topics/end-world-war-ii-1945"
+   }
+  ],
+  "nota": "Bombe su Hiroshima (6 agosto 1945) e Nagasaki (9 agosto); circa 210.000 morti entro la fine del 1945 secondo Britannica; resa annunciata il 15 agosto."
+ },
+ {
+  "id": "event-united-nations",
+  "fonti": [
+   {
+    "institution": "Nazioni Unite",
+    "title": "History of the United Nations",
+    "url": "https://www.un.org/en/about-us/history-of-the-un"
+   },
+   {
+    "institution": "Nazioni Unite",
+    "title": "Universal Declaration of Human Rights",
+    "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+   }
+  ],
+  "nota": "Carta firmata il 26 giugno 1945, ONU in vigore dal 24 ottobre 1945; Dichiarazione universale proclamata a Parigi il 10 dicembre 1948."
+ },
+ {
+  "id": "event-cold-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cold War",
+    "url": "https://www.britannica.com/event/Cold-War"
+   }
+  ],
+  "nota": "1947–1991; rivalità politica, economica e propagandistica tra Stati Uniti e URSS con i rispettivi alleati; corsa agli armamenti, guerre per procura, corsa allo spazio; fine con lo scioglimento dell’URSS."
+ },
+ {
+  "id": "event-israel-1948",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "1948 Arab-Israeli War",
+    "url": "https://www.britannica.com/event/1948-Arab-Israeli-War"
+   },
+   {
+    "institution": "Nazioni Unite · UN News",
+    "title": "UN marks 75 years since displacement of 700,000 Palestinians",
+    "url": "https://news.un.org/en/story/2023/05/1136662"
+   }
+  ],
+  "nota": "Indipendenza dichiarata il 14 maggio 1948; invasione di Egitto, Transgiordania, Iraq, Siria e Libano; circa 700.000 palestinesi profughi (Nakba)."
+ },
+ {
+  "id": "event-apartheid",
+  "fonti": [
+   {
+    "institution": "South African History Online",
+    "title": "Nelson Mandela: Father of the Nation",
+    "url": "https://sahistory.org.za/article/nelson-mandela-father-nation"
+   },
+   {
+    "institution": "South African History Online",
+    "title": "Nelson Mandela is inaugurated as South Africa’s first democratic President",
+    "url": "https://sahistory.org.za/dated-event/nelson-mandela-inaugurated-south-africas-first-democratic-president-0"
+   }
+  ],
+  "nota": "Apartheid introdotto dal National Party nel 1948; prime elezioni democratiche il 27 aprile 1994; Mandela presidente dal 10 maggio 1994."
+ },
+ {
+  "id": "event-fondazione-della-repubblica-popolare-cinese",
+  "fonti": [
+   {
+    "institution": "U.S. Department of State · Office of the Historian",
+    "title": "The Chinese Revolution of 1949",
+    "url": "https://history.state.gov/milestones/1945-1952/chinese-rev"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese Civil War",
+    "url": "https://www.britannica.com/event/Chinese-Civil-War"
+   }
+  ],
+  "nota": "Proclamata da Mao il 1° ottobre 1949 dopo la guerra civile (1945–1949) contro i nazionalisti di Chiang Kai-shek."
+ },
+ {
+  "id": "event-cuban-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cuban Revolution",
+    "url": "https://www.britannica.com/event/Cuban-Revolution"
+   }
+  ],
+  "nota": "Dall’assalto alla caserma Moncada (26 luglio 1953) alla caduta di Batista (1° gennaio 1959); Fidel e Raúl Castro, Che Guevara; poi stato a partito unico allineato all’URSS."
+ },
+ {
+  "id": "event-civil-rights",
+  "fonti": [
+   {
+    "institution": "Library of Congress",
+    "title": "The African American Odyssey: The Civil Rights Era",
+    "url": "https://www.loc.gov/exhibits/african-american-odyssey/civil-rights-era.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Timeline of the American Civil Rights Movement",
+    "url": "https://www.britannica.com/list/timeline-of-the-american-civil-rights-movement"
+   }
+  ],
+  "nota": "Brown v. Board of Education (17 maggio 1954); boicottaggio di Montgomery dopo l’arresto di Rosa Parks (1955); Civil Rights Act 1964 e Voting Rights Act 1965; assassinio di Martin Luther King nel 1968."
+ },
+ {
+  "id": "event-vietnam-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Vietnam",
+    "url": "https://www.britannica.com/topic/history-of-Vietnam"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Fall of Saigon (1975)",
+    "url": "https://www.britannica.com/event/Fall-of-Saigon"
+   }
+  ],
+  "correzioni": {
+   "start_year": 1954
+  },
+  "nota": "Britannica data la guerra 1954–1975 (inizio portato dal 1955 al 1954); caduta di Saigon il 30 aprile 1975; unificazione formale il 2 luglio 1976."
+ },
+ {
+  "id": "event-deng-reforms",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Special economic zone (SEZ)",
+    "url": "https://www.britannica.com/money/special-economic-zone"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Deng Xiaoping",
+    "url": "https://www.britannica.com/biography/Deng-Xiaoping"
+   }
+  ],
+  "nota": "Riforme dal 1978 (decollettivizzazione, mercato, investimenti esteri); prime quattro zone economiche speciali nel 1980; nel 1992 politiche estese a una ventina di grandi città interne."
+ },
+ {
+  "id": "event-ussr-dissolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Collapse of the Soviet Union",
+    "url": "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union/The-rise-of-Yeltsin-and-the-foundation-of-post-Soviet-Russia"
+   }
+  ],
+  "nota": "Scioglimento formale il 31 dicembre 1991; 15 repubbliche diventano stati indipendenti; fine della Guerra fredda."
+ },
+ {
+  "id": "event-covid19",
+  "fonti": [
+   {
+    "institution": "Organizzazione mondiale della sanità",
+    "title": "Coronavirus disease (COVID-19) pandemic",
+    "url": "https://www.who.int/europe/emergencies/situations/covid-19"
+   },
+   {
+    "institution": "Organizzazione mondiale della sanità",
+    "title": "Coronavirus disease (COVID-19): fact sheet",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)"
+   }
+  ],
+  "nota": "Emergenza internazionale dal 30 gennaio 2020, pandemia dall’11 marzo 2020, fine dell’emergenza il 5 maggio 2023; oltre 7 milioni di morti segnalati (stima reale almeno 20 milioni); oltre 13,6 miliardi di dosi di vaccino entro il 2024."
+ },
+ {
+  "id": "event-caduta-di-costantinopoli",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Fall of Constantinople",
+    "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453"
+   }
+  ],
+  "nota": "29 maggio 1453, dopo 55 giorni di assedio, Mehmed II conquista la città; fine dell’Impero bizantino ed espansione ottomana nell’Europa orientale."
+ },
+ {
+  "id": "event-indipendenza-dellindia-e-partizione",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Partition of India",
+    "url": "https://www.britannica.com/event/Partition-of-India"
+   },
+   {
+    "institution": "The National Archives (UK)",
+    "title": "Partition of British India",
+    "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/"
+   }
+  ],
+  "nota": "Indian Independence Act del 18 luglio 1947, indipendenza di India e Pakistan il 15 agosto 1947; circa 15 milioni di sfollati, morti stimati tra 200.000 e 2 milioni."
+ }
+]

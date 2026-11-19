@@ -528,6 +528,7 @@ body.themed .more-link{color:var(--t-ink)!important}
 .only-mobile{display:none!important}
 body[data-view="tecnologia"] .time-dock{display:none!important} /* la vista Tecnologia usa la voce scelta, non l’anno */
 body[data-view="confronto"] .time-dock{display:none!important} /* v0.50: nel Confronto l’anno non cambia niente (la linea del tempo comparativa del codice ereditato non è mostrata): barra tolta */
+body[data-view="contemporanei"] .time-dock{display:none!important} /* v0.51: Contemporanei parte da una voce, non da un anno: spostare l’anno non cambiava niente (confermato da Luca) */
 @media(max-width:760px){.only-mobile{display:flex!important}.tech-row{grid-template-columns:1fr;gap:5px}.tech-area{padding-top:0}.tech-domain{padding:11px 11px 4px}}
 
 /* v0.47 · barra del tempo: slider a tratti allineato alle epoche */
