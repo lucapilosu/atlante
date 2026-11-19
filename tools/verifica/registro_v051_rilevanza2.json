@@ -1961,5 +1961,224 @@
   ],
   "nota": "Confermati: Njinga (Nzinga Mbande, c. 1582–1663) prese il potere nel Ndongo nel 1624, conquistò il Matamba nel 1630–32 e resistette ai portoghesi con la guerriglia e la diplomazia fino alla morte nel 1663; i portoghesi, stabiliti a Luanda dal 1575, intervenivano nella regione catturando prigionieri di guerra per la tratta.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "event-sakoku",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Japan: the bakuhan system (enforcement of national seclusion)",
+    "url": "https://www.britannica.com/place/Japan/The-bakuhan-system"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Meiji Restoration",
+    "url": "https://www.britannica.com/event/Meiji-Restoration"
+   }
+  ],
+  "nota": "Confermati: con il divieto alle navi portoghesi del 1639 si completarono gli editti della chiusura (sakoku); olandesi e cinesi poterono commerciare solo in modo limitato e confinati nell’isola di Dejima a Nagasaki; l’arrivo del commodoro Perry nel 1853 costrinse lo shogunato a porre fine all’isolamento.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-louis-xiv",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Louis XIV of France: The Sun King",
+    "url": "https://www.worldhistory.org/Louis_XIV_of_France/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Palace of Versailles",
+    "url": "https://www.britannica.com/topic/Palace-of-Versailles"
+   }
+  ],
+  "nota": "Confermati: re di Francia dal 1643 al 1715, detto il «Re Sole», governò da monarca assoluto e resta il simbolo dell’assolutismo; trasformò Versailles (1661–1710) in uno dei massimi palcoscenici dell’assolutismo europeo, attirandovi la grande nobiltà; la sua corte fu presa a modello dagli altri principi.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-cape-colony",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Southern Africa: the Dutch at the Cape",
+    "url": "https://www.britannica.com/place/Southern-Africa/European-and-African-interaction-from-the-15th-through-the-18th-century"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jan van Riebeeck",
+    "url": "https://www.britannica.com/biography/Jan-van-Riebeeck"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cape Town: history",
+    "url": "https://www.britannica.com/place/Cape-Town/History"
+   }
+  ],
+  "nota": "Confermati: nel 1652 la VOC inviò Jan van Riebeeck a fondare una stazione di rifornimento al Capo, che presto divenne colonia di insediamento; l’occupazione delle terre dei Khoekhoe portò alla guerra del 1659–60, la prima di molte, e nel Settecento le comunità khoekhoe furono decimate; la Gran Bretagna occupò il Capo nel 1806.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-maratha",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Maratha empire",
+    "url": "https://www.britannica.com/topic/Maratha-Empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Maratha confederacy",
+    "url": "https://www.britannica.com/topic/Maratha-confederacy"
+   }
+  ],
+  "nota": "Confermati: l’impero cominciò formalmente con l’incoronazione di Shivaji a Chhatrapati nel 1674, nell’India occidentale; nel XVIII secolo la confederazione maratha dominò gran parte del subcontinente; l’intervento della Compagnia britannica delle Indie Orientali la distrusse nel 1818.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-peter-the-great",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Peter I summary",
+    "url": "https://www.britannica.com/summary/Peter-the-Great"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Russian Empire: the reign of Peter the Great",
+    "url": "https://www.britannica.com/place/Russian-Empire/The-reign-of-Peter-the-Great"
+   }
+  ],
+  "nota": "Confermati: zar dal 1682 al 1725 (da solo dal 1696); dopo il viaggio in Europa occidentale (1697–98) introdusse tecnologie occidentali e modernizzò governo ed esercito; fondò San Pietroburgo nel 1703, capitale dal 1712.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-ashanti",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Asante empire",
+    "url": "https://www.britannica.com/place/Asante-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Ghana",
+    "url": "https://www.britannica.com/topic/history-of-Ghana"
+   }
+  ],
+  "nota": "Confermati: stato akan dell’odierno Ghana meridionale, nato dall’unione dei regni asante sotto Osei Tutu (tra il 1670 e il 1701) con capitale Kumasi e simbolo il Seggio d’oro; commerciava oro e schiavi con britannici e olandesi in cambio di armi da fuoco; resistette alla penetrazione britannica nell’Ottocento e fu conquistato nel 1896–1901 (protettorato britannico dal 1901). Britannica data l’impero 1701–1900.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-seven-years-war-america",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "French and Indian War",
+    "url": "https://www.worldhistory.org/French_and_Indian_War/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "French and Indian War: British advantages and victory",
+    "url": "https://www.britannica.com/event/French-and-Indian-War/British-advantages-and-victory"
+   }
+  ],
+  "nota": "Confermati: la guerra franco-indiana (1754–1763), fronte nordamericano della guerra dei Sette anni, portò alla caduta di Quebec (1759) e, con il trattato di Parigi del 1763, alla cessione del Canada alla Gran Bretagna; l’enorme debito di guerra spinse il Parlamento a tassare le Tredici Colonie, e la resistenza a quelle tasse portò alla rivoluzione americana.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-plassey",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Battle of Plassey",
+    "url": "https://www.britannica.com/event/Battle-of-Plassey"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Fall of the East India Company",
+    "url": "https://www.worldhistory.org/article/2096/fall-of-the-east-india-company/"
+   }
+  ],
+  "nota": "Confermati: il 23 giugno 1757 le truppe della Compagnia guidate da Robert Clive sconfissero il nawab del Bengala Siraj al-Dawla; la battaglia è considerata l’inizio del dominio britannico sul subcontinente; il governo della Compagnia sull’India finì nel 1858, quando la Corona ne prese i territori dopo la rivolta del 1857. Anno finale corretto da 1857 a 1858.",
+  "correzioni": {
+   "end_year": 1858
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-cook-voyages",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "James Cook",
+    "url": "https://www.britannica.com/biography/James-Cook"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "James Cook summary",
+    "url": "https://www.britannica.com/summary/James-Cook"
+   }
+  ],
+  "nota": "Confermati: tre spedizioni nel Pacifico (Endeavour 1768–71, Resolution 1772–75 e 1776–79) cartografarono tra l’altro tutta la Nuova Zelanda e la costa orientale dell’Australia; Cook fu ucciso a Kealakekua, nelle Hawaii, il 14 febbraio 1779.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-us-constitution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Constitution of the United States of America",
+    "url": "https://www.britannica.com/topic/Constitution-of-the-United-States-of-America"
+   },
+   {
+    "institution": "U.S. National Archives",
+    "title": "The Evolution of a Government: A Study of the United States Constitution",
+    "url": "https://www.archives.gov/files/atlanta/education/chronological-topics/images/constitution-guide.pdf"
+   }
+  ],
+  "nota": "Confermati: scritta nel 1787 dalla Convenzione di Filadelfia (firmata il 17 settembre), è la legge fondamentale del sistema federale statunitense e la più antica costituzione nazionale scritta ancora in vigore; emendata 27 volte. Il riassunto è stato riformulato: «prima costituzione scritta di una repubblica federale moderna» non è la formula delle fonti.",
+  "correzioni": {
+   "summary": "Scritta nel 1787 a Filadelfia, è la più antica costituzione nazionale scritta ancora in vigore e fonda il sistema federale degli Stati Uniti."
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-rivoluzione-haitiana",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Haitian Revolution",
+    "url": "https://www.britannica.com/topic/Haitian-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Slave rebellions",
+    "url": "https://www.britannica.com/topic/slave-rebellions"
+   }
+  ],
+  "nota": "Confermati: la grande rivolta degli schiavi di Saint-Domingue iniziò nell’agosto 1791; dopo una serie di conflitti con coloni ed eserciti francese e britannico, il 1° gennaio 1804 l’isola fu proclamata indipendente con il nome di Haiti, primo paese fondato da ex schiavi.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-napoleon-egypt",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Napoleon's Campaign in Egypt and Syria",
+    "url": "https://www.worldhistory.org/Napoleon's_Campaign_in_Egypt_and_Syria/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egyptology",
+    "url": "https://www.britannica.com/science/Egyptology"
+   }
+  ],
+  "nota": "Confermati: la spedizione francese in Egitto e Siria (1798–1801), guidata da Bonaparte, portò con sé 167 studiosi; fallì militarmente, ma portò alla scoperta della stele di Rosetta (1799) e alla Description de l’Égypte (1809–28), con cui secondo Britannica nasce l’egittologia.",
+  "data": "2026-11-19"
  }
 ]
