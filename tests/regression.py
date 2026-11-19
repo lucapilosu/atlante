@@ -205,6 +205,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     ok_zoom = after_zoom.get("closed") or after_zoom.get("dist", 99) <= 16
     R.check("T13", "Il popup segue il punto dopo scroll della pagina e zoom della mappa (o si chiude se il punto esce)",
             ok_scroll and ok_zoom, f"dopo scroll {after_scroll}, dopo zoom {after_zoom}")
+    await p.evaluate("()=>closeMapPointPopup()")  # v0.49: con più punti il popup può coprire i comandi di zoom
     await click_el(p, "#zoomReset")
     await p.wait_for_timeout(300)
     if not await p.is_visible("#mapPointPopup"):
@@ -312,7 +313,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T14 viste: una sola vista visibile, link attivo, anno/selezione/confronto conservati
     await set_year(p, -16)
-    await p.evaluate("()=>{selectItem('civilization-rome',{preserveYear:true});addCompare('culture-maya');addCompare('event-dinastia-han')}")
+    await p.evaluate("()=>{selectItem('civilization-rome',{preserveYear:true});addCompare('culture-maya');addCompare('civilization-han')}")
     state0 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
     bad = []
     order = ["contemporanei", "tecnologia", "universo", "impostazioni", "archivio", "impostazioni", "confronto", "esplora"] if mobile else ["contemporanei", "tecnologia", "universo", "confronto", "archivio", "impostazioni", "esplora"]
@@ -349,7 +350,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
         const badPins=pins.filter(id=>{const x=ALL.find(a=>a.id===id);return !(x.id===f.id||(x.start_year<=f.end_year&&x.end_year>=f.start_year))});
         const row=id=>document.querySelector(`#contempList .contemp-row[data-id='${id}'] .contemp-overlap`)?.textContent||'';
         return {title:document.getElementById('contempTitle').textContent,exp:exp.length,shown:shown.length,same:JSON.stringify(exp)===JSON.stringify(shown),
-          pins:pins.length,badPins,han:row('event-dinastia-han'),nur:row('culture-nuragic')}}""")
+          pins:pins.length,badPins,han:row('civilization-han'),nur:row('culture-nuragic')}}""")
     ok15 = (c15["same"] and c15["title"] == "Durante «Roma: Repubblica e Impero»" and c15["pins"] > 0 and not c15["badPins"]
             and c15["han"].startswith("insieme dal 206 a.C. al 220 d.C.") and c15["nur"] == "insieme dal 509 a.C. al 500 a.C. · ≈ 9 anni")
     R.check("T15", "Contemporanei: elenco e punti mostrano solo le voci sovrapposte alla durata scelta, con anni corretti",
@@ -358,8 +359,12 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T19 dal popup in Contemporanei, "Apri scheda" porta alla scheda nella vista Esplora
     await p.evaluate("document.getElementById('mappa').scrollIntoView({behavior:'instant'})")
-    await tap(p, p.locator("#pins .map-marker[data-id='event-dinastia-han']"), mobile)
+    await tap(p, p.locator("#pins .map-marker[data-id='civilization-han']"), mobile)
     await p.wait_for_timeout(300)
+    # v0.49: a Xi'an più voci condividono il punto; se il tocco apre un'altra voce, la si sceglie da «Qui vicino»
+    if await p.evaluate("()=>document.getElementById('mapPointPopup').dataset.itemId") != "civilization-han":
+        await tap(p, p.locator("#mapPointPopup [data-here='civilization-han']"), mobile)
+        await p.wait_for_timeout(300)
     await tap(p, p.locator("#mapPointPopup .popup-open"), mobile)
     await p.wait_for_timeout(700)
     v19 = await p.evaluate("()=>({view:currentView,hash:location.hash,h:document.querySelector('#detail h2')?.textContent,mapInEsplora:!!document.querySelector('#view-esplora #mappa')})")
@@ -733,6 +738,40 @@ async def new_checks(p, R, mobile, name):
     R.check("T35", "Testo leggibile (contrasto ≥ 4.5:1) nei dettagli del confronto, nell'Universo e nella sintesi Tecnologia, in tutte le palette",
             not low, "; ".join(low[:6]) or f"tutti ≥ 4.5:1")
     await goto_view(p, "esplora")
+
+    # T38 punti sovrapposti: il riepilogo elenca le altre voci nello stesso punto e permette di passare dall'una all'altra
+    await p.evaluate("()=>{closeDetail();hideToast();closeMapPointPopup()}")
+    await set_year(p, 1957)
+    await click_el(p, "#zoomReset"); await p.wait_for_timeout(250)
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
+    await tap(p, p.locator("#pins .map-marker[data-id='state-italian-republic']"), mobile); await p.wait_for_timeout(300)
+    t38 = await p.evaluate("""()=>{const pp=document.getElementById('mapPointPopup');return {open:!pp.hidden,id:pp.dataset.itemId,
+        here:[...pp.querySelectorAll('[data-here]')].map(b=>b.dataset.here)}}""")
+    other = (t38["here"] or [None])[0]
+    if other:
+        await tap(p, p.locator(f"#mapPointPopup [data-here='{other}']"), mobile); await p.wait_for_timeout(300)
+    after38 = await p.evaluate("""()=>{const pp=document.getElementById('mapPointPopup');return {open:!pp.hidden,id:pp.dataset.itemId,
+        here:[...pp.querySelectorAll('[data-here]')].map(b=>b.dataset.here)}}""")
+    pair = {"state-italian-republic", "event-treaties-of-rome"}
+    ok38 = (t38["open"] and pair <= set([t38["id"]] + t38["here"]) and after38["open"] and after38["id"] == other and t38["id"] in after38["here"])
+    R.check("T38", "Punti sovrapposti: «Qui vicino» nel riepilogo elenca le altre voci nello stesso punto e porta all'altra voce",
+            ok38, f"prima {t38}; dopo il tocco su {other}: {after38}")
+    await p.evaluate("()=>closeMapPointPopup()")
+
+    # T39 dati: ogni voce ha fonte, livello, rilevanza e area; nessun collegamento rotto; nessun nome doppio
+    t39 = await p.evaluate("""()=>{const ids=new Set(ALL.map(x=>x.id)),LAY=['civilta','eventi','tecnologie','persone-idee','luoghi'],
+        AR=['EU','AO','AN','AS','AM','AE','AC','SE','NA','MC','SA','OC','GL'],bad=[];
+        const norm=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim(),seen={};
+        for(const x of ALL){
+          if(!(x.source_ids||[]).length)bad.push(x.id+': senza fonte');
+          if(!LAY.includes(x.layer))bad.push(x.id+': livello '+x.layer);
+          if(![1,2,3].includes(x.relevance))bad.push(x.id+': rilevanza '+x.relevance);
+          if(!AR.includes(x.world_area))bad.push(x.id+': area '+x.world_area);
+          for(const r of [...(x.related_entities||[]),...(x.related_entity_ids||[])])if(!ids.has(r))bad.push(x.id+': collegamento rotto '+r);
+          const n=norm(x.name);if(seen[n])bad.push('nome doppio: '+x.name+' ('+seen[n]+', '+x.id+')');seen[n]=x.id}
+        return {n:ALL.length,bad}}""")
+    R.check("T39", "Dati: ogni voce ha fonte, livello, rilevanza e area mondiale; nessun collegamento rotto; nessun nome doppio",
+            not t39["bad"], f"{t39['n']} voci; " + ("; ".join(t39["bad"][:6]) or "tutto in ordine"))
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

@@ -1,5 +1,16 @@
 # Registro delle versioni
 
+## v0.49 · 19 novembre 2026
+- **Contenuti: base di storia mondiale bilanciata.** Da 176 a 437 voci (209 entità, 228 eventi), dal Neolitico (circa 11.000 a.C.) a oggi, distribuite su 13 aree del mondo e 8 periodi secondo il piano dei contenuti: 101 caselle su 104 hanno almeno una voce e la copertura rispetto agli obiettivi è 334 su 341. Restano vuote Sud-est asiatico prima del 3500 a.C. e Oceania tra 500 a.C. e 1000 d.C. (a livello di manuale le voci note sono paleolitiche o di datazione troppo incerta). Il Paleolitico è escluso di proposito.
+- **Approfondimenti con fonti specifiche.** Sardegna (Mont’e Prama, pozzo di Santa Cristina, Nora, Carta de Logu, Sa die de sa Sardigna, eradicazione della malaria, Statuto speciale), Maya e Yucatán (dinastia di Copán, murales di Bonampak, auto da fé di Maní), Rapa Nui (Hoa Hakananai’a, spedizione Routledge), Italia (spedizione dei Mille, Costituzione). Le voci già presenti su questi luoghi sono marcate con il loro focus.
+- **Fonti.** Ogni voce ora ha almeno una fonte. Le voci di base («Voce di base · fonte generale») hanno come riferimento il manuale aperto OpenStax World History (vol. 1 fino al 1450, vol. 2 dopo) e, dove il sito è Patrimonio UNESCO, la scheda o l’elenco UNESCO: sono sintesi di livello manuale, non confrontate riga per riga con le fonti. Le 38 voci che non avevano fonti ricevono lo stesso riferimento generale.
+- **Pulizia.** Unite 27 voci doppie (per esempio «Dinastia Han» evento ed entità, le due Prime e Seconde guerre mondiali, Achemenidi, Inca, Mexica/Aztechi): fonti e collegamenti confluiscono nella voce tenuta. Aggiunte le aree mancanti alle voci di Rapa Nui e Su Nuraxi.
+- **Campi nuovi nei dati.** `layer` (civiltà, eventi, tecnologie, persone e idee, luoghi), `relevance` (1 = centrale in un manuale, 3 = approfondimento), `world_area` (una delle 13 aree), `focus` (sardegna, maya, rapa-nui, europa). Servono alla futura linea del tempo a livelli; già ora l’Universo mostra per prime le voci con rilevanza 1 e sulla mappa queste stanno sopra le altre.
+- **Mappa: «Qui vicino».** Quando più voci cadono nello stesso punto (per esempio Repubblica Italiana e Trattati di Roma), il riepilogo le elenca e un tocco porta all’altra voce.
+- **Etichette leggibili.** Tipologie per religioni, movimenti e invenzioni; precisione, affidabilità e stato della voce in italiano nella scheda e nel confronto. La Preistoria va ora «fino al 1250 a.C.» e comprende anche le voci più antiche del 4000 a.C.
+- `tools/copertura.py` stampa la copertura per area e periodo rispetto agli obiettivi.
+- Test: 77 controlli (38 su desktop, 38 su iPhone 13 emulato, 1 su iPad emulato), con i nuovi su «Qui vicino» e sulla coerenza dei dati (fonte, livello, rilevanza e area per ogni voce, nessun collegamento rotto, nessun nome doppio).
+
 ## v0.48 · 19 novembre 2026
 - **Mappa.** Il riepilogo di un punto si chiude anche toccando un altro punto vuoto della mappa, toccando fuori dalla mappa o con Esc, non solo con ×. Trascinare o ingrandire la mappa e usare la barra del tempo non lo chiudono.
 - **Scheda a tendina.** Su telefono (e ora su tablet) la scheda si chiude trascinandola verso il basso, come su iPhone: dalla maniglia o dal contenuto quando è già in cima. Un tratto breve la rimette a posto, verso l’alto si allarga.

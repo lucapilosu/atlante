@@ -302,6 +302,8 @@ body{padding-bottom:54px}
 .map-point-popup strong{display:block;padding-right:24px;font-size:15px;line-height:1.2}
 .map-point-popup .popup-meta{font-size:11px;color:#647983;margin:5px 0 9px}
 .map-point-popup .popup-actions{display:flex;gap:7px}
+.map-point-popup .popup-here{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:-2px 0 9px;padding-top:7px;border-top:1px solid #e3ecef;font-size:11.5px;color:#4d6670}
+.map-point-popup .popup-here button{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;border:1px solid #cfe0e3;background:#f5f9fa;color:#14505a;border-radius:999px;padding:4px 9px;font-size:11.5px;font-weight:650}
 .map-point-popup .popup-add{flex:1;background:#e8f4f2;border:1px solid #9ac8c3;color:#145c60;font-size:12px;font-weight:700;padding:8px 10px}
 .map-point-popup .popup-open{background:#f5f8fa;border:1px solid #dce6e9;font-size:12px;padding:8px 10px}
 /* v0.44 · testo leggibile per "Apri scheda" nel popup mappa */
@@ -737,13 +739,18 @@ body.themed .compare-foot{color:var(--t-muted)!important}
 <div id="legacyHolder" hidden aria-hidden="true"><section class="panel year-panel" id="anno"><div class="topline"><div><div class="eyebrow">Anno selezionato</div><div class="small" id="activeCount">Caricamento delle schede…</div></div></div>
 <div class="yearrow"><div class="year" id="yearLabel">500 a.C.</div><input id="yearRange" type="range" min="-5000" max="2026" step="1" value="-1250" aria-label="Seleziona anno"><div class="small" id="yearCount">—</div></div>
 </section></div><div class="footer">Atlante storico del mondo · versione {{VERSIONE}} · prototipo interattivo · aggiornato al {{DATA}}<br>Contenuti sintetici per esplorazione: cronologie, fonti e geometrie saranno progressivamente approfondite.</div>
-</main><aside class="time-dock" id="timeDock" aria-label="Navigazione temporale permanente"><div class="dock-head"><span class="dock-kicker">ANNO</span><button type="button" class="dock-step" id="yearMinus" aria-label="Anno precedente">−</button><strong id="dockYear">—</strong><button type="button" class="dock-step" id="yearPlus" aria-label="Anno successivo">+</button></div><div class="dock-track"><input id="dockRange" type="range" min="0" max="1000" step="1" value="500" aria-label="Scorri la cronologia"><div class="dock-epochs"><div class="epoch-navigator" id="epochNavigator" aria-label="Navigazione per epoche"><button type="button" class="epoch-nav-segment" data-period="prehistory" style="--weight:18" title="Preistoria · 4000–1250 a.C."><span>Preistoria</span></button><button type="button" class="epoch-nav-segment" data-period="ancient" style="--weight:22" title="Antichità · 1250 a.C.–500 d.C."><span>Antichità</span></button><button type="button" class="epoch-nav-segment" data-period="medieval" style="--weight:20" title="Medioevo · 500–1700 d.C."><span>Medioevo</span></button><button type="button" class="epoch-nav-segment" data-period="modern" style="--weight:20" title="Età moderna · 1700–1963 d.C."><span>Moderna</span></button><button type="button" class="epoch-nav-segment" data-period="contemporary" style="--weight:20" title="Età contemporanea · dal 1963"><span>Cont.</span></button></div></div></div></aside>
+</main><aside class="time-dock" id="timeDock" aria-label="Navigazione temporale permanente"><div class="dock-head"><span class="dock-kicker">ANNO</span><button type="button" class="dock-step" id="yearMinus" aria-label="Anno precedente">−</button><strong id="dockYear">—</strong><button type="button" class="dock-step" id="yearPlus" aria-label="Anno successivo">+</button></div><div class="dock-track"><input id="dockRange" type="range" min="0" max="1000" step="1" value="500" aria-label="Scorri la cronologia"><div class="dock-epochs"><div class="epoch-navigator" id="epochNavigator" aria-label="Navigazione per epoche"><button type="button" class="epoch-nav-segment" data-period="prehistory" style="--weight:18" title="Preistoria · fino al 1250 a.C."><span>Preistoria</span></button><button type="button" class="epoch-nav-segment" data-period="ancient" style="--weight:22" title="Antichità · 1250 a.C.–500 d.C."><span>Antichità</span></button><button type="button" class="epoch-nav-segment" data-period="medieval" style="--weight:20" title="Medioevo · 500–1700 d.C."><span>Medioevo</span></button><button type="button" class="epoch-nav-segment" data-period="modern" style="--weight:20" title="Età moderna · 1700–1963 d.C."><span>Moderna</span></button><button type="button" class="epoch-nav-segment" data-period="contemporary" style="--weight:20" title="Età contemporanea · dal 1963"><span>Cont.</span></button></div></div></div></aside>
 <nav class="mobile-nav" aria-label="Viste dell’atlante"><a href="#esplora" data-view-link="esplora"><span>◎</span>Esplora</a><a href="#contemporanei" data-view-link="contemporanei"><span>⇆</span>Contemporanei</a><a href="#tecnologia" data-view-link="tecnologia"><span>⚒&#xFE0E;</span>Tecnologia</a><a href="#universo" data-view-link="universo"><span>✳</span>Universo</a><a href="#impostazioni" data-view-link="impostazioni" data-view-also="archivio confronto" aria-label="Altro: archivio e impostazioni"><span>⚙</span>Altro</a></nav>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script>
 const DB=__ATLANTE_DATI__;
 const COLORS={'Europa':'#087f8c','Vicino Oriente':'#d29b45','Africa':'#b85f50','Asia':'#557da5','Americhe':'#806a9b','Oceania':'#829b70','Pacifico':'#829b70','Globale':'#465c58'};
-const TYPE={'culture':'Cultura','archaeological_culture':'Cultura archeologica','archaeological_tradition':'Tradizione','archaeological_site':'Sito archeologico','site':'Sito','archaeological_period':'Periodo','state_sequence':'Regno / sequenza','state':'Stato','empire':'Impero','event':'Evento','political_union':'Unione politica'};
+const TYPE={'culture':'Cultura','archaeological_culture':'Cultura archeologica','archaeological_tradition':'Tradizione','archaeological_site':'Sito archeologico','site':'Sito','archaeological_period':'Periodo','archaeological_culture_period':'Cultura archeologica','archaeological_civilization':'Civiltà','state_sequence':'Regno / sequenza','state':'Stato','empire':'Impero','event':'Evento','political_union':'Unione politica','religion':'Religione','movement':'Movimento / processo','invention':'Invenzione / tecnica'};
+// v0.49: etichette leggibili per precisione, affidabilità e stato redazionale (i valori nei dati restano invariati)
+const PREC_IT={year:'anno',years:'anni',year_range:'intervallo di anni',range:'intervallo',approximate:'approssimata',approximate_range:'intervallo approssimato',century:'secolo',centuries:'secoli',millennia:'millenni',ongoing:'in corso'};
+const CONF_IT={high:'alta',medium:'media',debated:'discussa'};
+const STATUS_IT={'base-draft':'Voce di base · fonte generale','deep-dive-sourced':'Approfondimento · fonti specifiche','seed-verified':'Verificata su fonte','research-seed':'Da ricerca documentata','editorial-expansion':'Ampliamento editoriale','prototype-seed':'Prima versione','needs_review':'Da rivedere','needs_source':'Fonte da trovare',draft:'Bozza'};
+const precIt=v=>PREC_IT[v]||v,confIt=v=>CONF_IT[v]||v,statusIt=v=>STATUS_IT[v]||v;
 const E=DB.entities.map(x=>({...x,kind:x.entity_type||'culture'}));
 const EV=DB.events.map(x=>({...x,kind:'event',entity_type:'event',region:x.region||'Globale',summary:x.summary||'',start_year:x.start_year,end_year:x.end_year}));
 const ALL=[...E,...EV]; let selected=null, period='all', chosenYear=null; let universeSelectedIds=new Set(),universeFocusId=null;
@@ -751,7 +758,7 @@ const $=id=>document.getElementById(id);
 function fmt(y){if(y===0)return 'passaggio di era';if(y<0)return `${Math.abs(y).toLocaleString('it-IT')} a.C.`;return `${y.toLocaleString('it-IT')} d.C.`}
 function span(x){return `${fmt(x.start_year)}${x.end_year!==x.start_year?' – '+fmt(x.end_year):''}`}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-const PERIOD_BOUNDS={prehistory:[-4000,-1250],ancient:[-1250,500],medieval:[500,1700],modern:[1700,1963],contemporary:[1963,Infinity]};
+const PERIOD_BOUNDS={prehistory:[-Infinity,-1250],ancient:[-1250,500],medieval:[500,1700],modern:[1700,1963],contemporary:[1963,Infinity]};
 function periodMatch(x){if(period==='all')return true;const bounds=PERIOD_BOUNDS[period];if(!bounds)return true;return x.end_year>=bounds[0]&&x.start_year<bounds[1]}
 const DATA_MIN=Math.min(...ALL.map(x=>Number.isFinite(x.start_year)?x.start_year:0));
 const DATA_MAX=Math.max(...ALL.map(x=>Number.isFinite(x.end_year)?x.end_year:0));
@@ -777,7 +784,7 @@ function chooseOpeningYear(){
   return clampYear(pick);
 }
 chosenYear=chooseOpeningYear();
-period=chosenYear< -4000?'all':chosenYear< -1250?'prehistory':chosenYear<500?'ancient':chosenYear<1700?'medieval':chosenYear<1963?'modern':'contemporary';
+period=chosenYear< -1250?'prehistory':chosenYear<500?'ancient':chosenYear<1700?'medieval':chosenYear<1963?'modern':'contemporary';
 $('yearRange').value=chosenYear;
 function normalizeSearch(value){
   return String(value??'')
@@ -844,7 +851,7 @@ function renderDetail(){
  const related=relatedIds.map(id=>ALL.find(y=>y.id===id)).filter(Boolean);
  const relatedEvents=ALL.filter(y=>y.id!==x.id&&y.kind==='event'&&((y.related_entities||[]).includes(x.id)||(y.related_entity_ids||[]).includes(x.id)||relatedIds.includes(y.id))).sort((a,b)=>a.start_year-b.start_year).slice(0,8);
  const relatedButtons=related.length?`<div class="detail-links">${related.map(y=>`<button type="button" data-detail-link="${esc(y.id)}">${esc(y.name)} · ${esc(TYPE[y.kind]||y.kind)}</button>`).join('')}</div>`:'<p class="small">Nessuna relazione esplicita registrata.</p>';
- $('detail').innerHTML=`<div class="meta">${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')}</div><h2 class="detail-title">${esc(x.name)}</h2><div class="tags"><span class="tag">${esc(span(x))}</span><span class="tag">Precisione: ${esc(x.date_precision||'da definire')}</span><span class="tag">Confidenza: ${esc(confidence)}</span><span class="tag">${esc(status)}</span></div><div class="detail-compare-action"><button type="button" id="detailAddCompare" ${compareIds?.length>=5&&!compareIds.includes(x.id)?'disabled':''}>＋ ${compareIds?.includes(x.id)?'Nel confronto':'Aggiungi al confronto'}</button></div><p>${esc(x.summary||'Descrizione in preparazione.')}</p><p><b>Localizzazione:</b> ${esc(loc)}</p>${x.cultural_features?.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Caratteri culturali e tecnologici</h3><ul class="feature-list">${x.cultural_features.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}${relatedIds.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Luoghi e connessioni</h3>${relatedButtons}`:''}${relatedEvents.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Cronologia collegata</h3><div class="detail-chronology">${relatedEvents.map(y=>`<button type="button" data-detail-link="${esc(y.id)}"><b>${esc(y.name)}</b><small>${esc(span(y))} · ${esc(y.region||'')}</small></button>`).join('')}</div>`:''}${x.notes?`<div class="note"><b>Nota editoriale:</b> ${esc(x.notes)}</div>`:''}${sources.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Fonti di partenza (${sources.length})</h3>${sources.map(src=>`<div class="source"><b>${esc(src.institution||'Fonte')}</b><br><a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title||src.url)} ↗</a><div class="small">${esc(src.notes||'')}</div></div>`).join('')}`:'<div class="note">Fonti specifiche da associare o approfondire.</div>'}`;
+ $('detail').innerHTML=`<div class="meta">${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')}</div><h2 class="detail-title">${esc(x.name)}</h2><div class="tags"><span class="tag">${esc(span(x))}</span><span class="tag">Precisione: ${esc(x.date_precision?precIt(x.date_precision):'da definire')}</span><span class="tag">Affidabilità: ${esc(confIt(confidence))}</span><span class="tag" title="Stato redazionale della voce">${esc(statusIt(status))}</span></div><div class="detail-compare-action"><button type="button" id="detailAddCompare" ${compareIds?.length>=5&&!compareIds.includes(x.id)?'disabled':''}>＋ ${compareIds?.includes(x.id)?'Nel confronto':'Aggiungi al confronto'}</button></div><p>${esc(x.summary||'Descrizione in preparazione.')}</p><p><b>Localizzazione:</b> ${esc(loc)}</p>${x.cultural_features?.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Caratteri culturali e tecnologici</h3><ul class="feature-list">${x.cultural_features.map(f=>`<li>${esc(f)}</li>`).join('')}</ul>`:''}${relatedIds.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Luoghi e connessioni</h3>${relatedButtons}`:''}${relatedEvents.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Cronologia collegata</h3><div class="detail-chronology">${relatedEvents.map(y=>`<button type="button" data-detail-link="${esc(y.id)}"><b>${esc(y.name)}</b><small>${esc(span(y))} · ${esc(y.region||'')}</small></button>`).join('')}</div>`:''}${x.notes?`<div class="note"><b>Nota editoriale:</b> ${esc(x.notes)}</div>`:''}${sources.length?`<h3 style="font:18px Georgia;margin:15px 0 5px">Fonti di partenza (${sources.length})</h3>${sources.map(src=>`<div class="source"><b>${esc(src.institution||'Fonte')}</b><br><a href="${esc(src.url)}" target="_blank" rel="noopener">${esc(src.title||src.url)} ↗</a><div class="small">${esc(src.notes||'')}</div></div>`).join('')}`:'<div class="note">Fonti specifiche da associare o approfondire.</div>'}`;
  $('detail').querySelectorAll('[data-detail-link]').forEach(b=>b.addEventListener('click',()=>selectItem(b.dataset.detailLink)));
  const addBtn=$('detailAddCompare');if(addBtn)addBtn.addEventListener('click',()=>{addCompare(x.id);addBtn.textContent=compareIds.includes(x.id)?'✓ Nel confronto':'＋ Aggiungi al confronto';addBtn.disabled=compareIds.length>=5&&!compareIds.includes(x.id)});
 }
@@ -888,7 +895,10 @@ function openMapPointPopup(x,cx,cy){
   if(!popup||!stage||!svg)return;
   selected=x.id;universeFocusId=x.id;renderAll();uRender();
   popup.dataset.itemId=x.id;popup.dataset.cx=cx;popup.dataset.cy=cy;
-  popup.innerHTML=`<button type="button" class="popup-close" aria-label="Chiudi">×</button><strong>${esc(x.name)}</strong><div class="popup-meta">${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')} · ${esc(span(x))}</div><div class="popup-actions"><button type="button" class="popup-add">${compareIds.includes(x.id)?'✓ Nel confronto':'＋ Aggiungi al confronto'}</button><button type="button" class="popup-open">Apri scheda</button></div>`;
+  // v0.49: voci con il punto sovrapposto (stesso luogo, stesso periodo) elencate nel riepilogo, così ognuna resta raggiungibile
+  const here=mapPinsNear(x,cx,cy);
+  const hereHtml=here.length?`<div class="popup-here"><span>Qui vicino:</span>${here.slice(0,4).map(h=>`<button type="button" data-here="${esc(h.x.id)}" title="${esc(h.x.name)} · ${esc(span(h.x))}">${esc(h.x.name)}</button>`).join('')}${here.length>4?`<span>+${here.length-4}</span>`:''}</div>`:'';
+  popup.innerHTML=`<button type="button" class="popup-close" aria-label="Chiudi">×</button><strong>${esc(x.name)}</strong><div class="popup-meta">${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')} · ${esc(span(x))}</div>${hereHtml}<div class="popup-actions"><button type="button" class="popup-add">${compareIds.includes(x.id)?'✓ Nel confronto':'＋ Aggiungi al confronto'}</button><button type="button" class="popup-open">Apri scheda</button></div>`;
   popup.hidden=false;
   positionMapPointPopup();
   popup.querySelector('.popup-close').onclick=closeMapPointPopup;
@@ -896,6 +906,13 @@ function openMapPointPopup(x,cx,cy){
   add.disabled=compareIds.length>=5&&!compareIds.includes(x.id);
   add.onclick=()=>{if(!compareIds.includes(x.id))addCompare(x.id);closeMapPointPopup();};
   popup.querySelector('.popup-open').onclick=()=>{closeMapPointPopup();openInEsplora(x.id,{fitMap:false});};
+  popup.querySelectorAll('[data-here]').forEach(btn=>btn.onclick=ev=>{ev.stopPropagation();const h=here.find(v=>v.x.id===btn.dataset.here);if(h)openMapPointPopup(h.x,h.cx,h.cy);});
+}
+function mapPinsNear(x,cx,cy){
+  const svgW=worldSvg?.getBoundingClientRect().width||900,pxPerUnit=Math.max(.05,svgW/900*mapZoom);
+  const ids=[...document.querySelectorAll('#pins .map-marker')].map(g=>g.dataset.id).filter(id=>id!==x.id);
+  return ids.map(id=>ALL.find(v=>v.id===id)).filter(Boolean).map(v=>({x:v,cx:(Number(v.map_geometry.longitude)+180)/360*900,cy:(90-Number(v.map_geometry.latitude))/180*450}))
+    .filter(h=>Math.hypot(h.cx-cx,h.cy-cy)*pxPerUnit<=12).sort((a,b)=>(a.x.relevance||2)-(b.x.relevance||2)||a.x.start_year-b.x.start_year);
 }
 function renderPins(){
   const openPopup=$('mapPointPopup');if(openPopup&&!openPopup.hidden){const popupItem=ALL.find(v=>v.id===openPopup.dataset.itemId);if(!popupItem||!pinVisible(popupItem))closeMapPointPopup();}
@@ -922,6 +939,8 @@ function renderPins(){
   // Nessuna selezione fuori periodo viene forzata sulla mappa: coerenza cronologica prima di tutto.
   // Salvaguardia contro dataset futuri molto grandi, senza tagliare le viste attuali.
   if(items.length>500)items=items.slice(0,500);
+  // v0.49: le voci più centrali (rilevanza 1) sono disegnate per ultime, quindi sopra le altre nello stesso punto
+  items.sort((a,b)=>(b.relevance||2)-(a.relevance||2));
   const layer=$('pins');
   if(!layer)return;
   // Ensure markers are always the topmost SVG layer.
@@ -1024,7 +1043,7 @@ function renderComparator(){
  $('compareChips').querySelectorAll('[data-remove-compare]').forEach(b=>b.addEventListener('click',()=>removeCompare(b.dataset.removeCompare)));
  const out=$('compareOutput');
  if(items.length<2){out.innerHTML='<div class="compare-empty">Aggiungi ancora '+(2-items.length)+' '+(items.length===1?'voce':'voci')+' per avviare il confronto. Puoi arrivare fino a cinque.</div>';return;}
- const fields=[['Tipologia',x=>TYPE[x.kind]||x.kind],['Area geografica',x=>[x.region,x.subregion].filter(Boolean).join(' · ')||'Non specificata'],['Cronologia',x=>span(x)],['Precisione cronologica',x=>x.date_precision||'Non specificata'],['Affidabilità della datazione',x=>x.date_confidence||'Non specificata'],['Localizzazione',x=>x.map_geometry?.label||x.place_name||x.subregion||'Non specificata'],['Descrizione',x=>x.summary||'Descrizione non disponibile'],['Fonti associate',x=>String((x.source_ids||[]).length)],['Connessioni registrate',x=>String([...(x.related_entities||[]),...(x.related_entity_ids||[])].length)]];
+ const fields=[['Tipologia',x=>TYPE[x.kind]||x.kind],['Area geografica',x=>[x.region,x.subregion].filter(Boolean).join(' · ')||'Non specificata'],['Cronologia',x=>span(x)],['Precisione cronologica',x=>x.date_precision?precIt(x.date_precision):'Non specificata'],['Affidabilità della datazione',x=>x.date_confidence?confIt(x.date_confidence):'Non specificata'],['Localizzazione',x=>x.map_geometry?.label||x.place_name||x.subregion||'Non specificata'],['Descrizione',x=>x.summary||'Descrizione non disponibile'],['Fonti associate',x=>String((x.source_ids||[]).length)],['Connessioni registrate',x=>String([...(x.related_entities||[]),...(x.related_entity_ids||[])].length)]];
  const table=`<div class="compare-table-wrap"><table class="compare-table"><thead><tr><th>Caratteristica</th>${items.map(x=>`<th>${esc(x.name)}</th>`).join('')}</tr></thead><tbody>${fields.map(([label,get])=>`<tr><td>${esc(label)}</td>${items.map(x=>`<td>${esc(get(x))}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
  // Timeline comparativa: ogni voce occupa una riga e condivide la stessa scala assoluta.
  // Gli intervalli restano leggibili anche su mobile tramite scorrimento orizzontale.
@@ -1539,9 +1558,9 @@ function uRender(){
  const inCmp=x=>compareIds.includes(x.id)||universeSelectedIds.has(x.id);
  let y=axisH,back='',nodes='',centers={},hiddenTotal=0;
  lanes.forEach((d,li)=>{
-  // prima le voci scelte o nel confronto, poi in ordine di inizio: ogni voce prende la prima riga libera
+  // prima le voci scelte o nel confronto, poi le più centrali (rilevanza 1, v0.49), poi in ordine di inizio: ogni voce prende la prima riga libera
   const pri=x=>(x.id===selected||x.id===universeFocusId||inCmp(x))?0:1;
-  const items=d.items.slice().sort((a,b)=>pri(a)-pri(b)||a.start_year-b.start_year||(b.end_year-b.start_year)-(a.end_year-a.start_year)||a.name.localeCompare(b.name));
+  const items=d.items.slice().sort((a,b)=>pri(a)-pri(b)||(a.relevance||2)-(b.relevance||2)||a.start_year-b.start_year||(b.end_year-b.start_year)-(a.end_year-a.start_year)||a.name.localeCompare(b.name));
   const rows=[],placed=[],hidden=[];
   items.forEach(x=>{
    const s=Math.max(min,x.start_year),e=Math.min(max,x.end_year);

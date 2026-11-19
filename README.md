@@ -18,6 +18,7 @@ Sito: https://lucapilosu.github.io/atlante/
 - `data/atlante.json`: voci, eventi, fonti, ambiti tecnici (`technology_domains`) e attestazioni tecniche (`technologies`).
 - `data/mappa-dettaglio.json`: cartografia di dettaglio (Natural Earth 1:50m, dominio pubblico, tramite il pacchetto npm world-atlas), caricata dalla pagina quando si ingrandisce la mappa.
 - `tools/cartografia_dettaglio.mjs`: rigenera `data/mappa-dettaglio.json`.
+- `tools/copertura.py`: copertura dei contenuti per area del mondo e periodo, confrontata con gli obiettivi del piano.
 - `versione.json`: numero di versione e data mostrati nella pagina.
 - `build.py`: controlla i dati e costruisce `index.html`, un file unico che si apre anche senza connessione.
 - `index.html`: la pagina pubblicata (generata: non modificarla a mano).
@@ -36,3 +37,5 @@ Cartografia: Natural Earth (dominio pubblico), via world-atlas di Mike Bostock (
 
 ## Note sui contenuti
 Coordinate, aree e cronologie sono indicative: le aree storiche sono ricostruzioni approssimative, non confini certi, e diverse voci sono ancora da verificare sulle fonti.
+
+Dalla v0.49 l’atlante ha una base di storia mondiale bilanciata (13 aree, 8 periodi, dal Neolitico a oggi) e approfondimenti su Sardegna, Maya e Yucatán, Rapa Nui e Italia. Lo stato di ogni voce è nel campo `editorial_status`: `base-draft` indica una sintesi di livello manuale con un riferimento generale (OpenStax World History, ed eventualmente UNESCO), non verificata riga per riga; `deep-dive-sourced` indica una voce di approfondimento con fonti specifiche. Ogni voce ha anche `layer`, `relevance` (1–3), `world_area` e, se c’è, `focus`.
