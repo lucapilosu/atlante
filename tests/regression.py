@@ -829,6 +829,15 @@ async def new_checks(p, R, mobile, name):
     R.check("T42", "«✓ Nel confronto» toccato di nuovo toglie la voce dal confronto (mappa, scheda, Nel mondo intorno, Universo); la voce resta selezionata e un avviso lo conferma",
             ok42, f"mappa: etichetta '{lab42}', dopo il tocco {m42}; scheda {s42}; Nel mondo intorno {y42}; Universo {u42}")
 
+    # T43 barra del tempo: nascosta in Confronto e Tecnologia (lì l'anno non cambia niente), visibile nelle altre viste che lo usano
+    vis43 = {}
+    for v in ["esplora", "contemporanei", "tecnologia", "universo", "confronto"]:
+        await goto_view(p, v); await p.wait_for_timeout(150)
+        vis43[v] = await p.evaluate("()=>{const d=document.getElementById('timeDock');return getComputedStyle(d).display!=='none'&&d.getBoundingClientRect().height>0}")
+    await goto_view(p, "esplora")
+    ok43 = vis43 == {"esplora": True, "contemporanei": True, "tecnologia": False, "universo": True, "confronto": False}
+    R.check("T43", "Barra del tempo nascosta in Confronto e Tecnologia, visibile in Esplora, Contemporanei e Universo", ok43, f"{vis43}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
