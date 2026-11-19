@@ -803,6 +803,32 @@ async def new_checks(p, R, mobile, name):
     R.check("T41", "Anno di apertura: periodo a caso tra gli 8 del piano, anno con voci di rilevanza 1 attive, mai uguale a quello della volta prima",
             ok41, f"800 aperture simulate: per periodo {t41['per']}; anni diversi {t41['distinct']}; ripetizioni consecutive {t41['repeats']}; minimo voci di rilevanza 1 attive {t41['minRel1']}")
 
+    # T42 «✓ Nel confronto» toccato di nuovo toglie la voce dal confronto: mappa (con tocco vero), scheda, «Nel mondo intorno», Universo
+    await goto_view(p, "esplora")
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast();closeMapPointPopup()}")
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
+    mk42 = p.locator("#pins .map-marker").first
+    await tap(p, mk42, mobile); await p.wait_for_timeout(300)
+    pid42 = await p.evaluate("()=>document.getElementById('mapPointPopup').dataset.itemId")
+    await tap(p, p.locator("#mapPointPopup .popup-add"), mobile); await p.wait_for_timeout(300)
+    await p.evaluate("()=>hideToast()")
+    await tap(p, mk42, mobile); await p.wait_for_timeout(300)
+    lab42 = await p.evaluate("()=>document.querySelector('#mapPointPopup .popup-add')?.textContent||''")
+    await tap(p, p.locator("#mapPointPopup .popup-add"), mobile); await p.wait_for_timeout(300)
+    m42 = await p.evaluate("(id)=>({in:compareIds.includes(id),sel:selected,toast:document.getElementById('toast').textContent,go:!!document.querySelector('#toast [data-toast-go]')})", pid42)
+    s42 = await p.evaluate("""()=>{const id='civilization-rome';openInEsplora(id);const b=()=>document.getElementById('detailAddCompare');const out=[];
+        out.push(b().textContent);b().click();out.push(compareIds.includes(id),b().textContent);b().click();out.push(compareIds.includes(id),b().textContent,selected);return out}""")
+    y42 = await p.evaluate("""()=>{const b=()=>document.querySelector('#syncList [data-sync-compare]');if(!b())return null;const id=b().dataset.syncCompare;
+        b().click();const a=compareIds.includes(id);b().click();return [a,compareIds.includes(id)]}""")
+    u42 = await p.evaluate("""()=>{const id='civilization-rome';uShowTip(id,200,200);const b=()=>document.querySelector('#universeTooltip .pop-compare');
+        b().click();const a=[compareIds.includes(id),b().textContent];b().click();const r=[...a,compareIds.includes(id),b().textContent];document.getElementById('universeTooltip').hidden=true;return r}""")
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast();closeMapPointPopup()}")
+    ok42 = (lab42 == "✓ Nel confronto" and not m42["in"] and m42["sel"] == pid42 and "tolto dal confronto · 0/5" in m42["toast"] and not m42["go"]
+            and s42 == ["＋ Aggiungi al confronto", True, "✓ Nel confronto", False, "＋ Aggiungi al confronto", "civilization-rome"]
+            and y42 == [True, False] and u42 == [True, "✓ Nel confronto", False, "＋ Aggiungi al confronto"])
+    R.check("T42", "«✓ Nel confronto» toccato di nuovo toglie la voce dal confronto (mappa, scheda, Nel mondo intorno, Universo); la voce resta selezionata e un avviso lo conferma",
+            ok42, f"mappa: etichetta '{lab42}', dopo il tocco {m42}; scheda {s42}; Nel mondo intorno {y42}; Universo {u42}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
