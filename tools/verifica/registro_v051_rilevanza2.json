@@ -1730,5 +1730,236 @@
   ],
   "nota": "Confermati: terzo imperatore moghul (1556–1605), consolidò ed estese l’impero accentrandone l’amministrazione; si interessò alle religioni del regno per promuovere la tolleranza, fece costruire nel 1575–76 l’Ibadat Khana per i dibattiti tra teologi di diverse fedi e promosse il Din-i Ilahi.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "event-manila-galleons",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Manila Galleon",
+    "url": "https://www.worldhistory.org/Manila_Galleon/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippines: the Spanish period",
+    "url": "https://www.britannica.com/place/Philippines/The-Spanish-period"
+   }
+  ],
+  "nota": "Confermati: dal 1565 al 1815 i galeoni spagnoli portavano ogni anno da Manila ad Acapulco seta, spezie e porcellana asiatiche e tornavano carichi d’argento americano; Britannica descrive lo scambio di sete cinesi con argento messicano; WHE lega la rotta all’economia dell’argento della Cina Ming.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-unification-japan",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Azuchi-Momoyama Period",
+    "url": "https://www.worldhistory.org/Azuchi-Momoyama_Period/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Oda Nobunaga",
+    "url": "https://www.britannica.com/biography/Oda-Nobunaga"
+   }
+  ],
+  "nota": "Confermati: Oda Nobunaga prese Kyoto nel 1568 e avviò l’unificazione, mettendo fine al periodo Sengoku; Toyotomi Hideyoshi la completò negli anni 1590; Tokugawa Ieyasu, vincitore a Sekigahara (1600), divenne shogun nel 1603.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-spanish-manila",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Miguel López de Legazpi",
+    "url": "https://www.britannica.com/biography/Miguel-Lopez-de-Legazpi"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippines: the Spanish period",
+    "url": "https://www.britannica.com/place/Philippines/The-Spanish-period"
+   }
+  ],
+  "nota": "Confermati: Legazpi fondò Manila nel 1571, capitale della colonia e principale porto commerciale spagnolo in Asia orientale, collegato al Messico dal commercio dei galeoni con Acapulco; il dominio spagnolo durò fino alla guerra ispano-americana del 1898. Il primo insediamento spagnolo permanente risale al 1565 (Cebu).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-russian-siberia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arctic: early Russian exploration",
+    "url": "https://www.britannica.com/place/Arctic/Early-Russian-exploration"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Central Asia: the Russian conquests",
+    "url": "https://www.britannica.com/place/history-of-Central-Asia-102306/The-modern-period-the-age-of-decadence"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of China: the early Qing dynasty",
+    "url": "https://www.britannica.com/topic/history-of-China/The-early-Qing-dynasty"
+   }
+  ],
+  "nota": "Confermati: nel 1581–82 il cosacco Ermak, per conto dei mercanti Stroganov, varcò gli Urali e conquistò il khanato di Sibir; l’avanzata, mossa dal commercio delle pellicce, raggiunse il Pacifico nel 1641; il trattato di Nerčinsk (1689) cercò di fissare il confine con la Cina Qing. Britannica indica anche il 1578 come possibile anno della spedizione di Ermak.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-matteo-ricci",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Matteo Ricci",
+    "url": "https://www.britannica.com/biography/Matteo-Ricci"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of China: the Ming dynasty",
+    "url": "https://www.britannica.com/topic/history-of-China/The-Ming-dynasty"
+   }
+  ],
+  "nota": "Confermati: gesuita nato a Macerata nel 1552, iniziò la missione in Cina nel 1583 e morì a Pechino nel 1610; insegnò matematica e scienza ai letterati cinesi e disegnò un mappamondo che cambiò la visione cinese della geografia mondiale.",
+  "parziale": "il ruolo di Ricci nel far conoscere all’Europa il pensiero confuciano non compare nelle fonti consultate.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-imjin-war",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Japanese Invasion of Korea, 1592-8 CE",
+    "url": "https://www.worldhistory.org/article/1398/the-japanese-invasion-of-korea-1592-8-ce/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Siege of Busanjin (1592)",
+    "url": "https://www.britannica.com/event/Siege-of-Busanjin"
+   }
+  ],
+  "nota": "Confermati: Hideyoshi invase la Corea nel 1592 e di nuovo nel 1597 per arrivare alla Cina Ming; la flotta coreana dell’ammiraglio Yi Sun-sin, l’esercito Ming e i ribelli locali fermarono l’invasione, che si chiuse nel 1598 con la morte di Hideyoshi.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-dahomey",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dahomey (historical kingdom)",
+    "url": "https://www.britannica.com/place/Dahomey-historical-kingdom-Africa"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Royal Palaces of Abomey",
+    "url": "https://whc.unesco.org/en/list/323/"
+   }
+  ],
+  "nota": "Confermati: regno dell’Africa occidentale (odierno Benin meridionale) con un esercito permanente che comprendeva un contingente femminile; fu un grande fornitore di schiavi per la tratta atlantica nel XVIII e all’inizio del XIX secolo; i palazzi reali di Abomey, patrimonio UNESCO, testimoniano i dodici re succedutisi tra il 1625 e il 1900. Date corrette da 1600–1904 a c. 1625–1894 secondo Britannica (UNESCO: 1625–1900).",
+  "correzioni": {
+   "start_year": 1625,
+   "end_year": 1894
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "movement-chartered-companies",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "East India Company",
+    "url": "https://www.worldhistory.org/East_India_Company/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Dutch East India Company",
+    "url": "https://www.worldhistory.org/Dutch_East_India_Company/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "5 Fast Facts About the East India Company",
+    "url": "https://www.britannica.com/story/5-fast-facts-about-the-east-india-company"
+   }
+  ],
+  "nota": "Confermati: la Compagnia inglese delle Indie Orientali nacque per carta reale il 31 dicembre 1600 come società per azioni, quella olandese (VOC) il 20 marzo 1602; disponevano di flotte ed eserciti privati e la compagnia inglese divenne di fatto il governo coloniale di gran parte dell’India; la VOC fu sciolta nel 1799, la compagnia inglese formalmente nel 1874.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-jamestown",
+  "fonti": [
+   {
+    "institution": "U.S. National Park Service",
+    "title": "A Short History of Jamestown",
+    "url": "https://www.nps.gov/jame/learn/historyculture/a-short-history-of-jamestown.htm"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "Historic Jamestowne: Frequently Asked Questions",
+    "url": "https://www.nps.gov/jame/faqs.htm"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "European Colonization of the Americas",
+    "url": "https://www.worldhistory.org/European_Colonization_of_the_Americas/"
+   }
+  ],
+  "nota": "Confermati: Jamestown (1607) fu il primo insediamento inglese permanente in Nord America, Plymouth seguì nel 1620; nel 1619 arrivarono in Virginia i primi africani documentati, catturati con la forza. NPS e WHE segnalano che non è certo se all’inizio fossero trattati da schiavi o da servi a contratto; la schiavitù si istituzionalizzò nei decenni successivi.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-new-france",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "New France",
+    "url": "https://www.britannica.com/place/New-France"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Canada: Samuel de Champlain",
+    "url": "https://www.britannica.com/place/Canada/Samuel-de-Champlain"
+   }
+  ],
+  "nota": "Confermati: Champlain fondò Quebec nel 1608 come forte per il commercio delle pellicce sul San Lorenzo; i francesi si allearono con gli Algonchini (e i Wendat) nella rivalità per il commercio interno; nel 1763 il Canada passò ai britannici. Britannica fa partire la Nuova Francia dalla presa di possesso di Cartier nel 1534.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-voc-batavia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jan Pieterszoon Coen",
+    "url": "https://www.britannica.com/biography/Jan-Pieterszoon-Coen"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indonesia: growth and impact of the Dutch East India Company",
+    "url": "https://www.britannica.com/place/Indonesia/Growth-and-impact-of-the-Dutch-East-India-Company"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Dutch East India Company",
+    "url": "https://www.worldhistory.org/Dutch_East_India_Company/"
+   }
+  ],
+  "nota": "Confermati: nel 1619 Coen distrusse Jacatra e vi fondò Batavia, centro del potere olandese in Asia; la VOC impose monopoli su chiodi di garofano e noce moscata, anche con la forza (conquista delle Banda nel 1621, con massacri e riduzione in schiavitù degli abitanti); la compagnia fu sciolta nel 1799.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-queen-njinga",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nzinga",
+    "url": "https://www.britannica.com/biography/Nzinga"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ndongo",
+    "url": "https://www.britannica.com/place/Ndongo-historical-kingdom-Africa"
+   }
+  ],
+  "nota": "Confermati: Njinga (Nzinga Mbande, c. 1582–1663) prese il potere nel Ndongo nel 1624, conquistò il Matamba nel 1630–32 e resistette ai portoghesi con la guerriglia e la diplomazia fino alla morte nel 1663; i portoghesi, stabiliti a Luanda dal 1575, intervenivano nella regione catturando prigionieri di guerra per la tratta.",
+  "data": "2026-11-19"
  }
 ]
