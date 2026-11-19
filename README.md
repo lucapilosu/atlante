@@ -7,8 +7,9 @@ Sito: https://lucapilosu.github.io/atlante/
 ## Viste
 - `#esplora`: anno, ricerca, mappa e scheda.
 - `#contemporanei`: scelta una voce, tutte le voci esistite per almeno una parte della sua durata, per area e sulla mappa.
-- `#tecnologia`: scelta una voce, per ogni ambito tecnico e per area le attestazioni note fino a quel momento, con la distanza in anni.
-- `#universo`: Universo storico e confronto fino a 5 voci.
+- `#tecnologia`: scelta una voce, per ogni ambito tecnico e per area le attestazioni note fino a quel momento, con la distanza in anni (Sintesi infografica e Dettaglio).
+- `#universo`: Universo storico, una riga per area, con la finestra che segue la barra del tempo.
+- `#confronto`: confronto fino a 5 voci (caratteristiche, cronologie, relazioni).
 - `#archivio`: elenco delle voci con filtri propri, copertura per epoca, fonti.
 - `#impostazioni`: palette dei colori, reimpostazione.
 
@@ -28,7 +29,7 @@ Sito: https://lucapilosu.github.io/atlante/
 python3 build.py
 python3 tests/regression.py "$PWD/index.html" <cartella-screenshot>
 ```
-I test avviano un piccolo server locale (la cartografia di dettaglio si carica con una richiesta di rete) e richiedono Python 3, Playwright e Chrome. Ogni controllo gira su desktop (1440×900) e su iPhone 13 emulato; la simulazione non sostituisce la prova su un telefono reale, soprattutto per i gesti.
+I test avviano un piccolo server locale (la cartografia di dettaglio si carica con una richiesta di rete) e richiedono Python 3, Playwright e Chrome. Ogni controllo gira su desktop (1440×900) e su iPhone 13 emulato, più un controllo su iPad emulato; la simulazione non sostituisce la prova su un telefono reale, soprattutto per i gesti.
 
 ## Crediti
 Cartografia: Natural Earth (dominio pubblico), via world-atlas di Mike Bostock (licenza ISC).

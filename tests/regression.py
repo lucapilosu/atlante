@@ -2,7 +2,7 @@
 
 Uso:  python3 tests/regression.py <file.html> <cartella_screenshot>
 
-Verifica, su desktop e su iPhone 13 emulato, i comportamenti che non devono
+Verifica, su desktop e su iPhone 13 emulato (più alcuni controlli su iPad emulato), i comportamenti che non devono
 rompersi tra una versione e l'altra (decisioni di prodotto dei documenti 07 e 09
 dell'handover). I controlli marcati "noto" documentano difetti conosciuti e non
 fanno fallire l'esecuzione.
@@ -237,9 +237,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     R.check("T07", "'Apri scheda' apre la scheda giusta senza cambiare anno", dh == ptitle and await year(p) == y0 and await p.is_visible("#scheda"), f"'{dh}', anno {y0} -> {await year(p)}")
     await p.evaluate("()=>closeDetail()")
 
-    # T08 confronto: massimo 5, anno invariato (vista Contemporanei)
-    await goto_view(p, "universo")
-    await open_details(p, "#moreConfronto")
+    # T08 confronto: massimo 5, anno invariato (vista Confronto, v0.48)
+    await goto_view(p, "confronto")
     y0 = await year(p)
     added = []
     for q in ["roma", "maya", "han", "egitto", "inca", "nazca", "kush"]:
@@ -278,7 +277,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.wait_for_timeout(400)
     u1 = await p.evaluate("()=>({center:universeCenter,year:document.getElementById('yearLabel').textContent})")
     R.check("T09", "Universo storico: vista dedicata con le voci disegnate; trascinare sposta il tempo, non l'anno",
-            u0["nodes"] > 20 and u0["w"] > 200 and abs(u1["center"] - u0["center"]) > 1 and u1["year"] == u0["year"],
+            u0["nodes"] > 10 and u0["w"] > 200 and abs(u1["center"] - u0["center"]) > 1 and u1["year"] == u0["year"],
             f"{u0['nodes']} elementi disegnati, centro {round(u0['center'])} -> {round(u1['center'])}, anno {u0['year']} -> {u1['year']}")
 
     # T17 filtri della mappa: ogni filtro nasconde solo i punti della sua tipologia (vista Esplora)
@@ -316,11 +315,11 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.evaluate("()=>{selectItem('civilization-rome',{preserveYear:true});addCompare('culture-maya');addCompare('event-dinastia-han')}")
     state0 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
     bad = []
-    order = ["contemporanei", "tecnologia", "universo", "impostazioni", "archivio", "esplora"] if mobile else ["contemporanei", "tecnologia", "universo", "archivio", "impostazioni", "esplora"]
+    order = ["contemporanei", "tecnologia", "universo", "impostazioni", "archivio", "impostazioni", "confronto", "esplora"] if mobile else ["contemporanei", "tecnologia", "universo", "confronto", "archivio", "impostazioni", "esplora"]
     for v in order:
-        if mobile and v == "archivio":
-            # su telefono l'archivio si apre da "Altro"
-            await tap(p, p.locator("#view-impostazioni .more-link"), mobile)
+        if mobile and v in ("archivio", "confronto"):
+            # su telefono archivio e confronto si aprono da "Altro"
+            await tap(p, p.locator(f"#view-impostazioni .more-link[data-view-link='{v}']"), mobile)
         elif mobile:
             await tap(p, p.locator(f".mobile-nav a[data-view-link='{v}']"), mobile)
         else:
@@ -328,7 +327,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
         await p.wait_for_timeout(400)
         info = await p.evaluate("""()=>({vis:[...document.querySelectorAll('.view')].filter(v=>!v.hidden).map(v=>v.dataset.view),
             hash:location.hash,active:[...document.querySelectorAll('[data-view-link].active')].map(a=>a.dataset.viewLink)})""")
-        expect = {"archivio", "impostazioni"} if v == "archivio" else {v}
+        await p.evaluate("()=>hideToast()")
+        expect = {v, "impostazioni"} if v in ("archivio", "confronto") else {v}
         if info["vis"] != [v] or info["hash"] != "#" + v or set(info["active"]) != expect:
             bad.append(f"{v}: {info}")
     state1 = await p.evaluate("()=>[document.getElementById('yearLabel').textContent,selected,compareIds.length]")
@@ -405,7 +405,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T21 nessuna vista è più larga dello schermo (niente scorrimento orizzontale della pagina)
     wide = []
-    for v in ["esplora", "contemporanei", "tecnologia", "universo", "archivio", "impostazioni"]:
+    for v in ["esplora", "contemporanei", "tecnologia", "universo", "confronto", "archivio", "impostazioni"]:
         await goto_view(p, v)
         w = await p.evaluate("()=>[document.documentElement.scrollWidth,document.documentElement.clientWidth]")
         if w[0] > w[1] + 1:
@@ -456,7 +456,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T26 Tecnologia: per ogni ambito e area, le attestazioni fino alla fine della voce scelta, con la distanza in anni
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techFocusId=null;techDomain='all';selected=null;showView('tecnologia')}")
+    await p.evaluate("()=>{techFocusId=null;techDomain='all';selected=null;showView('tecnologia');techMode='dettaglio';renderTecnologia()}")
     await p.wait_for_timeout(300)
     t26 = await p.evaluate("""()=>{const f=ALL.find(x=>x.id==='event-rapanui-moai-tradition');
         const exp=TECH.filter(t=>t.start_year<=f.end_year).length;
@@ -470,6 +470,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
           dock:!!(dock&&dock.offsetParent),focus:document.querySelector('.tech-area.is-focus')?.textContent||''}}""")
     await p.fill("#techSearch", "roma repubblica"); await p.wait_for_timeout(300)
     await tap(p, p.locator("#techResults [data-tech-pick='civilization-rome']"), mobile); await p.wait_for_timeout(400)
+    await p.evaluate("()=>{techMode='dettaglio';renderTecnologia()}"); await p.wait_for_timeout(200)
     t26b = await p.evaluate("""()=>({title:document.getElementById('techTitle').textContent,
         late:[...document.querySelectorAll('#techList .tech-item')].map(e=>TECH.find(t=>t.id===e.dataset.techId)).filter(t=>t.start_year>476).map(t=>t.id),
         appia:document.querySelector("#techList [data-tech-id='tech-idr-aqua-appia'] .tech-badge")?.textContent||''})""")
@@ -510,14 +511,18 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             and looks["notte"][:2] == [True, False] and looks["terracotta"][:2] == [True, True] and len({v[2] for v in looks.values()}) == 4)
     R.check("T28", "Palette: Ottanio profondo più tre nuove, ognuna con il proprio sfondo", ok28, f"{pals}; {looks}")
 
-    # T29 Universo semplificato: corsie per area, legenda, gruppi di voci vicine
+    # T29 Universo: una corsia per area, legenda dei temi, voci in eccesso raccolte in «altre»
     await goto_view(p, "universo"); await p.wait_for_timeout(300)
+    await p.evaluate("()=>{universeSpan=U_FULL;uRender()}"); await p.wait_for_timeout(200)
     u29 = await p.evaluate("""()=>({legend:document.getElementById('universeLegend')?.textContent||'',
-        lanes:[...document.querySelectorAll('#universeCanvas .universe-lane-label')].map(t=>t.textContent),
+        lanes:[...document.querySelectorAll('#universeCanvas .uv-lane-label')].map(t=>t.textContent),
+        more:document.querySelectorAll('#universeCanvas .uv-more').length,
         status:document.querySelector('.universe-status')?.textContent||''})""")
     areas = ["Europa", "Asia", "Africa", "Americhe", "Oceania"]
-    ok29 = bool(u29["legend"].strip()) and "gruppi" in u29["status"] and 3 <= len(u29["lanes"]) <= 6 and all(any(l.startswith(a) for a in areas + ["Globale"]) for l in u29["lanes"])
-    R.check("T29", "Universo semplificato: una corsia per area, voci vicine raggruppate, legenda dei temi", ok29, f"corsie {u29['lanes']}; legenda '{u29['legend'][:80]}'; stato '{u29['status'][:80]}'")
+    ok29 = "Poteri" in u29["legend"] and "voci" in u29["status"] and u29["more"] > 0 and 3 <= len(u29["lanes"]) <= 6 and all(any(l.startswith(a) for a in areas + ["Globale"]) for l in u29["lanes"])
+    R.check("T29", "Universo: una corsia per area, legenda dei temi, voci in eccesso raccolte in «altre»", ok29, f"corsie {u29['lanes']}; legenda '{u29['legend'][:80]}'; gruppi «altre» {u29['more']}; stato '{u29['status'][:80]}'")
+    await p.evaluate("()=>{universeSpan=uNarrow()?500:2000;universeFollow=true;uRender()}")
+    await new_checks(p, R, mobile, name)
     await goto_view(p, "esplora")
 
     # T01 nessun errore, nessuna richiesta esterna (controllato a fine giro)
@@ -527,11 +532,244 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await browser.close()
     return R.rows
 
+async def touch_drag(p, x, y, dx, dy, steps=10):
+    cdp = await p.context.new_cdp_session(p)
+    await cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": [{"x": x, "y": y}]})
+    for i in range(1, steps + 1):
+        await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": [{"x": x + dx * i / steps, "y": y + dy * i / steps}]})
+        await p.wait_for_timeout(16)
+    await cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []})
+    await cdp.detach()
+
+async def tap_xy(p, x, y, mobile):
+    if mobile:
+        await p.touchscreen.tap(x, y)
+    else:
+        await p.mouse.click(x, y)
+
+async def empty_map_point(p):
+    # un punto della mappa lontano da tutti i marcatori (oceano), dentro il riquadro visibile
+    return await p.evaluate("""()=>{const st=document.querySelector('#view-esplora .mapstage').getBoundingClientRect();
+        const pins=[...document.querySelectorAll('#pins circle.pin')].map(c=>{const r=c.getBoundingClientRect();return [r.left+r.width/2,r.top+r.height/2]});
+        for(const [fx,fy] of [[.06,.82],[.94,.86],[.5,.92],[.3,.75],[.1,.5]]){const x=st.left+st.width*fx,y=st.top+st.height*fy;
+          if(y<innerHeight-200&&y>40&&pins.every(([a,b])=>Math.hypot(a-x,b-y)>40))return [x,y]}
+        return [st.left+st.width*.06,st.top+st.height*.6]}""")
+
+async def new_checks(p, R, mobile, name):
+    # T30 riepilogo sulla mappa: si chiude toccando un punto vuoto della mappa o fuori; resta aperto trascinando la mappa o usando la barra del tempo
+    await goto_view(p, "esplora")
+    await p.evaluate("()=>{closeDetail();hideToast()}")
+    await set_year(p, -16)
+    await click_el(p, "#zoomReset"); await p.wait_for_timeout(250)
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
+    marker = p.locator("#pins .map-marker").first
+    res = {}
+    await tap(p, marker, mobile); await p.wait_for_timeout(300)
+    res["aperto"] = await p.is_visible("#mapPointPopup")
+    x, y = await empty_map_point(p)
+    await tap_xy(p, x, y, mobile); await p.wait_for_timeout(300)
+    res["dopo tocco su mappa vuota"] = not await p.is_visible("#mapPointPopup")
+    await tap(p, marker, mobile); await p.wait_for_timeout(300)
+    x, y = await empty_map_point(p)
+    if mobile:
+        await touch_drag(p, x, y, 30, 0, 6)
+    else:
+        await p.mouse.move(x, y); await p.mouse.down(); await p.mouse.move(x + 30, y, steps=5); await p.mouse.up()
+    await p.wait_for_timeout(300)
+    res["dopo trascinamento resta"] = await p.is_visible("#mapPointPopup")
+    if not res["dopo trascinamento resta"]:
+        await tap(p, marker, mobile); await p.wait_for_timeout(300)
+    db = await p.locator("#dockYear").bounding_box()
+    await tap_xy(p, db["x"] + db["width"] / 2, db["y"] + db["height"] / 2, mobile); await p.wait_for_timeout(250)
+    res["dopo tocco sulla barra del tempo resta"] = await p.is_visible("#mapPointPopup")
+    ib = await p.locator("#mapIntro").bounding_box()
+    await tap_xy(p, ib["x"] + 20, ib["y"] + ib["height"] / 2, mobile); await p.wait_for_timeout(250)
+    res["dopo tocco fuori dalla mappa"] = not await p.is_visible("#mapPointPopup")
+    R.check("T30", "Riepilogo sulla mappa: si chiude toccando un altro punto della mappa o fuori, non trascinando né usando la barra del tempo",
+            all(res.values()), str(res))
+
+    # T31 scheda a tendina: trascinata giù si chiude, un tratto breve no, verso l'alto si allarga (telefono)
+    await p.evaluate("()=>openInEsplora('civilization-rome')"); await p.wait_for_timeout(700)
+    if mobile:
+        info = {}
+        hb = await p.locator("#sheetHandle").bounding_box()
+        cx, cy = hb["x"] + hb["width"] / 2, hb["y"] + hb["height"] / 2
+        await touch_drag(p, cx, cy, 0, 40); await p.wait_for_timeout(400)
+        info["tratto breve: aperta"] = await p.evaluate("()=>!document.getElementById('scheda').hidden")
+        hb = await p.locator("#sheetHandle").bounding_box()
+        await touch_drag(p, hb["x"] + hb["width"] / 2, hb["y"] + hb["height"] / 2, 0, -90); await p.wait_for_timeout(400)
+        info["verso l'alto: allargata"] = await p.evaluate("()=>document.getElementById('scheda').classList.contains('expanded')")
+        await p.evaluate("()=>{const s=document.getElementById('scheda');s.scrollTop=0}")
+        sb = await p.locator("#scheda .detail-title").bounding_box()
+        await touch_drag(p, sb["x"] + 30, sb["y"] + sb["height"] / 2, 0, 230); await p.wait_for_timeout(500)
+        info["giù dal contenuto in cima: chiusa"] = await p.evaluate("()=>document.getElementById('scheda').hidden")
+        await p.evaluate("()=>openInEsplora('civilization-rome')"); await p.wait_for_timeout(700)
+        hb = await p.locator("#sheetHandle").bounding_box()
+        await touch_drag(p, hb["x"] + hb["width"] / 2, hb["y"] + hb["height"] / 2, 0, 200); await p.wait_for_timeout(500)
+        info["giù dalla maniglia: chiusa"] = await p.evaluate("()=>document.getElementById('scheda').hidden")
+        ok31 = all(info.values())
+    else:
+        info = await p.evaluate("()=>({sheet:document.getElementById('scheda').classList.contains('is-sheet'),visible:!document.getElementById('scheda').hidden})")
+        ok31 = not info["sheet"] and info["visible"]
+        info["nota"] = "su desktop la scheda resta un pannello laterale"
+        await p.evaluate("()=>closeDetail()")
+    R.check("T31", "Scheda: su telefono si chiude trascinando giù la tendina (gesto stile iPhone)", ok31, str(info))
+
+    # T32 confronto: dopo l'aggiunta un avviso porta subito al confronto
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast()}")
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
+    await tap(p, marker, mobile); await p.wait_for_timeout(300)
+    pid = await p.evaluate("()=>document.getElementById('mapPointPopup').dataset.itemId")
+    await tap(p, p.locator("#mapPointPopup .popup-add"), mobile); await p.wait_for_timeout(400)
+    t = await p.evaluate("""()=>{const t=document.getElementById('toast'),r=t.getBoundingClientRect(),d=document.getElementById('timeDock').getBoundingClientRect();
+        return {vis:!t.hidden&&r.height>0,text:t.textContent,overDock:r.bottom>d.top+1&&r.top<d.bottom,badge:document.querySelector('.view-tabs [data-cmp-count]')?.textContent||''}}""")
+    go = p.locator("#toast [data-toast-go]")
+    if await go.count():
+        await tap(p, go, mobile); await p.wait_for_timeout(500)
+    after = await p.evaluate("""(id)=>({view:currentView,hash:location.hash,chips:[...document.querySelectorAll('#compareChips .compare-chip')].length,
+        has:compareIds.includes(id),toast:!document.getElementById('toast').hidden})""", pid)
+    await goto_view(p, "esplora")
+    await p.evaluate("(id)=>addCompare(id)", pid); await p.wait_for_timeout(200)
+    dup = await p.evaluate("()=>document.getElementById('toast').textContent")
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast()}")
+    ok32 = (t["vis"] and "aggiunto al confronto" in t["text"] and "Vai al confronto" in t["text"] and not t["overDock"] and t["badge"] == "1"
+            and after["view"] == "confronto" and after["hash"] == "#confronto" and after["has"] and after["chips"] == 1 and not after["toast"] and "già nel confronto" in dup)
+    R.check("T32", "Confronto: dopo l'aggiunta un avviso con «Vai al confronto» porta subito alla vista Confronto", ok32, f"avviso {t}; dopo il tocco {after}; seconda aggiunta '{dup[:60]}'")
+
+    # T33 Universo: segue la barra del tempo; trascinato si stacca, cambiando anno torna a seguirlo; etichette leggibili senza sovrapposizioni
+    await goto_view(p, "universo"); await p.wait_for_timeout(300)
+    geo = """()=>{const now=document.querySelector('#universeCanvas .uv-now'),g=uGeom();return {center:Math.round(universeCenter),year:chosenYear,follow:universeFollow,
+        nowX:now?Math.round(+now.getAttribute('x1')):null,mid:Math.round(g.padL+g.plot/2),recenter:!document.getElementById('universeCenter').hidden}}"""
+    steps = {}
+    for yv in [1400, 500]:
+        await p.evaluate("(y)=>{const r=document.getElementById('dockRange');r.value=yearToPos(y);r.dispatchEvent(new Event('input',{bubbles:true}))}", yv)
+        await p.wait_for_timeout(250)
+        steps[yv] = await p.evaluate(geo)
+    vp = p.locator("#universeViewport")
+    await vp.evaluate("e=>e.scrollIntoView({block:'start',behavior:'instant'})"); await p.wait_for_timeout(150)
+    bb = await vp.bounding_box()
+    cx, cy = bb["x"] + bb["width"] * 0.5, bb["y"] + 60
+    if mobile:
+        await touch_drag(p, cx, cy, -120, 0)
+    else:
+        await p.mouse.move(cx, cy); await p.mouse.down(); await p.mouse.move(cx - 120, cy, steps=8); await p.mouse.up()
+    await p.wait_for_timeout(300)
+    dragged = await p.evaluate(geo)
+    await p.evaluate("()=>document.getElementById('yearPlus').click()"); await p.wait_for_timeout(300)
+    back = await p.evaluate(geo)
+    lab = await p.evaluate("""()=>{const vp=document.getElementById('universeViewport').getBoundingClientRect();
+        const L=[...document.querySelectorAll('#universeCanvas .uv-label')].map(t=>{const r=t.getBoundingClientRect();return {id:t.closest('.uv-node').dataset.uid,l:r.left,r:r.right,t:r.top,b:r.bottom}});
+        const B=[...document.querySelectorAll('#universeCanvas .uv-bar,#universeCanvas .uv-dot')].map(e=>{const r=e.getBoundingClientRect();return {id:e.closest('.uv-node').dataset.uid,l:r.left,r:r.right,t:r.top,b:r.bottom}});
+        const hit=(a,b)=>Math.min(a.r,b.r)-Math.max(a.l,b.l)>1.5&&Math.min(a.b,b.b)-Math.max(a.t,b.t)>1.5;
+        const over=[];L.forEach((a,i)=>{L.slice(i+1).forEach(b=>{if(hit(a,b))over.push(a.id+'/'+b.id)});B.forEach(b=>{if(b.id!==a.id&&hit(a,b))over.push(a.id+'~'+b.id)})});
+        const out=L.filter(a=>a.l<vp.left-1||a.r>vp.right+1).map(a=>a.id);
+        const nodes=document.querySelectorAll('#universeCanvas .uv-node').length;
+        return {labels:L.length,nodes,over:over.slice(0,4),nOver:over.length,out,size:parseFloat(getComputedStyle(document.querySelector('#universeCanvas .uv-label')||document.body).fontSize)}}""")
+    ok33 = (steps[1400]["center"] == 1400 and abs(steps[1400]["nowX"] - steps[1400]["mid"]) <= 2 and steps[500]["center"] == 500
+            and not dragged["follow"] and dragged["recenter"] and dragged["center"] != 500 and back["follow"] and back["center"] == back["year"] and not back["recenter"]
+            and lab["nOver"] == 0 and not lab["out"] and lab["labels"] >= lab["nodes"] * 0.8 and lab["size"] >= 11)
+    R.check("T33", "Universo: segue la barra del tempo; trascinato si stacca e torna a seguirlo al cambio d'anno; nomi leggibili, senza sovrapposizioni",
+            ok33, f"1400: {steps[1400]}; 500: {steps[500]}; trascinato: {dragged}; dopo +: {back}; etichette {lab}")
+
+    # T37 Universo: un tocco su una voce (senza trascinare) apre il riepilogo, da cui si aggiunge al confronto
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast()}")
+    node = p.locator("#universeCanvas .uv-node").first
+    uid = await node.get_attribute("data-uid")
+    await node.locator(".uv-hit").evaluate("e=>e.scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(100)
+    nb = await node.locator(".uv-hit").bounding_box()
+    await tap_xy(p, nb["x"] + min(20, nb["width"] / 2), nb["y"] + nb["height"] / 2, mobile); await p.wait_for_timeout(350)
+    tip = await p.evaluate("()=>({vis:!document.getElementById('universeTooltip').hidden,title:document.querySelector('#universeTooltip strong')?.textContent||''})")
+    if tip["vis"]:
+        await tap(p, p.locator("#universeTooltip .pop-compare"), mobile); await p.wait_for_timeout(300)
+    t37 = await p.evaluate("(id)=>({cmp:compareIds.includes(id),toast:!document.getElementById('toast').hidden,strip:!document.getElementById('universeCompareStrip').hidden})", uid)
+    name37 = await p.evaluate("(id)=>ALL.find(x=>x.id===id).name", uid)
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast();document.getElementById('universeTooltip').hidden=true}")
+    R.check("T37", "Universo: un tocco su una voce apre il riepilogo; «Aggiungi al confronto» la aggiunge e mostra l'avviso",
+            tip["vis"] and tip["title"] == name37 and t37["cmp"] and t37["toast"] and t37["strip"], f"riepilogo {tip}; dopo l'aggiunta {t37}")
+
+    # T34 Tecnologia, sintesi: un punto per ambito e area, posizione coerente con gli anni, tocco → dettaglio dell'attestazione
+    await goto_view(p, "tecnologia")
+    await p.evaluate("()=>{techFocusId=TECH_DEFAULT;techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
+    t34 = await p.evaluate("""()=>{const f=techFocus(),fi=techFirsts(f),keys=Object.keys(fi);
+        const band=document.querySelector('#techList .ti-band'),bl=+band.getAttribute('x'),br=bl+ +band.getAttribute('width');
+        const marks=[...document.querySelectorAll('#techList .ti-mark')].map(g=>{const c=g.querySelector('circle');return {id:g.dataset.ti,x:+c.getAttribute('cx'),r:+c.getAttribute('r')}});
+        const info=marks.map(m=>{const t=TECH.find(t=>t.id===m.id),rel=techRelation(t,f);return {...m,k:rel.k,n:rel.n||0}});
+        const bad=[];info.forEach(a=>{if(a.k==='durante'&&(a.x<bl||a.x>br))bad.push(a.id+' fuori dalla fascia');if(a.k==='prima'&&a.x>=bl)bad.push(a.id+' nella fascia');
+          info.forEach(b=>{if(a.k==='prima'&&b.k==='prima'&&a.n>Math.max(10,b.n)*2&&a.x>b.x+2.6*a.r)bad.push(a.id+'>'+b.id)})});
+        const w=document.querySelector('#techList .ti-svg').getBoundingClientRect().width,lw=document.getElementById('techList').getBoundingClientRect().width;
+        return {pairs:keys.length,marks:marks.length,bad:bad.slice(0,4),nBad:bad.length,fits:w<=lw+1,kpi:document.querySelectorAll('#techList .ti-kpi').length,areas:document.querySelectorAll('#techList .ti-area').length}}""")
+    mk = p.locator("#techList .ti-mark[data-ti='tech-arch-great-pyramid']")
+    await tap(p, mk, mobile); await p.wait_for_timeout(500)
+    t34b = await p.evaluate("()=>({mode:techMode,open:techOpenId,domain:techDomain,shown:!!document.querySelector(\"#techList .tech-item.open[data-tech-id='tech-arch-great-pyramid']\")})")
+    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}")
+    ok34 = (t34["marks"] == t34["pairs"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 5
+            and t34b == {"mode": "dettaglio", "open": "tech-arch-great-pyramid", "domain": "architettura", "shown": True})
+    R.check("T34", "Tecnologia, sintesi: infografica con un punto per ambito e area, coerente con gli anni; un tocco apre il dettaglio",
+            ok34, f"{t34}; dopo il tocco {t34b}")
+
+    # T35 contrasto del testo nei dettagli del confronto e nelle nuove parti, in ogni palette
+    low = []
+    await p.evaluate("()=>{['culture-maya','civilization-inca','state-ancient-egypt'].forEach(id=>{if(!compareIds.includes(id))addCompare(id)});hideToast()}")
+    sels = {"confronto": "#comparatore .compare-insight strong,#comparatore .compare-insight div,#comparatore .compare-table th,#comparatore .compare-table td,#comparatore .compare-chip,#compareCount",
+            "universo": ".uv-strip-text strong,.uv-strip-text span,.uv-scale button,.uv-legend button,.universe-status",
+            "tecnologia": "#techList .ti-kpi b,#techList .ti-kpi span,#techList .ti-area-name,#techList .ti-area>b,.ti-mode button"}
+    for pal in ["deep", "pergamena", "notte", "terracotta"]:
+        await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
+        for v, sel in sels.items():
+            await goto_view(p, v); await p.wait_for_timeout(200)
+            for el in await p.query_selector_all(sel):
+                if not await el.is_visible(): continue
+                c = await el.evaluate(JS_CONTRAST)
+                if c["text"] and c["ratio"] < 4.5:
+                    low.append(f"{pal}/{v}: '{c['text'][:24]}' {c['ratio']:.1f}:1")
+        await p.evaluate("()=>{const x=ALL.find(v=>v.id==='culture-maya');compareToast(x,'gia')}")
+        c = await p.locator("#toast .toast-msg").evaluate(JS_CONTRAST)
+        if c["ratio"] < 4.5: low.append(f"{pal}/avviso {c['ratio']:.1f}:1")
+        await p.evaluate("()=>hideToast()")
+        if pal == "pergamena":
+            await goto_view(p, "confronto"); await p.wait_for_timeout(200)
+            await p.screenshot(path=f"{OUT}/{name}_confronto_pergamena.png", full_page=True)
+    await p.evaluate("()=>{document.querySelector(`.palette-choice[data-palette='deep']`).click();compareIds.slice().forEach(id=>removeCompare(id))}")
+    R.check("T35", "Testo leggibile (contrasto ≥ 4.5:1) nei dettagli del confronto, nell'Universo e nella sintesi Tecnologia, in tutte le palette",
+            not low, "; ".join(low[:6]) or f"tutti ≥ 4.5:1")
+    await goto_view(p, "esplora")
+
+async def run_tablet(pw):
+    # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
+    R = Run("ipad")
+    browser = await pw.chromium.launch(executable_path=CHROME, args=["--no-sandbox"])
+    ctx = await browser.new_context(**dict(pw.devices["iPad (gen 7)"]))
+    p = await ctx.new_page()
+    errors = []
+    p.on("pageerror", lambda e: errors.append("pageerror: " + str(e)))
+    await p.goto(URL, wait_until="load"); await p.wait_for_timeout(1000)
+    g = await p.evaluate("""()=>{const nav=document.querySelector('.mobile-nav'),tabs=document.querySelector('.view-tabs'),dock=document.getElementById('timeDock');
+        const n=nav.getBoundingClientRect(),d=dock.getBoundingClientRect();
+        return {touchUi:document.documentElement.classList.contains('touch-ui'),nav:getComputedStyle(nav).display!=='none'&&n.height>0,tabs:getComputedStyle(tabs).display!=='none',
+          dockAbove:d.bottom<=n.top+1,navBottom:Math.round(n.bottom)===innerHeight}}""")
+    await p.evaluate("()=>openInEsplora('civilization-rome')"); await p.wait_for_timeout(700)
+    sh = await p.evaluate("()=>{const s=document.getElementById('scheda'),r=s.getBoundingClientRect(),d=document.getElementById('timeDock').getBoundingClientRect();return {sheet:s.classList.contains('is-sheet'),aboveDock:r.bottom<=d.top+1,top:Math.round(r.top),vh:innerHeight}}")
+    hb = await p.locator("#sheetHandle").bounding_box()
+    await touch_drag(p, hb["x"] + hb["width"] / 2, hb["y"] + hb["height"] / 2, 0, 220); await p.wait_for_timeout(500)
+    closed = await p.evaluate("()=>document.getElementById('scheda').hidden")
+    wide = []
+    for v in ["esplora", "contemporanei", "tecnologia", "universo", "confronto", "archivio", "impostazioni"]:
+        await p.evaluate("(n)=>{location.hash='#'+n}", v); await p.wait_for_timeout(350)
+        w = await p.evaluate("()=>[document.documentElement.scrollWidth,document.documentElement.clientWidth]")
+        if w[0] > w[1] + 1: wide.append(f"{v}: {w[0]}px su {w[1]}px")
+    await p.screenshot(path=f"{OUT}/ipad_universo.png")
+    ok = g["touchUi"] and g["nav"] and not g["tabs"] and g["dockAbove"] and sh["sheet"] and sh["aboveDock"] and sh["top"] > sh["vh"] * 0.3 and closed and not wide and not errors
+    R.check("T36", "Tablet: viste nella barra in basso, scheda a tendina sopra la barra del tempo, si chiude trascinandola giù",
+            ok, f"{g}; scheda {sh}; chiusa trascinando: {closed}; viste troppo larghe {wide}; errori {errors[:2]}")
+    await browser.close()
+    return R.rows
+
 async def main():
     async with async_playwright() as pw:
-        a, b = await asyncio.gather(run_device(pw, "desktop", {"viewport": {"width": 1440, "height": 900}}, False),
-                                    run_device(pw, "iphone13", dict(pw.devices["iPhone 13"]), True))
-        rows = a + b
+        a, b, c = await asyncio.gather(run_device(pw, "desktop", {"viewport": {"width": 1440, "height": 900}}, False),
+                                       run_device(pw, "iphone13", dict(pw.devices["iPhone 13"]), True),
+                                       run_tablet(pw))
+        rows = a + b + c
     rows.sort(key=lambda r: (r["code"], r["device"]))
     for r in rows:
         print(f"{r['esito']:8} {r['code']} [{r['device']:8}] {r['name']} — {r['dettaglio']}")
