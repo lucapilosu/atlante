@@ -2762,16 +2762,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-pnas-matsuoka-et-al-a-single-domestication-for-m",
+    "src-v-archaeology-maize-domestication-in-the-balsas-ba"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "MC",
    "entity_type": "invention",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Domesticazione unica nel Messico meridionale circa 9.000 anni fa, dal teosinte parviglumis del bacino del Balsas.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "culture-chinchorro",
@@ -2908,10 +2911,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-etruscan",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-etruscan",
+    "src-v-world-history-encyclopedia-etruscan-civilization",
+    "src-unesco-etruscan"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
@@ -2922,7 +2926,9 @@
     "culture-phoenician"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Fioritura VIII–III secolo a.C.; la cultura villanoviana (IX–VIII sec.) ne è la fase iniziale; assorbiti da Roma, scompaiono come entità distinta nel I secolo a.C.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "invention-cuneiform",
@@ -2942,16 +2948,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-smarthistory-cuneiform-an-introduction",
+    "src-v-the-metropolitan-museum-of-art-cuneiform-tablet"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "AO",
    "entity_type": "invention",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Ultimo testo datato 75 d.C.; circa 3.000 anni d’uso e una quindicina di lingue.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "empire-akkad",
@@ -3030,9 +3039,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-the-phoenicians-1",
+    "src-v-encyclopaedia-britannica-tyre"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AO",
@@ -3042,7 +3052,9 @@
     "culture-nuragic"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Città autonome di mercanti; alfabeto alla radice di quelli occidentali; Tiro presa da Alessandro nel 332 a.C. Il Met fa emergere le città intorno al 1500 a.C.: qui l’inizio è all’età del Ferro (1200 a.C.).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-ancient-israel",
@@ -3091,17 +3103,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-giza-pyramids",
-    "src-openstax-world-history-1"
+    "src-v-smarthistory-the-great-pyramids-of-giza-old-king",
+    "src-v-the-metropolitan-museum-of-art-egypt-in-the-old",
+    "src-unesco-giza-pyramids"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 1,
    "world_area": "AN",
    "entity_type": "archaeological_site",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Smarthistory: c. 2600–2500 a.C.; Met: Cheope r. c. 2551–2528, Chefren c. 2520–2494, Micerino c. 2490–2472. Le cronologie egizie differiscono di qualche decennio.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-egypt-new-kingdom",
@@ -3153,10 +3168,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-carthage",
+    "src-v-unesco-world-heritage-centre-archaeological-site",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AN",
@@ -3166,15 +3182,17 @@
     "civilization-rome"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Fondazione tradizionale 814 a.C. da Tiro; distruzione romana nel 146 a.C. Sicilia persa nella prima guerra punica, Spagna nella seconda.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "movement-bantu-migrations",
    "name": "Migrazioni bantu",
    "start_year": -1500,
-   "end_year": 500,
+   "end_year": 1500,
    "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_confidence": "debated",
    "summary": "Lunga espansione di popolazioni di lingua bantu che diffuse agricoltura, lavorazione del ferro e lingue in gran parte dell’Africa a sud dell’equatore.",
    "region": "Africa",
    "subregion": "Dall’Africa centro-occidentale all’Africa orientale e australe",
@@ -3186,16 +3204,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-bantu-migration",
+    "src-v-nature-the-genetic-legacy-of-the-expansion-of-ba"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AS",
    "entity_type": "movement",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: WHE: dalla metà del II millennio a.C. a prima del 1500 d.C.; gli studi genetici collocano l’inizio tra 6.000 e 4.000 anni fa. Fine portata dal 500 al 1500.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "culture-nok",
@@ -3273,16 +3294,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-hinduism-the-history-of",
+    "src-v-world-history-encyclopedia-upanishads"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "AM",
    "entity_type": "religion",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Storia rintracciabile dal 1500 a.C. circa; religione vedica come precursore; Upanishad tra 800 e 500 a.C. Oltre il 90% degli indù vive in India.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "religion-jainism",
@@ -3509,16 +3533,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-iron-age",
+    "src-v-the-metropolitan-museum-of-art-the-age-of-iron-i"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "GL",
    "entity_type": "invention",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Età del Ferro dal 1200 a.C. circa in Medio Oriente ed Europa sud-orientale; in Africa occidentale fusione del ferro (Nok) forse già dal VI secolo a.C. Le origini africane sono dibattute.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "culture-la-tene",
@@ -3596,16 +3623,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-sasanian-dynasty",
+    "src-v-the-metropolitan-museum-of-art-the-sasanian-empi"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AO",
    "entity_type": "empire",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Impero 224–651, zoroastrismo religione di stato, conflitti con Roma e Bisanzio, distrutto dagli Arabi tra 637 e 651.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "site-petra",
@@ -3743,9 +3773,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-sahel-art-and-emp",
+    "src-v-encyclopaedia-britannica-ghana-historical-west-a"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AS",
@@ -3754,7 +3785,9 @@
     "civilization-mali"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Met: circa 300–1200; Britannica: dal VII al XIII secolo (fine nel 1240). Primo grande impero commerciale del Sahel, tra il sale del Sahara e l’oro del Senegal superiore.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "religion-daoism",
@@ -3774,16 +3807,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-stanford-encyclopedia-of-philosophy-laozi",
+    "src-v-encyclopaedia-britannica-dao"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "AE",
    "entity_type": "religion",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Il testo del Laozi/Daodejing è datato in prevalenza al IV secolo a.C.; per alcuni studiosi Laozi è leggendario. Data d’inizio discussa.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "site-great-wall",
@@ -3803,17 +3839,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-unesco-world-heritage-centre-the-great-wall"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 1,
    "world_area": "AE",
    "entity_type": "archaeological_site",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Intorno al 220 a.C. Qin Shi Huang collega le fortificazioni precedenti; costruzione proseguita fino ai Ming (1368–1644).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "site-terracotta-army",
@@ -4132,17 +4169,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-history-of-france-frank",
+    "src-v-encyclopaedia-britannica-france-the-partitioning",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
    "entity_type": "state_sequence",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Clodoveo re dal 481/482; Carlo Magno incoronato a Roma il 25 dicembre 800; trattato di Verdun 843.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-lombards",
@@ -4191,9 +4231,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-al-andalus-the-ar",
+    "src-v-the-metropolitan-museum-of-art-spain-10001200-ar"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
@@ -4202,7 +4243,9 @@
     "civilization-abbasid"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Dal 711 al 1492; califfato di Córdoba dal 929 (Abd al-Rahman III), frammentato nei regni di taifa all’inizio dell’XI secolo; ultimo Granada (nasridi, 1238–1492).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-kievan-rus",
@@ -4251,9 +4294,9 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-umayyad-dynasty-summary"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AO",
@@ -4263,7 +4306,9 @@
     "civilization-abbasid"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Prima grande dinastia musulmana (661–750), capitale Damasco; sotto Abd al-Malik l’impero va dalla Spagna all’Asia centrale e all’India.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "site-al-qarawiyyin",
@@ -4372,10 +4417,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-swahili-coast",
+    "src-v-unesco-world-heritage-centre-ruins-of-kilwa-kisi",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AS",
@@ -4384,7 +4430,9 @@
     "event-indian-ocean-monsoon-trade"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Cultura swahili dall’VIII secolo, apogeo XII–XV secolo, commerci con Arabia, Persia, India e Cina; declino con l’arrivo dei Portoghesi nel XVI secolo.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "empire-chola",
@@ -4434,16 +4482,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-zero-mathematics",
+    "src-v-mactutor-history-of-mathematics-brahmagupta"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "AM",
    "entity_type": "invention",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Brahmagupta (Brahmasphutasiddhanta, 628) tratta lo zero come numero; il sistema passa al mondo islamico (al-Khwarizmi) e all’Europa con Fibonacci (Liber abaci, 1202).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-dynasty-tang",
@@ -4463,16 +4514,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-tang-dynasty-6189",
+    "src-v-encyclopaedia-britannica-tang-dynasty"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
    "entity_type": "state_sequence",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: 618–907; Chang’an cosmopolita con mercanti dall’India alla Siria; esami per i funzionari; età d’oro della poesia; grande stagione del buddhismo.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-unified-silla",
@@ -4610,17 +4664,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-khmer-empire",
+    "src-v-encyclopaedia-britannica-angkor-summary",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "SE",
    "entity_type": "empire",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Impero circa 802–1431; Angkor Wat (XII secolo, Suryavarman II) e Angkor Thom (circa 1200, Jayavarman VII). I bacini idrici (baray) non sono coperti dalle fonti citate.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "site-chaco-canyon",
@@ -4670,17 +4727,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-italian-peninsula",
+    "src-v-encyclopaedia-britannica-history-of-europe-trade",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
    "entity_type": "movement",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Città-stato autonome dalla fine dell’XI all’inizio del XVI secolo; Venezia, Genova, Pisa e Amalfi potenze marittime; Venezia e Genova dominano i commerci con il Medio Oriente.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "movement-italian-renaissance",
@@ -4700,17 +4760,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-renaissance",
+    "src-v-encyclopaedia-britannica-western-architecture-th",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "EU",
    "entity_type": "movement",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Umanesimo in Italia dal XIV secolo; stile rinascimentale da Firenze all’inizio del Quattrocento, apogeo tra 1490 e 1520; Brunelleschi formula la prospettiva; diffusione in Europa entro la fine del Cinquecento. L’inizio al 1400 è una convenzione.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "empire-seljuk",
@@ -4943,17 +5006,20 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-kongo-historical-kingdo",
+    "src-v-the-metropolitan-museum-of-art-central-africa-14",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AS",
    "entity_type": "state",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Fondato intorno al 1390 (Lukeni lua Nimi); battesimo del re nel 1491; rapporti con il Portogallo e crescita della tratta; declino nel XVII secolo. Non verificato sulle fonti: La fine formale nel 1914 non è confermata dalle fonti consultate (World History Encyclopedia indica XIV–XIX secolo).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-delhi-sultanate",
@@ -4973,16 +5039,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-delhi-sultanate",
+    "src-v-encyclopaedia-britannica-slave-mamluk-dynasty"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AM",
    "entity_type": "state",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Dal 1206 (dinastia mamelucca di origine turca) alla vittoria di Babur a Panipat nel 1526 (ultima dinastia Lodi, afghana); respinte più invasioni mongole.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "empire-vijayanagara",
@@ -5330,10 +5399,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-mexico-city-ancient-fou",
+    "src-v-encyclopaedia-britannica-aztec",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 1,
    "world_area": "MC",
@@ -5342,7 +5412,9 @@
     "civilization-aztec"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Fondata nel 1325 su un’isola del lago Texcoco; chinampas; Templo Mayor al centro; conquista di Cortés nel 1521. Popolazione stimata nel 1519 intorno a 200.000–400.000 (stime diverse).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-purepecha",
@@ -5377,10 +5449,10 @@
    "id": "site-machu-picchu",
    "name": "Machu Picchu",
    "start_year": 1450,
-   "end_year": 1572,
+   "end_year": 1550,
    "date_precision": "approximate",
    "date_confidence": "medium",
-   "summary": "Tenuta reale inca costruita sotto Pachacútec su un crinale delle Ande, mai raggiunta dagli spagnoli.",
+   "summary": "Tenuta reale inca costruita probabilmente per Pachacútec su un crinale delle Ande e abbandonata dopo la conquista spagnola. Rimasta quasi intatta, fu fatta conoscere al mondo esterno solo nel 1911.",
    "region": "Americhe",
    "subregion": "Ande · Cusco",
    "map_geometry": {
@@ -5391,10 +5463,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-unesco-world-heritage-centre-historic-sanctuary",
+    "src-v-encyclopaedia-britannica-when-was-machu-picchu-b"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 1,
    "world_area": "SA",
@@ -5403,7 +5475,9 @@
     "civilization-inca"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Costruita e abitata dalla metà del XV alla prima metà del XVI secolo (fine portata dal 1572 al 1550); tenuta di Pachacuti (r. 1438–1471). Tolta l’affermazione «mai raggiunta dagli spagnoli», non confermata dalle fonti.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "invention-qhapaq-nan",
@@ -5485,16 +5559,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-world-history-encyclopedia-the-enlightenment",
+    "src-v-stanford-encyclopedia-of-philosophy-enlightenmen"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "EU",
    "entity_type": "movement",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Dall’ultimo quarto del XVII all’ultimo quarto del XVIII secolo; ragione, libertà individuale, tolleranza; Locke, Montesquieu, Voltaire, Kant. Beccaria non è citato nelle fonti consultate, ma è un autore illuminista canonico.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-barbary-regencies",
@@ -5603,10 +5680,9 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-taj-mahal",
-    "src-openstax-world-history-2"
+    "src-unesco-taj-mahal"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 1,
    "world_area": "AM",
@@ -5615,7 +5691,9 @@
     "civilization-mughal"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Mausoleo costruito tra 1631/1632 e 1648 per Mumtaz Mahal; moschea, foresteria e porta completate nel 1653.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "religion-sikhism",
@@ -5724,17 +5802,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-viceroyalty-of-new-spai",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "MC",
    "entity_type": "state",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Primo dei quattro vicereami, istituito nel 1535 e durato fino al 1821; comprendeva i territori spagnoli a nord dell’istmo di Panama.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-portuguese-brazil",
@@ -5899,16 +5979,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-suez-canal",
+    "src-v-encyclopaedia-britannica-when-did-the-suez-canal"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "AN",
    "entity_type": "invention",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Lavori 1859–1869, apertura ufficiale il 17 novembre 1869; rotta marittima più breve tra Europa e Asia.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-zulu-kingdom",
@@ -5986,16 +6069,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-india-government-of-ind",
+    "src-v-encyclopaedia-britannica-partition-of-india"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AM",
    "entity_type": "state",
    "related_entities": [],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Dal Government of India Act del 2 agosto 1858 al 15 agosto 1947; carestie ripetute tra 1865 e 1900; rete ferroviaria; Congresso nazionale indiano dal 1885.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "state-french-indochina",
@@ -6075,9 +6161,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-new-imperialism",
+    "src-v-encyclopaedia-britannica-berlin-west-africa-conf"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -6086,7 +6173,9 @@
     "event-espansione-coloniale-europea-in-africa"
    ],
    "key_sites": [],
-   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 19/11/2026: Dalla seconda metà dell’Ottocento al 1914, Africa e Asia; Conferenza di Berlino 15 novembre 1884 – 26 febbraio 1885, quadro per l’«occupazione effettiva».",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "invention-telegraph",
@@ -6656,13 +6745,14 @@
    },
    "summary": "La crescita di Uruk segna una delle prime grandi esperienze urbane, con amministrazione, templi e scrittura proto-cuneiforme.",
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-uruk-the-first-ci"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Fase urbana di Uruk circa 3500–3100 a.C.; templi e scrittura amministrativa.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AO"
+   "world_area": "AO",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-unificazione-dellegitto",
@@ -6779,7 +6869,7 @@
    "region": "Asia",
    "subregion": "Cina",
    "start_year": -221,
-   "end_year": -206,
+   "end_year": -207,
    "date_precision": "approximate_range",
    "date_confidence": "medium",
    "map_geometry": {
@@ -6791,13 +6881,14 @@
    },
    "summary": "Qin Shi Huang unifica gli Stati combattenti e avvia un sistema imperiale centralizzato.",
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-qin-dynasty"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Dinastia Qin 221–207 a.C. secondo Britannica (prima: fine 206).",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AE"
+   "world_area": "AE",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-nascita-ed-espansione-dellislam",
@@ -6818,13 +6909,15 @@
    },
    "summary": "La predicazione di Maometto e le conquiste dei primi califfati trasformano profondamente il mondo afro-eurasiatico.",
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-arabian-peninsula",
+    "src-v-world-history-encyclopedia-islam"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Prima rivelazione e predicazione dal 610; alla metà dell’VIII secolo (750) l’impero va dal Pakistan alla penisola iberica.",
    "layer": "persone-idee",
    "relevance": 1,
-   "world_area": "AO"
+   "world_area": "AO",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-impero-mongolo",
@@ -6845,13 +6938,15 @@
    },
    "summary": "Le conquiste mongole creano il più vasto impero terrestre contiguo della storia, intensificando scambi e circolazione lungo l’Eurasia.",
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-mongol-empire",
+    "src-v-encyclopaedia-britannica-pax-mongolica"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Fondato da Gengis Khan nel 1206; il più grande impero terrestre contiguo della storia; scambi favoriti dalla Pax Mongolica; fine della dinastia Yuan in Cina nel 1368.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AC"
+   "world_area": "AC",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-caduta-di-costantinopoli",
@@ -6872,13 +6967,14 @@
    },
    "summary": "La conquista ottomana di Costantinopoli pone fine all’Impero bizantino e segna una svolta negli equilibri regionali.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-fall-of-constantinople"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: 29 maggio 1453, dopo 55 giorni di assedio, Mehmed II conquista la città; fine dell’Impero bizantino ed espansione ottomana nell’Europa orientale.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "EU"
+   "world_area": "EU",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-riforma-protestante-e-guerre-di-religione",
@@ -6899,13 +6995,14 @@
    },
    "summary": "La Riforma avviata nel 1517 contribuisce a trasformare le istituzioni religiose e gli equilibri politici europei.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-world-history-encyclopedia-protestant-reformatio"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Inizio nel 1517 con le 95 tesi di Lutero; la periodizzazione 1517–1648 è la più accettata, ma non l’unica.",
    "layer": "persone-idee",
    "relevance": 1,
-   "world_area": "EU"
+   "world_area": "EU",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-tratta-atlantica-degli-schiavi",
@@ -6926,13 +7023,15 @@
    },
    "summary": "La deportazione forzata di milioni di africani diventa parte strutturale delle economie coloniali atlantiche.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-slavevoyages-a-brief-overview-of-the-trans-atlan",
+    "src-v-slavevoyages-estimates-trans-atlantic-slave-trad"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Stime 1501–1866, ultimo viaggio nel 1867; circa 12,5 milioni di persone imbarcate in Africa, 10,7 milioni arrivate nelle Americhe.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "GL"
+   "world_area": "GL",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-dichiarazione-dindipendenza-degli-stati-uniti",
@@ -6953,13 +7052,15 @@
    },
    "summary": "Le tredici colonie britanniche dichiarano l’indipendenza, aprendo la guerra che porterà alla nascita degli Stati Uniti.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-declaration-of-independ",
+    "src-v-encyclopaedia-britannica-american-revolution-the"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Approvata dal Congresso continentale il 4 luglio 1776 per le 13 colonie; guerra conclusa dalla pace di Parigi del 3 settembre 1783.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "NA"
+   "world_area": "NA",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-rivoluzione-haitiana",
@@ -7007,13 +7108,14 @@
    },
    "summary": "Una serie di rivoluzioni e guerre mette fine al dominio spagnolo e portoghese in gran parte dell’America Latina.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-history-of-latin-americ"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Tra 1808 e 1826 tutta l’America Latina tranne Cuba e Porto Rico si stacca da Spagna e Portogallo; Brasile indipendente il 7 settembre 1822. L’intervallo 1810–1825 indica la fase delle guerre.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "SA"
+   "world_area": "SA",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-guerre-delloppio",
@@ -7061,13 +7163,15 @@
    },
    "summary": "La spartizione coloniale accelera tra fine Ottocento e inizio Novecento, ridisegnando il controllo politico del continente.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-scramble-for-africa",
+    "src-v-world-history-encyclopedia-berlin-conference-188"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Negli anni Settanta dell’Ottocento gli europei controllavano circa il 10% dell’Africa, nel 1914 circa il 90% (restano indipendenti Etiopia e Liberia).",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AS"
+   "world_area": "AS",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-rivoluzione-russa",
@@ -7088,13 +7192,14 @@
    },
    "summary": "Le rivoluzioni del 1917 rovesciano il regime zarista e portano i bolscevichi al potere.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-russian-revolution"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Due rivoluzioni nel 1917: a febbraio (marzo nel calendario gregoriano) abdica Nicola II; a ottobre (novembre) i bolscevichi di Lenin prendono il potere.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "EU"
+   "world_area": "EU",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-indipendenza-dellindia-e-partizione",
@@ -7115,13 +7220,15 @@
    },
    "summary": "La fine del dominio britannico porta all’indipendenza di India e Pakistan e a una partizione accompagnata da migrazioni e violenze.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-partition-of-india",
+    "src-v-the-national-archives-partition-of-british-india"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Indian Independence Act del 18 luglio 1947, indipendenza di India e Pakistan il 15 agosto 1947; circa 15 milioni di sfollati, morti stimati tra 200.000 e 2 milioni.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AM"
+   "world_area": "AM",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-fondazione-della-repubblica-popolare-cinese",
@@ -7142,13 +7249,15 @@
    },
    "summary": "La vittoria comunista nella guerra civile porta alla proclamazione della Repubblica Popolare Cinese.",
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-u-s-department-of-state-office-of-the-historian",
+    "src-v-encyclopaedia-britannica-chinese-civil-war"
    ],
-   "editorial_status": "base-draft",
-   "notes": "Voce sintetica per l’esplorazione cronologica; associare una fonte specifica e verificare la periodizzazione in una fase editoriale successiva.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 19/11/2026: Proclamata da Mao il 1° ottobre 1949 dopo la guerra civile (1945–1949) contro i nazionalisti di Chiang Kai-shek.",
    "layer": "eventi",
    "relevance": 1,
-   "world_area": "AE"
+   "world_area": "AE",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-shang-oracle",
@@ -8273,15 +8382,17 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-ebsco-research-starters-fertile-crescent"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "AO",
    "event_type": "process",
    "place_name": "Levante, Anatolia e alta Mesopotamia",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Confermati colture fondatrici (farro, monococco, orzo, lenticchie) e primi animali domestici (pecore, capre, bovini, maiali).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-green-sahara-pastoralism",
@@ -8357,15 +8468,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-national-geographic-education-the-farming-revolu",
+    "src-v-pnas-matsuoka-et-al-a-single-domestication-for-m"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "process",
    "place_name": "Mezzaluna fertile, Cina, Nuova Guinea, Mesoamerica, Ande, Africa",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Agricoltura da circa 12.000 anni fa; domesticazioni indipendenti in più regioni (riso, miglio, fagiolo, cotone, zucca, mais).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-greek-colonization",
@@ -8385,15 +8499,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-greek-colonization",
+    "src-v-the-metropolitan-museum-of-art-ancient-greece-10"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
    "event_type": "process",
    "place_name": "Egeo, Italia meridionale, Sicilia, Mar Nero",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Colonizzazione dall’800 circa al 500 a.C., in Mediterraneo e Mar Nero, con diffusione di lingua e cultura greca.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-bronze-age-collapse",
@@ -8413,9 +8530,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-bronze-age-collapse",
+    "src-v-nature-manning-et-al-severe-multi-year-drought-c"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -8424,7 +8542,9 @@
    "related_entity_ids": [
     "empire-hittite",
     "culture-mycenaean"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Crollo tra XIII e XII secolo a.C. con cause intrecciate (siccità, crisi dei commerci, invasioni, rivolte); siccità 1198–1196 a.C. in Anatolia.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-classical-athens",
@@ -8444,16 +8564,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-parthenon-summary",
+    "src-v-world-history-encyclopedia-athens-timeline",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
    "event_type": "process",
    "place_name": "Attica · Grecia",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Atene distrutta dai Persiani nel 480 a.C.; età di Pericle 460–429; Partenone 447–432; guerra del Peloponneso fino al 404 a.C.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-punic-wars",
@@ -8473,9 +8596,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-third-punic-war",
+    "src-v-encyclopaedia-britannica-battle-of-carthage-146"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -8484,7 +8608,9 @@
    "related_entity_ids": [
     "state-carthage",
     "civilization-rome"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Tre guerre tra 264 e 146 a.C. (264–241, 218–201, 149–146); Cartagine distrutta nel 146 a.C.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-second-temple-destruction",
@@ -8560,15 +8686,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-trade-between-the",
+    "src-v-world-history-encyclopedia-map-of-the-trade-in-t"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "process",
    "place_name": "Mar Rosso, Arabia, India, Africa orientale, Sud-est asiatico",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Grande espansione tra I secolo a.C. e I d.C. grazie ai monsoni; nel XV–XVI secolo mercanti arabi, persiani, indiani, swahili, malesi e cinesi collegano Africa orientale, Arabia, India, Sud-est asiatico e Cina.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-justinian",
@@ -8618,15 +8747,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-lindisfarne-raid",
+    "src-v-encyclopaedia-britannica-vinland-summary"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
    "event_type": "process",
    "place_name": "Scandinavia, isole britanniche, Atlantico settentrionale, Russia",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Incursione di Lindisfarne (8 giugno 793) come inizio dell’età vichinga; rotte dall’Islanda all’Europa orientale; insediamento di L’Anse aux Meadows intorno al 1000.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-arab-conquest-north-africa",
@@ -8736,9 +8868,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-the-metropolitan-museum-of-art-maya-area-5001000",
+    "src-v-science-medina-elizalde-e-rohling-collapse-of-cl"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "MC",
@@ -8747,7 +8880,9 @@
    "related_entity_ids": [
     "culture-maya"
    ],
-   "focus": "maya"
+   "focus": "maya",
+   "notes": "Verificata il 19/11/2026: Dall’800 circa conflitti e crisi dei commerci; gran parte dei centri dell’area centrale abbandonati entro il 900; i centri del nord continuano a prosperare; siccità ricorrenti tra 800 e 1000.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-plague-of-justinian",
@@ -8795,15 +8930,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-encyclopaedia-britannica-crusades",
+    "src-v-world-history-encyclopedia-the-crusades-conseque"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "war",
    "place_name": "Europa e Levante",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Prima crociata 1096–1099; caduta di Acri nel 1291; più commerci con il mondo musulmano e più intolleranza; crociate anche nel Baltico e in Iberia.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-university-bologna",
@@ -8938,15 +9076,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-1"
+    "src-v-te-ara-the-encyclopedia-of-new-zealand-when-was",
+    "src-v-pnas-a-new-chronology-for-the-maori-settlement-o"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "OC",
    "event_type": "process",
    "place_name": "Nuova Zelanda",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Arrivo dalla Polinesia orientale tra 1250 e 1300; la Nuova Zelanda è l’ultima grande terra abitabile a essere popolata.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-marco-polo",
@@ -9054,9 +9195,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-columbian-exchange",
+    "src-v-world-history-encyclopedia-columbian-exchange"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -9064,7 +9206,9 @@
    "place_name": "Atlantico: Americhe, Europa, Africa",
    "related_entity_ids": [
     "event-1492"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Dal 1492: mais, patate, manioca verso il Vecchio Mondo; cavalli, bovini, maiali verso le Americhe; vaiolo, morbillo e influenza con crolli demografici catastrofici.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-thirty-years-war",
@@ -9084,15 +9228,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-thirty-years-war",
+    "src-v-world-history-encyclopedia-peace-of-westphalia"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
    "event_type": "war",
    "place_name": "Europa centrale",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: 1618–1648; circa 8 milioni di morti secondo WHE; la pace di Vestfalia riconosce piena sovranità territoriale agli stati dell’Impero e dà origine al concetto di sovranità westfaliana.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-louis-xiv",
@@ -9694,9 +9841,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-sugar-revolution",
+    "src-v-encyclopaedia-britannica-slavery-slavery-in-the"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "MC",
@@ -9704,7 +9852,9 @@
    "place_name": "Barbados, Giamaica, Saint-Domingue",
    "related_entity_ids": [
     "event-tratta-atlantica-degli-schiavi"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Rivoluzione dello zucchero a Barbados dagli anni Quaranta del Seicento; circa due terzi degli schiavi deportati finirono nelle colonie dello zucchero; abolizione nelle colonie britanniche nel 1834.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-potosi-silver",
@@ -9724,16 +9874,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-unesco-world-heritage-centre-city-of-potosi",
+    "src-v-world-history-encyclopedia-the-silver-of-the-con"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "SA",
    "event_type": "process",
    "place_name": "Ande · Bolivia",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Argento del Cerro Rico scoperto nel 1545; nel XVI secolo il più grande complesso industriale del mondo; quartieri dei lavoratori della mita.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-jesuit-reductions",
@@ -9799,7 +9951,7 @@
    "end_year": 1522,
    "date_precision": "range",
    "date_confidence": "high",
-   "summary": "La prima navigazione intorno al mondo dimostra le dimensioni reali del Pacifico; Magellano muore nelle Filippine.",
+   "summary": "La prima navigazione intorno al mondo attraversa il Pacifico da est a ovest. Magellano muore a Mactan, nelle Filippine, nel 1521; la spedizione rientra in Spagna nel 1522 guidata da Juan Sebastián Elcano, con una sola nave.",
    "region": "Globale",
    "subregion": "Oceani Atlantico, Pacifico e Indiano",
    "map_geometry": {
@@ -9810,15 +9962,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-ferdinand-magellan",
+    "src-v-world-history-encyclopedia-ferdinand-magellan-ti"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "exploration",
    "place_name": "Oceani Atlantico, Pacifico e Indiano",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Partenza 1519, morte di Magellano il 27 aprile 1521, rientro della Victoria il 6 settembre 1522 con 22 dei circa 270 uomini. Tolta l’affermazione sulle «dimensioni reali del Pacifico», non coperta dalle fonti.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-manila-galleons",
@@ -9854,7 +10009,7 @@
   {
    "id": "event-smallpox-americas",
    "name": "Epidemie nelle Americhe",
-   "start_year": 1518,
+   "start_year": 1519,
    "end_year": 1650,
    "date_precision": "approximate",
    "date_confidence": "medium",
@@ -9869,9 +10024,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-world-history-encyclopedia-columbian-exchange",
+    "src-v-cdc-emerging-infectious-diseases-megadrought-and"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -9879,7 +10035,9 @@
    "place_name": "Caraibi, Mesoamerica, Ande, Nord America",
    "related_entity_ids": [
     "event-columbian-exchange"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Vaiolo dal 1519 (WHE); epidemia del 1519–1520 in Messico con 5–8 milioni di morti (CDC); entro il 1650 morto circa il 90% delle popolazioni native secondo le stime. Inizio portato dal 1518 al 1519 come nelle fonti citate.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-napoleon",
@@ -9899,9 +10057,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-napoleon-i",
+    "src-v-world-history-encyclopedia-napoleon-bonaparte-ti"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -9909,7 +10068,9 @@
    "place_name": "Francia ed Europa",
    "related_entity_ids": [
     "event-french-revolution"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Colpo di stato del 18 brumaio 1799; impero proclamato il 18 maggio 1804; codice civile; sconfitta a Waterloo il 18 giugno 1815.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-congress-vienna",
@@ -10013,9 +10174,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-risorgimento",
+    "src-v-encyclopaedia-britannica-italy-garibaldi-and-the"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -10024,7 +10186,9 @@
    "place_name": "Penisola italiana · Torino",
    "related_entity_ids": [
     "state-italy-kingdom"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Movimento dal 1815 circa; Regno d’Italia proclamato il 17 marzo 1861; Veneto nel 1866, Roma nel 1870, capitale dal 1871.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-tanzimat",
@@ -10377,7 +10541,7 @@
    "end_year": 1912,
    "date_precision": "range",
    "date_confidence": "high",
-   "summary": "L’insurrezione di Wuchang porta all’abdicazione dell’ultimo imperatore e alla Repubblica di Cina di Sun Yat-sen.",
+   "summary": "L’ammutinamento di Wuchang (10 ottobre 1911) avvia la rivoluzione che porta all’abdicazione dell’ultimo imperatore, Puyi (12 febbraio 1912), e alla Repubblica di Cina: Sun Yat-sen ne è presidente provvisorio, poi gli succede Yuan Shikai.",
    "region": "Asia",
    "subregion": "Wuhan",
    "map_geometry": {
@@ -10388,9 +10552,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-chinese-revolution-1911",
+    "src-v-encyclopaedia-britannica-sun-yat-sen-the-revolut"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AE",
@@ -10398,7 +10563,9 @@
    "place_name": "Wuhan",
    "related_entity_ids": [
     "civilization-qing"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Precisato che Sun Yat-sen fu presidente provvisorio e lasciò il posto a Yuan Shikai nel febbraio 1912.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-great-game",
@@ -10533,15 +10700,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-u-s-national-archives-jacksons-message-to-congre",
+    "src-v-u-s-national-park-service-american-expansion-tur"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "NA",
    "event_type": "process",
    "place_name": "Stati Uniti occidentali e Oklahoma",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Indian Removal Act del 28 maggio 1830; deportazioni degli anni Trenta verso il Territorio indiano (circa 100.000 persone secondo NPS); politica estesa verso ovest fino al Pacifico. Non verificato sulle fonti: La data di fine (1890) non è coperta dalle fonti citate.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-california-gold-rush",
@@ -10589,15 +10759,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-u-s-national-archives-13th-amendment-to-the-u-s",
+    "src-v-encyclopaedia-britannica-causes-and-effects-of-t"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "NA",
    "event_type": "war",
    "place_name": "Stati Uniti orientali",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: 1861–1865 tra Unione e 11 stati secessionisti; XIII emendamento approvato il 31 gennaio e ratificato il 6 dicembre 1865.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-canadian-confederation",
@@ -10736,15 +10909,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-mexican-revolution",
+    "src-v-library-of-congress-the-mexican-revolution-and-t"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "MC",
    "event_type": "revolution",
    "place_name": "Messico",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: 1910–1920 contro la dittatura di Porfirio Díaz; Madero, Villa, Zapata, Carranza, Obregón; Costituzione del 5 febbraio 1917.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-bolivar-gran-colombia",
@@ -10850,16 +11026,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-national-museum-of-australia-the-first-fleet-arr",
+    "src-v-encyclopaedia-britannica-history-of-australia",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "OC",
    "event_type": "colonization",
    "place_name": "Sydney",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Colonia penale a Sydney Cove dal 26 gennaio 1788; violenze contro gli Eora fin dall’inizio; espropriazione dei popoli aborigeni; federazione nel 1901.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-treaty-waitangi",
@@ -10907,9 +11086,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-transatlantic-slave-tra",
+    "src-v-encyclopaedia-britannica-slavery-ways-of-ending"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -10918,7 +11098,9 @@
    "related_entity_ids": [
     "event-tratta-atlantica-degli-schiavi",
     "event-rivoluzione-haitiana"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Abolizione britannica della tratta nel 1807; schiavitù abolita nelle colonie britanniche nel 1834, negli Stati Uniti nel 1865, a Cuba nel 1886; il Brasile ultimo nell’emisfero occidentale il 13 maggio 1888.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-mass-migration",
@@ -10938,15 +11120,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-immigration-to-the-unit",
+    "src-v-iom-world-migration-report-2005-capitolo-3-migra"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "process",
    "place_name": "Europa, Asia e Americhe",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Grande migrazione atlantica dagli anni Quaranta dell’Ottocento; circa 26 milioni di italiani partiti tra 1876 e 1976 (picco nel 1913); circa 10 milioni di cinesi emigrati tra 1840 e 1911.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-fascism-italy",
@@ -10966,9 +11151,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-march-on-rome",
+    "src-v-united-states-holocaust-memorial-museum-benito-m"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -10976,7 +11162,9 @@
    "place_name": "Roma",
    "related_entity_ids": [
     "event-world-war-two"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Marcia su Roma (28–30 ottobre 1922); Mussolini al governo dal 1922, dittatore dal 1925 al 1943; leggi antisemite del 1938; Patto d’acciaio con Hitler nel maggio 1939.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-nazi-germany",
@@ -10996,9 +11184,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-united-states-holocaust-memorial-museum-the-holo",
+    "src-v-united-states-holocaust-memorial-museum-world-wa"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -11006,16 +11195,18 @@
    "place_name": "Germania · Berlino",
    "related_entity_ids": [
     "event-world-war-two"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Hitler cancelliere il 30 gennaio 1933; regime nazista fino al 1945; ideologia razzista e progetto di espansione a est.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-holocaust",
    "name": "Shoah",
-   "start_year": 1941,
+   "start_year": 1933,
    "end_year": 1945,
    "date_precision": "range",
    "date_confidence": "high",
-   "summary": "Lo sterminio sistematico di circa sei milioni di ebrei europei, insieme a rom, disabili e altri gruppi perseguitati dal nazismo.",
+   "summary": "Persecuzione e sterminio sistematico di sei milioni di ebrei europei da parte della Germania nazista e dei suoi alleati, culminati nella «soluzione finale» (1941–1945). Furono perseguitati e uccisi anche rom, disabili, polacchi, prigionieri sovietici e altri gruppi.",
    "region": "Europa",
    "subregion": "Europa occupata · Auschwitz-Birkenau",
    "map_geometry": {
@@ -11026,10 +11217,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-united-states-holocaust-memorial-museum-introduc",
+    "src-v-united-states-holocaust-memorial-museum-how-many",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -11037,7 +11229,9 @@
    "place_name": "Europa occupata · Auschwitz-Birkenau",
    "related_entity_ids": [
     "event-nazi-germany"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Il Museo dell’Olocausto di Washington data la Shoah 1933–1945, con la «soluzione finale» nel 1941–1945: inizio portato dal 1941 al 1933.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-spanish-civil-war",
@@ -11115,9 +11309,9 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-collapse-of-the-soviet"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -11125,7 +11319,9 @@
    "place_name": "Mosca",
    "related_entity_ids": [
     "event-berlin-wall"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Scioglimento formale il 31 dicembre 1991; 15 repubbliche diventano stati indipendenti; fine della Guerra fredda.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-turkish-republic",
@@ -11175,15 +11371,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-1948-arab-israeli-war",
+    "src-v-nazioni-unite-un-news-un-marks-75-years-since-di"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AO",
    "event_type": "political",
    "place_name": "Palestina storica",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Indipendenza dichiarata il 14 maggio 1948; invasione di Egitto, Transgiordania, Iraq, Siria e Libano; circa 700.000 palestinesi profughi (Nakba).",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-opec",
@@ -11405,16 +11604,19 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-south-african-history-online-nelson-mandela-fath",
+    "src-v-south-african-history-online-nelson-mandela-is-i",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AS",
    "event_type": "political",
    "place_name": "Sudafrica · Pretoria",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Apartheid introdotto dal National Party nel 1948; prime elezioni democratiche il 27 aprile 1994; Mandela presidente dal 10 maggio 1994.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-rwanda-genocide",
@@ -11548,10 +11750,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-pacific-war-hiroshima-a",
+    "src-v-the-national-wwii-museum-the-end-of-world-war-ii",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AE",
@@ -11559,7 +11762,9 @@
    "place_name": "Hiroshima e Nagasaki",
    "related_entity_ids": [
     "event-world-war-two"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: Bombe su Hiroshima (6 agosto 1945) e Nagasaki (9 agosto); circa 210.000 morti entro la fine del 1945 secondo Britannica; resa annunciata il 15 agosto.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-korean-war",
@@ -11637,15 +11842,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-special-economic-zone-s",
+    "src-v-encyclopaedia-britannica-deng-xiaoping"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "AE",
    "event_type": "political",
    "place_name": "Cina · Shenzhen",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Riforme dal 1978 (decollettivizzazione, mercato, investimenti esteri); prime quattro zone economiche speciali nel 1980; nel 1992 politiche estese a una ventina di grandi città interne.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-japan-economic-miracle",
@@ -11764,7 +11972,7 @@
   {
    "id": "event-vietnam-war",
    "name": "Guerra del Vietnam",
-   "start_year": 1955,
+   "start_year": 1954,
    "end_year": 1975,
    "date_precision": "range",
    "date_confidence": "high",
@@ -11779,15 +11987,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-history-of-vietnam",
+    "src-v-encyclopaedia-britannica-fall-of-saigon-1975"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "SE",
    "event_type": "war",
    "place_name": "Vietnam",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Britannica data la guerra 1954–1975 (inizio portato dal 1955 al 1954); caduta di Saigon il 30 aprile 1975; unificazione formale il 2 luglio 1976.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-asean",
@@ -11863,15 +12074,17 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-great-depression"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "NA",
    "event_type": "economic",
    "place_name": "New York",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Dal 1929 al 1939 circa, quasi ogni paese colpito; negli Stati Uniti disoccupazione oltre il 20%; il New Deal crea circa 8,5 milioni di posti di lavoro.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-civil-rights",
@@ -11891,15 +12104,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-library-of-congress-the-african-american-odyssey",
+    "src-v-encyclopaedia-britannica-timeline-of-the-america"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "NA",
    "event_type": "political",
    "place_name": "Stati Uniti meridionali · Montgomery",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Brown v. Board of Education (17 maggio 1954); boicottaggio di Montgomery dopo l’arresto di Rosa Parks (1955); Civil Rights Act 1964 e Voting Rights Act 1965; assassinio di Martin Luther King nel 1968.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-september-11",
@@ -11947,15 +12163,17 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-cuban-revolution"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "MC",
    "event_type": "revolution",
    "place_name": "Cuba · L’Avana",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Dall’assalto alla caserma Moncada (26 luglio 1953) alla caduta di Batista (1° gennaio 1959); Fidel e Raúl Castro, Che Guevara; poi stato a partito unico allineato all’URSS.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-cuban-missile-crisis",
@@ -12237,15 +12455,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-nazioni-unite-history-of-the-united-nations",
+    "src-v-nazioni-unite-universal-declaration-of-human-rig"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "political",
    "place_name": "San Francisco, New York, Parigi",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Carta firmata il 26 giugno 1945, ONU in vigore dal 24 ottobre 1945; Dichiarazione universale proclamata a Parigi il 10 dicembre 1948.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-cold-war",
@@ -12265,9 +12486,9 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-cold-war"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
@@ -12276,7 +12497,9 @@
    "related_entity_ids": [
     "event-berlin-wall",
     "event-ussr-dissolution"
-   ]
+   ],
+   "notes": "Verificata il 19/11/2026: 1947–1991; rivalità politica, economica e propagandistica tra Stati Uniti e URSS con i rispettivi alleati; corsa agli armamenti, guerre per procura, corsa allo spazio; fine con lo scioglimento dell’URSS.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-climate-agreements",
@@ -12324,15 +12547,18 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-organizzazione-mondiale-della-sanita-coronavirus",
+    "src-v-organizzazione-mondiale-della-sanita-coronavirus-2"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "GL",
    "event_type": "epidemic",
    "place_name": "Mondo",
-   "related_entity_ids": []
+   "related_entity_ids": [],
+   "notes": "Verificata il 19/11/2026: Emergenza internazionale dal 30 gennaio 2020, pandemia dall’11 marzo 2020, fine dell’emergenza il 5 maggio 2023; oltre 7 milioni di morti segnalati (stima reale almeno 20 milioni); oltre 13,6 miliardi di dosi di vaccino entro il 2024.",
+   "verified_on": "2026-11-19"
   },
   {
    "id": "event-holocene-start",
@@ -12851,8 +13077,7 @@
    "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/index.html",
    "source_type": "university_research_resource",
    "supports": [
-    "state-ancient-egypt",
-    "tech-arch-great-pyramid"
+    "state-ancient-egypt"
    ],
    "notes": "Cronologia articolata di periodi culturali e dinastici; segnala l'incertezza delle date più antiche."
   },
@@ -13008,8 +13233,8 @@
    "url": "https://www.nature.com/articles/s41586-024-07881-4",
    "source_type": "peer_reviewed_research_article",
    "supports": [
-    "event-rapanui-initial-settlement",
     "culture-rapanui",
+    "event-rapanui-initial-settlement",
     "event-rapanui-precontact-americas",
     "event-rapanui-genomic-study-2024"
    ],
@@ -13111,8 +13336,7 @@
    "url": "https://whc.unesco.org/en/list/1269/",
    "source_type": "world_heritage_record",
    "supports": [
-    "culture-caral",
-    "tech-arch-caral"
+    "culture-caral"
    ],
    "notes": "Cronologia radiocarbonica dello sviluppo tra circa 3000 e 1800 a.C.; architettura monumentale, piattaforme e piazze circolari infossate."
   },
@@ -13151,8 +13375,8 @@
     "culture-chavin",
     "culture-wari",
     "culture-chimu",
-    "civilization-inca",
     "civilization-maurya",
+    "civilization-inca",
     "religion-buddhism",
     "event-buddha",
     "event-ashoka-edicts",
@@ -13347,6 +13571,8 @@
     "civilization-safavid",
     "civilization-japan-shogunate",
     "civilization-haudenosaunee",
+    "event-world-war-one",
+    "event-world-war-two",
     "event-constantinople-found",
     "event-western-rome-end",
     "event-hijra",
@@ -13357,8 +13583,6 @@
     "event-1492",
     "event-french-revolution",
     "event-meiji",
-    "event-world-war-one",
-    "event-world-war-two",
     "event-berlin-wall"
    ],
    "notes": "Quadro di eventi globali e reti commerciali, inclusa la Via della Seta e i contatti intercontinentali."
@@ -13400,9 +13624,9 @@
    "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=1781",
    "source_type": "university_educational_resource",
    "supports": [
+    "state-achaemenid",
     "civilization-shang",
     "civilization-zhou",
-    "state-achaemenid",
     "civilization-aztec",
     "civilization-rome",
     "event-shang-oracle",
@@ -13445,15 +13669,14 @@
     "site-ahu-tongariki",
     "site-orongo",
     "site-rano-kau",
-    "event-rapanui-moai-tradition",
-    "event-rapanui-birdman-cult",
-    "event-rapanui-unesco-listing",
-    "tech-arch-moai",
     "site-anakena",
     "site-ahu-akivi",
     "event-rapanui-initial-settlement",
+    "event-rapanui-moai-tradition",
     "event-rapanui-agricultural-landscape",
-    "event-rapanui-slave-raids"
+    "event-rapanui-birdman-cult",
+    "event-rapanui-slave-raids",
+    "event-rapanui-unesco-listing"
    ],
    "notes": "Scheda UNESCO del Patrimonio mondiale: circa 900 moai, oltre 300 piattaforme ahu, cave, arte rupestre, villaggio cerimoniale di Orongo e paesaggio produttivo. Riporta la periodizzazione tradizionale e la narrazione della crisi ecologica, da affiancare alla ricerca archeologica più recente."
   },
@@ -13478,7 +13701,6 @@
    "source_type": "museum_collection_essay",
    "supports": [
     "culture-rapanui",
-    "event-rapanui-settlement",
     "event-rapanui-first-european-contact",
     "event-rapanui-slave-raids",
     "event-rapanui-catholic-mission",
@@ -13507,7 +13729,6 @@
    "source_type": "peer_reviewed_research_article",
    "supports": [
     "culture-rapanui",
-    "tech-scr-rongorongo",
     "event-rapanui-rongorongo-dating-2024"
    ],
    "notes": "Ferrara, Tassoni, Kromer et al., 2024. Nuove datazioni radiocarboniche su tavolette roŋoroŋo; i risultati riaprono la discussione sulla cronologia del sistema di segni, senza consentire una decifrazione condivisa."
@@ -13521,7 +13742,6 @@
    "supports": [
     "culture-rapanui",
     "event-rapanui-moai-tradition",
-    "tech-arch-moai",
     "event-rapanui-agricultural-landscape"
    ],
    "notes": "Terry L. Hunt e Carl P. Lipo, 2017. Sintesi archeologica su insediamento, agricoltura, organizzazione sociale, produzione e trasporto dei moai; invita a superare la narrazione semplicistica dell’ecocidio."
@@ -13605,8 +13825,7 @@
    "url": "https://www.metmuseum.org/toah/ht/03/oc.html",
    "source_type": "museum_chronology",
    "supports": [
-    "culture-lapita",
-    "tech-nav-lapita"
+    "culture-lapita"
    ],
    "notes": "Sintesi museale sulla diffusione della cultura Lapita nel Pacifico occidentale e sulle cronologie di insediamento; le date sono approssimative."
   },
@@ -13628,7 +13847,6 @@
    "url": "https://whc.unesco.org/en/list/1572",
    "source_type": "world_heritage_record",
    "supports": [
-    "tech-arch-gobekli-tepe",
     "site-gobekli-tepe"
    ],
    "notes": "Cronologia dei recinti megalitici (circa 9600–8200 a.C.) e loro significato come prime architetture monumentali."
@@ -13684,7 +13902,6 @@
    "url": "https://whc.unesco.org/en/list/1503",
    "source_type": "world_heritage_record",
    "supports": [
-    "tech-arch-nan-madol",
     "site-nan-madol"
    ],
    "notes": "Isolotti artificiali con strutture megalitiche in basalto costruite tra il 1200 e il 1500 circa."
@@ -14059,24 +14276,16 @@
     "culture-hemudu",
     "culture-botai",
     "culture-clovis",
-    "invention-maize-domestication",
     "culture-chinchorro",
     "site-kuk-swamp",
     "site-carnac",
     "site-stonehenge",
-    "culture-etruscan",
-    "invention-cuneiform",
     "empire-akkad",
     "empire-hittite",
-    "culture-phoenician",
     "state-ancient-israel",
-    "site-giza-pyramids",
     "state-egypt-new-kingdom",
-    "state-carthage",
-    "movement-bantu-migrations",
     "culture-nok",
     "culture-vedic",
-    "religion-hinduism",
     "religion-jainism",
     "state-mahajanapadas",
     "culture-sintashta",
@@ -14084,17 +14293,12 @@
     "site-ban-chiang",
     "culture-dong-son",
     "site-poverty-point",
-    "invention-iron-metallurgy",
     "culture-la-tene",
     "empire-parthian",
-    "empire-sasanian",
     "site-petra",
     "state-ptolemaic-egypt",
     "state-numidia",
     "site-djenne-djeno",
-    "empire-ghana",
-    "religion-daoism",
-    "site-great-wall",
     "site-terracotta-army",
     "culture-yayoi",
     "state-three-kingdoms-korea",
@@ -14105,26 +14309,17 @@
     "culture-hopewell",
     "site-monte-alban",
     "site-tiwanaku",
-    "state-frankish-carolingian",
     "state-lombards",
-    "state-al-andalus",
     "state-kievan-rus",
-    "state-umayyad-caliphate",
     "site-al-qarawiyyin",
     "state-makuria",
     "state-fatimid-caliphate",
-    "movement-swahili-coast",
     "empire-chola",
-    "invention-indian-numerals-zero",
-    "state-dynasty-tang",
     "state-unified-silla",
     "empire-gokturk",
     "state-srivijaya",
     "site-borobudur",
-    "empire-khmer-angkor",
     "site-chaco-canyon",
-    "movement-italian-communes",
-    "movement-italian-renaissance",
     "empire-seljuk",
     "state-ayyubid",
     "state-ilkhanate",
@@ -14132,8 +14327,6 @@
     "state-almoravid-almohad",
     "site-lalibela",
     "state-benin-kingdom",
-    "state-kongo-kingdom",
-    "state-delhi-sultanate",
     "empire-vijayanagara",
     "state-dynasty-yuan",
     "state-kamakura-shogunate",
@@ -14145,42 +14338,26 @@
     "empire-majapahit",
     "state-malacca-sultanate",
     "site-cahokia",
-    "site-tenochtitlan",
     "state-purepecha",
     "invention-qhapaq-nan",
     "site-nan-madol",
     "site-ajanta",
-    "event-urbanizzazione-di-uruk",
     "event-unificazione-dellegitto",
     "event-regno-di-hammurabi-a-babilonia",
     "event-impero-neo-assiro",
     "event-riforme-di-clistene-ad-atene",
-    "event-unificazione-della-cina-sotto-qin",
-    "event-nascita-ed-espansione-dellislam",
-    "event-impero-mongolo",
-    "event-neolithic-fertile-crescent",
     "event-green-sahara-pastoralism",
     "event-neolithic-europe",
-    "event-neolithic-revolution-world",
-    "event-greek-colonization",
-    "event-bronze-age-collapse",
-    "event-classical-athens",
-    "event-punic-wars",
     "event-second-temple-destruction",
     "event-warring-states",
-    "event-indian-ocean-monsoon-trade",
     "event-justinian",
-    "event-vikings",
     "event-arab-conquest-north-africa",
     "event-heian-japan",
     "event-battle-of-talas",
-    "event-classic-maya-collapse",
     "event-plague-of-justinian",
-    "event-crusades",
     "event-university-bologna",
     "event-magna-carta",
     "event-hundred-years-war",
-    "event-maori-settlement",
     "event-marco-polo",
     "event-ibn-battuta",
     "event-portuguese-african-voyages",
@@ -14196,48 +14373,30 @@
    "source_type": "open_textbook",
    "notes": "Manuale universitario introduttivo ad accesso aperto (CC BY), impianto di storia mondiale. Riferimento generale di livello manuale: non ogni dettaglio delle voci collegate è stato confrontato riga per riga con il testo.",
    "supports": [
-    "site-machu-picchu",
-    "movement-enlightenment",
     "state-barbary-regencies",
     "empire-ashanti",
     "state-dahomey",
-    "site-taj-mahal",
     "religion-sikhism",
     "state-bukhara-khanate",
     "state-new-france",
-    "state-new-spain",
     "state-portuguese-brazil",
     "state-viceroyalty-peru",
     "movement-chartered-companies",
     "movement-jesuits-global",
     "movement-socialism",
-    "invention-suez-canal",
     "state-zulu-kingdom",
     "state-sokoto-caliphate",
-    "state-british-raj",
     "state-french-indochina",
     "state-empire-brazil",
-    "movement-new-imperialism",
     "invention-telegraph",
     "invention-germ-theory",
     "invention-manhattan-project",
     "invention-personal-computer",
     "invention-panama-canal",
     "state-maratha",
-    "event-caduta-di-costantinopoli",
-    "event-riforma-protestante-e-guerre-di-religione",
-    "event-tratta-atlantica-degli-schiavi",
-    "event-dichiarazione-dindipendenza-degli-stati-uniti",
     "event-rivoluzione-haitiana",
-    "event-indipendenze-dellamerica-latina",
     "event-guerre-delloppio",
-    "event-espansione-coloniale-europea-in-africa",
-    "event-rivoluzione-russa",
-    "event-indipendenza-dellindia-e-partizione",
-    "event-fondazione-della-repubblica-popolare-cinese",
     "event-fall-of-granada",
-    "event-columbian-exchange",
-    "event-thirty-years-war",
     "event-louis-xiv",
     "event-peter-the-great",
     "event-suleiman",
@@ -14258,18 +14417,12 @@
     "event-jamestown",
     "event-new-amsterdam",
     "event-yucatan-conquest",
-    "event-caribbean-sugar",
-    "event-potosi-silver",
     "event-jesuit-reductions",
     "event-tasman-voyages",
-    "event-magellan-elcano",
     "event-manila-galleons",
-    "event-smallpox-americas",
-    "event-napoleon",
     "event-congress-vienna",
     "event-1848-revolutions",
     "event-german-unification",
-    "event-risorgimento",
     "event-tanzimat",
     "event-young-turks",
     "event-napoleon-egypt",
@@ -14282,34 +14435,22 @@
     "event-taiping",
     "event-perry-japan",
     "event-first-sino-japanese-war",
-    "event-xinhai-revolution",
     "event-great-game",
     "event-russian-central-asia",
     "event-siam-reforms",
     "event-us-constitution",
-    "event-trail-of-tears",
     "event-california-gold-rush",
-    "event-american-civil-war",
     "event-canadian-confederation",
     "event-seven-years-war-america",
     "event-mexican-independence",
     "event-caste-war-yucatan",
-    "event-mexican-revolution",
     "event-bolivar-gran-colombia",
     "event-paraguayan-war",
     "event-cook-voyages",
-    "event-australia-colonization",
     "event-treaty-waitangi",
-    "event-abolition-slavery",
-    "event-mass-migration",
-    "event-fascism-italy",
-    "event-nazi-germany",
-    "event-holocaust",
     "event-spanish-civil-war",
     "event-treaties-of-rome",
-    "event-ussr-dissolution",
     "event-turkish-republic",
-    "event-israel-1948",
     "event-opec",
     "event-iranian-revolution",
     "event-suez-crisis",
@@ -14317,26 +14458,19 @@
     "event-arab-spring",
     "event-ghana-independence",
     "event-african-union",
-    "event-apartheid",
     "event-rwanda-genocide",
     "event-salt-march",
     "event-bangladesh-independence",
     "event-green-revolution",
-    "event-hiroshima-nagasaki",
     "event-korean-war",
     "event-cultural-revolution",
-    "event-deng-reforms",
     "event-japan-economic-miracle",
     "event-soviet-central-asia",
     "event-soviet-afghan-war",
     "event-indonesian-independence",
-    "event-vietnam-war",
     "event-asean",
     "event-khmer-rouge",
-    "event-great-depression",
-    "event-civil-rights",
     "event-september-11",
-    "event-cuban-revolution",
     "event-cuban-missile-crisis",
     "event-zapatista-uprising",
     "event-peronism",
@@ -14346,10 +14480,7 @@
     "event-pacific-nuclear-tests",
     "event-pacific-independences",
     "event-spanish-flu",
-    "event-united-nations",
-    "event-cold-war",
     "event-climate-agreements",
-    "event-covid19",
     "event-meridian-conference",
     "event-new-deal"
    ]
@@ -14368,7 +14499,6 @@
     "site-poverty-point",
     "site-petra",
     "site-djenne-djeno",
-    "site-great-wall",
     "state-champa",
     "culture-hopewell",
     "site-monte-alban",
@@ -14390,7 +14520,6 @@
     "state-malacca-sultanate",
     "site-cahokia",
     "site-tenochtitlan",
-    "site-machu-picchu",
     "invention-qhapaq-nan",
     "empire-ashanti",
     "state-dahomey",
@@ -14405,7 +14534,6 @@
     "event-louis-xiv",
     "event-peter-the-great",
     "event-suleiman",
-    "event-potosi-silver",
     "event-jesuit-reductions",
     "event-us-constitution",
     "event-australia-colonization",
@@ -14712,6 +14840,1692 @@
    "supports": [
     "event-copan-dynasty"
    ]
+  },
+  {
+   "id": "src-v-ebsco-research-starters-fertile-crescent",
+   "institution": "EBSCO Research Starters",
+   "title": "Fertile Crescent",
+   "url": "https://ebsco.com/research-starters/agriculture-and-agribusiness/fertile-crescent",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-neolithic-fertile-crescent"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-national-geographic-education-the-farming-revolu",
+   "institution": "National Geographic Education",
+   "title": "The Farming Revolution",
+   "url": "https://www.nationalgeographic.org/article/development-agriculture/6th-grade/",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-neolithic-revolution-world"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-pnas-matsuoka-et-al-a-single-domestication-for-m",
+   "institution": "PNAS (via PubMed Central)",
+   "title": "Matsuoka et al., A single domestication for maize (2002)",
+   "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC122905/",
+   "source_type": "academic_article",
+   "supports": [
+    "invention-maize-domestication",
+    "event-neolithic-revolution-world"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-archaeology-maize-domestication-in-the-balsas-ba",
+   "institution": "Archaeology (Archaeological Institute of America)",
+   "title": "Maize domestication in the Balsas basin",
+   "url": "https://archaeology.org/?p=31113",
+   "source_type": "academic_article",
+   "supports": [
+    "invention-maize-domestication"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-uruk-the-first-ci",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Uruk: The First City (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/essays/uruk-the-first-city",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-urbanizzazione-di-uruk"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-smarthistory-cuneiform-an-introduction",
+   "institution": "Smarthistory",
+   "title": "Cuneiform, an introduction",
+   "url": "https://smarthistory.org/cuneiform",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "invention-cuneiform"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-cuneiform-tablet",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Cuneiform tablet: Late Babylonian grammatical text",
+   "url": "https://metmuseum.org/art/collection/search/321677",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "invention-cuneiform"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-smarthistory-the-great-pyramids-of-giza-old-king",
+   "institution": "Smarthistory",
+   "title": "The Great Pyramids of Giza (Old Kingdom)",
+   "url": "https://smarthistory.org/period-culture-style/ancient-egyptian-2/old-kingdom/",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "site-giza-pyramids"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-egypt-in-the-old",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Egypt in the Old Kingdom (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/essays/egypt-in-the-old-kingdom-ca-2649-2150-b-c",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "site-giza-pyramids"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-bantu-migration",
+   "institution": "World History Encyclopedia",
+   "title": "Bantu Migration",
+   "url": "https://www.worldhistory.org/Bantu_Migration/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-bantu-migrations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-nature-the-genetic-legacy-of-the-expansion-of-ba",
+   "institution": "Nature",
+   "title": "The genetic legacy of the expansion of Bantu-speaking peoples in Africa (2023)",
+   "url": "https://www.nature.com/articles/s41586-023-06770-6",
+   "source_type": "academic_article",
+   "supports": [
+    "movement-bantu-migrations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-the-phoenicians-1",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "The Phoenicians (1500–300 B.C.)",
+   "url": "https://www.metmuseum.org/toah/hd/phoe/hd_phoe.htm",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-phoenician"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-tyre",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Tyre",
+   "url": "https://www.britannica.com/place/Tyre",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-phoenician"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-bronze-age-collapse",
+   "institution": "World History Encyclopedia",
+   "title": "Bronze Age Collapse",
+   "url": "https://www.worldhistory.org/Bronze_Age_Collapse/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-bronze-age-collapse"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-nature-manning-et-al-severe-multi-year-drought-c",
+   "institution": "Nature",
+   "title": "Manning et al., Severe multi-year drought coincident with Hittite collapse around 1198–1196 BC (2023)",
+   "url": "https://www.nature.com/articles/s41586-022-05693-y",
+   "source_type": "academic_article",
+   "supports": [
+    "event-bronze-age-collapse"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-carthage",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Carthage",
+   "url": "https://www.britannica.com/place/Carthage-ancient-city-Tunisia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-carthage"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-archaeological-site",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Archaeological Site of Carthage",
+   "url": "https://whc.unesco.org/en/list/37/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "state-carthage"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-third-punic-war",
+   "institution": "World History Encyclopedia",
+   "title": "Third Punic War",
+   "url": "https://www.worldhistory.org/Third_Punic_War/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-punic-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-battle-of-carthage-146",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Battle of Carthage (146 BCE)",
+   "url": "https://www.britannica.com/event/Battle-of-Carthage-146-BCE",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-punic-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-hinduism-the-history-of",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Hinduism: the history of Hinduism",
+   "url": "https://www.britannica.com/topic/Hinduism/The-history-of-Hinduism",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-hinduism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-upanishads",
+   "institution": "World History Encyclopedia",
+   "title": "Upanishads",
+   "url": "https://www.worldhistory.org/Upanishads/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-hinduism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iron-age",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Iron Age",
+   "url": "https://www.britannica.com/event/Iron-Age",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-iron-metallurgy"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-the-age-of-iron-i",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "The Age of Iron in West Africa",
+   "url": "https://www.metmuseum.org/toah/hd/iron/hd_iron.htm",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "invention-iron-metallurgy"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-greek-colonization",
+   "institution": "World History Encyclopedia",
+   "title": "Greek Colonization",
+   "url": "https://www.worldhistory.org/Greek_Colonization/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-greek-colonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-ancient-greece-10",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Ancient Greece, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/04/eusb.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-greek-colonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-etruscan",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Etruscan",
+   "url": "https://www.britannica.com/topic/Etruscan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-etruscan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-etruscan-civilization",
+   "institution": "World History Encyclopedia",
+   "title": "Etruscan Civilization (timeline)",
+   "url": "https://www.worldhistory.org/timeline/Etruscan_Civilization/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-etruscan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-parthenon-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Parthenon (summary)",
+   "url": "https://www.britannica.com/summary/Parthenon",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-classical-athens"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-athens-timeline",
+   "institution": "World History Encyclopedia",
+   "title": "Athens (timeline)",
+   "url": "https://www.worldhistory.org/timeline/Athens/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-classical-athens"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-stanford-encyclopedia-of-philosophy-laozi",
+   "institution": "Stanford Encyclopedia of Philosophy",
+   "title": "Laozi",
+   "url": "https://plato.stanford.edu/entries/laozi/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-daoism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-dao",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Dao",
+   "url": "https://www.britannica.com/topic/dao",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-daoism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-the-great-wall",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "The Great Wall",
+   "url": "https://whc.unesco.org/en/list/438/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-great-wall"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-qin-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Qin dynasty",
+   "url": "https://www.britannica.com/topic/Qin-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-unificazione-della-cina-sotto-qin"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-trade-between-the",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Trade between the Romans and the Empires of Asia",
+   "url": "https://www.metmuseum.org/essays/trade-between-the-romans-and-the-empires-of-asia",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-indian-ocean-monsoon-trade"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-map-of-the-trade-in-t",
+   "institution": "World History Encyclopedia",
+   "title": "Map of the Trade in the Indian Ocean 15th–16th Centuries",
+   "url": "https://www.worldhistory.org/image/20178/map-of-the-trade-in-the-indian-ocean-15th-16th-cen/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-indian-ocean-monsoon-trade"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-sasanian-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Sasanian dynasty",
+   "url": "https://www.britannica.com/topic/Sasanian-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "empire-sasanian"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-the-sasanian-empi",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "The Sasanian Empire (224–651 A.D.)",
+   "url": "https://www.metmuseum.org/essays/the-sasanian-empire-224-651-a-d",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "empire-sasanian"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-sahel-art-and-emp",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Sahel: Art and Empires on the Shores of the Sahara",
+   "url": "https://www.metmuseum.org/exhibitions/sahel-art-empire-sahara/inside-the-exhibition",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "empire-ghana"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ghana-historical-west-a",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ghana (historical West African empire)",
+   "url": "https://www.britannica.com/place/Ghana-historical-West-African-empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "empire-ghana"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-france-frank",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of France: Frankish expansion",
+   "url": "https://www.britannica.com/topic/history-of-France",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-frankish-carolingian"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-france-the-partitioning",
+   "institution": "Encyclopaedia Britannica",
+   "title": "France: the partitioning of the Carolingian empire",
+   "url": "https://www.britannica.com/place/France/The-partitioning-of-the-Carolingian-empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-frankish-carolingian"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-arabian-peninsula",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Arabian Peninsula, 500–1000 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/06/wap.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-nascita-ed-espansione-dellislam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-islam",
+   "institution": "World History Encyclopedia",
+   "title": "Islam",
+   "url": "https://www.worldhistory.org/islam/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-nascita-ed-espansione-dellislam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-tang-dynasty-6189",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Tang Dynasty (618–907)",
+   "url": "https://www.metmuseum.org/essays/tang-dynasty-618-906",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-dynasty-tang"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-tang-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Tang dynasty",
+   "url": "https://www.britannica.com/topic/Tang-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-dynasty-tang"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-zero-mathematics",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Zero (mathematics)",
+   "url": "https://www.britannica.com/science/zero-mathematics",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-indian-numerals-zero"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-mactutor-history-of-mathematics-brahmagupta",
+   "institution": "MacTutor History of Mathematics (Università di St Andrews)",
+   "title": "Brahmagupta",
+   "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-indian-numerals-zero"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-umayyad-dynasty-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Umayyad dynasty (summary)",
+   "url": "https://www.britannica.com/summary/Umayyad-dynasty-Islamic-history",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-umayyad-caliphate"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-al-andalus-the-ar",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Al-Andalus: The Art of Islamic Spain",
+   "url": "https://www.metmuseum.org/met-publications/al-andalus-the-art-of-islamic-spain",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-al-andalus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-spain-10001200-ar",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Spain, 1000–1200: Art at the Frontiers of Faith",
+   "url": "https://www.metmuseum.org/exhibitions/spain-show-cloisters/exhibition-galleries",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-al-andalus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-lindisfarne-raid",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Lindisfarne raid",
+   "url": "https://www.britannica.com/event/Lindisfarne-Raid",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-vikings"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-vinland-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Vinland (summary)",
+   "url": "https://www.britannica.com/summary/Vinland",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-vikings"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-swahili-coast",
+   "institution": "World History Encyclopedia",
+   "title": "Swahili Coast",
+   "url": "https://www.worldhistory.org/Swahili_Coast/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-swahili-coast"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-ruins-of-kilwa-kisi",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Ruins of Kilwa Kisiwani and Ruins of Songo Mnara",
+   "url": "https://whc.unesco.org/en/list/144/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "movement-swahili-coast"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-maya-area-5001000",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Maya Area, 500–1000 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/06/caa.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-classic-maya-collapse"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-science-medina-elizalde-e-rohling-collapse-of-cl",
+   "institution": "Science",
+   "title": "Medina-Elizalde e Rohling, Collapse of Classic Maya Civilization Related to Modest Reduction in Precipitation (2012)",
+   "url": "https://www.science.org/doi/10.1126/science.1216629",
+   "source_type": "academic_article",
+   "supports": [
+    "event-classic-maya-collapse"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-khmer-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Khmer empire",
+   "url": "https://www.britannica.com/topic/Khmer-Empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "empire-khmer-angkor"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-angkor-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Angkor (summary)",
+   "url": "https://www.britannica.com/summary/Angkor",
+   "source_type": "encyclopedia",
+   "supports": [
+    "empire-khmer-angkor"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-italian-peninsula",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Italian Peninsula, 1000–1400 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/07/eust.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "movement-italian-communes"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-europe-trade",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Europe: trade and the Atlantic revolution",
+   "url": "https://www.britannica.com/topic/history-of-Europe/Trade-and-the-Atlantic-revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-italian-communes"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-crusades",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Crusades",
+   "url": "https://www.britannica.com/event/Crusades",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-crusades"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-crusades-conseque",
+   "institution": "World History Encyclopedia",
+   "title": "The Crusades: Consequences & Effects",
+   "url": "https://www.worldhistory.org/article/1273/the-crusades-consequences--effects/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-crusades"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-delhi-sultanate",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Delhi sultanate",
+   "url": "https://www.britannica.com/place/Delhi-sultanate",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-delhi-sultanate"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-slave-mamluk-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Slave (Mamluk) dynasty",
+   "url": "https://www.britannica.com/topic/Mamluk-dynasty-India",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-delhi-sultanate"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mongol-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mongol empire",
+   "url": "https://www.britannica.com/place/Mongol-empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-impero-mongolo"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-pax-mongolica",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Pax Mongolica",
+   "url": "https://www.britannica.com/event/Pax-Mongolica",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-impero-mongolo"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-te-ara-the-encyclopedia-of-new-zealand-when-was",
+   "institution": "Te Ara – The Encyclopedia of New Zealand",
+   "title": "When was New Zealand first settled?",
+   "url": "https://teara.govt.nz/en/when-was-new-zealand-first-settled",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-maori-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-pnas-a-new-chronology-for-the-maori-settlement-o",
+   "institution": "PNAS",
+   "title": "A new chronology for the Māori settlement of Aotearoa (2022)",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.2207609119",
+   "source_type": "academic_article",
+   "supports": [
+    "event-maori-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mexico-city-ancient-fou",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mexico City: ancient foundations",
+   "url": "https://www.britannica.com/place/Mexico-City/History",
+   "source_type": "encyclopedia",
+   "supports": [
+    "site-tenochtitlan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-aztec",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Aztec",
+   "url": "https://www.britannica.com/topic/Aztec",
+   "source_type": "encyclopedia",
+   "supports": [
+    "site-tenochtitlan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kongo-historical-kingdo",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kongo (historical kingdom)",
+   "url": "https://www.britannica.com/place/Kongo-historical-kingdom-Africa",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-kongo-kingdom"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-central-africa-14",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Central Africa, 1400–1600 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/08/afc.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-kongo-kingdom"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-historic-sanctuary",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Historic Sanctuary of Machu Picchu",
+   "url": "https://whc.unesco.org/en/list/274/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-machu-picchu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-was-machu-picchu-b",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When was Machu Picchu built?",
+   "url": "https://www.britannica.com/question/When-was-Machu-Picchu-built",
+   "source_type": "encyclopedia",
+   "supports": [
+    "site-machu-picchu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-renaissance",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Renaissance",
+   "url": "https://www.britannica.com/event/Renaissance",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-italian-renaissance"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-western-architecture-th",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Western architecture: the Renaissance",
+   "url": "https://www.britannica.com/art/Western-architecture/The-Renaissance",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-italian-renaissance"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-columbian-exchange",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Columbian Exchange",
+   "url": "https://www.britannica.com/event/Columbian-exchange",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-columbian-exchange"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-columbian-exchange",
+   "institution": "World History Encyclopedia",
+   "title": "Columbian Exchange",
+   "url": "https://www.worldhistory.org/Columbian_Exchange/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-columbian-exchange",
+    "event-smallpox-americas"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-slavevoyages-a-brief-overview-of-the-trans-atlan",
+   "institution": "SlaveVoyages (Trans-Atlantic Slave Trade Database)",
+   "title": "A Brief Overview of the Trans-Atlantic Slave Trade",
+   "url": "https://legacy.slavevoyages.org/blog/brief-overview-trans-atlantic-slave-trade",
+   "source_type": "research_database",
+   "supports": [
+    "event-tratta-atlantica-degli-schiavi"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-slavevoyages-estimates-trans-atlantic-slave-trad",
+   "institution": "SlaveVoyages",
+   "title": "Estimates: Trans-Atlantic Slave Trade",
+   "url": "https://www.slavevoyages.org/assessment/estimates/",
+   "source_type": "research_database",
+   "supports": [
+    "event-tratta-atlantica-degli-schiavi"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ferdinand-magellan",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ferdinand Magellan",
+   "url": "https://www.britannica.com/biography/Ferdinand-Magellan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-magellan-elcano"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-ferdinand-magellan-ti",
+   "institution": "World History Encyclopedia",
+   "title": "Ferdinand Magellan (timeline)",
+   "url": "https://www.worldhistory.org/timeline/Ferdinand_Magellan/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-magellan-elcano"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-protestant-reformatio",
+   "institution": "World History Encyclopedia",
+   "title": "Protestant Reformation",
+   "url": "https://www.worldhistory.org/Protestant_Reformation/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-riforma-protestante-e-guerre-di-religione"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-thirty-years-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Thirty Years’ War",
+   "url": "https://www.britannica.com/event/Thirty-Years-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thirty-years-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-peace-of-westphalia",
+   "institution": "World History Encyclopedia",
+   "title": "Peace of Westphalia",
+   "url": "https://www.worldhistory.org/Peace_of_Westphalia/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thirty-years-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-cdc-emerging-infectious-diseases-megadrought-and",
+   "institution": "CDC · Emerging Infectious Diseases",
+   "title": "Megadrought and Megadeath in 16th Century Mexico (2002)",
+   "url": "https://wwwnc.cdc.gov/eid/article/8/4/01-0175_article",
+   "source_type": "academic_article",
+   "supports": [
+    "event-smallpox-americas"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-viceroyalty-of-new-spai",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Viceroyalty of New Spain",
+   "url": "https://www.britannica.com/place/Viceroyalty-of-New-Spain",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-new-spain"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-city-of-potosi",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "City of Potosí",
+   "url": "https://whc.unesco.org/en/list/420/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "event-potosi-silver"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-silver-of-the-con",
+   "institution": "World History Encyclopedia",
+   "title": "The Silver of the Conquistadors",
+   "url": "https://www.worldhistory.org/article/2049/the-silver-of-the-conquistadors/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-potosi-silver"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-sugar-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Sugar Revolution",
+   "url": "https://www.britannica.com/topic/Sugar-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-caribbean-sugar"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-slavery-slavery-in-the",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Slavery: slavery in the Americas",
+   "url": "https://www.britannica.com/topic/slavery-sociology/Slavery-in-the-Americas",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-caribbean-sugar"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-enlightenment",
+   "institution": "World History Encyclopedia",
+   "title": "The Enlightenment",
+   "url": "https://www.worldhistory.org/The_Enlightenment/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-enlightenment"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-stanford-encyclopedia-of-philosophy-enlightenmen",
+   "institution": "Stanford Encyclopedia of Philosophy",
+   "title": "Enlightenment",
+   "url": "https://plato.stanford.edu/entries/enlightenment/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-enlightenment"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-national-museum-of-australia-the-first-fleet-arr",
+   "institution": "National Museum of Australia",
+   "title": "The First Fleet arrives at Sydney Cove",
+   "url": "https://digital-classroom.nma.gov.au/defining-moments/first-fleet-arrives-sydney-cove",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-australia-colonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-australia",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Australia",
+   "url": "https://www.britannica.com/topic/history-of-Australia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-australia-colonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-napoleon-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Napoleon I",
+   "url": "https://www.britannica.com/biography/Napoleon-I",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-napoleon"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-napoleon-bonaparte-ti",
+   "institution": "World History Encyclopedia",
+   "title": "Napoleon Bonaparte (timeline)",
+   "url": "https://www.worldhistory.org/timeline/Napoleon_Bonaparte/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-napoleon"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-transatlantic-slave-tra",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Transatlantic Slave Trade Timeline",
+   "url": "https://www.britannica.com/summary/Transatlantic-Slave-Trade-Timeline",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-abolition-slavery"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-slavery-ways-of-ending",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Slavery: ways of ending slavery",
+   "url": "https://www.britannica.com/topic/slavery-sociology/Ways-of-ending-slavery",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-abolition-slavery"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-latin-americ",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Latin America: the independence of Latin America",
+   "url": "https://www.britannica.com/place/Latin-America/The-independence-of-Latin-America",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-indipendenze-dellamerica-latina"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-risorgimento",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Risorgimento",
+   "url": "https://www.britannica.com/event/Risorgimento",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-risorgimento"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-italy-garibaldi-and-the",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Italy: Garibaldi and the Thousand",
+   "url": "https://www.britannica.com/place/Italy/Garibaldi-and-the-Thousand",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-risorgimento"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-u-s-national-archives-jacksons-message-to-congre",
+   "institution": "U.S. National Archives",
+   "title": "Jackson’s Message to Congress On Indian Removal (1830)",
+   "url": "https://www.archives.gov/milestone-documents/jacksons-message-to-congress-on-indian-removal",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-trail-of-tears"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-u-s-national-park-service-american-expansion-tur",
+   "institution": "U.S. National Park Service",
+   "title": "American Expansion Turns to Official Indian Removal",
+   "url": "https://www.nps.gov/articles/american-expansion-turns-to-indian-removal.htm",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-trail-of-tears"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-declaration-of-independ",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Declaration of Independence",
+   "url": "https://www.britannica.com/topic/Declaration-of-Independence",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-dichiarazione-dindipendenza-degli-stati-uniti"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-american-revolution-the",
+   "institution": "Encyclopaedia Britannica",
+   "title": "American Revolution: the end of the war and the Peace of Paris (1783)",
+   "url": "https://www.britannica.com/event/American-Revolution/The-end-of-the-war-and-the-terms-of-the-Peace-of-Paris-1783",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-dichiarazione-dindipendenza-degli-stati-uniti"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-immigration-to-the-unit",
+   "institution": "Encyclopaedia Britannica (Students)",
+   "title": "Immigration to the United States: Great Atlantic Migration",
+   "url": "https://kids.britannica.com/students/article/immigration-to-the-United-States/631487",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mass-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-iom-world-migration-report-2005-capitolo-3-migra",
+   "institution": "IOM · World Migration Report 2005",
+   "title": "Capitolo 3 (migrazioni storiche)",
+   "url": "https://publications.iom.int/system/files/pdf/wmr_2005_3.pdf",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-mass-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-india-government-of-ind",
+   "institution": "Encyclopaedia Britannica",
+   "title": "India: Government of India Act of 1858",
+   "url": "https://www.britannica.com/place/India/Government-of-India-Act-of-1858",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-british-raj"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-partition-of-india",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Partition of India",
+   "url": "https://www.britannica.com/event/Partition-of-India",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-british-raj",
+    "event-indipendenza-dellindia-e-partizione"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-u-s-national-archives-13th-amendment-to-the-u-s",
+   "institution": "U.S. National Archives",
+   "title": "13th Amendment to the U.S. Constitution: Abolition of Slavery (1865)",
+   "url": "https://www.archives.gov/milestone-documents/13th-amendment",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-american-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-causes-and-effects-of-t",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Causes and Effects of the American Civil War",
+   "url": "https://www.britannica.com/summary/Causes-and-Effects-of-the-American-Civil-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-american-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-suez-canal",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Suez Canal",
+   "url": "https://www.britannica.com/topic/Suez-Canal",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-suez-canal"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-did-the-suez-canal",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When did the Suez Canal officially open?",
+   "url": "https://www.britannica.com/topic/When-did-the-Suez-Canal-officially-open",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-suez-canal"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-new-imperialism",
+   "institution": "Encyclopaedia Britannica",
+   "title": "New Imperialism",
+   "url": "https://www.britannica.com/topic/New-Imperialism",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-new-imperialism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-berlin-west-africa-conf",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Berlin West Africa Conference",
+   "url": "https://www.britannica.com/event/Berlin-West-Africa-Conference",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-new-imperialism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-scramble-for-africa",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Scramble for Africa",
+   "url": "https://www.britannica.com/event/Scramble-for-Africa",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-espansione-coloniale-europea-in-africa"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-berlin-conference-188",
+   "institution": "World History Encyclopedia",
+   "title": "Berlin Conference 1884-5",
+   "url": "https://www.worldhistory.org/Berlin_Conference_1884-5/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-espansione-coloniale-europea-in-africa"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mexican-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mexican Revolution",
+   "url": "https://www.britannica.com/event/Mexican-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mexican-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-library-of-congress-the-mexican-revolution-and-t",
+   "institution": "Library of Congress",
+   "title": "The Mexican Revolution and the United States: timeline",
+   "url": "https://www.loc.gov/exhibits/mexican-revolution-and-the-united-states/timeline.html",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-mexican-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-chinese-revolution-1911",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Chinese Revolution (1911–12)",
+   "url": "https://www.britannica.com/event/Chinese-Revolution-1911-1912",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-xinhai-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-sun-yat-sen-the-revolut",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Sun Yat-sen: the revolution of 1911",
+   "url": "https://www.britannica.com/biography/Sun-Yat-sen/The-revolution-of-1911",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-xinhai-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-russian-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Russian Revolution",
+   "url": "https://www.britannica.com/event/Russian-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-rivoluzione-russa"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-march-on-rome",
+   "institution": "Encyclopaedia Britannica",
+   "title": "March on Rome",
+   "url": "https://www.britannica.com/event/March-on-Rome",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-fascism-italy"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-united-states-holocaust-memorial-museum-benito-m",
+   "institution": "United States Holocaust Memorial Museum",
+   "title": "Benito Mussolini",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/benito-mussolini-1",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-fascism-italy"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-great-depression",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Great Depression",
+   "url": "https://www.britannica.com/event/Great-Depression",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-great-depression"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-united-states-holocaust-memorial-museum-the-holo",
+   "institution": "United States Holocaust Memorial Museum",
+   "title": "The Holocaust and World War II: Key Dates",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/the-holocaust-and-world-war-ii-key-dates",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-nazi-germany"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-united-states-holocaust-memorial-museum-world-wa",
+   "institution": "United States Holocaust Memorial Museum",
+   "title": "World War II in Europe",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/world-war-ii-in-europe",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-nazi-germany"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-united-states-holocaust-memorial-museum-introduc",
+   "institution": "United States Holocaust Memorial Museum",
+   "title": "Introduction to the Holocaust",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/introduction-to-the-holocaust",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-holocaust"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-united-states-holocaust-memorial-museum-how-many",
+   "institution": "United States Holocaust Memorial Museum",
+   "title": "How Many People did the Nazis Murder?",
+   "url": "https://encyclopedia.ushmm.org/content/en/article/documenting-numbers-of-victims-of-the-holocaust-and-nazi-persecution",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-holocaust"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-pacific-war-hiroshima-a",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Pacific War: Hiroshima and Nagasaki",
+   "url": "https://www.britannica.com/topic/Pacific-War/Hiroshima-and-Nagasaki",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-hiroshima-nagasaki"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-national-wwii-museum-the-end-of-world-war-ii",
+   "institution": "The National WWII Museum",
+   "title": "The End of World War II 1945",
+   "url": "https://www.nationalww2museum.org/war/topics/end-world-war-ii-1945",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-hiroshima-nagasaki"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-history-of-the-united-nations",
+   "institution": "Nazioni Unite",
+   "title": "History of the United Nations",
+   "url": "https://www.un.org/en/about-us/history-of-the-un",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-united-nations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-universal-declaration-of-human-rig",
+   "institution": "Nazioni Unite",
+   "title": "Universal Declaration of Human Rights",
+   "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-united-nations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-cold-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Cold War",
+   "url": "https://www.britannica.com/event/Cold-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-cold-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-1948-arab-israeli-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "1948 Arab-Israeli War",
+   "url": "https://www.britannica.com/event/1948-Arab-Israeli-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-israel-1948"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-un-news-un-marks-75-years-since-di",
+   "institution": "Nazioni Unite · UN News",
+   "title": "UN marks 75 years since displacement of 700,000 Palestinians",
+   "url": "https://news.un.org/en/story/2023/05/1136662",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-israel-1948"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-south-african-history-online-nelson-mandela-fath",
+   "institution": "South African History Online",
+   "title": "Nelson Mandela: Father of the Nation",
+   "url": "https://sahistory.org.za/article/nelson-mandela-father-nation",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-apartheid"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-south-african-history-online-nelson-mandela-is-i",
+   "institution": "South African History Online",
+   "title": "Nelson Mandela is inaugurated as South Africa’s first democratic President",
+   "url": "https://sahistory.org.za/dated-event/nelson-mandela-inaugurated-south-africas-first-democratic-president-0",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-apartheid"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-u-s-department-of-state-office-of-the-historian",
+   "institution": "U.S. Department of State · Office of the Historian",
+   "title": "The Chinese Revolution of 1949",
+   "url": "https://history.state.gov/milestones/1945-1952/chinese-rev",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-fondazione-della-repubblica-popolare-cinese"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-chinese-civil-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Chinese Civil War",
+   "url": "https://www.britannica.com/event/Chinese-Civil-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-fondazione-della-repubblica-popolare-cinese"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-cuban-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Cuban Revolution",
+   "url": "https://www.britannica.com/event/Cuban-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-cuban-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-library-of-congress-the-african-american-odyssey",
+   "institution": "Library of Congress",
+   "title": "The African American Odyssey: The Civil Rights Era",
+   "url": "https://www.loc.gov/exhibits/african-american-odyssey/civil-rights-era.html",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-civil-rights"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-timeline-of-the-america",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Timeline of the American Civil Rights Movement",
+   "url": "https://www.britannica.com/list/timeline-of-the-american-civil-rights-movement",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-civil-rights"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-vietnam",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Vietnam",
+   "url": "https://www.britannica.com/topic/history-of-Vietnam",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-vietnam-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-fall-of-saigon-1975",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Fall of Saigon (1975)",
+   "url": "https://www.britannica.com/event/Fall-of-Saigon",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-vietnam-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-special-economic-zone-s",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Special economic zone (SEZ)",
+   "url": "https://www.britannica.com/money/special-economic-zone",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-deng-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-deng-xiaoping",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Deng Xiaoping",
+   "url": "https://www.britannica.com/biography/Deng-Xiaoping",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-deng-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-collapse-of-the-soviet",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Collapse of the Soviet Union",
+   "url": "https://www.britannica.com/event/the-collapse-of-the-Soviet-Union/The-rise-of-Yeltsin-and-the-foundation-of-post-Soviet-Russia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-ussr-dissolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-organizzazione-mondiale-della-sanita-coronavirus",
+   "institution": "Organizzazione mondiale della sanità",
+   "title": "Coronavirus disease (COVID-19) pandemic",
+   "url": "https://www.who.int/europe/emergencies/situations/covid-19",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-covid19"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-organizzazione-mondiale-della-sanita-coronavirus-2",
+   "institution": "Organizzazione mondiale della sanità",
+   "title": "Coronavirus disease (COVID-19): fact sheet",
+   "url": "https://www.who.int/news-room/fact-sheets/detail/coronavirus-disease-(covid-19)",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-covid19"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-fall-of-constantinople",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Fall of Constantinople",
+   "url": "https://www.britannica.com/event/Fall-of-Constantinople-1453",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-caduta-di-costantinopoli"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
+  },
+  {
+   "id": "src-v-the-national-archives-partition-of-british-india",
+   "institution": "The National Archives (UK)",
+   "title": "Partition of British India",
+   "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/partition-of-british-india/",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-indipendenza-dellindia-e-partizione"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 19 novembre 2026."
   }
  ],
  "editorial_notes": [
@@ -14722,7 +16536,8 @@
   "v0.34: ampliato il repertorio bibliografico con cataloghi museali, biblioteche digitali, collezioni di fonti primarie, progetti universitari e atlanti GIS. I portali generali sono repertori di consultazione, non prove dirette per ogni singola voce.",
   "v0.47: avviata la vista Tecnologia con un primo campione di attestazioni per ambito e area (editorial_status research-seed). L’assenza di una voce non indica assenza di quella capacità: il campione va ampliato e verificato.",
   "v0.49: base di storia mondiale bilanciata su 13 aree e 8 periodi (dal Neolitico a oggi). Le voci marcate «base-draft» sono sintesi di livello manuale con un riferimento generale (OpenStax World History) e, dove verificato, la scheda UNESCO: non sono state confrontate riga per riga con le fonti. Le voci «deep-dive-sourced» (Sardegna, Maya, Rapa Nui, Italia) hanno fonti specifiche. Campi nuovi: layer, relevance (1 = centrale in un manuale, 3 = approfondimento), world_area, focus.",
-  "v0.49: unite 27 voci doppie (le vecchie voci evento delle grandi civiltà e dei grandi eventi); i collegamenti sono stati reindirizzati."
+  "v0.49: unite 27 voci doppie (le vecchie voci evento delle grandi civiltà e dei grandi eventi); i collegamenti sono stati reindirizzati.",
+  "v0.50: verificate su fonti specifiche (Britannica, World History Encyclopedia, Metropolitan Museum, UNESCO, ONU, OMS, musei e articoli scientifici) le 86 voci di base con rilevanza 1. Stato «source-checked»; le correzioni sono indicate nella nota della voce."
  ],
  "technology_domains": [
   {

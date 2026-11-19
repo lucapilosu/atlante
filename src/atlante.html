@@ -749,7 +749,7 @@ const TYPE={'culture':'Cultura','archaeological_culture':'Cultura archeologica',
 // v0.49: etichette leggibili per precisione, affidabilità e stato redazionale (i valori nei dati restano invariati)
 const PREC_IT={year:'anno',years:'anni',year_range:'intervallo di anni',range:'intervallo',approximate:'approssimata',approximate_range:'intervallo approssimato',century:'secolo',centuries:'secoli',millennia:'millenni',ongoing:'in corso'};
 const CONF_IT={high:'alta',medium:'media',debated:'discussa'};
-const STATUS_IT={'base-draft':'Voce di base · fonte generale','deep-dive-sourced':'Approfondimento · fonti specifiche','seed-verified':'Verificata su fonte','research-seed':'Da ricerca documentata','editorial-expansion':'Ampliamento editoriale','prototype-seed':'Prima versione','needs_review':'Da rivedere','needs_source':'Fonte da trovare',draft:'Bozza'};
+const STATUS_IT={'source-checked':'Verificata su fonte specifica','base-draft':'Voce di base · fonte generale','deep-dive-sourced':'Approfondimento · fonti specifiche','seed-verified':'Verificata su fonte','research-seed':'Da ricerca documentata','editorial-expansion':'Ampliamento editoriale','prototype-seed':'Prima versione','needs_review':'Da rivedere','needs_source':'Fonte da trovare',draft:'Bozza'};
 const precIt=v=>PREC_IT[v]||v,confIt=v=>CONF_IT[v]||v,statusIt=v=>STATUS_IT[v]||v;
 const E=DB.entities.map(x=>({...x,kind:x.entity_type||'culture'}));
 const EV=DB.events.map(x=>({...x,kind:'event',entity_type:'event',region:x.region||'Globale',summary:x.summary||'',start_year:x.start_year,end_year:x.end_year}));

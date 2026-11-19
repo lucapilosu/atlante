@@ -768,9 +768,10 @@ async def new_checks(p, R, mobile, name):
           if(![1,2,3].includes(x.relevance))bad.push(x.id+': rilevanza '+x.relevance);
           if(!AR.includes(x.world_area))bad.push(x.id+': area '+x.world_area);
           for(const r of [...(x.related_entities||[]),...(x.related_entity_ids||[])])if(!ids.has(r))bad.push(x.id+': collegamento rotto '+r);
-          const n=norm(x.name);if(seen[n])bad.push('nome doppio: '+x.name+' ('+seen[n]+', '+x.id+')');seen[n]=x.id}
+          const n=norm(x.name);if(seen[n])bad.push('nome doppio: '+x.name+' ('+seen[n]+', '+x.id+')');seen[n]=x.id;
+          if(x.editorial_status==='source-checked'&&!(x.source_ids||[]).some(s=>!/^src-openstax|^src-unesco-world-heritage-list$/.test(s)))bad.push(x.id+': verificata senza fonte specifica')}
         return {n:ALL.length,bad}}""")
-    R.check("T39", "Dati: ogni voce ha fonte, livello, rilevanza e area mondiale; nessun collegamento rotto; nessun nome doppio",
+    R.check("T39", "Dati: ogni voce ha fonte, livello, rilevanza e area mondiale; le voci verificate hanno una fonte specifica; nessun collegamento rotto né nome doppio",
             not t39["bad"], f"{t39['n']} voci; " + ("; ".join(t39["bad"][:6]) or "tutto in ordine"))
 
 async def run_tablet(pw):
