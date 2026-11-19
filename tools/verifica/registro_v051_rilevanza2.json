@@ -2148,23 +2148,6 @@
   "data": "2026-11-19"
  },
  {
-  "id": "event-rivoluzione-haitiana",
-  "fonti": [
-   {
-    "institution": "Encyclopaedia Britannica",
-    "title": "Haitian Revolution",
-    "url": "https://www.britannica.com/topic/Haitian-Revolution"
-   },
-   {
-    "institution": "Encyclopaedia Britannica",
-    "title": "Slave rebellions",
-    "url": "https://www.britannica.com/topic/slave-rebellions"
-   }
-  ],
-  "nota": "Confermati: la grande rivolta degli schiavi di Saint-Domingue iniziò nell’agosto 1791; dopo una serie di conflitti con coloni ed eserciti francese e britannico, il 1° gennaio 1804 l’isola fu proclamata indipendente con il nome di Haiti, primo paese fondato da ex schiavi.",
-  "data": "2026-11-19"
- },
- {
   "id": "event-napoleon-egypt",
   "fonti": [
    {
@@ -2179,6 +2162,245 @@
    }
   ],
   "nota": "Confermati: la spedizione francese in Egitto e Siria (1798–1801), guidata da Bonaparte, portò con sé 167 studiosi; fallì militarmente, ma portò alla scoperta della stele di Rosetta (1799) e alla Description de l’Égypte (1809–28), con cui secondo Britannica nasce l’egittologia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-sokoto-caliphate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Usman dan Fodio summary",
+    "url": "https://www.britannica.com/summary/Usman-dan-Fodio"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nigeria: the arrival of the British",
+    "url": "https://www.britannica.com/place/Nigeria/The-arrival-of-the-British"
+   }
+  ],
+  "nota": "Confermati: con il jihad iniziato nel 1804 Usman dan Fodio rovesciò i sovrani hausa e creò un nuovo stato musulmano (impero fulani, califfato di Sokoto) nell’odierna Nigeria settentrionale; Britannica parla degli «immensi territori» del califfato; nel 1903 i britannici presero Kano e poi la capitale Sokoto, completando la conquista degli emirati.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-muhammad-ali-egypt",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Muḥammad ʿAlī summary",
+    "url": "https://www.britannica.com/summary/Muhammad-Ali-pasha-and-viceroy-of-Egypt"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egypt: Muhammad Ali and his successors (1805–82)",
+    "url": "https://www.britannica.com/place/Egypt/Muhammad-Ali-and-his-successors-1805-82"
+   }
+  ],
+  "nota": "Confermati: viceré ottomano d’Egitto dal 1805 al 1848; creò un esercito addestrato da istruttori europei (con coscrizione dei contadini dal 1823), introdusse colture da reddito come il cotone e tentò di sviluppare un’industria moderna; Britannica scrive che poneva le basi di un potere indipendente, e nel 1841 ottenne il governo ereditario per la sua dinastia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-mexican-independence",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Miguel Hidalgo y Costilla",
+    "url": "https://www.britannica.com/biography/Miguel-Hidalgo-y-Costilla"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Agustín de Iturbide",
+    "url": "https://www.britannica.com/biography/Agustin-de-Iturbide"
+   }
+  ],
+  "nota": "Confermati: il 16 settembre 1810 il parroco di Dolores Miguel Hidalgo lanciò il «Grito de Dolores», che avviò la guerra d’indipendenza; il 24 agosto 1821 il trattato di Córdoba riconobbe l’indipendenza del Messico.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-congress-vienna",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Congress of Vienna",
+    "url": "https://www.britannica.com/event/Congress-of-Vienna"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Diplomacy: the Concert of Europe",
+    "url": "https://www.britannica.com/topic/diplomacy/The-Concert-of-Europe-to-the-outbreak-of-World-War-I"
+   }
+  ],
+  "nota": "Confermati: riunito da settembre 1814 all’Atto finale del 9 giugno 1815, il congresso ridisegnò la carta d’Europa per ristabilire un ordine politico conservatore e l’equilibrio tra le potenze, contenendo la Francia; i confini fissati durarono, con poche modifiche, oltre 40 anni.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-zulu-kingdom",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Zulu Kingdom",
+    "url": "https://www.worldhistory.org/Zulu_Kingdom/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zululand summary",
+    "url": "https://www.britannica.com/summary/Zululand"
+   }
+  ],
+  "nota": "Confermati: Shaka divenne re verso il 1816 e riorganizzò l’esercito, facendo degli Zulu la potenza dominante della regione; il 22 gennaio 1879 gli Zulu sconfissero i britannici a Isandlwana, ma persero la guerra a Ulundi (luglio 1879); lo Zululand divenne colonia della Corona nel 1887 e fu annesso al Natal nel 1897.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-bolivar-gran-colombia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Simón Bolívar: liberation of New Granada",
+    "url": "https://www.britannica.com/biography/Simon-Bolivar/Liberation-of-New-Granada"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Congress of Cúcuta",
+    "url": "https://www.britannica.com/topic/Congress-of-Cucuta"
+   }
+  ],
+  "nota": "Confermati: tra il 1819 e il 1822 Bolívar, il «Libertador», liberò Nuova Granada, Venezuela e Quito; la Gran Colombia, proclamata nel 1819 con lui presidente, si sciolse nel 1830 con la secessione di Venezuela ed Ecuador; Bolívar morì nel dicembre 1830. Anno finale corretto da 1831 a 1830 (Britannica: repubblica 1819–1830).",
+  "correzioni": {
+   "end_year": 1830
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-rivoluzione-haitiana",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Haitian Revolution",
+    "url": "https://www.britannica.com/topic/Haitian-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Slave rebellions",
+    "url": "https://www.britannica.com/topic/slave-rebellions"
+   }
+  ],
+  "nota": "Confermati: la grande rivolta degli schiavi di Saint-Domingue iniziò nell’agosto 1791; dopo una serie di conflitti con coloni ed eserciti francese e britannico, il 1° gennaio 1804 l’isola fu proclamata indipendente con il nome di Haiti, primo paese fondato da ex schiavi. Precisione delle date portata da «intervallo approssimato, confidenza media» a «intervallo, confidenza alta»: le fonti datano la rivoluzione 1791–1804 senza incertezze.",
+  "data": "2026-11-19",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high"
+  }
+ },
+ {
+  "id": "state-empire-brazil",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brazil: independence",
+    "url": "https://www.britannica.com/place/Brazil/Independence"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brazil: the collapse of the empire",
+    "url": "https://www.britannica.com/place/Brazil/The-collapse-of-the-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Abolitionism timeline",
+    "url": "https://www.britannica.com/summary/Abolitionism-Timeline"
+   }
+  ],
+  "nota": "Confermati: il 7 settembre 1822 Dom Pedro proclamò l’indipendenza e fu incoronato imperatore il 1° dicembre; il 13 maggio 1888 la principessa reggente decretò l’emancipazione completa (circa 700.000 schiavi), con cui la schiavitù finì anche in Sud America; la monarchia fu rovesciata il 15 novembre 1889 e il Brasile divenne repubblica.",
+  "parziale": "la definizione di «unico grande impero delle Americhe» non compare nelle fonti consultate (in Messico ci furono due imperi di breve durata).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-french-algeria",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Algeria: the conquest of Algeria",
+    "url": "https://www.britannica.com/place/Algeria/Cultural-institutions"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Abdelkader",
+    "url": "https://www.britannica.com/biography/Abdelkader"
+   }
+  ],
+  "nota": "Confermati: l’esercito francese sbarcò presso Algeri il 5 luglio 1830; l’emiro Abd el-Kader guidò la resistenza nell’ovest e fu costretto alla resa nel 1847; i francesi si impadronirono di gran parte delle terre coltivabili e fecero dell’Algeria un dipartimento francese.",
+  "parziale": "la definizione di «colonia di popolamento» non compare nei passi consultati, che parlano di confisca delle terre.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-great-game",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Great Game",
+    "url": "https://www.worldhistory.org/The_Great_Game/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Anglo-Russian Entente",
+    "url": "https://www.britannica.com/event/Anglo-Russian-Entente"
+   }
+  ],
+  "nota": "Confermati: rivalità ottocentesca tra impero britannico e russo per il controllo dell’Asia centrale e la difesa dell’India britannica, fatta di diplomazia, spionaggio, spedizioni e guerre (prima guerra anglo-afghana 1838–42); la convenzione anglo-russa del 1907 regolò le dispute su Persia, Afghanistan e Tibet.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-guerre-delloppio",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Opium trade",
+    "url": "https://www.britannica.com/topic/opium-trade"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Treaty of Nanjing",
+    "url": "https://www.britannica.com/event/Treaty-of-Nanjing"
+   }
+  ],
+  "nota": "Confermati: prima guerra dell’oppio con la Gran Bretagna (1839–42) e seconda con Gran Bretagna e Francia (1856–60), entrambe perse dai Qing; il trattato di Nanchino (1842) aprì l’epoca dei trattati ineguali, con cessione di Hong Kong e porti aperti agli stranieri, che indebolirono la sovranità della dinastia. Precisione delle date portata a «intervallo, confidenza alta».",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high"
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-tanzimat",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tanzimat",
+    "url": "https://www.britannica.com/event/Tanzimat"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ottoman Empire: the Ottoman constitution, 1876",
+    "url": "https://www.britannica.com/place/Ottoman-Empire/The-1875-78-crisis"
+   }
+  ],
+  "nota": "Confermati: serie di riforme ottomane (1839–1876) avviate dall’editto di Gülhane del 3 novembre 1839, ispirate a idee europee per trasformare l’impero in uno stato moderno (amministrazione, fisco, giustizia, istruzione, esercito); nel 1876 il sultano Abdülhamid II accettò la costituzione.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-treaty-waitangi",
+  "fonti": [
+   {
+    "institution": "NZHistory (Ministry for Culture and Heritage)",
+    "title": "The Treaty in brief",
+    "url": "https://nzhistory.govt.nz/politics/treaty/the-treaty-in-brief"
+   },
+   {
+    "institution": "Te Ara – The Encyclopedia of New Zealand",
+    "title": "Te Tiriti o Waitangi – the Treaty of Waitangi",
+    "url": "https://teara.govt.nz/en/te-tiriti-o-waitangi-the-treaty-of-waitangi"
+   }
+  ],
+  "nota": "Confermati: accordo firmato dal 6 febbraio 1840 tra la Corona britannica e oltre 500 capi māori; nel testo inglese i capi cedevano la sovranità, in quello māori (firmato dalla maggior parte) la kāwanatanga, cioè il governo, un potere minore: le due versioni hanno significati diversi.",
   "data": "2026-11-19"
  }
 ]
