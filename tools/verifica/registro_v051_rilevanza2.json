@@ -876,5 +876,198 @@
   ],
   "nota": "Confermati: la peste di Giustiniano colpì dal 541, con ondate ricorrenti fino al 750 nel Mediterraneo e in Europa (raggiunse anche le isole britanniche); il DNA antico conferma Yersinia pestis come causa. Le date della voce indicano la prima grande ondata.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "empire-gokturk",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Central Asia – The Turks",
+    "url": "https://britannica.com/topic/history-of-Central-Asia-102306/The-Middle-Ages"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Uyghur confederacy",
+    "url": "https://www.britannica.com/topic/Uyghur-confederacy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Old Turkic language",
+    "url": "https://www.britannica.com/topic/Old-Turkic-language"
+   }
+  ],
+  "nota": "Confermati: nel 552 i Turchi rovesciarono l’impero dei Rouran e fondarono un impero dominante in Asia per circa due secoli; nel 744 furono sostituiti dagli Uiguri; sono il primo popolo noto di lingua turca e le iscrizioni dell’Orkhon (VIII secolo) sono le più antiche testimonianze scritte del turco.",
+  "parziale": "l’estensione fino al Mar Nero.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-lombards",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Lombard",
+    "url": "https://www.britannica.com/topic/Lombard-people"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy – Lombards and Byzantines",
+    "url": "https://www.britannica.com/place/Italy/Lombards-and-Byzantines"
+   }
+  ],
+  "nota": "Confermati: popolo germanico che nella primavera del 568 passò le Alpi Giulie, conquistò il nord (Pavia nel 572) e fondò ducati a Spoleto e Benevento senza mai prendere tutta l’Italia, che restò divisa tra aree longobarde e bizantine; il regno cadde nel 774 per mano di Carlo Magno.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-arab-conquest-north-africa",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egypt – Egypt under the caliphate",
+    "url": "https://www.britannica.com/place/Egypt/Egypt-under-the-caliphate"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Kairouan",
+    "url": "https://whc.unesco.org/en/list/499/"
+   }
+  ],
+  "nota": "Confermati: le incursioni arabe in Nord Africa partirono dall’Egitto nel 647; nel 670 ʿUqba ibn Nafiʿ fondò Kairouan, base delle campagne successive e poi principale città santa del Maghreb; la conquista si completò all’inizio dell’VIII secolo.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-srivijaya",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Southeast Asia – Srivijaya",
+    "url": "https://www.britannica.com/place/history-of-Southeast-Asia-556509"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Palembang",
+    "url": "https://www.britannica.com/place/Palembang"
+   }
+  ],
+  "nota": "Confermati: regno marittimo e commerciale, fiorente dal VII al XIII secolo con capitale Palembang, fondato sul controllo del commercio marittimo con Cina e India e centro del buddhismo mahayana; nel tardo XIV secolo Palembang fu sottomessa da Majapahit (data finale della voce).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-unified-silla",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Silla",
+    "url": "https://www.worldhistory.org/Silla/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Korea – Unified Silla",
+    "url": "https://www.britannica.com/place/Korea/Unified-Silla"
+   }
+  ],
+  "nota": "Confermati: con l’aiuto dei Tang, Silla unificò la penisola nel 668 e la governò fino al 935; a Gyeongju fiorirono il tempio di Bulguksa e la grotta di Seokguram (VIII secolo). Sintesi corretta: l’osservatorio di Cheomseongdae risale al regno della regina Seondeok (632–647), poco prima dell’unificazione.",
+  "correzioni": {
+   "summary": "Il regno di Silla unifica gran parte della Corea; la capitale Gyeongju fiorisce con grandi complessi buddhisti come Bulguksa e la grotta di Seokguram. Poco prima dell’unificazione vi era stato costruito l’osservatorio di Cheomseongdae."
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-battle-of-talas",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Abbasid Dynasty",
+    "url": "https://www.worldhistory.org/Abbasid_Dynasty/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Papermaking",
+    "url": "https://www.britannica.com/technology/papermaking"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Paper in Ancient China",
+    "url": "https://www.worldhistory.org/article/1120/paper-in-ancient-china/"
+   }
+  ],
+  "nota": "Confermati: nel 751 gli Abbasidi fermarono al Talas l’avanzata dei Tang in Asia centrale; secondo Britannica l’arte della carta giunse a Samarcanda nel 751, e la tradizione la lega ai cartai cinesi fatti prigionieri dopo la battaglia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-borobudur",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Borobudur Temple Compounds",
+    "url": "https://whc.unesco.org/en/list/592/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indonesia – Central Java from c. 700 to c. 1000",
+    "url": "https://www.britannica.com/place/Indonesia/Central-Java-from-c-700-to-c-1000"
+   }
+  ],
+  "nota": "Confermati: tempio buddhista dell’VIII–IX secolo costruito sotto la dinastia Sailendra (secondo Britannica dalla fine dell’VIII secolo agli anni 840 circa); stupa a tre livelli che riproduce la cosmologia buddhista, con circa 2500 m² di bassorilievi e 72 stupa traforati con statue del Buddha; è considerato il più grande tempio buddhista del mondo.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-heian-japan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Heian period",
+    "url": "https://www.britannica.com/event/Heian-period"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ancient Japan",
+    "url": "https://www.worldhistory.org/Ancient_Japan/"
+   }
+  ],
+  "nota": "Confermati: periodo 794–1185, dal trasferimento della capitale a Heian-kyō (Kyoto) da parte dell’imperatore Kammu; fioritura della cultura di corte, scrittura kana e Storia di Genji di Murasaki Shikibu (completata verso il 1020).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-chola",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chola dynasty",
+    "url": "https://www.britannica.com/topic/Chola-dynasty"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Great Living Chola Temples",
+    "url": "https://whc.unesco.org/en/list/250/"
+   }
+  ],
+  "nota": "Confermati: Vijayalaya avviò l’espansione verso l’850–870; Rajaraja I (985–1014) e Rajendra I (1014–1044) estesero l’impero all’India meridionale e alle isole vicine e costruirono i grandi templi di Brihadisvara a Thanjavur e Gangaikondacholapuram; il dominio durò circa quattro secoli e mezzo.",
+  "parziale": "le spedizioni navali fino al Sud-est asiatico (le fonti consultate citano solo il controllo del commercio con il Sud-est asiatico).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-chaco-canyon",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Chaco Culture",
+    "url": "https://whc.unesco.org/en/list/353/"
+   },
+   {
+    "institution": "US National Park Service",
+    "title": "Chaco Culture National Historical Park – History & Culture",
+    "url": "https://www.nps.gov/chcu/learn/historyculture/index.htm"
+   }
+  ],
+  "nota": "Fine corretta al 1250 (prima 1150): secondo UNESCO, Britannica e il National Park Service Chaco Canyon fu il principale centro cerimoniale, commerciale e politico dei Pueblo ancestrali tra 850 e 1250; grandi case in muratura a più piani orientate secondo direzioni solari, lunari e cardinali, collegate da strade ad altre comunità.",
+  "correzioni": {
+   "end_year": 1250
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
  }
 ]
