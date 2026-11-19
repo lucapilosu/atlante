@@ -2854,5 +2854,276 @@
   ],
   "nota": "Confermati: Juan Perón, presidente dal 1946 al 1955 (e di nuovo 1973–74), fondò un movimento populista e nazionalista sostenuto dagli operai; la moglie Eva fu una figura politica potente e amata dalle classi popolari; rovesciato dai militari nel settembre 1955, il peronismo restò una forza importante della politica argentina.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "event-pacific-nuclear-tests",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Bikini Atoll Nuclear Test Site",
+    "url": "https://whc.unesco.org/en/list/1339/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mururoa",
+    "url": "https://www.britannica.com/place/Mururoa"
+   },
+   {
+    "institution": "United Nations (Micronesia)",
+    "title": "The Unseen Battle: Addressing the Nuclear Legacy in Pacific Island Countries",
+    "url": "https://micronesia.un.org/en/269513-unseen-battle-addressing-nuclear-legacy-pacific-island-countries"
+   }
+  ],
+  "nota": "Confermati: dal 1946 al 1996 il Pacifico fu sede di centinaia di test nucleari di Stati Uniti, Regno Unito e Francia; gli Stati Uniti fecero 67 test nelle Isole Marshall (1946–58) dopo aver spostato gli abitanti di Bikini, con gravi conseguenze su ambiente e salute (Castle Bravo, 1954); la Francia sperimentò a Mururoa e Fangataufa dal 1966 al 1996.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-korean-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Korean War",
+    "url": "https://www.britannica.com/event/Korean-War"
+   },
+   {
+    "institution": "U.S. Department of State, Office of the Historian",
+    "title": "Korean War and Japan’s Recovery",
+    "url": "https://history.state.gov/milestones/1945-1952/korean-war"
+   }
+  ],
+  "nota": "Confermati: guerra (1950–53) tra la Corea del Nord, aiutata dalla Cina, e la Corea del Sud, aiutata dall’ONU con gli Stati Uniti in prima linea, nel contesto della Guerra fredda; almeno 2,5 milioni di morti; l’armistizio del 27 luglio 1953 (non un trattato di pace) lasciò la penisola divisa.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-algerian-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Algerian War",
+    "url": "https://www.britannica.com/event/Algerian-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "National Liberation Front",
+    "url": "https://www.britannica.com/topic/National-Liberation-Front-political-party-Algeria"
+   }
+  ],
+  "nota": "Confermati: nel 1954 il Fronte di liberazione nazionale (FLN) avviò la guerriglia contro la Francia; dopo otto anni di guerra il cessate il fuoco di Évian (18 marzo 1962) portò all’indipendenza nel luglio 1962.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-japan-economic-miracle",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Japan: economic transformation",
+    "url": "https://www.britannica.com/place/Japan/Economic-transformation"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Shōwa period",
+    "url": "https://www.britannica.com/event/Showa-period"
+   }
+  ],
+  "nota": "Confermati: dal 1955 la crescita media fu del 10% annuo (poi oltre il 13%), fino alla crisi petrolifera del 1973; con industria, esportazioni e tecnologia il Giappone divenne la seconda potenza economica del mondo dopo gli Stati Uniti; lo scoppio della bolla all’inizio degli anni Novanta chiuse il «miracolo».",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-treaties-of-rome",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Treaty of Rome",
+    "url": "https://www.britannica.com/event/Treaty-of-Rome"
+   },
+   {
+    "institution": "European Parliament",
+    "title": "Treaty of Rome",
+    "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/treaty-of-rome"
+   }
+  ],
+  "nota": "Confermati: il 25 marzo 1957 Belgio, Francia, Germania Ovest, Italia, Lussemburgo e Paesi Bassi firmarono a Roma i trattati che istituirono la Comunità economica europea (mercato comune) e l’Euratom; la CEE è all’origine dell’attuale Unione europea.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-ghana-independence",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did Ghana achieve independence?",
+    "url": "https://www.britannica.com/question/How-did-Ghana-achieve-independence"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Gold Coast",
+    "url": "https://www.britannica.com/place/Gold-Coast-historical-region-Africa"
+   }
+  ],
+  "nota": "Confermati: la colonia britannica della Costa d’Oro divenne indipendente con il nome di Ghana il 6 marzo 1957, sotto la guida di Kwame Nkrumah; secondo Britannica fu il primo paese dell’Africa subsahariana a ottenere l’indipendenza da una potenza coloniale europea.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-cuban-missile-crisis",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cuban missile crisis",
+    "url": "https://www.britannica.com/event/Cuban-missile-crisis"
+   },
+   {
+    "institution": "John F. Kennedy Presidential Library",
+    "title": "Cuban Missile Crisis",
+    "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/cuban-missile-crisis"
+   }
+  ],
+  "nota": "Confermati: nell’ottobre 1962 la presenza di missili nucleari sovietici a Cuba portò Stati Uniti e URSS sull’orlo della guerra, il punto più vicino a una guerra nucleare globale secondo Britannica; si chiuse con un compromesso: i sovietici ritirarono i missili, gli Stati Uniti si impegnarono a non invadere Cuba e, con un accordo rimasto segreto, a ritirare i loro missili dalla Turchia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-operation-condor",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Operation Condor",
+    "url": "https://www.britannica.com/topic/Operation-Condor"
+   },
+   {
+    "institution": "National Security Archive (George Washington University)",
+    "title": "Operation Condor: A Network of Transnational Repression 50 Years Later",
+    "url": "https://nsarchive.gwu.edu/briefing-book/southern-cone/2025-11-26/operation-condor-network-transnational-repression-50-years"
+   }
+  ],
+  "nota": "Confermati: il Piano Condor, nato nel novembre 1975 a Santiago tra i servizi di Argentina, Bolivia, Cile, Paraguay e Uruguay (poi anche Brasile), coordinò negli anni Settanta e Ottanta la repressione oltre i confini degli oppositori di sinistra, con sequestri, torture e sparizioni.",
+  "parziale": "gli anni estremi 1964 (colpo di stato in Brasile) e 1990 (fine del regime di Pinochet) non sono nei passi consultati sul Piano Condor; il 1990 è confermato dalla voce sul colpo di stato in Cile.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-green-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Green revolution",
+    "url": "https://www.britannica.com/event/green-revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Socioeconomic challenges in India: food security",
+    "url": "https://www.britannica.com/topic/socioeconomic-challenges-in-India"
+   }
+  ],
+  "nota": "Confermati: forte aumento della produzione di cereali (grano e riso) grazie a varietà ad alta resa introdotte nei paesi in via di sviluppo; in India, dal 1968, sementi, irrigazione, fertilizzanti chimici, pesticidi e trattori resero il paese autosufficiente in cereali negli anni Settanta; Britannica Kids segnala che queste varietà richiedono molti fertilizzanti, pesticidi e acqua, con suoli salinizzati in alcune aree.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-cultural-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cultural Revolution",
+    "url": "https://www.britannica.com/event/Cultural-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "A Brief Overview of China’s Cultural Revolution",
+    "url": "https://www.britannica.com/story/chinas-cultural-revolution"
+   }
+  ],
+  "nota": "Confermati: lanciata da Mao nel 1966 e durata fino al 1976, mobilitò le Guardie rosse contro i valori tradizionali e le «cose borghesi», con persecuzioni di massa, distruzioni e milioni di sfollati; le stime dei morti vanno da 500.000 a 2 milioni. Riassunto precisato: «milioni di vittime» sostituito dall’intervallo delle stime dei morti.",
+  "correzioni": {
+   "summary": "Campagna politica lanciata da Mao contro gli “elementi borghesi”: persecuzioni di massa, distruzioni e, secondo le stime, da mezzo milione a due milioni di morti."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-chile-coup-1973",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "1973 Chilean coup d’état",
+    "url": "https://www.britannica.com/event/1973-Chilean-coup-d-etat"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Augusto Pinochet",
+    "url": "https://www.britannica.com/biography/Augusto-Pinochet"
+   }
+  ],
+  "nota": "Confermati: l’11 settembre 1973 le forze armate rovesciarono il governo socialista eletto di Salvador Allende, che morì durante l’assalto al palazzo presidenziale; la giunta guidata da Augusto Pinochet governò il Cile per 17 anni, fino al 1990, con gravi violazioni dei diritti umani.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "invention-personal-computer",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Personal computer (PC)",
+    "url": "https://www.britannica.com/technology/personal-computer"
+   },
+   {
+    "institution": "Computer History Museum",
+    "title": "Personal Computers",
+    "url": "https://www.computerhistory.org/brochures/personal-computers/"
+   }
+  ],
+  "nota": "Confermati: l’Altair, basato sul microprocessore Intel 8080, fu il primo personal computer (in kit dal gennaio 1975); l’industria nacque nel 1977 con Apple II, TRS-80 e Commodore PET; il PC IBM del 1981 lo trasformò da giocattolo a strumento di lavoro, diffondendolo in case e uffici.",
+  "parziale": "il ruolo della Silicon Valley e il legame con l’era di Internet non sono trattati esplicitamente nei passi consultati.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-khmer-rouge",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cambodian genocide",
+    "url": "https://www.britannica.com/event/Cambodian-genocide"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cambodia: civil war",
+    "url": "https://www.britannica.com/place/Cambodia/Civil-war"
+   }
+  ],
+  "nota": "Confermati: nell’aprile 1975 i Khmer rossi presero Phnom Penh e svuotarono le città in meno di una settimana; sotto il regime di Pol Pot (1975–79) morirono tra 1,5 e 3 milioni di persone per esecuzioni, lavori forzati, fame e malattie, circa un quarto della popolazione; il regime fu rovesciato dall’invasione vietnamita del 1979.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-iranian-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iranian Revolution (1979)",
+    "url": "https://www.britannica.com/event/Iranian-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iranian Revolution: aftermath",
+    "url": "https://www.britannica.com/event/Iranian-Revolution/Aftermath"
+   }
+  ],
+  "nota": "Confermati: la rivolta popolare del 1978–79 rovesciò la monarchia Pahlavi l’11 febbraio 1979; dopo un referendum, il 1° aprile 1979 l’ayatollah Khomeini proclamò la Repubblica islamica, fondata sul principio della tutela del giurista (velayat-e faqih).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-soviet-afghan-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Afghan War",
+    "url": "https://www.britannica.com/event/Afghan-War"
+   },
+   {
+    "institution": "U.S. Department of State, Office of the Historian",
+    "title": "The Soviet Invasion of Afghanistan and the U.S. Response, 1978–1980",
+    "url": "https://history.state.gov/milestones/1977-1980/soviet-invasion-afghanistan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why Did the Soviet Union Collapse?",
+    "url": "https://www.britannica.com/story/why-did-the-soviet-union-collapse"
+   }
+  ],
+  "nota": "Confermati: nel dicembre 1979 l’URSS intervenne in Afghanistan a sostegno del governo comunista contro i mujaheddin, sostenuti da Stati Uniti e altri paesi; il ritiro fu completato nel febbraio 1989; per Britannica il conflitto fu un fattore militare chiave nella dissoluzione dell’URSS.",
+  "data": "2026-11-19"
  }
 ]
