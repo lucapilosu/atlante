@@ -1,0 +1,366 @@
+[
+ {
+  "id": "culture-clovis",
+  "fonti": [
+   {
+    "institution": "Archaeology (Archaeological Institute of America)",
+    "title": "New Dates Suggest Clovis Culture Lasted Just 300 Years",
+    "url": "https://archaeology.org/news/2020/10/23/201026-clovis-new-dates/"
+   },
+   {
+    "institution": "ScienceDaily (Texas A&M University)",
+    "title": "Tools made by some of North America’s earliest inhabitants were made only during a 300-year period",
+    "url": "https://sciencedaily.com/releases/2020/10/201023123104.htm"
+   }
+  ],
+  "nota": "Secondo le datazioni di Waters, Stafford e Carlson (Science Advances, 2020) le punte Clovis si datano a circa 13.050–12.750 anni fa, cioè circa 11.100–10.800 a.C. (prima 11.000–10.700). Confermato che complessi con punte peduncolate sono coevi o più antichi: il popolamento delle Americhe precede Clovis.",
+  "correzioni": {
+   "start_year": -11100,
+   "end_year": -10800
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-holocene-start",
+  "fonti": [
+   {
+    "institution": "University of Waikato Research Commons (Episodes, IUGS)",
+    "title": "Walker et al. 2008, The GSSP for the base of the Holocene Series/Epoch in the NGRIP ice core",
+    "url": "https://researchcommons.waikato.ac.nz/handle/10289/920?show=full"
+   }
+  ],
+  "nota": "Confermato: la base dell’Olocene è definita nella carota di ghiaccio groenlandese NGRIP, alla fine del Dryas recente, a 11.700 anni prima del 2000 (incertezza ±99 anni), cioè circa 9700 a.C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-gobekli-tepe",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Göbekli Tepe",
+    "url": "https://whc.unesco.org/en/list/1572"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Göbekli Tepe – Nomination for Inclusion on the World Heritage List (2017)",
+    "url": "https://whc.unesco.org/document/160483"
+   }
+  ],
+  "nota": "Confermati dalla documentazione UNESCO: recinti monumentali con pilastri monolitici a T scolpiti, costruiti da gruppi di cacciatori-raccoglitori nel Neolitico preceramico, tra circa 9600 e 8200 a.C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-catalhoyuk",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Çatalhöyük",
+    "url": "https://whc.unesco.org/en/list/1405/"
+   },
+   {
+    "institution": "ICOMOS (UNESCO World Heritage Centre)",
+    "title": "Neolithic Site of Çatalhöyük – Evaluation No 1405",
+    "url": "https://whc.unesco.org/document/152590"
+   }
+  ],
+  "nota": "Confermati dalla scheda UNESCO: 18 livelli di occupazione neolitica tra 7400 e 6200 a.C. nel tumulo orientale, abitato senza strade con case addossate e ingresso dal tetto, pitture murali, rilievi e sculture.",
+  "parziale": "le sepolture sotto i pavimenti delle case (la scheda UNESCO cita solo genericamente le testimonianze funerarie).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-mehrgarh",
+  "fonti": [
+   {
+    "institution": "Scientific Reports (PubMed)",
+    "title": "Mutin et al. 2025, New radiocarbon dates of human tooth enamel reveal a late appearance of farming life in the Indus Valley",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40234596/"
+   },
+   {
+    "institution": "Sapienza Università di Roma",
+    "title": "New radiocarbon dating revolutionises current understanding of the rise of agriculture in the Indus Valley",
+    "url": "https://www.uniroma1.it/en/node/534617"
+   }
+  ],
+  "nota": "Corretta la data d’inizio. Le datazioni al radiocarbonio sullo smalto dentale di 23 sepolture (Mutin et al., Scientific Reports, 2025) collocano l’inizio del Neolitico di Mehrgarh tra 5200 e 4900 a.C., con una fase aceramica di due-cinque secoli: la cronologia precedente lo faceva iniziare verso il 7000–8000 a.C. Confermati la posizione ai piedi del Passo di Bolan e il ruolo di sito di riferimento per le prime comunità agricole del nord-ovest dell’Asia meridionale.",
+  "parziale": "la fine dell’abitato verso il 2600 a.C. e l’elenco di colture e animali (orzo, frumento, zebù), qui ripresi dalla sintesi precedente.",
+  "correzioni": {
+   "start_year": -5200,
+   "date_confidence": "debated",
+   "summary": "Villaggio neolitico ai piedi del Passo di Bolan, tra le radici della civiltà della valle dell’Indo, con coltivazione di cereali, allevamento e artigianato. Datazioni del 2025 sullo smalto dentale ne spostano l’inizio a circa 5200 a.C.: prima si pensava al 7000 a.C. o anche prima."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-chinchorro",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Settlement and Artificial Mummification of the Chinchorro Culture in the Arica and Parinacota Region",
+    "url": "https://whc.unesco.org/en/list/1634"
+   },
+   {
+    "institution": "ICOMOS (UNESCO World Heritage Centre)",
+    "title": "Settlement and Artificial Mummification of the Chinchorro Culture – Evaluation No 1634",
+    "url": "https://whc.unesco.org/document/189320"
+   }
+  ],
+  "nota": "Date corrette secondo UNESCO: cacciatori-raccoglitori marini della costa settentrionale del deserto di Atacama tra circa 5450 e 890 a.C. (prima 7000–1500 a.C.). Confermate le mummie artificiali più antiche note, con i primi esempi verso 7000 anni fa (circa 5000 a.C.).",
+  "correzioni": {
+   "start_year": -5450,
+   "end_year": -890,
+   "summary": "Cacciatori-raccoglitori marini della costa del deserto di Atacama che, da circa il 5000 a.C., mummificavano artificialmente i defunti: le mummie intenzionali più antiche note."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-kuk-swamp",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Kuk Early Agricultural Site",
+    "url": "https://whc.unesco.org/en/list/887"
+   },
+   {
+    "institution": "ICOMOS (UNESCO World Heritage Centre)",
+    "title": "The Kuk Early Agricultural Site – Evaluation No 887",
+    "url": "https://whc.unesco.org/document/154519"
+   }
+  ],
+  "nota": "Corretta la data d’inizio. Secondo UNESCO e ICOMOS la palude è coltivata da almeno 7000 anni (forse 10.000): sfruttamento di taro e igname ai margini verso 7000 anni fa, passaggio all’agricoltura verso 6500 anni fa, poi drenaggio con reti di canali e coltivazione organizzata delle banane verso 4000 anni fa. È la più antica agricoltura indipendente dell’Oceania.",
+  "correzioni": {
+   "start_year": -5000,
+   "summary": "Tumuli di coltivazione (circa 5000 a.C.) e poi reti di canali di drenaggio (circa 2000 a.C.) testimoniano un centro indipendente di agricoltura (taro, igname, banane) negli altopiani della Nuova Guinea; tracce di coltivazione forse già 10.000 anni fa."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-green-sahara-pastoralism",
+  "fonti": [
+   {
+    "institution": "Science (Università di Colonia)",
+    "title": "Kuper e Kröpelin 2006, Climate-Controlled Holocene Occupation in the Sahara: Motor of Africa’s Evolution",
+    "url": "https://www.uni-koeln.de/sfb389/sonstiges/kroepelin/242%202006%20Kuper%20Kroepelin%20Science%20313%20%20(11%20August%202006).pdf"
+   }
+  ],
+  "nota": "Confermato da Kuper e Kröpelin (Science, 2006): condizioni umide nel Sahara orientale dall’8500 a.C., occupazione stabile e diffusione dell’allevamento dal 7000 a.C., inaridimento progressivo dal 5300 a.C. e abbandono verso il 3500 a.C., con spostamento delle popolazioni verso il Nilo e verso sud; il processo contribuì alla nascita della civiltà egizia e alla diffusione della pastorizia nel continente.",
+  "parziale": "l’arte rupestre (citata nella sintesi ma non nella fonte consultata).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-neolithic-europe",
+  "fonti": [
+   {
+    "institution": "Springer Nature Research Communities (Nature Ecology & Evolution)",
+    "title": "Brace et al. 2019, Ancient genomes indicate population replacement in Early Neolithic Britain",
+    "url": "https://communities.springernature.com/posts/ancient-genomes-indicate-population-replacement-in-early-neolithic-britain"
+   },
+   {
+    "institution": "Cell (Università dell’Arizona)",
+    "title": "Marchi et al. 2022, The genomic origins of the world’s first farmers",
+    "url": "https://gutengroup.arizona.edu/sites/default/files/2022-06/PIIS009286742200455X.pdf"
+   }
+  ],
+  "nota": "Confermato dagli studi sul DNA antico: agricoltori con ascendenza egea e anatolica si diffusero in Europa lungo due vie principali, il Mediterraneo e il Danubio, mescolandosi con i cacciatori-raccoglitori locali; in Gran Bretagna il Neolitico arriva verso il 4000 a.C. Inizio portato al 6500 a.C., data indicata dagli studi recenti per l’espansione in Europa (prima 7000 a.C.).",
+  "correzioni": {
+   "start_year": -6500
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-yangshao",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yangshao culture",
+    "url": "https://www.britannica.com/topic/Yangshao-culture"
+   }
+  ],
+  "nota": "Confermati da Britannica: cultura del bacino del Fiume Giallo (5000–3000 a.C.) con ceramica dipinta, coltivazione del miglio, animali domestici e produzione di seta.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-hemudu",
+  "fonti": [
+   {
+    "institution": "China Cultural Heritage (cnsjw.cn)",
+    "title": "Hemudu Cultural Site",
+    "url": "https://www.cnsjw.cn/en/2022/03/hemudu-cultural-site/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Agriculture in ancient Asia",
+    "url": "https://www.britannica.com/topic/agriculture/Agriculture-in-ancient-Asia"
+   }
+  ],
+  "nota": "Fine corretta: il sito di Hemudu (Yuyao, Zhejiang) va da circa 5000 a 3000 a.C.; prima la voce si fermava al 4500 a.C., fine della sola prima fase. Confermati le case su palafitte e i resti abbondanti di riso coltivato; gli scavi del vicino sito di Tianluoshan mostrano il riso in corso di domesticazione.",
+  "correzioni": {
+   "end_year": -3000
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-carnac",
+  "fonti": [
+   {
+    "institution": "Archaeology (Archaeological Institute of America)",
+    "title": "Megalithic Stone Monuments in France May Be Europe’s Oldest",
+    "url": "https://archaeology.org/news/2025/07/01/megalithic-stone-monuments-in-france-may-be-europes-oldest/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Megaliths of Carnac and of the shores of Morbihan",
+    "url": "https://whc.unesco.org/en/list/1725"
+   }
+  ],
+  "nota": "Fine corretta al 3300 a.C., limite indicato di solito per gli allineamenti (4500–3300 a.C.); uno scavo pubblicato su Antiquity nel 2025 data un tratto tra 4600 e 4300 a.C., tra i più antichi megaliti d’Europa. Confermati oltre 3000 menhir in file. I megaliti di Carnac e del Morbihan sono patrimonio UNESCO dal 2025.",
+  "correzioni": {
+   "end_year": -3300
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-unificazione-dellegitto",
+  "fonti": [
+   {
+    "institution": "Ministero egiziano del Turismo e delle Antichità (Egymonuments)",
+    "title": "Early Dynastic Period",
+    "url": "https://egymonuments.gov.eg/en/historical-periods/early-dynastic-period"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Narmer",
+    "url": "https://worldhistory.org/Narmer"
+   }
+  ],
+  "nota": "Confermato: il Periodo protodinastico inizia con l’unificazione dell’Egitto verso il 3100 a.C.; l’unificazione fu un processo graduale, la cui fase finale è attribuita al regno di Narmer (Tavolozza di Narmer con le corone dell’Alto e del Basso Egitto). Precisione e affidabilità della data abbassate: è una data approssimativa, non un anno esatto.",
+  "correzioni": {
+   "date_precision": "approximate",
+   "date_confidence": "medium"
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-stonehenge",
+  "fonti": [
+   {
+    "institution": "English Heritage",
+    "title": "History of Stonehenge",
+    "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How Was Stonehenge Built?",
+    "url": "https://www.britannica.com/technology/How-Was-Stonehenge-Built"
+   }
+  ],
+  "nota": "Confermati: costruzione in più fasi tra circa 3000 e 1520 a.C. (prima il fossato circolare verso il 3000 a.C., poi le pietre al centro verso il 2500 a.C., ultime modifiche entro il 1500 a.C. circa); asse allineato all’alba del solstizio d’estate e al tramonto del solstizio d’inverno.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-akkad",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sargon",
+    "url": "https://www.britannica.com/biography/Sargon"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Akkad and the Akkadian Empire",
+    "url": "https://www.worldhistory.org/akkad/"
+   }
+  ],
+  "nota": "Confermati: Sargon regnò circa 2334–2279 a.C. e unificò la Mesopotamia meridionale; l’impero di Akkad (2334–2154 a.C. secondo la cronologia media) è considerato il primo impero multinazionale.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-sintashta",
+  "fonti": [
+   {
+    "institution": "Antiquity (Cambridge University Press)",
+    "title": "Lindner 2020, Chariots in the Eurasian Steppe: a Bayesian approach to the emergence of horse-drawn transport in the early second millennium BC",
+    "url": "https://www.cambridge.org/core/journals/antiquity/article/chariots-in-the-eurasian-steppe-a-bayesian-approach-to-the-emergence-of-horsedrawn-transport-in-the-early-second-millennium-bc/C4FDF8C5E7D1D20A28BEB7F6C50A9AF4"
+   },
+   {
+    "institution": "Università di Leida",
+    "title": "Palmér 2024, Indo-Slavic lexical isoglosses and the prehistoric dispersal of Indo-Iranian (cap. 5)",
+    "url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A3765831/view"
+   }
+  ],
+  "nota": "Confermati: verso il 2000 a.C. compare tra Trans-Urali meridionali e Kazakistan settentrionale un gruppo di insediamenti, alcuni fortificati, della cultura di Sintashta-Petrovka (datata 2100–1800 a.C.), dove sono attestati per la prima volta veicoli leggeri a ruote a raggi trainati da cavalli. La sintesi ora precisa che il legame con le lingue indoiraniche è un’ipotesi diffusa e che la funzione dei veicoli è discussa.",
+  "correzioni": {
+   "summary": "Insediamenti fortificati e sepolture con i più antichi veicoli leggeri a ruote a raggi trainati da cavalli (se fossero già carri da guerra è discusso). La cultura è spesso associata alla diffusione delle lingue indoiraniche."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-regno-di-hammurabi-a-babilonia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hammurabi",
+    "url": "https://www.Britannica.com/biography/Hammurabi"
+   }
+  ],
+  "nota": "Confermati: Hammurabi regnò circa 1792–1750 a.C. (cronologia media), trasformando Babilonia nella capitale di un vasto regno; è noto per la raccolta di leggi incisa su una stele, un tempo ritenuta la più antica del mondo.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-poverty-point",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Monumental Earthworks of Poverty Point",
+    "url": "https://whc.unesco.org/en/list/1435"
+   },
+   {
+    "institution": "US National Park Service",
+    "title": "Monumental Earthworks of Poverty Point – nomination",
+    "url": "https://www.nps.gov/subjects/internationalcooperation/upload/Poverty_Point.pdf"
+   }
+  ],
+  "nota": "Date allineate a UNESCO: costruito e usato tra 3700 e 3100 anni fa (circa 1750–1150 a.C.; prima 1700–1100) da una società di cacciatori, pescatori e raccoglitori, con mound e sei terrapieni concentrici semiellittici intorno a una piazza; per almeno 2000 anni nessuna opera in terra nordamericana lo superò.",
+  "parziale": "il ruolo di centro di scambi su lunga distanza.",
+  "sostituisci_unesco_lista": true,
+  "correzioni": {
+   "start_year": -1750,
+   "end_year": -1150
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-hittite",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hittite",
+    "url": "https://www.britannica.com/topic/Hittite"
+   },
+   {
+    "institution": "OER Project",
+    "title": "The Hittites and Ancient Anatolia",
+    "url": "https://www.oerproject.com/OER-Materials/OER-Media/HTML-Articles/Origins/Unit3/The-Hittites-and-Ancient-Anatolia"
+   }
+  ],
+  "nota": "Confermati: regno anatolico con capitale Hattusa, consolidato da Hattusili I (circa 1650–1620 a.C.); battaglia di Qadesh contro Ramses II nel 1274 a.C., seguita dal primo trattato di pace noto (circa 1258 a.C.); fine dell’impero verso il 1180 a.C., durante il crollo dell’età del Bronzo.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-egypt-new-kingdom",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art (Heilbrunn Timeline)",
+    "title": "Egypt in the New Kingdom (ca. 1550–1070 B.C.)",
+    "url": "https://www.metmuseum.org/toah/hd/nking/hd_nking.htm"
+   },
+   {
+    "institution": "Smarthistory",
+    "title": "New Kingdom and Third Intermediate Period, an introduction",
+    "url": "https://smarthistory.org/new-kingdom-third-intermediate-period-introduction"
+   }
+  ],
+  "nota": "Confermati: Nuovo Regno circa 1550–1070 a.C., dalla riunificazione di Ahmose I; campagne che estesero l’influenza egizia nel Vicino Oriente e il controllo della Nubia fino alla quarta cateratta; tombe reali nella Valle dei Re; tempio di Hatshepsut a Deir el-Bahari.",
+  "data": "2026-11-19"
+ }
+]
