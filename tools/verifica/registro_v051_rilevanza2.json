@@ -1069,5 +1069,222 @@
   },
   "sostituisci_unesco_lista": true,
   "data": "2026-11-19"
+ },
+ {
+  "id": "state-kievan-rus",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kyivan Rus",
+    "url": "https://www.britannica.com/topic/Kyivan-Rus"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Kievan Rus",
+    "url": "https://www.worldhistory.org/Kievan_Rus/"
+   }
+  ],
+  "nota": "Confermati: primo stato slavo orientale, fondato verso l’882 quando il variago Oleg prese Kiev; nato lungo la via commerciale del Dnepr tra Baltico e Bisanzio; Vladimir il Grande abbracciò il cristianesimo bizantino nel 988; la conquista mongola del 1237–1242 (Kiev distrutta nel 1240) ne pose fine.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-fatimid-caliphate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Fatimid dynasty",
+    "url": "https://www.britannica.com/topic/Fatimid-dynasty"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Historic Cairo",
+    "url": "https://whc.unesco.org/en/list/89/"
+   }
+  ],
+  "nota": "Confermati: dinastia sciita ismailita (909–1171), sorta in Nord Africa; conquistò l’Egitto nel 969 e vi fondò il Cairo come capitale, con la moschea-scuola di al-Azhar; l’ultimo califfo morì nel 1171 e Saladino pose fine al califfato.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-seljuk",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Seljuq",
+    "url": "https://www.britannica.com/topic/Seljuq"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Battles & Conquests of the Ottoman Empire (1299-1683) – Historical Background",
+    "url": "https://www.worldhistory.org/article/1791/battles--conquests-of-the-ottoman-empire-1299-1683/"
+   }
+  ],
+  "nota": "Confermati: sultanato turco sunnita (1037–1194), che nel 1055 prese Baghdad e governò Iran, Mesopotamia e Siria; la vittoria di Manzikert sui Bizantini (1071) aprì l’Anatolia all’insediamento turcomanno; nel 1194 morì l’ultimo grande sultano selgiuchide dell’Iran.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-almoravid-almohad",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "North Africa – The Maghrib under the Almoravids and the Almohads",
+    "url": "https://www.britannica.com/place/North-Africa/The-Maghrib-under-the-Almoravids-and-the-Almohads"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Medina of Marrakesh",
+    "url": "https://whc.unesco.org/en/list/331/"
+   }
+  ],
+  "nota": "Confermati: gli Almoravidi, movimento berbero nato verso il 1035–1040, e poi gli Almohadi (1130–1269) unificarono il Maghreb sotto un dominio berbero e governarono la Spagna musulmana; Marrakech fu fondata dagli Almoravidi nel 1070–1072 e passò ai Merinidi nel 1269.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-cahokia",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Cahokia Mounds State Historic Site",
+    "url": "https://whc.unesco.org/en/list/198/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cahokia Mounds",
+    "url": "https://www.britannica.com/place/Cahokia-Mounds"
+   }
+  ],
+  "nota": "Confermati: il più grande insediamento precolombiano a nord del Messico, occupato soprattutto nel periodo mississippiano (800–1350/1400 secondo UNESCO), con circa 120 tumuli su oltre 1600 ettari, 10.000–20.000 abitanti al culmine e Monks Mound, la più grande opera in terra preistorica delle Americhe. Le date della voce (1050–1350) indicano la fase di massimo sviluppo; Britannica la fa iniziare verso il 950.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-university-bologna",
+  "fonti": [
+   {
+    "institution": "Università di Bologna",
+    "title": "Nine centuries of history",
+    "url": "https://www.unibo.it/en/university/who-we-are/our-history/nine-centuries-of-history"
+   },
+   {
+    "institution": "Università di Bologna",
+    "title": "The birth of the Studium and the Commune",
+    "url": "https://www.unibo.it/en/university/who-we-are/our-history/nine-centuries-of-history/the-birth-of-the-studium-and-the-commune"
+   }
+  ],
+  "nota": "Confermati per Bologna: il 1088 è la data convenzionale (fissata nell’Ottocento) di nascita dello Studium, sorto spontaneamente da associazioni di studenti, poi riunite nelle universitates; nel 1158 Federico Barbarossa ne riconobbe le libertà con la Constitutio Habita.",
+  "parziale": "le date di nascita delle università di Parigi e Oxford.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-ayyubid",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ayyubid dynasty",
+    "url": "https://www.britannica.com/topic/Ayyubid-dynasty"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Saladin",
+    "url": "https://www.britannica.com/biography/Saladin"
+   }
+  ],
+  "nota": "Confermati: dinastia sunnita fondata da Saladino, che nel 1169 divenne visir dell’Egitto fatimide e poi ne abolì il califfato (1171), unì Egitto e Siria e riconquistò Gerusalemme nel 1187 dopo la vittoria di Hattin; in Egitto gli Ayyubidi furono sostituiti dai Mamelucchi nel 1250, in Siria resistettero fino al 1260.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-benin-kingdom",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Benin (historical kingdom, West Africa)",
+    "url": "https://www.britannica.com/place/Benin-historical-kingdom-West-Africa"
+   },
+   {
+    "institution": "British Museum",
+    "title": "Benin Bronzes",
+    "url": "https://www.britishmuseum.org/about-us/british-museum-story/contested-objects-collection/benin-bronzes"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Plaque with Snake (Edo peoples)",
+    "url": "https://www.metmuseum.org/art/collection/search/312300"
+   }
+  ],
+  "nota": "Inizio corretto al 1200 circa (prima 1180), come indica Britannica (regno fiorito dal XIII al XIX secolo). Confermati: regno edo con capitale Benin City, fortificata con un grande muro sotto l’oba Ewuare nel XV secolo; placche in ottone del XVI–XVII secolo che decoravano il palazzo reale; nel febbraio 1897 la città fu presa, saccheggiata e incendiata dai britannici.",
+  "correzioni": {
+   "start_year": 1200
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-nan-madol",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Nan Madol: Ceremonial Centre of Eastern Micronesia",
+    "url": "https://whc.unesco.org/en/list/1503/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "US Ambassador’s Fund for Cultural Preservation provides support to the endangered site of Nan Madol",
+    "url": "https://whc.unesco.org/en/news/1899"
+   }
+  ],
+  "nota": "Confermati da UNESCO: oltre 100 isolotti artificiali al largo di Pohnpei, con muri di basalto colonnare e blocchi di corallo; palazzi, templi e tombe costruiti tra 1200 e 1500 d.C.; centro cerimoniale della dinastia Saudeleur, il cui periodo va dal XII al XVII secolo circa.",
+  "parziale": "le date esatte d’inizio e di fine della voce (1180 e 1628).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-lalibela",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rock-Hewn Churches, Lalibela",
+    "url": "https://whc.unesco.org/en/list/18"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Lalibela – Rock-hewn churches (attività di restauro)",
+    "url": "https://whc.unesco.org/en/activities/160/"
+   }
+  ],
+  "nota": "Confermati: undici chiese monolitiche scavate nella roccia, «nuova Gerusalemme» del XIII secolo, attribuite al re Lalibela (1181–1221) della dinastia Zagwe, che regnò da Roha (poi Lalibela) per oltre un secolo; ancora oggi luogo di pellegrinaggio.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-kamakura-shogunate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kamakura period",
+    "url": "https://www.britannica.com/event/Kamakura-period"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Kamakura Period",
+    "url": "https://www.worldhistory.org/Kamakura_Period/"
+   }
+  ],
+  "nota": "Confermati: dopo la vittoria di Dannoura (1185) Minamoto Yoritomo creò a Kamakura un governo militare (bakufu), sancito nel 1192 con il titolo di shogun; il potere passò alla classe guerriera; le invasioni mongole del 1274 e 1281 fallirono anche per i tifoni; lo shogunato cadde nel 1333. Britannica fa iniziare il periodo nel 1192, altre fonti nel 1185.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-magna-carta",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Magna Carta",
+    "url": "https://www.britannica.com/topic/Magna-Carta"
+   },
+   {
+    "institution": "British Library",
+    "title": "Magna Carta: people and society",
+    "url": "https://www-upgrade.bl.uk/magna-carta/articles/magna-carta-people-and-society"
+   }
+  ],
+  "nota": "Confermati: il 15 giugno 1215 a Runnymede il re Giovanni, sotto la minaccia della guerra civile, accettò la carta imposta dai baroni ribelli, che limitava il potere regio con una concessione scritta; dichiarando il sovrano soggetto alla legge, è diventata un fondamento dei diritti individuali.",
+  "data": "2026-11-19"
  }
 ]
