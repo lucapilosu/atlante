@@ -697,5 +697,184 @@
    "end_year": 1100
   },
   "data": "2026-11-19"
+ },
+ {
+  "id": "site-ajanta",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Ajanta Caves",
+    "url": "https://whc.unesco.org/en/list/242/documents/%23ABevaluation"
+   },
+   {
+    "institution": "MAP Academy",
+    "title": "Ajanta Caves",
+    "url": "https://mapacademy.io/?p=2982"
+   }
+  ],
+  "nota": "Confermati: circa trenta grotte buddhiste scavate nella roccia (templi e monasteri), con pitture e sculture considerate capolavori dell’arte buddhista. Prima fase nel II–I secolo a.C.; seconda fase, secondo UNESCO, nel V–VI secolo d.C. (prima la sintesi indicava solo il V secolo e la voce finiva nel 480): fine portata al 550.",
+  "correzioni": {
+   "end_year": 550,
+   "summary": "Una trentina di grotte buddhiste scavate nella roccia, tra monasteri e sale di preghiera, con pitture murali tra le più importanti dell’arte indiana antica. Le fasi principali sono il II–I secolo a.C. e il V–VI secolo d.C."
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-hopewell",
+  "fonti": [
+   {
+    "institution": "ICOMOS (UNESCO World Heritage Centre)",
+    "title": "Hopewell Ceremonial Earthworks – Evaluation No 1689",
+    "url": "https://whc.unesco.org/document/205766"
+   },
+   {
+    "institution": "Ohio History Connection (Hopewell Ceremonial Earthworks)",
+    "title": "Hopewell Culture",
+    "url": "https://hopewellearthworks.org/culture/"
+   }
+  ],
+  "nota": "Date allineate alle fonti UNESCO: i grandi terrapieni geometrici furono costruiti tra 2000 e 1600 anni fa (circa 1–400 d.C.; prima 100 a.C.–500 d.C.) da gruppi dispersi e non gerarchici; erano centri cerimoniali, allineati ai cicli del Sole e della Luna, al centro di una rete di interazione estesa a tutto il continente, con oggetti rituali in materiali provenienti da luoghi lontani.",
+  "correzioni": {
+   "start_year": 1,
+   "end_year": 400
+  },
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-three-kingdoms-korea",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Three Kingdoms period",
+    "url": "https://www.britannica.com/topic/Three-Kingdoms-period"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Three Kingdoms Period in Korea",
+    "url": "https://www.worldhistory.org/Three_Kingdoms_Period_in_Korea/.md"
+   }
+  ],
+  "nota": "Confermati: periodo tradizionalmente datato 57 a.C.–668 d.C., con Goguryeo, Baekje e Silla; il buddhismo arrivò nel IV secolo (Goguryeo nel 372); Silla, alleata dei Tang, unificò la penisola nel 668. Le date di fondazione (57, 37, 18 a.C.) sono leggendarie: gli storici moderni collocano la vera formazione degli stati tra I e IV secolo d.C., perciò la data d’inizio è ora indicata come discussa.",
+  "correzioni": {
+   "date_confidence": "debated"
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-kushan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kushan dynasty",
+    "url": "https://www.britannica.com/print/article/325483"
+   },
+   {
+    "institution": "LibreTexts (Asian Art History, Gustlin)",
+    "title": "Kushan Empire 30 CE – 375 CE",
+    "url": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/Asian_Art_History_(Gustlin_and_Gustlin)/06%3A_Unification_of_Empires_(50_BCE__500_CE)/6.3%3A_Kushan_Empire_30_CE__375_CE"
+   }
+  ],
+  "nota": "Confermati: impero nato dagli Yuezhi in Battriana, unificato da Kujula Kadphises e al culmine con Kanishka; controllò un tratto della Via della Seta, diffuse il buddhismo in Asia centrale e in Cina e sviluppò le scuole d’arte del Gandhara e di Mathura; declinò con l’ascesa dei Sasanidi (datazione 30–375 d.C.).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-second-temple-destruction",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Siege of Jerusalem (70 CE)",
+    "url": "https://www.britannica.com/event/Siege-of-Jerusalem-70"
+   },
+   {
+    "institution": "Britannica (Britannica Kids)",
+    "title": "First Jewish Revolt",
+    "url": "https://kids.britannica.com/students/article/First-Jewish-Revolt/604857"
+   }
+  ],
+  "nota": "Confermati: nel 70 d.C., durante la prima rivolta giudaica (66–70), Tito assediò Gerusalemme e i Romani distrussero gran parte della città e il Secondo Tempio; Yohanan ben Zakkai ottenne di fondare un’accademia, punto di partenza dell’ebraismo rabbinico.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-funan",
+  "fonti": [
+   {
+    "institution": "Library of Congress (Country Studies: Cambodia)",
+    "title": "Early Indianized Kingdom of Funan",
+    "url": "https://countrystudies.us/cambodia/5.htm"
+   }
+  ],
+  "nota": "Confermati: regno fondato nel I secolo d.C. sul basso corso del Mekong; il porto di Óc Eo ha restituito oggetti romani, persiani, indiani e greci; apogeo nel V secolo e declino dall’inizio del VI per guerre civili e lotte dinastiche.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-champa",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Champa",
+    "url": "https://www.britannica.com/print/article/105118"
+   },
+   {
+    "institution": "LibreTexts (Asian Art History, Gustlin)",
+    "title": "Kingdom of Champa (192 CE – 1832 CE)",
+    "url": "https://human.libretexts.org/Bookshelves/Art/Art_History_and_Theory/Asian_Art_History_(Gustlin_and_Gustlin)/07%3A_Kingdoms_and_Dynasties_(500_CE__1000_CE)/7.5%3A_Kingdom_of_Champa_(192_CE_-1832_CE)"
+   }
+  ],
+  "nota": "Confermati: regno dei Cham, popolo di lingua maleo-polinesiana e cultura indianizzata, formato nel 192 d.C. e poi assorbito dal Vietnam; Britannica lo fa durare fino al XVII secolo, mentre l’ultimo principato (Panduranga) fu annesso nel 1832, data finale della voce.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-makuria",
+  "fonti": [
+   {
+    "institution": "Institute for the Study of Ancient Cultures, University of Chicago",
+    "title": "Medieval Nubia",
+    "url": "https://isac.uchicago.edu/museum-exhibits/nubia/medieval-nubia"
+   },
+   {
+    "institution": "Penn Museum (Expedition)",
+    "title": "Christian Nubia",
+    "url": "https://penn.museum/sites/expedition/?p=4479"
+   }
+  ],
+  "nota": "Confermati: i tre regni nubiani di Nobadia, Makuria e Alwa si convertirono al cristianesimo nel VI secolo (conversione completa entro il 580); dopo la conquista araba dell’Egitto, Makuria respinse un attacco e nel 651–652 stipulò con l’Egitto musulmano il baqt, un patto di pace e commercio durato secoli; la Nubia cristiana arriva fino al 1500 circa.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-justinian",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Justinian I",
+    "url": "https://www.worldhistory.org/Justinian%5FI/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Byzantine Empire – The 6th century from East Rome to Byzantium",
+    "url": "https://www.britannica.com/place/Byzantine-Empire/The-6th-century-from-East-Rome-to-Byzantium"
+   }
+  ],
+  "nota": "Confermati: imperatore dal 527 al 565; riconquistò l’Africa ai Vandali (533–534) e l’Italia ai Goti (535–554); fece raccogliere il diritto romano nel Corpus iuris civilis (529–534, con le Novelle fino al 565) e ricostruire Santa Sofia (dal 532).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-plague-of-justinian",
+  "fonti": [
+   {
+    "institution": "Harvard Gazette",
+    "title": "Max Planck-Harvard genome study shows extent, diversity of Roman plague",
+    "url": "https://news.harvard.edu/gazette/story/2019/07/max-planck-harvard-genome-study-shows-extent-diversity-of-roman-plague"
+   },
+   {
+    "institution": "Archaeology (Archaeological Institute of America)",
+    "title": "Ancient DNA Pinpoints Culprit Responsible for World’s First Pandemic",
+    "url": "https://archaeology.org/?p=52933"
+   }
+  ],
+  "nota": "Confermati: la peste di Giustiniano colpì dal 541, con ondate ricorrenti fino al 750 nel Mediterraneo e in Europa (raggiunse anche le isole britanniche); il DNA antico conferma Yersinia pestis come causa. Le date della voce indicano la prima grande ondata.",
+  "data": "2026-11-19"
  }
 ]
