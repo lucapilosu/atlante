@@ -362,5 +362,340 @@
   ],
   "nota": "Confermati: Nuovo Regno circa 1550–1070 a.C., dalla riunificazione di Ahmose I; campagne che estesero l’influenza egizia nel Vicino Oriente e il controllo della Nubia fino alla quarta cateratta; tombe reali nella Valle dei Re; tempio di Hatshepsut a Deir el-Bahari.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "culture-nok",
+  "fonti": [
+   {
+    "institution": "Scientia (Goethe-Universität Frankfurt, Peter Breunig)",
+    "title": "The Significance of Nok Culture Sculptures in Nigerian Prehistory",
+    "url": "https://www.scientia.global/professor-peter-breunig-the-significance-of-nok-culture-sculptures-in-nigerian-prehistory/"
+   },
+   {
+    "institution": "Archaeology (Archaeological Institute of America)",
+    "title": "The Nok of Nigeria",
+    "url": "https://archaeology.org/issues/online/features/the-nok-of-nigeria/"
+   }
+  ],
+  "nota": "Confermati: secondo le ricerche dell’Università di Francoforte la cultura Nok inizia verso il 1500 a.C., un millennio prima di quanto si pensava; le sculture in terracotta e la lavorazione del ferro appartengono alle fasi successive (prima età del Ferro, dal 500 a.C. circa); le fornaci di Nok diedero a lungo le date più antiche della fusione del ferro a sud del Sahara.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-vedic",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Vedic religion",
+    "url": "https://www.britannica.com/topic/Vedic-religion"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Rigveda",
+    "url": "https://www.britannica.com/topic/Rigveda"
+   }
+  ],
+  "nota": "Confermati: i Veda furono composti in sanscrito arcaico e trasmessi oralmente per circa dieci secoli, dal XV al V secolo a.C.; il Rigveda, il più antico, risale a circa il 1500 a.C.; la religione vedica è una delle grandi tradizioni da cui deriva l’induismo.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-ancient-israel",
+  "fonti": [
+   {
+    "institution": "Canadian Museum of History",
+    "title": "A Time of Invasion and Exile",
+    "url": "https://historymuseum.ca/cmc/exhibitions/civil/israel/isrel40e.html"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Judah Timeline",
+    "url": "https://worldhistory.org/timeline/judah"
+   }
+  ],
+  "nota": "Confermati: Samaria, capitale del regno settentrionale di Israele, cadde in mano assira nel 722 a.C.; Gerusalemme, capitale del regno di Giuda, fu presa da Nabucodonosor II nel 587–586 a.C., con distruzione del Primo Tempio ed esilio delle élite.",
+  "parziale": "l’inizio verso il 1000 a.C., legato alla tradizione biblica della monarchia unita e discusso dagli archeologi.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-dong-son",
+  "fonti": [
+   {
+    "institution": "Smarthistory",
+    "title": "Đông Sơn Drums",
+    "url": "https://smarthistory.org/?p=69520"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dong Son culture",
+    "url": "https://www.britannica.com/topic/Dong-Son-culture"
+   }
+  ],
+  "nota": "Inizio corretto: la cultura di Dong Son si afferma verso il 500 a.C. (prima 1000 a.C.) e dura fino al I secolo d.C.; i tamburi di bronzo, prodotti tra circa il 500 a.C. e il 100 d.C., sono stati trovati in tutto il Sud-est asiatico; la produzione fu centrata nella valle del Fiume Rosso, con oltre 500 siti noti.",
+  "correzioni": {
+   "start_year": -500
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-impero-neo-assiro",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Neo-Assyrian Empire",
+    "url": "https://www.worldhistory.org/Neo-Assyrian%5FEmpire/"
+   }
+  ],
+  "nota": "Confermati: l’impero neo-assiro si fa iniziare di solito con Adad-nirari II (912/911 a.C.) e finisce tra la caduta di Assur e Ninive (614–612 a.C.) e quella di Harran (609 a.C.); fu il più grande impero mai visto fino ad allora.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-scythians",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Scythian",
+    "url": "https://britannica.com/topic/Scythian"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Scythians",
+    "url": "https://worldhistory.org/Scythians"
+   }
+  ],
+  "nota": "Confermati: popolo nomade di stirpe iranica, migrato dall’Asia centrale verso la Russia meridionale e l’Ucraina tra VIII e VII secolo a.C.; la cultura fiorì tra il VII e il III secolo a.C.; le élite lasciarono tumuli (kurgan) ricchi di oggetti d’oro; i Sarmati li soppiantarono progressivamente.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-mahajanapadas",
+  "fonti": [
+   {
+    "institution": "INFLIBNET (e-PG Pathshala, Governo dell’India)",
+    "title": "Mahajanapadas – Rise of Magadha – Nandas – Invasion of Alexander",
+    "url": "https://ebooks.inflibnet.ac.in/icp01/chapter/mahajanapadas-rise-of-magadha-nandas-invasion-of-alexander/"
+   },
+   {
+    "institution": "Utah Education Network (World History, manuale aperto)",
+    "title": "Transition to Empire: States, Cities, and New Religions (600 – 321 BCE)",
+    "url": "https://uen.pressbooks.pub/worldhistory1/chapter/transition-to-empire-states-cities-and-new-religions-600-321-bce/"
+   }
+  ],
+  "nota": "Confermati: le fonti buddhiste elencano sedici grandi stati (mahajanapada), regni e repubbliche, nell’India del VI secolo a.C.; Magadha prevalse e i Nanda prepararono l’unificazione realizzata da Chandragupta Maurya verso il 321 a.C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "religion-jainism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jainism",
+    "url": "https://britannica.com:443/topic/Jainism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mahavira",
+    "url": "https://britannica.com/biography/Mahavira-Jaina-teacher"
+   }
+  ],
+  "nota": "Confermati: il giainismo nasce tra VII e V secolo a.C. nel bacino del Gange; Mahavira (tradizionalmente 599–527 a.C., ma forse un secolo dopo) fu un contemporaneo stretto del Buddha; al centro la non violenza (ahimsa) verso ogni essere vivente. Data d’inizio giustamente indicata come discussa.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-riforme-di-clistene-ad-atene",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ancient Greece – The reforms of Cleisthenes",
+    "url": "https://www.britannica.com/place/ancient-Greece/The-reforms-of-Cleisthenes"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Cleisthenes",
+    "url": "https://www.worldhistory.org/Cleisthenes/"
+   }
+  ],
+  "nota": "Confermati: nel 508–507 a.C. Clistene riformò lo stato ateniese, sostituendo le quattro tribù gentilizie con dieci tribù territoriali formate da demi delle tre zone dell’Attica; Erodoto lo ricorda come colui che introdusse «le tribù e la democrazia».",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-monte-alban",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán",
+    "url": "https://whc.unesco.org/en/list/415/"
+   }
+  ],
+  "nota": "Confermati da UNESCO: sito abitato per circa 1500 anni da Olmechi, Zapotechi e Mixtechi, con terrazze, dighe, canali, piramidi e tumuli ricavati direttamente dalla montagna.",
+  "parziale": "le date di fondazione (circa 500 a.C.) e di declino (circa 800 d.C.) e la definizione di una delle prime città della Mesoamerica.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-warring-states",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Warring States",
+    "url": "https://www.britannica.com/event/Warring-States"
+   }
+  ],
+  "nota": "Confermati da Britannica: periodo 475–221 a.C. di sette o più regni cinesi in lotta, tra i più fecondi della storia cinese per il pensiero; si chiude con la vittoria di Qin e il primo impero unificato nel 221 a.C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-la-tene",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "La Tène Culture",
+    "url": "https://www.worldhistory.org/La%5FTene%5FCulture/"
+   }
+  ],
+  "nota": "Confermati: cultura dell’età del Ferro tra circa 450 e 50 a.C., erede di Hallstatt, con uno stile artistico distintivo diffuso dall’Irlanda alla Romania e insediamenti fortificati (oppida); declinò dopo la conquista della Gallia da parte di Cesare. Sintesi precisata: l’equazione tra cultura di La Tène e Celti è oggi considerata troppo semplice.",
+  "correzioni": {
+   "summary": "Cultura dell’età del Ferro dell’Europa centrale e occidentale, con oppida fortificati, un’arte decorativa inconfondibile e reti di scambio; è spesso identificata con i Celti, un’equazione che oggi gli studiosi considerano troppo semplice. Declinò con la conquista romana della Gallia."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-ptolemaic-egypt",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ptolemaic Dynasty (timeline)",
+    "url": "https://worldhistory.org/timeline/Ptolemaic_Dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ptolemaic Dynasty",
+    "url": "https://www.worldhistory.org/ptolemaic_dynasty/"
+   }
+  ],
+  "nota": "Confermati: dinastia macedone fondata da Tolomeo I, generale di Alessandro, re d’Egitto dal 305 a.C.; ad Alessandria Tolomeo I fondò il Museo e avviò la Biblioteca, sviluppata da Tolomeo II; la dinastia finì con Cleopatra VII e la conquista romana del 30 a.C.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-petra",
+  "fonti": [
+   {
+    "institution": "Petra Development & Tourism Region Authority (Visit Petra)",
+    "title": "History of Petra",
+    "url": "https://visitpetra.jo/en/page/12/History-of-Petra"
+   },
+   {
+    "institution": "Brown University",
+    "title": "Petra Great Temple – History",
+    "url": "https://www.brown.edu/Departments/Anthropology/Petra/excavations/history.html"
+   }
+  ],
+  "nota": "Confermati: capitale nabatea scolpita nell’arenaria, cresciuta sul controllo delle vie carovaniere tra Arabia e Siria (periodo nabateo dal IV secolo a.C. circa); nel 106 d.C. Traiano annesse il regno nabateo, che divenne la provincia di Arabia Petraea con capitale Petra.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "culture-yayoi",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yayoi culture",
+    "url": "https://www.britannica.com/topic/Yayoi-culture"
+   },
+   {
+    "institution": "Radiocarbon (Cambridge University Press, National Museum of Japanese History)",
+    "title": "Sakamoto et al. 2023, Radiocarbon dating of tree rings from the beginning and end of the Yayoi period, Japan",
+    "url": "https://www.cambridge.org/core/product/B7D3C965B0155D8455AC73198547FFBC/core-reader"
+   }
+  ],
+  "nota": "Fine corretta al 250 d.C. secondo Britannica (Yayoi circa 300 a.C.–250 d.C.; prima 300 d.C.). Confermati l’arrivo della risicoltura irrigua e degli oggetti in metallo. Le datazioni al radiocarbonio del Museo nazionale di storia giapponese spostano l’inizio della risicoltura nel Kyushu settentrionale verso il X secolo a.C.: per questo la data d’inizio resta indicata come discussa.",
+  "correzioni": {
+   "end_year": 250
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-djenne-djeno",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art (Heilbrunn Timeline)",
+    "title": "Jenne-jeno: An Ancient African City",
+    "url": "https://82nd-and-fifth.metmuseum.org/toah/hd/ind_1/hd_ind_1.htm"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Djenne-Djenno",
+    "url": "https://www.worldhistory.org/Djenne-Djenno/"
+   }
+  ],
+  "nota": "Confermati: la più antica città nota dell’Africa subsahariana, abitata già dal 250 a.C., grande centro urbano verso l’850 d.C. e abbandonata entro il 1400; gli abitanti lavoravano il ferro fin dall’inizio; prosperò grazie all’agricoltura e al commercio regionale.",
+  "parziale": "l’assenza di un palazzo o di un’autorità centrale evidente.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-parthian",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arsacid dynasty",
+    "url": "https://www.britannica.com/print/article/36249"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Parthia: Rome’s Ablest Competitor",
+    "url": "https://www.worldhistory.org/article/1445/parthia-romes-ablest-competitor/"
+   }
+  ],
+  "nota": "Confermati: dinastia iranica degli Arsacidi (247 a.C.–224 d.C.), nata dalla tribù dei Parni, che controllò l’Iran e la Mesopotamia fino alla presa del potere dei Sasanidi; rivale di Roma (Carre, 53 a.C.) e intermediaria delle vie commerciali tra Asia e mondo greco-romano.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-terracotta-army",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Mausoleum of the First Qin Emperor",
+    "url": "https://whc.unesco.org/en/list/441"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Terracotta Army",
+    "url": "https://www.worldhistory.org/Terracotta_Army/"
+   }
+  ],
+  "nota": "Confermati: migliaia di statue di soldati, cavalli e carri a grandezza naturale intorno al mausoleo di Qin Shi Huang, morto nel 210 a.C.; scoperte nel 1974, molte restano ancora da scavare.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-xiongnu",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Xiongnu",
+    "url": "https://www.britannica.com/topic/Xiongnu"
+   }
+  ],
+  "nota": "Confermati da Britannica: popolo nomade di pastori che alla fine del III secolo a.C. formò una grande lega tribale e minacciò a lungo la frontiera settentrionale della Cina degli Han. Britannica parla di un dominio di oltre 500 anni su gran parte dell’Asia centrale: la data finale della voce indica la fine dell’egemonia sulle steppe dopo le sconfitte contro gli Han.",
+  "parziale": "la data finale del 93 d.C. (fine degli Xiongnu settentrionali).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "site-tiwanaku",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Tiwanaku: Spiritual and Political Centre of the Tiwanaku Culture",
+    "url": "https://whc.unesco.org/en/list/0567"
+   },
+   {
+    "institution": "ICOMOS (UNESCO World Heritage Centre)",
+    "title": "Tiwanaku – Evaluation No 567",
+    "url": "https://whc.unesco.org/document/153775"
+   }
+  ],
+  "nota": "Fine corretta: secondo UNESCO il dominio politico di Tiwanaku declina dall’XI secolo e l’impero crolla nella prima metà del XII (prima la voce si fermava al 1000). Confermati l’apogeo tra 500 e 900 d.C., la Porta del Sole monolitica e i campi rialzati (camellones) sulle rive del lago Titicaca.",
+  "parziale": "l’inizio verso il 200 a.C.",
+  "correzioni": {
+   "end_year": 1100
+  },
+  "data": "2026-11-19"
  }
 ]
