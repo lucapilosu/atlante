@@ -1286,5 +1286,223 @@
   ],
   "nota": "Confermati: il 15 giugno 1215 a Runnymede il re Giovanni, sotto la minaccia della guerra civile, accettò la carta imposta dai baroni ribelli, che limitava il potere regio con una concessione scritta; dichiarando il sovrano soggetto alla legge, è diventata un fondamento dei diritti individuali.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "state-golden-horde",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Golden Horde",
+    "url": "https://www.britannica.com/place/Golden-Horde"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Golden Horde",
+    "url": "https://www.worldhistory.org/Golden_Horde/"
+   }
+  ],
+  "nota": "Confermati: khanato mongolo (ulus di Juchi, detto anche khanato del Kipchak) fondato da Batu con capitale Sarai sul Volga; riscosse tributi dai principati russi per oltre due secoli; l’ultimo residuo fu distrutto dal khan di Crimea nel 1502.",
+  "parziale": "l’anno d’inizio 1242 (dopo la campagna europea) non è nelle fonti consultate: Britannica data l’Orda d’Oro 1227–1502, dall’eredità di Batu.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-mamluk-sultanate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mamluk dynasty",
+    "url": "https://www.britannica.com/topic/Mamluk-dynasty-Egypt-Syria"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egypt: the Mamluk and Ottoman periods (1250–1800)",
+    "url": "https://www.britannica.com/place/Egypt/The-Mamluk-and-Ottoman-periods-1250-1800"
+   }
+  ],
+  "nota": "Confermati: soldati di origine schiava presero il potere nel 1250 e governarono Egitto e Siria fino alla conquista ottomana del 1517; sconfissero i Mongoli ad Ain Jalut il 3 settembre 1260; sotto di loro l’Egitto divenne il centro politico, economico e culturale del mondo arabo orientale e il Cairo ospitò dal 1261 il califfato abbaside ristabilito.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-ilkhanate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Il-Khanid dynasty",
+    "url": "https://www.britannica.com/topic/Il-Khanid-dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ilkhanate",
+    "url": "https://www.worldhistory.org/Ilkhanate/"
+   }
+  ],
+  "nota": "Confermati: dinastia mongola fondata da Hülegü nel 1256, regnò sull’Iran fino al 1335; nel 1258 Hülegü prese e saccheggiò Baghdad, mettendo fine al califfato abbaside. WHE fa partire l’Ilkhanato dal 1260.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-dynasty-yuan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yuan dynasty",
+    "url": "https://www.britannica.com/topic/Yuan-dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Yuan Dynasty",
+    "url": "https://www.worldhistory.org/Yuan_Dynasty/"
+   }
+  ],
+  "nota": "Confermati: Kublai Khan proclamò la dinastia Yuan nel 1271 e pose la capitale a Dadu (l’odierna Pechino); la conquista del Sud si completò nel 1279; la dinastia durò fino al 1368; Britannica cita Marco Polo tra gli stranieri giunti in Cina in quest’epoca.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-marco-polo",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Marco Polo",
+    "url": "https://www.britannica.com/biography/Marco-Polo"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Marco Polo",
+    "url": "https://www.worldhistory.org/Marco_Polo/"
+   }
+  ],
+  "nota": "Confermati: il mercante veneziano viaggiò in Asia dal 1271 al 1295, raggiunse la corte di Kublai Khan verso il 1274–75 e restò in Cina circa 17 anni; il suo racconto, Il Milione, divenne un testo di riferimento per l’immagine europea dell’Asia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-majapahit",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Majapahit empire",
+    "url": "https://www.britannica.com/place/Majapahit-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Southeast Asia: the classical period",
+    "url": "https://www.britannica.com/place/history-of-Southeast-Asia-556509/The-classical-period"
+   }
+  ],
+  "nota": "Confermati: ultimo regno indianizzato (indo-buddhista) dell’Indonesia, con base nella Giava orientale, fondato nel 1293 e durato fino al 1527 circa, quando sorsero i regni musulmani; al culmine, sotto Hayam Wuruk e Gajah Mada, fu la potenza egemone dell’area (la mappa Britannica lo estende su gran parte dell’Indonesia odierna).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-ibn-battuta",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ibn Battuta",
+    "url": "https://www.britannica.com/biography/Ibn-Battuta"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ibn Battuta",
+    "url": "https://www.worldhistory.org/Ibn_Battuta/"
+   }
+  ],
+  "nota": "Confermati: nato a Tangeri, dove ricevette una formazione giuridica e letteraria; partì nel 1325 con il pellegrinaggio alla Mecca e viaggiò per circa trent’anni (Britannica: 27 anni di peregrinazioni, circa 120.000 km) nel mondo islamico e oltre, fino alla Cina e, verso il 1352, all’impero del Mali; WHE data la mappa dei viaggi 1325–1354.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-vijayanagara",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "India: the Vijayanagar empire (1336–1646)",
+    "url": "https://www.britannica.com/place/India/The-Vijayanagar-empire-1336-1646"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Group of Monuments at Hampi",
+    "url": "https://whc.unesco.org/en/list/241/"
+   }
+  ],
+  "nota": "Confermati: impero induista fondato nel 1336 da Harihara e Bukka, per oltre due secoli potenza dominante dell’India meridionale; la capitale Vijayanagara, presso l’odierna Hampi, fu saccheggiata nel 1565 dalla confederazione dei sultanati del Deccan. La voce Britannica sulla città fa finire l’impero verso il 1614, quella sulla storia dell’India nel 1646.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-hundred-years-war",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Hundred Years' War",
+    "url": "https://www.worldhistory.org/Hundred_Years'_War/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "St. Joan of Arc",
+    "url": "https://www.britannica.com/biography/Saint-Joan-of-Arc"
+   }
+  ],
+  "nota": "Confermati: conflitto tra i re di Francia e d’Inghilterra dal 1337 al 1453, con lunghi periodi di pace; Giovanna d’Arco guidò i francesi a Orléans (1429) ed è diventata eroina nazionale; secondo WHE la lunga guerra rafforzò in entrambi i paesi il senso di appartenenza nazionale.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-ayutthaya",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ayutthaya (kingdom)",
+    "url": "https://www.britannica.com/place/Ayutthaya-kingdom-Thailand"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Historic City of Ayutthaya",
+    "url": "https://whc.unesco.org/en/list/576/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ayutthaya: Venice of the East",
+    "url": "https://www.worldhistory.org/article/1548/ayutthaya-venice-of-the-east/"
+   }
+  ],
+  "nota": "Confermati: regno siamese dal 1351 al 1767, successore di Sukhothai; potenza commerciale e marittima, città cosmopolita e centro di diplomazia e commercio (il portoghese Mendes Pinto la chiamò «Venezia d’Oriente»); distrutto dall’esercito birmano nel 1767.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "empire-timurid",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Timurid dynasty",
+    "url": "https://www.britannica.com/topic/Timurid-dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Timur",
+    "url": "https://www.worldhistory.org/Timur/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What was Timur’s legacy?",
+    "url": "https://www.britannica.com/question/What-was-Timurs-legacy"
+   }
+  ],
+  "nota": "Confermati: Timur (Tamerlano) prese il controllo della Transoxiana verso il 1370 e fondò un impero con capitale Samarcanda, durato fino al 1507; sotto di lui e i successori Samarcanda divenne un centro di studi e scienza (Ulugh Beg) e la dinastia promosse un’importante rinascita artistica. Con Shah Rokh la capitale passò a Herat.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-19"
+ },
+ {
+  "id": "state-joseon",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Joseon dynasty",
+    "url": "https://www.britannica.com/topic/Joseon-dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Sejong the Great",
+    "url": "https://www.worldhistory.org/Sejong_the_Great/"
+   }
+  ],
+  "nota": "Confermati: dinastia fondata nel 1392 da Yi Seong-gye, con il neoconfucianesimo come ideologia di Stato; re Sejong completò l’hangul nel 1443 e lo pubblicò nel 1446 (Hunmin Jeongeum). WHE chiude la dinastia nel 1897; Britannica nel 1910, includendo l’Impero coreano.",
+  "data": "2026-11-19"
  }
 ]
