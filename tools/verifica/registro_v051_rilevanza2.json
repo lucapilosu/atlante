@@ -2402,5 +2402,239 @@
   ],
   "nota": "Confermati: accordo firmato dal 6 febbraio 1840 tra la Corona britannica e oltre 500 capi māori; nel testo inglese i capi cedevano la sovranità, in quello māori (firmato dalla maggior parte) la kāwanatanga, cioè il governo, un potere minore: le due versioni hanno significati diversi.",
   "data": "2026-11-19"
+ },
+ {
+  "id": "invention-telegraph",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Electrical Telegraph",
+    "url": "https://www.worldhistory.org/Electrical_Telegraph/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Samuel F.B. Morse",
+    "url": "https://www.britannica.com/biography/Samuel-F-B-Morse"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (Britannica Kids)",
+    "title": "cable",
+    "url": "https://kids.britannica.com/students/article/cable/273434"
+   }
+  ],
+  "nota": "Confermati: nel 1844 Morse inviò il primo messaggio sulla prima linea telegrafica degli Stati Uniti (Washington–Baltimora); nel 1866 la Great Eastern posò il primo cavo telegrafico transatlantico; il primo cavo del Pacifico (1902) collegò Vancouver con Australia e Nuova Zelanda; con fili e cavi sottomarini i messaggi arrivavano ovunque in pochi minuti. Il telegrafo elettrico era stato brevettato in Inghilterra già nel 1837 (Cooke e Wheatstone).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-caste-war-yucatan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Quintana Roo",
+    "url": "https://www.britannica.com/place/Quintana-Roo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Belize",
+    "url": "https://www.britannica.com/topic/history-of-Belize"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (Britannica Kids)",
+    "title": "Yucatán Peninsula",
+    "url": "https://kids.britannica.com/students/article/Yucat%20n-Peninsula/277863"
+   }
+  ],
+  "nota": "Confermati: rivolta indigena maya iniziata nel 1847 contro il governo e i proprietari di origine europea, nata anche dalla perdita delle terre a favore delle piantagioni; per decenni i ribelli rimasero di fatto indipendenti in gran parte della penisola e furono sottomessi solo all’inizio del Novecento.",
+  "parziale": "il centro di Chan Santa Cruz non compare nelle fonti consultate; Britannica (Quintana Roo) data la fase principale della rivolta al 1847–53.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "movement-socialism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Marxism",
+    "url": "https://www.britannica.com/topic/Marxism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "First International",
+    "url": "https://www.britannica.com/topic/First-International"
+   }
+  ],
+  "nota": "Confermati: Marx ed Engels pubblicarono il Manifesto del partito comunista nel 1848; la Prima Internazionale (Associazione internazionale dei lavoratori) nacque a Londra nel 1864 da sindacalisti britannici e francesi e sostenne le lotte dei sindacati europei; la Seconda Internazionale fu fondata nel 1889. Il termine del 1914 è una scelta editoriale (prima guerra mondiale).",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-1848-revolutions",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Revolutions of 1848",
+    "url": "https://www.britannica.com/event/Revolutions-of-1848"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Europe: the Revolutions of 1848",
+    "url": "https://www.britannica.com/topic/history-of-Europe/The-Revolutions-of-1848"
+   }
+  ],
+  "nota": "Confermati: la «primavera dei popoli» fu un’ondata di rivolte liberali, repubblicane e nazionali iniziata a Palermo nel gennaio 1848 e diffusa a Francia, stati tedeschi, Italia e impero asburgico; le principali insurrezioni furono represse nel 1849.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-taiping",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Taiping Rebellion",
+    "url": "https://www.britannica.com/event/Taiping-Rebellion"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Third Battle of Nanjing (1864)",
+    "url": "https://www.britannica.com/event/Third-Battle-of-Nanjing"
+   }
+  ],
+  "nota": "Confermati: rivolta politico-religiosa guidata da Hong Xiuquan dal 1850 al 1864 (caduta di Nanchino), con circa 20 milioni di morti in 17 province; Britannica la considera forse la guerra civile più sanguinosa della storia e scrive che indebolì la dinastia Qing.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-perry-japan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Treaty of Kanagawa",
+    "url": "https://www.britannica.com/event/Treaty-of-Kanagawa"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Matthew C. Perry",
+    "url": "https://www.britannica.com/biography/Matthew-C-Perry"
+   }
+  ],
+  "nota": "Confermati: nel luglio 1853 il commodoro Perry entrò con navi da guerra nella baia di Edo chiedendo l’apertura dei porti; tornato nel febbraio 1854, ottenne il trattato di Kanagawa (31 marzo 1854) che aprì Shimoda e Hakodate alle navi statunitensi; secondo Britannica questi eventi contribuirono al crollo dello shogunato.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-indian-rebellion-1857",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indian Rebellion of 1857",
+    "url": "https://www.britannica.com/event/Indian-Rebellion-of-1857"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "India: Government of India Act of 1858",
+    "url": "https://www.britannica.com/place/India/Government-of-India-Act-of-1858"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Sepoy Mutiny",
+    "url": "https://www.worldhistory.org/Sepoy_Mutiny/"
+   }
+  ],
+  "nota": "Confermati: iniziata nel maggio 1857 come ammutinamento dei sepoy della Compagnia delle Indie Orientali, si estese a una vasta rivolta nell’India settentrionale e centrale e fu repressa entro la fine del 1858; con il Government of India Act del 2 agosto 1858 il potere passò dalla Compagnia alla Corona.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "invention-germ-theory",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Germ Theory",
+    "url": "https://www.worldhistory.org/Germ_Theory/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Vaccine",
+    "url": "https://www.britannica.com/science/vaccine"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (Britannica Kids)",
+    "title": "germ theory",
+    "url": "https://kids.britannica.com/students/article/germ-theory/311389"
+   }
+  ],
+  "nota": "Confermati: Pasteur e Koch sono considerati gli scopritori della teoria dei germi negli anni 1860–1880; Koch dimostrò nel 1876 che un batterio causa l’antrace e identificò i bacilli di tubercolosi (1882) e colera (1883); Pasteur dimostrò nel 1881 l’immunizzazione contro l’antrace e nel 1885 sviluppò il vaccino antirabbico; l’accettazione della teoria portò a migliori pratiche igieniche, sanità pubblica e immunizzazione.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-russian-central-asia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Central Asia: the Russian conquests",
+    "url": "https://www.britannica.com/place/history-of-Central-Asia-102306/The-modern-period-the-age-of-decadence"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tashkent",
+    "url": "https://www.britannica.com/place/Tashkent"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Russia: Russification policies",
+    "url": "https://www.britannica.com/place/Russia/Russification-policies"
+   }
+  ],
+  "nota": "Confermati: i russi presero Tashkent nel 1865 e Samarcanda nel 1868; Bukhara (1868) e Khiva (1873) divennero protettorati russi, Kokand fu annesso nel 1876; la conquista di Merv (1884) e lo scontro con gli afghani del 1885 provocarono una crisi con la Gran Bretagna. Riassunto corretto: i khanati di Bukhara e Khiva non furono annessi ma resi protettorati.",
+  "correzioni": {
+   "summary": "La Russia conquista Tashkent (1865) e Samarcanda (1868), annette il khanato di Kokand e fa di Bukhara e Khiva dei protettorati."
+  },
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-siam-reforms",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chulalongkorn",
+    "url": "https://www.britannica.com/biography/Chulalongkorn"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Thailand",
+    "url": "https://www.britannica.com/topic/history-of-Thailand"
+   }
+  ],
+  "nota": "Confermati: Chulalongkorn (Rama V) regnò dal 1868 al 1910; modernizzò governo, esercito ed economia (amministrazione centralizzata, abolizione della schiavitù, ferrovie e telegrafo); con il padre Mongkut bilanciò gli interessi britannici e francesi e, pur cedendo territori, mantenne l’indipendenza del Siam.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-german-unification",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "German Empire",
+    "url": "https://www.britannica.com/place/German-Empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Franco-German War",
+    "url": "https://www.britannica.com/event/Franco-German-War"
+   }
+  ],
+  "nota": "Confermati: l’impero tedesco fu fondato il 18 gennaio 1871, quando Guglielmo I di Prussia fu proclamato imperatore a Versailles, dopo tre guerre vittoriose della Prussia guidata da Bismarck contro Danimarca, monarchia asburgica e Francia.",
+  "data": "2026-11-19"
+ },
+ {
+  "id": "event-meridian-conference",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Time: standard time",
+    "url": "https://www.britannica.com/science/time/Standard-time"
+   },
+   {
+    "institution": "Royal Museums Greenwich",
+    "title": "History of Royal Observatory Greenwich",
+    "url": "https://www.rmg.co.uk/stories/space-astronomy/history-royal-observatory"
+   }
+  ],
+  "nota": "Confermati: nell’ottobre 1884 una conferenza internazionale a Washington (41 delegati di 25 nazioni secondo RMG) adottò il meridiano di Greenwich come meridiano zero e raccomandò un sistema mondiale di fusi orari basato sul tempo medio di Greenwich; i fusi orari erano già stati adottati dalle ferrovie di Stati Uniti e Canada nel 1883.",
+  "parziale": "il legame con il telegrafo non è esplicito nelle fonti consultate, quello con le ferrovie sì.",
+  "data": "2026-11-19"
  }
 ]
