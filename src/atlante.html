@@ -556,6 +556,35 @@ html:not(.touch-ui) .uv-bar.stuck{box-shadow:0 6px 14px #0007}
 .cr-in span.cr-t::after{content:"";position:absolute;left:50%;top:15px;height:4px;border-left:1px solid currentColor}
 .cr-cap{font-size:10.5px;color:var(--t-muted,#9bb0ba);margin-top:3px}
 .contemp-group{scroll-margin-top:36px}
+.cg{position:relative}
+.cg-axis,.cg-row{display:grid;grid-template-columns:minmax(0,34%) minmax(0,1fr);gap:10px;align-items:center}
+.cg-axis{position:sticky;top:0;z-index:3;background:var(--t-surface,#0d202b);padding:6px 0 5px;border-bottom:1px solid var(--t-border,#294653);margin-bottom:4px}
+.cg-axis .cr-in{height:15px}
+.cg-row{width:100%;min-height:24px;padding:0!important;margin:0;border:0!important;border-radius:0!important;background:transparent!important;color:inherit;text-align:left;cursor:pointer;box-shadow:none!important;transform:none!important}
+.cg-row:hover .cg-name,.cg-wrap.open .cg-name{color:var(--t-accent,#42d3ce)}
+.cg-name{font-size:12.5px;line-height:1.25;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;padding:3px 0}
+.cg-name small{display:block;font-size:11px;color:var(--t-muted,#9bb0ba);font-weight:400}
+.cg-track{position:relative;height:24px;display:block}
+.cg-band{position:absolute;top:0;bottom:0;background:color-mix(in srgb,var(--t-accent,#42d3ce) 13%,transparent);border-left:1px solid color-mix(in srgb,var(--t-accent,#42d3ce) 45%,transparent);border-right:1px solid color-mix(in srgb,var(--t-accent,#42d3ce) 45%,transparent)}
+.cg-bar{position:absolute;top:8px;height:8px;min-width:4px;border-radius:4px;background:var(--t-muted,#9bb0ba)}
+.cg-bar.cut-l{border-top-left-radius:0;border-bottom-left-radius:0}
+.cg-bar.cut-r{border-top-right-radius:0;border-bottom-right-radius:0}
+.cg-bar.is-focus{top:6px;height:12px;background:var(--t-accent,#42d3ce)}
+.cg-focus{cursor:default;margin-bottom:6px}
+.cg-focus .cg-name{font-weight:800;white-space:normal}
+.cg-group h3{margin:10px 0 2px!important}
+html body .contemp-row.cg-wrap{border:0!important;border-radius:0!important;margin:0!important;background:transparent!important;overflow:visible}
+.cg-wrap.open{background:color-mix(in srgb,var(--t-ink,#dcecef) 5%,transparent)!important;border-radius:8px!important}
+.cg-wrap .contemp-more{margin:2px 0 8px 0;padding:0 8px 6px}
+.cg-note{font-size:11px;color:var(--t-muted,#9bb0ba);margin:10px 0 0}
+@media(max-width:760px){.cg-axis,.cg-row{grid-template-columns:minmax(0,40%) minmax(0,1fr);gap:8px}.cg-name{font-size:12px}}
+.cmp-chart h3,.cmp-facts h3{font:19px Georgia;margin:14px 0 8px}
+.cmp-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:6px;vertical-align:middle}
+.cmp-row{cursor:default;min-height:34px}
+.cmp-row .cg-name{white-space:normal}
+.cmp-facts ul{margin:0;padding-left:18px}
+.cmp-facts li{margin:4px 0;line-height:1.45;font-size:14px}
+.open-scheda{margin:8px 0 2px;font-size:13px;font-weight:700;padding:6px 12px;border-radius:999px}
 .kb-active{outline:2px solid var(--t-accent,#42d3ce)!important;outline-offset:-2px;background:color-mix(in srgb,var(--t-accent,#42d3ce) 14%,transparent)!important}
 /* v0.52 · galleria di immagini nelle schede (Wikimedia Commons, caricate solo all’apertura della scheda) */
 .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0 4px}
@@ -869,12 +898,19 @@ function filtered(opts={}){
     return matchesRegion&&matchesType&&matchesText&&matchesActive&&matchesEpoch;
   });
 }
+// v0.53 · rilevanza: conta soprattutto dove e come la parola cercata compare nel nome della voce
+function searchScore(x,q){const n=normalizeSearch(x.name),words=n.split(' '),toks=q.split(' ').filter(Boolean);let sc=0;
+ if(n===q)sc+=1000;else if(n.startsWith(q))sc+=600;
+ if(words.includes(q))sc+=500;else if(words.some(w=>w.startsWith(q)))sc+=400;else if(n.includes(q))sc+=200;
+ toks.forEach(t=>{if(words.includes(t))sc+=60;else if(words.some(w=>w.startsWith(t)))sc+=40;else if(n.includes(t))sc+=20});
+ if(sc>0)sc+=Math.round(q.length/Math.max(n.length,1)*100);else if(normalizeSearch(x.summary).includes(q))sc+=10;
+ return sc+(4-(x.relevance||3))*10}
 function renderSearchPreview(){
   const box=$('searchPreview');
   const query=$('search').value.trim();
   if(!query){box.hidden=true;box.innerHTML='';return;}
   const queryNorm=normalizeSearch(query);
-  const arr=filtered({query,useFilters:false}).map(x=>{const n=normalizeSearch(x.name),tokens=queryNorm.split(' ').filter(Boolean);let score=0;if(n===queryNorm)score+=100;if(n.startsWith(queryNorm))score+=60;if(n.includes(queryNorm))score+=35;score+=tokens.reduce((v,t)=>v+(n.includes(t)?8:0),0);if(x.kind==='event')score+=2;return {x,score};}).sort((a,b)=>b.score-a.score||a.x.name.localeCompare(b.x.name)).map(v=>v.x);
+  const arr=filtered({query,useFilters:false}).map(x=>({x,score:searchScore(x,queryNorm)})).sort((a,b)=>b.score-a.score||(a.x.relevance||3)-(b.x.relevance||3)||a.x.name.length-b.x.name.length||a.x.name.localeCompare(b.x.name)).map(v=>v.x);
   const shown=arr.slice(0,7);
   box.hidden=false;
   box.innerHTML=`<div class="search-preview-head"><strong>${arr.length} ${arr.length===1?'risultato':'risultati'}</strong><span>${arr.length>7?'Più rilevanti':''}</span></div>`+
@@ -1104,6 +1140,26 @@ function overlapText(a,b){
  const gap=a.end_year<b.start_year?b.start_year-a.end_year:a.start_year-b.end_year;
  return `Nessuna sovrapposizione negli intervalli registrati; distanza tra le cronologie: circa ${gap.toLocaleString('it-IT')} anni.`;
 }
+// v0.53 · Confronto: sintesi cronologica (linea del tempo comune) e frasi sulle sovrapposizioni
+const CMP_COLORS=['#42d3ce','#f3c64e','#e98a6b','#9fb7ff','#b6e07a'];
+function compareChartHtml(items){
+ const s0=Math.min(...items.map(x=>x.start_year)),e0=Math.max(...items.map(x=>x.end_year)),pad=Math.max((e0-s0)*.04,5),lo=s0-pad,hi=e0+pad,P=y=>((y-lo)/(hi-lo)*100).toFixed(2);
+ const cs=Math.max(...items.map(x=>x.start_year)),ce=Math.min(...items.map(x=>x.end_year)),common=cs<=ce;
+ const band=common?`<i class="cg-band" style="left:${P(cs)}%;width:${Math.max(.6,(ce-cs)/(hi-lo)*100).toFixed(2)}%"></i>`:'';
+ const narrow=window.matchMedia('(max-width:760px)').matches,ticks=niceTicks(lo,hi,narrow?3:5).map(y=>`<span class="cr-t" style="left:${P(y)}%">${esc(fmt(y))}</span>`).join('');
+ const rows=items.map((x,i)=>`<div class="cg-row cmp-row"><span class="cg-name"><i class="cmp-dot" style="background:${CMP_COLORS[i%5]}"></i>${esc(x.name)}<small>${esc(span(x))}</small></span><span class="cg-track">${band}<i class="cg-bar" style="left:${P(x.start_year)}%;width:${Math.max(.6,(x.end_year-x.start_year)/(hi-lo)*100).toFixed(2)}%;background:${CMP_COLORS[i%5]}"></i></span></div>`).join('');
+ return `<section class="cmp-chart" aria-label="Linea del tempo comparativa"><h3>Linea del tempo comparativa</h3><div class="cg"><div class="cg-axis" aria-hidden="true"><span></span><div class="cr-in">${ticks}</div></div>${rows}</div><p class="cg-note">Tutte le voci sulla stessa scala.${common?' La fascia chiara è il periodo in cui esistono tutte insieme.':''} Le voci molto brevi o puntuali compaiono come un trattino.</p></section>`}
+function edE(n){return /^[eEèÈéÉ]/.test(n)?'ed':'e'}
+function compareFacts(items){
+ const out=[];const cs=Math.max(...items.map(x=>x.start_year)),ce=Math.min(...items.map(x=>x.end_year));
+ if(items.length>2)out.push(cs<=ce?`<b>Tutte insieme</b> dal ${esc(fmt(cs))} al ${esc(fmt(ce))}${cs<ce?` (≈ ${anni(yearsBetween(cs,ce))})`:''}.`:'<b>Non c’è un periodo</b> in cui esistono tutte insieme.');
+ for(let i=0;i<items.length;i++)for(let j=i+1;j<items.length;j++){const a=items[i],b=items[j],s1=Math.max(a.start_year,b.start_year),e1=Math.min(a.end_year,b.end_year);
+  if(s1<=e1)out.push(`<b>${esc(a.name)}</b> ${edE(b.name)} <b>${esc(b.name)}</b>: ${s1===e1?`insieme nel ${esc(fmt(s1))}`:`insieme dal ${esc(fmt(s1))} al ${esc(fmt(e1))} (≈ ${anni(yearsBetween(s1,e1))})`}.`);
+  else{const [p,q]=a.end_year<b.start_year?[a,b]:[b,a];out.push(`<b>${esc(a.name)}</b> ${edE(b.name)} <b>${esc(b.name)}</b>: non si sovrappongono; tra la fine di ${esc(p.name)} e l’inizio di ${esc(q.name)} passano ≈ ${anni(yearsBetween(p.end_year,q.start_year))}.`)}}
+ const links=[];for(let i=0;i<items.length;i++)for(let j=i+1;j<items.length;j++){const a=items[i],b=items[j],ar=[...(a.related_entities||[]),...(a.related_entity_ids||[])],br=[...(b.related_entities||[]),...(b.related_entity_ids||[])];
+  const ab=ar.includes(b.id),ba=br.includes(a.id);if(ab||ba)links.push(`${esc(a.name)} ${ab&&ba?'↔':ab?'→':'←'} ${esc(b.name)}`)}
+ out.push(links.length?`<b>Collegamenti registrati nell’atlante:</b> ${links.join(' · ')}.`:'<b>Nessun collegamento registrato</b> tra queste voci nell’atlante.');
+ return `<section class="cmp-facts"><h3>Sovrapposizioni e collegamenti</h3><ul>${out.map(t=>`<li>${t}</li>`).join('')}</ul></section>`}
 function renderComparator(){
  const items=compareIds.map(id=>ALL.find(x=>x.id===id)).filter(Boolean);
  $('compareCount').textContent=`${items.length} / 5 selezionati`;updateCompareBadges();
@@ -1124,7 +1180,7 @@ function renderComparator(){
  const pair=[];for(let i=0;i<items.length;i++)for(let j=i+1;j<items.length;j++){const a=items[i],b=items[j];pair.push(`<div class="compare-insight"><strong>${esc(a.name)} ↔ ${esc(b.name)}</strong><div>${esc(overlapText(a,b))}</div><div style="margin-top:6px">${esc(compareRelation(a,b))}</div></div>`)}
  const regions=[...new Set(items.map(x=>x.region).filter(Boolean))];
  const commonRegion=regions.length===1?`Tutte le voci appartengono all’area indicata come ${regions[0]}.`:`Le voci coprono ${regions.length} aree geografiche: ${regions.join(', ')}.`;
- out.innerHTML=`<div class="compare-insights"><div class="compare-insight"><strong>Quadro d’insieme</strong>${esc(commonRegion)} Intervallo complessivo: ${esc(fmt(chronologyMin))} – ${esc(fmt(chronologyMax))}.</div><div class="compare-insight"><strong>Come leggere il confronto</strong>Le schede non hanno tutte lo stesso livello di precisione: confronta sempre le note e la confidenza delle datazioni, soprattutto per periodi molto antichi.</div></div>${table}<h3 style="font:19px Georgia;margin:17px 0 7px">Cronologie e relazioni tra le voci</h3><div class="compare-insights">${pair.join('')}</div>`;
+ out.innerHTML=`${compareChartHtml(items)}${compareFacts(items)}<h3 style="font:19px Georgia;margin:17px 0 7px">Caratteristiche a confronto</h3>${table}<p class="cg-note">${esc(commonRegion)} Le schede non hanno tutte lo stesso livello di precisione: confronta sempre le note e la confidenza delle datazioni, soprattutto per periodi molto antichi.</p>`;
  bindCompareTimeline(tMin,tMax);
  syncCompareTimelineYear(chosenYear);
 }
@@ -1172,7 +1228,14 @@ $('region').addEventListener('change',renderAll);$('type').addEventListener('cha
 function kbResults(input,box,itemSel,onEscape){if(!input||!box)return;input.setAttribute('aria-autocomplete','list');
  input.addEventListener('keydown',e=>{const items=[...box.querySelectorAll(itemSel)];if(e.key==='Escape'){if(!box.hidden){e.preventDefault();box.hidden=true;onEscape&&onEscape()}return}
   if(box.hidden||!items.length)return;let i=items.findIndex(b=>b.classList.contains('kb-active'));
-  if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();i=e.key==='ArrowDown'?(i+1)%items.length:(i<=0?items.length-1:i-1);items.forEach((b,k)=>{b.classList.toggle('kb-active',k===i);b.setAttribute('aria-selected',String(k===i))});items[i].scrollIntoView({block:'nearest'})}
+  const horiz=e.key==='ArrowLeft'||e.key==='ArrowRight';if(horiz&&i<0)return; // senza un risultato evidenziato le frecce laterali muovono il cursore nel testo
+  if(e.key==='ArrowDown'||e.key==='ArrowUp'||horiz){e.preventDefault();
+   if(i<0)i=e.key==='ArrowUp'?items.length-1:0;
+   else if(e.key==='ArrowRight')i=Math.min(items.length-1,i+1);else if(e.key==='ArrowLeft')i=Math.max(0,i-1);
+   else{const r=items[i].getBoundingClientRect(),cx=r.left+r.width/2,down=e.key==='ArrowDown';let best=-1,bd=Infinity;
+    items.forEach((b,k)=>{if(k===i)return;const q=b.getBoundingClientRect();const dy=down?q.top-r.top:r.top-q.top;if(dy<4)return;const d=dy*1000+Math.abs(q.left+q.width/2-cx);if(d<bd){bd=d;best=k}});
+    if(best>=0)i=best}
+   items.forEach((b,k)=>{b.classList.toggle('kb-active',k===i);b.setAttribute('aria-selected',String(k===i))});items[i].scrollIntoView({block:'nearest'})}
   else if(e.key==='Enter'){e.preventDefault();(items[i]||items[0]).click()}})}
 function positionSearchPreview(){
  const box=$('searchPreview'),field=$('search');
@@ -1430,6 +1493,25 @@ function contempRuler(f){
  const ticks=contempTicks(fs,fe).map(y=>`<span class="cr-t" style="left:${((y-fs)/(fe-fs)*100).toFixed(2)}%">${esc(fmt(y))}</span>`).join('');
  return `<div class="contemp-ruler" aria-hidden="true"><div class="cr-in"><span class="cr-a" style="left:0">${esc(fmt(fs))}</span>${ticks}<span class="cr-b" style="left:100%">${esc(fmt(fe))}</span></div></div>`;
 }
+// v0.53 · pulsante per aprire la scheda della voce di riferimento (Contemporanei e Tecnologia)
+function openSchedaBtn(f){return `<button type="button" class="open-scheda" data-open-scheda="${esc(f.id)}">Apri la scheda «${esc(f.name)}»</button>`}
+document.addEventListener('click',e=>{const b=e.target.closest?.('[data-open-scheda]');if(b)openInEsplora(b.dataset.openScheda)});
+// v0.53 · Contemporanei in un unico grafico: ogni voce con la sua durata intera, la voce principale come fascia comune
+var contempView=(()=>{try{return localStorage.getItem('atlante.contempView')||'grafico'}catch(_){return 'grafico'}})();
+function niceTicks(lo,hi,max){const sp=hi-lo;if(sp<=0)return [];for(const st of [1,2,5,10,20,25,50,100,200,250,500,1000,2000,2500,5000,10000,20000]){if(sp/st>max+1)continue;const t=[];for(let y=Math.ceil(lo/st)*st;y<=hi;y+=st)if(y!==0)t.push(y);if(t.length<=max)return t}return []}
+function contempScale(f){const fl=f.end_year-f.start_year,pad=fl===0?50:Math.max(fl*0.25,30);return [f.start_year-pad,f.end_year+pad]}
+function cgBar(x,lo,hi,cls,color){const a=Math.max(x.start_year,lo),b=Math.min(x.end_year,hi),L=(a-lo)/(hi-lo)*100,W=Math.max(.6,(b-a)/(hi-lo)*100);
+ return `<i class="cg-bar${cls?' '+cls:''}${x.start_year<lo?' cut-l':''}${x.end_year>hi?' cut-r':''}" style="left:${L.toFixed(2)}%;width:${Math.min(100-L,W).toFixed(2)}%${color?`;background:${color}`:''}"></i>`}
+function contempChartHtml(f,order,groups){
+ const [lo,hi]=contempScale(f),band=`<i class="cg-band" style="left:${((f.start_year-lo)/(hi-lo)*100).toFixed(2)}%;width:${Math.max(.6,(f.end_year-f.start_year)/(hi-lo)*100).toFixed(2)}%"></i>`;
+ const narrow=window.matchMedia('(max-width:760px)').matches,ticks=niceTicks(lo,hi,narrow?3:5).map(y=>`<span class="cr-t" style="left:${((y-lo)/(hi-lo)*100).toFixed(2)}%">${esc(fmt(y))}</span>`).join('');
+ const axis=`<div class="cg-axis" aria-hidden="true"><span></span><div class="cr-in">${ticks}</div></div>`;
+ const focus=`<div class="cg-row cg-focus"><span class="cg-name">${esc(f.name)}<small>${esc(span(f))}</small></span><span class="cg-track">${band}${cgBar(f,lo,hi,'is-focus')}</span></div>`;
+ const body=order.map(r=>{const arr=groups[r].sort((a,b)=>a.x.start_year-b.x.start_year||a.x.end_year-b.x.end_year||a.x.name.localeCompare(b.x.name));const limit=contempExpanded[r]?arr.length:8;
+  return `<div class="contemp-group cg-group" data-area="${esc(r)}"><h3>${esc(r)} · ${arr.length}</h3>${arr.slice(0,limit).map(({x,o})=>{const open=contempOpenId===x.id,n=yearsBetween(o[0],o[1]);
+   const txt=o[0]===o[1]?`nel ${fmt(o[0])}`:`insieme dal ${fmt(o[0])} al ${fmt(o[1])} · ≈ ${anni(n)}`;
+   return `<div class="contemp-row cg-wrap${open?' open':''}" data-id="${esc(x.id)}"><button type="button" class="cg-row" data-contemp-open="${esc(x.id)}" aria-expanded="${open}" title="${esc(x.name)} · ${esc(span(x))}"><span class="cg-name">${esc(x.name)}</span><span class="cg-track">${band}${cgBar(x,lo,hi,'',COLORS[x.region]||'')}</span></button>${open?`<div class="contemp-more"><p class="small"><b>${esc(span(x))}</b> · ${esc(TYPE[x.kind]||x.kind)} · ${esc(txt)}</p><p>${esc((x.summary||'').slice(0,220))}${(x.summary||'').length>220?'…':''}</p><div class="contemp-actions">${hasPoint(x)?`<button type="button" data-contemp-map="${esc(x.id)}">Mostra sulla mappa</button>`:''}<button type="button" data-contemp-focus="${esc(x.id)}">Metti al centro</button><button type="button" data-contemp-scheda="${esc(x.id)}">Apri scheda</button></div></div>`:''}</div>`}).join('')}${arr.length>limit?`<button type="button" class="contemp-showall" data-contemp-more="${esc(r)}">Mostra altre ${arr.length-limit}</button>`:''}</div>`}).join('');
+ return `<div class="cg">${axis}${focus}${body}<p class="cg-note">La fascia chiara è il periodo di «${esc(f.name)}». Ogni barra mostra la durata intera della voce; il bordo dritto indica che continua oltre il grafico.</p></div>`}
 function renderContemporanei(){
  const sum=$('contempSummary'),list=$('contempList');if(!sum||!list)return;
  const f=contempFocus();
@@ -1445,8 +1527,8 @@ function renderContemporanei(){
   const order=[...REGION_ORDER,'Altre'].filter(r=>groups[r]);
   const fs=f.start_year,fe=f.end_year,fl=Math.max(1,fe-fs),dur=yearsBetween(fs,fe);
   $('contempTitle').textContent=`Durante «${f.name}»`;
-  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${dur?` · ≈ ${anni(dur)}`:''} · ${items.length} ${items.length===1?'voce':'voci'} in ${order.length} ${order.length===1?'area':'aree'}</div>${contempWhen(f)}<div class="contemp-chips">${order.map(r=>`<button type="button" data-contemp-area="${esc(r)}">${esc(r)} · ${groups[r].length}</button>`).join('')}</div>`;
-  list.innerHTML=(order.length?contempRuler(f):'')+order.map(r=>{
+  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${dur?` · ≈ ${anni(dur)}`:''} · ${items.length} ${items.length===1?'voce':'voci'} in ${order.length} ${order.length===1?'area':'aree'}</div>${openSchedaBtn(f)}${contempWhen(f)}<div class="ti-mode" role="group" aria-label="Visualizzazione"><button type="button" data-contemp-view="grafico" aria-pressed="${contempView==='grafico'}">Grafico</button><button type="button" data-contemp-view="elenco" aria-pressed="${contempView==='elenco'}">Elenco</button></div><div class="contemp-chips">${order.map(r=>`<button type="button" data-contemp-area="${esc(r)}">${esc(r)} · ${groups[r].length}</button>`).join('')}</div>`;
+  if(contempView==='grafico'&&order.length)list.innerHTML=contempChartHtml(f,order,groups);else list.innerHTML=(order.length?contempRuler(f):'')+order.map(r=>{
    const arr=groups[r].sort((a,b)=>a.o[0]-b.o[0]||a.x.name.localeCompare(b.x.name));
    const limit=contempExpanded[r]?arr.length:8;
    return `<div class="contemp-group" data-area="${esc(r)}"><h3>${esc(r)} · ${arr.length}</h3>${arr.slice(0,limit).map(({x,o})=>{
@@ -1458,6 +1540,7 @@ function renderContemporanei(){
   }).join('')||'<div class="empty">Nessun’altra voce dell’archivio si sovrappone a questo periodo.</div>';
  }
  sum.querySelectorAll('[data-contemp-focus]').forEach(b=>b.addEventListener('click',()=>setContempFocus(b.dataset.contempFocus)));
+ sum.querySelectorAll('[data-contemp-view]').forEach(b=>b.addEventListener('click',()=>{contempView=b.dataset.contempView;try{localStorage.setItem('atlante.contempView',contempView)}catch(_){}renderContemporanei()}));
  sum.querySelectorAll('[data-contemp-area]').forEach(b=>b.addEventListener('click',()=>list.querySelector(`[data-area="${CSS.escape(b.dataset.contempArea)}"]`)?.scrollIntoView({behavior:'smooth',block:'start'})));
  list.querySelectorAll('[data-contemp-open]').forEach(b=>b.addEventListener('click',()=>{contempOpenId=contempOpenId===b.dataset.contempOpen?null:b.dataset.contempOpen;renderContemporanei()}));
  list.querySelectorAll('[data-contemp-focus]').forEach(b=>b.addEventListener('click',()=>{setContempFocus(b.dataset.contempFocus);$('contempPanel')?.scrollIntoView({behavior:'smooth',block:'start'})}));
@@ -1509,8 +1592,8 @@ function techInfographic(f,fArea){
  const kpi=[`<div class="ti-kpi"><b>${nDom}/${nTot}</b><span>ambiti con almeno un’attestazione entro la fine della voce</span></div>`,
   fArea?`<div class="ti-kpi"><b>${areaCount[fArea]||0}/${nTot}</b><span>ambiti attestati in ${esc(fArea)}, l’area della voce</span></div>`:'',
   oldest?`<div class="ti-kpi"><b>≈ ${anni(roundYears(oldest.rel.n))}</b><span>prima: ${esc(oldest.t.name)} (${esc(oldest.t.region)})</span></div>`:''].join('');
- const areas=TECH_AREAS.map(a=>{const n=areaCount[a]||0;return `<div class="ti-area${a===fArea?' is-focus':''}"><span class="ti-area-name"><i style="background:${COLORS[a]}"></i>${esc(a)}${a===fArea?'<small>area della voce</small>':''}</span><span class="ti-cells">${TECH_DOMAINS.map(d=>{const v=firsts[d.id+'|'+a];return `<i class="${v?'on':''}" style="${v?`background:${COLORS[a]}`:''}" title="${esc(d.label)}: ${v?esc(v.t.name):'nessun dato'}"></i>`}).join('')}</span><b>${n}/${nTot}</b></div>`}).join('');
- return `<div class="tech-infographic"><div class="ti-kpis">${kpi}</div><div class="ti-chart">${svg}</div><p class="ti-legend">${TECH_AREAS.map(a=>`<span><i style="background:${COLORS[a]}"></i>${AREA_ABBR[a]} ${esc(a)}</span>`).join('')}</p><p class="ti-note">Ogni punto è la prima attestazione nota di un’area per quell’ambito. Scala logaritmica: ogni tacca vale dieci volte la precedente; sotto i 10 anni i punti stanno sull’ultima tacca. Tocca un punto per la scheda.</p><h3 class="ti-h">Ambiti attestati per area</h3><div class="ti-areas">${areas}</div><p class="ti-note">Conta solo le attestazioni del dataset (${TECH.length} voci di partenza, da ampliare): un quadratino vuoto è un’assenza di dati, non di capacità.</p></div>`;
+ const areas='';/* v0.53: tolta la griglia «Ambiti attestati per area» (scelta di Luca) */const _unusedAreas=TECH_AREAS.map(a=>{const n=areaCount[a]||0;return `<div class="ti-area${a===fArea?' is-focus':''}"><span class="ti-area-name"><i style="background:${COLORS[a]}"></i>${esc(a)}${a===fArea?'<small>area della voce</small>':''}</span><span class="ti-cells">${TECH_DOMAINS.map(d=>{const v=firsts[d.id+'|'+a];return `<i class="${v?'on':''}" style="${v?`background:${COLORS[a]}`:''}" title="${esc(d.label)}: ${v?esc(v.t.name):'nessun dato'}"></i>`}).join('')}</span><b>${n}/${nTot}</b></div>`}).join('');
+ return `<div class="tech-infographic"><div class="ti-kpis">${kpi}</div><div class="ti-chart">${svg}</div><p class="ti-legend">${TECH_AREAS.map(a=>`<span><i style="background:${COLORS[a]}"></i>${AREA_ABBR[a]} ${esc(a)}</span>`).join('')}</p><p class="ti-note">Ogni punto è la prima attestazione nota di un’area per quell’ambito. Scala logaritmica: ogni tacca vale dieci volte la precedente; sotto i 10 anni i punti stanno sull’ultima tacca. Tocca un punto per la scheda.</p><p class="ti-note">Conta solo le attestazioni del dataset (${TECH.length} voci di partenza, da ampliare): un ambito senza punti è un’assenza di dati, non di capacità.</p></div>`;
 }
 function bindTechInfographic(){
  document.querySelectorAll('#techList .ti-mark').forEach(m=>{const go=()=>{techMode='dettaglio';techDomain=m.dataset.domain;techOpenId=m.dataset.ti;renderTecnologia();requestAnimationFrame(()=>document.querySelector(`#techList [data-tech-id="${CSS.escape(m.dataset.ti)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}))};m.addEventListener('click',go);m.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});
@@ -1555,8 +1638,8 @@ function techCard(t,rel,f){
  const open=techOpenId===t.id,self=(t.related_ids||[]).includes(f.id);
  const badge=rel.k==='prima'?`≈ ${anni(roundYears(rel.n))} prima`:(self?'durante · legata a questa voce':'durante la voce scelta');
  const srcs=(t.source_ids||[]).map(id=>SRC_BY_ID[id]).filter(Boolean);
- const rels=(t.related_ids||[]).map(id=>ALL.find(x=>x.id===id)).filter(x=>x&&x.id!==f.id);
- return `<div class="tech-item${open?' open':''}" data-tech-id="${esc(t.id)}"><button type="button" class="tech-att" data-tech-open="${esc(t.id)}" aria-expanded="${open}"><strong>${esc(t.name)}</strong><span class="sub">${esc(techSpan(t))} · ${esc(t.place||t.region)}${t.date_confidence==='debated'?'<span class="tech-flag">· datazione discussa</span>':''}</span><span class="tech-badge ${rel.k}">${esc(badge)}</span></button>${open?`<div class="tech-more"><p>${esc(t.summary||'')}</p>${t.notes?`<p class="small">${esc(t.notes)}</p>`:''}<p class="small">${esc(TECH_CONF[t.date_confidence]||'')}${t.editorial_status==='research-seed'?' · voce di partenza, da approfondire':''}</p>${srcs.map(s=>`<div class="tech-src"><b>${esc(s.institution||'Fonte')}</b> · <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a></div>`).join('')}${rels.length?`<div class="contemp-actions" style="margin-top:8px">${rels.map(x=>`<button type="button" data-tech-scheda="${esc(x.id)}">Apri «${esc(x.name)}»</button><button type="button" data-tech-focus="${esc(x.id)}">Usala come riferimento</button>`).join('')}</div>`:''}</div>`:''}</div>`;
+ const rels=(t.related_ids||[]).map(id=>ALL.find(x=>x.id===id)).filter(Boolean);
+ return `<div class="tech-item${open?' open':''}" data-tech-id="${esc(t.id)}"><button type="button" class="tech-att" data-tech-open="${esc(t.id)}" aria-expanded="${open}"><strong>${esc(t.name)}</strong><span class="sub">${esc(techSpan(t))} · ${esc(t.place||t.region)}${t.date_confidence==='debated'?'<span class="tech-flag">· datazione discussa</span>':''}</span><span class="tech-badge ${rel.k}">${esc(badge)}</span></button>${open?`<div class="tech-more"><p>${esc(t.summary||'')}</p>${t.notes?`<p class="small">${esc(t.notes)}</p>`:''}<p class="small">${esc(TECH_CONF[t.date_confidence]||'')}${t.editorial_status==='research-seed'?' · voce di partenza, da approfondire':''}</p>${srcs.map(s=>`<div class="tech-src"><b>${esc(s.institution||'Fonte')}</b> · <a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title||s.url)} ↗</a></div>`).join('')}${rels.length?`<div class="contemp-actions" style="margin-top:8px">${rels.map(x=>`<button type="button" data-tech-scheda="${esc(x.id)}">Apri la scheda «${esc(x.name)}»</button>${x.id!==f.id?`<button type="button" data-tech-focus="${esc(x.id)}">Usala come riferimento</button>`:''}`).join('')}</div>`:''}</div>`:''}</div>`;
 }
 function renderTecnologia(){
  const sum=$('techSummary'),list=$('techList');if(!sum||!list)return;
@@ -1573,7 +1656,7 @@ function renderTecnologia(){
   const byDomain={};rows.forEach(v=>{(byDomain[v.t.domain]=byDomain[v.t.domain]||[]).push(v)});
   const domains=TECH_DOMAINS.filter(d=>byDomain[d.id]);
   if(techDomain!=='all'&&!TECH_DOMAINS.some(d=>d.id===techDomain))techDomain='all';
-  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${fArea?` · ${esc(fArea)}`:''} · ${rows.length} attestazioni in ${domains.length} ${domains.length===1?'ambito':'ambiti'} fino al ${esc(fmt(f.end_year))}</div><div class="ti-mode" role="group" aria-label="Visualizzazione"><button type="button" data-tech-mode="sintesi" aria-pressed="${techMode==='sintesi'}">Sintesi</button><button type="button" data-tech-mode="dettaglio" aria-pressed="${techMode==='dettaglio'}">Dettaglio</button></div>${techMode==='dettaglio'?`<div class="tech-domain-chips" role="group" aria-label="Ambito tecnico"><button type="button" data-tech-domain="all" aria-pressed="${techDomain==='all'}">Tutti gli ambiti</button>${TECH_DOMAINS.map(d=>`<button type="button" data-tech-domain="${esc(d.id)}" aria-pressed="${techDomain===d.id}">${esc(d.label)} · ${(byDomain[d.id]||[]).length}</button>`).join('')}</div><p class="tech-note">Per ogni area: la prima attestazione nota e le più recenti fino alla fine della voce scelta. Il confronto vale ambito per ambito, non su un’unica scala di «progresso». Un’area senza voci non vuol dire che quella capacità mancasse: è un primo campione, da ampliare.</p>`:''}${suggHtml}`;
+  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${fArea?` · ${esc(fArea)}`:''} · ${rows.length} attestazioni in ${domains.length} ${domains.length===1?'ambito':'ambiti'} fino al ${esc(fmt(f.end_year))}</div>${openSchedaBtn(f)}<div class="ti-mode" role="group" aria-label="Visualizzazione"><button type="button" data-tech-mode="sintesi" aria-pressed="${techMode==='sintesi'}">Sintesi</button><button type="button" data-tech-mode="dettaglio" aria-pressed="${techMode==='dettaglio'}">Dettaglio</button></div>${techMode==='dettaglio'?`<div class="tech-domain-chips" role="group" aria-label="Ambito tecnico"><button type="button" data-tech-domain="all" aria-pressed="${techDomain==='all'}">Tutti gli ambiti</button>${TECH_DOMAINS.map(d=>`<button type="button" data-tech-domain="${esc(d.id)}" aria-pressed="${techDomain===d.id}">${esc(d.label)} · ${(byDomain[d.id]||[]).length}</button>`).join('')}</div><p class="tech-note">Per ogni area: la prima attestazione nota e le più recenti fino alla fine della voce scelta. Il confronto vale ambito per ambito, non su un’unica scala di «progresso». Un’area senza voci non vuol dire che quella capacità mancasse: è un primo campione, da ampliare.</p>`:''}${suggHtml}`;
   const shown=TECH_DOMAINS.filter(d=>techDomain==='all'||d.id===techDomain);
   if(techMode==='sintesi'){list.innerHTML=techInfographic(f,fArea);bindTechInfographic()}else list.innerHTML=shown.map(d=>{
    const arr=byDomain[d.id]||[];

@@ -1,10 +1,15 @@
 # Registro delle versioni
 
-## v0.53 · in preparazione (ramo `v0.53`)
+## v0.53 · 20 novembre 2026
 
-- **Ricerca da tastiera (PC).** Nella ricerca di Esplora, e nelle caselle di Contemporanei, Tecnologia e Confronto, ↑ e ↓ scorrono i risultati, Invio apre la scheda (o sceglie la voce), Esc chiude l’elenco. Invio senza frecce apre il primo risultato.
-- **Contemporanei: la mappa mostra tutto.** Arrivando da una voce selezionata in Esplora la mappa restava ingrandita su quella zona (per Roma 33 punti visibili su 69). Ora si adatta a tutti i punti delle voci contemporanee.
-- Test di regressione: 95 controlli (nuovi T48 ricerca da tastiera, T49 mappa di Contemporanei).
+- **Ricerca da tastiera (PC).** Nella ricerca di Esplora le frecce ↑ ↓ ← → si muovono tra i risultati (disposti su due colonne), Invio apre la scheda, Esc chiude l’elenco; Invio senza frecce apre il primo risultato. Finché nessun risultato è evidenziato, ← e → spostano il cursore nel testo. ↑ ↓ e Invio funzionano anche nelle caselle di Contemporanei, Tecnologia e Confronto.
+- **Ricerca ordinata per rilevanza.** Conta dove e come la parola compare nel nome della voce: nome identico, nome che inizia con la parola, parola intera, parte di parola; a parità vincono le voci più importanti e i nomi più corti. Esempio: «inca» → prima «Impero inca», non più «Conquista di Cusco…».
+- **Contemporanei: la mappa mostra tutto.** Arrivando da una voce selezionata in Esplora la mappa restava ingrandita su quella zona (per Roma 33 punti visibili su 69). Ora si adatta a tutti i punti delle voci contemporanee (le 64 voci senza posizione, come religioni e movimenti, non possono comparire).
+- **Contemporanei: vista Grafico.** Un unico grafico: in alto la voce principale, il suo periodo come fascia chiara che attraversa tutte le righe; sotto, per area, ogni voce con la sua durata intera (bordo dritto se continua oltre il grafico). Toccando una riga compaiono anni in comune, descrizione e azioni. Il pulsante «Elenco» riporta alla vista precedente; la scelta viene ricordata.
+- **Apri la scheda** della voce di riferimento in Contemporanei e Tecnologia. In Tecnologia anche le attestazioni collegate a una voce hanno il pulsante: collegate altre 12 (Göbekli Tepe, Stonehenge, Nan Madol, Uruk, Gutenberg, Vinland, Mezzaluna fertile, Grecia neolitica, mais, Kuk, Dujiangyan, computo lungo), 29 su 38 in tutto.
+- **Tecnologia, sintesi:** tolta la griglia «Ambiti attestati per area».
+- **Confronto: sintesi prima della tabella.** Linea del tempo comune a tutte le voci, con la fascia del periodo in cui esistono tutte insieme, e frasi su sovrapposizioni (per ogni coppia: anni in comune o distanza) e collegamenti registrati.
+- Test di regressione: 101 controlli (nuovi T48–T52).
 
 ## v0.52 · 20 novembre 2026
 

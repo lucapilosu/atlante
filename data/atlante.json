@@ -26200,7 +26200,9 @@
    "date_precision": "range",
    "date_confidence": "high",
    "summary": "Grandi recinti circolari e ovali con pilastri monolitici a forma di T, alcuni scolpiti con animali, eretti nel Neolitico preceramico: è tra le più antiche architetture monumentali conosciute.",
-   "related_ids": [],
+   "related_ids": [
+    "site-gobekli-tepe"
+   ],
    "source_ids": [
     "src-unesco-gobekli-tepe"
    ],
@@ -26236,7 +26238,9 @@
    "date_precision": "range",
    "date_confidence": "high",
    "summary": "Intorno al 3000 a.C. un recinto circolare di fossato e argini scavato con picconi di corno; intorno al 2500 a.C. la sistemazione delle grandi pietre centrali.",
-   "related_ids": [],
+   "related_ids": [
+    "site-stonehenge"
+   ],
    "source_ids": [
     "src-eh-stonehenge"
    ],
@@ -26332,7 +26336,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Circa cento isolotti artificiali sulla barriera corallina, cinti da mura di colonne di basalto disposte a strati incrociati: centro cerimoniale della dinastia Saudeleur.",
-   "related_ids": [],
+   "related_ids": [
+    "site-nan-madol"
+   ],
    "source_ids": [
     "src-unesco-nan-madol"
    ],
@@ -26436,7 +26442,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Le prime tavolette d’argilla registrano conti e razioni, per esempio la birra data ai lavoratori: la scrittura nasce come strumento amministrativo.",
-   "related_ids": [],
+   "related_ids": [
+    "event-urbanizzazione-di-uruk"
+   ],
    "source_ids": [
     "src-bm-uruk-tablet"
    ],
@@ -26554,7 +26562,9 @@
    "date_precision": "range",
    "date_confidence": "high",
    "summary": "Primo grande libro europeo stampato con caratteri mobili in metallo, inchiostro a base d’olio e torchio, in circa 160–180 copie.",
-   "related_ids": [],
+   "related_ids": [
+    "event-gutenberg"
+   ],
    "source_ids": [
     "src-princeton-gutenberg"
    ],
@@ -26651,7 +26661,9 @@
    "date_precision": "year",
    "date_confidence": "high",
    "summary": "Legno tagliato con utensili di metallo nel 1021, datato grazie al picco di radiocarbonio del 993: la prima traversata atlantica europea con una data precisa.",
-   "related_ids": [],
+   "related_ids": [
+    "event-vikings"
+   ],
    "source_ids": [
     "src-nature-vinland"
    ],
@@ -26690,7 +26702,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Farro, orzo, lenticchie, piselli, ceci e lino vengono coltivati e domesticati nel Neolitico preceramico, circa 11.000–10.000 anni fa.",
-   "related_ids": [],
+   "related_ids": [
+    "event-neolithic-fertile-crescent"
+   ],
    "source_ids": [
     "src-ca-founder-crops"
    ],
@@ -26707,7 +26721,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Agricoltori arrivati dall’Anatolia portano in Grecia cereali, legumi e animali domestici: è l’inizio dell’agricoltura in Europa.",
-   "related_ids": [],
+   "related_ids": [
+    "event-neolithic-europe"
+   ],
    "source_ids": [
     "src-encyclopedia-first-farmers"
    ],
@@ -26725,7 +26741,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Il mais deriva dal teosinte, un’erba selvatica del Messico sud-occidentale; le prime tracce del suo uso risalgono a circa 8700 anni fa.",
-   "related_ids": [],
+   "related_ids": [
+    "invention-maize-domestication"
+   ],
    "source_ids": [
     "src-pnas-balsas-maize"
    ],
@@ -26742,7 +26760,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "In una palude d’altura si passa dalla raccolta alla coltivazione su cumuli e, più tardi, con canali di drenaggio: un’agricoltura nata in modo indipendente.",
-   "related_ids": [],
+   "related_ids": [
+    "site-kuk-swamp"
+   ],
    "source_ids": [
     "src-unesco-kuk"
    ],
@@ -26832,7 +26852,9 @@
    "date_precision": "range",
    "date_confidence": "medium",
    "summary": "Le più antiche date incise nel Computo lungo, un conteggio dei giorni a partire da un’origine mitica che richiede lo zero come segnaposto.",
-   "related_ids": [],
+   "related_ids": [
+    "culture-maya"
+   ],
    "source_ids": [
     "src-laq-long-count"
    ],
@@ -26888,7 +26910,9 @@
    "date_precision": "approx",
    "date_confidence": "high",
    "summary": "Opera di irrigazione e di controllo delle piene sul fiume Min, che divide e regola l’acqua senza dighe: è ancora in funzione.",
-   "related_ids": [],
+   "related_ids": [
+    "event-warring-states"
+   ],
    "source_ids": [
     "src-unesco-dujiangyan"
    ],

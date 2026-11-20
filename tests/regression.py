@@ -345,13 +345,14 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.wait_for_timeout(600)
     c15 = await p.evaluate("""()=>{const f=ALL.find(x=>x.id==='civilization-rome');
         const exp=ALL.filter(x=>x.id!==f.id&&x.start_year<=f.end_year&&x.end_year>=f.start_year).map(x=>x.id).sort();
+        contempView='elenco';renderContemporanei(); // v0.53: questo controllo riguarda la vista Elenco; il Grafico ha T50
         document.querySelectorAll('[data-contemp-more]').forEach(b=>b.click());
         const shown=[...document.querySelectorAll('#contempList .contemp-row')].map(r=>r.dataset.id).sort();
         const pins=[...document.querySelectorAll('#pins .map-marker')].map(g=>g.dataset.id);
         const badPins=pins.filter(id=>{const x=ALL.find(a=>a.id===id);return !(x.id===f.id||(x.start_year<=f.end_year&&x.end_year>=f.start_year))});
         const row=id=>document.querySelector(`#contempList .contemp-row[data-id='${id}'] .contemp-overlap`)?.textContent||'';
         return {title:document.getElementById('contempTitle').textContent,exp:exp.length,shown:shown.length,same:JSON.stringify(exp)===JSON.stringify(shown),
-          pins:pins.length,badPins,han:row('civilization-han'),nur:row('culture-nuragic')}}""")
+          pins:pins.length,badPins,han:row('civilization-han'),nur:row('culture-nuragic'),_:(contempView='grafico',renderContemporanei(),0)}}""")
     ok15 = (c15["same"] and c15["title"] == "Durante «Roma: Repubblica e Impero»" and c15["pins"] > 0 and not c15["badPins"]
             and c15["han"].startswith("insieme dal 206 a.C. al 220 d.C.") and c15["nur"] == "insieme dal 509 a.C. al 500 a.C. · ≈ 9 anni")
     R.check("T15", "Contemporanei: elenco e punti mostrano solo le voci sovrapposte alla durata scelta, con anni corretti",
@@ -709,9 +710,9 @@ async def new_checks(p, R, mobile, name):
     await tap(p, mk, mobile); await p.wait_for_timeout(500)
     t34b = await p.evaluate("()=>({mode:techMode,open:techOpenId,domain:techDomain,shown:!!document.querySelector(\"#techList .tech-item.open[data-tech-id='tech-arch-great-pyramid']\")})")
     await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}")
-    ok34 = (t34["marks"] == t34["pairs"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 5
+    ok34 = (t34["marks"] == t34["pairs"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 0
             and t34b == {"mode": "dettaglio", "open": "tech-arch-great-pyramid", "domain": "architettura", "shown": True})
-    R.check("T34", "Tecnologia, sintesi: infografica con un punto per ambito e area, coerente con gli anni; un tocco apre il dettaglio",
+    R.check("T34", "Tecnologia, sintesi: infografica con un punto per ambito e area, coerente con gli anni (senza la griglia «Ambiti attestati per area», tolta nella v0.53); un tocco apre il dettaglio",
             ok34, f"{t34}; dopo il tocco {t34b}")
 
     # T35 contrasto del testo nei dettagli del confronto e nelle nuove parti, in ogni palette
@@ -843,16 +844,16 @@ async def new_checks(p, R, mobile, name):
     # T44 Contemporanei: quattro esempi all'apertura; con una voce scelta, durata sulle epoche e righello allineato alle barrette
     await goto_view(p, "contemporanei")
     t44 = await p.evaluate("""()=>{contempFocusId=null;selected=null;renderContemporanei();const sug=[...document.querySelectorAll('#contempSummary [data-contemp-focus]')].map(b=>b.textContent);
-        setContempFocus('civilization-rome');const seg=document.querySelector('.cw-seg'),tr=document.querySelector('.cw-track');
+        contempView='elenco';setContempFocus('civilization-rome');const seg=document.querySelector('.cw-seg'),tr=document.querySelector('.cw-track');
         const ri=document.querySelector('.contemp-ruler .cr-in')?.getBoundingClientRect(),bar=document.querySelector('.contemp-bar')?.getBoundingClientRect();
         const labs=[...document.querySelectorAll('.cr-in span')].map(e=>e.getBoundingClientRect());let overlap=false;for(let i=1;i<labs.length;i++)if(labs[i].left<labs[i-1].right)overlap=true;
         const on=[...document.querySelectorAll('.cw-ep.on')].map(e=>e.textContent);
         const out={sug,seg:!!seg&&seg.getBoundingClientRect().width>2&&seg.getBoundingClientRect().left>tr.getBoundingClientRect().left,on,
           aligned:!!ri&&!!bar&&Math.abs(ri.left-bar.left)<1.5&&Math.abs(ri.right-bar.right)<1.5,first:document.querySelector('.cr-in span')?.textContent,overlap};
-        setContempFocus('event-caduta-di-costantinopoli');out.point=!!document.querySelector('.contemp-ruler .cr-cap')&&!!document.querySelector('.cw-seg');return out}""")
+        setContempFocus('event-caduta-di-costantinopoli');out.point=!!document.querySelector('.contemp-ruler .cr-cap')&&!!document.querySelector('.cw-seg');contempView='grafico';renderContemporanei();return out}""")
     ok44 = (len(t44["sug"]) == 4 and t44["seg"] and t44["aligned"] and t44["first"] == "509 a.C." and not t44["overlap"]
             and t44["on"] == ["Antichità"] and t44["point"])
-    R.check("T44", "Contemporanei: quattro esempi all’apertura; con una voce scelta, durata evidenziata sulle epoche e righello degli anni allineato alle barrette (anche per eventi puntuali)", ok44, f"{t44}")
+    R.check("T44", "Contemporanei (vista Elenco): quattro esempi all’apertura; con una voce scelta, durata evidenziata sulle epoche e righello degli anni allineato alle barrette (anche per eventi puntuali)", ok44, f"{t44}")
 
     # T45 Universo, solo PC: la rotella sopra le linee temporali fa scorrere la pagina
     if not mobile:
@@ -913,21 +914,64 @@ async def new_checks(p, R, mobile, name):
         await goto_view(p, "esplora")
         await p.evaluate("()=>{const f=document.getElementById('search');f.value='';f.scrollIntoView({block:'center'})}")
         await p.click("#search"); await p.keyboard.type("maya"); await p.wait_for_timeout(250)
-        await p.keyboard.press("ArrowDown"); await p.keyboard.press("ArrowDown"); await p.wait_for_timeout(80)
+        grid48 = []
+        for k in ["ArrowDown", "ArrowRight", "ArrowDown", "ArrowLeft", "ArrowUp"]:
+            await p.keyboard.press(k); await p.wait_for_timeout(50)
+            grid48.append(await p.evaluate("()=>[...document.querySelectorAll('#searchPreview .search-hit')].findIndex(b=>b.classList.contains('kb-active'))"))
+        await p.keyboard.press("ArrowDown"); await p.wait_for_timeout(80)
         act48 = await p.evaluate("()=>document.querySelector('#searchPreview .kb-active')?.dataset.id||null")
         await p.keyboard.press("Enter"); await p.wait_for_timeout(350)
         sel48 = await p.evaluate("()=>[selected,document.getElementById('searchPreview').hidden]")
         await p.click("#search"); await p.keyboard.type("roma"); await p.wait_for_timeout(200); await p.keyboard.press("Escape"); await p.wait_for_timeout(80)
         esc48 = await p.evaluate("()=>document.getElementById('searchPreview').hidden")
         await p.evaluate("()=>{const f=document.getElementById('search');f.value='';f.blur();renderSearchPreview()}")
-        ok48 = bool(act48) and sel48 == [act48, True] and esc48
-        R.check("T48", "Ricerca (PC): ↑/↓ scorrono i risultati, Invio apre la scheda, Esc chiude l’elenco", ok48, f"voce evidenziata {act48}; dopo Invio {sel48}; Esc {esc48}")
+        ok48 = bool(act48) and sel48 == [act48, True] and esc48 and grid48 == [0, 1, 3, 2, 0]
+        R.check("T48", "Ricerca (PC): frecce ↑ ↓ ← → sui risultati a due colonne, Invio apre la scheda, Esc chiude l’elenco", ok48, f"griglia {grid48}; voce evidenziata {act48}; dopo Invio {sel48}; Esc {esc48}")
 
     # T49 Contemporanei: arrivando da una voce ingrandita in Esplora, la mappa mostra tutti i punti contemporanei
     t49 = await p.evaluate("""async()=>{openInEsplora('civilization-rome');await new Promise(r=>setTimeout(r,450));const z0=mapZoom;location.hash='#contemporanei';await new Promise(r=>setTimeout(r,800));
         const f=contempFocus();const tot=ALL.filter(x=>x.map_geometry&&(x.id===f.id||overlapOf(x,f))).length;return [Math.round(z0*10)/10,document.querySelectorAll('#pins .map-marker').length,tot]}""")
     await goto_view(p, "esplora")
     R.check("T49", "Contemporanei: la mappa si allarga per mostrare tutti i punti delle voci contemporanee", t49[0] > 1.5 and t49[1] == t49[2], f"ingrandimento in Esplora {t49[0]}; punti visibili {t49[1]} su {t49[2]}")
+
+    # T50 Contemporanei, vista Grafico: voce principale come fascia, ogni voce con la durata intera, scelta Grafico/Elenco ricordata
+    await goto_view(p, "contemporanei")
+    t50 = await p.evaluate("""async()=>{contempView='grafico';setContempFocus('civilization-rome');await new Promise(r=>setTimeout(r,200));const f=contempFocus();
+        document.querySelectorAll('[data-contemp-more]').forEach(b=>b.click());await new Promise(r=>setTimeout(r,100));
+        const exp=ALL.filter(x=>x.id!==f.id&&x.start_year<=f.end_year&&x.end_year>=f.start_year).length;
+        const rows=[...document.querySelectorAll('#contempList .cg-wrap')];const bands=document.querySelectorAll('#contempList .cg-band').length;
+        const tr=document.querySelector('#contempList .cg-focus .cg-track').getBoundingClientRect(),fb=document.querySelector('#contempList .cg-bar.is-focus').getBoundingClientRect();
+        const [lo,hi]=contempScale(f);const expL=tr.left+(f.start_year-lo)/(hi-lo)*tr.width;
+        const nur=document.querySelector('#contempList .cg-wrap[data-id="culture-nuragic"] .cg-bar');const cutL=nur?.classList.contains('cut-l');
+        document.querySelector('#contempList .cg-wrap[data-id="civilization-han"] .cg-row').click();await new Promise(r=>setTimeout(r,100));
+        const han=document.querySelector('#contempList .cg-wrap[data-id="civilization-han"] .contemp-more')?.textContent||'';
+        document.querySelector('[data-contemp-view="elenco"]').click();const el=!!document.querySelector('#contempList .contemp-bar')&&!document.querySelector('#contempList .cg');let stored='';try{stored=localStorage.getItem('atlante.contempView')}catch(_){}
+        document.querySelector('[data-contemp-view="grafico"]').click();
+        return {exp,rows:rows.length,bands,aligned:Math.abs(fb.left-expL)<2,cutL,han:han.includes('insieme dal 206 a.C. al 220 d.C.'),el,stored}}""")
+    ok50 = t50["rows"] == t50["exp"] and t50["bands"] == t50["exp"] + 1 and t50["aligned"] and t50["cutL"] and t50["han"] and t50["el"] and t50["stored"] == "elenco"
+    R.check("T50", "Contemporanei, vista Grafico: voce principale come fascia comune, ogni voce con la sua durata intera (tagliata se esce dal grafico), dettagli al tocco; si torna all’Elenco", ok50, f"{t50}")
+
+    # T51 Confronto: linea del tempo comune e frasi sulle sovrapposizioni prima della tabella
+    await goto_view(p, "confronto")
+    t51 = await p.evaluate("""()=>{compareIds=['culture-maya','civilization-inca','state-ancient-egypt'];renderComparator();
+        const rows=document.querySelectorAll('.cmp-chart .cmp-row').length,facts=[...document.querySelectorAll('.cmp-facts li')].map(l=>l.textContent);
+        const order=[...document.querySelectorAll('#compareOutput > *')].map(e=>e.className||e.tagName);
+        compareIds=['culture-maya','civilization-inca'];renderComparator();const band=!!document.querySelector('.cmp-chart .cg-band');
+        compareIds=[];renderComparator();return {rows,facts,order:order.slice(0,3),band}}""")
+    ok51 = (t51["rows"] == 3 and len(t51["facts"]) == 5 and t51["facts"][0].startswith("Non c’è un periodo")
+            and "insieme dal 1200 d.C. al 1533 d.C." in t51["facts"][1] and "Maya ed Egitto dinastico" in t51["facts"][2]
+            and t51["order"][0] == "cmp-chart" and t51["order"][1] == "cmp-facts" and t51["band"])
+    R.check("T51", "Confronto: linea del tempo comune (fascia del periodo condiviso) e frasi su sovrapposizioni e collegamenti prima della tabella", ok51, f"{t51}")
+
+    # T52 Tecnologia e ricerca: pulsante per la scheda della voce di riferimento; «inca» trova per primo l'Impero inca
+    await goto_view(p, "tecnologia")
+    t52 = await p.evaluate("""async()=>{setTechFocus('culture-maya');const btn=document.querySelector('#techSummary .open-scheda');const txt=btn?.textContent;
+        techMode='dettaglio';techOpenId='tech-ast-long-count';renderTecnologia();const att=[...document.querySelectorAll('[data-tech-id="tech-ast-long-count"] [data-tech-scheda]')].map(b=>b.dataset.techScheda);
+        btn&&document.querySelector('#techSummary .open-scheda').click();await new Promise(r=>setTimeout(r,300));const went=[currentView,selected];
+        const f=document.getElementById('search');f.value='inca';renderSearchPreview();const first=document.querySelector('#searchPreview .search-hit strong')?.textContent;f.value='';renderSearchPreview();
+        return {txt,att,went,first,linked:TECH.filter(t=>(t.related_ids||[]).length).length}}""")
+    ok52 = t52["txt"] == "Apri la scheda «Maya»" and t52["att"] == ["culture-maya"] and t52["went"] == ["esplora", "culture-maya"] and t52["first"] == "Impero inca (Tahuantinsuyo)" and t52["linked"] == 29
+    R.check("T52", "Tecnologia: «Apri la scheda» per la voce di riferimento e per le attestazioni collegate (29 su 38); ricerca ordinata per rilevanza («inca» → Impero inca)", ok52, f"{t52}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
