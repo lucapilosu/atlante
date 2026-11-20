@@ -838,6 +838,33 @@ async def new_checks(p, R, mobile, name):
     ok43 = vis43 == {"esplora": True, "contemporanei": False, "tecnologia": False, "universo": True, "confronto": False}
     R.check("T43", "Barra del tempo nascosta in Contemporanei, Tecnologia e Confronto (lì l’anno non cambia niente), visibile in Esplora e Universo", ok43, f"{vis43}")
 
+    # T44 Contemporanei: quattro esempi all'apertura; con una voce scelta, durata sulle epoche e righello allineato alle barrette
+    await goto_view(p, "contemporanei")
+    t44 = await p.evaluate("""()=>{contempFocusId=null;selected=null;renderContemporanei();const sug=[...document.querySelectorAll('#contempSummary [data-contemp-focus]')].map(b=>b.textContent);
+        setContempFocus('civilization-rome');const seg=document.querySelector('.cw-seg'),tr=document.querySelector('.cw-track');
+        const ri=document.querySelector('.contemp-ruler .cr-in')?.getBoundingClientRect(),bar=document.querySelector('.contemp-bar')?.getBoundingClientRect();
+        const labs=[...document.querySelectorAll('.cr-in span')].map(e=>e.getBoundingClientRect());let overlap=false;for(let i=1;i<labs.length;i++)if(labs[i].left<labs[i-1].right)overlap=true;
+        const on=[...document.querySelectorAll('.cw-ep.on')].map(e=>e.textContent);
+        const out={sug,seg:!!seg&&seg.getBoundingClientRect().width>2&&seg.getBoundingClientRect().left>tr.getBoundingClientRect().left,on,
+          aligned:!!ri&&!!bar&&Math.abs(ri.left-bar.left)<1.5&&Math.abs(ri.right-bar.right)<1.5,first:document.querySelector('.cr-in span')?.textContent,overlap};
+        setContempFocus('event-caduta-di-costantinopoli');out.point=!!document.querySelector('.contemp-ruler .cr-cap')&&!!document.querySelector('.cw-seg');return out}""")
+    ok44 = (len(t44["sug"]) == 4 and t44["seg"] and t44["aligned"] and t44["first"] == "509 a.C." and not t44["overlap"]
+            and t44["on"] == ["Antichità"] and t44["point"])
+    R.check("T44", "Contemporanei: quattro esempi all’apertura; con una voce scelta, durata evidenziata sulle epoche e righello degli anni allineato alle barrette (anche per eventi puntuali)", ok44, f"{t44}")
+
+    # T45 Universo, solo PC: la rotella sopra le linee temporali fa scorrere la pagina
+    if not mobile:
+        await goto_view(p, "universo")
+        await p.evaluate("scrollTo(0,0)"); await p.wait_for_timeout(150)
+        r45 = await p.evaluate("(()=>{const r=document.getElementById('universeViewport').getBoundingClientRect();return [r.left+r.width/2,Math.min(r.top+60,innerHeight-40)]})()")
+        hit45 = await p.evaluate(f"!!document.elementFromPoint({r45[0]},{r45[1]})?.closest('#universeViewport')")
+        await p.mouse.move(r45[0], r45[1])
+        for _ in range(4):
+            await p.mouse.wheel(0, 200); await p.wait_for_timeout(120)
+        y45 = await p.evaluate("scrollY")
+        await goto_view(p, "esplora")
+        R.check("T45", "Universo (PC): la rotella del mouse sopra le linee temporali fa scorrere la pagina", hit45 and y45 > 300, f"puntatore sulle linee temporali {hit45}; pagina scesa di {y45} px")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")

@@ -529,6 +529,25 @@ body.themed .more-link{color:var(--t-ink)!important}
 body[data-view="tecnologia"] .time-dock{display:none!important} /* la vista Tecnologia usa la voce scelta, non l’anno */
 body[data-view="confronto"] .time-dock{display:none!important} /* v0.50: nel Confronto l’anno non cambia niente (la linea del tempo comparativa del codice ereditato non è mostrata): barra tolta */
 body[data-view="contemporanei"] .time-dock{display:none!important} /* v0.51: Contemporanei parte da una voce, non da un anno: spostare l’anno non cambiava niente (confermato da Luca) */
+/* v0.52: la rotella sopra l’Universo fa scorrere la pagina (prima il riquadro la tratteneva) */
+.universe-viewport{overscroll-behavior-y:auto!important}
+/* v0.52 · Contemporanei: dove sta la voce nel tempo e scala delle barrette */
+.contemp-when{margin-top:10px}
+.cw-track{position:relative;height:32px;border-radius:7px;overflow:hidden;background:color-mix(in srgb,var(--t-ink,#dcecef) 6%,transparent)}
+.cw-ep{position:absolute;top:0;height:21px;display:flex;align-items:center;justify-content:center;font-size:10.5px;font-weight:650;color:var(--t-muted,#9bb0ba);white-space:nowrap;overflow:hidden;border-left:1px solid color-mix(in srgb,var(--t-ink,#dcecef) 14%,transparent)}
+.cw-ep:first-child{border-left:0}
+.cw-seg{position:absolute;bottom:4px;height:6px;min-width:4px;border-radius:3px;background:var(--t-accent,#2bb3ad)}
+.cw-ep.on{color:var(--t-ink,#dcecef)}
+.cw-cap{font-size:10.5px;color:var(--t-muted,#9bb0ba);margin-top:4px}
+.contemp-ruler{position:sticky;top:0;z-index:2;padding:6px 12px 5px;background:var(--t-surface,#0d202b);border-bottom:1px solid var(--t-border,#294653);margin-bottom:4px}
+.cr-in{position:relative;height:15px;font-size:10.5px;color:var(--t-muted,#9bb0ba);white-space:nowrap}
+.cr-in span{position:absolute;top:0;transform:translateX(-50%)}
+.cr-in span.cr-a{transform:none}
+.cr-in span.cr-b{transform:translateX(-100%)}
+.cr-in span.cr-t::after{content:"";position:absolute;left:50%;top:15px;height:4px;border-left:1px solid currentColor}
+.cr-cap{font-size:10.5px;color:var(--t-muted,#9bb0ba);margin-top:3px}
+.contemp-group{scroll-margin-top:36px}
+.contemp-ruler+.contemp-group{margin-top:6px}
 @media(max-width:760px){.only-mobile{display:flex!important}.tech-row{grid-template-columns:1fr;gap:5px}.tech-area{padding-top:0}.tech-domain{padding:11px 11px 4px}}
 
 /* v0.47 · barra del tempo: slider a tratti allineato alle epoche */
@@ -1341,13 +1360,31 @@ function renderContempSearch(){
  box.querySelectorAll('[data-pick]').forEach(b=>b.addEventListener('click',()=>setContempFocus(b.dataset.pick)));
 }
 $('contempSearch')?.addEventListener('input',renderContempSearch);
+// v0.52 · scala di Contemporanei: la durata della voce sulle epoche della barra del tempo e un righello per le barrette
+const CW_LABEL={prehistory:'Preistoria',ancient:'Antichità',medieval:'Medioevo',modern:'Moderna',contemporary:'Cont.'};
+function contempWhen(f){
+ let segs,a,b;try{segs=TIME_SEGMENTS;a=yearToPos(f.start_year)/10;b=yearToPos(f.end_year)/10}catch(_){setTimeout(()=>{if(currentView==='contemporanei')renderContemporanei()},0);return ''}
+ let cum=0;const eps=segs.map(s=>{const l=cum;cum+=s.w*100;const on=f.start_year<s.b()&&f.end_year>=s.a();return `<span class="cw-ep${on?' on':''}" style="left:${l.toFixed(2)}%;width:${(s.w*100).toFixed(2)}%">${CW_LABEL[s.p]||''}</span>`}).join('');
+ return `<div class="contemp-when" role="img" aria-label="Durata di «${esc(f.name)}» sulla linea del tempo: ${esc(span(f))}"><div class="cw-track">${eps}<i class="cw-seg" style="left:${a.toFixed(2)}%;width:${Math.max(0,b-a).toFixed(2)}%"></i></div><div class="cw-cap">Dove si colloca nelle epoche (scala della barra del tempo, non proporzionale)</div></div>`;
+}
+function contempTicks(a,b){
+ const sp=b-a;if(sp<=0)return [];const narrow=window.matchMedia('(max-width:760px)').matches,lo=narrow?.22:.15,hi=1-lo,max=narrow?2:3;
+ for(const st of [1,2,5,10,20,25,50,100,200,250,500,1000,2000,2500,5000,10000]){if(sp/st>8)continue;const t=[];for(let y=Math.ceil(a/st)*st;y<b;y+=st){const q=(y-a)/sp;if(y!==0&&q>lo&&q<hi)t.push(y)}if(t.length&&t.length<=max)return t}
+ return [];
+}
+function contempRuler(f){
+ const fs=f.start_year,fe=f.end_year;
+ if(fe===fs)return `<div class="contemp-ruler"><div class="cr-cap">Le barrette mostrano la sovrapposizione con «${esc(f.name)}» (${esc(fmt(fs))})</div></div>`;
+ const ticks=contempTicks(fs,fe).map(y=>`<span class="cr-t" style="left:${((y-fs)/(fe-fs)*100).toFixed(2)}%">${esc(fmt(y))}</span>`).join('');
+ return `<div class="contemp-ruler" aria-hidden="true"><div class="cr-in"><span class="cr-a" style="left:0">${esc(fmt(fs))}</span>${ticks}<span class="cr-b" style="left:100%">${esc(fmt(fe))}</span></div></div>`;
+}
 function renderContemporanei(){
  const sum=$('contempSummary'),list=$('contempList');if(!sum||!list)return;
  const f=contempFocus();
  const intro=$('contempIntro');if(intro)intro.hidden=!!f;
  if(!f){
   $('contempTitle').textContent='Chi esisteva nello stesso periodo?';
-  const sugg=['civilization-rome','culture-maya','event-dinastia-han','state-ancient-egypt'].map(id=>ALL.find(x=>x.id===id)).filter(Boolean);
+  const sugg=['civilization-rome','culture-maya','civilization-han','state-ancient-egypt'].map(id=>ALL.find(x=>x.id===id)).filter(Boolean);
   sum.innerHTML=`<div class="small">Per esempio:</div><div class="contemp-suggest">${sugg.map(x=>`<button type="button" data-contemp-focus="${esc(x.id)}">${esc(x.name)}</button>`).join('')}</div>`;
   list.innerHTML='<div class="empty">Scegli una voce qui sopra per vedere chi c’era nello stesso periodo.</div>';
  }else{
@@ -1356,8 +1393,8 @@ function renderContemporanei(){
   const order=[...REGION_ORDER,'Altre'].filter(r=>groups[r]);
   const fs=f.start_year,fe=f.end_year,fl=Math.max(1,fe-fs),dur=yearsBetween(fs,fe);
   $('contempTitle').textContent=`Durante «${f.name}»`;
-  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${dur?` · ≈ ${anni(dur)}`:''} · ${items.length} ${items.length===1?'voce':'voci'} in ${order.length} ${order.length===1?'area':'aree'}</div><div class="contemp-chips">${order.map(r=>`<button type="button" data-contemp-area="${esc(r)}">${esc(r)} · ${groups[r].length}</button>`).join('')}</div>`;
-  list.innerHTML=order.map(r=>{
+  sum.innerHTML=`<div class="contemp-head"><strong>${esc(span(f))}</strong>${dur?` · ≈ ${anni(dur)}`:''} · ${items.length} ${items.length===1?'voce':'voci'} in ${order.length} ${order.length===1?'area':'aree'}</div>${contempWhen(f)}<div class="contemp-chips">${order.map(r=>`<button type="button" data-contemp-area="${esc(r)}">${esc(r)} · ${groups[r].length}</button>`).join('')}</div>`;
+  list.innerHTML=(order.length?contempRuler(f):'')+order.map(r=>{
    const arr=groups[r].sort((a,b)=>a.o[0]-b.o[0]||a.x.name.localeCompare(b.x.name));
    const limit=contempExpanded[r]?arr.length:8;
    return `<div class="contemp-group" data-area="${esc(r)}"><h3>${esc(r)} · ${arr.length}</h3>${arr.slice(0,limit).map(({x,o})=>{
