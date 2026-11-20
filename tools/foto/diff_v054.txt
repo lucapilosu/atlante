@@ -1,0 +1,1066 @@
+culture-nuragic|=0
+culture-nuragic|9b|Il Nuraghe Su Nuraxi incantato " Tra Fiaba e Realtà " 01.JPG|Francesco ghiani|CC BY-SA 3.0
+culture-nuragic|=1
+site-su-nuraxi|9b|Il Nuraghe Su Nuraxi incantato " Tra Fiaba e Realtà " 01.JPG|Francesco ghiani|CC BY-SA 3.0
+site-su-nuraxi|=0
+site-su-nuraxi|=1
+period-egypt-predynastic|=0
+period-egypt-predynastic|c4|Diorite Vase Neqada II Predynastic Ancient Egypt Field Museum.jpg|User:Madman2001|CC BY-SA 3.0
+period-egypt-predynastic|=1
+state-ancient-egypt|91|Maler der Grabkammer des Sennudem 001.jpg|Painter of the burial chamber of Sennedjem|Public domain
+state-ancient-egypt|=0
+state-ancient-egypt|c9|Hieroglyphs from the tomb of Seti I.jpg|unknown Egyptian scribe|Copyrighted free use
+culture-ozieri|=0
+culture-ozieri|=1
+culture-ozieri|=2
+tradition-domus-de-janas|=0
+tradition-domus-de-janas|=1
+tradition-domus-de-janas|a7|Lotzorai domus de janas 2.jpg|Mauro Mereu|CC BY-SA 2.5
+site-monte-daccoddi|34|Sassari - Complesso prenuragico di Monte d'Accoddi (04).JPG|Gianni Careddu|CC BY-SA 3.0
+site-monte-daccoddi|8a|Monte D'Accoddi 07.JPG|Cristiano Cani|CC BY-SA 3.0
+site-monte-daccoddi|=2
+site-tharros|=1
+site-tharros|=0
+site-tharros|0b|Attica, anfora con ercole e caco e cavalieri traci, da tharros (cabras) 01,1.JPG|Sailko|CC BY-SA 3.0
+culture-villanovan|=2
+culture-villanovan|=0
+culture-villanovan|=1
+culture-minoan-palatial|ea|Knossos - North Portico 02.jpg|Bernard Gagnon|CC BY-SA 3.0
+culture-minoan-palatial|=1
+culture-minoan-palatial|ed|Throne Hall Knossos.jpg|Chris 73 (Wikimedia Commons)|CC BY-SA 3.0
+culture-mycenaean|=0
+culture-mycenaean|e6|Linear B (Mycenaean Greek) NAMA Tablette 7671.jpg|Marsyas (Wikimedia Commons)|CC BY 2.5
+culture-mycenaean|b9|Boars's tusk helmet NAMA6568 Athens Greece1.jpg|Jebulon|CC0
+state-kush|=0
+state-kush|=2
+state-kush|=1
+state-achaemenid|=1
+state-achaemenid|b8|Achaemenid coin daric 420BC front.jpg|Deflim|Public domain
+state-achaemenid|=0
+state-italy-kingdom|c7|The celebration of the birthday of the Italian King Vittorio Emanuele III on November 11, 1918.jpg|Francesco Slocovich|Public domain
+state-italy-kingdom|52|1898-illustraz-italiana-officina-Zopfi-pag-152-foto2.jpg|Fratelli Treves|Public domain
+state-italian-republic|f6|Satellite image of Italy in March 2003.jpg|Jacques Descloitres, MODIS Rapid Response Team, NASA/GSFC|Public domain
+state-european-union|2c|European Parliament Strasbourg Hemicycle - Diliff.jpg|Diliff|CC BY-SA 3.0
+state-european-union|58|Europäische Zentralbank - European Central Bank (19190136328).jpg|Kiefer. from Frankfurt, Germany|CC BY-SA 2.0
+state-european-union|=0
+culture-caral|=1
+culture-caral|=0
+culture-caral|25|El Altar del Fuego Sagrado - Caral.jpg|Se.Xauxa at Spanish Wikipedia|CC BY-SA 3.0
+culture-chavin|=0
+culture-chavin|52|Chavin - Août 2007.jpg|Martin St-Amant (S23678)|CC BY 3.0
+culture-chavin|aa|Chavin circular plaza cyark.jpg|[archive.cyark.org CyArk]|CC BY-SA 3.0
+culture-paracas|11|ParacasSkullsIcaMuseum.jpg|Marcin Tlustochowicz from Poland|CC BY 2.0
+culture-paracas|8a|Paracas mantle, BM.jpg|Brooklyn Museum|Public domain
+culture-paracas|=1
+culture-nazca|f7|Líneas de Nazca, Nazca, Perú, 2015-07-29, DD 49.JPG|Diego Delso|CC BY-SA 4.0
+culture-nazca|=0
+culture-nazca|c1|Nazca-lineas-perro-c01.jpg|File Upload Bot (Colegota) (Wikimedia Commons)|CC BY-SA 2.5 es
+culture-moche|b1|Moche earrings.jpg|Bernard Gagnon|CC BY-SA 3.0
+culture-moche|=0
+culture-moche|d9|Nariguera Moche2.JPG|No machine-readable author provided. Manuel González Olaechea assumed (based on|CC BY 3.0
+culture-wari|73|Fardo Wari.jpg|Toño Zapata|Public domain
+culture-wari|=1
+culture-wari|5b|Huari - Head Pot with Painted Design - Walters 482849.jpg|Anonymous (Huari)Unknown author|Public domain
+culture-chimu|=0
+culture-chimu|1e|(Auch) Vase à anse en étrier à décor de piments - culture Chimú - 'Musée des Amériques' - Auch.jpg|Didier Descouens|Public domain
+culture-chimu|5d|15th-16th century Chimu tabard.jpg|https://www.flickr.com/photos/unforth/|CC BY-SA 2.0
+culture-olmec|=0
+culture-olmec|c6|20041229-Luchador Olmeca (Museo Nacional de Antropología) MQ.jpg|No machine-readable author provided. Luidger assumed (based on copyright claims)|CC BY-SA 3.0
+culture-olmec|=1
+culture-zapotec|=0
+site-teotihuacan|=0
+site-teotihuacan|a3|Teotihuacán - Palacio de Atetelco Wandmalerei 3.jpg|Wolfgang Sauber|CC BY-SA 3.0
+site-teotihuacan|a7|ZA77 Teotihuacán edo de mex Herberto de la rosa.jpg|Hdlrosa|CC BY-SA 4.0
+culture-maya|=0
+culture-maya|=1
+culture-maya|=2
+site-tikal|75|Tikal 3.jpg|Mundo Maya|CC BY-SA 4.0
+site-tikal|=1
+site-tikal|2b|Tikal Stela 31.jpg|Greg Willis|CC BY-SA 2.0
+site-palenque|b7|Palenque Relief.jpg|Soerfm (Wikimedia Commons)|CC BY-SA 2.0
+site-palenque|df|Palace at Palenque.jpg|Ricraider|CC BY-SA 3.0
+site-palenque|20|Palenque Kreuztempel Sonne.jpg|Jan Harenburg|CC BY 4.0
+site-calakmul|=1
+site-calakmul|=0
+site-calakmul|13|Stele51CalakmulMuseum.JPG|Thelmadatter|Public domain
+site-chichen-itza|51|Chichen Itza 3.jpg|Daniel Schwen|CC BY-SA 4.0
+site-chichen-itza|4f|Juego de pelota chichen itza.jpg|Andre m (Wikimedia Commons)|CC BY-SA 3.0
+site-chichen-itza|f9|2014-01-03 Tzompantli in Chichén Itzá anagoria.jpg|Anagoria|CC BY 3.0
+site-uxmal|=0
+site-uxmal|9b|0073 Uxmal.JPG|tato grasso|CC BY-SA 2.5
+site-uxmal|22|Uxmal Casa de las tortugas.jpg|El Comandante (Wikimedia Commons)|CC BY-SA 1.0
+site-mayapan|f4|Mayapan perspectiva 1.jpg|Joeldesalvatierra|CC BY-SA 3.0
+site-mayapan|f8|Mayapan '2010 - 31.JPG|Pavel Vorobiev|CC BY-SA 3.0
+site-mayapan|b6|Mayapan Castillo.jpg|HJPD|CC BY-SA 3.0
+culture-toltec|=0
+culture-toltec|=1
+culture-toltec|22|Toltec Stone Roof Ornaments.jpg|Gary Todd|CC0
+civilization-indus|32|IndusValleySeals.JPG|World Imaging|CC BY-SA 3.0
+civilization-indus|=1
+civilization-indus|=0
+civilization-shang|8e|Shang dynasty inscribed tortoise plastron.jpg|Kanguole (Wikimedia Commons)|CC BY-SA 3.0
+civilization-shang|=2
+civilization-shang|1d|Shang Chariot Burial 04.jpg|Gary Todd|CC0
+civilization-zhou|=0
+civilization-zhou|9f|Gold sword hilt Eastern Zhou BM.jpg|Zunkir|CC BY-SA 4.0
+civilization-zhou|f3|Eastern Zhou Bronze Ji (Halberd) (10338222034).jpg|Gary Todd from Xinzheng, China|CC0
+civilization-maurya|2b|MauryanCoin.JPG|en:User:PHG (now en:User:Per Honor et Gloria) aka User:PHGCOM (now User:World Im|Public domain
+civilization-maurya|00|MauryanStatuette2ndCenturyBCE.jpg|PHGCOM|CC BY-SA 3.0
+civilization-maurya|9b|MauryanRingstone.JPG|No machine-readable author provided. World Imaging assumed (based on copyright c|CC BY-SA 3.0
+civilization-han|=1
+civilization-han|=0
+civilization-han|=2
+civilization-gupta|=2
+civilization-gupta|=1
+civilization-gupta|=0
+civilization-byzantine|=1
+civilization-byzantine|22|Hagia Sophia Mars 2013.jpg|Arild Vågen|CC BY-SA 3.0
+civilization-byzantine|=2
+civilization-abbasid|92|Balami - Tarikhnama - Abu'l-'Abbas al-Saffah is proclaimed the first 'Abbasid Caliph (cropped).jpg|Abu Ali Bal'ami|Public domain
+civilization-abbasid|=0
+civilization-abbasid|a8|Bowl by Khalid, Iraq, Abbasid dynasty, 9th-10th century AD, earthenware painted over glaze with luster - Freer Gallery of Art - DSC04595.jpg|Daderot|Public domain
+civilization-song|=0
+civilization-song|50|Taizong of Song.jpg|Unknown artistUnknown artist|Public domain
+civilization-song|ef|Four Generals of Song.jpg|Liu Songnian|Public domain
+civilization-mali|=0
+civilization-aztec|ec|Aztec Indians Mexico Tlaxcalan Cortez.jpg|Wilhelm Sievers (1860 - 1921)|Public domain
+civilization-aztec|=2
+civilization-aztec|=1
+civilization-inca|=1
+civilization-inca|=0
+civilization-inca|33|Brooklyn Museum - Atahualpa, Fourteenth Inca, 1 of 14 Portraits of Inca Kings - overall.jpg|Mayimbú (Wikimedia Commons)|Public domain
+civilization-ottoman|e9|EmperorSuleiman.jpg|Circle of Titian|Public domain
+civilization-ottoman|64|Opening ceremony of the First Ottoman Parliament at the Dolmabahce Palace in 1876.jpg|Underlying lk (Wikimedia Commons)|Public domain
+civilization-ottoman|=1
+civilization-ming|=0
+civilization-ming|83|Portrait assis de l'empereur Ming Chengzu.jpg|Unknown authorUnknown author|Public domain
+civilization-ming|17|Ming-Beamtenprüfungen1.jpg|Qiu Ying (仇英) (attributed)|Public domain
+civilization-mughal|=0
+civilization-mughal|=1
+civilization-mughal|4e|Idealized portrait of Babur (1483-1530) in Persian style, painted circa 1605-1615 in India (British Museum 1921,1011,0.3).jpg|Probably, Aqa Riza, a Khurasani Persian migrant painter to India (The Indian her|Public domain
+civilization-qing|=1
+civilization-qing|89|Destroying Chinese war junks, by E. Duncan (1843).jpg|Edward Duncan|Public domain
+civilization-qing|=0
+movement-silk-road|=1
+movement-silk-road|=0
+movement-transsaharan|=2
+movement-transsaharan|=0
+movement-transsaharan|=1
+religion-buddhism|=0
+religion-buddhism|30|Large Gautama Buddha statue in Buddha Park of Ravangla, Sikkim.jpg|Subhrajyoti07|CC BY-SA 4.0
+religion-buddhism|3c|BuddhistTriad.JPG|No machine-readable author provided. World Imaging assumed (based on copyright c|CC BY-SA 3.0
+religion-christianity|d7|Cristo crucificado.jpg|Diego Velázquez|Public domain
+religion-christianity|=1
+religion-christianity|c4|Frescoangelico100216.jpg|Fra Angelico|Public domain
+religion-islam|=0
+religion-islam|=1
+religion-islam|=2
+invention-paper|06|Bergisch Gladbach - Papiermühle Alte Dombach 07 ies.jpg|Frank Vincentz|CC BY-SA 3.0
+invention-printing-eastasia|=0
+invention-printing-eastasia|ae|Metal movable type.jpg|Willi Heidelbach|CC BY 2.5
+invention-printing-eastasia|08|Inchiostri tipografici del Museo della stampa Lodovico Pavoni - Mostra Mercato ImmaginArti - Pescarzo.jpg|Ensahequ|CC BY-SA 4.0
+invention-compass|83|Boussole fantassin russe.jpg|Jean-Patrick Donzey|CC BY-SA 3.0
+invention-compass|da|Compasses orienteering.jpg|User:Leinad|CC BY-SA 3.0
+invention-compass|45|Epistola-de-magnete.jpg|Louis le Grand~commonswiki (Wikimedia Commons)|Public domain
+invention-gunpowder|ee|Black Powder-1.JPG|Lord Mountbatten|CC BY-SA 3.0
+invention-gunpowder|1e|Powder Samples.jpg|Arthurrh|CC BY-SA 3.0
+invention-gunpowder|88|Beccafumi - 10 Uses of gunpowder.jpg|Domenico Beccafumi|Public domain
+movement-scientific-revolution|=0
+movement-scientific-revolution|=1
+movement-scientific-revolution|55|Académie des Sciences 1698.jpg|Ragesoss (Wikimedia Commons)|Public domain
+movement-industrialization|=1
+movement-industrialization|=0
+civilization-rome|=0
+civilization-rome|=2
+civilization-rome|=1
+civilization-aksum|e3|Aksum, iscrizione di re ezana, in greco, sabeo e ge'ez, 330-350 dc ca. 11.jpg|Sailko|CC BY 3.0
+civilization-aksum|02|AXUM. Ezanas. Circa 330-360.jpg|CNG Coins|CC BY-SA 3.0
+civilization-aksum|=0
+civilization-great-zimbabwe|=0
+civilization-great-zimbabwe|=2
+civilization-great-zimbabwe|9d|Zimbabwe wall.jpg|User:Ulamm|Public domain
+civilization-songhai|=1
+civilization-songhai|=0
+civilization-safavid|=1
+civilization-safavid|=0
+civilization-safavid|71|Shah Ismail I Safavid, Behzad.jpg|Kamāl ud-Dīn Behzād|Public domain
+civilization-japan-shogunate|=0
+civilization-japan-shogunate|ee|Tokugawa Ienari.jpg|Attributed to Kanō Osanobu|Public domain
+civilization-japan-shogunate|=1
+civilization-haudenosaunee|f6|Iroquois dictionnary, Jesuit fathers, Quebec Circa 1660.jpg|Wilfredor|CC0
+civilization-haudenosaunee|9d|Detail. Ball-headed club. A diplomatic gift to James Bruce (8th Earl Elgin and 12th Earl of Kincardine), made most probably by Haudenosaunee (Iroquois). From Canada, early-mid 19th century CE. National Museum of Scotland.jpg|Osama Shukir Muhammed Amin FRCP(Glasg)|CC BY-SA 4.0
+civilization-haudenosaunee|a9|Iroquois western goods.jpg|Bacqueville de La Potherie|Public domain
+culture-rapanui|=1
+culture-rapanui|=0
+culture-rapanui|7b|Rano-Kau-Crater-Gap-2013.jpg|Bjørn Christian Tørrissen|CC BY-SA 3.0
+site-rano-raraku|=0
+site-rano-raraku|=1
+site-ahu-tongariki|50|AhuTongariki.JPG|Ian Sewell|CC BY 2.5
+site-ahu-tongariki|ba|Ahu-Tongariki-2013.jpg|Bjørn Christian Tørrissen|CC BY-SA 3.0
+site-ahu-tongariki|=0
+site-orongo|=0
+site-orongo|f6|Rano Kau Orongo by Gustavo Gerdel.jpg|Ggerdel - Fotografía tomada por: Gustavo Gerdel|CC BY-SA 4.0
+site-orongo|99|Orongohaus2.jpg|American at German Wikipedia|CC BY-SA 3.0
+site-rano-kau|=0
+site-rano-kau|7b|Rano-Kau-Crater-Gap-2013.jpg|Bjørn Christian Tørrissen|CC BY-SA 3.0
+site-ahu-akivi|=0
+culture-lapita|=0
+culture-lapita|=1
+site-gobekli-tepe|=0
+site-gobekli-tepe|b5|Göbeklitepe Şanlıurfa.jpg|Beytullah eles|CC BY-SA 4.0
+site-gobekli-tepe|e2|Göbekli Tepe Pillar.JPG|Zhengan|CC BY-SA 4.0
+site-jericho-neolithic|=0
+site-jericho-neolithic|=1
+site-jericho-neolithic|=2
+site-catalhoyuk|29|Seated Woman of Çatalhöyük on black background.jpg|Nevit Dilmen (talk)|CC BY-SA 3.0
+site-catalhoyuk|=0
+site-catalhoyuk|b1|CatalHoyukSouthArea.JPG|Szwedzki (Wikimedia Commons)|CC BY-SA 3.0
+site-nabta-playa|=0
+site-nabta-playa|ba|First pottery with basket-like impressed decorations. Nabta Playa, Early Neolithic 8600-7050 BCE. British Museum.jpg|ALFGRN|CC BY-SA 4.0
+site-nabta-playa|3e|Pottery, bifacial flint blades (Near Eastern technique), grinding stone. Nabta Playa, Middle Neolithic , 6000-5500 BCE. British Museum.jpg|ALFGRN|CC BY-SA 4.0
+invention-ounjougou-pottery|=0
+site-mehrgarh|=0
+site-mehrgarh|=1
+site-mehrgarh|fc|Mehrgarh pakistan rel96.JPG|Fowler&fowler at English Wikipedia|Public domain
+culture-yangshao|=1
+culture-yangshao|8f|Jiangzhai settlement model, Yangshao culture, Lintong, Shaanxi.jpg|Prof. Gary Lee Todd|CC BY-SA 4.0
+culture-yangshao|=0
+culture-hemudu|=0
+culture-hemudu|=1
+culture-hemudu|ba|Hemudu-Diorama-Aaron-Delehanty.jpg|Adelehant|CC BY-SA 4.0
+culture-botai|=0
+culture-clovis|=0
+culture-clovis|1c|Clovis Rummells Maske.jpg|Bill Whittaker (talk)|CC BY-SA 3.0
+culture-clovis|cc|Clovis spear point, British Museum.jpg|Photograph by Mike Peel (www.mikepeel.net).|CC BY-SA 4.0
+invention-maize-domestication|73|Corntassel 7095.jpg|Spedona|CC BY-SA 3.0
+invention-maize-domestication|19|Zea mays 'Ottofile giallo Tortonese' MHNT.BOT.2015.34.1.jpg|Roger Culos|CC BY-SA 3.0
+invention-maize-domestication|=2
+culture-chinchorro|=1
+culture-chinchorro|=0
+culture-chinchorro|5d|Chinchorro mummy heads Arica.jpg|Zorka Ostojic Espinoza|CC BY 2.0
+site-kuk-swamp|=0
+site-carnac|=0
+site-carnac|a3|4748.1099 Menhire, bis zu 4 Meter hoch, von OstnachWest in 1167 Meter Langen Alignements (Granit-Steinreihen) in einem Halbkreis endend Le Ménec, Carnac, Departement Morbihan, Bretagne Steffen Heilfort.jpg|Steffen Heilfort|CC BY-SA 3.0
+site-carnac|55|Alignement Kerlescan Carnac.jpg|Myrabella|CC BY-SA 3.0
+site-stonehenge|=1
+site-stonehenge|6b|Stonehenge Total.jpg|Stefan Kühn|CC BY-SA 3.0
+site-stonehenge|d6|Stonehenge Lucas de Heere.jpg|Lucas de Heere|Public domain
+culture-etruscan|46|Cippo perugino, con iscrizione in lingua etrusca su un atto giuridico tra le famiglie dei velthina e degli afuna, 02.jpg|Sailko|CC BY-SA 4.0
+culture-etruscan|=1
+culture-etruscan|8c|Closeup of engraving depicting Pollux tying the defeated Amykos to a tree on the Ficoroni Cista Bronze 340-330 BCE made by Novios Plautios from Palestrina National Etruscan Museum of Villa Giulia.jpg|Novios Plautios (340-330 BCE) photos by Egistos Sani|Public domain
+invention-cuneiform|e1|Xerxes Cuneiform Van.JPG|Bjørn Christian Tørrissen|CC BY-SA 3.0
+invention-cuneiform|=1
+invention-cuneiform|1f|P1150884 Louvre Uruk III tablette écriture précunéiforme AO19936 rwk.jpg|Mbzt (Wikimedia Commons)|CC BY 3.0
+empire-akkad|44|Sargon of Akkad.jpg|Unknown authorUnknown author|Public domain
+empire-akkad|bd|Bassetki Statue, Akkadian period, 23rd century BCE, from Bassetki, Iraq. Iraq Museum.jpg|Osama Shukir Muhammed Amin FRCP(Glasg)|CC BY-SA 4.0
+empire-akkad|a2|Brak akkadian tablet BM 131738.jpg|Zunkir|CC BY-SA 4.0
+empire-hittite|=0
+empire-hittite|=2
+empire-hittite|2c|HittiteLion AnkaraMuseumAnatolianCivilizations.JPG|Koppas|CC BY-SA 3.0
+culture-phoenician|=2
+culture-phoenician|=0
+culture-phoenician|cb|Phoenician ship.jpg|NMB|CC BY-SA 3.0
+state-ancient-israel|4f|2016 WLM - OVEDC - Shomron capital of the Kingdom of Israel 067.jpg|Ovedc|CC BY-SA 4.0
+state-ancient-israel|6e|Decorative chain of lotus buds and blossoms, Samaria, 9th-8th century BC, ivory - Harvard Semitic Museum - Cambridge, MA - DSC06034.jpg|Daderot|Public domain
+state-ancient-israel|74|Furniture Inlays, Samaria, 9th-8th Century BC (42500194064).jpg|Gary Todd from Xinzheng, China|CC0
+site-giza-pyramids|af|All Gizah Pyramids.jpg|Ricardo Liberato|CC BY-SA 2.0
+site-giza-pyramids|=0
+site-giza-pyramids|20|Mastaba Gizeh 112004.JPG|No machine-readable author provided. Neithsabes assumed (based on copyright clai|Public domain
+state-egypt-new-kingdom|1f|Nofretete Neues Museum.jpg|Philip Pikart|CC BY-SA 3.0
+state-egypt-new-kingdom|=2
+state-egypt-new-kingdom|=0
+state-carthage|a7|Tunisie Carthage Ruines 08.JPG|Calips|CC BY 2.5
+state-carthage|d0|Archaeological Site of Carthage-130238.jpg|Christian Manhart|CC BY-SA 3.0 igo
+state-carthage|a2|Carthage National Museum representation of city.jpg|damian entwistle|CC BY-SA 2.0
+culture-nok|=0
+culture-vedic|=0
+religion-hinduism|=0
+religion-jainism|=1
+religion-jainism|=0
+state-mahajanapadas|c7|Magadha kingdom coin Circa 350 BC AR Karshapana.jpg|CNG Coins|CC BY-SA 3.0
+culture-sintashta|=0
+culture-sintashta|=1
+culture-scythians|=0
+culture-scythians|5d|Skythian archer plate BM E135 by Epiktetos.jpg|Epiktetos (signed)|Public domain
+culture-scythians|=1
+site-ban-chiang|=0
+site-ban-chiang|=1
+site-ban-chiang|79|Ban Chiang excavations.jpg|Steve from Bangkok, Thailand|CC BY-SA 2.0
+culture-dong-son|=0
+culture-dong-son|=1
+culture-dong-son|=2
+site-poverty-point|=1
+site-poverty-point|96|Poverty Point gorgets atlatl weights HRoe 2009.jpg|Heironymous Rowe (talk)|CC BY-SA 3.0
+site-poverty-point|67|Poverty Point clay utensils HRoe 2009.jpg|Heironymous Rowe (talk)|CC BY-SA 3.0
+invention-iron-metallurgy|=0
+invention-iron-metallurgy|=1
+invention-iron-metallurgy|b9|Celtic-roundhouse-1994.jpg|http://www.wyrdlight.com Author: Antony McCallum|CC BY-SA 3.0
+culture-la-tene|=0
+culture-la-tene|94|Celtic Horned Helmet I-IIBC British-Museum.jpg|WordRidden|CC BY 2.0
+culture-la-tene|=1
+empire-parthian|15|ParthianInChains.jpg|Personal photograph 2006. Own work|Public domain
+empire-parthian|59|ParthianWaterSpoutWithFaceOfIranianMan1-2ndCenturyCE.jpg|PHGCOM|CC BY-SA 4.0
+empire-parthian|63|Parthian jewelry from Nineveh by Nickmard Khoey.jpg|Nickmard Khoey|CC BY-SA 2.0
+empire-sasanian|5b|Plate of the Sasanian king Khosrow I Anushirvan.jpg|HistoryofIran (Wikimedia Commons)|CC BY-SA 4.0
+empire-sasanian|=1
+empire-sasanian|=2
+site-petra|e8|Al Deir Petra.JPG|Azurfrog|CC BY-SA 3.0
+site-petra|=0
+site-petra|44|Great Temple of Petra 02.jpg|Bernard Gagnon|CC BY-SA 3.0
+state-ptolemaic-egypt|=0
+state-ptolemaic-egypt|69|Ptolemy II MAN Napoli Inv5600.jpg|Zemanst (Wikimedia Commons)|CC BY 2.5
+state-ptolemaic-egypt|22|Ring with engraved portrait of Ptolemy VI Philometor (3rd–2nd century BCE) - 2009.jpg|Unknown artistUnknown artist.|Public domain
+state-numidia|d2|Stele of the Libou Knight.jpg|Meriam Cherif|CC BY-SA 4.0
+state-numidia|e9|Mausolée des Rois numides dit le Medracen -1.JPG|Credits to Zakaria Mimouni / Wikimedia Commons Algerian Wikimedians User Group|CC BY-SA 4.0
+state-numidia|97|Divinités numides chemtou.jpg|Herbert Frank|CC BY 2.0
+site-djenne-djeno|4d|Djenné Moschee.jpg|The original uploader was Euronaut at German Wikipedia. Later versions were uplo|CC BY-SA 3.0
+site-djenne-djeno|06|Statuette féminine-Région de Djenné-Mali.jpg|Ji-Elle|CC BY-SA 3.0
+site-djenne-djeno|24|Seated figure grom Mali, 13th century, Djenné peoples, Metropolitan Museum of Art, 1981.218.JPG|Wmpearl|CC0
+religion-daoism|=0
+religion-daoism|88|Album of 18 Daoist Paintings - 7.jpg|Zhang Lu|Public domain
+religion-daoism|7f|2016 Kuala Lumpur, Świątynia taoistyczna Guan Di (15).jpg|Marcin Konsek|CC BY-SA 4.0
+site-great-wall|=0
+site-great-wall|10|20090529 Great Wall 8185.jpg|Jakub Hałun|CC BY-SA 3.0
+site-great-wall|60|Chemin de ronde muraille long.JPG|Fabienkhan|CC BY-SA 2.5
+site-terracotta-army|88|51714-Terracota-Army.jpg|xiquinhosilva|CC BY 2.0
+site-terracotta-army|=1
+site-terracotta-army|bc|Terra Cotta Warriors, Guardians of China’s First Emperor 1.jpg|(cc) Shashi Bellamkonda www.shashi.name|CC BY 2.0
+culture-yayoi|=0
+state-three-kingdoms-korea|=0
+state-three-kingdoms-korea|=1
+state-three-kingdoms-korea|=2
+empire-xiongnu|2c|Warring States Xiongnu Gold Crown - b.jpg|Gary Todd|CC0
+empire-xiongnu|a1|Xiongnu chieftain (black backgrouond).jpg|Davide Mauro|CC BY-SA 4.0
+empire-kushan|=1
+empire-kushan|56|Kushan king Huvishka coin.jpg|Classical Numismatic Group;[1]|CC BY-SA 3.0
+empire-kushan|=0
+state-funan|84|Funan stele.JPG|Bình Giang|Public domain
+state-champa|=0
+state-champa|=1
+state-champa|=2
+culture-hopewell|27|Hopewell culture nhp raven effigy pipe chillicothe ohio 2006.jpg|Rdikeman at English Wikipedia|CC BY-SA 3.0
+culture-hopewell|=1
+culture-hopewell|18|Hopewell Bird Head carved on Bone.jpg|Moorehead, Warren King, 1866-1939, THE HOPEWELL MOUND GROUP OF OHIO, published i|Public domain
+site-monte-alban|f2|Monte Albán archeological site, Oaxaca.jpg|Petrusbarbygere (Wikimedia Commons)|CC BY-SA 3.0
+site-monte-alban|=1
+site-monte-alban|de|2013-13-27 Máscara funeraria mixteca Tumba No. 7 Monte Alban Museo de las Culturas de Oaxaca anagoria.JPG|Anagoria|CC BY 3.0
+site-tiwanaku|=0
+site-tiwanaku|=1
+site-tiwanaku|66|Tiwanaku Statue Der Moench.jpg|Fulsen at German Wikipedia|CC BY-SA 3.0
+state-frankish-carolingian|cf|Carolingian Warrior.jpg|ACBahn|CC BY-SA 3.0
+state-frankish-carolingian|=1
+state-frankish-carolingian|=0
+state-lombards|=0
+state-lombards|05|Langobard Shield Boss 7th Century.jpg|MapMaster|CC BY-SA 3.0
+state-lombards|b1|0815 - Museo archeologico di Milano - Corredo longobardico (sec. VI-VII) - Foto Giovanni Dall'Orto, 13-mar-2012.jpg|Giovanni Dall'Orto.|Attribution
+state-al-andalus|=0
+state-al-andalus|c4|AndalusQuran.JPG|Rythin~commonswiki (Wikimedia Commons)|Public domain
+state-al-andalus|=2
+state-kievan-rus|=0
+state-kievan-rus|=1
+state-umayyad-caliphate|bd|First Umayyad gold dinar, Caliph Abd al-Malik, 695 CE.jpg|PHGCOM|Public domain
+state-umayyad-caliphate|=2
+state-umayyad-caliphate|1e|Damascus, Syria, The Umayyad Mosque, The Great Mosque of Damascus 2.jpg|Vyacheslav Argenberg|CC BY 4.0
+site-al-qarawiyyin|5b|29610-Fez (28134041211) (qarawiyyin crop).jpg|xiquinhosilva from Cacau (cropped by Robert Prazeres|CC BY-SA 4.0
+site-al-qarawiyyin|=1
+site-al-qarawiyyin|25|Qarawiyyin library gate on Place Seffarine 01.jpg|Robert Prazeres|CC BY-SA 4.0
+state-makuria|6a|Old Nubian manuscript.jpg|Pmx (Wikimedia Commons)|CC BY-SA 3.0
+state-makuria|=0
+state-makuria|23|Illuminated manuscript from Serra East, Nubia.jpg|AnonymousUnknown author|Public domain
+state-fatimid-caliphate|=0
+state-fatimid-caliphate|=1
+state-fatimid-caliphate|21|Cairo, porte settentrionali, 01.JPG|Sailko|CC BY 3.0
+movement-swahili-coast|df|City of Kilwa, 1572.jpg|Georg Braun and Franz Hogenberg|Public domain
+movement-swahili-coast|=2
+movement-swahili-coast|=1
+empire-chola|1e|Chola Kings. Rajaraja I. 985-1014 CE Uncertain Tamilnadu mint (AV). Chola, conqueror of the Gangas in Tamil, seated tiger with two fish.jpg|Classical Numismatic Group|CC BY-SA 3.0
+empire-chola|=0
+empire-chola|e2|Chola coin with legend "Uttama" (south India).jpg|Jean-Michel Moullec from Vern sur Seiche (35, Bretagne), France|CC BY 2.0
+invention-indian-numerals-zero|=0
+state-dynasty-tang|=1
+state-dynasty-tang|a9|Joueuse de polo Tang 29102.jpg|Vassil|Public domain
+state-dynasty-tang|=0
+state-unified-silla|9b|Korea-Silla Kingdom-Golden hat-01.jpg|Matt and Nayoung Wilson from Atlanta and surrounding, US|CC BY 2.0
+state-unified-silla|a1|Korean crown and belt from Silla-01.jpg|David Trowbridge|CC BY 2.0
+empire-gokturk|09|An Jia with a Turkic Chieftain in Yurt. Xi’an, 579 CE. Shaanxi Provincial Institute of Archaeology, Xi’an.jpg|Painter: undetermined (6th century CE) Photography: Shaanxi Provincial Institute|Public domain
+empire-gokturk|df|An Jia welcoming a Turk. Shaanxi Provincial Institute of Archaeology, Xi’an.jpg|Painter: undetermined (6th century CE) Photography: Shaanxi Provincial Institute|Public domain
+state-srivijaya|=1
+state-srivijaya|9e|Avalokiteshvara Bingin Jungut Srivijaya.JPG|Gunawan Kartapranata|CC BY-SA 3.0
+state-srivijaya|=2
+site-borobudur|=0
+site-borobudur|25|Pradaksina.jpg|Heri nugroho|CC BY-SA 4.0
+site-borobudur|b3|Siddharta Gautama Borobudur.jpg|Gunawan Kartapranata|CC BY-SA 4.0
+empire-khmer-angkor|=0
+empire-khmer-angkor|=1
+empire-khmer-angkor|93|Angkor1866.jpg|Nesnad (Wikimedia Commons)|Public domain
+site-chaco-canyon|2e|Chaco Canyon Chetro Ketl great kiva plaza NPS.jpg|National Park Service (United States)|Public domain
+site-chaco-canyon|=1
+site-chaco-canyon|cf|CasaRinconada.jpg|Charles M. Sauer -- Charlessauer|CC BY-SA 4.0
+movement-italian-communes|=0
+movement-italian-communes|=1
+movement-italian-renaissance|=1
+movement-italian-renaissance|=0
+empire-seljuk|be|Court of Seljuk ruler Tughril III.jpg|Author: Benjamin Banayan (rugrabbit.com), photographed at the Metropolitan Museu|CC BY-SA 4.0
+empire-seljuk|=0
+empire-seljuk|=1
+state-ayyubid|=1
+state-ayyubid|45|Ayyubid Az Zahir 1204 Aleppo.jpg|PHGCOM|Public domain
+state-ayyubid|=0
+state-ilkhanate|=0
+state-ilkhanate|=1
+state-mamluk-sultanate|36|Behzad timur egyptian.jpg|Assigned to Kamaleddin Behzad|Public domain
+state-mamluk-sultanate|d2|A Mamluk from Aleppo.jpg|Page, William, born 1794 - died 1872 (painter)|Public domain
+state-mamluk-sultanate|=0
+state-almoravid-almohad|d1|Cúpula almorávide (Marrakech).jpg|kashmir|CC BY-SA 2.0
+state-almoravid-almohad|=0
+state-almoravid-almohad|=2
+site-lalibela|=1
+site-lalibela|5e|Bet Giyorgis church Lalibela 01.jpg|Giustino|CC BY 2.0
+site-lalibela|=0
+state-benin-kingdom|=1
+state-benin-kingdom|e9|Benin bronze Louvre A97-14-1.jpg|Unknown artistUnknown artist|Public domain
+state-benin-kingdom|45|Benin, portoghese, XVI-XVII sec.JPG|sailko|CC BY-SA 3.0
+state-kongo-kingdom|37|Kongo audience.jpg|Unknown authorUnknown author|Public domain
+state-kongo-kingdom|=0
+state-kongo-kingdom|9f|The Baptism of João I Nzinga a Nkuwu (King of Kongo).jpg|Robert Benard|Public domain
+state-delhi-sultanate|=2
+state-delhi-sultanate|d3|Ashoka Pillar at Feroze Shah Kotla, Delhi 05.JPG|Dhamijalok|CC BY-SA 3.0
+state-delhi-sultanate|=0
+empire-vijayanagara|=0
+empire-vijayanagara|81|Evidence of Vijaynagar pomp.jpg|Soham Banerjee|CC BY 2.0
+empire-vijayanagara|3f|15th century aqua duct to Mahanavami platform Pushkarani step well, Hampi Hindu monuments Karnataka 1.jpg|Ms Sarah Welch|CC BY-SA 4.0
+state-dynasty-yuan|=0
+state-dynasty-yuan|de|Yuan dynasty banknote with its printing plate 1287.jpg|PHGCOM|CC BY-SA 3.0
+state-dynasty-yuan|=1
+state-kamakura-shogunate|5d|Kamakura Budda Daibutsu front 1885.jpg|Dirk Beyer|CC BY-SA 3.0
+state-kamakura-shogunate|=0
+state-kamakura-shogunate|=1
+state-joseon|=1
+state-joseon|d8|Korean celestial globe.jpg|Wikimachine at English Wikipedia|Public domain
+state-joseon|=0
+empire-timurid|d9|Timurid Anthology Zhertva.jpg|Rubinbot (Wikimedia Commons)|Public domain
+empire-timurid|36|Behzad timur egyptian.jpg|Assigned to Kamaleddin Behzad|Public domain
+empire-timurid|=1
+state-golden-horde|=0
+state-golden-horde|=1
+invention-ulugh-beg-observatory|82|Ulugh Beg, Timurid painting 1425-50.jpg|Unknown artistUnknown artist|Public domain
+invention-ulugh-beg-observatory|98|Samarkand observatoire ulugh beg.jpg|Michel Benoist|CC BY 2.5
+invention-ulugh-beg-observatory|f5|A model of Ulug Beg obsrvatory in the Uzbek National Muzeum.jpg|Victoria|CC BY-SA 4.0
+state-ayutthaya|5f|View of Iudea (Ayutthaya), Capital of Siam ca. 1662 (SK-A-4477).jpg|Johannes Vingboons|CC0
+state-ayutthaya|=0
+state-ayutthaya|=1
+empire-majapahit|b6|Harihara Majapahit 1.JPG|Gunawan Kartapranata|CC BY-SA 3.0
+empire-majapahit|=0
+empire-majapahit|04|Majapahit, Piggy Bank.jpg|Original uploader was Gunawan Kartapranata at en.wikipedia|CC BY-SA 3.0
+state-malacca-sultanate|=1
+state-malacca-sultanate|cb|Melaka during the reign of Sultan Alauddin Riayat Shah by Maembong Ayoh.jpg|Painting: Maembong Ayoh. Scanned by Surijeal|CC BY 4.0
+state-malacca-sultanate|=0
+site-cahokia|a4|Monks Mound - Summer 2024.jpg|Skubasteve834|CC BY 4.0
+site-cahokia|f8|Cahokia Mounds -- UNESCO reconstruction.jpg|Thank You (24 Millions ) views|CC BY 2.0
+site-cahokia|c2|Cahokia Mound 72.jpg|Carptrash|CC BY-SA 3.0
+site-tenochtitlan|=0
+site-tenochtitlan|=1
+site-tenochtitlan|9d|TenochtitlanModel.JPG|Thelmadatter|Public domain
+state-purepecha|bc|Tarascan Coyote Statuette.jpg|No machine-readable author provided. Madman2001 assumed (based on copyright clai|CC BY 2.5
+state-purepecha|=1
+state-purepecha|=0
+site-machu-picchu|bb|Machu Picchu, 2023 (012).jpg|Draceane|CC BY-SA 4.0
+site-machu-picchu|=0
+site-machu-picchu|59|Machupicchu intihuatana.JPG|Untifler (Wikimedia Commons)|Public domain
+invention-qhapaq-nan|=0
+invention-qhapaq-nan|de|Qhapaq ñan Grande route inca.jpg|Laurent granier|CC BY-SA 3.0
+invention-qhapaq-nan|=1
+site-nan-madol|=0
+site-nan-madol|a1|Detail of a wall constructed of columnar basalt pieces at Nan Madol.jpg|Jebrennan|CC BY-SA 4.0
+site-nan-madol|1d|Nan Madol and surroundings.jpg|Uhooep|CC BY-SA 4.0
+movement-enlightenment|=1
+movement-enlightenment|=0
+movement-enlightenment|=2
+state-barbary-regencies|=1
+state-barbary-regencies|=0
+empire-ashanti|=1
+empire-ashanti|=0
+empire-ashanti|fe|Bodwich,1819,Ashantee.jpg|Sarah Wallis|Public domain
+state-dahomey|67|Dahomey amazon2.jpg|Unknown authorUnknown author|Public domain
+state-dahomey|84|Homme-requin Dahomey.jpg|Sossa Dede|CC BY-SA 3.0
+state-dahomey|88|Soldiers in Dahomey.JPG|Unknown authorUnknown author|Public domain
+site-taj-mahal|1d|Taj Mahal (Edited).jpeg|Yann; edited by Jim Carter|CC BY-SA 4.0
+site-taj-mahal|bf|Tombs-in-crypt.jpg|The original uploader was Donelson at English Wikipedia.|CC BY-SA 3.0
+site-taj-mahal|17|Taj Mahal finial-1.jpg|This image was produced by me, David Castor (user:dcastor). The pictures I submi|Public domain
+religion-sikhism|=0
+religion-sikhism|=2
+religion-sikhism|=1
+state-bukhara-khanate|=0
+state-bukhara-khanate|=1
+state-bukhara-khanate|5e|La nécropole de Tchor Bakhr (Boukhara, Ouzbékistan) (5719346105).jpg|Jean-Pierre Dalbéra from Paris, France|CC BY 2.0
+state-new-france|=0
+state-new-france|d6|The Arrival of the French Girls at Quebec, 1667 - C.W. Jefferys.jpg|Charles William Jefferys|Public domain
+state-new-france|=1
+state-new-spain|=1
+state-new-spain|=0
+state-portuguese-brazil|=0
+state-portuguese-brazil|e6|Abertura dos portos.jpg|Príncipe regente Dom João VI, Conde da Ponte|Public domain
+state-portuguese-brazil|c4|Fortaleza Sao Jose-Florianopolis-Brasil.JPG|Lionel Baur|CC BY-SA 3.0
+state-viceroyalty-peru|83|Francisco de Toledo Virrey.jpg|Unidentified painter|Public domain
+state-viceroyalty-peru|=0
+state-viceroyalty-peru|50|Entrada Virrey Arzobispo Morcillo.jpg|Melchor Pérez de Holguín|Public domain
+movement-chartered-companies|1e|Vereinigte Ostindische Compagnie bond - Middelburg - Amsterdam - 1622.jpg|Jacob Cornelisz. van Neck (Necq)|Public domain
+movement-chartered-companies|=0
+movement-chartered-companies|40|East India House by Thomas Malton the Younger.jpg|Thomas Malton|Public domain
+movement-jesuits-global|=1
+movement-jesuits-global|92|Misión de Nuestra Señora de Loreto. Siglo XVIII.jpg|Unknown authorUnknown author|Public domain
+movement-jesuits-global|ef|Église Gesù - Rome (IT62) - 2021-08-30 - 2.jpg|Chabe01|CC BY-SA 4.0
+movement-socialism|=0
+movement-socialism|d2|Socialists in Union Square, N.Y.C. (cropped).jpg|The Library of Congress|Public domain
+movement-socialism|9d|El Arsenal de Cartagena. Imponente manifestación obrera.jpg|Ruiz y Uría|Public domain
+invention-suez-canal|=0
+invention-suez-canal|a5|Bittersee Suezkanal.jpg|Gregor Rom|CC BY-SA 4.0
+invention-suez-canal|fb|Capesize bulk carrier at Suez Canal Bridge.JPG|AashayBaindur|CC BY-SA 3.0
+state-zulu-kingdom|92|Zulu King Dingane kaSenzangakhona, Maropeng, South Africa.jpg|Olga Ernst|CC BY-SA 4.0
+state-sokoto-caliphate|8c|Fulani in the Sokoto Caliphate.jpg|Internet Archive Book Images|CC0
+state-sokoto-caliphate|=0
+state-sokoto-caliphate|e0|Fulahs of Sokoto-1900.jpg|Mockler-Ferryman, A. F. (Augustus Ferryman), 1856-1930|Public domain
+state-british-raj|=0
+state-british-raj|4e|India 1862 One Mohur.jpg|National Museum of American History|Public domain
+state-british-raj|=1
+state-french-indochina|=0
+state-empire-brazil|=0
+state-empire-brazil|50|Germans and luxembourgers in brazil 1875.jpg|Richard Dietze (1838-1906)|Public domain
+state-empire-brazil|=1
+movement-new-imperialism|=0
+movement-new-imperialism|=1
+invention-telegraph|=0
+invention-telegraph|=1
+invention-germ-theory|=2
+invention-germ-theory|95|Smallpox vaccine.jpg|Photo Credit: James Gathany Content Providers(s): CDC|Public domain
+invention-germ-theory|=0
+invention-manhattan-project|=0
+invention-manhattan-project|ce|Alpha 1 racetrack, Uranium 235 electromagnetic separation plant, Manhattan Project, Y-12 Oak Ridge.jpg|Leslie R. Groves|Public domain
+invention-personal-computer|=2
+invention-personal-computer|=0
+invention-personal-computer|=1
+invention-panama-canal|f7|Panama Canal Gatun Locks.jpg|User:Stan Shebs|CC BY-SA 3.0
+invention-panama-canal|49|Panama Canal under construction, 1907.jpg|H.C. White Co.|Public domain
+invention-panama-canal|f3|Missouri panama canal.jpg|Nikosimon (Wikimedia Commons)|Public domain
+site-ajanta|c3|Ajanta (63).jpg|No machine-readable author provided. Soman assumed (based on copyright claims).|CC BY 2.5
+site-ajanta|=1
+site-ajanta|=0
+state-maratha|=1
+state-maratha|=0
+state-maratha|3f|Maratha British Treaty.JPG|Amit20081980~commonswiki|CC BY-SA 4.0
+site-mont-e-prama|=0
+site-mont-e-prama|a7|Età nuragica, giganti di monte prama, xiii-ix secolo ac ca., da cabras, guerriero 05, 01.jpg|Sailko|CC BY 3.0
+site-mont-e-prama|a3|Brassard archer monte prama1.JPG|DedaloNur|CC BY-SA 3.0
+site-santa-cristina|86|Pozzo Sacro Santa Cristina S.S.131 Km.115 Paulilatino (Or) Sardegna.JPG|Pozzo Sacro Santa Cristina|CC BY-SA 3.0
+site-santa-cristina|=0
+site-santa-cristina|=1
+event-su-nuraxi-main-tower|9b|Il Nuraghe Su Nuraxi incantato " Tra Fiaba e Realtà " 01.JPG|Francesco ghiani|CC BY-SA 3.0
+event-su-nuraxi-main-tower|b3|Central tower of the Nuraghe at Saint Antine of Torralba.jpg|Fawcett5. Compressed by EPO .|Public domain
+event-su-nuraxi-main-tower|3f|Nuraghe Su Nuraxi - Barumini - Sardinia - Italy - 07.jpg|Norbert Nagel|CC BY-SA 3.0
+event-rapanui-initial-settlement|8e|Easter Island 5.jpg|kallerna|CC BY-SA 4.0
+event-rapanui-initial-settlement|c2|Amanecer en Tongariki, Isla de Pascua - Flickr - Alanbritom.jpg|Alanbritom|CC BY-SA 2.0
+event-rapanui-initial-settlement|=0
+event-roman-conquest-sardinia|3e|Roman bridge of Turris Libisonis, Porto Torres, Sardinia (16556322768).jpg|Carole Raddato from FRANKFURT, Germany|CC BY-SA 2.0
+event-roman-conquest-sardinia|f3|1385 - Ancient Roman cippus - Museo Archeologico, Cagliari - Photo by Giovanni Dall'Orto, November 11 2016.jpg|G.dallorto|Attribution
+event-roman-conquest-sardinia|4c|Anfiteatro Romano di Cagliari.jpg|Ariosa1959|CC BY-SA 4.0
+event-industrial-revolution|=0
+event-industrial-revolution|=1
+event-world-war-one|54|Bundesarchiv Bild 183-R25206, Berlin, Erster Sold nach der Mobilmachung.jpg|UnknownUnknown|CC BY-SA 3.0 de
+event-world-war-one|=1
+event-world-war-two|=1
+event-italian-republic-referendum|=0
+event-italian-republic-referendum|90|Referendum 1946 Cassazione.jpg|Unknown authorUnknown author|Public domain
+event-italian-republic-referendum|=1
+event-urbanizzazione-di-uruk|=1
+event-urbanizzazione-di-uruk|a2|British Museum Middle east 14022019 Beveled rim bowl Nineveh Late Uruk Period 3672.jpg|Vassil|CC0
+event-urbanizzazione-di-uruk|=0
+event-unificazione-dellegitto|be|Narmer Palette.jpg|anonymous|Public domain
+event-unificazione-dellegitto|cf|Limestone head of a king. Thought by Petrie to be Narmer. Bought by Petrie in Cairo, Egypt. 1st Dynasty. The Petrie Museum of Egyptian Archaeology, London.jpg|Osama Shukir Muhammed Amin FRCP(Glasg)|CC BY-SA 4.0
+event-unificazione-dellegitto|fe|King Narmer.jpg|Unknown authorUnknown author|Public domain
+event-regno-di-hammurabi-a-babilonia|=1
+event-regno-di-hammurabi-a-babilonia|c3|Votive monument to Hammurabi BM 22454 n01.jpg|Marie-Lan Nguyen|CC BY 2.5
+event-regno-di-hammurabi-a-babilonia|e8|Prologue Hammurabi Code Louvre AO10237.jpg|Marie-Lan Nguyen|Public domain
+event-impero-neo-assiro|88|AssyrianWarship.jpg|No machine-readable author provided. World Imaging assumed (based on copyright c|CC BY-SA 3.0
+event-impero-neo-assiro|=0
+event-impero-neo-assiro|=1
+event-riforme-di-clistene-ad-atene|ce|2006 01 21 Athènes Parthénon.JPG|Harrieta171|CC BY-SA 3.0
+event-riforme-di-clistene-ad-atene|=0
+event-riforme-di-clistene-ad-atene|e8|Ostraka against Themistocles, 482 BC, Agora Museum Athens, 080635.jpg|Zde|CC BY-SA 4.0
+event-unificazione-della-cina-sotto-qin|3f|CMOC Treasures of Ancient China exhibit - stone slab with twelve small seal characters.jpg|Editor at Large|CC BY-SA 2.5
+event-unificazione-della-cina-sotto-qin|=0
+event-nascita-ed-espansione-dellislam|=0
+event-impero-mongolo|=0
+event-impero-mongolo|=2
+event-impero-mongolo|=1
+event-caduta-di-costantinopoli|e2|Le siège de Constantinople (1453) by Jean Le Tavernier after 1455.jpg|Pataliputra! (Wikimedia Commons)|Public domain
+event-caduta-di-costantinopoli|7c|Benjamin-Constant-The Entry of Mahomet II into Constantinople-1876.jpg|Jean-Joseph Benjamin-Constant|Public domain
+event-caduta-di-costantinopoli|93|Conquest of Constantinople, Zonaro.jpg|Fausto Zonaro|Public domain
+event-riforma-protestante-e-guerre-di-religione|=1
+event-riforma-protestante-e-guerre-di-religione|=0
+event-riforma-protestante-e-guerre-di-religione|50|02017 0052 Das Erbe der Reformation im Ostmitteleuropa, Teschener Schlesien, Bielsko-Biała.jpg|Silar|CC BY-SA 4.0
+event-tratta-atlantica-degli-schiavi|f2|Burning of a Village in Africa, and Capture of its Inhabitants (p.12, February 1859, XVI) - Copy.jpg|Wesleyan Juvenile Offering|Public domain
+event-tratta-atlantica-degli-schiavi|82|Slaveshipposter.jpg|Plymouth Chapter of the Society for Effecting the Abolition of the Slave Trade|Public domain
+event-tratta-atlantica-degli-schiavi|=2
+event-dichiarazione-dindipendenza-degli-stati-uniti|=0
+event-dichiarazione-dindipendenza-degli-stati-uniti|=1
+event-dichiarazione-dindipendenza-degli-stati-uniti|39|Independence Hall.jpg|Rdsmith4|CC BY-SA 2.5
+event-rivoluzione-haitiana|=2
+event-rivoluzione-haitiana|=0
+event-rivoluzione-haitiana|=1
+event-indipendenze-dellamerica-latina|=1
+event-indipendenze-dellamerica-latina|=2
+event-indipendenze-dellamerica-latina|=0
+event-guerre-delloppio|=1
+event-guerre-delloppio|=0
+event-guerre-delloppio|=2
+event-espansione-coloniale-europea-in-africa|=0
+event-espansione-coloniale-europea-in-africa|=1
+event-espansione-coloniale-europea-in-africa|44|Dellepiane-exposition-nationale-coloniale-1906.jpg|David Dellepiane|Public domain
+event-rivoluzione-russa|=1
+event-rivoluzione-russa|=2
+event-rivoluzione-russa|=0
+event-indipendenza-dellindia-e-partizione|95|Indiantroops medical ww1.jpg|Ariel Varges|Public domain
+event-indipendenza-dellindia-e-partizione|cb|A refugee special train at Ambala Station during partition of India.jpg|Photo Division, Government of India|Public domain
+event-indipendenza-dellindia-e-partizione|94|Partition of Punjab, India 1947.jpg|Unknown authorUnknown author|Public domain
+event-shang-oracle|8b|Shang dynasty inscribed scapula.jpg|Cold Season (Wikimedia Commons)|CC BY-SA 3.0
+event-shang-oracle|c9|Orakelknochen.JPG|Shizhao (Wikimedia Commons)|CC BY-SA 3.0
+event-shang-oracle|=1
+event-buddha|=0
+event-buddha|=1
+event-buddha|=2
+event-confucius|=0
+event-confucius|4f|Louvre Conseil Etat Confucius.jpg|Boubloub|CC BY-SA 4.0
+event-confucius|0d|First Entrance Gate of the Temple of Confucius, Ching-hai.jpg|Thomas Allom|Public domain
+event-persian-wars|=1
+event-persian-wars|c4|Greek-Persian duel 1.jpg|Unknown|CC0
+event-persian-wars|=0
+event-alexander-campaigns|84|Alexander the Great mosaic (cropped).jpg|Unknown authorUnknown author|Public domain
+event-alexander-campaigns|1f|Mid-nineteenth century reconstruction of Alexander's catafalque based on the description by Diodorus.jpg|Unknown authorUnknown author|Public domain
+event-alexander-campaigns|c1|Charles Le Brun - Entry of Alexander into Babylon.JPG|Charles Le Brun|Public domain
+event-ashoka-edicts|=2
+event-ashoka-edicts|4d|Ashoka Lauriya Areraj inscription.jpg|Sachin kumar tiwary|CC BY-SA 3.0
+event-ashoka-edicts|=0
+event-pompeii|ec|Karl Brullov - The Last Day of Pompeii - Google Art Project.jpg|Karl Bryullov|Public domain
+event-pompeii|bc|Pompeii Garden of the Fugitives 02.jpg|Lancevortex|CC BY-SA 3.0
+event-pompeii|f5|Aerial image of Pompeii and Mount Vesuvius (view from the southeast).jpg|Carsten Steger|CC BY-SA 4.0
+event-constantinople-found|1c|Walls of Constantinople.JPG|en:User:Bigdaddy1204|CC BY-SA 3.0
+event-constantinople-found|=1
+event-constantinople-found|=0
+event-western-rome-end|=0
+event-baghdad-founded|47|Tigris River in Baghdad (2016).jpg|Chairman of the Joint Chiefs of Staff from Washington D.C, United States|CC BY 2.0
+event-baghdad-founded|51|Baghdad-Zumurrud-Khaton.jpg|American Colony (Jerusalem). Photo Dept., photographer.|Public domain
+event-baghdad-founded|0f|Bagdad-sat.JPG|NASA|Public domain
+event-house-wisdom|=0
+event-mali-mansa|=0
+event-mali-mansa|05|Kanga Moussa Atlas Catalan.jpg|Cresques Abraham|Public domain
+event-black-death|b3|The Triumph of Death by Pieter Bruegel the Elder.jpg|Pieter Bruegel the Elder|Public domain
+event-black-death|=0
+event-black-death|a7|Nuremberg chronicles - Dance of Death (CCLXIIIIv).jpg|Michael Wolgemut|Public domain
+event-zheng-he|=0
+event-zheng-he|28|Admiral Zhenghe.jpg|jonjanego|CC BY 2.0
+event-zheng-he|=1
+event-gutenberg|ae|Metal movable type.jpg|Willi Heidelbach|CC BY 2.5
+event-gutenberg|=0
+event-gutenberg|0b|Ceramic type 02.jpg|Gemena|CC BY-SA 3.0
+event-1492|=0
+event-1492|05|Ridolfo del Ghirlandaio - Ritratto di Cristoforo Colombo (1520).jpg|Ridolfo del Ghirlandaio|Public domain
+event-1492|ce|ColombusNotesToMarcoPolo.jpg|Marco Polo with handwritten notes and sketches by Christopher Columbus|Public domain
+event-1521-tenochtitlan|=0
+event-1521-tenochtitlan|03|La pelea en Tacuba durante la batalla de Colhuacatonco & la evacuación de Tenochtitlan, en los folios 23v & 24r.jpg|Unknown authorUnknown author|Public domain
+event-1521-tenochtitlan|=1
+event-1533-inca|=1
+event-1533-inca|39|Inca-Spanish confrontation.JPG|Girolamo Benzoni / Theodor de Bry|Public domain
+event-1533-inca|=0
+event-copernicus|e8|De Revolutionibus manuscript p9b.jpg|Nicolaus Copernicus|Public domain
+event-copernicus|=0
+event-copernicus|80|De revolvtionibvs orbium coelestium 1566 (99146257) (cropped).jpg|Nicolaus Copernicus|Public domain
+event-galileo|d4|Justus Sustermans - Portrait of Galileo Galilei, 1636.jpg|Justus Sustermans|Public domain
+event-galileo|bd|Galileo before the Holy Office.jpg|Joseph-Nicolas Robert-Fleury|Public domain
+event-galileo|7a|Galileo moon phases.jpg|Galileo Galilei|Public domain
+event-royal-society|=0
+event-royal-society|6a|Royal Society entrance.jpg|Tom Morris|CC BY-SA 3.0
+event-royal-society|9c|Royal Society (Great Britain)-2.jpg|Royal Society (Great Britain)|Public domain
+event-newton-principia|3b|Portrait of Sir Isaac Newton, 1689.jpg|Godfrey Kneller|Public domain
+event-newton-principia|=0
+event-newton-principia|e9|Principia Mathematica 1713.JPG|Station1|CC BY 4.0
+event-industrial-steam|80|Steam engine Zeche Muttental.jpg|Stahlkocher|CC BY-SA 3.0
+event-industrial-steam|07|Dampfma gr.jpg|Original uploader was Ulrich.fuchs|Public domain
+event-industrial-steam|=1
+event-french-revolution|=0
+event-french-revolution|6c|Declaration of the Rights of Man and of the Citizen in 1789.jpg|Pyb (Wikimedia Commons)|Public domain
+event-french-revolution|4e|Prise de la Bastille.jpg|Jean-Pierre Houël|Public domain
+event-darwin-origin|=0
+event-darwin-origin|=1
+event-darwin-origin|fb|On the origin of species by means of natural selection OR the preservation of favoured races in the struggle for life, 2nd edition. By Chalres Darwin, John Murray, London, 1860. National Museum of Scotland.jpg|Osama Shukir Muhammed Amin FRCP(Glasg)|CC BY-SA 4.0
+event-meiji|de|Emperor Meiji by Takahashi Yuichi.jpg|Takahashi Yuichi (1828-1894)|Public domain
+event-meiji|=0
+event-meiji|87|The New fighting the Old in early Meiji Japan circa 1870.jpg|Unknown Japanese artist|Public domain
+event-periodic-table|=0
+event-periodic-table|dc|Tavolaper.jpg|Omar il fichissimo|Public domain
+event-moon-landing|=1
+event-moon-landing|16|Apollo 11 Launch - GPN-2000-000630.jpg|NASA|Public domain
+event-moon-landing|6f|Apollo 11 Flown Silver Robbins Medallion (SN-416).jpg|Struck by Robbins Company for NASA|Public domain
+event-berlin-wall|=0
+event-berlin-wall|d4|Crane removed part of Wall Brandenburg Gate.jpg|SSGT F. Lee Corkran|Public domain
+event-berlin-wall|d7|Bundesarchiv Bild 183-1989-1110-018, Berlin, Checkpoint Charlie, Nacht des Mauerfalls.jpg|Klaus Oberst|CC BY-SA 3.0 de
+event-web|=0
+event-web|=1
+event-rapanui-moai-tradition|a2|Moai Rano raraku.jpg|Aurbina|Public domain
+event-rapanui-moai-tradition|40|Rano Raraku quarry.jpg|Rivi|CC BY-SA 3.0
+event-rapanui-moai-tradition|8d|Unfertiger Moai.jpg|Rennboot|CC BY-SA 3.0 de
+event-rapanui-birdman-cult|=1
+event-rapanui-birdman-cult|=0
+event-rapanui-unesco-listing|=0
+event-rapanui-unesco-listing|7b|Rano-Kau-Crater-Gap-2013.jpg|Bjørn Christian Tørrissen|CC BY-SA 3.0
+event-rapanui-unesco-listing|6c|Piedra en rapa nui.jpg|Jdiazacu|CC BY-SA 4.0
+event-rapanui-rongorongo-dating-2024|=0
+event-rapanui-rongorongo-dating-2024|=1
+event-rapanui-rongorongo-dating-2024|8c|Rongo rongo expedición Haedo.jpg|Jefes rapanui - Rapanui chiefs|Public domain
+event-bandung-conference|=1
+event-bandung-conference|=0
+event-bandung-conference|b7|Ethel Lois Payne press pin Asian-African Conference 1955.jpg|Anacostia Community Museum, Smithsonian Institution|CC0
+event-neolithic-fertile-crescent|=0
+event-green-sahara-pastoralism|fd|Tassili Desert Algeria.jpg|magharebia|CC BY 2.0
+event-green-sahara-pastoralism|=1
+event-green-sahara-pastoralism|e8|Tassili Sahara 74.jpg|Septfontaine|CC BY-SA 3.0
+event-neolithic-europe|6b|Néolithique 0001.jpg|Hohum (Wikimedia Commons)|CC BY-SA 2.5
+event-neolithic-europe|f1|Clay vase with polychrome decoration, Dimini, Magnesia, Late or Final Neolithic (5300-3300 BC).jpg|Gary Todd|CC0
+event-neolithic-europe|=0
+event-neolithic-revolution-world|=0
+event-neolithic-revolution-world|=1
+event-classical-athens|=0
+event-classical-athens|=1
+event-classical-athens|3e|1868 Lawrence Alma-Tadema - Phidias Showing the Frieze of the Parthenon to his Friends.jpg|Lawrence Alma-Tadema|Public domain
+event-second-temple-destruction|=1
+event-second-temple-destruction|cd|Second Temple.jpg|Ariely|CC BY 3.0
+event-second-temple-destruction|47|David Roberts - The Siege and Destruction of Jerusalem by the Romans Under the Command of Titus, A.D. 70.jpg|David Roberts|Public domain
+event-warring-states|80|Warring States Traction Trebuchet Model.jpg|Flickr user Gary Todd|CC BY-SA 4.0
+event-warring-states|=0
+event-warring-states|d3|Cavalry and Horse Warring States period 475-221 BCE Terracotta Warriors 2013 exhibit at San Francisco's Asian Art Museum 20130320-110726 C4A.jpg|Charlie & Melody Wambeke|CC BY-SA 2.0
+event-indian-ocean-monsoon-trade|=0
+event-indian-ocean-monsoon-trade|=2
+event-indian-ocean-monsoon-trade|=1
+event-justinian|=0
+event-justinian|22|Hagia Sophia Mars 2013.jpg|Arild Vågen|CC BY-SA 3.0
+event-justinian|e2|Haga Sofia RB5.jpg|Radomil (Wikimedia Commons)|CC BY-SA 3.0
+event-vikings|78|Viking attack on Guérande, from a Saint-Aubin MS.jpg|Abbey of Saint-Aubin|Public domain
+event-vikings|=0
+event-vikings|=1
+event-arab-conquest-north-africa|31|Grande Mosquée de Kairouan, vue d'ensemble.jpg|weetoon66|CC BY-SA 2.0
+event-arab-conquest-north-africa|4e|Der blaue Koran,Kairouan.JPG|Unknown artistUnknown artist|Public domain
+event-arab-conquest-north-africa|66|Q.islamisierte Säule.JPG|Orientalist|CC BY-SA 3.0
+event-heian-japan|=0
+event-heian-japan|=1
+event-battle-of-talas|4c|Talas River.jpg|upyernoz|CC BY 2.0
+event-classic-maya-collapse|=0
+event-plague-of-justinian|92|Plaguet03.jpg|Josse Lieferinxe|Public domain
+event-crusades|2b|Seventh crusade.jpg|Guillaume de Saint-Pathus, Vie et miracles de Saint Louis|Public domain
+event-crusades|=0
+event-crusades|5a|Albigensian Crusade 01.jpg|Chroniques de Saint-Denis|Public domain
+event-university-bologna|e7|Archiginnasio ora blu Bologna.jpg|Wwikiwalter|CC BY-SA 4.0
+event-university-bologna|47|Universität Bologna Deutsche Nation.jpg|Stefan Bernd (Wikimedia Commons)|Public domain
+event-university-bologna|=0
+event-magna-carta|=1
+event-magna-carta|0c|Magna-carta-1225-C6257-03.jpg|Original, 13th centry royal scribe; photograph by British Library|Public domain
+event-magna-carta|=0
+event-hundred-years-war|=0
+event-fall-of-granada|31|La Rendición de Granada - Pradilla.jpg|Francisco Pradilla y Ortiz|Public domain
+event-fall-of-granada|de|Dawn Charles V Palace Alhambra Granada Andalusia Spain.jpg|Jebulon|CC0
+event-fall-of-granada|cf|Alhambra evening panorama Mirador San Nicolas sRGB-1.jpg|Slaunger|CC BY-SA 3.0
+event-marco-polo|b0|Marco Polo Mosaic from Palazzo Tursi.jpg|Salviati|Public domain
+event-marco-polo|a8|Marco Polo traveling.JPG|Unknown authorUnknown author|Public domain
+event-marco-polo|3d|Marco Polo - costume tartare.jpg|Giovanni Grevembroch|Public domain
+event-ibn-battuta|a4|Bust of Ibn Battuta at Ibn Battuta museum.jpg|Ideophagous|CC BY-SA 4.0
+event-ibn-battuta|ec|Historic copy of selected parts of the Travel Report by Ibn Battuta, 1836 CE, Cairo.jpg|Osama Shukir Muhammed Amin FRCP(Glasg)|CC BY-SA 4.0
+event-ibn-battuta|=0
+event-portuguese-african-voyages|2e|Ignoto portoghese, ritratto di un cavaliere dell'ordine di cristo, 1525-50 ca. 02.jpg|Sailko|CC BY 3.0
+event-portuguese-african-voyages|=0
+event-portuguese-african-voyages|=1
+event-thirty-years-war|=0
+event-louis-xiv|5f|Louis XIV of France.jpg|Hyacinthe Rigaud|Public domain
+event-louis-xiv|f1|Chateau Versailles Galerie des Glaces.jpg|Myrabella|CC BY-SA 3.0
+event-louis-xiv|e1|Louis XIV of France and his family attributed to Nicolas de Largillière.jpg|Formerly attributed to Nicolas de Largillière|Public domain
+event-peter-the-great|d6|Inconnu d'après J.-M. Nattier, Portrait de Pierre Ier (musée de l’Ermitage).jpg|Attributed to Jean-Marc Nattier|Public domain
+event-peter-the-great|50|Peter the Great Interrogating the Tsarevich Alexei Petrovich.jpg|Nikolai Ge|Public domain
+event-peter-the-great|=1
+event-suleiman|=0
+event-suleiman|=2
+event-suleiman|f2|Tughra Suleiman.jpg|Thadswanek, taken from here (uploaded by Pagan)|Public domain
+event-isfahan-shah-abbas|b2|Isfahan Royal Mosque general.JPG|Patrickringgenberg|CC BY-SA 3.0
+event-isfahan-shah-abbas|87|Naghsh-e-jahan masjed-e-shah esfahan.jpg|Citypeek (Wikimedia Commons)|CC BY-SA 2.5
+event-isfahan-shah-abbas|=0
+event-diriyah-pact|a3|Diriyahpic.jpg|Petrovic-Njegos at English Wikipedia|CC BY 2.5
+event-diriyah-pact|fb|Diriyyah2.JPG|Xristoph|CC BY-SA 3.0
+event-diriyah-pact|73|Diriyah6.jpg|Matti&Keti|CC0
+event-ottoman-conquest-egypt|=0
+event-ottoman-conquest-egypt|f6|Early 16th century Ottoman volley gun.jpg|PHGCOM|Public domain
+event-ottoman-conquest-egypt|1a|Ottoman helmet made in Saint Irene arsenal Constantinople circa 1520.jpg|World Imaging|CC BY-SA 3.0
+event-queen-njinga|=1
+event-queen-njinga|=0
+event-queen-njinga|be|Nzingambande.jpg|Erik Cleves Kristensen|CC BY 2.0
+event-cape-colony|=0
+event-cape-colony|=1
+event-cape-colony|97|Aernout Smit Table Bay, 1683 William Fehr Collection Cape Town.jpg|Aernout Smit|Public domain
+event-akbar|=0
+event-akbar|b5|Fatehput Sikiri Buland Darwaza gate 2010.jpg|Marcin Białek|CC BY-SA 3.0
+event-akbar|d1|Jesuits at Akbar's court.jpg|Eugene a (Wikimedia Commons)|Public domain
+event-unification-japan|=0
+event-unification-japan|=1
+event-imjin-war|ec|Siege-of-Busanjin-1592.jpg|Unknown authorUnknown author|Public domain
+event-imjin-war|=0
+event-imjin-war|=1
+event-matteo-ricci|=0
+event-matteo-ricci|=1
+event-matteo-ricci|8f|Matteo Ricci 2.jpg|Unknown authorUnknown author|Public domain
+event-sakoku|ce|Japanese 1854 print Commodore Perry.jpg|Unknown authorUnknown author|Public domain
+event-sakoku|=0
+event-sakoku|85|First Japanese treatise on Western anatomy.jpg|The original uploader was PHG at English Wikipedia.|Public domain
+event-russian-siberia|=0
+event-spanish-manila|=1
+event-spanish-manila|=2
+event-spanish-manila|=0
+event-voc-batavia|4a|Vereenigde Oostindische Compagnie spiegelretourschip Amsterdam replica.jpg|McKarri|CC BY-SA 3.0
+event-voc-batavia|ef|Andries Beeckman - The Castle of Batavia.jpg|Andries Beeckman|Public domain
+event-voc-batavia|45|Batavia - Townhall 1770.jpg|Hullie (Wikimedia Commons)|Public domain
+event-st-augustine|c6|Castillo de San Marcos Fort Panorama 1.jpg|“Jon Zander (Digon3)”|CC BY-SA 3.0
+event-st-augustine|=0
+event-st-augustine|5c|Castillo de San Marcos.jpg|National Park Service|Public domain
+event-jamestown|c4|Thanksgiving at Plymouth, 1925, Brownscombe.jpg|Jennie Augusta Brownscombe|Public domain
+event-jamestown|=1
+event-jamestown|29|Houghton STC 22790 - Generall Historie of Virginia, New England, and the Summer Isles, John Smith.jpg|Book by Capt. John Smith, engraver uncertain|Public domain
+event-new-amsterdam|=1
+event-new-amsterdam|=2
+event-new-amsterdam|=0
+event-yucatan-conquest|=0
+event-yucatan-conquest|90|Murales Rivera - Ausbeutung durch die Spanier 1.jpg|Wolfgang Sauber|CC BY-SA 3.0
+event-yucatan-conquest|62|Dzibilchaltún - Spanish Church - P1110771.JPG|User:Vmenkov|CC BY-SA 3.0
+event-caribbean-sugar|=0
+event-caribbean-sugar|=1
+event-potosi-silver|15|Vista de la Villa Imperial de Potosí.jpg|Parallelepiped09|CC BY-SA 4.0
+event-potosi-silver|=0
+event-potosi-silver|f3|Potosi1.jpg|User:Gerd Breitenbach|CC BY-SA 3.0
+event-jesuit-reductions|=0
+event-jesuit-reductions|0d|Jesuit Mission - Alta Gracia - Argentina 03.jpg|Adam Jones Adam63|CC BY-SA 3.0
+event-jesuit-reductions|57|Iglesia Jesuita de Concepcion Santa Cruz Bolivia.jpg|Carlos Correa Loyola from Loja, Ecuador|CC BY 2.0
+event-tasman-voyages|f0|Abel Tasman Navigateur en Australie (cropped).jpg|Unknown authorUnknown author|Public domain
+event-tasman-voyages|7a|Tasman-dagboek-a.jpg|Isaack Gilsemans|Public domain
+event-tasman-voyages|08|Portrait of Abel Tasman, his wife and daughter (adjusted).jpg|Jacob Gerritsz. Cuyp|Public domain
+event-magellan-elcano|=0
+event-magellan-elcano|=1
+event-magellan-elcano|b0|Sabrosa- Casa de Fernão Magalhães.jpg|Zeferros|CC BY-SA 4.0
+event-manila-galleons|c9|Manilajf9742 16.JPG|Ramon FVelasquez|CC BY-SA 3.0
+event-manila-galleons|97|Galeon Andalucia.jpg|Calapito|CC BY 3.0
+event-napoleon|50|Jacques-Louis David - The Emperor Napoleon in His Study at the Tuileries - Google Art Project.jpg|Jacques-Louis David|Public domain
+event-napoleon|b8|Napoleons retreat from Moscow by Adolph Northen.jpg|Adolph Northen|Public domain
+event-napoleon|44|Bouchot - Le general Bonaparte au Conseil des Cinq-Cents.jpg|François Bouchot|Public domain
+event-congress-vienna|=0
+event-congress-vienna|77|Wiener Kongress Abschlussdokument 2.JPG|Thomas Ledl|CC BY-SA 4.0
+event-congress-vienna|ba|Medaille Wiener Kongress.jpg|D.j.mueller 20:34, 27 March 2008 (UTC)|CC BY-SA 3.0
+event-1848-revolutions|=0
+event-1848-revolutions|=1
+event-1848-revolutions|94|Praha Revolution 1848.jpg|AndreasPraefcke (Wikimedia Commons)|Public domain
+event-german-unification|cd|Image Germania (painting).jpg|Attributed to Philipp Veit|Public domain
+event-german-unification|ca|Koblenz im Buga-Jahr 2011 - Deutsches Eck 01.jpg|Holger Weinandt|CC BY-SA 3.0 de
+event-german-unification|=0
+event-risorgimento|=1
+event-young-turks|=0
+event-young-turks|=2
+event-young-turks|=1
+event-napoleon-egypt|=0
+event-napoleon-egypt|4d|Débarquement de Napoléon en Egypte juillet 1798, Musée de la révolution française - Vizillejpg.jpg|Desaux/Allart J.|CC BY-SA 4.0
+event-napoleon-egypt|=1
+event-muhammad-ali-egypt|=1
+event-muhammad-ali-egypt|21|Interview with Mehemet Ali in his Palace at Alexandria, by David Roberts and Louis Hague.jpg|David Roberts / Louis Haghe|Public domain
+event-muhammad-ali-egypt|=0
+event-french-algeria|=0
+event-french-algeria|d0|Bombardement d'Alger - 1830 (cropped) (cropped2).jpg|Antoine Léon Morel-Fatio|Public domain
+event-french-algeria|1a|Ottoman cannon end of 16th century length 385cm cal 178mm weight 2910 stone projectile founded 8 October 1581 Alger seized 1830.jpg|PHGCOM|CC BY-SA 3.0
+event-battle-adwa|=0
+event-battle-adwa|ce|COLLECTIE TROPENMUSEUM De slag bij Adua TMnr 5956-2.jpg|The Northaptonshire pins (Wikimedia Commons)|CC BY-SA 3.0
+event-battle-adwa|0b|Avanti i mei alpini Adua.jpg|R. Miseno|Public domain
+event-plassey|=0
+event-plassey|=1
+event-plassey|87|The Nawab's artillery at Plassey.jpg|Richard Caton Woodville Jr.|Public domain
+event-indian-rebellion-1857|8a|The Indian Mutiny 1857-1859 Q69824.jpg|Felice Beato|Public domain
+event-indian-rebellion-1857|=1
+event-indian-rebellion-1857|=0
+event-indian-national-congress|fa|First meeting session of the Indian National Congress in Bombay, 1885.jpg|Unknown authorUnknown author|Public domain
+event-taiping|=0
+event-taiping|3c|Naval battle between Taiping-Qing on Yangtze.jpg|http://www.huanghuagang.org/hhgMagazine/issue12/big5/21.htm|Public domain
+event-taiping|55|Qing ambush Taiping Army at Wangjiakou 1854.jpg|Unknown. Probably commisioned by Tianjing merchants as a souvenir to Prince Sang|Public domain
+event-perry-japan|=0
+event-perry-japan|8f|Brooklyn Museum - Commodore Matthew Perry's "Black Ship".jpg|Unknown authorUnknown author|No restrictions
+event-perry-japan|9a|Perry-Zyourikukinenhi1.JPG|のりまき|CC BY 3.0
+event-first-sino-japanese-war|b2|Sino Japanese war 1894.jpg|Oomoto (1894)|Public domain
+event-first-sino-japanese-war|ce|Battle of Pyongyang by Mizuno To.jpg|Toshikata Mizuno|Public domain
+event-first-sino-japanese-war|6d|ChineseTing-yuen.jpg|Hohum (Wikimedia Commons)|Public domain
+event-xinhai-revolution|=0
+event-xinhai-revolution|=1
+event-great-game|=1
+event-great-game|3c|Great Game cartoon from 1878.jpg|(First uploaded by Tombseye at en.wikipedia; cartoon is by Sir John Tenniel (182|Public domain
+event-great-game|=0
+event-russian-central-asia|de|Russians entering khiva 1873 (cropped).jpg|Nikolay Karazin|Public domain
+event-russian-central-asia|9e|High Asia Mountain Ranges.jpg|Hindu_Kush_satellite_image.jpg: Jeff Schmaltz, MODIS Land Rapid Response Team at|Public domain
+event-russian-central-asia|=0
+event-siam-reforms|84|The Equestrian Statue of King Chulalongkorn Rama V the Great.JPG|Mirage Strike|CC BY-SA 4.0
+event-us-constitution|9d|Scene at the Signing of the Constitution of the United States.jpg|Howard Chandler Christy|Public domain
+event-us-constitution|c7|Constitution of the United States - DPLA - 9ca804144bd5965e992ae3528bc3c6a3 (page 1).jpg|Constitutional Convention|Public domain
+event-us-constitution|0d|Constitution We the People.jpg|Constitution_Pg1of4_AC.jpg: Constitutional Convention derivative work: Bluszczok|Public domain
+event-trail-of-tears|ed|TrailofTearsMemorial-3.jpg|http://en.wikipedia.org/wiki/User:Cculber007|Public domain
+event-california-gold-rush|0d|California Clipper 500.jpg|- G.F. Nesbitt & Co., printer|Public domain
+event-california-gold-rush|=0
+event-california-gold-rush|=2
+event-american-civil-war|9c|Anti Civil War Draft Rioters in Lexington Avenue New York 1863.jpg|Great riots : the great riots of New York City the Railroad riots of 1877. [s.n.|Public domain
+event-american-civil-war|=0
+event-canadian-confederation|0a|Fathers of Confederation LAC c001855.jpg|Photographer: James Ashfield|Public domain
+event-seven-years-war-america|a0|La Galissonière-French school 18th century img 3172.jpg|Antoine Graincourt|Public domain
+event-seven-years-war-america|2a|Indians ambush British at Battle of the Monongahela.jpg|Internet Archive Book Images|No restrictions
+event-seven-years-war-america|ed|Conference Between the French and Indian Leaders Around a Ceremonial Fire by Vernier.jpg|Émile Louis Vernier|Public domain
+event-mexican-independence|5a|Acta Independencia Mexico 1821.jpg|Hpav7|Public domain
+event-mexican-independence|=0
+event-caste-war-yucatan|=0
+event-caste-war-yucatan|28|Views on and of Yucatan - A typical field of henequen (cropped 1911).jpg|Case, Henry A|Public domain
+event-caste-war-yucatan|=1
+event-mexican-revolution|b7|Monumento a la Revolución 1.jpg|Haakon S. Krohn|CC BY-SA 3.0
+event-mexican-revolution|=1
+event-bolivar-gran-colombia|5f|Portrait of Simón Bolívar by Arturo Michelena.jpg|Arturo Michelena|Public domain
+event-bolivar-gran-colombia|18|Matrimonio de Simón Bolívar by Tito Salas, 1921.jpg|Tito Salas, photography by Santy cardenas|Public domain
+event-bolivar-gran-colombia|=1
+event-paraguayan-war|f5|Paraguayan POW and Brazilian soldiers.jpg|Bate & Cia.|Public domain
+event-paraguayan-war|f4|Paraguayan refugees from the town of San Pedro.jpg|Unknown authorUnknown author|Public domain
+event-paraguayan-war|=1
+event-cook-voyages|=0
+event-cook-voyages|=1
+event-cook-voyages|21|Zoffany Death of Captain Cook.jpg|Johann Zoffany|Public domain
+event-australia-colonization|=1
+event-australia-colonization|59|The First Fleet entering Port Jackson, January 26, 1788, drawn 1888 A9333001h.jpg|E. Le Bihan|Public domain
+event-australia-colonization|71|Cape Town 1787, SLNSW FL1113866.jpg|William Bradley|Public domain
+event-treaty-waitangi|=0
+event-treaty-waitangi|=1
+event-treaty-waitangi|b0|Busby's residence Treaty House, Waitangi, East.jpg|Winstonwolfe at English Wikipedia|CC BY-SA 3.0
+event-abolition-slavery|=0
+event-abolition-slavery|ff|Abolition of Slavery The Glorious 1st of August 1838.jpg|Unknown authorUnknown author|Public domain
+event-abolition-slavery|49|Abolición de la esclavitud Venezuela.jpg|Unknown unknownUnknown unknown|Public domain
+event-mass-migration|08|Ellis island 1902.jpg|Unknown authorUnknown author|Public domain
+event-mass-migration|=1
+event-mass-migration|cc|Ellis island air photo.jpg|WikiPedant (Wikimedia Commons)|Public domain
+event-fascism-italy|1d|Illustrazione Italiana 1922 - Sul ponte Salario.jpg|Unknown authorUnknown author|Public domain
+event-fascism-italy|=1
+event-fascism-italy|e1|1922 Roma Tevere.jpg|Unknown authorUnknown author|Public domain
+event-nazi-germany|=1
+event-nazi-germany|=0
+event-holocaust|=2
+event-holocaust|=1
+event-holocaust|=0
+event-spanish-civil-war|ca|Bundesarchiv Bild 183-H25224, Guernica, Ruinen.jpg|Unknown authorUnknown author|CC BY-SA 3.0 de
+event-spanish-civil-war|7e|Bundesarchiv Bild 183-2006-1204-510, Spanien, Schlacht um Guadalajara.jpg|Studnitz, von H.G.|CC BY-SA 3.0 de
+event-spanish-civil-war|e4|Bundesarchiv Bild 183-2006-1204-513, Spanien, Schlacht um Guadalajara.jpg|Studnitz, von H.G.|CC BY-SA 3.0 de
+event-treaties-of-rome|fd|Museos Capitolinos, Roma, Italia, 2022-09-16, DD 86-88 HDR.jpg|Diego Delso|CC BY-SA 4.0
+event-treaties-of-rome|8b|Affiche traité de Rome 60 ans sur le Berlaymont.jpg|Masterdeis|CC BY-SA 4.0
+event-ussr-dissolution|=1
+event-turkish-republic|fe|Mustafa Kemal Ataturk Reforma Mex D.F.jpg|Sarumo74|CC BY-SA 4.0
+event-israel-1948|99|Israel ind mus.JPG|Amit A.|Public domain
+event-opec|=0
+event-opec|73|OPEC headquarters.jpg|Priwo|Public domain
+event-opec|42|Wien - OPEC-Zentrale (b).JPG|C.Stadler/Bwag|CC BY-SA 4.0
+event-iranian-revolution|=0
+event-suez-crisis|=0
+event-suez-crisis|8d|Suez Canal, Port Said - ISS 2.jpg|NASA astronaut|Public domain
+event-suez-crisis|44|Suez Sea Venom.jpg|Royal Navy official photographer|Public domain
+event-algerian-war|c0|Le barrage électrifié sur les frontières Est de l'Algérie.jpg|Unknown authorUnknown author|Public domain
+event-algerian-war|53|Cimetière des martyrs de la guerre d'indépendance à Bourokba.jpg|Saber68|CC BY-SA 3.0
+event-arab-spring|=1
+event-arab-spring|=0
+event-ghana-independence|4a|Independence Arch - Accra, Ghana1.jpg|George Appiah|CC BY 2.0
+event-ghana-independence|=1
+event-apartheid|=0
+event-apartheid|a0|Apartheid-signs-trainstation.jpg|Ernest Cole|Public domain
+event-apartheid|60|Boycott Apartheid Bus, London, UK. 1989.jpg|rahuldlucca (R. Barraez D´Lucca from Carracas, Venezuela)|CC BY 2.0
+event-rwanda-genocide|f0|Rwandan refugee camp in east Zaire.jpg|CDC|Public domain
+event-salt-march|ee|Vedaranyam salt march, April 1930.jpg|Unknown authorUnknown author|Public domain
+event-salt-march|1a|The attack of the tigress of India on Dharsana's salt factory.jpg|Unknown authorUnknown author|Public domain
+event-salt-march|29|Salt March 2005 stampsheet of India.jpg|India Post, Government of India|GODL-India
+event-bangladesh-independence|=0
+event-hiroshima-nagasaki|=0
+event-hiroshima-nagasaki|a0|Hiroshima aftermath.jpg|U.S. Navy Public Affairs Resources Website|Public domain
+event-hiroshima-nagasaki|e0|Atombombe Little Boy 2.jpg|Unknown authorUnknown author|Public domain
+event-korean-war|=0
+event-korean-war|=1
+event-korean-war|f9|02 Dad in action april1952 Korea sepia.jpg|Ian Chappell Mackley (1928–2016)|Public domain
+event-deng-reforms|=0
+event-deng-reforms|=2
+event-deng-reforms|=1
+event-japan-economic-miracle|bb|842b Ginza, Tokyo, Japan 1971 (51421452983).jpg|wilford peloquin|CC BY 2.0
+event-japan-economic-miracle|=0
+event-soviet-afghan-war|6c|Mortar attack on Shigal Tarna garrison, Kunar Province, 87.jpg|erwinlux|CC BY-SA 3.0
+event-soviet-afghan-war|=1
+event-soviet-afghan-war|82|BMD-1 in Afghanistan.jpg|Darz Mol~commonswiki (Wikimedia Commons)|Public domain
+event-vietnam-war|fc|VietnamMural.jpg|Department of Defense. Department of the Navy. U.S. Marine Corps. James K. F. Du|Public domain
+event-vietnam-war|a3|F-105Ds 34th TFS drop bombs on Vietnam.jpg|USAF|Public domain
+event-vietnam-war|d0|Vietnamese refugees on US carrier, Operation Frequent Wind.jpg|Jbarta (Wikimedia Commons)|Public domain
+event-asean|7d|ASEAN HQ 1.jpg|Gunawan Kartapranata|CC BY-SA 3.0
+event-asean|=0
+event-asean|e0|Jakarta Welcome ASEAN Delegates Billboard.jpg|Gunawan Kartapranata|Public domain
+event-khmer-rouge|3d|Khmer rouge clothing.jpg|Toony|CC BY-SA 3.0
+event-khmer-rouge|5d|Main building of Extraordinary Chambers in the Courts of Cambodia.jpg|Henning Blatt|CC BY-SA 3.0
+event-khmer-rouge|=0
+event-great-depression|=0
+event-great-depression|=1
+event-civil-rights|=0
+event-september-11|35|WTC smoking on 9-11.jpeg|Flickr user Michael Foran|CC BY 2.0
+event-september-11|=0
+event-september-11|e5|North face south tower after plane strike 9-11.jpg|Robert on Flickr|CC BY-SA 2.0
+event-cuban-missile-crisis|9d|Soviet-R-12-nuclear-ballistic missile.jpg|Central Intelligence Agency|Public domain
+event-cuban-missile-crisis|21|SA-2 Launch sites in Cuba.jpg|unknown/U.S. Air Force photo|Public domain
+event-cuban-missile-crisis|=1
+event-zapatista-uprising|6c|Ejército Zapatista de Liberación Nacional IMG008a-sm (11450146613).jpg|Julian Stallabrass from London, UK|CC BY 2.0
+event-zapatista-uprising|=1
+event-zapatista-uprising|f6|Zapatista sign.jpg|Paolo Massa ('phauly')|CC BY-SA 2.0
+event-peronism|0a|Congreso Argentino durante la asunción de Cámpora (1973).jpg|Unknown authorUnknown author|Public domain
+event-brasilia|=0
+event-brasilia|30|0741 NOV B 05 Esplanada dos Ministerios Brasilia DF 03 09 1959.jpg|Unknown authorUnknown author|CC BY 3.0
+event-brasilia|46|Brasília, Brasil.jpg|FML (Wikimedia Commons)|Public domain
+event-chile-coup-1973|=0
+event-chile-coup-1973|c6|Estadio nacional-Chile.jpg|Usuario Patricio Mecklenburg (Metronick)|CC BY-SA 3.0
+event-chile-coup-1973|ef|M41 walker bulldog de la caballería blindada Chilena.jpg|@goodvibes11111|CC BY-SA 4.0
+event-pacific-nuclear-tests|=0
+event-pacific-nuclear-tests|21|Crossroads baker explosion.jpg|U.S. Army Photographic Signal Corps|Public domain
+event-pacific-nuclear-tests|48|Crossroads Radioactive Puffy Surgeon Fish.jpg|Anonymous military photographer|Public domain
+event-spanish-flu|20|Emergency hospital during Influenza epidemic, Camp Funston, Kansas - NCP 1603.jpg|Otis Historical Archives, National Museum of Health and Medicine|Public domain
+event-spanish-flu|ee|Reconstructed Spanish Flu Virus.jpg|Photo Credit: Cynthia Goldsmith Content Providers(s): CDC/ Dr. Terrence Tumpey/|Public domain
+event-spanish-flu|98|USCampHospital45InfluenzaWard.jpg|Uncredited U.S. Army photographer|Public domain
+event-united-nations|ea|United Nations Headquarters in New York City, view from Roosevelt Island.jpg|Neptuul|CC BY-SA 3.0
+event-united-nations|05|UN General Assembly hall.jpg|Patrick Gruban, cropped and downsampled by Pine|CC BY-SA 2.0
+event-united-nations|=0
+event-cold-war|=1
+event-covid19|=1
+event-covid19|2e|Covid-19 São Paulo - Cemiterios.jpg|Gustavo Basso|CC BY-SA 4.0
+event-covid19|=0
+event-pachacuti|=0
+event-pachacuti|68|Pachacuteckoricancha.jpg|Chronicler Martín of Murúa (Cronista Martín de Murúa)|Public domain
+event-pachacuti|0f|PachacutecIXinca.jpg|Cuzco School|Public domain
+event-meridian-conference|6b|Greenwich observatory laser.jpg|en:User:Markhamilton|Public domain
+event-meridian-conference|6e|Prime-meridian.jpg|Takasunrise0921|CC BY 2.5
+event-meridian-conference|79|Greenwichmer1.jpg|The original uploader was Jckcip at English Wikipedia.|CC BY 2.5
+event-new-deal|=0
+event-new-deal|=1
+event-carta-de-logu|=0
+event-carta-de-logu|=1
+event-copan-dynasty|f0|Copán Ballcourt.jpg|Adalberto Hernandez Vega from Copan Ruinas, Honduras|CC BY 2.0
+event-copan-dynasty|=2
+event-copan-dynasty|24|Copan St H.jpg|HJPD|CC BY 3.0
+event-bonampak-murals|=1
+event-bonampak-murals|64|Zona arqueologica Bonampak 01 ID ZA30 DBannasch.jpg|Dbannasch|CC BY-SA 4.0
+event-bonampak-murals|=2
+event-landa-mani|=0
+event-landa-mani|e3|2002.12.30 24 Church Maní Yucatan Mexico.jpg|Hermann Luyken|CC BY-SA 3.0
+event-landa-mani|93|Merida - Fresken Pacheco 14 Diego de Landa.jpg|Wolfgang Sauber|CC BY-SA 3.0
+event-hoa-hakananaia|=1
+event-hoa-hakananaia|a4|Hoa hakananai.jpg|Rapanui people|CC BY 3.0
+event-hoa-hakananaia|02|Sketches by Lt. Colin Dundas, when moai Hoa Hakananai'a was on board HMS Topaze in 1868.jpg|Lt. Colin Dundas RN|Public domain
+event-routledge-expedition|c7|Schiff Routledge.jpg|Unknown authorUnknown author|Public domain
+event-routledge-expedition|=1
+event-spedizione-mille|=0
+event-spedizione-mille|82|Nodari Giuseppe, I mille attraversano il ponte Ammiraglio di Palermo.jpg|Giuseppe Nodari|Public domain
+event-costituzione-italiana|=0
+event-costituzione-italiana|b2|Liberti Italia 1861.jpg|Giovanni Lista|Public domain

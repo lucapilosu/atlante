@@ -1,5 +1,13 @@
 # Registro delle versioni
 
+## v0.54 · 20 novembre 2026
+
+- **Foto più viste, con soggetti diversi.** Per ogni voce le candidate vengono dalle pagine di Wikipedia collegate (italiano, inglese, spagnolo, francese, tedesco) e dall’immagine della voce su Wikidata; per ciascuna si è letto quante volte è stata vista negli ultimi 12 mesi (novembre 2025 – ottobre 2026, statistiche Wikimedia). La prima foto è la più vista; la seconda e la terza sono le più viste di soggetto diverso, a meno che una foto dello stesso soggetto sia vista più di 10 volte tanto (criterio di Luca). Il soggetto si riconosce da ciò che la foto «raffigura» su Commons o dal nome del file, poi con un controllo a occhio. Esempio: Chichén Itzá ora ha El Castillo (circa 8,4 milioni di visualizzazioni in un anno), il campo del gioco della pelota e lo tzompantli; l’osservatorio non era tra le candidate.
+- **Controllo di tutte le foto.** Viste tutte una per una e controllati i nomi dei file. Scartate: mappe e schemi; foto di altri soggetti con lo stesso nome (per esempio il gioco awalé per la cultura Wari); foto di persone reali riconoscibili, compresi i personaggi pubblici (restano dipinti, sculture, monete e francobolli); immagini violente o mediche.
+- **Numeri.** 400 voci su 437 hanno foto (erano 381), 1.065 foto in tutto (erano 776): 522 confermate dalla v0.52, 543 nuove, 254 tolte (sostituite da foto più viste, oppure mappe, doppioni dello stesso soggetto e ritratti fotografici di personaggi pubblici come Karl Marx, Mao, Mussolini, Kennedy e Chruščëv). Sei voci restano senza foto perché tra le candidate c’erano solo ritratti o mappe: fondazione della Repubblica Popolare Cinese, Rivoluzione verde, Rivoluzione culturale, indipendenza dell’Indonesia, Rivoluzione cubana, Piano Condor. Il file cresce di circa 33 KB.
+- Strumenti in `tools/foto/`: `diff_v054.txt` (la selezione), `applica_selezione.py` (la applica a `data/atlante.json`), `selezione_v054.tsv` (elenco completo).
+- Test di regressione: 101 controlli, tutti superati.
+
 ## v0.53 · 20 novembre 2026
 
 - **Ricerca da tastiera (PC).** Nella ricerca di Esplora le frecce ↑ ↓ ← → si muovono tra i risultati (disposti su due colonne), Invio apre la scheda, Esc chiude l’elenco; Invio senza frecce apre il primo risultato. Finché nessun risultato è evidenziato, ← e → spostano il cursore nel testo. ↑ ↓ e Invio funzionano anche nelle caselle di Contemporanei, Tecnologia e Confronto.
