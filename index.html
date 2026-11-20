@@ -531,6 +531,15 @@ body[data-view="confronto"] .time-dock{display:none!important} /* v0.50: nel Con
 body[data-view="contemporanei"] .time-dock{display:none!important} /* v0.51: Contemporanei parte da una voce, non da un anno: spostare l’anno non cambiava niente (confermato da Luca) */
 /* v0.52: la rotella sopra l’Universo fa scorrere la pagina (prima il riquadro la tratteneva) */
 .universe-viewport{overscroll-behavior-y:auto!important}
+/* v0.52 · Universo: Finestra e Temi nella stessa barra sopra il riquadro (i pulsanti non si spostano più); su PC la barra resta in alto */
+.uv-bar .uv-controls{margin:6px 0 8px}
+.uv-bar .uv-legend{display:flex;flex-wrap:wrap;align-items:center;gap:5px;margin:0}
+.uv-bar .uv-recenter{margin-left:auto}
+html body .uv-legend .uv-all{font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px!important;background:transparent!important;color:var(--t-ink,#dcecef)!important;border:1px dashed var(--t-border,#315363)!important;box-shadow:none!important;transform:none!important}
+html body .uv-legend .uv-all:disabled{opacity:.4;cursor:default}
+html:not(.touch-ui) .universe-panel{overflow:clip}
+html:not(.touch-ui) .uv-bar{position:sticky;top:0;z-index:6;margin:0 -8px;padding:0 8px;border-radius:0 0 12px 12px;background:var(--t-surface,#0d202b)}
+html:not(.touch-ui) .uv-bar.stuck{box-shadow:0 6px 14px #0007}
 /* v0.52 · Contemporanei: dove sta la voce nel tempo e scala delle barrette */
 .contemp-when{margin-top:10px}
 .cw-track{position:relative;height:32px;border-radius:7px;overflow:hidden;background:color-mix(in srgb,var(--t-ink,#dcecef) 6%,transparent)}
@@ -743,13 +752,12 @@ body.themed .compare-foot{color:var(--t-muted)!important}
 <div class="view" id="view-universo" data-view="universo" hidden><section class="panel universe-panel" id="universoPanel">
   <div class="universe-head"><div><div class="eyebrow">Vista d’insieme</div><h2>Universo storico</h2></div><div class="universe-status" id="universeStatus">Preparazione della vista…</div></div>
   <p class="small universe-intro">Una riga per area del mondo; il tempo scorre in orizzontale e segue la barra dell’anno. Trascina per esplorare, tocca una voce per il riepilogo.</p>
-  <div class="uv-controls"><div class="uv-scale" role="group" aria-label="Ampiezza della finestra temporale"><span class="uv-scale-label">Finestra</span><button type="button" data-universe-span="100">100 anni</button><button type="button" data-universe-span="500">500</button><button type="button" data-universe-span="2000">2.000</button><button type="button" data-universe-span="full">Tutto</button></div><button type="button" id="universeCenter" class="uv-recenter" hidden>⟲ Torna all’anno</button></div>
+  <div class="uv-bar" id="universeBar"><div class="uv-controls"><div class="uv-scale" role="group" aria-label="Ampiezza della finestra temporale"><span class="uv-scale-label">Finestra</span><button type="button" data-universe-span="100">100 anni</button><button type="button" data-universe-span="500">500</button><button type="button" data-universe-span="2000">2.000</button><button type="button" data-universe-span="full">Tutto</button></div><div class="uv-legend" id="universeLegend" role="group" aria-label="Temi: tocca per mostrarli o nasconderli"></div><button type="button" id="universeCenter" class="uv-recenter" hidden>⟲ Torna all’anno</button></div></div>
   <div class="universe-compare-strip" id="universeCompareStrip" hidden></div>
   <div class="universe-viewport" id="universeViewport" tabindex="0" aria-label="Universo storico: trascina in orizzontale per spostarti nel tempo">
     <div class="universe-canvas" id="universeCanvas"></div>
     <div class="universe-tooltip" id="universeTooltip" hidden></div>
   </div>
-  <div class="uv-legend" id="universeLegend" role="group" aria-label="Colori dei temi: tocca per mostrarli o nasconderli"><span class="uv-legend-cap">Temi</span></div>
 </section></div>
 <div class="view" id="view-confronto" data-view="confronto" hidden><section class="panel compare-panel" id="comparatore"><div class="topline"><div><div class="eyebrow">Confronto</div><h2>Dettagli del confronto</h2><div class="small">Caratteristiche, cronologie e relazioni delle voci che hai aggiunto da mappa, ricerca, schede o Universo (fino a 5).</div></div><div class="compare-actions"><span class="compare-count" id="compareCount">0 / 5 selezionati</span><button type="button" id="compareExample">Prova Maya · Inca · Egitto</button><button type="button" id="compareClear">Svuota confronto</button></div></div>
 <div class="compare-search-wrap"><input id="compareSearch" class="compare-search" type="search" placeholder="Cerca una civiltà, un evento, un luogo, un'invenzione…" autocomplete="off" aria-label="Cerca voci da confrontare"><div class="compare-results" id="compareResults" hidden></div></div>
@@ -1680,7 +1688,14 @@ function setUniverseZoom(next){universeSpan=Math.max(U_SPAN_MIN,Math.min(U_FULL,
 function uCenter(){universeFollow=true;uRender()}
 document.querySelectorAll('[data-universe-span]').forEach(b=>b.addEventListener('click',()=>setUniverseZoom(uSpanOf(b))));
 $('universeCenter')?.addEventListener('click',uCenter);
-function renderUniverseLegend(){const host=$('universeLegend');if(!host)return;host.innerHTML='<span class="uv-legend-cap">Temi · tocca per filtrare</span>'+U_LANES.map(l=>`<button type="button" data-ulane="${l.id}" aria-pressed="${universeVisible.has(l.id)}" title="${esc(l.label)}"><i class="u-swatch" style="background:${l.color}"></i>${esc(l.short)}</button>`).join('');host.querySelectorAll('[data-ulane]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.ulane;if(universeVisible.has(id)){if(universeVisible.size===1)return;universeVisible.delete(id)}else universeVisible.add(id);renderUniverseLegend();uRender()}))}
+(()=>{const bar=document.getElementById('universeBar');if(!bar||document.documentElement.classList.contains('touch-ui'))return;const f=()=>{const t=bar.getBoundingClientRect().top;bar.classList.toggle('stuck',t<=0.5&&currentView==='universo')};addEventListener('scroll',f,{passive:true})})();
+function renderUniverseLegend(){const host=$('universeLegend');if(!host)return;
+ // v0.52: i pulsanti non si ricostruiscono a ogni tocco (restano fermi e col fuoco); «Tutti» riaccende tutti i temi
+ if(!host.querySelector('[data-ulane]')){host.innerHTML='<span class="uv-legend-cap">Temi</span>'+U_LANES.map(l=>`<button type="button" data-ulane="${l.id}" aria-pressed="true" title="${esc(l.label)}"><i class="u-swatch" style="background:${l.color}"></i>${esc(l.short)}</button>`).join('')+'<button type="button" class="uv-all" data-ulane-all title="Mostra tutti i temi">Tutti</button>';
+  host.querySelectorAll('[data-ulane]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.ulane;if(universeVisible.has(id)){if(universeVisible.size===1)return;universeVisible.delete(id)}else universeVisible.add(id);renderUniverseLegend();uRender()}));
+  host.querySelector('[data-ulane-all]').addEventListener('click',()=>{U_LANES.forEach(l=>universeVisible.add(l.id));renderUniverseLegend();uRender()})}
+ host.querySelectorAll('[data-ulane]').forEach(b=>b.setAttribute('aria-pressed',String(universeVisible.has(b.dataset.ulane))));
+ const all=host.querySelector('[data-ulane-all]');if(all)all.disabled=universeVisible.size===U_LANES.length}
 renderUniverseLegend();
 // trascinamento orizzontale (sposta la finestra, non l’anno) e due dita per l’ampiezza
 let uPointers=new Map(),uFrame=0;

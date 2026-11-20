@@ -5,7 +5,8 @@
 - **Contemporanei: dove si colloca la voce.** Sotto il riepilogo, la durata della voce scelta è evidenziata sulle epoche della barra del tempo (stessa scala, non proporzionale). In cima alla lista c’è un righello con gli anni di inizio, di fine e qualche anno intermedio, allineato alle barrette delle righe; resta visibile mentre scorri la lista. Per scorrere nel tempo resta la vista Universo (scelta di Luca).
 - **Universo: la rotella fa scorrere la pagina.** Su PC, con il puntatore sopra le linee temporali la rotella non faceva più scorrere la pagina: il riquadro tratteneva lo scorrimento verticale. Ora la pagina scorre; lo scorrimento orizzontale (trackpad) e Ctrl + rotella per lo zoom restano come prima.
 - **Contemporanei: esempio «Han».** All’apertura gli esempi erano tre invece di quattro perché «Han» puntava a una voce inesistente; ora apre la dinastia Han.
-- Test di regressione: 88 controlli (nuovi T44 Contemporanei e T45 rotella nell’Universo).
+- **Universo: filtri dei temi più pratici.** Prima stavano sotto le linee temporali: spegnendo o riaccendendo un tema il riquadro cambiava altezza e i pulsanti si spostavano, anche fuori schermo. Ora i temi sono in una barra sopra il riquadro, accanto a «Finestra», e restano fermi a ogni tocco. Nuovo pulsante «Tutti» per riaccenderli in un tocco. Su PC la barra con Finestra e Temi resta in alto mentre scorri le righe; su telefono e tablet no, per non togliere spazio.
+- Test di regressione: 90 controlli (nuovi T44 Contemporanei, T45 rotella e T46 filtri dei temi nell’Universo).
 
 ## v0.51 · 19 novembre 2026
 

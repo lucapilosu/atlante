@@ -865,6 +865,31 @@ async def new_checks(p, R, mobile, name):
         await goto_view(p, "esplora")
         R.check("T45", "Universo (PC): la rotella del mouse sopra le linee temporali fa scorrere la pagina", hit45 and y45 > 300, f"puntatore sulle linee temporali {hit45}; pagina scesa di {y45} px")
 
+    # T46 Universo: temi sopra le linee temporali, fermi a ogni tocco; «Tutti» li riaccende; su PC la barra resta in alto
+    await goto_view(p, "universo")
+    await p.evaluate("document.getElementById('universeLegend').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
+    above46 = await p.evaluate("document.getElementById('universeLegend').getBoundingClientRect().bottom<=document.getElementById('universeViewport').getBoundingClientRect().top")
+    pos46, states46 = [], []
+    for i in [0, 1, 2, 0, 1, None]:
+        loc = p.locator("#universeLegend [data-ulane-all]") if i is None else p.locator("#universeLegend [data-ulane]").nth(i)
+        if mobile:
+            await loc.tap()
+        else:
+            await loc.click()
+        await p.wait_for_timeout(250)
+        pos46.append(round(await p.evaluate("document.getElementById('universeLegend').getBoundingClientRect().top")))
+        states46.append(await p.evaluate("[...document.querySelectorAll('#universeLegend [data-ulane]')].map(b=>b.getAttribute('aria-pressed')==='true'?1:0).join('')+(document.querySelector('[data-ulane-all]').disabled?'|off':'|on')"))
+    sticky46 = None
+    if not mobile:
+        await p.evaluate("scrollTo(0,700)"); await p.wait_for_timeout(250)
+        sticky46 = await p.evaluate("Math.round(document.getElementById('universeBar').getBoundingClientRect().top)")
+        await p.evaluate("scrollTo(0,0)")
+    await goto_view(p, "esplora")
+    ok46 = (above46 and max(pos46) - min(pos46) <= 1 and states46 == ["01111|on", "00111|on", "00011|on", "10011|on", "11011|on", "11111|off"]
+            and (mobile or sticky46 == 0))
+    R.check("T46", "Universo: temi sopra le linee temporali, fermi a ogni tocco; «Tutti» li riaccende; su PC la barra di Finestra e Temi resta in alto",
+            ok46, f"sopra {above46}; posizioni {pos46}; stati {states46}; barra dopo scorrimento {sticky46}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
