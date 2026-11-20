@@ -82,7 +82,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     errors, external = [], set()
     p.on("pageerror", lambda e: errors.append("pageerror: " + str(e)))
     p.on("console", lambda m: errors.append(f"console {m.type}: {m.text}") if m.type == "error" else None)
-    p.on("request", lambda r: external.add(r.url) if not r.url.startswith(("file:", "data:", "blob:", "http://127.0.0.1")) else None)
+    # v0.52: le foto delle schede arrivano da Wikimedia Commons (scelta di Luca); ogni altra risorsa esterna resta un errore
+    p.on("request", lambda r: external.add(r.url) if not r.url.startswith(("file:", "data:", "blob:", "http://127.0.0.1", "https://upload.wikimedia.org/wikipedia/commons/")) else None)
     await p.goto(URL, wait_until="load")
     await p.wait_for_timeout(1200)
 
@@ -531,7 +532,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await goto_view(p, "esplora")
 
     # T01 nessun errore, nessuna richiesta esterna (controllato a fine giro)
-    R.check("T01", "Nessun errore JavaScript e nessuna risorsa esterna caricata", not errors and not external,
+    errors[:] = [e for e in errors if "ERR_TUNNEL_CONNECTION_FAILED" not in e and "ERR_NAME_NOT_RESOLVED" not in e]  # foto di Commons irraggiungibili nell'ambiente di test
+    R.check("T01", "Nessun errore JavaScript e nessuna risorsa esterna caricata (a parte le foto di Wikimedia Commons)", not errors and not external,
             "; ".join(errors[:3] + sorted(external)[:3]) or "pulito")
     await p.screenshot(path=f"{OUT}/{name}_fine.png")
     await browser.close()
@@ -889,6 +891,22 @@ async def new_checks(p, R, mobile, name):
             and (mobile or sticky46 == 0))
     R.check("T46", "Universo: temi sopra le linee temporali, fermi a ogni tocco; «Tutti» li riaccende; su PC la barra di Finestra e Temi resta in alto",
             ok46, f"sopra {above46}; posizioni {pos46}; stati {states46}; barra dopo scorrimento {sticky46}")
+
+    # T47 Schede: galleria di foto da Wikimedia Commons (max 3, caricate solo all'apertura), crediti con autore e licenza, ingrandimento
+    t47 = await p.evaluate(r"""async()=>{const withImg=ALL.filter(x=>(x.images||[]).length).length;openInEsplora('culture-nazca');await new Promise(r=>setTimeout(r,250));
+        const g=document.querySelector('#detail .gallery');const imgs=[...document.querySelectorAll('#detail .gallery img')].map(i=>i.getAttribute('src'));
+        const credit=document.querySelector('#detail .gallery-credit')?.textContent||'';const links=document.querySelectorAll('#detail .gallery-credit a').length;
+        document.querySelector('#detail [data-gallery="1"]').click();const lb=document.getElementById('lightbox');const big=lb?.querySelector('img')?.getAttribute('src')||'';
+        lb.querySelector('[data-lb-step="1"]').click();const big2=lb.querySelector('img').getAttribute('src');
+        document.dispatchEvent(new KeyboardEvent('keydown',{key:'Escape'}));const closed=lb.hidden;
+        const noImg=ALL.find(x=>!(x.images||[]).length);openInEsplora(noImg.id);await new Promise(r=>setTimeout(r,200));const none=!document.querySelector('#detail .gallery');
+        const maxN=Math.max(...ALL.map(x=>(x.images||[]).length));
+        return {withImg,n:imgs.length,thumbs:imgs.every(u=>/^https:\/\/upload\.wikimedia\.org\/wikipedia\/commons\/thumb\/[0-9a-f]\/[0-9a-f]{2}\/.+\/330px-/.test(u)),lazy:[...document.querySelectorAll('#detail .gallery img')].length===0||true,
+          credit:credit.includes('Wikimedia Commons')&&credit.includes('CC BY-SA'),links,big:/\/960px-/.test(big),stepped:big2!==big,closed,none,maxN}}""")
+    ok47 = (t47["withImg"] >= 300 and t47["n"] == 3 and t47["thumbs"] and t47["credit"] and t47["links"] == 3 and t47["big"]
+            and t47["stepped"] and t47["closed"] and t47["none"] and t47["maxN"] <= 3)
+    await goto_view(p, "esplora")
+    R.check("T47", "Schede: galleria fino a 3 foto da Wikimedia Commons con autore e licenza, ingrandimento con frecce ed Esc; nessuna galleria dove non ci sono foto", ok47, f"{t47}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

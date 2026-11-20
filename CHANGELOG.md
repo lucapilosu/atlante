@@ -1,12 +1,13 @@
 # Registro delle versioni
 
-## v0.52 · in preparazione (ramo `v0.52`)
+## v0.52 · 20 novembre 2026
 
+- **Foto nelle schede.** 381 voci su 437 hanno da 1 a 3 foto da Wikimedia Commons (776 in tutto), scelte una per una: monumenti, reperti, opere e documenti dell’epoca; niente mappe, stemmi o immagini poco significative (dove non c’era niente di adatto la scheda resta senza foto). Le foto si scaricano solo quando apri una scheda; nel file ci sono soltanto nome, autore e licenza (il file cresce di circa 90 KB). Sotto la galleria ci sono autore e licenza di ogni foto con il collegamento alla pagina di Commons; toccando una foto si ingrandisce, con le frecce per passare alle altre. Senza connessione le foto non si vedono, il resto funziona come prima.
 - **Contemporanei: dove si colloca la voce.** Sotto il riepilogo, la durata della voce scelta è evidenziata sulle epoche della barra del tempo (stessa scala, non proporzionale). In cima alla lista c’è un righello con gli anni di inizio, di fine e qualche anno intermedio, allineato alle barrette delle righe; resta visibile mentre scorri la lista. Per scorrere nel tempo resta la vista Universo (scelta di Luca).
 - **Universo: la rotella fa scorrere la pagina.** Su PC, con il puntatore sopra le linee temporali la rotella non faceva più scorrere la pagina: il riquadro tratteneva lo scorrimento verticale. Ora la pagina scorre; lo scorrimento orizzontale (trackpad) e Ctrl + rotella per lo zoom restano come prima.
 - **Contemporanei: esempio «Han».** All’apertura gli esempi erano tre invece di quattro perché «Han» puntava a una voce inesistente; ora apre la dinastia Han.
 - **Universo: filtri dei temi più pratici.** Prima stavano sotto le linee temporali: spegnendo o riaccendendo un tema il riquadro cambiava altezza e i pulsanti si spostavano, anche fuori schermo. Ora i temi sono in una barra sopra il riquadro, accanto a «Finestra», e restano fermi a ogni tocco. Nuovo pulsante «Tutti» per riaccenderli in un tocco. Su PC la barra con Finestra e Temi resta in alto mentre scorri le righe; su telefono e tablet no, per non togliere spazio.
-- Test di regressione: 90 controlli (nuovi T44 Contemporanei, T45 rotella e T46 filtri dei temi nell’Universo).
+- Test di regressione: 92 controlli (nuovi T44 Contemporanei, T45 rotella e T46 filtri dei temi nell’Universo, T47 foto nelle schede; T01 ora ammette come unica risorsa esterna le foto di Wikimedia Commons).
 
 ## v0.51 · 19 novembre 2026
 

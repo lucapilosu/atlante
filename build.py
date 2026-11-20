@@ -40,6 +40,12 @@ def controlla(db):
                 avvisi.append(f"{v['id']}: collegamento a voce inesistente {r}")
         if not v.get("source_ids"):
             avvisi.append(f"{v['id']}: nessuna fonte")
+        # v0.52 · immagini da Wikimedia Commons: nome del file, cartella, autore e licenza obbligatori
+        for im in v.get("images") or []:
+            if not (im.get("f") and len(im.get("h", "")) == 2 and im.get("a") and im.get("l")):
+                errori.append(f"{v['id']}: immagine incompleta {im}")
+        if len(v.get("images") or []) > 3:
+            errori.append(f"{v['id']}: più di 3 immagini")
 
     # v0.47 · vista Tecnologia: ogni attestazione deve avere ambito, area, anni e fonti valide
     ambiti = {d["id"] for d in db.get("technology_domains", [])}
