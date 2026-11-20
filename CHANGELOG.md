@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## v0.53 · in preparazione (ramo `v0.53`)
+
+- **Ricerca da tastiera (PC).** Nella ricerca di Esplora, e nelle caselle di Contemporanei, Tecnologia e Confronto, ↑ e ↓ scorrono i risultati, Invio apre la scheda (o sceglie la voce), Esc chiude l’elenco. Invio senza frecce apre il primo risultato.
+- **Contemporanei: la mappa mostra tutto.** Arrivando da una voce selezionata in Esplora la mappa restava ingrandita su quella zona (per Roma 33 punti visibili su 69). Ora si adatta a tutti i punti delle voci contemporanee.
+- Test di regressione: 95 controlli (nuovi T48 ricerca da tastiera, T49 mappa di Contemporanei).
+
 ## v0.52 · 20 novembre 2026
 
 - **Foto nelle schede.** 381 voci su 437 hanno da 1 a 3 foto da Wikimedia Commons (776 in tutto), scelte una per una: monumenti, reperti, opere e documenti dell’epoca; niente mappe, stemmi o immagini poco significative (dove non c’era niente di adatto la scheda resta senza foto). Le foto si scaricano solo quando apri una scheda; nel file ci sono soltanto nome, autore e licenza (il file cresce di circa 90 KB). Sotto la galleria ci sono autore e licenza di ogni foto con il collegamento alla pagina di Commons; toccando una foto si ingrandisce, con le frecce per passare alle altre. Senza connessione le foto non si vedono, il resto funziona come prima.

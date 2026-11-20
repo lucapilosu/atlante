@@ -908,6 +908,27 @@ async def new_checks(p, R, mobile, name):
     await goto_view(p, "esplora")
     R.check("T47", "Schede: galleria fino a 3 foto da Wikimedia Commons con autore e licenza, ingrandimento con frecce ed Esc; nessuna galleria dove non ci sono foto", ok47, f"{t47}")
 
+    # T48 (PC) ricerca da tastiera: frecce per scorrere, Invio apre la scheda, Esc chiude
+    if not mobile:
+        await goto_view(p, "esplora")
+        await p.evaluate("()=>{const f=document.getElementById('search');f.value='';f.scrollIntoView({block:'center'})}")
+        await p.click("#search"); await p.keyboard.type("maya"); await p.wait_for_timeout(250)
+        await p.keyboard.press("ArrowDown"); await p.keyboard.press("ArrowDown"); await p.wait_for_timeout(80)
+        act48 = await p.evaluate("()=>document.querySelector('#searchPreview .kb-active')?.dataset.id||null")
+        await p.keyboard.press("Enter"); await p.wait_for_timeout(350)
+        sel48 = await p.evaluate("()=>[selected,document.getElementById('searchPreview').hidden]")
+        await p.click("#search"); await p.keyboard.type("roma"); await p.wait_for_timeout(200); await p.keyboard.press("Escape"); await p.wait_for_timeout(80)
+        esc48 = await p.evaluate("()=>document.getElementById('searchPreview').hidden")
+        await p.evaluate("()=>{const f=document.getElementById('search');f.value='';f.blur();renderSearchPreview()}")
+        ok48 = bool(act48) and sel48 == [act48, True] and esc48
+        R.check("T48", "Ricerca (PC): ↑/↓ scorrono i risultati, Invio apre la scheda, Esc chiude l’elenco", ok48, f"voce evidenziata {act48}; dopo Invio {sel48}; Esc {esc48}")
+
+    # T49 Contemporanei: arrivando da una voce ingrandita in Esplora, la mappa mostra tutti i punti contemporanei
+    t49 = await p.evaluate("""async()=>{openInEsplora('civilization-rome');await new Promise(r=>setTimeout(r,450));const z0=mapZoom;location.hash='#contemporanei';await new Promise(r=>setTimeout(r,800));
+        const f=contempFocus();const tot=ALL.filter(x=>x.map_geometry&&(x.id===f.id||overlapOf(x,f))).length;return [Math.round(z0*10)/10,document.querySelectorAll('#pins .map-marker').length,tot]}""")
+    await goto_view(p, "esplora")
+    R.check("T49", "Contemporanei: la mappa si allarga per mostrare tutti i punti delle voci contemporanee", t49[0] > 1.5 and t49[1] == t49[2], f"ingrandimento in Esplora {t49[0]}; punti visibili {t49[1]} su {t49[2]}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")

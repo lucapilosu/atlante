@@ -556,6 +556,7 @@ html:not(.touch-ui) .uv-bar.stuck{box-shadow:0 6px 14px #0007}
 .cr-in span.cr-t::after{content:"";position:absolute;left:50%;top:15px;height:4px;border-left:1px solid currentColor}
 .cr-cap{font-size:10.5px;color:var(--t-muted,#9bb0ba);margin-top:3px}
 .contemp-group{scroll-margin-top:36px}
+.kb-active{outline:2px solid var(--t-accent,#42d3ce)!important;outline-offset:-2px;background:color-mix(in srgb,var(--t-accent,#42d3ce) 14%,transparent)!important}
 /* v0.52 · galleria di immagini nelle schede (Wikimedia Commons, caricate solo all’apertura della scheda) */
 .gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:10px 0 4px}
 .gallery.n1{grid-template-columns:minmax(0,1fr)}.gallery.n2{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -1167,6 +1168,12 @@ function renderYear(){ $('yearLabel').textContent=fmt(chosenYear);if(typeof upda
 function renderAll(){renderYear();renderDetail();updateDetailPanel();renderPins();renderList();renderSearchPreview();renderCoverage();syncCompareTimelineYear(chosenYear)}
 $('yearRange').addEventListener('input',e=>{chosenYear=clampYear(Number(e.target.value));period=periodForYear(chosenYear);renderYear();renderPins();renderList();renderSearchPreview();syncCompareTimelineYear(chosenYear)});
 $('region').addEventListener('change',renderAll);$('type').addEventListener('change',renderAll);$('onlyActiveYear')?.addEventListener('change',()=>{renderList();renderSearchPreview()});$('search').addEventListener('input',()=>{renderSearchPreview();positionSearchPreview()});$('search').addEventListener('search',()=>{renderSearchPreview();positionSearchPreview()});$('archiveSearch')?.addEventListener('input',renderList);$('archiveEpoch')?.addEventListener('change',renderList);
+// v0.53 · ricerca da tastiera: ↑/↓ scorrono i risultati, Invio apre (o sceglie), Esc chiude
+function kbResults(input,box,itemSel,onEscape){if(!input||!box)return;input.setAttribute('aria-autocomplete','list');
+ input.addEventListener('keydown',e=>{const items=[...box.querySelectorAll(itemSel)];if(e.key==='Escape'){if(!box.hidden){e.preventDefault();box.hidden=true;onEscape&&onEscape()}return}
+  if(box.hidden||!items.length)return;let i=items.findIndex(b=>b.classList.contains('kb-active'));
+  if(e.key==='ArrowDown'||e.key==='ArrowUp'){e.preventDefault();i=e.key==='ArrowDown'?(i+1)%items.length:(i<=0?items.length-1:i-1);items.forEach((b,k)=>{b.classList.toggle('kb-active',k===i);b.setAttribute('aria-selected',String(k===i))});items[i].scrollIntoView({block:'nearest'})}
+  else if(e.key==='Enter'){e.preventDefault();(items[i]||items[0]).click()}})}
 function positionSearchPreview(){
  const box=$('searchPreview'),field=$('search');
  if(!box||box.hidden)return;
@@ -1376,7 +1383,7 @@ function showView(name,opts={}){
  document.querySelectorAll('[data-view-link]').forEach(a=>{const on=a.dataset.viewLink===name||(a.dataset.viewAlso||'').split(' ').includes(name);a.classList.toggle('active',on);if(on)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current')});
  closeMapPointPopup();placeMap();
  const intro=$('mapIntro');if(intro)intro.textContent=name==='contemporanei'?'Luoghi delle voci contemporanee a quella scelta. Tocca un punto per il riepilogo.':'Punti attivi nell’anno selezionato. Tocca un punto per il riepilogo.';
- if(name==='contemporanei'){if((changed||!contempFocusId)&&selected)contempFocusId=selected;contempOpenId=null;renderContemporanei();}
+ if(name==='contemporanei'){if((changed||!contempFocusId)&&selected)contempFocusId=selected;contempOpenId=null;renderContemporanei();fitMapToContemporaries();}
  if(name==='tecnologia'){if((changed||!techFocusId)&&selected)techFocusId=selected;techOpenId=null;renderTecnologia();}
  if(name==='confronto'){hideToast();renderComparator();}
  if(changed&&!opts.keepScroll)window.scrollTo(0,0);
@@ -1390,7 +1397,10 @@ window.addEventListener('popstate',()=>{const v=viewFromHash()||'esplora';if(v!=
 // v0.48: il Confronto ha una vista sua (#confronto)
 
 // ===== v0.45 · Contemporanei: chi è esistito durante la voce scelta =====
-function setContempFocus(id){const x=ALL.find(v=>v.id===id);if(!x)return;contempFocusId=id;selected=id;contempOpenId=null;contempExpanded={};const f=$('contempSearch');if(f)f.value='';const r=$('contempResults');if(r){r.hidden=true;r.innerHTML=''}mapZoom=1;mapCx=450;mapCy=225;renderContemporanei();renderAll();applyMapZoom();}
+function fitMapToContemporaries(){const f=contempFocus();if(!f)return;const pts=ALL.filter(x=>(x.id===f.id||overlapOf(x,f))&&x.map_geometry&&Number.isFinite(Number(x.map_geometry.longitude))&&Number.isFinite(Number(x.map_geometry.latitude))).map(x=>geoXY(Number(x.map_geometry.longitude),Number(x.map_geometry.latitude)));
+ if(!pts.length){mapZoom=1;mapCx=450;mapCy=225}else{const xs=pts.map(p=>p[0]),ys=pts.map(p=>p[1]);const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);const spanX=Math.max(250,maxX-minX),spanY=Math.max(150,maxY-minY);mapZoom=Math.max(1,Math.min(3.6,900/(spanX*1.12),450/(spanY*1.12)));mapCx=(minX+maxX)/2;mapCy=(minY+maxY)/2}
+ if(typeof mapBounds==='function')mapBounds();requestAnimationFrame(()=>applyMapZoom())}
+function setContempFocus(id){const x=ALL.find(v=>v.id===id);if(!x)return;contempFocusId=id;selected=id;contempOpenId=null;contempExpanded={};const f=$('contempSearch');if(f)f.value='';const r=$('contempResults');if(r){r.hidden=true;r.innerHTML=''}renderContemporanei();renderAll();fitMapToContemporaries();}
 function showOnMap(id){const x=ALL.find(v=>v.id===id);if(!hasPoint(x))return;const cx=(Number(x.map_geometry.longitude)+180)/360*900,cy=(90-Number(x.map_geometry.latitude))/180*450;if(mapZoom>1){mapCx=cx;mapCy=cy;applyMapZoom()}$('mappa')?.scrollIntoView({behavior:'smooth',block:'start'});requestAnimationFrame(()=>openMapPointPopup(x,cx,cy))}
 function renderContempSearch(){
  const box=$('contempResults'),q=($('contempSearch')?.value||'').trim();if(!box)return;
@@ -1592,6 +1602,8 @@ renderUniverseCompareStrip();
 applyMapZoom();
 renderFilters();renderAll();
 showView(viewFromHash()||'esplora',{keepScroll:true});
+kbResults($('search'),$('searchPreview'),'.search-hit',()=>{const b=$('searchPreview');b.innerHTML='';b.classList.remove('mobile-search-overlay')});
+kbResults($('contempSearch'),$('contempResults'),'[data-pick]');kbResults($('techSearch'),$('techResults'),'[data-tech-pick]');kbResults($('compareSearch'),$('compareResults'),'.compare-result');
 function refreshInitialVisuals(){
   scheduleMapPinsRender();
   requestAnimationFrame(()=>requestAnimationFrame(()=>{
