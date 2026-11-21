@@ -43,7 +43,7 @@ class Run:
         self.rows.append({"device": self.device, "code": code, "name": name,
                           "esito": ("OK" if ok else ("NOTO" if known else "FALLITO")), "dettaglio": detail})
 
-STYLES = ["moderno", "museo", "cartografo"]
+STYLES = ["ottanio", "museo", "cartografo"]
 
 async def year(p):
     return (await p.text_content("#yearLabel")).strip()
@@ -226,7 +226,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             c = await b.evaluate(JS_CONTRAST)
             if c["ratio"] < 4.5:
                 low.append(f"{pal}: '{c['text']}' {c['ratio']:.1f}:1")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`)?.click()")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='ottanio']`)?.click()")
     R.check("T06", "Pulsanti del popup leggibili (contrasto >= 4.5:1) in tutti gli stili", not low, "; ".join(low) or "tutti >= 4.5:1")
     await p.screenshot(path=f"{OUT}/{name}_popup.png")
 
@@ -410,14 +410,14 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.reload(wait_until="load"); await p.wait_for_timeout(800)
     pal = await p.evaluate("()=>document.body.dataset.palette")
     migr = {}
-    for old in ["notte", "pergamena", "deep", "sconosciuta"]:
+    for old in ["notte", "pergamena", "deep", "moderno", "sconosciuta"]:
         await p.evaluate("(n)=>localStorage.setItem('atlantePalette',n)", old)
         await p.reload(wait_until="load"); await p.wait_for_timeout(500)
         migr[old] = await p.evaluate("()=>document.body.dataset.palette")
-    R.check("T10", "Lo stile scelto resta dopo la ricarica; le vecchie palette passano a Contemporaneo morbido o Museo",
-            pal == "cartografo" and migr == {"notte": "moderno", "pergamena": "museo", "deep": "moderno", "sconosciuta": "moderno"},
+    R.check("T10", "Lo stile scelto resta dopo la ricarica; le vecchie scelte passano a Ottanio (Pergamena e Terracotta a Museo)",
+            pal == "cartografo" and migr == {"notte": "ottanio", "pergamena": "museo", "deep": "ottanio", "moderno": "ottanio", "sconosciuta": "ottanio"},
             f"stile dopo ricarica: {pal}; vecchie palette → {migr}")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`)?.click()")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='ottanio']`)?.click()")
 
     # T21 nessuna vista è più larga dello schermo (niente scorrimento orizzontale della pagina)
     wide = []
@@ -515,17 +515,17 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     R.check("T27", "Slider a tratti: epoche allineate ai blocchi, passo − / + per epoca (100, 10, 5, 1 anni)",
             ok27, f"scarto dai confini delle epoche {s27['off']} px; andata e ritorno errati {s27['trip']}; passi {s27['steps']}; con i pulsanti {y_a} → {y_b}")
 
-    # T28 stili: Contemporaneo morbido (predefinito), Museo, Cartografo — sostituiscono le palette
+    # T28 stili: Ottanio (predefinito, scuro), Museo, Cartografo
     pals = await p.evaluate("()=>[...document.querySelectorAll('.palette-choice')].map(b=>b.dataset.palette)")
     looks = {}
     for pal in pals:
         await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
         await p.wait_for_timeout(120)
         looks[pal] = await p.evaluate("()=>[document.body.classList.contains('themed'),document.body.classList.contains('theme-light'),getComputedStyle(document.body).getPropertyValue('--t-header').trim()+'|'+getComputedStyle(document.querySelector('h1')).fontFamily.split(',')[0]+'|'+getComputedStyle(document.querySelector('h1')).fontStyle,document.querySelector('meta[name=theme-color]')?.content]")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`).click()")
-    ok28 = (pals == STYLES and all(v[:2] == [True, True] for v in looks.values())
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='ottanio']`).click()")
+    ok28 = (pals == STYLES and looks["ottanio"][:2] == [False, False] and looks["museo"][:2] == [True, True] and looks["cartografo"][:2] == [True, True]
             and len({v[2] for v in looks.values()}) == 3 and len({v[3] for v in looks.values()}) == 3)
-    R.check("T28", "Stili: Contemporaneo morbido, Museo e Cartografo, ognuno con testata, caratteri e colore propri", ok28, f"{pals}; {looks}")
+    R.check("T28", "Stili: Ottanio (predefinito), Museo e Cartografo, ognuno con testata, caratteri e colore propri", ok28, f"{pals}; {looks}")
 
     # T29 Universo: una corsia per area, legenda dei temi, voci in eccesso raccolte in «altre»
     await goto_view(p, "universo"); await p.wait_for_timeout(300)
@@ -746,7 +746,7 @@ async def new_checks(p, R, mobile, name):
         if pal == "museo":
             await goto_view(p, "confronto"); await p.wait_for_timeout(200)
             await p.screenshot(path=f"{OUT}/{name}_confronto_museo.png", full_page=True)
-    await p.evaluate("()=>{document.querySelector(`.palette-choice[data-palette='moderno']`).click();compareIds.slice().forEach(id=>removeCompare(id))}")
+    await p.evaluate("()=>{document.querySelector(`.palette-choice[data-palette='ottanio']`).click();compareIds.slice().forEach(id=>removeCompare(id))}")
     R.check("T35", "Testo leggibile (contrasto ≥ 4.5:1) nei dettagli del confronto, nell'Universo e nella sintesi Tecnologia, in tutti gli stili",
             not low, "; ".join(low[:6]) or f"tutti ≥ 4.5:1")
     await goto_view(p, "esplora")
@@ -817,7 +817,7 @@ async def new_checks(p, R, mobile, name):
 
     # T42 «✓ Nel confronto» toccato di nuovo toglie la voce dal confronto: mappa (con tocco vero), scheda, «Nel mondo intorno», Universo
     await goto_view(p, "esplora")
-    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast();closeMapPointPopup()}")
+    await p.evaluate("()=>{compareIds.slice().forEach(id=>removeCompare(id));hideToast();closeMapPointPopup();closeDetail({instant:true})}")
     await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
     mk42 = p.locator("#pins .map-marker").first
     await tap(p, mk42, mobile); await p.wait_for_timeout(300)
@@ -860,9 +860,9 @@ async def new_checks(p, R, mobile, name):
         const out={sug,seg:!!seg&&seg.getBoundingClientRect().width>2&&seg.getBoundingClientRect().left>tr.getBoundingClientRect().left,on,
           aligned:!!ri&&!!bar&&Math.abs(ri.left-bar.left)<1.5&&Math.abs(ri.right-bar.right)<1.5,first:document.querySelector('.cr-in span')?.textContent,overlap};
         setContempFocus('event-caduta-di-costantinopoli');out.point=!!document.querySelector('.contemp-ruler .cr-cap')&&!!document.querySelector('.cw-seg');contempView='grafico';renderContemporanei();return out}""")
-    ok44 = (len(t44["sug"]) == 4 and t44["seg"] and t44["aligned"] and t44["first"] == "509 a.C." and not t44["overlap"]
+    ok44 = (1 <= len(t44["sug"]) <= 4 and t44["seg"] and t44["aligned"] and t44["first"] == "509 a.C." and not t44["overlap"]
             and t44["on"] == ["Antichità"] and t44["point"])
-    R.check("T44", "Contemporanei (vista Elenco): quattro esempi all’apertura; con una voce scelta, durata evidenziata sulle epoche e righello degli anni allineato alle barrette (anche per eventi puntuali)", ok44, f"{t44}")
+    R.check("T44", "Contemporanei (vista Elenco): fino a quattro esempi all’apertura, attivi nell’anno; con una voce scelta, durata evidenziata sulle epoche e righello degli anni allineato alle barrette (anche per eventi puntuali)", ok44, f"{t44}")
 
     # T45 Universo, solo PC: la rotella sopra le linee temporali fa scorrere la pagina
     if not mobile:
@@ -1009,18 +1009,25 @@ async def new_checks(p, R, mobile, name):
     ok54 = t54["allIc"] and len(t54["cats"]) == 7 and t54["sch"] and t54["selIc"] == 1 and t54["glyphs"] > 0 and t54["legend"] >= 3 and t54["hitIc"]
     R.check("T54", "Icone per tipologia nella scheda e nella ricerca; sui punti una forma per tipologia, icona piena sul punto aperto; legenda con le forme", ok54, f"{t54}")
 
-    # T55 fili verso le voci collegate: archi dal punto della scheda, solo in Esplora e solo a scheda aperta
-    t55 = await p.evaluate("""async()=>{openInEsplora('civilization-rome');await new Promise(r=>setTimeout(r,1400));
-        const x=ALL.find(v=>v.id==='civilization-rome');const P=y=>[(Number(y.map_geometry.longitude)+180)/360*900,(90-Number(y.map_geometry.latitude))/180*450];const [sx,sy]=P(x);
-        const exp=relatedForLinks(x).filter(y=>{const p=P(y);return Math.hypot(p[0]-sx,p[1]-sy)>2}).slice(0,14).length;
-        const arcs=[...document.querySelectorAll('#linksLayer path.link-arc')];const ends=document.querySelectorAll('#linksLayer circle.link-end').length;
-        const fromPin=arcs.every(a=>{const m=a.getAttribute('d').match(/^M([-\\d.]+) ([-\\d.]+)/);return m&&Math.abs(+m[1]-sx)<.01&&Math.abs(+m[2]-sy)<.01});
+    # T55 collegamenti a richiesta: nessun arco all'apertura; il pulsante della scheda li mostra tutti dentro la mappa; un estremo apre la sua voce
+    t55 = await p.evaluate("""async()=>{const w=ms=>new Promise(r=>setTimeout(r,ms));closeDetail({instant:true});openInEsplora('civilization-rome');await w(900);
+        const auto=document.querySelectorAll('#linksLayer path.link-arc').length,btn=document.getElementById('detailLinks'),label=btn?.textContent;
+        const x=ALL.find(v=>v.id==='civilization-rome'),exp=linkTargets(x).length,[sx,sy]=linkXY(x);
+        btn.click();await w(1500);
+        const vb=worldSvg.getAttribute('viewBox').split(' ').map(Number),arcs=[...document.querySelectorAll('#linksLayer path.link-arc')];
+        const nums=a=>a.getAttribute('d').match(/[-\\d.]+/g).map(Number);
+        const inside=arcs.every(a=>{const n=nums(a);return n[4]>=vb[0]&&n[4]<=vb[0]+vb[2]&&n[5]>=vb[1]&&n[5]<=vb[1]+vb[3]});
+        const fromPin=arcs.every(a=>{const n=nums(a);return Math.abs(n[0]-sx)<.01&&Math.abs(n[1]-sy)<.01});
         const drawn=arcs.every(a=>parseFloat(getComputedStyle(a).strokeDashoffset)<0.01);
-        const below=document.getElementById('linksLayer')?.nextElementSibling?.id==='pins';
-        closeDetail({instant:true});await new Promise(r=>setTimeout(r,250));const afterClose=document.querySelectorAll('#linksLayer path.link-arc').length;
-        return {exp,n:arcs.length,ends,fromPin,drawn,below,afterClose}}""")
-    ok55 = t55["exp"] > 0 and t55["n"] == t55["exp"] and t55["ends"] == t55["n"] and t55["fromPin"] and t55["drawn"] and t55["below"] and t55["afterClose"] == 0
-    R.check("T55", "Archi verso le voci collegate: partono dal punto della scheda, sotto i punti, spariscono alla chiusura", ok55, f"{t55}")
+        const bar=!document.getElementById('linksBar').hidden,sheetOpen=!document.getElementById('scheda').hidden,mobile=isCompact();
+        const hit=document.querySelector('#linksLayer .link-hit'),hid=hit?.dataset.id;hit?.dispatchEvent(new MouseEvent('click',{bubbles:true}));await w(500);
+        const after={sel:selected,arcs:document.querySelectorAll('#linksLayer path.link-arc').length,bar:!document.getElementById('linksBar').hidden};
+        closeDetail({instant:true});
+        return {auto,label,exp,n:arcs.length,inside,fromPin,drawn,bar,sheetOpen,mobile,hid,after}}""")
+    ok55 = (t55["auto"] == 0 and t55["exp"] > 0 and t55["label"] == f"Mostra i collegamenti · {t55['exp']}" and t55["n"] == t55["exp"] and t55["inside"]
+            and t55["fromPin"] and t55["drawn"] and t55["bar"] and t55["sheetOpen"] != t55["mobile"]
+            and t55["after"] == {"sel": t55["hid"], "arcs": 0, "bar": False})
+    R.check("T55", "Collegamenti solo a richiesta: «Mostra i collegamenti» disegna gli archi e la mappa li contiene tutti (su telefono la tendina si chiude); un estremo apre la sua voce", ok55, f"{t55}")
 
     # T56 tono della mappa secondo l'epoca dell'anno scelto (stessi confini della barra del tempo)
     t56 = await p.evaluate("""async()=>{const out=[];const r=document.getElementById('yearRange');
@@ -1043,6 +1050,60 @@ async def new_checks(p, R, mobile, name):
     await p.emulate_media(reduced_motion="no-preference")
     ok57 = t57["animOpen"] >= 1 and t57["settled"] and t57["closing"] and t57["closed"] and t57["pulse"] == 1 and t57r == {"anim": 0, "closedNow": True}
     R.check("T57", "Scheda: si apre dal punto della mappa (su telefono sale con un rimbalzo) e si chiude tornandoci; con «riduci movimento» è immediata", ok57, f"{t57}; riduci movimento {t57r}")
+
+    # T58 contesto comune tra le viste: anno e voce scelta restano coerenti passando da una vista all'altra
+    t58 = await p.evaluate("""async()=>{const w=ms=>new Promise(r=>setTimeout(r,ms));const yr=y=>{const r=document.getElementById('yearRange');r.value=y;r.dispatchEvent(new Event('input',{bubbles:true}))};
+        const view=v=>{location.hash='#'+v};const vbNow=()=>JSON.stringify([mapZoom,mapCx,mapCy].map(v=>+v.toFixed(2)));const out={};
+        view('esplora');await w(300);openInEsplora('civilization-rome');await w(500);closeDetail({instant:true});yr(1500);await w(200);
+        view('contemporanei');await w(500);out.cFocus=contempFocusId;
+        out.sugActive=[...document.querySelectorAll('#contempSummary [data-contemp-focus]')].map(b=>activeIn(ALL.find(x=>x.id===b.dataset.contempFocus)));
+        view('tecnologia');await w(500);out.tFocus=techFocusId;
+        view('contemporanei');await w(400);setContempFocus('state-carthage');await w(300);out.yearAfter=chosenYear;
+        view('esplora');await w(700);const vb=worldSvg.getAttribute('viewBox').split(' ').map(Number),c=ALL.find(x=>x.id==='state-carthage'),[cx,cy]=geoXY(+c.map_geometry.longitude,+c.map_geometry.latitude);
+        out.esplora={sel:selected,open:detailOpen,inView:cx>=vb[0]&&cx<=vb[0]+vb[2]&&cy>=vb[1]&&cy<=vb[1]+vb[3],active:activeIn(c)};
+        const z0=vbNow();view('contemporanei');await w(500);view('esplora');await w(500);out.sameView=z0===vbNow();
+        const z1=vbNow();addCompare('culture-maya');addCompare('state-carthage');hideToast();await w(200);removeCompare('state-carthage');await w(200);
+        out.cmp={sel:selected,sameView:z1===vbNow()};removeCompare('culture-maya');closeDetail({instant:true});
+        return out}""")
+    ok58 = (t58["cFocus"] is None and t58["sugActive"] and all(t58["sugActive"]) and t58["tFocus"] is None and t58["yearAfter"] != 1500
+            and t58["esplora"] == {"sel": "state-carthage", "open": True, "inView": True, "active": True} and t58["sameView"]
+            and t58["cmp"] == {"sel": "state-carthage", "sameView": True})
+    R.check("T58", "Viste coerenti: Contemporanei e Tecnologia ripartono dall’anno se la voce non è più attiva; una voce scelta lì sposta l’anno e si ritrova in Esplora; inquadratura e voce non cambiano per il confronto", ok58, f"{t58}")
+
+    # T59 storia di questo luogo: tieni premuto (telefono) o doppio clic (PC) su un punto vuoto; voci per epoca, al massimo 4, «+N altre»; mappa con le sole voci del luogo
+    await goto_view(p, "esplora")
+    await p.evaluate("()=>{const r=document.getElementById('yearRange');r.value=-16;r.dispatchEvent(new Event('input',{bubbles:true}));mapZoom=3;mapCx=(11+180)/360*900;mapCy=(90-40)/180*450;applyMapZoom();document.querySelector('#view-esplora .mapstage').scrollIntoView({block:'center'})}")
+    await p.wait_for_timeout(400)
+    gx, gy = await p.evaluate("()=>{const m=worldSvg.getScreenCTM(),pt=worldSvg.createSVGPoint();pt.x=(11+180)/360*900;pt.y=(90-40)/180*450;const q=pt.matrixTransform(m);return [q.x,q.y]}")
+    if mobile:
+        await p.evaluate("""([x,y])=>{const st=document.querySelector('.mapstage'),o={bubbles:true,pointerId:9,pointerType:'touch',clientX:x,clientY:y,isPrimary:true};st.dispatchEvent(new PointerEvent('pointerdown',o));setTimeout(()=>st.dispatchEvent(new PointerEvent('pointerup',o)),750)}""", [gx, gy])
+        await p.wait_for_timeout(1200)
+    else:
+        await p.mouse.dblclick(gx, gy); await p.wait_for_timeout(800)
+    t59 = await p.evaluate("""async()=>{const w=ms=>new Promise(r=>setTimeout(r,ms));const out={};
+        out.gesture=!!placeCtx&&Math.abs(placeCtx.lon-11)<1&&Math.abs(placeCtx.lat-40)<1&&!document.getElementById('scheda').hidden;
+        openPlaceStory(null,null,{lonlat:{lon:12.5,lat:41.9}});await w(400);
+        const secs=[...document.querySelectorAll('.place-epoch')];out.epochs=secs.map(s=>s.dataset.epoch);
+        out.max4=secs.every(s=>s.querySelectorAll('.place-row').length<=4);
+        const rows=[...document.querySelectorAll('.place-row')].map(b=>b.dataset.placeOpen);out.hasRome=rows.includes('civilization-rome')&&rows.includes('culture-etruscan');
+        const pins=new Set([...document.querySelectorAll('#pins .map-marker')].map(g=>g.dataset.id));const geoShown=placeCtx.shown.filter(id=>{const g=ALL.find(x=>x.id===id).map_geometry;return g&&Number.isFinite(Number(g.latitude))});
+        out.pinsMatch=pins.size>0&&[...pins].every(id=>placeCtx.shown.includes(id));
+        out.mark=!!document.getElementById('placeMark');
+        const more=document.querySelector('.place-more');out.more=more?.textContent;const sec=more?.closest('.place-epoch');const n0=sec?.querySelectorAll('.place-row').length;more?.click();await w(200);
+        const sec2=document.querySelector(`.place-epoch[data-epoch="${sec?.dataset.epoch}"]`);out.expanded=[n0,sec2?.querySelectorAll('.place-row').length,+(sec2?.querySelector('h3 span')?.textContent||0)];
+        document.querySelector('[data-place-mode="anno"]').click();await w(200);
+        out.anno=[...document.querySelectorAll('.place-row')].map(b=>ALL.find(x=>x.id===b.dataset.placeOpen)).every(x=>x.end_year>=chosenYear-50&&x.start_year<=chosenYear+50);
+        document.querySelector('[data-place-mode="tutte"]').click();await w(200);
+        document.querySelector('.place-row[data-place-open="culture-etruscan"]').click();await w(400);
+        out.opened={sel:selected,back:!!document.getElementById('placeBack'),place:!!placeCtx};
+        document.getElementById('placeBack').click();await w(300);out.back=!!placeCtx&&!!document.querySelector('.place-epoch');
+        closeDetail({instant:true});await w(200);out.closed=!placeCtx&&!document.getElementById('placeMark');
+        return out}""")
+    ok59 = (t59["gesture"] and t59["epochs"] and t59["epochs"] == [e for e in ["preistoria", "antichita", "medioevo", "moderna", "contemporanea"] if e in t59["epochs"]]
+            and t59["max4"] and t59["hasRome"] and t59["pinsMatch"] and t59["mark"] and bool(t59["more"])
+            and t59["expanded"][0] == 4 and t59["expanded"][1] == t59["expanded"][2] > 4 and t59["anno"]
+            and t59["opened"] == {"sel": "culture-etruscan", "back": True, "place": False} and t59["back"] and t59["closed"])
+    R.check("T59", "Storia di questo luogo: si apre tenendo premuto o con doppio clic; voci per epoca (al massimo 4, «+N altre»), solo quelle sulla mappa, «Intorno all’anno», ritorno dalla scheda", ok59, f"{t59}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

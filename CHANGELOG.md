@@ -1,5 +1,17 @@
 # Registro delle versioni
 
+## v0.57 · 21 novembre 2026
+
+- **Ottanio torna lo stile predefinito** (scuro, i colori caratteristici dell’Atlante), con Museo e Cartografo come alternative in Impostazioni → Aspetto. Contemporaneo morbido è tolto: chi lo aveva passa a Ottanio. Il tono della mappa per epoca vale anche in Ottanio.
+- **Collegamenti solo a richiesta.** Aprendo una scheda non compaiono più archi. Il pulsante «Mostra i collegamenti · N» nella scheda li disegna e adatta la mappa perché tutti gli archi arrivino dentro il riquadro (prima un arco poteva uscire dal bordo senza arrivare alla voce). Su telefono la tendina si chiude per lasciare vedere la mappa; una barra sulla mappa riapre la scheda o nasconde i collegamenti. Toccando l’estremo di un arco si apre quella voce.
+- **Contesto coerente tra le viste** (controllato con un giro automatico su tutte le viste):
+  - Contemporanei e Tecnologia partono dalla voce scelta solo se la sua scheda è aperta o se la voce è attiva nell’anno della barra del tempo; altrimenti propongono le voci attive in quell’anno (prima restava la voce vecchia, per esempio Roma con l’anno al 1500). Anche gli esempi iniziali di Contemporanei vengono dall’anno.
+  - Una voce scelta in Contemporanei o in Tecnologia vale per tutto l’atlante: se non è attiva nell’anno, l’anno si sposta come quando la si apre in Esplora, e tornando in Esplora si ritrova con la sua scheda.
+  - La mappa di Esplora ritrova la sua inquadratura dopo un passaggio in Contemporanei (che la allarga per mostrare tutti i contemporanei).
+  - Aggiungere o togliere voci dal confronto non cambia più la voce scelta in Esplora né l’inquadratura della mappa; l’area storica disegnata è sempre quella della voce scelta.
+- **Storia di questo luogo (prototipo).** Tieni premuto un punto della mappa di Esplora (su PC doppio clic), oppure «Storia di questo luogo» nel riepilogo di un punto: nella scheda compaiono le voci la cui zona copre quel punto, divise per epoca (le stesse della barra del tempo), al massimo 4 per epoca scelte per importanza e vicinanza, le altre in «+N altre». Ogni riga ha una piccola linea del tempo. Interruttore «Tutte le epoche» / «Intorno all’anno» (± 50 anni). Sulla mappa restano accese solo le voci del pannello. Dalla scheda di una voce si torna con «← Storia del luogo». La zona di una voce è la sua area storica dove c’è (Roma, Maya, Cristianesimo, Buddhismo), altrimenti un cerchio con raggio per tipologia: siti 50 km, eventi e invenzioni 200, culture 300, movimenti 400, stati 700, religioni 800, dinastie e imperi 1.000. Valori provvisori, da tarare provando.
+- Test di regressione: 115 controlli (T55 riscritto per i collegamenti a richiesta; nuovi T58 sulla coerenza tra le viste e T59 sulla storia del luogo; T10, T28 e T44 aggiornati).
+
 ## v0.56 · 21 novembre 2026
 
 - **Tre stili al posto delle palette.** In Impostazioni → Aspetto si sceglie tra **Contemporaneo morbido** (predefinito: chiaro, testata ottanio, angoli morbidi), **Museo** (carta avorio, titoli e testi con grazie, etichette bronzo, filetti sottili) e **Cartografo** (toni da carta geografica, titoli in corsivo, reticolo tratteggiato, filo colorato dell’area sul bordo della scheda). Cambia solo l’aspetto, non la struttura. Tolte Ottanio profondo, Pergamena, Notte stellata e Terracotta: chi le aveva scelte passa a Contemporaneo morbido (Pergamena e Terracotta a Museo). Per ora non c’è uno stile scuro.
