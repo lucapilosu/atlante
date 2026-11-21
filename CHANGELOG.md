@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## v0.58 · 21 novembre 2026
+
+- **Storia del luogo a strati.** Le epoche sono disegnate come strati di uno scavo archeologico: in alto il più recente («Oggi · superficie»), in basso il più antico («Più antico · in profondità»), con colori della terra che si scuriscono in profondità. Restano al massimo 4 voci per strato, «+N altre», l’interruttore «Intorno all’anno» e la mappa con le sole voci del luogo.
+- **Pulsante fisso «Storia di un luogo»** in alto a sinistra sulla mappa di Esplora: lo si tocca, poi si tocca un punto della mappa (Esc o un secondo tocco annullano). Il tieni premuto e il doppio clic restano. La frase sotto il titolo della mappa spiega i tre modi. Nessun fumetto.
+- Test: 117 controlli (nuovo T60; T59 aggiornato all’ordine degli strati).
+
 ## v0.57 · 21 novembre 2026
 
 - **Ottanio torna lo stile predefinito** (scuro, i colori caratteristici dell’Atlante), con Museo e Cartografo come alternative in Impostazioni → Aspetto. Contemporaneo morbido è tolto: chi lo aveva passa a Ottanio. Il tono della mappa per epoca vale anche in Ottanio.

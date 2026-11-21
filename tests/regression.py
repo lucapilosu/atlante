@@ -1099,11 +1099,43 @@ async def new_checks(p, R, mobile, name):
         document.getElementById('placeBack').click();await w(300);out.back=!!placeCtx&&!!document.querySelector('.place-epoch');
         closeDetail({instant:true});await w(200);out.closed=!placeCtx&&!document.getElementById('placeMark');
         return out}""")
-    ok59 = (t59["gesture"] and t59["epochs"] and t59["epochs"] == [e for e in ["preistoria", "antichita", "medioevo", "moderna", "contemporanea"] if e in t59["epochs"]]
+    ok59 = (t59["gesture"] and t59["epochs"] and t59["epochs"] == [e for e in ["contemporanea", "moderna", "medioevo", "antichita", "preistoria"] if e in t59["epochs"]]
             and t59["max4"] and t59["hasRome"] and t59["pinsMatch"] and t59["mark"] and bool(t59["more"])
             and t59["expanded"][0] == 4 and t59["expanded"][1] == t59["expanded"][2] > 4 and t59["anno"]
             and t59["opened"] == {"sel": "culture-etruscan", "back": True, "place": False} and t59["back"] and t59["closed"])
     R.check("T59", "Storia di questo luogo: si apre tenendo premuto o con doppio clic; voci per epoca (al massimo 4, «+N altre»), solo quelle sulla mappa, «Intorno all’anno», ritorno dalla scheda", ok59, f"{t59}")
+
+    # T60 v0.58: pulsante fisso «Storia di un luogo» (scelta del punto con un tocco), Escape annulla, nascosto fuori da Esplora; la storia è a strati (più recente in alto) senza fumetti
+    await p.evaluate("()=>{closeDetail({instant:true});hideToast()}"); await goto_view(p, "esplora")
+    await click_el(p, "#zoomReset"); await p.wait_for_timeout(300)
+    await set_year(p, -16); await p.wait_for_timeout(200)
+    await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(250)
+    t60 = {}
+    t60["btn"] = await p.evaluate("()=>{const b=document.getElementById('placeBtn');if(!b)return null;const r=b.getBoundingClientRect();return {vis:!b.hidden&&r.height>10&&r.height<60,txt:b.textContent.trim(),pressed:b.getAttribute('aria-pressed')}}")
+    await tap(p, p.locator("#placeBtn"), mobile); await p.wait_for_timeout(200)
+    t60["on"] = await p.evaluate("()=>({pressed:document.getElementById('placeBtn').getAttribute('aria-pressed'),txt:document.getElementById('placeBtnTxt').textContent,cls:document.querySelector('#view-esplora .mapstage').classList.contains('place-pick')})")
+    await p.keyboard.press("Escape"); await p.wait_for_timeout(150)
+    t60["esc"] = await p.evaluate("()=>document.getElementById('placeBtn').getAttribute('aria-pressed')")
+    await tap(p, p.locator("#placeBtn"), mobile); await p.wait_for_timeout(200)
+    await click_el(p, "#zoomReset"); await p.wait_for_timeout(300)
+    await p.evaluate("document.querySelector('#view-esplora .mapstage').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(300)
+    gx2, gy2 = await empty_map_point(p)
+    await tap_xy(p, gx2, gy2, mobile); await p.wait_for_timeout(900)
+    t60["ocean"] = await p.evaluate("()=>({ctx:!!placeCtx,pressed:document.getElementById('placeBtn').getAttribute('aria-pressed'),empty:!!document.querySelector('#detail .empty')})")
+    await p.evaluate("()=>openPlaceStory(NaN,NaN,{lonlat:{lon:12.5,lat:41.9}})"); await p.wait_for_timeout(500)
+    t60["open"] = await p.evaluate("""()=>{const s=[...document.querySelectorAll('.place-strata .place-epoch')].map(e=>e.dataset.epoch);const ord=['contemporanea','moderna','medioevo','antichita','preistoria'];
+        return {ctx:!!placeCtx,strata:s.length>=2,order:JSON.stringify(s)===JSON.stringify(ord.filter(x=>s.includes(x))),top:!!document.querySelector('.strata-edge.top'),bot:!!document.querySelector('.strata-edge.bot'),
+        pressed:document.getElementById('placeBtn').getAttribute('aria-pressed'),balloon:!!document.querySelector('.place-tip,.coach,.hint-balloon')}}""")
+    await p.evaluate("()=>closeDetail({instant:true})")
+    await goto_view(p, "contemporanei")
+    t60["hid"] = await p.evaluate("()=>document.getElementById('placeBtn').hidden")
+    await goto_view(p, "esplora")
+    t60["back"] = await p.evaluate("()=>!document.getElementById('placeBtn').hidden")
+    ok60 = (bool(t60["btn"]) and t60["btn"]["vis"] and t60["btn"]["txt"] == "Storia di un luogo" and t60["btn"]["pressed"] == "false"
+            and t60["on"]["pressed"] == "true" and "Tocca" in t60["on"]["txt"] and t60["on"]["cls"] and t60["esc"] == "false"
+            and t60["ocean"]["ctx"] and t60["ocean"]["pressed"] == "false" and t60["ocean"]["empty"] and t60["open"]["ctx"] and t60["open"]["strata"] and t60["open"]["order"] and t60["open"]["top"] and t60["open"]["bot"] and t60["open"]["pressed"] == "false" and not t60["open"]["balloon"]
+            and t60["hid"] and t60["back"])
+    R.check("T60", "Pulsante «Storia di un luogo»: tocco sulla mappa apre la storia, Escape annulla, nascosto fuori da Esplora; strati dal più recente in alto, nessun fumetto", ok60, f"{t60}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
