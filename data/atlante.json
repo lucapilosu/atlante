@@ -11,7 +11,7 @@
   }
  },
  "dataset_version": "1.2",
- "update_date": "2026-11-19",
+ "update_date": "2026-11-21",
  "description": "Atlante storico globale: ampliamento comparativo di civiltà, religioni, reti commerciali, scienza, tecnologia e trasformazioni politiche.",
  "date_convention": "ISO 8601-like signed year: negative = BCE, positive = CE; year 0 is not used in display.",
  "entities": [
@@ -6876,10 +6876,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-1"
+    "src-v-world-history-encyclopedia-fatima-al-fihri-and-a",
+    "src-unesco-world-heritage-list"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 3,
    "world_area": "AN",
@@ -6906,7 +6906,9 @@
      "a": "Robert Prazeres",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Fondazione della moschea con scuola da parte di Fatima al-Fihri a Fès confermata; l’anno 859 viene dalla cronaca Rawd al-Qirtas (XIV secolo), quindi è una data tradizionale: affidabilità lasciata media.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "state-makuria",
@@ -11982,12 +11984,16 @@
    ],
    "summary": "La corte Han attribuisce a Cai Lun un miglioramento del processo di fabbricazione della carta; la tecnica aveva antecedenti.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-cai-lun",
+    "src-v-world-history-encyclopedia-paper-in-ancient-chin",
     "src-worldhistory-science"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 3,
-   "world_area": "AE"
+   "world_area": "AE",
+   "notes": "Verificata il 21/11/2026: Il 105 d.C. è la data tradizionale della presentazione del procedimento all’imperatore; Cai Lun è tradizionalmente indicato come inventore, ma la carta esisteva già prima: affidabilità lasciata media.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-pompeii",
@@ -11996,7 +12002,7 @@
    "start_year": 79,
    "end_year": 79,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12004,9 +12010,11 @@
    ],
    "summary": "L’eruzione del 79 d.C. seppellisce centri vesuviani, conservando contesti archeologici eccezionali.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-pompeii",
+    "src-v-j-paul-getty-museum-when-did-vesuvius-erupt-the",
     "src-openlearn-classical"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 2,
    "world_area": "EU",
@@ -12029,7 +12037,9 @@
      "a": "Carsten Steger",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Eruzione del 79 d.C. confermata. Il giorno è discusso (24 agosto secondo la tradizione, forse ottobre secondo indizi archeologici), l’anno no: affidabilità alta.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-constantinople-found",
@@ -12038,7 +12048,7 @@
    "start_year": 330,
    "end_year": 330,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12046,9 +12056,10 @@
    ],
    "summary": "Costantino inaugura la nuova capitale imperiale sul Bosforo, destinata a diventare centro dell’Impero romano d’Oriente.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-istanbul-constantinople",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 2,
    "world_area": "EU",
@@ -12071,7 +12082,9 @@
      "a": "Jean-Christophe Benoist",
      "l": "CC BY 2.5"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Inaugurazione ufficiale della nuova capitale l’11 maggio 330 confermata (lavori iniziati nel 324).",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-western-rome-end",
@@ -12080,7 +12093,7 @@
    "start_year": 476,
    "end_year": 476,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12089,9 +12102,11 @@
    ],
    "summary": "La deposizione di Romolo Augustolo è una convenzione storiografica per segnare la fine della corte imperiale occidentale.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-odoacer",
+    "src-v-encyclopaedia-britannica-romulus-augustulus",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 1,
    "world_area": "EU",
@@ -12102,7 +12117,9 @@
      "a": "Thomas Couture",
      "l": "CC BY 3.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Deposizione di Romolo Augustolo da parte di Odoacre nel 476 confermata; la fonte conferma anche che il 476 è la data convenzionale della fine dell’Impero d’Occidente.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-hijra",
@@ -12111,7 +12128,7 @@
    "start_year": 622,
    "end_year": 622,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Asia",
    "related_entity_ids": [
@@ -12119,12 +12136,15 @@
    ],
    "summary": "La migrazione di Muhammad e della comunità da Mecca a Yathrib/Medina diventa il riferimento iniziale del calendario islamico.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-hijrah",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 2,
-   "world_area": "AO"
+   "world_area": "AO",
+   "notes": "Verificata il 21/11/2026: Migrazione da Mecca a Yathrib (Medina) nel 622 e suo uso come inizio del calendario islamico confermati.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-baghdad-founded",
@@ -12133,7 +12153,7 @@
    "start_year": 762,
    "end_year": 762,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Asia",
    "related_entity_ids": [
@@ -12141,9 +12161,10 @@
    ],
    "summary": "La nuova capitale abbaside diventa un nodo politico, commerciale e intellettuale di portata eurasiatica.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-baghdad-history",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 3,
    "world_area": "AO",
@@ -12166,7 +12187,9 @@
      "a": "NASA",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Fondazione nel 762 da parte del califfo abbaside al-Mansur come nuova capitale confermata.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-house-wisdom",
@@ -12400,7 +12423,7 @@
    "start_year": 1492,
    "end_year": 1492,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Americhe",
    "related_entity_ids": [
@@ -12409,9 +12432,10 @@
    ],
    "summary": "Il viaggio del 1492 inaugura una fase di contatti permanenti, conquista, colonizzazione e catastrofe demografica indigena.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-christopher-columbus-th",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Caraibi",
    "map_geometry": {
     "type": "point",
@@ -12442,7 +12466,9 @@
      "a": "Vedi Wikimedia Commons",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Partenza il 3 agosto 1492 e approdo nelle Bahamas il 12 ottobre 1492 confermati.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-1521-tenochtitlan",
@@ -12451,7 +12477,7 @@
    "start_year": 1521,
    "end_year": 1521,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Americhe",
    "related_entity_ids": [
@@ -12459,9 +12485,11 @@
    ],
    "summary": "La conquista spagnola, sostenuta da alleanze indigene e aggravata da epidemie, pone fine all’egemonia mexica.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-battle-of-tenochtitlan",
+    "src-v-world-history-encyclopedia-the-fall-of-tenochtit",
     "src-openlearn-classical"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 2,
    "world_area": "MC",
@@ -12484,7 +12512,9 @@
      "a": "Autore non indicato",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Assedio dal 22 maggio e resa il 13 agosto 1521 confermati, con la coalizione di Spagnoli e alleati indigeni.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-1533-inca",
@@ -12493,7 +12523,7 @@
    "start_year": 1533,
    "end_year": 1533,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Americhe",
    "related_entity_ids": [
@@ -12501,9 +12531,11 @@
    ],
    "summary": "La cattura di Atahualpa nel 1532 e la presa di Cusco nel 1533 segnano una svolta nella conquista spagnola delle Ande.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-what-is-francisco-pizar",
+    "src-v-ebsco-research-starters-francisco-pizarro",
     "src-smithsonian-inka-road"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 2,
    "world_area": "SA",
@@ -12526,7 +12558,9 @@
      "a": "Juan Lepiani",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Cattura di Atahualpa a Cajamarca nel novembre 1532 e ingresso degli Spagnoli a Cusco il 15 novembre 1533 confermati.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-copernicus",
@@ -12535,7 +12569,7 @@
    "start_year": 1543,
    "end_year": 1543,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12543,9 +12577,11 @@
    ],
    "summary": "Copernico pubblica il trattato che propone un sistema eliocentrico matematicamente articolato.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-de-revolutionibus-orbiu",
+    "src-v-encyclopaedia-britannica-nicolaus-copernicus-pub",
     "src-ou-science-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 2,
    "world_area": "EU",
@@ -12568,7 +12604,9 @@
      "a": "Nicolaus Copernicus",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Pubblicazione a Norimberga nel 1543 confermata.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-galileo",
@@ -12619,7 +12657,7 @@
    "start_year": 1660,
    "end_year": 1660,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12627,9 +12665,11 @@
    ],
    "summary": "La società londinese contribuisce alla formalizzazione di pratiche sperimentali e alla circolazione pubblica dei risultati.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-royal-society",
+    "src-v-royal-society-history-of-the-royal-society",
     "src-asist-chronology"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 3,
    "world_area": "EU",
@@ -12652,7 +12692,9 @@
      "a": "Royal Society (Great Britain)",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Prima riunione e data ufficiale di fondazione il 28 novembre 1660, al Gresham College di Londra, confermate.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-newton-principia",
@@ -12661,7 +12703,7 @@
    "start_year": 1687,
    "end_year": 1687,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12669,9 +12711,10 @@
    ],
    "summary": "La formulazione delle leggi del moto e della gravitazione universale diventa un riferimento centrale della fisica moderna.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-principia",
     "src-ou-science-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 2,
    "world_area": "EU",
@@ -12694,7 +12737,9 @@
      "a": "Station1",
      "l": "CC BY 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Pubblicazione nel 1687, con le tre leggi del moto e la gravitazione universale, confermata.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-industrial-steam",
@@ -12795,7 +12840,7 @@
    "start_year": 1859,
    "end_year": 1859,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12803,9 +12848,10 @@
    ],
    "summary": "Darwin presenta una teoria dell’evoluzione per selezione naturale, destinata a trasformare le scienze della vita.",
    "source_ids": [
+    "src-v-ebsco-research-starters-the-origin-of-species-is",
     "src-ou-science-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 2,
    "world_area": "EU",
@@ -12828,7 +12874,9 @@
      "a": "Osama Shukir Muhammed Amin FRCP(Glasg)",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Pubblicazione il 24 novembre 1859 confermata.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-meiji",
@@ -12837,7 +12885,7 @@
    "start_year": 1868,
    "end_year": 1868,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Asia",
    "related_entity_ids": [
@@ -12845,9 +12893,10 @@
    ],
    "summary": "La restaurazione imperiale avvia una rapida trasformazione dello Stato giapponese, delle istituzioni e dell’economia.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-meiji-restoration",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Giappone",
    "map_geometry": {
     "type": "point",
@@ -12878,7 +12927,9 @@
      "a": "Autore sconosciuto",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Restaurazione del governo imperiale nel 1868 (annuncio a gennaio) e inizio del periodo Meiji confermati.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-periodic-table",
@@ -12887,7 +12938,7 @@
    "start_year": 1869,
    "end_year": 1869,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12895,9 +12946,10 @@
    ],
    "summary": "Mendeleev organizza gli elementi secondo regolarità periodiche e lascia spazi per elementi non ancora scoperti.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-periodic-table-the-firs",
     "src-asist-chronology"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 3,
    "world_area": "EU",
@@ -12914,7 +12966,9 @@
      "a": "Omar il fichissimo",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Prima tavola di Mendeleev del 1869 confermata; i posti vuoti con le previsioni delle proprietà sono soprattutto nella versione del 1871.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-dna",
@@ -12923,7 +12977,7 @@
    "start_year": 1953,
    "end_year": 1953,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Globale",
    "related_entity_ids": [
@@ -12931,12 +12985,15 @@
    ],
    "summary": "La proposta della struttura a doppia elica apre una nuova fase della biologia molecolare; il risultato si basa anche su dati sperimentali di Rosalind Franklin e Maurice Wilkins.",
    "source_ids": [
+    "src-v-national-library-of-medicine-the-discovery-of-th",
     "src-ou-science-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 2,
-   "world_area": "GL"
+   "world_area": "GL",
+   "notes": "Verificata il 21/11/2026: Articolo di Watson e Crick su Nature del 25 aprile 1953 confermato, come il peso dei dati sperimentali di Rosalind Franklin.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-moon-landing",
@@ -12945,7 +13002,7 @@
    "start_year": 1969,
    "end_year": 1969,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Globale",
    "related_entity_ids": [
@@ -12953,9 +13010,10 @@
    ],
    "summary": "La missione Apollo 11 porta i primi esseri umani sulla superficie lunare, nel contesto della competizione spaziale.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-apollo-11",
     "src-ou-science-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Luna · missione partita dagli Stati Uniti",
    "map_geometry": {
     "type": "point",
@@ -12986,7 +13044,9 @@
      "a": "Struck by Robbins Company for NASA",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Allunaggio del 20 luglio 1969 (missione dal 16 al 24 luglio) confermato.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-berlin-wall",
@@ -12995,7 +13055,7 @@
    "start_year": 1989,
    "end_year": 1989,
    "date_precision": "year",
-   "date_confidence": "medium",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -13003,9 +13063,10 @@
    ],
    "summary": "L’apertura del Muro diventa il simbolo della crisi dei regimi comunisti dell’Europa orientale e della fine della divisione europea.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-when-did-the-berlin-wal",
     "src-cfr-world-history"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Berlino",
    "map_geometry": {
     "type": "point",
@@ -13036,7 +13097,9 @@
      "a": "Klaus Oberst",
      "l": "CC BY-SA 3.0 de"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Apertura del confine il 9 novembre 1989 confermata.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-web",
@@ -14995,9 +15058,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-saud-dynasty",
+    "src-v-ebsco-research-starters-muhammad-ibn-abd-al-wahh"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 3,
    "world_area": "AO",
@@ -15023,7 +15087,9 @@
      "a": "Matti&Keti",
      "l": "CC0"
     }
-   ]
+   ],
+   "notes": "Verificata il 21/11/2026: Alleanza tra Muhammad ibn Saud e Muhammad ibn Abd al-Wahhab a Diriyah all’origine del primo stato saudita confermata; il 1744 è la data convenzionale, alcune fonti indicano il 1745: affidabilità lasciata media.",
+   "verified_on": "2026-11-21"
   },
   {
    "id": "event-ottoman-conquest-egypt",
@@ -21962,7 +22028,6 @@
     "culture-botai",
     "site-ban-chiang",
     "state-numidia",
-    "site-al-qarawiyyin",
     "invention-ulugh-beg-observatory",
     "state-purepecha"
    ]
@@ -21979,7 +22044,6 @@
     "state-bukhara-khanate",
     "movement-jesuits-global",
     "event-isfahan-shah-abbas",
-    "event-diriyah-pact",
     "event-st-augustine",
     "event-new-amsterdam",
     "event-jesuit-reductions",
@@ -25109,6 +25173,7 @@
    "url": "https://www.worldhistory.org/article/1120/paper-in-ancient-china/",
    "source_type": "encyclopedia",
    "supports": [
+    "event-paper-cai-lun",
     "event-battle-of-talas"
    ],
    "notes": "Fonte specifica usata nella verifica del 19/11/2026."
@@ -26344,6 +26409,7 @@
    "url": "https://www.britannica.com/event/Meiji-Restoration",
    "source_type": "encyclopedia",
    "supports": [
+    "event-meiji",
     "event-sakoku"
    ],
    "notes": "Fonte specifica usata nella verifica del 19/11/2026."
@@ -27909,6 +27975,292 @@
     "event-arab-spring"
    ],
    "notes": "Fonte specifica usata nella verifica del 19/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-fatima-al-fihri-and-a",
+   "institution": "World History Encyclopedia",
+   "title": "Fatima Al-Fihri and Al-Qarawiyyin University",
+   "url": "https://www.worldhistory.org/article/2662/fatima-al-fihri-and-al-qarawiyyin-university/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "site-al-qarawiyyin"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-cai-lun",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Cai Lun",
+   "url": "https://www.britannica.com/biography/Cai-Lun",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-paper-cai-lun"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-pompeii",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Pompeii",
+   "url": "https://www.britannica.com/place/Pompeii",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-pompeii"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-j-paul-getty-museum-when-did-vesuvius-erupt-the",
+   "institution": "J. Paul Getty Museum",
+   "title": "When Did Vesuvius Erupt? The Evidence for and against August 24",
+   "url": "https://www.getty.edu/news/when-did-vesuvius-erupt-august-october-24/",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-pompeii"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-istanbul-constantinople",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Istanbul: Constantinople",
+   "url": "https://www.britannica.com/place/Istanbul/Constantinople",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-constantinople-found"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-odoacer",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Odoacer",
+   "url": "https://www.britannica.com/biography/Odoacer",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-western-rome-end"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-romulus-augustulus",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Romulus Augustulus",
+   "url": "https://www.britannica.com/biography/Romulus-Augustulus",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-western-rome-end"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-hijrah",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Hijrah",
+   "url": "https://www.britannica.com/event/Hijrah-Islam",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-hijra"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-baghdad-history",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Baghdad: History",
+   "url": "https://www.britannica.com/place/Baghdad/History",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-baghdad-founded"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-christopher-columbus-th",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Christopher Columbus: The first voyage",
+   "url": "https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-1492"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-battle-of-tenochtitlan",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Battle of Tenochtitlán",
+   "url": "https://www.britannica.com/event/Fall-of-Tenochtitlan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-1521-tenochtitlan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-fall-of-tenochtit",
+   "institution": "World History Encyclopedia",
+   "title": "The Fall of Tenochtitlan",
+   "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-1521-tenochtitlan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-what-is-francisco-pizar",
+   "institution": "Encyclopaedia Britannica",
+   "title": "What is Francisco Pizarro best known for?",
+   "url": "https://www.britannica.com/question/What-is-Francisco-Pizarro-best-known-for",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-1533-inca"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-ebsco-research-starters-francisco-pizarro",
+   "institution": "EBSCO Research Starters",
+   "title": "Francisco Pizarro",
+   "url": "https://www.ebsco.com/research-starters/history/francisco-pizarro",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-1533-inca"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-de-revolutionibus-orbiu",
+   "institution": "Encyclopaedia Britannica",
+   "title": "De revolutionibus orbium coelestium libri VI",
+   "url": "https://www.britannica.com/topic/De-revolutionibus-orbium-coelestium-libri-VI",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-copernicus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nicolaus-copernicus-pub",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nicolaus Copernicus: Publication of De revolutionibus",
+   "url": "https://www.britannica.com/biography/Nicolaus-Copernicus/Publication-of-De-revolutionibus",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-copernicus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-royal-society",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Royal Society",
+   "url": "https://www.britannica.com/topic/Royal-Society",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-royal-society"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-royal-society-history-of-the-royal-society",
+   "institution": "Royal Society",
+   "title": "History of the Royal Society",
+   "url": "https://royalsociety.org/about-us/history/",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-royal-society"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-principia",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Principia",
+   "url": "https://www.britannica.com/topic/Principia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-newton-principia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-ebsco-research-starters-the-origin-of-species-is",
+   "institution": "EBSCO Research Starters",
+   "title": "The Origin of Species Is Published",
+   "url": "https://www.ebsco.com/research-starters/history/origin-species-published",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-darwin-origin"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-periodic-table-the-firs",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Periodic table: The first periodic table",
+   "url": "https://www.britannica.com/science/periodic-table/The-first-periodic-table",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-periodic-table"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-national-library-of-medicine-the-discovery-of-th",
+   "institution": "National Library of Medicine (Profiles in Science)",
+   "title": "The Discovery of the Double Helix, 1951-1953",
+   "url": "https://profiles.nlm.nih.gov/spotlight/sc/feature/doublehelix",
+   "source_type": "academic_article",
+   "supports": [
+    "event-dna"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-apollo-11",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Apollo 11",
+   "url": "https://www.britannica.com/topic/Apollo-11",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-moon-landing"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-did-the-berlin-wal",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When did the Berlin Wall fall?",
+   "url": "https://www.britannica.com/question/When-did-the-Berlin-Wall-fall",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-berlin-wall"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-saud-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Saud dynasty",
+   "url": "https://www.britannica.com/topic/Saud-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-diriyah-pact"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-ebsco-research-starters-muhammad-ibn-abd-al-wahh",
+   "institution": "EBSCO Research Starters",
+   "title": "Muhammad ibn ʿAbd al-Wahhāb",
+   "url": "https://www.ebsco.com/research-starters/history/muhammad-ibn-abd-al-wahhab",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-diriyah-pact"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 21/11/2026."
   }
  ],
  "editorial_notes": [
@@ -27921,7 +28273,8 @@
   "v0.49: base di storia mondiale bilanciata su 13 aree e 8 periodi (dal Neolitico a oggi). Le voci marcate «base-draft» sono sintesi di livello manuale con un riferimento generale (OpenStax World History) e, dove verificato, la scheda UNESCO: non sono state confrontate riga per riga con le fonti. Le voci «deep-dive-sourced» (Sardegna, Maya, Rapa Nui, Italia) hanno fonti specifiche. Campi nuovi: layer, relevance (1 = centrale in un manuale, 3 = approfondimento), world_area, focus.",
   "v0.49: unite 27 voci doppie (le vecchie voci evento delle grandi civiltà e dei grandi eventi); i collegamenti sono stati reindirizzati.",
   "v0.50: verificate su fonti specifiche (Britannica, World History Encyclopedia, Metropolitan Museum, UNESCO, ONU, OMS, musei e articoli scientifici) le 86 voci di base con rilevanza 1. Stato «source-checked»; le correzioni sono indicate nella nota della voce.",
-  "v0.51: verificate sulle fonti le 176 voci di base con rilevanza 2 (registro in tools/verifica/registro_v051_rilevanza2.json); 29 voci corrette, 26 con dettagli segnalati come non verificati."
+  "v0.51: verificate sulle fonti le 176 voci di base con rilevanza 2 (registro in tools/verifica/registro_v051_rilevanza2.json); 29 voci corrette, 26 con dettagli segnalati come non verificati.",
+  "v0.55: verificati su fonti specifiche i 20 eventi con anno esatto che avevano affidabilità media (registro in tools/verifica/registro_v055_anni_esatti.json); 17 passati ad affidabilità alta, 3 lasciati a media perché la data è tradizionale o discussa (Qarawiyyin, Cai Lun, patto di Diriyah)."
  ],
  "technology_domains": [
   {

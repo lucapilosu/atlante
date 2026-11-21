@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## v0.55 · 21 novembre 2026
+
+- **Scheda: semaforo della datazione.** Sotto il titolo restano due etichette invece di quattro: la data e un semaforo. La precisione entra nella data («circa 450 – 1500 d.C.» quando è approssimata; anno secco quando è esatta). Il semaforo unisce affidabilità e verifica delle fonti: verde «solida» (affidabilità alta e voce verificata su una fonte specifica, 210 voci), giallo «indicativa» (affidabilità media o voce non ancora verificata, 215), arancio «discussa» (12). Toccandolo si aprono i dettagli: affidabilità, precisione delle date, stato delle fonti e legenda. Scelta di Luca (proposta A).
+- **Verificati 20 eventi con l’anno esatto** che avevano affidabilità media (Colombo 1492, Pompei 79, caduta di Tenochtitlan 1521, Muro di Berlino 1989…), con fonti specifiche, soprattutto Encyclopaedia Britannica. 17 passano ad affidabilità alta; 3 restano media perché la data è tradizionale o discussa: Qarawiyyin 859, Cai Lun 105, patto di Diriyah 1744 (alcune fonti dicono 1745). Per Pompei la nota segnala che il giorno (24 agosto o autunno) è discusso, l’anno no. 26 fonti nuove; registro in `tools/verifica/registro_v055_anni_esatti.json`.
+- Test di regressione: 103 controlli (nuovo T53 sul semaforo).
+
 ## v0.54 · 20 novembre 2026
 
 - **Foto più viste, con soggetti diversi.** Per ogni voce le candidate vengono dalle pagine di Wikipedia collegate (italiano, inglese, spagnolo, francese, tedesco) e dall’immagine della voce su Wikidata; per ciascuna si è letto quante volte è stata vista negli ultimi 12 mesi (novembre 2025 – ottobre 2026, statistiche Wikimedia). La prima foto è la più vista; la seconda e la terza sono le più viste di soggetto diverso, a meno che una foto dello stesso soggetto sia vista più di 10 volte tanto (criterio di Luca). Il soggetto si riconosce da ciò che la foto «raffigura» su Commons o dal nome del file, poi con un controllo a occhio. Esempio: Chichén Itzá ora ha El Castillo (circa 8,4 milioni di visualizzazioni in un anno), il campo del gioco della pelota e lo tzompantli; l’osservatorio non era tra le candidate.

@@ -1,0 +1,333 @@
+[
+ {
+  "id": "site-al-qarawiyyin",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Fatima Al-Fihri and Al-Qarawiyyin University",
+    "url": "https://www.worldhistory.org/article/2662/fatima-al-fihri-and-al-qarawiyyin-university/"
+   }
+  ],
+  "nota": "Fondazione della moschea con scuola da parte di Fatima al-Fihri a Fès confermata; l’anno 859 viene dalla cronaca Rawd al-Qirtas (XIV secolo), quindi è una data tradizionale: affidabilità lasciata media.",
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-paper-cai-lun",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cai Lun",
+    "url": "https://www.britannica.com/biography/Cai-Lun"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Paper in Ancient China",
+    "url": "https://www.worldhistory.org/article/1120/paper-in-ancient-china/"
+   }
+  ],
+  "nota": "Il 105 d.C. è la data tradizionale della presentazione del procedimento all’imperatore; Cai Lun è tradizionalmente indicato come inventore, ma la carta esisteva già prima: affidabilità lasciata media.",
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-pompeii",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pompeii",
+    "url": "https://www.britannica.com/place/Pompeii"
+   },
+   {
+    "institution": "J. Paul Getty Museum",
+    "title": "When Did Vesuvius Erupt? The Evidence for and against August 24",
+    "url": "https://www.getty.edu/news/when-did-vesuvius-erupt-august-october-24/"
+   }
+  ],
+  "nota": "Eruzione del 79 d.C. confermata. Il giorno è discusso (24 agosto secondo la tradizione, forse ottobre secondo indizi archeologici), l’anno no: affidabilità alta.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-constantinople-found",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Istanbul: Constantinople",
+    "url": "https://www.britannica.com/place/Istanbul/Constantinople"
+   }
+  ],
+  "nota": "Inaugurazione ufficiale della nuova capitale l’11 maggio 330 confermata (lavori iniziati nel 324).",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-western-rome-end",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Odoacer",
+    "url": "https://www.britannica.com/biography/Odoacer"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Romulus Augustulus",
+    "url": "https://www.britannica.com/biography/Romulus-Augustulus"
+   }
+  ],
+  "nota": "Deposizione di Romolo Augustolo da parte di Odoacre nel 476 confermata; la fonte conferma anche che il 476 è la data convenzionale della fine dell’Impero d’Occidente.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-hijra",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hijrah",
+    "url": "https://www.britannica.com/event/Hijrah-Islam"
+   }
+  ],
+  "nota": "Migrazione da Mecca a Yathrib (Medina) nel 622 e suo uso come inizio del calendario islamico confermati.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-baghdad-founded",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Baghdad: History",
+    "url": "https://www.britannica.com/place/Baghdad/History"
+   }
+  ],
+  "nota": "Fondazione nel 762 da parte del califfo abbaside al-Mansur come nuova capitale confermata.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-1492",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Christopher Columbus: The first voyage",
+    "url": "https://www.britannica.com/biography/Christopher-Columbus/The-first-voyage"
+   }
+  ],
+  "nota": "Partenza il 3 agosto 1492 e approdo nelle Bahamas il 12 ottobre 1492 confermati.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-1521-tenochtitlan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Battle of Tenochtitlán",
+    "url": "https://www.britannica.com/event/Fall-of-Tenochtitlan"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Fall of Tenochtitlan",
+    "url": "https://www.worldhistory.org/article/2028/the-fall-of-tenochtitlan/"
+   }
+  ],
+  "nota": "Assedio dal 22 maggio e resa il 13 agosto 1521 confermati, con la coalizione di Spagnoli e alleati indigeni.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-1533-inca",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What is Francisco Pizarro best known for?",
+    "url": "https://www.britannica.com/question/What-is-Francisco-Pizarro-best-known-for"
+   },
+   {
+    "institution": "EBSCO Research Starters",
+    "title": "Francisco Pizarro",
+    "url": "https://www.ebsco.com/research-starters/history/francisco-pizarro"
+   }
+  ],
+  "nota": "Cattura di Atahualpa a Cajamarca nel novembre 1532 e ingresso degli Spagnoli a Cusco il 15 novembre 1533 confermati.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-copernicus",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "De revolutionibus orbium coelestium libri VI",
+    "url": "https://www.britannica.com/topic/De-revolutionibus-orbium-coelestium-libri-VI"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nicolaus Copernicus: Publication of De revolutionibus",
+    "url": "https://www.britannica.com/biography/Nicolaus-Copernicus/Publication-of-De-revolutionibus"
+   }
+  ],
+  "nota": "Pubblicazione a Norimberga nel 1543 confermata.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-royal-society",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Royal Society",
+    "url": "https://www.britannica.com/topic/Royal-Society"
+   },
+   {
+    "institution": "Royal Society",
+    "title": "History of the Royal Society",
+    "url": "https://royalsociety.org/about-us/history/"
+   }
+  ],
+  "nota": "Prima riunione e data ufficiale di fondazione il 28 novembre 1660, al Gresham College di Londra, confermate.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-newton-principia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Principia",
+    "url": "https://www.britannica.com/topic/Principia"
+   }
+  ],
+  "nota": "Pubblicazione nel 1687, con le tre leggi del moto e la gravitazione universale, confermata.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-darwin-origin",
+  "fonti": [
+   {
+    "institution": "EBSCO Research Starters",
+    "title": "The Origin of Species Is Published",
+    "url": "https://www.ebsco.com/research-starters/history/origin-species-published"
+   }
+  ],
+  "nota": "Pubblicazione il 24 novembre 1859 confermata.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-meiji",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Meiji Restoration",
+    "url": "https://www.britannica.com/event/Meiji-Restoration"
+   }
+  ],
+  "nota": "Restaurazione del governo imperiale nel 1868 (annuncio a gennaio) e inizio del periodo Meiji confermati.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-periodic-table",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Periodic table: The first periodic table",
+    "url": "https://www.britannica.com/science/periodic-table/The-first-periodic-table"
+   }
+  ],
+  "nota": "Prima tavola di Mendeleev del 1869 confermata; i posti vuoti con le previsioni delle proprietà sono soprattutto nella versione del 1871.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-dna",
+  "fonti": [
+   {
+    "institution": "National Library of Medicine (Profiles in Science)",
+    "title": "The Discovery of the Double Helix, 1951-1953",
+    "url": "https://profiles.nlm.nih.gov/spotlight/sc/feature/doublehelix"
+   }
+  ],
+  "nota": "Articolo di Watson e Crick su Nature del 25 aprile 1953 confermato, come il peso dei dati sperimentali di Rosalind Franklin.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-moon-landing",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Apollo 11",
+    "url": "https://www.britannica.com/topic/Apollo-11"
+   }
+  ],
+  "nota": "Allunaggio del 20 luglio 1969 (missione dal 16 al 24 luglio) confermato.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-berlin-wall",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did the Berlin Wall fall?",
+    "url": "https://www.britannica.com/question/When-did-the-Berlin-Wall-fall"
+   }
+  ],
+  "nota": "Apertura del confine il 9 novembre 1989 confermata.",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-21"
+ },
+ {
+  "id": "event-diriyah-pact",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Saud dynasty",
+    "url": "https://www.britannica.com/topic/Saud-dynasty"
+   },
+   {
+    "institution": "EBSCO Research Starters",
+    "title": "Muhammad ibn ʿAbd al-Wahhāb",
+    "url": "https://www.ebsco.com/research-starters/history/muhammad-ibn-abd-al-wahhab"
+   }
+  ],
+  "nota": "Alleanza tra Muhammad ibn Saud e Muhammad ibn Abd al-Wahhab a Diriyah all’origine del primo stato saudita confermata; il 1744 è la data convenzionale, alcune fonti indicano il 1745: affidabilità lasciata media.",
+  "data": "2026-11-21"
+ }
+]

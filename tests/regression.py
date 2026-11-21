@@ -973,6 +973,18 @@ async def new_checks(p, R, mobile, name):
     ok52 = t52["txt"] == "Apri la scheda «Maya»" and t52["att"] == ["culture-maya"] and t52["went"] == ["esplora", "culture-maya"] and t52["first"] == "Impero inca (Tahuantinsuyo)" and t52["linked"] == 29
     R.check("T52", "Tecnologia: «Apri la scheda» per la voce di riferimento e per le attestazioni collegate (29 su 38); ricerca ordinata per rilevanza («inca» → Impero inca)", ok52, f"{t52}")
 
+    # T53 Scheda: data con «circa» quando è approssimata e un solo semaforo della datazione (solida, indicativa, discussa) con i dettagli al tocco
+    await goto_view(p, "esplora")
+    t53 = await p.evaluate("""async()=>{const out={};for(const id of ['site-chichen-itza','event-1492','culture-botai']){openInEsplora(id);await new Promise(r=>setTimeout(r,250));
+        const tags=[...document.querySelectorAll('#detail .tags .tag')];const b=document.querySelector('#detail .tag.sem');const box=document.getElementById('semInfo');const h0=box.hidden;b.click();
+        out[id]={n:tags.length,date:tags[0].textContent,sem:b.dataset.sem,open:h0&&!box.hidden&&b.getAttribute('aria-expanded')==='true',info:box.textContent.includes('Affidabilità della datazione')}}
+        const cnt={ok:0,mid:0,deb:0};ALL.forEach(x=>cnt[semaforo(x).k]++);return {out,cnt}}""")
+    o53 = t53["out"]
+    ok53 = (all(v["n"] == 2 and v["open"] and v["info"] for v in o53.values()) and o53["site-chichen-itza"]["date"].startswith("circa ")
+            and o53["site-chichen-itza"]["sem"] == "mid" and o53["event-1492"]["date"] == "1492 d.C." and o53["event-1492"]["sem"] == "ok"
+            and o53["culture-botai"]["sem"] == "deb" and sum(t53["cnt"].values()) == 437 and t53["cnt"]["deb"] == 12)
+    R.check("T53", "Scheda: data con «circa» se approssimata e un solo semaforo della datazione (solida · indicativa · discussa) con i dettagli al tocco", ok53, f"{t53}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
