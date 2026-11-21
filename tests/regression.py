@@ -43,6 +43,8 @@ class Run:
         self.rows.append({"device": self.device, "code": code, "name": name,
                           "esito": ("OK" if ok else ("NOTO" if known else "FALLITO")), "dettaglio": detail})
 
+STYLES = ["moderno", "museo", "cartografo"]
+
 async def year(p):
     return (await p.text_content("#yearLabel")).strip()
 
@@ -126,7 +128,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
         return {sheet:s.classList.contains('is-sheet'),fixed:cs.position==='fixed',top:Math.round(r.top),bottom:Math.round(r.bottom),dockTop:Math.round(d.top),vh:innerHeight,
           layoutCols:getComputedStyle(s.parentElement).gridTemplateColumns.split(' ').length}}""")
     await tap(p, p.locator("#sheetClose"), mobile)
-    await p.wait_for_timeout(300)
+    await p.wait_for_timeout(550)  # v0.56: la chiusura è animata (fino a 300 ms)
     closed22 = await p.evaluate("()=>document.getElementById('scheda').hidden")
     if mobile:
         ok22 = g22["sheet"] and g22["fixed"] and g22["bottom"] <= g22["dockTop"] and g22["top"] > g22["vh"] * 0.3 and closed22
@@ -215,7 +217,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T06 contrasto pulsanti del popup, per ogni palette
     low = []
-    for pal in ["deep", "pergamena", "notte", "terracotta"]:
+    for pal in STYLES:
         await p.evaluate("(n)=>{const b=document.querySelector(`.palette-choice[data-palette='${n}']`);if(b)b.click()}", pal)
         await p.wait_for_timeout(120)
         if not await p.is_visible("#mapPointPopup"):
@@ -224,8 +226,8 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             c = await b.evaluate(JS_CONTRAST)
             if c["ratio"] < 4.5:
                 low.append(f"{pal}: '{c['text']}' {c['ratio']:.1f}:1")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='deep']`)?.click()")
-    R.check("T06", "Pulsanti del popup leggibili (contrasto >= 4.5:1) in tutte le palette", not low, "; ".join(low) or "tutti >= 4.5:1")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`)?.click()")
+    R.check("T06", "Pulsanti del popup leggibili (contrasto >= 4.5:1) in tutti gli stili", not low, "; ".join(low) or "tutti >= 4.5:1")
     await p.screenshot(path=f"{OUT}/{name}_popup.png")
 
     # T07 "Apri scheda" apre la scheda senza cambiare anno
@@ -237,7 +239,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await p.wait_for_timeout(600)
     dh = (await p.text_content("#detail h2") or "").strip()
     R.check("T07", "'Apri scheda' apre la scheda giusta senza cambiare anno", dh == ptitle and await year(p) == y0 and await p.is_visible("#scheda"), f"'{dh}', anno {y0} -> {await year(p)}")
-    await p.evaluate("()=>closeDetail()")
+    await p.evaluate("()=>closeDetail({instant:true})")
 
     # T08 confronto: massimo 5, anno invariato (vista Confronto, v0.48)
     await goto_view(p, "confronto")
@@ -403,12 +405,19 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             n_all[0] == n_all[1] and a20["n"] > 0 and a20["regions"] == ["Asia"] and hit_rome == 1 and v20 == "esplora",
             f"senza filtri {n_all[0]}/{n_all[1]} voci; archivio Asia+'impero': {a20['n']} voci {a20['regions']}; ricerca principale trova Roma: {bool(hit_rome)}; dopo il clic vista {v20}")
 
-    # T10 palette conservata dopo ricarica
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='notte']`)?.click()")
+    # T10 stile conservato dopo ricarica; i nomi delle vecchie palette passano al nuovo stile corrispondente
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='cartografo']`)?.click()")
     await p.reload(wait_until="load"); await p.wait_for_timeout(800)
     pal = await p.evaluate("()=>document.body.dataset.palette")
-    R.check("T10", "La palette scelta resta dopo aver ricaricato la pagina", pal == "notte", f"palette dopo ricarica: {pal}")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='deep']`)?.click()")
+    migr = {}
+    for old in ["notte", "pergamena", "deep", "sconosciuta"]:
+        await p.evaluate("(n)=>localStorage.setItem('atlantePalette',n)", old)
+        await p.reload(wait_until="load"); await p.wait_for_timeout(500)
+        migr[old] = await p.evaluate("()=>document.body.dataset.palette")
+    R.check("T10", "Lo stile scelto resta dopo la ricarica; le vecchie palette passano a Contemporaneo morbido o Museo",
+            pal == "cartografo" and migr == {"notte": "moderno", "pergamena": "museo", "deep": "moderno", "sconosciuta": "moderno"},
+            f"stile dopo ricarica: {pal}; vecchie palette → {migr}")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`)?.click()")
 
     # T21 nessuna vista è più larga dello schermo (niente scorrimento orizzontale della pagina)
     wide = []
@@ -506,17 +515,17 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     R.check("T27", "Slider a tratti: epoche allineate ai blocchi, passo − / + per epoca (100, 10, 5, 1 anni)",
             ok27, f"scarto dai confini delle epoche {s27['off']} px; andata e ritorno errati {s27['trip']}; passi {s27['steps']}; con i pulsanti {y_a} → {y_b}")
 
-    # T28 palette: Ottanio profondo principale più Pergamena, Notte stellata, Terracotta mediterranea
+    # T28 stili: Contemporaneo morbido (predefinito), Museo, Cartografo — sostituiscono le palette
     pals = await p.evaluate("()=>[...document.querySelectorAll('.palette-choice')].map(b=>b.dataset.palette)")
     looks = {}
     for pal in pals:
         await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
         await p.wait_for_timeout(120)
-        looks[pal] = await p.evaluate("()=>[document.body.classList.contains('themed'),document.body.classList.contains('theme-light'),getComputedStyle(document.body).backgroundColor,document.querySelector('meta[name=theme-color]')?.content]")
-    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='deep']`).click()")
-    ok28 = (pals == ["deep", "pergamena", "notte", "terracotta"] and not looks["deep"][0] and looks["pergamena"][:2] == [True, True]
-            and looks["notte"][:2] == [True, False] and looks["terracotta"][:2] == [True, True] and len({v[2] for v in looks.values()}) == 4)
-    R.check("T28", "Palette: Ottanio profondo più tre nuove, ognuna con il proprio sfondo", ok28, f"{pals}; {looks}")
+        looks[pal] = await p.evaluate("()=>[document.body.classList.contains('themed'),document.body.classList.contains('theme-light'),getComputedStyle(document.body).getPropertyValue('--t-header').trim()+'|'+getComputedStyle(document.querySelector('h1')).fontFamily.split(',')[0]+'|'+getComputedStyle(document.querySelector('h1')).fontStyle,document.querySelector('meta[name=theme-color]')?.content]")
+    await p.evaluate("()=>document.querySelector(`.palette-choice[data-palette='moderno']`).click()")
+    ok28 = (pals == STYLES and all(v[:2] == [True, True] for v in looks.values())
+            and len({v[2] for v in looks.values()}) == 3 and len({v[3] for v in looks.values()}) == 3)
+    R.check("T28", "Stili: Contemporaneo morbido, Museo e Cartografo, ognuno con testata, caratteri e colore propri", ok28, f"{pals}; {looks}")
 
     # T29 Universo: una corsia per area, legenda dei temi, voci in eccesso raccolte in «altre»
     await goto_view(p, "universo"); await p.wait_for_timeout(300)
@@ -566,7 +575,7 @@ async def empty_map_point(p):
 async def new_checks(p, R, mobile, name):
     # T30 riepilogo sulla mappa: si chiude toccando un punto vuoto della mappa o fuori; resta aperto trascinando la mappa o usando la barra del tempo
     await goto_view(p, "esplora")
-    await p.evaluate("()=>{closeDetail();hideToast()}")
+    await p.evaluate("()=>{closeDetail({instant:true});hideToast()}")
     await set_year(p, -16)
     await click_el(p, "#zoomReset"); await p.wait_for_timeout(250)
     await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
@@ -620,7 +629,7 @@ async def new_checks(p, R, mobile, name):
         info = await p.evaluate("()=>({sheet:document.getElementById('scheda').classList.contains('is-sheet'),visible:!document.getElementById('scheda').hidden})")
         ok31 = not info["sheet"] and info["visible"]
         info["nota"] = "su desktop la scheda resta un pannello laterale"
-        await p.evaluate("()=>closeDetail()")
+        await p.evaluate("()=>closeDetail({instant:true})")
     R.check("T31", "Scheda: su telefono si chiude trascinando giù la tendina (gesto stile iPhone)", ok31, str(info))
 
     # T32 confronto: dopo l'aggiunta un avviso porta subito al confronto
@@ -721,7 +730,7 @@ async def new_checks(p, R, mobile, name):
     sels = {"confronto": "#comparatore .compare-insight strong,#comparatore .compare-insight div,#comparatore .compare-table th,#comparatore .compare-table td,#comparatore .compare-chip,#compareCount",
             "universo": ".uv-strip-text strong,.uv-strip-text span,.uv-scale button,.uv-legend button,.universe-status",
             "tecnologia": "#techList .ti-kpi b,#techList .ti-kpi span,#techList .ti-area-name,#techList .ti-area>b,.ti-mode button"}
-    for pal in ["deep", "pergamena", "notte", "terracotta"]:
+    for pal in STYLES:
         await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
         for v, sel in sels.items():
             await goto_view(p, v); await p.wait_for_timeout(200)
@@ -734,16 +743,16 @@ async def new_checks(p, R, mobile, name):
         c = await p.locator("#toast .toast-msg").evaluate(JS_CONTRAST)
         if c["ratio"] < 4.5: low.append(f"{pal}/avviso {c['ratio']:.1f}:1")
         await p.evaluate("()=>hideToast()")
-        if pal == "pergamena":
+        if pal == "museo":
             await goto_view(p, "confronto"); await p.wait_for_timeout(200)
-            await p.screenshot(path=f"{OUT}/{name}_confronto_pergamena.png", full_page=True)
-    await p.evaluate("()=>{document.querySelector(`.palette-choice[data-palette='deep']`).click();compareIds.slice().forEach(id=>removeCompare(id))}")
-    R.check("T35", "Testo leggibile (contrasto ≥ 4.5:1) nei dettagli del confronto, nell'Universo e nella sintesi Tecnologia, in tutte le palette",
+            await p.screenshot(path=f"{OUT}/{name}_confronto_museo.png", full_page=True)
+    await p.evaluate("()=>{document.querySelector(`.palette-choice[data-palette='moderno']`).click();compareIds.slice().forEach(id=>removeCompare(id))}")
+    R.check("T35", "Testo leggibile (contrasto ≥ 4.5:1) nei dettagli del confronto, nell'Universo e nella sintesi Tecnologia, in tutti gli stili",
             not low, "; ".join(low[:6]) or f"tutti ≥ 4.5:1")
     await goto_view(p, "esplora")
 
     # T38 punti sovrapposti: il riepilogo elenca le altre voci nello stesso punto e permette di passare dall'una all'altra
-    await p.evaluate("()=>{closeDetail();hideToast();closeMapPointPopup()}")
+    await p.evaluate("()=>{closeDetail({instant:true});hideToast();closeMapPointPopup()}")
     await set_year(p, 1957)
     await click_el(p, "#zoomReset"); await p.wait_for_timeout(250)
     await p.evaluate("document.getElementById('mappa').scrollIntoView({block:'center',behavior:'instant'})"); await p.wait_for_timeout(200)
@@ -984,6 +993,56 @@ async def new_checks(p, R, mobile, name):
             and o53["site-chichen-itza"]["sem"] == "mid" and o53["event-1492"]["date"] == "1492 d.C." and o53["event-1492"]["sem"] == "ok"
             and o53["culture-botai"]["sem"] == "deb" and sum(t53["cnt"].values()) == 437 and t53["cnt"]["deb"] == 12)
     R.check("T53", "Scheda: data con «circa» se approssimata e un solo semaforo della datazione (solida · indicativa · discussa) con i dettagli al tocco", ok53, f"{t53}")
+
+    # T54 icone per tipologia: scheda, riepilogo, ricerca; sui punti una forma per tipologia e l'icona piena sul punto scelto; legenda con le forme
+    await goto_view(p, "esplora")
+    t54 = await p.evaluate("""async()=>{const cats=new Set(ALL.map(typeCat));const allIc=[...cats].every(k=>TYPE_IC[k]);
+        openInEsplora('civilization-rome');await new Promise(r=>setTimeout(r,700));
+        const sch=!!document.querySelector('#detail .meta svg.type-ic[data-ic="stato"],#detail .meta svg.type-ic');const ic=document.querySelector('#detail .meta svg.type-ic')?.dataset.ic;
+        const selIc=document.querySelectorAll('#pins .map-marker[data-id="civilization-rome"] path.pin-ic').length;
+        const glyphs=document.querySelectorAll('#pins path.pin-glyph').length,kinds=new Set([...document.querySelectorAll('#pins path.pin-glyph')].map(g=>g.dataset.kind||g.getAttribute('class'))).size;
+        const legend=document.querySelectorAll('.legend-pin').length;
+        const f=document.getElementById('search');f.value='roma';f.dispatchEvent(new Event('input',{bubbles:true}));await new Promise(r=>setTimeout(r,250));
+        const hits=[...document.querySelectorAll('#searchPreview .search-hit')];const hitIc=hits.length>0&&hits.every(h=>h.querySelector('svg.type-ic'));
+        f.value='';f.dispatchEvent(new Event('input',{bubbles:true}));
+        return {cats:[...cats].sort(),allIc,sch,ic,selIc,glyphs,legend,hits:hits.length,hitIc}}""")
+    ok54 = t54["allIc"] and len(t54["cats"]) == 7 and t54["sch"] and t54["selIc"] == 1 and t54["glyphs"] > 0 and t54["legend"] >= 3 and t54["hitIc"]
+    R.check("T54", "Icone per tipologia nella scheda e nella ricerca; sui punti una forma per tipologia, icona piena sul punto aperto; legenda con le forme", ok54, f"{t54}")
+
+    # T55 fili verso le voci collegate: archi dal punto della scheda, solo in Esplora e solo a scheda aperta
+    t55 = await p.evaluate("""async()=>{openInEsplora('civilization-rome');await new Promise(r=>setTimeout(r,1400));
+        const x=ALL.find(v=>v.id==='civilization-rome');const P=y=>[(Number(y.map_geometry.longitude)+180)/360*900,(90-Number(y.map_geometry.latitude))/180*450];const [sx,sy]=P(x);
+        const exp=relatedForLinks(x).filter(y=>{const p=P(y);return Math.hypot(p[0]-sx,p[1]-sy)>2}).slice(0,14).length;
+        const arcs=[...document.querySelectorAll('#linksLayer path.link-arc')];const ends=document.querySelectorAll('#linksLayer circle.link-end').length;
+        const fromPin=arcs.every(a=>{const m=a.getAttribute('d').match(/^M([-\\d.]+) ([-\\d.]+)/);return m&&Math.abs(+m[1]-sx)<.01&&Math.abs(+m[2]-sy)<.01});
+        const drawn=arcs.every(a=>parseFloat(getComputedStyle(a).strokeDashoffset)<0.01);
+        const below=document.getElementById('linksLayer')?.nextElementSibling?.id==='pins';
+        closeDetail({instant:true});await new Promise(r=>setTimeout(r,250));const afterClose=document.querySelectorAll('#linksLayer path.link-arc').length;
+        return {exp,n:arcs.length,ends,fromPin,drawn,below,afterClose}}""")
+    ok55 = t55["exp"] > 0 and t55["n"] == t55["exp"] and t55["ends"] == t55["n"] and t55["fromPin"] and t55["drawn"] and t55["below"] and t55["afterClose"] == 0
+    R.check("T55", "Archi verso le voci collegate: partono dal punto della scheda, sotto i punti, spariscono alla chiusura", ok55, f"{t55}")
+
+    # T56 tono della mappa secondo l'epoca dell'anno scelto (stessi confini della barra del tempo)
+    t56 = await p.evaluate("""async()=>{const out=[];const r=document.getElementById('yearRange');
+        for(const y of [-3000,-200,1200,1800,2000]){r.value=y;r.dispatchEvent(new Event('input',{bubbles:true}));await new Promise(res=>setTimeout(res,200));
+          out.push([y,document.body.dataset.epoch,getComputedStyle(document.body).getPropertyValue('--epoch-land').trim()])}
+        return out}""")
+    ep56 = [v[1] for v in t56]
+    ok56 = ep56 == ["preistoria", "antichita", "medioevo", "moderna", "contemporanea"] and len({v[2] for v in t56}) == 5 and all(v[2] for v in t56)
+    R.check("T56", "La mappa cambia tono con l'epoca (Preistoria, Antichità, Medioevo, Moderna, Contemporanea)", ok56, f"{t56}")
+
+    # T57 la scheda si apre dal punto (su telefono sale dal basso) e si chiude tornandoci; con «riduci movimento» niente animazioni
+    t57 = await p.evaluate("""async()=>{const sch=document.getElementById('scheda');const w=ms=>new Promise(r=>setTimeout(r,ms));
+        openInEsplora('state-carthage');await w(30);const animOpen=sch.getAnimations().length;const pulse=document.querySelectorAll('#pins circle.pin-pulse').length;
+        await w(700);const settled=sch.getAnimations().length===0&&!sch.hidden;
+        closeDetail();await w(30);const closing=!sch.hidden&&sch.getAnimations().length>0;await w(500);
+        return {animOpen,pulse,settled,closing,closed:sch.hidden&&!detailOpen,sheet:isCompact()}}""")
+    await p.emulate_media(reduced_motion="reduce")
+    t57r = await p.evaluate("""async()=>{const sch=document.getElementById('scheda');openInEsplora('state-carthage');await new Promise(r=>setTimeout(r,30));
+        const a=sch.getAnimations().length;closeDetail();return {anim:a,closedNow:sch.hidden}}""")
+    await p.emulate_media(reduced_motion="no-preference")
+    ok57 = t57["animOpen"] >= 1 and t57["settled"] and t57["closing"] and t57["closed"] and t57["pulse"] == 1 and t57r == {"anim": 0, "closedNow": True}
+    R.check("T57", "Scheda: si apre dal punto della mappa (su telefono sale con un rimbalzo) e si chiude tornandoci; con «riduci movimento» è immediata", ok57, f"{t57}; riduci movimento {t57r}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

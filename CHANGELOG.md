@@ -1,5 +1,14 @@
 # Registro delle versioni
 
+## v0.56 · 21 novembre 2026
+
+- **Tre stili al posto delle palette.** In Impostazioni → Aspetto si sceglie tra **Contemporaneo morbido** (predefinito: chiaro, testata ottanio, angoli morbidi), **Museo** (carta avorio, titoli e testi con grazie, etichette bronzo, filetti sottili) e **Cartografo** (toni da carta geografica, titoli in corsivo, reticolo tratteggiato, filo colorato dell’area sul bordo della scheda). Cambia solo l’aspetto, non la struttura. Tolte Ottanio profondo, Pergamena, Notte stellata e Terracotta: chi le aveva scelte passa a Contemporaneo morbido (Pergamena e Terracotta a Museo). Per ora non c’è uno stile scuro.
+- **La scheda nasce dal punto della mappa.** Su PC si apre ingrandendosi dal punto toccato e ci torna quando si chiude; su telefono e tablet la tendina sale con un piccolo rimbalzo e scende alla chiusura. Il punto aperto pulsa due volte. Passando da una voce all’altra il contenuto cambia con una breve dissolvenza. Con «riduci movimento» attivo nel sistema non ci sono animazioni.
+- **Fili verso le voci collegate.** Con la scheda aperta in Esplora, dalla voce partono archi verso le voci collegate che hanno una posizione sulla mappa (al massimo 14), disegnati con una breve animazione; spariscono alla chiusura. Esempio: Roma → Egitto, Cartagine, Etruschi, Nora, Su Nuraxi, Guerre puniche.
+- **Icone per tipologia.** Sette icone (civiltà, regno/stato, sito, evento, religione, movimento, invenzione) nella scheda, nel riepilogo del punto e nei risultati della ricerca. Sulla mappa ogni punto porta una piccola forma per tipologia (triangolo, rombo, quadrato) e il punto aperto mostra l’icona piena; la legenda della mappa spiega le forme.
+- **La mappa cambia tono con l’epoca.** Terre e mari prendono una sfumatura diversa per Preistoria, Antichità, Medioevo, Età moderna e Contemporanea (stessi confini della barra del tempo), con un passaggio graduale.
+- Test di regressione: 111 controlli (T06, T10, T28 e T35 aggiornati ai nuovi stili; nuovi T54–T57 su icone, archi, tono d’epoca e animazione della scheda). Il file cresce di circa 16 KB.
+
 ## v0.55 · 21 novembre 2026
 
 - **Scheda: semaforo della datazione.** Sotto il titolo restano due etichette invece di quattro: la data e un semaforo. La precisione entra nella data («circa 450 – 1500 d.C.» quando è approssimata; anno secco quando è esatta). Il semaforo unisce affidabilità e verifica delle fonti: verde «solida» (affidabilità alta e voce verificata su una fonte specifica, 210 voci), giallo «indicativa» (affidabilità media o voce non ancora verificata, 215), arancio «discussa» (12). Toccandolo si aprono i dettagli: affidabilità, precisione delle date, stato delle fonti e legenda. Scelta di Luca (proposta A).
