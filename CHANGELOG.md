@@ -1,5 +1,14 @@
 # Registro delle versioni
 
+## v0.60 · 22 novembre 2026
+
+- **Tavola del tempo (prova)**, nuova vista `#tavola` ispirata a Calculating Empires: una grande pagina da esplorare con lo zoom come una mappa. Colonne = 13 aree del mondo, tempo in verticale con oggi in alto (stessa scala a tratti della barra del tempo). Ogni voce è una mini foto (la prima di Wikimedia Commons, 330 px, caricata solo quando entra nel riquadro; icona della tipologia se manca): da lontano solo le più importanti, zoomando compaiono le altre e le foto crescono; quelle che non trovano posto restano come puntini, che si possono toccare. Un tocco su una foto apre la scheda dell’atlante sopra la tavola (su telefono la tendina, su PC un pannello a destra); la tavola porta in vista la voce scelta. Stile proprio, scuro.
+- Gesti: trascinare (con inerzia), due dita, doppio tocco o doppio clic, rotella per scorrere nel tempo e Ctrl + rotella per lo zoom, frecce e + − 0 da tastiera; pulsanti −, + e «Tutta la storia».
+- Dove si trova: scheda «Tavola · prova» in alto su PC, «Altro» → «Tavola del tempo · prova» su telefono e tablet.
+- Copertura delle foto al massimo dello zoom: tutte le 437 voci su PC, 431 su iPhone (le altre 6 restano puntini da toccare).
+- Corretta la posizione della tendina della scheda su telefono quando la barra del tempo è nascosta.
+- Test: 121 controlli (nuovo T62).
+
 ## v0.59 · 22 novembre 2026
 
 - **Contemporanei e Tecnologia senza voce scelta: torna la barra dell’anno.** Finché non si sceglie niente, in basso c’è la barra con l’anno e gli esempi («Nel 1630 d.C.: …») cambiano scorrendola; anche i punti della mappa di Contemporanei seguono l’anno. Appena si sceglie una voce la barra sparisce, come prima. Nuovo pulsante **«Scegli per anno»** nell’intestazione delle due viste: toglie la voce scelta (anche per le altre viste) e riporta la barra.

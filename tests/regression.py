@@ -1163,6 +1163,40 @@ async def new_checks(p, R, mobile, name):
             and t61["epoca"] == ["Medioevo", True, True, True, "true"] and t61["tutte"] == [True, True] and t61["again"] and t61["tBack"] == [True, True])
     R.check("T61", "Contemporanei e Tecnologia senza voce scelta: barra dell’anno visibile e esempi che la seguono; con una voce scelta la barra sparisce e «Scegli per anno» la riporta; Tecnologia mostra di norma solo la stessa epoca, «+ epoche precedenti» aggiunge le altre", ok61, f"{t61}")
 
+    # T62 v0.60: Tavola del tempo (prova): vista #tavola a tutta altezza, mini foto senza sovrapposizioni, prima le voci importanti,
+    # zoom che aggiunge voci, trascinamento che sposta senza aprire schede, tocco su una foto che apre la scheda sopra la tavola; uscendo la scheda torna in Esplora
+    await p.evaluate("()=>{closeDetail({instant:true});selected=null;detailOpen=false;renderDetail();updateDetailPanel();location.hash='#tavola'}"); await p.wait_for_timeout(900)
+    t62 = await p.evaluate("""()=>{const st=document.getElementById('tavStage'),r=st.getBoundingClientRect();
+        const tiles=[...document.querySelectorAll('.tav-tile:not([hidden])')].map(e=>{const b=e.getBoundingClientRect();return {l:b.left,t:b.top,r:b.right,b:b.bottom}}).filter(a=>a.r>r.left&&a.l<r.right&&a.b>r.top&&a.t<r.bottom);
+        let ov=0;for(let i=0;i<tiles.length;i++)for(let j=i+1;j<tiles.length;j++){const a=tiles[i],b=tiles[j];if(a.l<b.r-1&&a.r>b.l+1&&a.t<b.b-1&&a.b>b.t+1)ov++}
+        const rel=id=>ALL.find(x=>x.id===id).relevance||3,placed=[...TAV.lay.keys()],avg=a=>a.reduce((s,v)=>s+v,0)/Math.max(1,a.length);
+        return {view:currentView,h:Math.round(r.height),fits:r.bottom<=window.innerHeight+1&&r.top>=-1,n:tiles.length,ov,n0:placed.length,
+          relPlaced:+avg(placed.map(rel)).toFixed(2),relAll:+avg(TAV.items.map(i=>rel(i.id))).toFixed(2),dock:getComputedStyle(document.getElementById('timeDock')).display}}""")
+    t62["n3"] = await p.evaluate("()=>{tavZoomAt(TAV.s*3,TAV.sw/2,TAV.sh/2);tavDraw();return TAV.lay.size}")
+    st62 = await p.evaluate("()=>{const r=document.getElementById('tavStage').getBoundingClientRect();return [r.left+r.width*0.55,r.top+r.height*0.5]}")
+    oy0 = await p.evaluate("()=>TAV.oy")
+    if mobile:
+        await touch_drag(p, st62[0], st62[1], 0, -140)
+    else:
+        await p.mouse.move(st62[0], st62[1]); await p.mouse.down(); await p.mouse.move(st62[0], st62[1] - 70, steps=5); await p.mouse.move(st62[0], st62[1] - 140, steps=5); await p.mouse.up()
+    await p.wait_for_timeout(500)
+    t62["drag"] = await p.evaluate("(o)=>({moved:Math.abs(TAV.oy-o)>60,sel:selected,open:detailOpen})", oy0)
+    pick = await p.evaluate("""()=>{const r=document.getElementById('tavStage').getBoundingClientRect();const t=[...document.querySelectorAll('.tav-tile:not([hidden])')].find(e=>{const b=e.querySelector('.tav-ph').getBoundingClientRect();return b.left>r.left+60&&b.right<r.right-10&&b.top>r.top+40&&b.bottom<r.top+r.height*0.45});if(!t)return null;t.setAttribute('data-pick','1');return t.dataset.tav}""")
+    if pick:
+        await tap(p, p.locator(".tav-tile[data-pick] .tav-ph"), mobile); await p.wait_for_timeout(800)
+    t62["open"] = await p.evaluate("""(id)=>{const s=document.getElementById('scheda'),b=s.getBoundingClientRect(),dl=document.getElementById('detailLinks');return {pick:!!id,sel:selected===id,open:detailOpen,vis:!s.hidden,host:s.parentElement.id,
+        inScreen:b.top>=-1&&b.bottom<=window.innerHeight+1&&b.height>100,title:document.querySelector('#detail .detail-title')?.textContent===ALL.find(x=>x.id===id)?.name,
+        ring:!!document.querySelector('.tav-tile.sel[data-tav="'+id+'"]'),links:!dl||getComputedStyle(dl).display==='none'}}""", pick)
+    await p.screenshot(path=f"{OUT}/{name}_tavola.png")
+    await p.evaluate("()=>closeDetail({instant:true})")
+    await goto_view(p, "esplora")
+    t62["back"] = await p.evaluate("()=>{const s=document.getElementById('scheda'),m=document.getElementById('mappa');return s.closest('.view')?.id==='view-esplora'&&m.nextElementSibling===s}")
+    await p.evaluate("()=>{selected=null;detailOpen=false;renderDetail();updateDetailPanel()}")
+    ok62 = (t62["view"] == "tavola" and t62["h"] >= 300 and t62["fits"] and 5 <= t62["n"] <= 150 and t62["ov"] == 0 and t62["relPlaced"] < t62["relAll"]
+            and t62["n3"] > t62["n0"] and t62["dock"] == "none" and t62["drag"] == {"moved": True, "sel": None, "open": False}
+            and t62["open"] == {"pick": True, "sel": True, "open": True, "vis": True, "host": "tavolaWrap", "inScreen": True, "title": True, "ring": True, "links": True} and t62["back"])
+    R.check("T62", "Tavola del tempo (prova): a tutta altezza, foto senza sovrapposizioni con prima le voci importanti, lo zoom ne aggiunge, trascinare sposta senza aprire, il tocco apre la scheda sopra la tavola; uscendo la scheda torna in Esplora", ok62, f"{t62}")
+
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù
     R = Run("ipad")
