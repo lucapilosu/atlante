@@ -472,7 +472,7 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T26 Tecnologia: per ogni ambito e area, le attestazioni fino alla fine della voce scelta, con la distanza in anni
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techFocusId='event-rapanui-moai-tradition';techDomain='all';selected=null;showView('tecnologia');techMode='dettaglio';renderTecnologia()}")
+    await p.evaluate("()=>{techScope='tutte';techFocusId='event-rapanui-moai-tradition';techDomain='all';selected=null;showView('tecnologia');techMode='dettaglio';renderTecnologia()}")  # v0.59: T26 e T34 verificano il confronto con tutte le epoche; la finestra «stessa epoca» è in T61
     await p.wait_for_timeout(300)
     t26 = await p.evaluate("""()=>{const f=ALL.find(x=>x.id==='event-rapanui-moai-tradition');
         const exp=TECH.filter(t=>t.start_year<=f.end_year).length;
@@ -706,7 +706,7 @@ async def new_checks(p, R, mobile, name):
 
     # T34 Tecnologia, sintesi: un punto per ambito e area, posizione coerente con gli anni, tocco → dettaglio dell'attestazione
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techFocusId='event-rapanui-moai-tradition';techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
+    await p.evaluate("()=>{techScope='tutte';techFocusId='event-rapanui-moai-tradition';techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
     t34 = await p.evaluate("""()=>{const f=techFocus(),fi=techFirsts(f),keys=Object.keys(fi);
         const band=document.querySelector('#techList .ti-band'),bl=+band.getAttribute('x'),br=bl+ +band.getAttribute('width');
         const marks=[...document.querySelectorAll('#techList .ti-mark')].map(g=>{const c=g.querySelector('circle');return {id:g.dataset.ti,x:+c.getAttribute('cx'),r:+c.getAttribute('r')}});
@@ -718,7 +718,7 @@ async def new_checks(p, R, mobile, name):
     mk = p.locator("#techList .ti-mark[data-ti='tech-arch-great-pyramid']")
     await tap(p, mk, mobile); await p.wait_for_timeout(500)
     t34b = await p.evaluate("()=>({mode:techMode,open:techOpenId,domain:techDomain,shown:!!document.querySelector(\"#techList .tech-item.open[data-tech-id='tech-arch-great-pyramid']\")})")
-    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}")
+    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;techScope='epoca';renderTecnologia()}")
     ok34 = (t34["marks"] == t34["pairs"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 0
             and t34b == {"mode": "dettaglio", "open": "tech-arch-great-pyramid", "domain": "architettura", "shown": True})
     R.check("T34", "Tecnologia, sintesi: infografica con un punto per ambito e area, coerente con gli anni (senza la griglia «Ambiti attestati per area», tolta nella v0.53); un tocco apre il dettaglio",
@@ -843,12 +843,13 @@ async def new_checks(p, R, mobile, name):
 
     # T43 barra del tempo: nascosta in Contemporanei, Confronto e Tecnologia (lì l'anno non cambia niente), visibile nelle altre viste che lo usano
     vis43 = {}
+    await p.evaluate("()=>{contempFocusId='civilization-rome';techFocusId='civilization-rome'}")  # v0.59: nelle due viste la barra c'è solo senza voce scelta (T61)
     for v in ["esplora", "contemporanei", "tecnologia", "universo", "confronto"]:
         await goto_view(p, v); await p.wait_for_timeout(150)
         vis43[v] = await p.evaluate("()=>{const d=document.getElementById('timeDock');return getComputedStyle(d).display!=='none'&&d.getBoundingClientRect().height>0}")
     await goto_view(p, "esplora")
     ok43 = vis43 == {"esplora": True, "contemporanei": False, "tecnologia": False, "universo": True, "confronto": False}
-    R.check("T43", "Barra del tempo nascosta in Contemporanei, Tecnologia e Confronto (lì l’anno non cambia niente), visibile in Esplora e Universo", ok43, f"{vis43}")
+    R.check("T43", "Barra del tempo nascosta in Contemporanei e Tecnologia con una voce scelta, e nel Confronto (lì l’anno non cambia niente), visibile in Esplora e Universo", ok43, f"{vis43}")
 
     # T44 Contemporanei: quattro esempi all'apertura; con una voce scelta, durata sulle epoche e righello allineato alle barrette
     await goto_view(p, "contemporanei")
@@ -1136,6 +1137,31 @@ async def new_checks(p, R, mobile, name):
             and t60["ocean"]["ctx"] and t60["ocean"]["pressed"] == "false" and t60["ocean"]["empty"] and t60["open"]["ctx"] and t60["open"]["strata"] and t60["open"]["order"] and t60["open"]["top"] and t60["open"]["bot"] and t60["open"]["pressed"] == "false" and not t60["open"]["balloon"]
             and t60["hid"] and t60["back"])
     R.check("T60", "Pulsante «Storia di un luogo»: tocco sulla mappa apre la storia, Escape annulla, nascosto fuori da Esplora; strati dal più recente in alto, nessun fumetto", ok60, f"{t60}")
+
+    # T61 v0.59: senza voce scelta Contemporanei e Tecnologia mostrano la barra dell'anno e gli esempi la seguono; con una voce la barra sparisce e «Scegli per anno» la riporta; Tecnologia di norma solo stessa epoca
+    t61 = await p.evaluate("""async()=>{const w=ms=>new Promise(r=>setTimeout(r,ms)),out={};
+        const dockVis=()=>{const d=document.getElementById('timeDock');return getComputedStyle(d).display!=='none'&&d.getBoundingClientRect().height>0};
+        const sug=sel=>[...document.querySelectorAll(sel+' [data-contemp-focus],'+sel+' [data-tech-focus]')].map(b=>b.dataset.contempFocus||b.dataset.techFocus);
+        const yr=y=>{const r=document.getElementById('yearRange');r.value=y;r.dispatchEvent(new Event('input',{bubbles:true}))};
+        const marks=()=>[...document.querySelectorAll('#techList .ti-mark')].map(g=>TECH.find(t=>t.id===g.dataset.ti));
+        const view=v=>{location.hash='#'+v};
+        selected=null;contempFocusId=null;techFocusId=null;techScope='epoca';view('esplora');await w(300);yr(-500);await w(150);
+        view('contemporanei');await w(500);out.cDock=dockVis();const c1=sug('#contempSummary');yr(1500);await w(200);const c2=sug('#contempSummary');
+        out.cSug=[c1.length>0&&c2.length>0&&c1.join()!==c2.join(),c2.every(id=>activeIn(ALL.find(x=>x.id===id)))];out.cLabel=document.getElementById('dockYear').textContent;
+        setContempFocus(c2[0]);await w(300);out.cDockFocus=dockVis();
+        document.querySelector('[data-clear-focus="contemporanei"]').click();await w(300);out.cBack=[dockVis(),contempFocusId===null,!!document.querySelector('#contempSummary [data-contemp-focus]')];
+        view('tecnologia');await w(500);out.tDock=dockVis();yr(-500);await w(200);const t1=sug('#techSummary');yr(1500);await w(200);const t2=sug('#techSummary');
+        out.tSug=[t1.length>0&&t2.length>0&&t1.join()!==t2.join()];
+        techMode='sintesi';setTechFocus('event-rapanui-moai-tradition');await w(300);out.tDockFocus=dockVis();const f=ALL.find(x=>x.id==='event-rapanui-moai-tradition'),ep=techEpoch(f);
+        const m1=marks();out.epoca=[ep.name,m1.length>0,m1.every(t=>t.start_year>=ep.from),!document.querySelector('#techList .ti-mark[data-ti="tech-arch-great-pyramid"]'),document.querySelector('[data-tech-scope="epoca"]').getAttribute('aria-pressed')];
+        document.querySelector('[data-tech-scope="tutte"]').click();await w(200);const m2=marks();out.tutte=[m2.length>m1.length,!!document.querySelector('#techList .ti-mark[data-ti="tech-arch-great-pyramid"]')];
+        document.querySelector('[data-tech-scope="epoca"]').click();await w(200);out.again=marks().length===m1.length;
+        document.querySelector('[data-clear-focus="tecnologia"]').click();await w(300);out.tBack=[dockVis(),techFocusId===null];
+        view('esplora');await w(300);return out}""")
+    ok61 = (t61["cDock"] and t61["cSug"] == [True, True] and "1500" in t61["cLabel"] and not t61["cDockFocus"] and t61["cBack"] == [True, True, True]
+            and t61["tDock"] and t61["tSug"] == [True] and not t61["tDockFocus"]
+            and t61["epoca"] == ["Medioevo", True, True, True, "true"] and t61["tutte"] == [True, True] and t61["again"] and t61["tBack"] == [True, True])
+    R.check("T61", "Contemporanei e Tecnologia senza voce scelta: barra dell’anno visibile e esempi che la seguono; con una voce scelta la barra sparisce e «Scegli per anno» la riporta; Tecnologia mostra di norma solo la stessa epoca, «+ epoche precedenti» aggiunge le altre", ok61, f"{t61}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

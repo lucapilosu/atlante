@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## v0.59 · 22 novembre 2026
+
+- **Contemporanei e Tecnologia senza voce scelta: torna la barra dell’anno.** Finché non si sceglie niente, in basso c’è la barra con l’anno e gli esempi («Nel 1630 d.C.: …») cambiano scorrendola; anche i punti della mappa di Contemporanei seguono l’anno. Appena si sceglie una voce la barra sparisce, come prima. Nuovo pulsante **«Scegli per anno»** nell’intestazione delle due viste: toglie la voce scelta (anche per le altre viste) e riporta la barra.
+- **Tecnologia: di norma solo la stessa epoca.** Le attestazioni «prima» della voce si fermano all’inizio della sua epoca (le cinque della barra del tempo: Preistoria, Antichità, Medioevo, Età moderna, Età contemporanea), invece di risalire a migliaia di anni prima. Il pulsante **«+ epoche precedenti»** (accanto a «Stessa epoca») le aggiunge tutte per un confronto. Testi di intestazione, indicatori e note dicono quale finestra è attiva.
+- Test: 119 controlli (nuovo T61; T26 e T34 verificano il confronto con tutte le epoche; T43 aggiornato: la barra è nascosta solo con una voce scelta).
+
 ## v0.58 · 21 novembre 2026
 
 - **Storia del luogo a strati.** Le epoche sono disegnate come strati di uno scavo archeologico: in alto il più recente («Oggi · superficie»), in basso il più antico («Più antico · in profondità»), con colori della terra che si scuriscono in profondità. Restano al massimo 4 voci per strato, «+N altre», l’interruttore «Intorno all’anno» e la mappa con le sole voci del luogo.
