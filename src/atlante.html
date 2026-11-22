@@ -953,15 +953,29 @@ body .tav-wrap button.tav-btn:hover{background:#22302d!important}
 .tav-tile.sel .tav-cap b{color:#7fd6c8}
 @media (prefers-reduced-motion:no-preference){.tav-tile:not([hidden]){animation:tavIn .28s ease-out}}
 @keyframes tavIn{from{opacity:0;transform:var(--tav-from,none)}to{opacity:1}}
-.tav-head{position:absolute;left:0;right:0;top:0;height:34px;background:linear-gradient(#0d1214 62%,rgba(13,18,20,0));pointer-events:none}
-.tav-head span{position:absolute;top:8px;left:0;white-space:nowrap;font:700 11px/1 system-ui,sans-serif;letter-spacing:.3px;color:#cfe3de;transform-origin:center}
+.tav-head{position:absolute;left:0;right:0;top:0;height:46px;background:linear-gradient(#0d1214 70%,rgba(13,18,20,0));pointer-events:none}
+.tav-head .tav-cont{position:absolute;top:5px;left:0;white-space:nowrap;font:800 10.5px/1 system-ui,sans-serif;letter-spacing:.9px;text-transform:uppercase;color:color-mix(in srgb,var(--c) 45%,#fff)}
+.tav-head .tav-bar{position:absolute;top:19px;left:0;height:3px;border-radius:2px;background:var(--c);opacity:.95}
+.tav-head .tav-area{position:absolute;top:27px;left:0;white-space:nowrap;font:600 10.5px/1 system-ui,sans-serif;color:#b9cfca}
+.tav-title{min-width:0;flex:1}
+.tav-sub{height:40px;display:flex;align-items:center;margin-top:3px}
+.tav-sub p{margin:0!important}
+.tav-mini{display:flex;align-items:center;gap:10px;min-width:0}
+.tav-mini[hidden],.tav-sub p[hidden]{display:none}
+.tav-mini svg{display:block;width:112px;height:auto;flex:none;border-radius:4px;background:rgba(255,255,255,.03)}
+.tav-mini .tav-mini-land{fill:rgba(220,235,232,.16)}
+.tav-mini .tav-mini-hi path{fill:#7fd6c8;opacity:0;transition:opacity .2s}
+.tav-mini .tav-mini-hi path.on{opacity:.95}
+.tav-mini .tav-mini-hi path.half{opacity:.4}
+.tav-mini small{display:block;font:600 12px/1.25 system-ui,sans-serif;color:#b9cfca;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+@media (max-width:760px){.tav-sub{height:30px;margin-top:2px}.tav-mini{gap:7px}.tav-mini svg{width:76px}.tav-mini small{font-size:11px}}
 .tav-axis{position:absolute;left:0;top:0;bottom:0;background:linear-gradient(90deg,#0d1214 70%,rgba(13,18,20,0));pointer-events:none}
 .tav-axis span{position:absolute;left:0;top:0;text-align:right;font:600 10.5px/1.05 system-ui,sans-serif;color:#8fa8a3;white-space:nowrap}
 .tav-axis span i{display:block;font-style:normal;font-size:9px;color:#6f8884}
 body[data-view="tavola"] .time-dock{display:none!important}
 body[data-view="tavola"] #scheda:not(.is-sheet){position:fixed!important;top:84px;right:18px;left:auto;width:min(420px,38vw);max-height:calc(100vh - 104px);overflow:auto;z-index:60;margin:0;box-shadow:0 18px 50px rgba(0,0,0,.45)}
 body[data-view="tavola"] #detailLinks{display:none!important}
-@media (max-width:760px){.tav-wrap{border-radius:0;margin:0 -12px 0;padding:8px 8px 6px}.tav-top{flex-wrap:nowrap;margin-bottom:6px}.tav-title h2{font-size:17px}.tav-title p{font-size:11px;margin-top:2px}.tav-long{display:none}.tav-short{display:inline}body .tav-wrap button.tav-btn{height:32px;min-width:34px;padding:0 10px}}
+@media (max-width:760px){.tav-wrap{border-radius:0;margin:0 -12px 0;padding:8px 8px 6px}.tav-top{flex-wrap:nowrap;align-items:flex-start;margin-bottom:6px}.tav-tools{margin-top:2px}.tav-title h2{font-size:17px}.tav-title p{font-size:11px;margin-top:2px}.tav-long{display:none}.tav-short{display:inline}body .tav-wrap button.tav-btn{height:32px;min-width:34px;padding:0 10px}}
 </style></head><body>
 <header class="app-header"><div class="brand"><div class="eyebrow">Atlante storico interattivo · laboratorio v{{VERSIONE}}</div><h1>Un mondo, molte storie.</h1></div><nav class="view-tabs" aria-label="Viste dell’atlante"><a href="#esplora" data-view-link="esplora">Esplora</a><a href="#contemporanei" data-view-link="contemporanei">Contemporanei</a><a href="#tecnologia" data-view-link="tecnologia">Tecnologia</a><a href="#universo" data-view-link="universo">Universo</a><a href="#tavola" data-view-link="tavola">Tavola <small class="tav-tab-badge">prova</small></a><a href="#confronto" data-view-link="confronto">Confronto<b class="cmp-count" data-cmp-count hidden></b></a><a href="#archivio" data-view-link="archivio">Archivio</a><a href="#impostazioni" data-view-link="impostazioni" aria-label="Impostazioni" title="Impostazioni">⚙</a></nav></header>
 <main class="wrap">
@@ -979,7 +993,7 @@ body[data-view="tavola"] #detailLinks{display:none!important}
     <div class="universe-tooltip" id="universeTooltip" hidden></div>
   </div>
 </section></div>
-<div class="view" id="view-tavola" data-view="tavola" hidden><section class="tav-wrap" id="tavolaWrap" aria-label="Tavola del tempo"><div class="tav-top"><div class="tav-title"><h2>Tavola del tempo <span class="tav-badge">prova</span></h2><p id="tavHint"></p></div><div class="tav-tools"><button type="button" class="tav-btn" id="tavOut" aria-label="Riduci">−</button><button type="button" class="tav-btn" id="tavIn" aria-label="Ingrandisci">+</button><button type="button" class="tav-btn tav-all" id="tavAll"><span class="tav-long">Tutta la storia</span><span class="tav-short">Tutto</span></button></div></div><div class="tav-stage" id="tavStage" tabindex="0" aria-label="Tavola del tempo: trascina per spostarti; due dita, Ctrl più rotella o doppio clic per lo zoom"><canvas class="tav-bg" id="tavBg" aria-hidden="true"></canvas><div class="tav-tiles" id="tavTiles"></div><div class="tav-axis" id="tavAxis" aria-hidden="true"></div><div class="tav-head" id="tavHead" aria-hidden="true"></div></div></section></div>
+<div class="view" id="view-tavola" data-view="tavola" hidden><section class="tav-wrap" id="tavolaWrap" aria-label="Tavola del tempo"><div class="tav-top"><div class="tav-title"><h2>Tavola del tempo <span class="tav-badge">prova</span></h2><div class="tav-sub"><p id="tavHint"></p><div class="tav-mini" id="tavMini" aria-hidden="true" hidden></div></div></div><div class="tav-tools"><button type="button" class="tav-btn" id="tavOut" aria-label="Riduci">−</button><button type="button" class="tav-btn" id="tavIn" aria-label="Ingrandisci">+</button><button type="button" class="tav-btn tav-all" id="tavAll"><span class="tav-long">Tutta la storia</span><span class="tav-short">Tutto</span></button></div></div><div class="tav-stage" id="tavStage" tabindex="0" aria-label="Tavola del tempo: trascina per spostarti; due dita, Ctrl più rotella o doppio clic per lo zoom"><canvas class="tav-bg" id="tavBg" aria-hidden="true"></canvas><div class="tav-tiles" id="tavTiles"></div><div class="tav-axis" id="tavAxis" aria-hidden="true"></div><div class="tav-head" id="tavHead" aria-hidden="true"></div></div></section></div>
 <div class="view" id="view-confronto" data-view="confronto" hidden><section class="panel compare-panel" id="comparatore"><div class="topline"><div><div class="eyebrow">Confronto</div><h2>Dettagli del confronto</h2><div class="small">Caratteristiche, cronologie e relazioni delle voci che hai aggiunto da mappa, ricerca, schede o Universo (fino a 5).</div></div><div class="compare-actions"><span class="compare-count" id="compareCount">0 / 5 selezionati</span><button type="button" id="compareExample">Prova Maya · Inca · Egitto</button><button type="button" id="compareClear">Svuota confronto</button></div></div>
 <div class="compare-search-wrap"><input id="compareSearch" class="compare-search" type="search" placeholder="Cerca una civiltà, un evento, un luogo, un'invenzione…" autocomplete="off" aria-label="Cerca voci da confrontare"><div class="compare-results" id="compareResults" hidden></div></div>
 <div class="compare-chips" id="compareChips"></div><div id="compareOutput"><div class="compare-empty">Aggiungi almeno due voci. Per esempio: Maya, Inca ed Egitto dinastico.</div></div>
@@ -2265,14 +2279,21 @@ function tavSpan(x){const a=x.start_year,b=x.end_year??a;if(a===b)return fmt(a);
 function tavInit(){
  if(TAV)return TAV;
  const stage=$('tavStage');if(!stage)return null;
- const cols=AREA_ORDER.length?AREA_ORDER.slice():['EU','AO','AN','AS','AM','AE','AC','SE','NA','MC','SA','OC','GL'];
+ // ordine del planisfero, da ovest a est, con le aree dello stesso continente vicine: Americhe · Europa · Africa · Asia · Oceania · Globale
+ const MAPORDER=['NA','MC','SA','EU','AN','AS','AO','AC','AM','AE','SE','OC','GL'];const known=new Set(AREA_ORDER);
+ const cols=MAPORDER.filter(c=>!AREA_ORDER.length||known.has(c)).concat(AREA_ORDER.filter(c=>!MAPORDER.includes(c)));
+ const contOf=new Map((DB.world_areas||[]).map(a=>[a.id,a.region||'Globale']));
  const items=ALL.filter(x=>cols.includes(x.world_area)&&Number.isFinite(x.start_year)).map(x=>{const rel=x.relevance||3,dur=Math.max(0,(x.end_year??x.start_year)-x.start_year),im=(x.images||[])[0]||null,ci=cols.indexOf(x.world_area);
-  return {x,id:x.id,ci,wx:ci*TAV_COL+TAV_COL/2,wy:TAV_H*(1-tavFrac(x.start_year)),im,big:rel===1,pr:(4-rel)*1000+(im?300:0)+Math.min(300,Math.log10(1+dur)*80)+(x.focus?40:0)}})
+  return {x,id:x.id,ci,cont:contOf.get(x.world_area)||'Globale',wx:ci*TAV_COL+TAV_COL/2,wy:TAV_H*(1-tavFrac(x.start_year)),im,big:rel===1,pr:(4-rel)*1000+(im?300:0)+Math.min(300,Math.log10(1+dur)*80)+(x.focus?40:0)}})
   .sort((a,b)=>b.pr-a.pr||a.x.start_year-b.x.start_year);
  const names=new Map((DB.world_areas||[]).map(a=>[a.id,a.name]));
- const SHORT={EU:'Europa',AO:'Asia occ.',AN:'Nord Africa',AS:'Africa sub.',AM:'Asia mer.',AE:'Asia or.',AC:'Asia centr.',SE:'Sud-est as.',NA:'N. America',MC:'Mesoamerica',SA:'S. America',OC:'Oceania',GL:'Globale'};
- TAV={stage,cols,items,byId:new Map(items.map(it=>[it.id,it])),names:cols.map(c=>[names.get(c)||c,SHORT[c]||c,c]),s:0,ox:0,oy:0,sw:0,sh:0,G:44,HH:34,P:56,dpr:1,lay:new Map(),layS:0,els:new Map(),ptrs:new Map(),drag:null,pinch:null,raf:0,anim:0,inert:0,sized:false,selId:null,lastTap:null,justDragged:0,lastSel:null,touch:document.documentElement.classList.contains('touch-ui')};
- const head=$('tavHead');head.innerHTML=cols.map(()=>'<span></span>').join('');
+ const SHORT={EU:['Europa'],AO:['Asia occidentale','Asia occ.'],AN:['Nord Africa','N. Africa'],AS:['Africa subsahariana','Africa sub.','Afr. sub.'],AM:['Asia meridionale','Asia mer.'],AE:['Asia orientale','Asia or.'],AC:['Asia centrale','Asia centr.','Asia c.'],SE:['Sud-est asiatico','Sud-est as.','SE asiat.'],NA:['Nord America','N. America','N. Am.'],MC:['Mesoamerica','Mesoam.'],SA:['Sud America','S. America','S. Am.'],OC:['Oceania'],GL:['Globale']};
+ const CONT_LBL={Americhe:['Americhe','Am.'],Europa:['Europa','Eur.'],Africa:['Africa','Afr.'],Asia:['Asia'],Oceania:['Oceania','Oc.'],Globale:['Globale','Gl.']};
+ const groups=[];cols.forEach((c,i)=>{const k=contOf.get(c)||'Globale',g=groups[groups.length-1];if(g&&g.k===k)g.i1=i;else groups.push({k,i0:i,i1:i,lbl:CONT_LBL[k]||[k],c:COLORS[k]||COLORS.Globale})});
+ TAV={stage,cols,items,groups,contOf,byId:new Map(items.map(it=>[it.id,it])),names:cols.map(c=>[names.get(c)||c,...(SHORT[c]||[c])]),mctx:document.createElement('canvas').getContext('2d'),mw:new Map(),s:0,ox:0,oy:0,sw:0,sh:0,G:44,HH:46,P:56,dpr:1,lay:new Map(),layS:0,els:new Map(),ptrs:new Map(),drag:null,pinch:null,raf:0,anim:0,inert:0,sized:false,selId:null,lastTap:null,justDragged:0,lastSel:null,touch:document.documentElement.classList.contains('touch-ui')};
+ const head=$('tavHead');head.innerHTML=groups.map(g=>`<b class="tav-bar" style="--c:${g.c}"></b><span class="tav-cont" style="--c:${g.c}"></span>`).join('')+cols.map(()=>'<span class="tav-area"></span>').join('');
+ TAV.hBars=[...head.querySelectorAll('.tav-bar')];TAV.hConts=[...head.querySelectorAll('.tav-cont')];TAV.hAreas=[...head.querySelectorAll('.tav-area')];
+ tavMiniBuild();
  $('tavHint').textContent=TAV.touch?'Trascina, allarga con due dita, tocca una foto.':'Rotella per scorrere nel tempo, Ctrl + rotella, doppio clic o + e − per lo zoom. Clic su una foto per aprire la scheda.';
  tavBind();return TAV;
 }
@@ -2303,8 +2324,8 @@ function tavLayout(){const T=TAV,s=T.s,P=T.P=Math.round(Math.max(T.P0,Math.min(T
  T.lay=out;T.layS=s}
 function tavSchedule(){if(!TAV||TAV.raf)return;TAV.raf=requestAnimationFrame(tavDraw)}
 function tavMakeEl(it){const x=it.x,el=document.createElement('div');el.className='tav-tile'+(it.big?' big':'')+(it.im?'':' noimg');el.dataset.tav=it.id;el.setAttribute('role','button');el.tabIndex=-1;
- el.style.setProperty('--area',COLORS[x.region]||COLORS.Globale);el.setAttribute('aria-label',`${x.name}, ${tavSpan(x)}`);
- el.innerHTML=`<span class="tav-ph">${it.im?`<img alt="" decoding="async" src="${esc(imgUrl(it.im,330))}">`:typeIcon(x)}</span><span class="tav-cap"><b>${esc(x.name)}</b><small>${esc(tavSpan(x))}</small></span>`;
+ el.style.setProperty('--area',COLORS[it.cont]||COLORS.Globale);el.setAttribute('aria-label',`${x.name}, ${tavSpan(x)}`);
+ el.innerHTML=`<span class="tav-ph">${it.im?`<img alt="" decoding="async" src="${esc(imgUrl(it.im,120))}">`:typeIcon(x)}</span><span class="tav-cap"><b>${esc(x.name)}</b><small>${esc(tavSpan(x))}</small></span>`;
  const img=el.querySelector('img');if(img)img.addEventListener('error',()=>{el.classList.add('noimg');el.querySelector('.tav-ph').innerHTML=typeIcon(x)},{once:true});
  el.hidden=true;$('tavTiles').appendChild(el);TAV.els.set(it.id,el);if(selected===it.id)el.classList.add('sel');return el}
 function tavDraw(){const T=TAV;T.raf=0;if(!T||currentView!=='tavola'||!T.sw)return;
@@ -2312,19 +2333,28 @@ function tavDraw(){const T=TAV;T.raf=0;if(!T||currentView!=='tavola'||!T.sw)retu
  const s=T.s,W=T.cols.length*TAV_COL*s,H=TAV_H*s,c=$('tavBg'),ctx=c.getContext('2d');
  ctx.setTransform(T.dpr,0,0,T.dpr,0,0);ctx.clearRect(0,0,T.sw,T.sh);
  const yTopAll=Math.max(0,T.oy),yBotAll=Math.min(T.sh,T.oy+H);
- ctx.fillStyle='rgba(255,255,255,.022)';for(let i=1;i<T.cols.length;i+=2){const x=T.ox+i*TAV_COL*s;if(x>T.sw||x+TAV_COL*s<0)continue;ctx.fillRect(x,yTopAll,TAV_COL*s,yBotAll-yTopAll)}
+ ctx.fillStyle='rgba(255,255,255,.03)';T.groups.forEach((g,j)=>{if(j%2)return;const x=T.ox+g.i0*TAV_COL*s,w=(g.i1-g.i0+1)*TAV_COL*s;if(x>T.sw||x+w<0)return;ctx.fillRect(x,yTopAll,w,yBotAll-yTopAll)});
  let cum=0;const bands=[];TIME_SEGMENTS.forEach((sg,i)=>{const yT=T.oy+TAV_H*(1-(cum+sg.w))*s,yB=T.oy+TAV_H*(1-cum)*s;cum+=sg.w;bands.push([yT,yB,i]);if(i%2===0){ctx.fillStyle='rgba(127,214,200,.035)';ctx.fillRect(Math.max(0,T.ox),yT,Math.min(T.sw,T.ox+W)-Math.max(0,T.ox),yB-yT)}});
  ctx.font='700 11px system-ui,-apple-system,"Segoe UI",sans-serif';try{ctx.letterSpacing='1.5px'}catch(e){}ctx.fillStyle='rgba(150,200,190,.55)';ctx.textBaseline='alphabetic';
  bands.forEach(([yT,yB,i])=>{if(yB<T.HH+24||yT>T.sh)return;const y=Math.min(yB-10,Math.max(yT+20,T.HH+20));ctx.fillText((PLACE_EPOCHS[i]?.n||'').toUpperCase(),Math.max(T.G,T.ox)+10,y)});
  try{ctx.letterSpacing='0px'}catch(e){}
  for(const it of T.items){const r=T.lay.get(it.id);let el=T.els.get(it.id);const ax=T.ox+it.wx*s,ay=T.oy+it.wy*s;
   if(!r){if(el&&!el.hidden)el.hidden=true;if(ax>-6&&ax<T.sw+6&&ay>-6&&ay<T.sh+6){ctx.beginPath();ctx.arc(ax,ay,it.big?2.6:1.7,0,Math.PI*2);ctx.fillStyle=it.big?'rgba(190,230,222,.6)':'rgba(130,170,163,.38)';ctx.fill()}continue}
-  let sx=ax+r.dx-r.w/2;const sy=ay-r.p/2+(r.dy||0);if(ax>T.G-4&&ax<T.sw+4)sx=Math.min(Math.max(sx,T.G+2),T.sw-r.w-2);if(sx>T.sw+20||sx+r.w<-20||sy>T.sh+20||sy+r.h<-20){if(el&&!el.hidden)el.hidden=true;continue}
-  if(!el)el=tavMakeEl(it);if(el._p!==r.p||el._w!==r.w){el._p=r.p;el._w=r.w;el.style.setProperty('--p',r.p+'px');el.style.width=r.w+'px'}el.classList.toggle('compact',!!T.compact);
+  let sx=ax+r.dx-r.w/2;const sy=ay-r.p/2+(r.dy||0);if(W+2*T.M<=T.sw-T.G+1&&ax>T.G-4&&ax<T.sw+4)sx=Math.min(Math.max(sx,T.G+2),T.sw-r.w-2);if(sx>T.sw+20||sx+r.w<-20||sy>T.sh+20||sy+r.h<-20){if(el&&!el.hidden)el.hidden=true;continue}
+  if(!el)el=tavMakeEl(it);if(el._p!==r.p||el._w!==r.w){el._p=r.p;el._w=r.w;el.style.setProperty('--p',r.p+'px');el.style.width=r.w+'px'}el.classList.toggle('compact',!!T.compact);if(it.im&&r.p>64&&!el._hi){el._hi=true;const hi=new Image();hi.decoding='async';hi.onload=()=>{const img=el.querySelector('img');if(img)img.src=hi.src};hi.src=imgUrl(it.im,250)}
   el.style.transform=`translate(${sx.toFixed(1)}px,${sy.toFixed(1)}px)`;if(el.hidden)el.hidden=false}
  if(T.selId!==selected){T.els.get(T.selId)?.classList.remove('sel');T.selId=selected;T.els.get(selected)?.classList.add('sel')}
  // intestazioni delle colonne: centrate sulla parte visibile della colonna
- const hs=$('tavHead').children,cw=TAV_COL*s;for(let i=0;i<T.cols.length;i++){const sp=hs[i],l=T.ox+i*cw,a=Math.max(l,T.G),b=Math.min(l+cw,T.sw);if(b-a<14){sp.hidden=true;continue}const nm=T.names[i],room=b-a-6,txt=[nm[0],nm[1],nm[2]].find(t=>t.length*6.6<=room);if(!txt){sp.hidden=true;continue}sp.hidden=false;if(sp.textContent!==txt)sp.textContent=txt;sp.style.transform=`translateX(calc(${((a+b)/2).toFixed(1)}px - 50%))`}
+ const cw=TAV_COL*s,spans=T.groups.map(g=>{const a=Math.max(T.ox+g.i0*cw,T.G),b=Math.min(T.ox+(g.i1+1)*cw,T.sw);return [a,b]});
+ // continenti: barra colorata sempre; nome intero o abbreviato se c'è posto, anche sconfinando un poco ai lati purché non tocchi gli altri nomi (prima i gruppi più larghi)
+ // da lontano (colonne strette) i nomi stanno su due righe sfalsate, così entrano tutti per intero; da vicino una riga sola
+ const stagger=cw<46,FONT='800 10.5px system-ui,sans-serif',fit=(rowsOf)=>{const placed=[[],[]],out=new Map();[...T.groups.keys()].sort((x,y)=>(spans[x][1]-spans[x][0])-(spans[y][1]-spans[y][0])).forEach(j=>{const [a,b]=spans[j];if(b-a<6)return;const cx=(a+b)/2,row=rowsOf(j);
+   for(const t of T.groups[j].lbl){const w=tavTextW(t.toUpperCase(),FONT,.9),l=cx-w/2-4,r=cx+w/2+4;if(l<T.G-2||r>T.sw+2)continue;if(!stagger&&w>b-a+26)continue;if(placed[row].some(([p,q])=>l<q&&r>p))continue;placed[row].push([l,r]);out.set(j,[t,cx,row]);break}});return out};
+ const lblOf=stagger?fit(j=>j%2):fit(()=>0);
+ T.groups.forEach((g,j)=>{const bar=T.hBars[j],lb=T.hConts[j],[a,b]=spans[j];if(b-a<6){bar.hidden=lb.hidden=true;return}bar.hidden=false;bar.style.top=(stagger?31:19)+'px';bar.style.width=Math.max(2,b-a-4).toFixed(1)+'px';bar.style.transform=`translateX(${(a+2).toFixed(1)}px)`;
+  const L=lblOf.get(j);if(!L){lb.hidden=true;return}lb.hidden=false;if(lb.textContent!==L[0])lb.textContent=L[0];lb.style.top=(stagger?(L[2]?17:4):5)+'px';lb.style.transform=`translateX(calc(${L[1].toFixed(1)}px - 50%))`});
+ for(let i=0;i<T.cols.length;i++){const sp=T.hAreas[i],l=T.ox+i*cw,a=Math.max(l,T.G),b=Math.min(l+cw,T.sw),room=b-a-8,txt=cw>=46?T.names[i].find(t=>tavTextW(t,'600 10.5px system-ui,sans-serif',0)<=room):null;if(!txt){sp.hidden=true;continue}sp.hidden=false;if(sp.textContent!==txt)sp.textContent=txt;sp.style.transform=`translateX(calc(${((a+b)/2).toFixed(1)}px - 50%))`}
+ tavMiniDraw();
  // anni sull’asse a sinistra: passo scelto per ogni tratto della scala
  const axis=$('tavAxis');axis.style.width=T.G+'px';const ticks=[];cum=0;const steps=[5000,2000,1000,500,250,100,50,25,10,5,2,1];
  for(const sg of TIME_SEGMENTS){const a=sg.a(),b=sg.b(),hPx=TAV_H*sg.w*s,ppy=hPx/Math.max(1,b-a),yT=T.oy+TAV_H*(1-(cum+sg.w))*s,yB=yT+hPx;cum+=sg.w;if(yB<T.HH||yT>T.sh)continue;let st=steps[0];for(const v of steps){if(v*ppy>=46)st=v;else break}
@@ -2332,6 +2362,7 @@ function tavDraw(){const T=TAV;T.raf=0;if(!T||currentView!=='tavola'||!T.sw)retu
  while(axis.children.length<ticks.length)axis.appendChild(document.createElement('span'));
  [...axis.children].forEach((sp,i)=>{const t=ticks[i];if(!t){sp.hidden=true;return}sp.hidden=false;const y=t[1],html=y<0?`${Math.abs(y).toLocaleString('it-IT')}<i>a.C.</i>`:`${y}`;if(sp._h!==html){sp._h=html;sp.innerHTML=html}sp.style.width=(T.G-8)+'px';sp.style.transform=`translateY(${(t[0]-(y<0?10:6)).toFixed(1)}px)`})
 }
+function tavTextW(t,font,ls){const T=TAV,k=font+'|'+t;let w=T.mw.get(k);if(w==null){T.mctx.font=font;w=T.mctx.measureText(t).width+t.length*ls;T.mw.set(k,w)}return w}
 function tavTilePoint(id){const el=TAV&&TAV.els.get(id);if(!el||el.hidden)return null;const r=el.querySelector('.tav-ph').getBoundingClientRect();return {x:r.left+r.width/2,y:r.top+r.height/2}}
 function tavFree(){const T=TAV,compact=isCompact(),right=compact?T.sw:T.sw-Math.min(440,T.sw*.4);return {x0:T.G+16,x1:right-16,y0:T.HH+16,y1:compact?T.HH+(T.sh-T.HH)*0.5:T.sh-16,ax:(T.G+right)/2,ay:compact?T.HH+(T.sh-T.HH)*0.27:T.HH+(T.sh-T.HH)/2}}
 // Porta in vista la voce scelta (zoomando finché la sua foto trova posto); su telefono sopra la tendina, su PC a sinistra della scheda
@@ -2372,6 +2403,34 @@ function tavBind(){const T=TAV,st=T.stage;
  document.addEventListener('keydown',e=>{if(currentView==='tavola'&&e.key==='Escape'&&detailOpen&&$('lightbox')?.hidden!==false)closeDetail()});
  let rz=0;window.addEventListener('resize',()=>{if(currentView!=='tavola')return;clearTimeout(rz);rz=setTimeout(()=>{tavSize();tavClamp();tavSchedule()},120)});
 }
+// v0.61 · Planisfero in miniatura (in basso a destra) quando si è ingranditi: evidenzia le aree delle colonne in vista.
+// Zone approssimate in longitudine/latitudine, ritagliate sulle terre emerse della mappa di Esplora (stessa proiezione 900×450).
+var TAV_AREA_POLY={
+ NA:[[[-170,72],[-50,72],[-50,45],[-80,25],[-97,26],[-118,32],[-130,50],[-170,60]]],
+ MC:[[[-118,32],[-97,26],[-80,25],[-60,19],[-60,10],[-78,7],[-92,13],[-106,20]]],
+ SA:[[[-82,12],[-60,12],[-34,-6],[-40,-25],[-65,-56],[-76,-50],[-82,-5]]],
+ EU:[[[-25,63],[-10,36],[-2,36.4],[12,37.6],[20,35.5],[26,35],[28,36.6],[26.4,40.2],[29,41.2],[38,46.5],[45,43],[50,47],[60,52],[60,70],[30,72],[15,71],[-25,67]]],
+ AN:[[[-18,36],[10,38],[33,32.5],[35,28],[38,22],[39,14],[33,10],[-18,14]]],
+ AS:[[[-18,14],[33,10],[39,14],[52,12],[52,-27],[35,-36],[15,-36],[10,-20],[8,-2],[-18,5]]],
+ AO:[[[26,42],[29,41.2],[41,42],[45,43],[50,40],[54,38],[61,37],[63,30],[61,25],[57,22],[55,16],[43,12],[35,28],[33,31],[32,36],[26,36]]],
+ AC:[[[46,40],[50,47],[55,55],[70,56],[90,54],[110,52],[120,50],[115,42],[100,42],[80,45],[73,40],[62,37],[54,38],[50,40]]],
+ AM:[[[61,25],[62,37],[74,37],[80,35],[88,30],[97,28],[93,22],[88,20],[80,6],[76,6],[68,22]]],
+ AE:[[[73,40],[80,45],[88,49],[97,53],[120,53],[135,48],[146,46],[146,30],[122,20],[108,18],[100,22],[97,28],[88,30],[80,35]]],
+ SE:[[[92,28],[97,28],[100,22],[108,18],[122,20],[127,6],[141,-2],[141,-10],[115,-10],[95,-6],[92,10]]],
+ OC:[[[112,-10],[155,-5],[180,-5],[180,-48],[165,-48],[145,-44],[112,-36]],[[-180,-5],[-105,-5],[-105,-30],[-180,-48]]],
+ GL:[[[-180,85],[180,85],[180,-60],[-180,-60]]]};
+function tavMiniBuild(){const T=TAV,box=$('tavMini');if(!box)return;const land=document.querySelector('#world .land path.coastline.lod-lo')?.getAttribute('d')||'';
+ const P=([lon,lat])=>`${((lon+180)*2.5).toFixed(1)},${((90-lat)*2.5).toFixed(1)}`;
+ const polys=T.cols.map(c=>(TAV_AREA_POLY[c]||[]).map(r=>'M'+r.map(P).join('L')+'Z').join(''));
+ box.innerHTML=`<svg viewBox="0 37 900 330"><defs><clipPath id="tavLandClip"><use href="#tavMiniLand"/></clipPath></defs><path id="tavMiniLand" class="tav-mini-land" d="${land}"/><g class="tav-mini-hi" clip-path="url(#tavLandClip)">${polys.map((d,i)=>`<path data-i="${i}" d="${d}"/>`).join('')}</g></svg><small></small>`;
+ T.miniPaths=[...box.querySelectorAll('.tav-mini-hi path')];T.miniTxt=box.querySelector('small');T.miniKey=''}
+function tavMiniDraw(){const T=TAV,box=$('tavMini');if(!box||!T.miniPaths)return;const cw=TAV_COL*T.s,vis=[];
+ for(let i=0;i<T.cols.length;i++){const l=T.ox+i*cw,a=Math.max(l,T.G),b=Math.min(l+cw,T.sw),f=(b-a)/cw;vis.push(f>=0.5?2:f>0.08?1:0)}
+ const full=vis.filter(v=>v===2).length,show=full<T.cols.length-1;box.hidden=!show;$('tavHint').hidden=show;if(!show)return;
+ const key=vis.join('');if(key===T.miniKey)return;T.miniKey=key;
+ T.miniPaths.forEach((p,i)=>{p.classList.toggle('on',vis[i]===2);p.classList.toggle('half',vis[i]===1)});
+ const on=T.cols.map((c,i)=>vis[i]===2?T.names[i][0]:null).filter(Boolean);
+ T.miniTxt.textContent=on.length<=2?on.join(' · '):[...new Set(T.cols.filter((c,i)=>vis[i]===2).map(c=>T.contOf.get(c)||'Globale'))].join(' · ')}
 function tavInertia(h){if(reduceMotion()||!h||h.length<2)return;const a=h[0],b=h[h.length-1],dt=b[0]-a[0];if(dt<=0||performance.now()-b[0]>90)return;let vx=(b[1]-a[1])/dt,vy=(b[2]-a[2])/dt,last=performance.now();const T=TAV;
  const f=now=>{const d=Math.min(40,now-last);last=now;T.ox+=vx*d;T.oy+=vy*d;const k=Math.pow(0.93,d/16);vx*=k;vy*=k;tavClamp();tavSchedule();T.inert=Math.hypot(vx,vy)>0.03?requestAnimationFrame(f):0};T.inert=requestAnimationFrame(f)}
 </script></body></html>

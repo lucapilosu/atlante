@@ -1165,14 +1165,21 @@ async def new_checks(p, R, mobile, name):
 
     # T62 v0.60: Tavola del tempo (prova): vista #tavola a tutta altezza, mini foto senza sovrapposizioni, prima le voci importanti,
     # zoom che aggiunge voci, trascinamento che sposta senza aprire schede, tocco su una foto che apre la scheda sopra la tavola; uscendo la scheda torna in Esplora
+    reqs62 = []
+    p.on("request", lambda r: reqs62.append(r.url) if "upload.wikimedia.org" in r.url else None)
     await p.evaluate("()=>{closeDetail({instant:true});selected=null;detailOpen=false;renderDetail();updateDetailPanel();location.hash='#tavola'}"); await p.wait_for_timeout(900)
     t62 = await p.evaluate("""()=>{const st=document.getElementById('tavStage'),r=st.getBoundingClientRect();
         const tiles=[...document.querySelectorAll('.tav-tile:not([hidden])')].map(e=>{const b=e.getBoundingClientRect();return {l:b.left,t:b.top,r:b.right,b:b.bottom}}).filter(a=>a.r>r.left&&a.l<r.right&&a.b>r.top&&a.t<r.bottom);
         let ov=0;for(let i=0;i<tiles.length;i++)for(let j=i+1;j<tiles.length;j++){const a=tiles[i],b=tiles[j];if(a.l<b.r-1&&a.r>b.l+1&&a.t<b.b-1&&a.b>b.t+1)ov++}
         const rel=id=>ALL.find(x=>x.id===id).relevance||3,placed=[...TAV.lay.keys()],avg=a=>a.reduce((s,v)=>s+v,0)/Math.max(1,a.length);
         return {view:currentView,h:Math.round(r.height),fits:r.bottom<=window.innerHeight+1&&r.top>=-1,n:tiles.length,ov,n0:placed.length,
-          relPlaced:+avg(placed.map(rel)).toFixed(2),relAll:+avg(TAV.items.map(i=>rel(i.id))).toFixed(2),dock:getComputedStyle(document.getElementById('timeDock')).display}}""")
+          relPlaced:+avg(placed.map(rel)).toFixed(2),relAll:+avg(TAV.items.map(i=>rel(i.id))).toFixed(2),dock:getComputedStyle(document.getElementById('timeDock')).display,
+          conts:[...document.querySelectorAll('#tavHead .tav-cont')].filter(e=>!e.hidden).map(e=>e.textContent),miniOff:document.getElementById('tavMini').hidden}}""")
     t62["n3"] = await p.evaluate("()=>{tavZoomAt(TAV.s*3,TAV.sw/2,TAV.sh/2);tavDraw();return TAV.lay.size}")
+    await p.wait_for_timeout(300)
+    t62["mini"] = await p.evaluate("()=>({vis:!document.getElementById('tavMini').hidden,on:document.querySelectorAll('#tavMini .tav-mini-hi path.on').length,txt:!!document.querySelector('#tavMini small').textContent,hint:document.getElementById('tavHint').hidden})")
+    sizes62 = sorted({u.split('/')[-1].split('px-')[0] for u in reqs62 if 'px-' in u})
+    t62["thumbs"] = sizes62
     st62 = await p.evaluate("()=>{const r=document.getElementById('tavStage').getBoundingClientRect();return [r.left+r.width*0.55,r.top+r.height*0.5]}")
     oy0 = await p.evaluate("()=>TAV.oy")
     if mobile:
@@ -1193,9 +1200,11 @@ async def new_checks(p, R, mobile, name):
     t62["back"] = await p.evaluate("()=>{const s=document.getElementById('scheda'),m=document.getElementById('mappa');return s.closest('.view')?.id==='view-esplora'&&m.nextElementSibling===s}")
     await p.evaluate("()=>{selected=null;detailOpen=false;renderDetail();updateDetailPanel()}")
     ok62 = (t62["view"] == "tavola" and t62["h"] >= 300 and t62["fits"] and 5 <= t62["n"] <= 150 and t62["ov"] == 0 and t62["relPlaced"] < t62["relAll"]
+            and len(t62["conts"]) == 6 and "Europa" in t62["conts"] and "Asia" in t62["conts"] and t62["miniOff"] and t62["mini"]["vis"] and t62["mini"]["on"] >= 1 and t62["mini"]["txt"] and t62["mini"]["hint"]
+            and set(t62["thumbs"]) <= {"120", "250"} and "120" in t62["thumbs"]
             and t62["n3"] > t62["n0"] and t62["dock"] == "none" and t62["drag"] == {"moved": True, "sel": None, "open": False}
             and t62["open"] == {"pick": True, "sel": True, "open": True, "vis": True, "host": "tavolaWrap", "inScreen": True, "title": True, "ring": True, "links": True} and t62["back"])
-    R.check("T62", "Tavola del tempo (prova): a tutta altezza, foto senza sovrapposizioni con prima le voci importanti, lo zoom ne aggiunge, trascinare sposta senza aprire, il tocco apre la scheda sopra la tavola; uscendo la scheda torna in Esplora", ok62, f"{t62}")
+    R.check("T62", "Tavola del tempo (prova): a tutta altezza, i sei continenti leggibili da lontano, planisfero in alto da vicino, foto piccole (120 e 250 px), senza sovrapposizioni con prima le voci importanti, lo zoom ne aggiunge, trascinare sposta senza aprire, il tocco apre la scheda sopra la tavola; uscendo la scheda torna in Esplora", ok62, f"{t62}")
 
 async def run_tablet(pw):
     # T36 tablet (iPad emulato): viste nella barra in basso come su telefono, scheda a tendina che si chiude trascinandola giù

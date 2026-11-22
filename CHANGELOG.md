@@ -1,5 +1,12 @@
 # Registro delle versioni
 
+## v0.61 · 22 novembre 2026
+
+- **Tavola del tempo: foto leggere.** Le mini foto usano la versione da 120 px di Wikimedia; da vicino, quando la foto è grande, passano a quella da 250 px (prima 330 px per tutte). Sono misure standard di Wikimedia. Le schede caricano le loro foto più grandi solo quando si aprono.
+- **Tavola del tempo: dove siamo.** Colonne nell'ordine del planisfero, raggruppate per continente: Americhe · Europa · Africa · Asia · Oceania · Globale. In alto una barra colorata per continente (stessi colori delle cornici delle foto importanti); da lontano i sei nomi su due righe sfalsate, così entrano per intero anche sul telefono; da vicino si aggiungono i nomi delle aree. Quando si è ingranditi, al posto del suggerimento compare un piccolo planisfero (la mappa di Esplora, niente da scaricare) con le aree in vista evidenziate e i loro nomi.
+- Ai bordi le foto restano dentro il riquadro solo nella vista d'insieme (da vicino si sovrapponevano alle vicine).
+- Test: 121 controlli (T62 controlla anche continenti, planisfero e misura delle foto).
+
 ## v0.60 · 22 novembre 2026
 
 - **Tavola del tempo (prova)**, nuova vista `#tavola` ispirata a Calculating Empires: una grande pagina da esplorare con lo zoom come una mappa. Colonne = 13 aree del mondo, tempo in verticale con oggi in alto (stessa scala a tratti della barra del tempo). Ogni voce è una mini foto (la prima di Wikimedia Commons, 330 px, caricata solo quando entra nel riquadro; icona della tipologia se manca): da lontano solo le più importanti, zoomando compaiono le altre e le foto crescono; quelle che non trovano posto restano come puntini, che si possono toccare. Un tocco su una foto apre la scheda dell’atlante sopra la tavola (su telefono la tendina, su PC un pannello a destra); la tavola porta in vista la voce scelta. Stile proprio, scuro.
