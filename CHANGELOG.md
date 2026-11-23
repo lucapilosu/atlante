@@ -1,5 +1,10 @@
 # Registro delle versioni
 
+## v0.65 · 23 novembre 2026
+
+- **La «Tavola del tempo · prova» diventa «Il mosaico del tempo»** (nome scelto da Luca): «Mosaico» nella barra in alto su PC, «Il mosaico del tempo» in «Altro» su telefono e tablet e come titolo della pagina; tolto «prova». Nuovo indirizzo `#mosaico`; il vecchio `#tavola` funziona ancora.
+- Test: 125 controlli (nuovo T64: nome, assenza di «prova», indirizzi nuovo e vecchio).
+
 ## v0.64 · 23 novembre 2026
 
 - **Verificate le 41 voci di rilevanza 2 che non lo erano ancora** (blocco 2 della verifica), soprattutto con Britannica, World History Encyclopedia, Met, UNESCO e, per l'Italia, Senato e Camera. Ora sono verificate tutte le voci di rilevanza 1 e 2, tranne 5 che hanno già le fonti degli approfondimenti. Restano 66 voci di rilevanza 3.
