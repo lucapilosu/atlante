@@ -1,0 +1,1052 @@
+[
+ {
+  "id": "site-su-nuraxi",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Su Nuraxi di Barumini",
+    "url": "https://whc.unesco.org/en/list/833/"
+   },
+   {
+    "institution": "Musei della Sardegna (Ministero della Cultura)",
+    "title": "“Su Nuraxi” Archaeological site in Barumini",
+    "url": "https://musei.sardegna.beniculturali.it/en/?p=5867"
+   }
+  ],
+  "nota": "Il sito fu occupato dalla costruzione del nuraghe nel II millennio a.C. fino al III secolo d.C. (UNESCO); la torre centrale risale alla seconda metà del II millennio a.C. Nell’età del Ferro il villaggio crebbe, con canalizzazioni e drenaggi (Musei della Sardegna). Corretta nella sintesi la datazione della torre: «seconda metà del II millennio a.C.» invece di «Bronzo medio».",
+  "correzioni": {
+   "summary": "Complesso nuragico con torre centrale, bastione quadrilobato, cinte murarie e villaggio. La torre principale risale alla seconda metà del II millennio a.C.; il sito fu ampliato e trasformato nell’età del Ferro e restò frequentato fino al III secolo d.C."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-nuragic",
+  "fonti": [
+   {
+    "institution": "Musei della Sardegna (Ministero della Cultura)",
+    "title": "“Su Nuraxi” Archaeological site in Barumini",
+    "url": "https://musei.sardegna.beniculturali.it/en/?p=5867"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Su Nuraxi di Barumini",
+    "url": "https://whc.unesco.org/en/list/833/"
+   },
+   {
+    "institution": "Smarthistory",
+    "title": "Nuragic architecture at Su Nuraxi Barumini, Sardinia",
+    "url": "https://smarthistory.org/su-nuraxi"
+   }
+  ],
+  "nota": "La civiltà nuragica durò circa mille anni, indicativamente dal 1500 al 500 a.C. (Musei della Sardegna); la candidatura UNESCO in lista provvisoria colloca il suo ruolo commerciale e politico tra il XVII e il X secolo a.C. L’inizio nel 1700 a.C. è quindi il limite alto delle stime. Nell’età del Ferro molti nuraghi furono riusati, anche in età punica e romana (Smarthistory).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-minoan-palatial",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia (M. Cartwright)",
+    "title": "Minoan Civilization",
+    "url": "https://www.worldhistory.org/Minoan_Civilization/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Minoan Crete",
+    "url": "https://metmuseum.org/essays/minoan-crete"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aegean civilization: Period of the Late Palaces in Crete (c. 1700–1450)",
+    "url": "https://britannica.com/topic/Aegean-civilization/Period-of-the-Late-Palaces-in-Crete-c-1700-1450"
+   }
+  ],
+  "nota": "I primi palazzi minoici nascono intorno al 1900 a.C. (Met); distrutti verso il 1700, vengono ricostruiti più grandi. Verso il 1450 a.C. bruciano palazzi e insediamenti di Creta, ma non Cnosso, distrutta forse un secolo dopo (World History Encyclopedia): da qui la fine nel 1350 circa. Dal 1500 a.C. cresce l’influenza micenea.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-mycenaean",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Mycenaean Civilization",
+    "url": "https://www.metmuseum.org/essays/mycenaean-civilization"
+   },
+   {
+    "institution": "World History Encyclopedia (M. Cartwright)",
+    "title": "Mycenaean Civilization",
+    "url": "https://www.worldhistory.org/Mycenaean_Civilization/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aegean civilization: The Linear B texts",
+    "url": "https://britannica.com/topic/Aegean-civilization/The-Linear-B-texts"
+   }
+  ],
+  "nota": "«Miceneo» indica l’arte e la cultura della Grecia dal 1600 al 1100 a.C. circa (Met); apice tra XV e XIII secolo, e verso il 1100 la maggior parte dei centri era ridotta a villaggi (World History Encyclopedia). Le tavolette in Lineare B, decifrate come greco da Ventris e Chadwick nel 1952, registrano l’amministrazione dei palazzi (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-persian-wars",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Greco-Persian Wars",
+    "url": "https://www.britannica.com/event/Greco-Persian-Wars"
+   },
+   {
+    "institution": "World History Encyclopedia (M. Cartwright)",
+    "title": "Peace of Callias",
+    "url": "https://www.worldhistory.org/Peace_of_Callias/"
+   }
+  ],
+  "nota": "Britannica data le guerre 492–449 a.C., con le due invasioni della Grecia nel 490 e nel 480–479; l’atlante parte dalla rivolta ionica del 499 a.C., che Britannica tratta come loro prologo. La fine nel 449 è la pace di Callia, la cui esistenza è discussa (World History Encyclopedia).",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-kush",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Sudan, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/04/afs.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Napata",
+    "url": "https://www.britannica.com/place/Napata"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Kingdom of Kush",
+    "url": "https://www.worldhistory.org/Kush/"
+   }
+  ],
+  "nota": "Il Met data il regno di Kush circa 760 a.C.–350 d.C. (fase napatea, poi meroitica dal 250 a.C. circa); World History Encyclopedia lo fa partire dal 1069 a.C., alla fine del Nuovo Regno egizio. Napata fu capitale dal 750 al 590 a.C. circa, poi la capitale passò a Meroe (Britannica). I re kushiti governarono l’Egitto come XXV dinastia fino all’invasione assira del 666 a.C.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-aksum",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aksum",
+    "url": "https://www.britannica.com/place/Aksum-ancient-kingdom-Africa"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Eastern and Southern Africa, 500–1000 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/06/afa.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Monumental Architecture of the Aksumite Empire",
+    "url": "https://www.metmuseum.org/essays/monumental-architecture-and-stelae-of-the-aksumite-empire"
+   }
+  ],
+  "nota": "Il regno nasce intorno al I secolo d.C. (Britannica); il re Ezana si converte al cristianesimo verso il 330 (Met). Al culmine, tra III e VI secolo, era il grande mercato dell’Africa nord-orientale, con il porto di Adulis sul Mar Rosso. Il Met data la civiltà aksumita dal I all’VIII secolo: fine corretta da 940 a 800, come data indicativa. Aggiunto il punto sulla mappa ad Aksum.",
+  "correzioni": {
+   "end_year": 800,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 14.13,
+    "longitude": 38.72,
+    "label": "Aksum · capitale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-great-zimbabwe",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Mutapa",
+    "url": "https://www.worldhistory.org/Mutapa/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Kilwa",
+    "url": "https://www.worldhistory.org/Kilwa/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Eastern and Southern Africa, 1000–1400 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/07/afa.html"
+   }
+  ],
+  "nota": "Regno fondato intorno al 1100 (World History Encyclopedia), fiorente soprattutto tra il 1300 e il 1450; il Met indica 1250–1450 circa. L’oro arrivava a Sofala, avamposto meridionale di Kilwa, e da lì nelle reti swahili dell’Oceano Indiano. Nel XV secolo il regno era in declino e il commercio passò a Mutapa. Aggiunto il punto sulla mappa al sito di Grande Zimbabwe.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": -20.27,
+    "longitude": 30.93,
+    "label": "Grande Zimbabwe · città in pietra",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-songhai",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Songhai empire",
+    "url": "https://www.britannica.com/place/Songhai-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sonni Ali",
+    "url": "https://www.britannica.com/biography/Sonni-Ali"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "The Empires of the Western Sudan: Songhai Empire",
+    "url": "https://www.metmuseum.org/essays/the-empires-of-the-western-sudan-songhai-empire"
+   }
+  ],
+  "nota": "Confermati 1464–1591: l’impero comincia la sua ascesa quando Sonni Ali sale al trono, verso il 1464, con capitale Gao, e conquista Timbuctù e Djenné; nel 1591 le truppe marocchine, armate di armi da fuoco, vincono a Tondibi e prendono Timbuctù e Gao (Britannica). Aggiunto il punto sulla mappa a Gao.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 16.27,
+    "longitude": -0.04,
+    "label": "Gao · capitale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-transsaharan",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "The Trans-Saharan Gold Trade (7th–14th Century)",
+    "url": "https://www.metmuseum.org/essays/the-trans-saharan-gold-trade-7th-14th-century"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Camel Caravans of the Ancient Sahara",
+    "url": "https://www.worldhistory.org/article/1344/the-camel-caravans-of-the-ancient-sahara/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Salt Trade of Ancient West Africa",
+    "url": "https://www.worldhistory.org/article/1342/the-salt-trade-of-ancient-west-africa/"
+   }
+  ],
+  "nota": "Con il cammello si attraversa il Sahara dal V secolo circa; dall’VIII secolo partono carovane annuali (Met) e il commercio cresce con gli stati islamici del Nord Africa e l’impero del Ghana (World History Encyclopedia). Oro verso nord, sale verso sud, attraverso centri come Koumbi Saleh, Niani e Timbuctù. La fine nel 1600 è una scelta dell’atlante (dopo la caduta dei Songhai nel 1591): le carovane continuarono, più piccole, fino al Novecento. Aggiunto il punto sulla mappa a Timbuctù.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 16.77,
+    "longitude": -3.0,
+    "label": "Timbuctù · centro delle carovane",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-mali-mansa",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mūsā I of Mali",
+    "url": "https://www.britannica.com/biography/Musa-I-of-Mali"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Western and Central Sudan, 1000–1400 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/07/afu.html"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Gold Trade of Ancient & Medieval West Africa",
+    "url": "https://www.worldhistory.org/article/1383/the-gold-trade-of-ancient--medieval-west-africa/"
+   }
+  ],
+  "nota": "Gli estremi del regno sono incerti: Britannica dà l’inizio nel 1307 o nel 1312 e la morte nel 1332 o nel 1337; il Met e World History Encyclopedia usano 1312–1337. Confermato il pellegrinaggio alla Mecca del 1324–25, con la sosta al Cairo, che fece conoscere la ricchezza del Mali in Nord Africa ed Europa. Aggiunto il punto sulla mappa a Niani, la capitale da cui partì.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 11.38,
+    "longitude": -8.38,
+    "label": "Niani · capitale del Mali (posizione discussa)",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-gupta",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Gupta Empire",
+    "url": "https://www.worldhistory.org/timeline/Gupta_Empire/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chandragupta I",
+    "url": "https://www.britannica.com/biography/Chandragupta-I"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Samudragupta",
+    "url": "https://www.britannica.com/biography/Samudragupta"
+   }
+  ],
+  "nota": "Impero dell’India settentrionale e centrale tra il 320 e il 550 circa (World History Encyclopedia); Britannica data il periodo dei Gupta imperiali 320–510. Fondatore Chandragupta I, partito dal Magadha; l’epoca è considerata un’«età dell’oro» per arti, architettura, scienze, religione e filosofia. Punto sulla mappa spostato dal «punto di orientamento» a Pataliputra, nel Magadha.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 25.6,
+    "longitude": 85.1,
+    "label": "Pataliputra · Magadha, regno d’origine",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-safavid",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Safavid dynasty",
+    "url": "https://www.britannica.com/topic/Safavid-dynasty"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ṣafavid dynasty (summary)",
+    "url": "https://www.britannica.com/summary/Safavid-dynasty"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "The Art of the Safavids before 1600",
+    "url": "https://metmuseum.org/toah/hd/safa/ho_43.121.1.htm"
+   }
+  ],
+  "nota": "Confermati 1501–1736 (Britannica; il Met e un’altra voce di Britannica chiudono al 1722): nel 1501 Ismāʿīl I prende Tabriz, si proclama scià e fa dello sciismo duodecimano la religione di Stato. Apice con ʿAbbās I (1588–1629), capitale Isfahan; fine con la deposizione di Ṭahmāsp II da parte di Nādir Shāh. Aggiunto il punto sulla mappa a Isfahan.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 32.65,
+    "longitude": 51.67,
+    "label": "Isfahan · capitale di ʿAbbās I",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-japan-shogunate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tokugawa period",
+    "url": "https://www.britannica.com/event/Tokugawa-period"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sakoku",
+    "url": "https://www.britannica.com/topic/sakoku"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Shogun",
+    "url": "https://www.worldhistory.org/Shogun/"
+   }
+  ],
+  "nota": "Shogunato fondato da Tokugawa Ieyasu nel 1603 con sede a Edo (Tokyo); Britannica lo chiude nel 1867, quando l’ultimo shogun lascia il potere, World History Encyclopedia nel gennaio 1868 con la restaurazione Meiji. Confermati pace interna e stabilità e la politica di isolamento (sakoku): cristianesimo vietato, commercio estero ristretto, olandesi e cinesi confinati a Dejima, a Nagasaki. Aggiunto il punto sulla mappa a Edo.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 35.69,
+    "longitude": 139.69,
+    "label": "Edo (Tokyo) · sede dello shogunato",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-house-wisdom",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Al-Maʾmūn",
+    "url": "https://www.britannica.com/biography/al-Mamun"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iraq: The Abbasid Caliphate",
+    "url": "https://www.britannica.com/place/Iraq/The-Abbasid-Caliphate"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Art of the Islamic World: Medicine",
+    "url": "https://www.metmuseum.org/learn/educators/curriculum-resources/art-of-the-islamic-world/unit-four/medicine"
+   }
+  ],
+  "nota": "Alla fine dell’VIII secolo nasce a Baghdad la Casa della Sapienza (Bayt al-Ḥikma), dove testi scientifici vengono tradotti, studiati e conservati (Met); il culmine è sotto il califfo al-Maʾmūn (813–833), con traduzioni dal greco, dal siriaco e dal persiano (Britannica). La fine nel 950 è indicativa. Aggiunto il punto sulla mappa a Baghdad.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 33.3,
+    "longitude": 44.4,
+    "label": "Baghdad · Casa della Sapienza",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-zheng-he",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Seven Voyages of Zheng He",
+    "url": "https://www.worldhistory.org/article/1334/the-seven-voyages-of-zheng-he/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zheng He Timeline",
+    "url": "https://www.britannica.com/summary/Zheng-He-Timeline"
+   }
+  ],
+  "nota": "Confermati 1405–1433: sette spedizioni per conto dell’imperatore Ming Yongle, fino a Hormuz, Aden e, dal quarto viaggio, alla costa dell’Africa orientale (Mogadiscio, Malindi, Mombasa). Zheng He morì a Calicut durante il settimo viaggio. Aggiunto il punto sulla mappa a Calicut.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 11.25,
+    "longitude": 75.78,
+    "label": "Calicut · tappa dei viaggi, dove morì nel 1433",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-galileo",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of astronomy: Galileo",
+    "url": "https://www.britannica.com/science/astronomy/Copernicus"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Galileo’s Achievements",
+    "url": "https://www.britannica.com/summary/Galileos-Achievements"
+   },
+   {
+    "institution": "NASA JPL",
+    "title": "Discovery of the Galilean Satellites",
+    "url": "https://www2.jpl.nasa.gov/galileo/ganymede/discovery.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Galileo: Telescopic discoveries",
+    "url": "https://kids.britannica.com/scholars/article/Galileo/105766"
+   }
+  ],
+  "nota": "Confermati 1609–1610: nel 1609 Galileo costruisce il suo telescopio e vede montagne e crateri sulla Luna; il 7 gennaio 1610 osserva i satelliti di Giove, pubblicati nel Sidereus Nuncius a marzo; poi le fasi di Venere (Britannica, NASA). Aggiunto il punto sulla mappa a Padova, dove fece queste scoperte prima di trasferirsi a Firenze.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 45.41,
+    "longitude": 11.88,
+    "label": "Padova · osservazioni del 1609–10",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-web",
+  "fonti": [
+   {
+    "institution": "CERN",
+    "title": "A short history of the Web",
+    "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+   },
+   {
+    "institution": "W3C",
+    "title": "Web at 25: Web History",
+    "url": "https://www.w3.org/webat25/about/history"
+   }
+  ],
+  "nota": "Confermati 1989–1991: Tim Berners-Lee scrive la prima proposta al CERN nel marzo 1989; entro Natale 1990 funzionano server, browser ed editor; nell’agosto 1991 il software è disponibile su Internet (W3C). Il 30 aprile 1993 il CERN lo mette nel pubblico dominio. Aggiunto il punto sulla mappa al CERN di Ginevra.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 46.23,
+    "longitude": 6.05,
+    "label": "CERN, Ginevra",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-bandung-conference",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bandung Conference",
+    "url": "https://www.britannica.com/event/Bandung-Conference"
+   },
+   {
+    "institution": "U.S. Department of State · Office of the Historian",
+    "title": "Bandung Conference (Asian-African Conference), 1955",
+    "url": "https://history.state.gov/milestones/1953-1960/bandung-conf"
+   }
+  ],
+  "nota": "Confermata: 18–24 aprile 1955 a Bandung, in Indonesia, 29 paesi che rappresentavano più di metà della popolazione mondiale, promossa da Indonesia, Birmania, Ceylon, India e Pakistan (Britannica). Principi: autodeterminazione, rispetto della sovranità, non aggressione, non ingerenza, uguaglianza (Office of the Historian). Dalla conferenza nacque l’idea del Movimento dei non allineati. Aggiunto il punto sulla mappa a Bandung.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": -6.92,
+    "longitude": 107.61,
+    "label": "Bandung, Indonesia",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-european-union",
+  "fonti": [
+   {
+    "institution": "Parlamento europeo",
+    "title": "Treaty on European Union (TEU) / Maastricht Treaty",
+    "url": "https://www.europarl.europa.eu/about-parliament/en/in-the-past/the-parliament-and-the-treaties/maastricht-treaty"
+   },
+   {
+    "institution": "EUR-Lex (Unione europea)",
+    "title": "Treaty of Maastricht on European Union",
+    "url": "https://eur-lex.europa.eu/EN/legal-content/summary/treaty-of-maastricht-on-european-union.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "European Union (EU)",
+    "url": "https://www.britannica.com/topic/European-Union"
+   }
+  ],
+  "nota": "Confermato: il Trattato di Maastricht, firmato da 12 paesi il 7 febbraio 1992, entra in vigore il 1° novembre 1993 e istituisce l’Unione europea sulla base delle Comunità europee, con politica estera comune e cooperazione in giustizia e affari interni; introduce la cittadinanza europea. Oggi i paesi membri sono 27 (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-italy-kingdom",
+  "fonti": [
+   {
+    "institution": "Senato della Repubblica",
+    "title": "L’Italia è Una · 17 marzo 1861",
+    "url": "https://www.senato.it/CESUS/17marzo2026/"
+   },
+   {
+    "institution": "Camera dei deputati · Portale storico",
+    "title": "VIII Legislatura del Regno d’Italia",
+    "url": "https://storia.camera.it/cronologia/leg-regno-VIII/elenco"
+   },
+   {
+    "institution": "Senato della Repubblica",
+    "title": "Transizione costituzionale",
+    "url": "https://www.senato.it/legislature/regno/transizione-costituzionale"
+   }
+  ],
+  "nota": "Con la legge 17 marzo 1861, n. 4671, approvata dal primo Parlamento a Torino, Vittorio Emanuele II assume per sé e i suoi successori il titolo di Re d’Italia (Senato, Camera); lo Statuto albertino diventa la carta fondamentale del Regno. Il Regno finisce con il referendum istituzionale del 2 giugno 1946 (Senato). Sostituita la fonte generica (pagina principale del Senato) con pagine specifiche.",
+  "parziale": "Roma capitale dal 1871 (indicato nell’etichetta del punto, non controllato in queste fonti).",
+  "togli": [
+   "src-senato-unita-italia"
+  ],
+  "correzioni": {
+   "date_precision": "range"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-italian-republic",
+  "fonti": [
+   {
+    "institution": "Senato della Repubblica",
+    "title": "Il 2 giugno 1946 · Festa della Repubblica",
+    "url": "https://www.senato.it/CESUS/2giugno/"
+   },
+   {
+    "institution": "Camera dei deputati",
+    "title": "La Costituzione della Repubblica italiana",
+    "url": "https://giovani.camera.it/node/510"
+   },
+   {
+    "institution": "Presidenza della Repubblica",
+    "title": "2 giugno 1946 – 2 giugno 2016",
+    "url": "https://www.quirinale.it/page/2giugno1946-2016"
+   }
+  ],
+  "nota": "Confermato: al referendum del 2 giugno 1946 la repubblica ottiene 12.718.641 voti contro i 10.718.502 della monarchia; lo stesso giorno si elegge l’Assemblea Costituente (Senato). La Costituzione, approvata il 22 dicembre 1947 e promulgata da Enrico De Nicola il 27 dicembre, entra in vigore il 1° gennaio 1948 (Camera). Sostituita la fonte generica (pagina principale del Quirinale) con pagine specifiche.",
+  "togli": [
+   "src-quirinale-repubblica"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-industrial-revolution",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "British Industrial Revolution",
+    "url": "https://www.worldhistory.org/British_Industrial_Revolution/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Industrial Revolution Key Facts",
+    "url": "https://www.britannica.com/summary/Industrial-Revolution-Key-Facts"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Industrial Revolution Timeline",
+    "url": "https://www.britannica.com/summary/Industrial-Revolution-Timeline"
+   }
+  ],
+  "nota": "La rivoluzione industriale britannica è datata 1760–1840 (World History Encyclopedia); Britannica la colloca in Gran Bretagna soprattutto tra gli anni Sessanta del Settecento e gli anni Trenta dell’Ottocento, poi diffusa in Europa e Stati Uniti. Confermati macchine a vapore (brevetto di Watt del 1769), filatoio di Hargreaves (1764), sistema di fabbrica e urbanizzazione. La datazione resta convenzionale e varia secondo settori e regioni.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-caral",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Sacred City of Caral-Supe",
+    "url": "https://whc.unesco.org/en/list/1269/"
+   },
+   {
+    "institution": "ICOMOS (UNESCO)",
+    "title": "The Sacred City of Caral-Supe (Peru) No 1269 · valutazione",
+    "url": "https://whc.unesco.org/document/152221"
+   }
+  ],
+  "nota": "Confermato: la Città Sacra di Caral risale al tardo periodo Arcaico delle Ande centrali (3000–1800 a.C.) ed è il più antico centro di civiltà delle Americhe; è uno dei circa 18 insediamenti urbani della valle del Supe, con sei grandi strutture piramidali, piazze circolari infossate e un quipu (UNESCO, ICOMOS). Tolta una fonte turistica.",
+  "togli": [
+   "src-peru-travel-history"
+  ],
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": -10.892,
+    "longitude": -77.521,
+    "label": "Città Sacra di Caral · valle del Supe",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-chavin",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chavín",
+    "url": "https://www.britannica.com/topic/Chavin"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Chavin Civilization",
+    "url": "https://www.worldhistory.org/Chavin_Civilization/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Central and Southern Andes, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/04/sac.html"
+   }
+  ],
+  "nota": "Britannica e World History Encyclopedia collocano la cultura Chavín tra il 900 e il 200 a.C. circa; un rapporto ICOMOS dà 1500–300 a.C. e il Met 1000–500 a.C. Date corrette da 1500–300 a 900–200 a.C., l’intervallo più usato. Chavín de Huántar fu un grande centro di pellegrinaggio (Tempio Antico verso il 750 a.C., con il Lanzón); il suo stile artistico si diffuse nel Perù settentrionale e centrale. Tolta una fonte fuori tema (mostra sulla strada inca).",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "correzioni": {
+   "start_year": -900,
+   "end_year": -200,
+   "date_confidence": "medium"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-nazca",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Nazca Civilization",
+    "url": "https://www.worldhistory.org/Nazca_Civilization/"
+   }
+  ],
+  "nota": "World History Encyclopedia data la civiltà di Nazca 200 a.C.–600 d.C., sulla costa meridionale del Perù, con centri a Cahuachi (religioso) e Ventilla (urbano); note la ceramica, i tessuti e i geoglifi nel deserto. L’atlante segue la cronologia museale (Met) di circa 100 a.C.–700 d.C.: le due datazioni differiscono di circa un secolo ai due estremi.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-moche",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Moche",
+    "url": "https://www.britannica.com/topic/Moche"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Moche Civilization",
+    "url": "https://www.worldhistory.org/Moche_Civilization/"
+   }
+  ],
+  "nota": "Confermati I–VIII secolo d.C. sulla costa settentrionale del Perù (Britannica; World History Encyclopedia 1–800 d.C.): grandi complessi in adobe, ceramica naturalistica, metallurgia e canali di irrigazione. Due lingue diverse e differenze artistiche fanno pensare più a una confederazione che a uno Stato unico (World History Encyclopedia).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-olmec",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Olmec",
+    "url": "https://www.britannica.com/topic/Olmec"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Olmec Civilization",
+    "url": "https://www.worldhistory.org/Olmec_Civilization/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pre-Columbian civilizations: Olmec civilization at La Venta",
+    "url": "https://www.britannica.com/topic/pre-Columbian-civilizations/Olmec-civilization-at-La-Venta"
+   }
+  ],
+  "nota": "Prima grande civiltà della Mesoamerica, circa 1200–400 a.C. (Britannica, World History Encyclopedia): il suo stile compare verso il 1200 a.C. a San Lorenzo, il centro più antico, con le teste colossali; tra l’800 e il 400 a.C. La Venta è il sito più importante della Mesoamerica. Inizio corretto da 1500 a 1200 a.C. (il 1500 compare solo come inizio delle reti di scambio in una carta di World History Encyclopedia).",
+  "correzioni": {
+   "start_year": -1200
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-zapotec",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Historic Centre of Oaxaca and Archaeological Site of Monte Albán",
+    "url": "https://whc.unesco.org/en/list/415"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Zapotec Civilization",
+    "url": "https://www.worldhistory.org/Zapotec_Civilization/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Monte Albán",
+    "url": "https://www.metmuseum.org/essays/monte-albn"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Monte Albán",
+    "url": "https://www.britannica.com/place/Monte-Alban"
+   }
+  ],
+  "nota": "La capitale zapoteca di Monte Albán fiorì dal 500 a.C. all’850 d.C. circa (UNESCO); le prime costruzioni sul sito risalgono all’VIII secolo a.C. (Britannica) e a San José Mogote, verso il 600 a.C., compare una delle più antiche scritture mesoamericane (Met). Verso il 900 i Zapotechi lasciano Monte Albán per Mitla (World History Encyclopedia). Tolta una fonte sbagliata (scheda UNESCO di Teotihuacan); punto spostato su Monte Albán.",
+  "parziale": "la fine nel 1521, con la conquista spagnola (non controllata in queste fonti).",
+  "togli": [
+   "src-unesco-teotihuacan"
+  ],
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 17.046,
+    "longitude": -96.768,
+    "label": "Monte Albán · capitale zapoteca",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-teotihuacan",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Pre-Hispanic City of Teotihuacan",
+    "url": "https://whc.unesco.org/en/list/414/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Teotihuacan",
+    "url": "https://www.metmuseum.org/essays/teotihuacan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Teotihuacán civilization",
+    "url": "https://www.britannica.com/topic/Teotihuacan-civilization"
+   }
+  ],
+  "nota": "La valle era abitata già prima dell’era cristiana, ma la città crebbe tra il I e il VII secolo d.C., fino ad almeno 25.000 abitanti, e nel VII secolo fu incendiata e abbandonata (UNESCO); Britannica stima 125.000–200.000 abitanti intorno al 500 e un declino verso il 750. Confermati il Viale dei Morti e le piramidi del Sole e della Luna, con il tempio di Quetzalcóatl (Met).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-tikal",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Tikal National Park",
+    "url": "https://whc.unesco.org/en/list/64/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Tikal",
+    "url": "https://www.worldhistory.org/Tikal/"
+   }
+  ],
+  "nota": "Abitata dal VI secolo a.C. al X secolo d.C. e abbandonata intorno al 900 (UNESCO). Grande città del periodo Classico (fiorente circa 300–850): sconfitta da Caracol nel 562, nel 695 batte la rivale Calakmul e costruisce i Templi I e II; la sua ascesa iniziale risente dell’influenza di Teotihuacan (World History Encyclopedia).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-palenque",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Pre-Hispanic City and National Park of Palenque",
+    "url": "https://whc.unesco.org/en/list/411/"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Palenque",
+    "url": "https://www.worldhistory.org/Palenque/"
+   }
+  ],
+  "nota": "Fondata nel tardo Preclassico, all’inizio dell’era cristiana; apogeo tra VI e VIII secolo, con influenza su tutto il bacino dell’Usumacinta (UNESCO). K’inich Janaab’ Pakal regnò dal 615 al 683; la città fu abbandonata verso l’800 (World History Encyclopedia).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-chichen-itza",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Pre-Hispanic City of Chichen-Itza",
+    "url": "https://whc.unesco.org/en/list/483/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chichen Itza",
+    "url": "https://www.britannica.com/place/Chichen-Itza"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Chichen Itza",
+    "url": "https://www.worldhistory.org/Chichen_Itza/"
+   }
+  ],
+  "nota": "Le cronache locali datano la fondazione al 415–435 o al 455 (UNESCO); Britannica la colloca verso il VI secolo (circa 550–1550). Dopo il XIII secolo non si costruiscono più grandi monumenti e la città declina rapidamente dopo il 1440 circa (UNESCO); verso il 1200 Mayapán la sostituisce come capitale regionale (World History Encyclopedia). Confermata la fusione di tecniche maya e di elementi del Messico centrale («maya-tolteca»).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-paper",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Paper",
+    "url": "https://www.britannica.com/technology/paper"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Printing: Transmission of paper to Europe",
+    "url": "https://www.britannica.com/topic/printing-publishing/History-of-printing"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Paper in Ancient China",
+    "url": "https://www.worldhistory.org/article/1120/paper-in-ancient-china/"
+   }
+  ],
+  "nota": "La tradizione attribuisce l’invenzione a Cai Lun, funzionario della corte Han, verso il 105 d.C.; frammenti più antichi, del II secolo a.C., mostrano che esisteva già una carta più grezza (World History Encyclopedia, Britannica). La carta arriva in Asia centrale entro il 751 (prigionieri cinesi dopo la battaglia del Talas, presso Samarcanda) e in Europa entro il XIV secolo (Britannica). Aggiunto il punto sulla mappa a Luoyang, dove Cai Lun dirigeva i laboratori imperiali.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.62,
+    "longitude": 112.45,
+    "label": "Luoyang · laboratori imperiali di Cai Lun",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-printing-eastasia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Printing: Origins in China; Invention of movable type",
+    "url": "https://www.britannica.com/topic/printing-publishing/History-of-printing"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Movable type",
+    "url": "https://www.britannica.com/technology/movable-type"
+   },
+   {
+    "institution": "UNESCO Memory of the World",
+    "title": "Buljo jikji simche yojeol · nomination form",
+    "url": "https://media.unesco.org/sites/default/files/webform/mow001/korea_buljo_jikj_simch_yo_jeol.pdf"
+   }
+  ],
+  "nota": "Caratteri mobili in argilla cotta ideati in Cina da Bi Sheng verso il 1041–48 (Britannica); in Corea lo Jikji, stampato a Cheongju nel luglio 1377, è il più antico libro conservato stampato con caratteri metallici mobili (UNESCO), e nel 1403 si fondono 100.000 caratteri in bronzo. La xilografia è più antica: il Sutra del Diamante del 868 è il primo libro stampato datato. Inizio corretto da 900 a 1041 per far coincidere date e nome della voce; sintesi riscritta.",
+  "correzioni": {
+   "start_year": 1041,
+   "summary": "Caratteri mobili ideati in Cina da Bi Sheng (1041–48) e sviluppati in Corea con caratteri di metallo (Jikji, 1377) prima della stampa europea; si aggiungono alla più antica stampa xilografica (Sutra del Diamante, 868)."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-compass",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Technology Timeline (1044: Compass)",
+    "url": "https://www.britannica.com/story/history-of-technology-timeline"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Navigation: The magnetic compass",
+    "url": "https://www.britannica.com/technology/navigation-technology/The-magnetic-compass"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pax Mongolica",
+    "url": "https://www.britannica.com/event/Pax-Mongolica"
+   }
+  ],
+  "nota": "La prima menzione certa di una bussola magnetica è in un libro cinese terminato nel 1044 (un pesce di ferro magnetizzato galleggiante, usato dai soldati); in navigazione la usano i cinesi verso il 1100, gli europei occidentali entro il 1187, gli arabi entro il 1220, gli scandinavi entro il 1300 (Britannica). Inizio corretto da 1000 a 1044.",
+  "correzioni": {
+   "start_year": 1044
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-gunpowder",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Gunpowder",
+    "url": "https://www.britannica.com/technology/gunpowder"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Military technology: The gunpowder revolution, c. 1300–1650",
+    "url": "https://www.britannica.com/technology/military-technology/The-gunpowder-revolution-c-1300-1650"
+   }
+  ],
+  "nota": "Gli alchimisti cinesi scoprono la polvere nera (salnitro, carbone e zolfo) nel IX secolo; nel X secolo è usata per fuochi d’artificio e segnali, forse anche in bombe. Verso il 1300 compare la prima arma da fuoco araba; la «rivoluzione della polvere» in Europa è datata 1300–1650 (Britannica). La fine nel 1500 è una scelta dell’atlante.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-lapita",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Oceania, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/04/oc.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Lapita culture",
+    "url": "https://www.britannica.com/topic/Lapita-culture"
+   },
+   {
+    "institution": "Te Ara · Encyclopedia of New Zealand",
+    "title": "Sites of Lapita pottery",
+    "url": "https://teara.govt.nz/en/map/1767/sites-of-lapita-pottery"
+   }
+  ],
+  "nota": "Confermati circa 1500–500 a.C.: i Lapita colonizzano la Melanesia insulare e la Polinesia occidentale (Met; Britannica dà 1600–500 a.C.). Presenti nell’arcipelago di Bismarck già intorno al 2000 a.C., raggiungono Figi, Tonga e Samoa entro il 1000 a.C.; verso il 500 a.C. la decorazione della ceramica cessa e nascono le prime culture polinesiane. Aggiunto un punto indicativo sull’arcipelago di Bismarck.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": -4.0,
+    "longitude": 151.5,
+    "label": "Arcipelago di Bismarck · area d’origine",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-rapanui",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati e dichiarazione di valore",
+    "url": "https://whc.unesco.org/document/217157"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Easter Island",
+    "url": "https://www.metmuseum.org/essays/easter-island"
+   }
+  ],
+  "nota": "Secondo la scheda UNESCO aggiornata l’isola fu colonizzata verso la fine del I millennio d.C. da un piccolo gruppo dalla Polinesia orientale, e la cultura si espresse tra XI e XVII secolo con ahu e moai (la valutazione per l’iscrizione indicava il 300 d.C.). L’inizio nel 1150 segue le datazioni più recenti già citate nella voce. Confermate l’organizzazione in capi ereditari (ariki) e la statuaria in tufo di Rano Raraku (Met).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-rano-raraku",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati e dichiarazione di valore",
+    "url": "https://whc.unesco.org/document/217157"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Easter Island",
+    "url": "https://www.metmuseum.org/essays/easter-island"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Diagnosi dopo gli incendi del 2022 a Rapa Nui",
+    "url": "https://whc.unesco.org/en/news/2587"
+   }
+  ],
+  "nota": "La maggior parte dei moai fu scolpita nel tufo vulcanico di Rano Raraku, la cava principale (Met, UNESCO); nel cratere restano statue incompiute. Nell’ottobre 2022 un incendio ha colpito proprio l’area di Rano Raraku (UNESCO). Le date seguono l’arco XI–XVII secolo indicato da UNESCO per ahu e moai.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-moai-tradition",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park",
+    "url": "https://whc.unesco.org/en/list/715/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati e dichiarazione di valore",
+    "url": "https://whc.unesco.org/document/217157"
+   }
+  ],
+  "nota": "UNESCO colloca la costruzione di santuari e moai tra il X e il XVI secolo nella descrizione breve e tra l’XI e il XVII nella dichiarazione aggiornata; l’atlante usa 1100–1650. Circa 900 statue alte da 2 a 20 metri e oltre 300 piattaforme cerimoniali; la più grande è Ahu Tongariki, con 15 moai.",
+  "data": "2026-11-23"
+ }
+]

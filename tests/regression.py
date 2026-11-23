@@ -543,9 +543,9 @@ async def run_device(pw, name, ctx_kwargs, mobile):
 
     # T63 v0.62: icone PNG per i browser che non usano la favicon SVG (Chrome e Safari su iPhone e iPad), SVG ancora presente; voci di rilevanza 1 tutte verificate con fonti
     t63 = await p.evaluate("""async()=>{const out={};for(const l of document.querySelectorAll('link[rel="icon"][type="image/png"],link[rel="apple-touch-icon"]')){const im=new Image();im.src=l.href;try{await im.decode();out[l.getAttribute('href')]=im.naturalWidth+'x'+im.naturalHeight}catch(e){out[l.getAttribute('href')]='errore'}}
-        out.svg=!!document.querySelector('link[rel="icon"][type="image/svg+xml"]');out.rel1=DB.entities.concat(DB.events).filter(x=>x.relevance===1&&x.editorial_status!=='source-checked').map(x=>x.id);return out}""")
+        out.svg=!!document.querySelector('link[rel="icon"][type="image/svg+xml"]');out.rel1=DB.entities.concat(DB.events).filter(x=>x.relevance<=2&&!['source-checked','deep-dive-sourced'].includes(x.editorial_status)).map(x=>x.id);return out}""")
     ok63 = t63 == {"favicon-32.png": "32x32", "favicon-192.png": "192x192", "apple-touch-icon.png": "180x180", "svg": True, "rel1": []}
-    R.check("T63", "Icone PNG (32, 192 e 180 px per iPhone e iPad) accanto alla favicon SVG; nessuna voce di rilevanza 1 senza verifica delle fonti", ok63, f"{t63}")
+    R.check("T63", "Icone PNG (32, 192 e 180 px per iPhone e iPad) accanto alla favicon SVG; nessuna voce di rilevanza 1 o 2 senza verifica delle fonti", ok63, f"{t63}")
     # T01 nessun errore, nessuna richiesta esterna (controllato a fine giro)
     errors[:] = [e for e in errors if "ERR_TUNNEL_CONNECTION_FAILED" not in e and "ERR_NAME_NOT_RESOLVED" not in e]  # foto di Commons irraggiungibili nell'ambiente di test
     R.check("T01", "Nessun errore JavaScript e nessuna risorsa esterna caricata (a parte le foto di Wikimedia Commons)", not errors and not external,

@@ -1327,7 +1327,7 @@ function mapPinsNear(x,cx,cy){
   const svgW=worldSvg?.getBoundingClientRect().width||900,pxPerUnit=Math.max(.05,svgW/900*mapZoom);
   const ids=[...document.querySelectorAll('#pins .map-marker')].map(g=>g.dataset.id).filter(id=>id!==x.id);
   return ids.map(id=>ALL.find(v=>v.id===id)).filter(Boolean).map(v=>({x:v,cx:(Number(v.map_geometry.longitude)+180)/360*900,cy:(90-Number(v.map_geometry.latitude))/180*450}))
-    .filter(h=>Math.hypot(h.cx-cx,h.cy-cy)*pxPerUnit<=12).sort((a,b)=>(a.x.relevance||2)-(b.x.relevance||2)||a.x.start_year-b.x.start_year);
+    .map(h=>(h.d=Math.hypot(h.cx-cx,h.cy-cy)*pxPerUnit,h)).filter(h=>h.d<=12).sort((a,b)=>(a.d>3)-(b.d>3)||(a.x.relevance||2)-(b.x.relevance||2)||a.x.start_year-b.x.start_year); // v0.64: prima le voci nello stesso punto, poi le vicine
 }
 let pulseFor=null,pulseT0=0;
 function renderPins(){

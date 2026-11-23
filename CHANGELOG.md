@@ -1,9 +1,19 @@
 # Registro delle versioni
 
+## v0.64 · 23 novembre 2026
+
+- **Verificate le 41 voci di rilevanza 2 che non lo erano ancora** (blocco 2 della verifica), soprattutto con Britannica, World History Encyclopedia, Met, UNESCO e, per l'Italia, Senato e Camera. Ora sono verificate tutte le voci di rilevanza 1 e 2, tranne 5 che hanno già le fonti degli approfondimenti. Restano 66 voci di rilevanza 3.
+- Date corrette: Chavín 900–200 a.C. (prima 1500–300; le fonti non concordano, affidabilità segnata come media); Olmechi dal 1200 a.C. (prima 1500); Aksum fino all'800 (prima 940); caratteri mobili in Asia orientale dal 1041, l'invenzione di Bi Sheng (prima 900); bussola dal 1044, prima menzione certa (prima 1000). Datazione segnata come sicura per sette voci: guerre persiane, Songhai, Safavidi, shogunato Tokugawa, Zheng He, Galileo, World Wide Web.
+- **14 voci che non comparivano sulla mappa ora hanno un punto**: Aksum, Grande Zimbabwe, Gao (Songhai), Isfahan (Safavidi), Edo (Tokugawa), Timbuctù (commercio trans-sahariano), Niani (Mansa Musa), Baghdad (Casa della Sapienza), Calicut (Zheng He), Padova (Galileo), CERN (Web), Bandung, Luoyang (carta), arcipelago di Bismarck (Lapita). Altri tre punti spostati sul luogo che conta: Pataliputra (Gupta), Monte Albán (Zapotechi), Caral.
+- Fonti sostituite o tolte: le pagine principali di Senato e Quirinale, sostituite da pagine specifiche; la scheda UNESCO di Teotihuacan collegata per errore ai Zapotechi; la mostra sulla strada inca collegata a Chavín; una fonte turistica su Caral.
+- Sintesi corrette: Su Nuraxi (la torre è della seconda metà del II millennio a.C.) e stampa in Asia orientale.
+- **«Qui vicino»** nel riepilogo di un punto elenca prima le voci nello stesso identico punto, poi quelle vicine (prima l'ordine era solo per importanza e data, e con i nuovi punti la dinastia Han finiva dietro «+4» quando si toccava Xi'an su telefono).
+- Test: 123 controlli (T63 ora controlla anche le voci di rilevanza 2).
+
 ## v0.63 · 23 novembre 2026
 
 - **Epoche scolastiche** (richiesta di Luca): Preistoria fino alla scrittura (circa 3500 a.C.), Antichità fino al 476, Medioevo 476–1492, Età moderna 1492–1789, Età contemporanea dal 1789. Prima erano 1250 a.C., 500, 1700 e 1963, per cui il 1600 risultava «Medioevo». Valgono ovunque si usano le epoche: barra del tempo, colore della mappa, Storia del luogo, finestra «stessa epoca» di Tecnologia, filtro dell'Archivio, fasce della Tavola, epoche evidenziate in Contemporanei.
-- **Barra del tempo ridistribuita** secondo le voci di ogni epoca (pesi 14/22/20/17/27 al posto di 18/22/20/20/20): l'Età contemporanea, che ora comincia nel 1789 e ha 131 voci, prende più spazio, la Preistoria (23 voci) meno. Il Novecento occupa circa il 14% della barra (prima circa il 25%, quasi tutto dopo il 1963, dove le voci sono 26); l'Ottocento passa da circa l'8% a circa il 12%. Su telefono il pulsante della Preistoria si accorcia in «Preist.».
+- **Barra del tempo ridistribuita** secondo le voci di ogni epoca (pesi 14/22/20/17/27 al posto di 18/22/20/20/20): l'Età contemporanea, che ora comincia nel 1789 e ha 131 voci, prende più spazio, la Preistoria (23 voci) meno. Il Novecento occupa circa il 14% della barra (prima circa il 25%, quasi tutto dopo il 1963, dove le voci sono 26); l'Ottocento passa da circa l'8% a circa l'11%. Su telefono il pulsante della Preistoria si accorcia in «Preist.».
 - I pulsanti − e + si fermano sui confini delle epoche (476, 1492 e 1789 non sono multipli del passo); il cursore raggiunge esattamente i confini.
 - Una voce che finisce proprio su un confine non conta nell'epoca dopo (Roma, che finisce nel 476, è solo Antichità); un evento di un solo anno sta nell'epoca di quell'anno (la caduta di Granada del 1492 è Età moderna).
 - Tavola: al massimo dello zoom su iPhone entrano 433 voci su 437 (prima 431); su PC tutte.
