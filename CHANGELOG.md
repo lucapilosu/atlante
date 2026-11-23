@@ -1,5 +1,14 @@
 # Registro delle versioni
 
+## v0.62 · 23 novembre 2026
+
+- **Verificate le 34 voci di rilevanza 1 che non lo erano ancora** (ora tutte quelle di rilevanza 1 hanno fonti specifiche, soprattutto Britannica, World History Encyclopedia, Imperial War Museums e Nazioni Unite). Restano da verificare 107 voci meno importanti (41 di rilevanza 2 e 66 di rilevanza 3), oltre alle 14 che hanno già le fonti degli approfondimenti.
+- Correzioni di date: Antico Egitto dal 3100 a.C.; Maurya dal 321 a.C.; Rivoluzione scientifica 1543–1687 (Copernico → Principia di Newton), prima 1540–1700. Datazione segnata come sicura per dieci dinastie e periodi (Zhou, Achemenidi, campagne di Alessandro, Han, Abbasidi, Song, Ming, Moghul, Qing, Rivoluzione francese).
+- Punti della mappa spostati dal generico «punto di orientamento» al luogo che conta: Qufu (Confucio), Bodh Gaya (Buddha), Babilonia (Alessandro), Pataliputra (Maurya), Chang'an (Han), Costantinopoli, Baghdad, Kaifeng (Song), Niani (Mali), Istanbul (Ottomani), Caffa (peste nera), Nanchino (Ming), Magonza (Gutenberg), Agra (Moghul), Pechino (Qing), Varsavia (seconda guerra mondiale).
+- Tolte fonti fuori tema (per esempio una mostra sulla strada inca collegata al Buddhismo) e le fonti generiche iniziali dove ora ce ne sono di specifiche.
+- **Icona del sito su iPad e iPhone**: oltre all'icona SVG dentro la pagina ci sono ora tre PNG (32 e 192 px, e 180 px per la schermata Home di iOS). Chrome su iPad mostrava l'icona vuota perché non usa le favicon SVG.
+- Test: 123 controlli (nuovo T63: icone PNG presenti e della misura giusta, nessuna voce di rilevanza 1 senza verifica).
+
 ## v0.61 · 22 novembre 2026
 
 - **Tavola del tempo: foto leggere.** Le mini foto usano la versione da 120 px di Wikimedia; da vicino, quando la foto è grande, passano a quella da 250 px (prima 330 px per tutte). Sono misure standard di Wikimedia. Le schede caricano le loro foto più grandi solo quando si aprono.

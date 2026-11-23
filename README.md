@@ -22,6 +22,7 @@ Sito: https://lucapilosu.github.io/atlante/
 - `versione.json`: numero di versione e data mostrati nella pagina.
 - `build.py`: controlla i dati e costruisce `index.html`, un file unico che si apre anche senza connessione.
 - `index.html`: la pagina pubblicata (generata: non modificarla a mano).
+- `favicon-32.png`, `favicon-192.png`, `apple-touch-icon.png`: icone PNG per i browser che non usano la favicon SVG inclusa nella pagina (Chrome e Safari su iPhone e iPad). Nella copia offline manca solo l'icona.
 - `tests/regression.py`: test automatici dei comportamenti da non rompere.
 - `CHANGELOG.md`: registro delle versioni.
 

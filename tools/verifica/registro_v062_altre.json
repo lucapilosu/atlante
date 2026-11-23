@@ -1,0 +1,755 @@
+[
+ {
+  "id": "state-ancient-egypt",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "List of dynasties of ancient Egypt",
+    "url": "https://www.britannica.com/topic/list-of-dynasties-of-ancient-Egypt"
+   },
+   {
+    "institution": "Ministero del Turismo e delle Antichità d’Egitto",
+    "title": "Early Dynastic Period",
+    "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/"
+   }
+  ],
+  "nota": "Il periodo dinastico comincia con l’unificazione dell’Egitto intorno al 3100 a.C. (Ministero delle Antichità egiziano) e finisce con la dinastia tolemaica (305–30 a.C.), quando l’Egitto diventa provincia romana (Britannica). Inizio corretto da 3000 a 3100 a.C.; la sequenza va letta per fasi (Antico, Medio e Nuovo Regno, periodi intermedi, periodo tardo, età tolemaica).",
+  "correzioni": {
+   "start_year": -3100
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-indus",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "India: The Indus civilization",
+    "url": "https://www.britannica.com/place/India/The-Indus-civilization"
+   }
+  ],
+  "nota": "Britannica colloca la fase matura tra il 2600–2500 a.C. e circa il 2000 a.C., con una fase tarda che arriva verso il 1700 a.C.; l’intervallo 2600–1900 a.C. dell’atlante corrisponde alla fase urbana matura più usata nei manuali.",
+  "parziale": "sistema di pesi e scrittura non decifrata, non letti nell’estratto della fonte consultato.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-shang",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Shang dynasty",
+    "url": "https://www.britannica.com/topic/Shang-dynasty"
+   },
+   {
+    "institution": "Stanford Program on International and Cross-Cultural Education (SPICE)",
+    "title": "The Shang Dynasty, 1600 to 1050 BCE",
+    "url": "https://spice.fsi.stanford.edu/docs/117"
+   }
+  ],
+  "nota": "Prima dinastia cinese con testimonianze sia documentarie sia archeologiche; datazione corrente circa 1600–1046 a.C. (alcuni studiosi la spostano dalla metà del XVIII alla fine del XII secolo a.C.). Confermati iscrizioni oracolari, bronzi rituali e fondazioni palaziali (Erligang, Anyang).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-zhou",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zhou dynasty",
+    "url": "https://www.britannica.com/topic/Zhou-dynasty"
+   }
+  ],
+  "nota": "Confermato 1046–256 a.C.: Zhou occidentali fino al 771 a.C., poi Zhou orientali con il periodo delle Primavere e degli Autunni (770–476) e degli Stati Combattenti (475–221), quando maturano le «cento scuole» di pensiero.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-confucius",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Confucius",
+    "url": "https://www.britannica.com/biography/Confucius"
+   }
+  ],
+  "nota": "Confermati 551–479 a.C. (anno di nascita tradizionale) e l’origine a Qufu, nello stato di Lu (oggi Shandong). Aggiunto il punto sulla mappa a Qufu.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 35.6,
+    "longitude": 116.99,
+    "label": "Qufu, Shandong · città natale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-rome",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Roman Republic",
+    "url": "https://www.britannica.com/place/Roman-Republic"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ancient Rome: At a Glance",
+    "url": "https://www.britannica.com/topic/Ancient-Rome-At-a-Glance-2237745"
+   }
+  ],
+  "nota": "Confermati Repubblica 509–27 a.C., Impero dal 27 a.C. e fine dell’Impero d’Occidente nel 476 d.C.; l’Impero d’Oriente prosegue come Impero bizantino.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-achaemenid",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "The Achaemenid Persian Empire (550–330 B.C.)",
+    "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c"
+   }
+  ],
+  "nota": "Confermati 550–330 a.C., Ciro II, il consolidamento sotto Dario I con satrapie e strade, Susa e Persepoli come centri dinastici, la fine con Alessandro Magno; l’impero era il più grande che il mondo antico avesse visto.",
+  "data": "2026-11-23",
+  "correzioni": {
+   "date_precision": "range"
+  }
+ },
+ {
+  "id": "culture-maya",
+  "fonti": [
+   {
+    "institution": "Penn Museum · Expedition Magazine (R. Sharer, 2012)",
+    "title": "Who Were the Maya?",
+    "url": "https://www.penn.museum/sites/expedition/?p=13991"
+   }
+  ],
+  "nota": "Confermati il Preclassico antico (circa 2000–1000 a.C., prima dei regni), i primi regni dal 1000 a.C. circa, il Classico (circa 250–900 d.C.) con iscrizioni geroglifiche regali, il Postclassico dal 900 d.C. e la conquista spagnola dal 1524 al 1697, quando caddero gli ultimi stati Maya indipendenti. La fonte parla di regni indipendenti più che di città-stato.",
+  "parziale": "calendari e astronomia (non trattati nella fonte consultata).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "religion-buddhism",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Buddhism",
+    "url": "https://www.britannica.com/topic/Buddhism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Buddhism: Historical development",
+    "url": "https://www.britannica.com/topic/Buddhism/Historical-development"
+   }
+  ],
+  "nota": "Il Buddhismo nasce nell’India nord-orientale tra la fine del VI e l’inizio del IV secolo a.C.; con il patronato del re maurya Ashoka (III secolo a.C.) e poi lungo le rotte commerciali si diffonde in Sri Lanka, Sud-est asiatico, Asia centrale, Cina, Corea e Giappone. Tolta una fonte fuori tema (mostra sulla strada inca).",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-buddha",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Buddha (founder of Buddhism)",
+    "url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism"
+   },
+   {
+    "institution": "World History Encyclopedia (J. J. Mark)",
+    "title": "The Dates of the Buddha",
+    "url": "https://www.worldhistory.org/article/493/the-dates-of-the-buddha/"
+   }
+  ],
+  "nota": "Date discusse: gli studiosi del Novecento si dividono tra chi pone la morte intorno al 480 a.C. (cronologia «moderna» 563–483) e chi circa un secolo dopo; l’atlante segue la cronologia corta (circa 480–400 a.C.), lasciata come datazione discussa. Nato a Lumbini (Nepal), illuminazione a Bodh Gaya: aggiunto il punto sulla mappa. Tolta una fonte fuori tema.",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 24.6959,
+    "longitude": 84.9914,
+    "label": "Bodh Gaya · luogo dell’illuminazione",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-alexander-campaigns",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Alexander the Great",
+    "url": "https://www.britannica.com/biography/Alexander-the-Great"
+   }
+  ],
+  "nota": "Confermati il passaggio dei Dardanelli nella primavera del 334 a.C., la conquista dell’impero persiano e la morte a Babilonia il 13 giugno 323 a.C. Punto sulla mappa spostato da un centro generico a Babilonia.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 32.54,
+    "longitude": 44.42,
+    "label": "Babilonia · dove Alessandro morì nel 323 a.C.",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-maurya",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mauryan empire",
+    "url": "https://www.britannica.com/place/Mauryan-Empire"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Mauryan Empire (ca. 323–185 B.C.)",
+    "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c"
+   }
+  ],
+  "nota": "Impero con capitale Pataliputra (Patna), circa 321–185 a.C., il primo a comprendere gran parte del subcontinente; Ashoka (circa 273–232 a.C.) fece incidere editti su rocce e pilastri e sostenne il Buddhismo. Inizio corretto da 322 a 321 a.C. come in Britannica e al Met. Tolta una fonte fuori tema.",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "correzioni": {
+   "start_year": -321,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 25.6,
+    "longitude": 85.1,
+    "label": "Pataliputra (Patna) · capitale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-han",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Han dynasty",
+    "url": "https://www.britannica.com/topic/Han-dynasty"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Han Dynasty (206 B.C.–220 A.D.)",
+    "url": "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d"
+   }
+  ],
+  "nota": "Confermati 206 a.C.–220 d.C. (Han occidentali con capitale Chang’an fino al 9/25 d.C., Han orientali con capitale Luoyang), il consolidamento imperiale e i contatti con le «regioni occidentali» dell’Asia centrale sotto l’imperatore Wu.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.3,
+    "longitude": 108.9,
+    "label": "Chang’an (Xi’an) · capitale degli Han occidentali",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-silk-road",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia (J. J. Mark)",
+    "title": "Silk Road",
+    "url": "https://www.worldhistory.org/Silk_Road/"
+   }
+  ],
+  "nota": "Rete di rotte commerciali aperta ufficialmente dagli Han nel 130 a.C. e usata regolarmente fino al 1453; gli storici preferiscono parlare di «vie» della seta perché non era un percorso unico. Il nome è stato coniato da F. von Richthofen nel 1877.",
+  "parziale": "le rotte marittime e la circolazione di patogeni (la fonte tratta soprattutto le vie terrestri e le merci).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-byzantine",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Byzantine Empire",
+    "url": "https://www.britannica.com/place/Byzantine-Empire"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Byzantine Empire",
+    "url": "https://www.worldhistory.org/Byzantine_Empire/"
+   }
+  ],
+  "nota": "Metà orientale dell’Impero romano, con capitale Costantinopoli, finita con la conquista ottomana del 29 maggio 1453. L’inizio è convenzionale: 330 (fondazione di Costantinopoli), 395 (divisione dopo Teodosio I, scelta dell’atlante) o 476. Aggiunto il punto sulla mappa a Costantinopoli.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 41.008,
+    "longitude": 28.98,
+    "label": "Costantinopoli (Istanbul) · capitale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "religion-christianity",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia (R. Denova)",
+    "title": "Early Christianity",
+    "url": "https://www.worldhistory.org/article/1205/early-christianity/"
+   },
+   {
+    "institution": "World History Encyclopedia (R. Denova)",
+    "title": "Christianity",
+    "url": "https://www.worldhistory.org/Christianity/"
+   }
+  ],
+  "nota": "Nasce nel I secolo come movimento all’interno del giudaismo, dai seguaci di Gesù di Nazareth, crocifisso dai Romani tra il 26 e il 36 d.C. (inizio convenzionale dell’atlante: 30 d.C.); si diffonde nelle città dell’Impero romano e presto anche tra i non ebrei.",
+  "parziale": "le fasi successive (istituzioni ecclesiastiche, imperi e missioni) sono una sintesi dell’atlante non confrontata riga per riga.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "religion-islam",
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "The Birth of Islam",
+    "url": "https://www.metmuseum.org/toah/hd/isla/hd_isla.htm"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Muhammad (summary)",
+    "url": "https://www.britannica.com/summary/Muhammad"
+   }
+  ],
+  "nota": "Muhammad, nato alla Mecca nell’Arabia occidentale intorno al 570, ricevette la prima rivelazione nel 610 (inizio della voce); l’egira a Medina del 622 segna l’inizio del calendario islamico. Dopo la sua morte (632) i califfi continuarono la diffusione dell’Islam.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-abbasid",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "ʿAbbasid caliphate",
+    "url": "https://www.britannica.com/topic/Abbasid-caliphate"
+   },
+   {
+    "institution": "Smarthistory",
+    "title": "The Abbasids (750–1258)",
+    "url": "https://smarthistory.org/?p=62036"
+   }
+  ],
+  "nota": "Confermati 750–1258: gli Abbasidi rovesciano gli Omayyadi nel 750 e governano fino alla presa mongola di Baghdad nel 1258; la capitale passa da Damasco a Kufa e poi a Baghdad, fondata da al-Mansur nel 762. Dopo il 1258 un califfato abbaside solo nominale continua al Cairo fino al 1517.",
+  "parziale": "la circolazione di testi e saperi (Casa della Sapienza) non è trattata negli estratti consultati.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 33.3,
+    "longitude": 44.4,
+    "label": "Baghdad · capitale dal 762",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-song",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Song dynasty",
+    "url": "https://www.britannica.com/topic/Song-dynasty"
+   },
+   {
+    "institution": "World History Encyclopedia (M. Cartwright)",
+    "title": "Song Dynasty",
+    "url": "https://www.worldhistory.org/Song_Dynasty/"
+   }
+  ],
+  "nota": "Confermati 960–1279: Song settentrionali con capitale Kaifeng, poi dal 1127 Song meridionali con capitale Hangzhou, fino alla sconfitta navale del 1279. Stampa diffusa dei classici e caratteri mobili dall’XI secolo; Kaifeng famosa per stampa, carta, tessuti e porcellana esportati lungo la Via della Seta e l’Oceano Indiano. Aggiunto il punto sulla mappa a Kaifeng.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.8,
+    "longitude": 114.3,
+    "label": "Kaifeng · capitale dei Song settentrionali",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-inca",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Inca: History",
+    "url": "https://www.britannica.com/topic/Inca/History"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Peru: History",
+    "url": "https://www.britannica.com/place/Peru/History"
+   }
+  ],
+  "nota": "La prima data sicura della storia dinastica inca è il 1438 (Pachacuti); l’espansione imperiale durò meno di un secolo, fino all’arrivo di Pizarro nel 1532, con la cattura e l’esecuzione di Atahualpa nel 1532–1533. Uno stato inca residuo resistette a Vilcabamba fino al 1572. Tolta la fonte turistica, sostituita da Britannica.",
+  "parziale": "l’inizio intorno al 1200 per le origini nella valle di Cusco (le fonti consultate non danno una data precisa prima del 1438).",
+  "togli": [
+   "src-peru-travel-history"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-mali",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mali (historical empire, Africa)",
+    "url": "https://www.britannica.com/place/Mali-historical-empire-Africa"
+   },
+   {
+    "institution": "World History Encyclopedia (M. Cartwright)",
+    "title": "Mali Empire",
+    "url": "https://www.worldhistory.org/Mali_Empire/"
+   }
+  ],
+  "nota": "Impero commerciale dell’Africa occidentale fiorito tra XIII e XVI secolo: Sundiata sconfigge i Sosso (1230–1235), l’impero controlla oro e sale e le città di Timbuctù e Gao, centri di studio islamico; declina dal XV secolo con l’ascesa dei Songhai e conserva una parte occidentale fino al XVII secolo. Aggiunto il punto sulla mappa a Niani, capitale indicata dalle fonti (la sua posizione è discussa).",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 11.38,
+    "longitude": -8.38,
+    "label": "Niani · capitale (posizione discussa)",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-ottoman",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ottoman Empire",
+    "url": "https://www.britannica.com/place/Ottoman-Empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ottoman Empire (summary)",
+    "url": "https://www.britannica.com/summary/Ottoman-Empire"
+   }
+  ],
+  "nota": "Fondato da Osman I intorno al 1300 (1299 la data tradizionale), conquista Costantinopoli nel 1453 e ne fa la capitale; schierato con la Germania nella prima guerra mondiale, viene sciolto dai trattati del dopoguerra: il sultanato è abolito nel 1922. Aggiunto il punto sulla mappa a Istanbul.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 41.01,
+    "longitude": 28.98,
+    "label": "Istanbul · capitale dal 1453",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-aztec",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tenochtitlán",
+    "url": "https://www.britannica.com/place/Tenochtitlan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aztec: Establishment of the Aztec empire",
+    "url": "https://www.britannica.com/topic/Aztec/Establishment-of-the-Aztec-empire"
+   }
+  ],
+  "nota": "Tenochtitlan fondata intorno al 1325 nelle paludi del lago Texcoco; sotto Itzcóatl (1428–1440) l’alleanza con Texcoco e Tlacopan rende i Mexica la potenza dominante del Messico centrale; la città cade nel 1521 per mano di Cortés e dei suoi alleati indigeni.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-black-death",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Black Death",
+    "url": "https://www.britannica.com/event/Black-Death"
+   },
+   {
+    "institution": "World History Encyclopedia (S. Netchev)",
+    "title": "Map of the Spread of the Black Death, c. 1346–1353",
+    "url": "https://www.worldhistory.org/collection/215/10-maps-on-european-history/2/"
+   }
+  ],
+  "nota": "La peste nera (Yersinia pestis) colpì l’Europa nel 1347–1351 (Britannica); considerando anche Asia occidentale e Nord Africa l’arco è circa 1346–1353 (World History Encyclopedia). Arrivò a Caffa, in Crimea, e da lì per mare nel Mediterraneo; morì forse tra il 30 e il 50% della popolazione europea. Punto sulla mappa spostato su Caffa.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 45.03,
+    "longitude": 35.38,
+    "label": "Caffa (Feodosia), Crimea · porta d’ingresso nel 1347",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-ming",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ming dynasty (summary)",
+    "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Ming Dynasty",
+    "url": "https://www.worldhistory.org/Ming_Dynasty/"
+   }
+  ],
+  "nota": "Confermati 1368–1644: dinastia di governo cinese tra il dominio mongolo e quello mancese; capitale spostata da Nanchino a Pechino (completato nel 1421) con la costruzione della Città Proibita; sette viaggi di Zheng He tra il 1405 e il 1433 fino all’Africa orientale.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 32.06,
+    "longitude": 118.78,
+    "label": "Nanchino · prima capitale (poi Pechino)",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-gutenberg",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Publishing: The age of early printing, 1450–1550",
+    "url": "https://www.britannica.com/topic/publishing/The-age-of-early-printing-1450-1550"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Johannes Gutenberg (summary)",
+    "url": "https://www.britannica.com/summary/Johannes-Gutenberg"
+   }
+  ],
+  "nota": "Gutenberg sperimentava la stampa a Magonza dal 1438; la Bibbia a 42 linee fu completata entro il 1455. I libri stampati fino al 1500 sono gli incunaboli: in 50 anni in Europa si superarono i 9 milioni di copie. Aggiunto il punto sulla mappa a Magonza.",
+  "parziale": "il legame con le precedenti tecniche asiatiche (caratteri mobili in Cina dall’XI secolo, verificato nella voce sui Song, non in queste fonti).",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.0,
+    "longitude": 8.27,
+    "label": "Magonza · bottega di Gutenberg",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-mughal",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mughal dynasty",
+    "url": "https://www.britannica.com/topic/Mughal-dynasty"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mughal Dynasty Timeline",
+    "url": "https://www.britannica.com/summary/Mughal-Dynasty-Timeline"
+   }
+  ],
+  "nota": "Confermati 1526–1857: Babur vince il sultano di Delhi a Panipat nel 1526 e prende Delhi e Agra; l’ultimo imperatore, Bahadur Shah II, viene deposto dopo la rivolta del 1857. Aggiunto il punto sulla mappa ad Agra, prima capitale (poi Fatehpur Sikri, Lahore e Delhi).",
+  "parziale": "integrazione amministrativa e fioritura artistica e architettonica (non lette negli estratti consultati).",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 27.18,
+    "longitude": 78.01,
+    "label": "Agra · capitale (poi Delhi)",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-scientific-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Scientific Revolution",
+    "url": "https://www.britannica.com/science/Scientific-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of science: Newton",
+    "url": "https://www.britannica.com/science/history-of-science/Newton"
+   }
+  ],
+  "nota": "Trasformazione del pensiero scientifico nei secoli XVI e XVII, cominciata dall’astronomia con Copernico (1543) e culminata nei Principia di Newton (1687); nascono società scientifiche, dall’Italia del primo Seicento alla Royal Society. Date corrette da 1540–1700 a 1543–1687, i due estremi usati di solito.",
+  "correzioni": {
+   "start_year": 1543,
+   "end_year": 1687
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-qing",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Qing dynasty",
+    "url": "https://www.britannica.com/topic/Qing-dynasty"
+   }
+  ],
+  "nota": "Ultima dinastia imperiale cinese (1644–1911/12): proclamata dai Mancesi nel 1636, prende Pechino nel 1644; finisce con la rivoluzione del 1911 e l’abdicazione dell’ultimo imperatore nel 1912. Aggiunto il punto sulla mappa a Pechino.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.9,
+    "longitude": 116.4,
+    "label": "Pechino · capitale",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-industrialization",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Industrial Revolution: The first Industrial Revolution",
+    "url": "https://www.britannica.com/event/Industrial-Revolution/The-first-Industrial-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Industrial Revolution Key Facts",
+    "url": "https://www.britannica.com/summary/Industrial-Revolution-Key-Facts"
+   }
+  ],
+  "nota": "Tra il 1760 e il 1830 la rivoluzione industriale fu soprattutto britannica; poi si estese a Belgio, Francia, Germania, Stati Uniti e Giappone, mentre l’Europa orientale arrivò nel Novecento e Cina e India solo verso la metà del secolo. La fine nel 1914 è una scelta dell’atlante per chiudere la fase con la prima guerra mondiale.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-french-revolution",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "French Revolution",
+    "url": "https://www.britannica.com/event/French-Revolution"
+   },
+   {
+    "institution": "World History Encyclopedia (H. W. Mark)",
+    "title": "French Revolution",
+    "url": "https://www.worldhistory.org/French_Revolution/"
+   }
+  ],
+  "nota": "Britannica fa partire la crisi rivoluzionaria dal 1787 (assemblea dei notabili), con il primo culmine nel 1789; l’atlante usa l’intervallo più comune, dagli Stati generali del 1789 al colpo di Stato di Napoleone del 18 brumaio 1799. Confermati la fine della monarchia, la prima Repubblica, le guerre rivoluzionarie e il Terrore.",
+  "correzioni": {
+   "date_precision": "range",
+   "date_confidence": "high"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-world-war-one",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World War I",
+    "url": "https://www.britannica.com/event/World-War-I"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World War I 1914–1918 (special feature)",
+    "url": "https://www.britannica.com/discover/World-War-I"
+   },
+   {
+    "institution": "World History Encyclopedia (S. Netchev)",
+    "title": "Map of Europe at the End of WW I, 1918",
+    "url": "https://www.worldhistory.org/collection/319/10-maps-of-world-war-i/7/"
+   }
+  ],
+  "nota": "Confermati 28 luglio 1914 – 11 novembre 1918 (Britannica). Gli armistizi del 1918 (Salonicco, Villa Giusti, Compiègne e altri) chiusero i fronti; caddero quattro imperi (tedesco, austro-ungarico, russo e ottomano) e la sistemazione del dopoguerra trasformò Europa e Vicino Oriente, con nuovi Stati come Polonia e Cecoslovacchia.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-world-war-two",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World War II",
+    "url": "https://www.britannica.com/event/World-War-II"
+   },
+   {
+    "institution": "Imperial War Museums",
+    "title": "VJ Day and the end of the Second World War",
+    "url": "https://www.iwm.org.uk/history/second-world-war/victory/vj-day-and-the-end-of-the-second-world-war"
+   },
+   {
+    "institution": "Imperial War Museums",
+    "title": "Victory",
+    "url": "https://www.iwm.org.uk/history/victory"
+   }
+  ],
+  "nota": "Confermati 1939–1945: invasione tedesca della Polonia il 1° settembre 1939 (Britannica indica il 3 settembre, giorno delle dichiarazioni di guerra di Regno Unito e Francia); fine in Europa con il VE Day dell’8 maggio 1945, annuncio della resa giapponese il 15 agosto e firma formale il 2 settembre 1945 nella baia di Tokyo (Imperial War Museums). Punto sulla mappa spostato su Varsavia.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 52.23,
+    "longitude": 21.01,
+    "label": "Varsavia · invasione della Polonia, settembre 1939",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-decolonization",
+  "fonti": [
+   {
+    "institution": "Nazioni Unite",
+    "title": "Decolonization (Global Issues)",
+    "url": "https://www.un.org/en/global-issues/decolonization"
+   },
+   {
+    "institution": "Nazioni Unite",
+    "title": "The United Nations and Decolonization: about",
+    "url": "https://www.un.org/dppa/decolonization/about"
+   },
+   {
+    "institution": "Nazioni Unite",
+    "title": "International Trusteeship System",
+    "url": "https://www.un.org/dppa/decolonization/en/node/673"
+   }
+  ],
+  "nota": "Nel 1945 circa 750 milioni di persone, quasi un terzo dell’umanità, vivevano in territori dipendenti; da allora oltre 80 ex colonie sono diventate indipendenti, con un’accelerazione dopo la dichiarazione ONU del 1960. Il 1994 è l’indipendenza di Palau, l’ultimo territorio in amministrazione fiduciaria ONU: chiude quel sistema, non la decolonizzazione, perché alcuni territori non autonomi restano tuttora nella lista ONU.",
+  "correzioni": {
+   "date_confidence": "medium"
+  },
+  "data": "2026-11-23"
+ }
+]

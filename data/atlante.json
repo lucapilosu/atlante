@@ -11,7 +11,7 @@
   }
  },
  "dataset_version": "1.2",
- "update_date": "2026-11-21",
+ "update_date": "2026-11-23",
  "description": "Atlante storico globale: ampliamento comparativo di civiltà, religioni, reti commerciali, scienza, tecnologia e trasformazioni politiche.",
  "date_convention": "ISO 8601-like signed year: negative = BCE, positive = CE; year 0 is not used in display.",
  "entities": [
@@ -188,7 +188,7 @@
    "entity_type": "state_sequence",
    "region": "Africa",
    "subregion": "Valle del Nilo",
-   "start_year": -3000,
+   "start_year": -3100,
    "end_year": -30,
    "date_precision": "approximate",
    "date_confidence": "medium",
@@ -206,11 +206,13 @@
     "civilization-rome"
    ],
    "source_ids": [
+    "src-v-encyclopaedia-britannica-list-of-dynasties-of-an",
+    "src-v-ministero-del-turismo-e-delle-antichita-degitto",
     "src-memphis-egypt-timeline",
     "src-ucl-egypt-chronology"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "Da suddividere in Antico Regno, Primo Periodo Intermedio, Medio Regno, Secondo Periodo Intermedio, Nuovo Regno, Terzo Periodo Intermedio, Periodo Tardo e fase tolemaica.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Il periodo dinastico comincia con l’unificazione dell’Egitto intorno al 3100 a.C. (Ministero delle Antichità egiziano) e finisce con la dinastia tolemaica (305–30 a.C.), quando l’Egitto diventa provincia romana (Britannica). Inizio corretto da 3000 a 3100 a.C.; la sequenza va letta per fasi (Antico, Medio e Nuovo Regno, periodi intermedi, periodo tardo, età tolemaica).",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "layer": "civilta",
    "relevance": 1,
@@ -234,7 +236,8 @@
      "a": "Autore sconosciuto",
      "l": "Copyrighted free use"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-ozieri",
@@ -710,7 +713,7 @@
    "subregion": "Iran, Vicino Oriente, Anatolia, Egitto, Asia centrale e nord-occidentale del subcontinente indiano",
    "start_year": -550,
    "end_year": -330,
-   "date_precision": "years",
+   "date_precision": "range",
    "date_confidence": "high",
    "summary": "Impero fondato da Ciro II e consolidato da Dario I, esteso su territori e popolazioni molto diverse. La struttura imperiale combinava satrapie, reti stradali, centri amministrativi e tradizioni locali; Persepolis, Susa, Pasargadae e Babilonia furono nodi di potere e rappresentazione.",
    "map_geometry": {
@@ -733,12 +736,12 @@
     "state-ancient-egypt"
    ],
    "source_ids": [
+    "src-v-the-metropolitan-museum-of-art-the-achaemenid-pe",
     "src-met-achaemenid",
-    "src-met-iran-1000-1",
-    "src-openlearn-classical"
+    "src-met-iran-1000-1"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "L'intervallo 550-330 a.C. è la cronologia standard adottata dal Metropolitan Museum. L'estensione territoriale cambiò notevolmente durante i regni achemenidi: non usare un solo poligono statico per tutta la durata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 550–330 a.C., Ciro II, il consolidamento sotto Dario I con satrapie e strade, Susa e Persepoli come centri dinastici, la fine con Alessandro Magno; l’impero era il più grande che il mondo antico avesse visto.",
    "related_entity_labels": [
     "Impero accadico (voce della tranche precedente, da integrare)",
     "Egitto dinastico (voce della tranche precedente, da integrare)"
@@ -766,7 +769,8 @@
      "a": "Ggia",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "state-italy-kingdom",
@@ -1472,12 +1476,13 @@
     "site-mayapan"
    ],
    "source_ids": [
+    "src-v-penn-museum-expedition-magazine-who-were-the-may",
     "src-smithsonian-maya",
     "src-unesco-tikal",
     "src-unesco-calakmul"
    ],
-   "editorial_status": "research-seed",
-   "notes": "Intervallo molto ampio, riferito alla continuità delle culture Maya e non a un’entità politica unica. La conquista spagnola fu regionale e prolungata; Nojpetén cadde nel 1697.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati il Preclassico antico (circa 2000–1000 a.C., prima dei regni), i primi regni dal 1000 a.C. circa, il Classico (circa 250–900 d.C.) con iscrizioni geroglifiche regali, il Postclassico dal 900 d.C. e la conquista spagnola dal 1524 al 1697, quando caddero gli ultimi stati Maya indipendenti. La fonte parla di regni indipendenti più che di città-stato. Non verificato sulle fonti: calendari e astronomia (non trattati nella fonte consultata).",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "focus": "maya",
    "layer": "civilta",
@@ -1502,7 +1507,8 @@
      "a": "Simon Burchell",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-tikal",
@@ -1905,10 +1911,10 @@
    "key_sites": [],
    "related_entities": [],
    "source_ids": [
-    "src-worldhistory-science"
+    "src-v-encyclopaedia-britannica-india-the-indus-civiliz"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Britannica colloca la fase matura tra il 2600–2500 a.C. e circa il 2000 a.C., con una fase tarda che arriva verso il 1700 a.C.; l’intervallo 2600–1900 a.C. dell’atlante corrisponde alla fase urbana matura più usata nei manuali. Non verificato sulle fonti: sistema di pesi e scrittura non decifrata, non letti nell’estratto della fonte consultato.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AM",
@@ -1931,7 +1937,8 @@
      "a": "Usman.pg",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-shang",
@@ -1954,10 +1961,11 @@
    "key_sites": [],
    "related_entities": [],
    "source_ids": [
-    "src-openlearn-classical"
+    "src-v-encyclopaedia-britannica-shang-dynasty",
+    "src-v-stanford-program-on-international-and-cross-cult"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Prima dinastia cinese con testimonianze sia documentarie sia archeologiche; datazione corrente circa 1600–1046 a.C. (alcuni studiosi la spostano dalla metà del XVIII alla fine del XII secolo a.C.). Confermati iscrizioni oracolari, bronzi rituali e fondazioni palaziali (Erligang, Anyang).",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -1980,7 +1988,8 @@
      "a": "Gary Todd",
      "l": "CC0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-zhou",
@@ -1990,8 +1999,8 @@
    "subregion": "Cina",
    "start_year": -1046,
    "end_year": -256,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Lunga fase politica che comprende Zhou occidentali e orientali; durante la frammentazione degli Stati Combattenti maturano importanti scuole filosofiche.",
    "map_geometry": {
     "type": "point",
@@ -2005,10 +2014,10 @@
     "civilization-shang"
    ],
    "source_ids": [
-    "src-openlearn-classical"
+    "src-v-encyclopaedia-britannica-zhou-dynasty"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermato 1046–256 a.C.: Zhou occidentali fino al 771 a.C., poi Zhou orientali con il periodo delle Primavere e degli Autunni (770–476) e degli Stati Combattenti (475–221), quando maturano le «cento scuole» di pensiero.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -2031,7 +2040,8 @@
      "a": "Gary Todd from Xinzheng, China",
      "l": "CC0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-maurya",
@@ -2039,7 +2049,7 @@
    "entity_type": "empire",
    "region": "Asia",
    "subregion": "Subcontinente indiano",
-   "start_year": -322,
+   "start_year": -321,
    "end_year": -185,
    "date_precision": "approximate",
    "date_confidence": "medium",
@@ -2048,16 +2058,17 @@
     "type": "point",
     "latitude": 25.6,
     "longitude": 85.1,
-    "label": "Subcontinente indiano · punto di orientamento",
+    "label": "Pataliputra (Patna) · capitale",
     "precision": "representative_anchor"
    },
    "key_sites": [],
    "related_entities": [],
    "source_ids": [
-    "src-smithsonian-inka-road"
+    "src-v-encyclopaedia-britannica-mauryan-empire",
+    "src-v-the-metropolitan-museum-of-art-mauryan-empire-ca"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Impero con capitale Pataliputra (Patna), circa 321–185 a.C., il primo a comprendere gran parte del subcontinente; Ashoka (circa 273–232 a.C.) fece incidere editti su rocce e pilastri e sostenne il Buddhismo. Inizio corretto da 322 a 321 a.C. come in Britannica e al Met. Tolta una fonte fuori tema.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AM",
@@ -2080,7 +2091,8 @@
      "a": "World Imaging",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-han",
@@ -2090,14 +2102,14 @@
    "subregion": "Cina",
    "start_year": -206,
    "end_year": 220,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Consolidamento imperiale, amministrazione centralizzata, espansione verso l’Asia centrale e intensificazione delle rotte eurasiatiche.",
    "map_geometry": {
     "type": "point",
     "latitude": 34.3,
     "longitude": 108.9,
-    "label": "Cina · punto di orientamento",
+    "label": "Chang’an (Xi’an) · capitale degli Han occidentali",
     "precision": "representative_anchor"
    },
    "key_sites": [],
@@ -2105,10 +2117,11 @@
     "civilization-zhou"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-han-dynasty",
+    "src-v-the-metropolitan-museum-of-art-han-dynasty-206-b"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 206 a.C.–220 d.C. (Han occidentali con capitale Chang’an fino al 9/25 d.C., Han orientali con capitale Luoyang), il consolidamento imperiale e i contatti con le «regioni occidentali» dell’Asia centrale sotto l’imperatore Wu.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -2131,7 +2144,8 @@
      "a": "Sailko",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-gupta",
@@ -2195,16 +2209,23 @@
    "date_precision": "approximate",
    "date_confidence": "medium",
    "summary": "Continuità orientale dell’Impero romano con capitale Costantinopoli, istituzioni romane e cultura greco-cristiana.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 41.008,
+    "longitude": 28.98,
+    "label": "Costantinopoli (Istanbul) · capitale",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [
     "civilization-rome"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-byzantine-empire",
+    "src-v-world-history-encyclopedia-byzantine-empire"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Metà orientale dell’Impero romano, con capitale Costantinopoli, finita con la conquista ottomana del 29 maggio 1453. L’inizio è convenzionale: 330 (fondazione di Costantinopoli), 395 (divisione dopo Teodosio I, scelta dell’atlante) o 476. Aggiunto il punto sulla mappa a Costantinopoli.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
@@ -2227,7 +2248,8 @@
      "a": "Autore sconosciuto",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-abbasid",
@@ -2237,23 +2259,24 @@
    "subregion": "Iraq e mondo islamico",
    "start_year": 750,
    "end_year": 1258,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Califfato con capitale Baghdad; reti commerciali e culturali e intensa circolazione di testi e saperi tra lingue e regioni.",
    "map_geometry": {
     "type": "point",
     "latitude": 33.3,
     "longitude": 44.4,
-    "label": "Baghdad e Medio Oriente · punto di orientamento",
+    "label": "Baghdad · capitale dal 762",
     "precision": "representative_anchor"
    },
    "key_sites": [],
    "related_entities": [],
    "source_ids": [
-    "src-ou-science-history"
+    "src-v-encyclopaedia-britannica-abbasid-caliphate",
+    "src-v-smarthistory-the-abbasids-7501258"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 750–1258: gli Abbasidi rovesciano gli Omayyadi nel 750 e governano fino alla presa mongola di Baghdad nel 1258; la capitale passa da Damasco a Kufa e poi a Baghdad, fondata da al-Mansur nel 762. Dopo il 1258 un califfato abbaside solo nominale continua al Cairo fino al 1517. Non verificato sulle fonti: la circolazione di testi e saperi (Casa della Sapienza) non è trattata negli estratti consultati.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AO",
@@ -2276,7 +2299,8 @@
      "a": "Daderot",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-song",
@@ -2286,19 +2310,26 @@
    "subregion": "Cina",
    "start_year": 960,
    "end_year": 1279,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Periodo di innovazioni economiche e tecnologiche, stampa, produzione ceramica, urbanizzazione e sviluppo delle reti commerciali.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.8,
+    "longitude": 114.3,
+    "label": "Kaifeng · capitale dei Song settentrionali",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [
     "civilization-han"
    ],
    "source_ids": [
-    "src-worldhistory-science"
+    "src-v-encyclopaedia-britannica-song-dynasty",
+    "src-v-world-history-encyclopedia-song-dynasty"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 960–1279: Song settentrionali con capitale Kaifeng, poi dal 1127 Song meridionali con capitale Hangzhou, fino alla sconfitta navale del 1279. Stampa diffusa dei classici e caratteri mobili dall’XI secolo; Kaifeng famosa per stampa, carta, tessuti e porcellana esportati lungo la Via della Seta e l’Oceano Indiano. Aggiunto il punto sulla mappa a Kaifeng.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -2321,7 +2352,8 @@
      "a": "Liu Songnian",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-mali",
@@ -2334,14 +2366,21 @@
    "date_precision": "approximate",
    "date_confidence": "medium",
    "summary": "Potere dell’Africa occidentale legato alle reti trans-sahariane dell’oro e del sale; Timbuctù divenne un importante centro intellettuale.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 11.38,
+    "longitude": -8.38,
+    "label": "Niani · capitale (posizione discussa)",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-mali-historical-empire",
+    "src-v-world-history-encyclopedia-mali-empire"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Impero commerciale dell’Africa occidentale fiorito tra XIII e XVI secolo: Sundiata sconfigge i Sosso (1230–1235), l’impero controlla oro e sale e le città di Timbuctù e Gao, centri di studio islamico; declina dal XV secolo con l’ascesa dei Songhai e conserva una parte occidentale fino al XVII secolo. Aggiunto il punto sulla mappa a Niani, capitale indicata dalle fonti (la sua posizione è discussa).",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AS",
@@ -2352,7 +2391,8 @@
      "a": "Cresques Abraham",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-aztec",
@@ -2377,11 +2417,12 @@
     "culture-toltec"
    ],
    "source_ids": [
-    "src-openlearn-classical",
+    "src-v-encyclopaedia-britannica-tenochtitlan",
+    "src-v-encyclopaedia-britannica-aztec-establishment-of",
     "src-inah-mexica"
    ],
-   "editorial_status": "research-seed",
-   "notes": "“Aztechi” è un nome diffuso, ma Mexica identifica più precisamente il gruppo dominante di Tenochtitlan; non tutta la Mesoamerica era sotto il loro controllo.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Tenochtitlan fondata intorno al 1325 nelle paludi del lago Texcoco; sotto Itzcóatl (1428–1440) l’alleanza con Texcoco e Tlacopan rende i Mexica la potenza dominante del Messico centrale; la città cade nel 1521 per mano di Cortés e dei suoi alleati indigeni.",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "layer": "civilta",
    "relevance": 1,
@@ -2405,7 +2446,8 @@
      "a": "Autore non indicato",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-inca",
@@ -2431,11 +2473,12 @@
     "culture-chimu"
    ],
    "source_ids": [
-    "src-smithsonian-inka-road",
-    "src-peru-travel-history"
+    "src-v-encyclopaedia-britannica-inca-history",
+    "src-v-encyclopaedia-britannica-peru-history",
+    "src-smithsonian-inka-road"
    ],
-   "editorial_status": "research-seed",
-   "notes": "Cronologia di sintesi e non uniforme; le culture archeologiche non vanno interpretate automaticamente come stati o imperi. Punto indicativo presso Cusco, centro politico inca; l'impero si estendeva ben oltre il Perù attuale.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: La prima data sicura della storia dinastica inca è il 1438 (Pachacuti); l’espansione imperiale durò meno di un secolo, fino all’arrivo di Pizarro nel 1532, con la cattura e l’esecuzione di Atahualpa nel 1532–1533. Uno stato inca residuo resistette a Vilcabamba fino al 1572. Tolta la fonte turistica, sostituita da Britannica. Non verificato sulle fonti: l’inizio intorno al 1200 per le origini nella valle di Cusco (le fonti consultate non danno una data precisa prima del 1438).",
    "map_note": "Ancora geografica rappresentativa: non indica confini o controllo territoriale.",
    "layer": "civilta",
    "relevance": 1,
@@ -2459,7 +2502,8 @@
      "a": "Mayimbú (Wikimedia Commons)",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-ottoman",
@@ -2472,16 +2516,23 @@
    "date_precision": "approximate",
    "date_confidence": "medium",
    "summary": "Impero plurisecolare con capitale a Istanbul dal 1453, snodo politico e commerciale tra Mediterraneo, Europa sud-orientale e Asia.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 41.01,
+    "longitude": 28.98,
+    "label": "Istanbul · capitale dal 1453",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [
     "civilization-byzantine"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-ottoman-empire",
+    "src-v-encyclopaedia-britannica-ottoman-empire-summary"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Fondato da Osman I intorno al 1300 (1299 la data tradizionale), conquista Costantinopoli nel 1453 e ne fa la capitale; schierato con la Germania nella prima guerra mondiale, viene sciolto dai trattati del dopoguerra: il sultanato è abolito nel 1922. Aggiunto il punto sulla mappa a Istanbul.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AO",
@@ -2504,7 +2555,8 @@
      "a": "Original: Bilinmiyor Derivative: باسم",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-ming",
@@ -2514,14 +2566,14 @@
    "subregion": "Cina",
    "start_year": 1368,
    "end_year": 1644,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Dinastia che ricostruì il potere imperiale cinese; comprende le grandi spedizioni marittime di Zheng He nel primo Quattrocento.",
    "map_geometry": {
     "type": "point",
-    "latitude": 32.1,
-    "longitude": 118.8,
-    "label": "Cina · punto di orientamento",
+    "latitude": 32.06,
+    "longitude": 118.78,
+    "label": "Nanchino · prima capitale (poi Pechino)",
     "precision": "representative_anchor"
    },
    "key_sites": [],
@@ -2529,10 +2581,11 @@
     "civilization-song"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-ming-dynasty-summary",
+    "src-v-world-history-encyclopedia-ming-dynasty"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 1368–1644: dinastia di governo cinese tra il dominio mongolo e quello mancese; capitale spostata da Nanchino a Pechino (completato nel 1421) con la costruzione della Città Proibita; sette viaggi di Zheng He tra il 1405 e il 1433 fino all’Africa orientale.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -2555,7 +2608,8 @@
      "a": "Qiu Ying (仇英) (attributed)",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-mughal",
@@ -2565,19 +2619,26 @@
    "subregion": "Subcontinente indiano",
    "start_year": 1526,
    "end_year": 1857,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Impero dell’Asia meridionale che conobbe una forte integrazione amministrativa e una fioritura artistica e architettonica.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 27.18,
+    "longitude": 78.01,
+    "label": "Agra · capitale (poi Delhi)",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [
     "civilization-gupta"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-mughal-dynasty",
+    "src-v-encyclopaedia-britannica-mughal-dynasty-timeline"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 1526–1857: Babur vince il sultano di Delhi a Panipat nel 1526 e prende Delhi e Agra; l’ultimo imperatore, Bahadur Shah II, viene deposto dopo la rivolta del 1857. Aggiunto il punto sulla mappa ad Agra, prima capitale (poi Fatehpur Sikri, Lahore e Delhi). Non verificato sulle fonti: integrazione amministrativa e fioritura artistica e architettonica (non lette negli estratti consultati).",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AM",
@@ -2600,7 +2661,8 @@
      "a": "Vedi Wikimedia Commons",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-qing",
@@ -2610,19 +2672,25 @@
    "subregion": "Cina",
    "start_year": 1644,
    "end_year": 1912,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "summary": "Ultima dinastia imperiale cinese, con espansione territoriale e trasformazioni profonde nei rapporti con le potenze industriali.",
-   "map_geometry": null,
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.9,
+    "longitude": 116.4,
+    "label": "Pechino · capitale",
+    "precision": "representative_anchor"
+   },
    "key_sites": [],
    "related_entities": [
     "civilization-ming"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-qing-dynasty"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Ultima dinastia imperiale cinese (1644–1911/12): proclamata dai Mancesi nel 1636, prende Pechino nel 1644; finisce con la rivoluzione del 1911 e l’abdicazione dell’ultimo imperatore nel 1912. Aggiunto il punto sulla mappa a Pechino.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "AE",
@@ -2645,7 +2713,8 @@
      "a": "Quadell",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "movement-silk-road",
@@ -2666,10 +2735,10 @@
     "civilization-byzantine"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-world-history-encyclopedia-silk-road"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Rete di rotte commerciali aperta ufficialmente dagli Han nel 130 a.C. e usata regolarmente fino al 1453; gli storici preferiscono parlare di «vie» della seta perché non era un percorso unico. Il nome è stato coniato da F. von Richthofen nel 1877. Non verificato sulle fonti: le rotte marittime e la circolazione di patogeni (la fonte tratta soprattutto le vie terrestri e le merci).",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "GL",
@@ -2686,7 +2755,8 @@
      "a": "PHG",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "movement-transsaharan",
@@ -2751,10 +2821,11 @@
     "civilization-han"
    ],
    "source_ids": [
-    "src-smithsonian-inka-road"
+    "src-v-encyclopaedia-britannica-buddhism",
+    "src-v-encyclopaedia-britannica-buddhism-historical-dev"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Il Buddhismo nasce nell’India nord-orientale tra la fine del VI e l’inizio del IV secolo a.C.; con il patronato del re maurya Ashoka (III secolo a.C.) e poi lungo le rotte commerciali si diffonde in Sri Lanka, Sud-est asiatico, Asia centrale, Cina, Corea e Giappone. Tolta una fonte fuori tema (mostra sulla strada inca).",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "AM",
@@ -2777,7 +2848,8 @@
      "a": "World Imaging",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "religion-christianity",
@@ -2797,10 +2869,11 @@
     "civilization-byzantine"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-world-history-encyclopedia-early-christianity",
+    "src-v-world-history-encyclopedia-christianity"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Nasce nel I secolo come movimento all’interno del giudaismo, dai seguaci di Gesù di Nazareth, crocifisso dai Romani tra il 26 e il 36 d.C. (inizio convenzionale dell’atlante: 30 d.C.); si diffonde nelle città dell’Impero romano e presto anche tra i non ebrei. Non verificato sulle fonti: le fasi successive (istituzioni ecclesiastiche, imperi e missioni) sono una sintesi dell’atlante non confrontata riga per riga.",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "GL",
@@ -2823,7 +2896,8 @@
      "a": "Fra Angelico",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "religion-islam",
@@ -2842,10 +2916,11 @@
     "civilization-abbasid"
    ],
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-the-metropolitan-museum-of-art-the-birth-of-isla",
+    "src-v-encyclopaedia-britannica-muhammad-summary"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Muhammad, nato alla Mecca nell’Arabia occidentale intorno al 570, ricevette la prima rivelazione nel 610 (inizio della voce); l’egira a Medina del 622 segna l’inizio del calendario islamico. Dopo la sua morte (632) i califfi continuarono la diffusione dell’Islam.",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "GL",
@@ -2868,7 +2943,8 @@
      "a": "seier+seier",
      "l": "CC BY 2.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "invention-paper",
@@ -3047,8 +3123,8 @@
    "entity_type": "movement",
    "region": "Europa",
    "subregion": "Europa occidentale",
-   "start_year": 1540,
-   "end_year": 1700,
+   "start_year": 1543,
+   "end_year": 1687,
    "date_precision": "approximate",
    "date_confidence": "medium",
    "summary": "Trasformazione dei metodi e delle istituzioni della conoscenza naturale, con osservazione strumentale, matematizzazione e nuove comunità scientifiche.",
@@ -3064,10 +3140,11 @@
     "invention-printing-eastasia"
    ],
    "source_ids": [
-    "src-ou-science-history"
+    "src-v-encyclopaedia-britannica-scientific-revolution",
+    "src-v-encyclopaedia-britannica-history-of-science-newt"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Trasformazione del pensiero scientifico nei secoli XVI e XVII, cominciata dall’astronomia con Copernico (1543) e culminata nei Principia di Newton (1687); nascono società scientifiche, dall’Italia del primo Seicento alla Royal Society. Date corrette da 1540–1700 a 1543–1687, i due estremi usati di solito.",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "EU",
@@ -3090,7 +3167,8 @@
      "a": "Ragesoss (Wikimedia Commons)",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "movement-industrialization",
@@ -3109,10 +3187,11 @@
     "invention-paper"
    ],
    "source_ids": [
-    "src-ou-science-history"
+    "src-v-encyclopaedia-britannica-industrial-revolution-t",
+    "src-v-encyclopaedia-britannica-industrial-revolution-k"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Tra il 1760 e il 1830 la rivoluzione industriale fu soprattutto britannica; poi si estese a Belgio, Francia, Germania, Stati Uniti e Giappone, mentre l’Europa orientale arrivò nel Novecento e Cina e India solo verso la metà del secolo. La fine nel 1914 è una scelta dell’atlante per chiudere la fase con la prima guerra mondiale.",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "GL",
@@ -3129,7 +3208,8 @@
      "a": "André Karwath aka Aka",
      "l": "CC BY-SA 2.5"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "movement-decolonization",
@@ -3158,14 +3238,17 @@
     "event-world-war-two"
    ],
    "source_ids": [
-    "src-cfr-world-history",
+    "src-v-nazioni-unite-decolonization-global-issues",
+    "src-v-nazioni-unite-the-united-nations-and-decolonizat",
+    "src-v-nazioni-unite-international-trusteeship-system",
     "src-un-decolonization"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Intervallo sintetico per esplorazione comparativa; non implica uniformità o continuità immutata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Nel 1945 circa 750 milioni di persone, quasi un terzo dell’umanità, vivevano in territori dipendenti; da allora oltre 80 ex colonie sono diventate indipendenti, con un’accelerazione dopo la dichiarazione ONU del 1960. Il 1994 è l’indipendenza di Palau, l’ultimo territorio in amministrazione fiduciaria ONU: chiude quel sistema, non la decolonizzazione, perché alcuni territori non autonomi restano tuttora nella lista ONU.",
    "layer": "persone-idee",
    "relevance": 1,
-   "world_area": "GL"
+   "world_area": "GL",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-rome",
@@ -3196,11 +3279,11 @@
     "religion-christianity"
    ],
    "source_ids": [
-    "src-cfr-world-history",
-    "src-openlearn-classical"
+    "src-v-encyclopaedia-britannica-roman-republic",
+    "src-v-encyclopaedia-britannica-ancient-rome-at-a-glanc"
    ],
-   "editorial_status": "editorial-expansion",
-   "notes": "Sequenza ampia per la vista d’insieme; Repubblica e Impero vanno distinti in una successiva articolazione.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati Repubblica 509–27 a.C., Impero dal 27 a.C. e fine dell’Impero d’Occidente nel 476 d.C.; l’Impero d’Oriente prosegue come Impero bizantino.",
    "layer": "civilta",
    "relevance": 1,
    "world_area": "EU",
@@ -3223,7 +3306,8 @@
      "a": "Autore non indicato",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "civilization-aksum",
@@ -10680,11 +10764,13 @@
     "event-world-war-two"
    ],
    "source_ids": [
-    "src-iwm-ww1",
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-world-war-i",
+    "src-v-encyclopaedia-britannica-world-war-i-19141918-sp",
+    "src-v-world-history-encyclopedia-map-of-europe-at-the",
+    "src-iwm-ww1"
    ],
-   "editorial_status": "prototype-seed",
-   "notes": "Il 1918 segna la fine dei principali combattimenti sul fronte europeo; trattati e conseguenze politiche proseguirono negli anni successivi.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 28 luglio 1914 – 11 novembre 1918 (Britannica). Gli armistizi del 1918 (Salonicco, Villa Giusti, Compiègne e altri) chiusero i fronti; caddero quattro imperi (tedesco, austro-ungarico, russo e ottomano) e la sistemazione del dopoguerra trasformò Europa e Vicino Oriente, con nuovi Stati come Polonia e Cecoslovacchia.",
    "event_type": "historical_event",
    "place_id": null,
    "related_entity_ids": [
@@ -10706,7 +10792,8 @@
      "a": "Agence Rol",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-world-war-two",
@@ -10720,9 +10807,9 @@
    "summary": "Conflitto mondiale combattuto dal 1939 al 1945, con teatri in Europa, Africa e Asia-Pacifico. La guerra terminò in Europa a maggio 1945 e in Asia a settembre 1945.",
    "map_geometry": {
     "type": "point",
-    "latitude": 52.0,
-    "longitude": 20.0,
-    "label": "Europa · punto di orientamento",
+    "latitude": 52.23,
+    "longitude": 21.01,
+    "label": "Varsavia · invasione della Polonia, settembre 1939",
     "precision": "representative_anchor"
    },
    "key_sites": [
@@ -10736,11 +10823,13 @@
     "state-italian-republic"
    ],
    "source_ids": [
-    "src-iwm-ww2",
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-world-war-ii",
+    "src-v-imperial-war-museums-vj-day-and-the-end-of-the-s",
+    "src-v-imperial-war-museums-victory",
+    "src-iwm-ww2"
    ],
-   "editorial_status": "prototype-seed",
-   "notes": "La data di inizio varia in alcune storiografie regionali; il 1 settembre 1939 è la convenzione più usata per la guerra in Europa.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati 1939–1945: invasione tedesca della Polonia il 1° settembre 1939 (Britannica indica il 3 settembre, giorno delle dichiarazioni di guerra di Regno Unito e Francia); fine in Europa con il VE Day dell’8 maggio 1945, annuncio della resa giapponese il 15 agosto e firma formale il 2 settembre 1945 nella baia di Tokyo (Imperial War Museums). Punto sulla mappa spostato su Varsavia.",
    "event_type": "historical_event",
    "place_id": null,
    "related_entity_ids": [
@@ -10756,7 +10845,8 @@
      "a": "Oberiko",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-italian-republic-referendum",
@@ -11756,9 +11846,10 @@
    ],
    "summary": "Cronologia convenzionale e discussa per la vita del Buddha; la tradizione si sviluppa in scuole e comunità diverse.",
    "source_ids": [
-    "src-smithsonian-inka-road"
+    "src-v-encyclopaedia-britannica-buddha-founder-of-buddh",
+    "src-v-world-history-encyclopedia-the-dates-of-the-budd"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "AM",
@@ -11781,7 +11872,16 @@
      "a": "Bpilgrim",
      "l": "CC BY-SA 2.5"
     }
-   ]
+   ],
+   "map_geometry": {
+    "type": "point",
+    "latitude": 24.6959,
+    "longitude": 84.9914,
+    "label": "Bodh Gaya · luogo dell’illuminazione",
+    "precision": "representative_anchor"
+   },
+   "notes": "Verificata il 23/11/2026: Date discusse: gli studiosi del Novecento si dividono tra chi pone la morte intorno al 480 a.C. (cronologia «moderna» 563–483) e chi circa un secolo dopo; l’atlante segue la cronologia corta (circa 480–400 a.C.), lasciata come datazione discussa. Nato a Lumbini (Nepal), illuminazione a Bodh Gaya: aggiunto il punto sulla mappa. Tolta una fonte fuori tema.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-confucius",
@@ -11798,9 +11898,9 @@
    ],
    "summary": "Gli insegnamenti attribuiti a Confucio influenzano profondamente etica, educazione e governo in Asia orientale.",
    "source_ids": [
-    "src-openlearn-classical"
+    "src-v-encyclopaedia-britannica-confucius"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "persone-idee",
    "relevance": 1,
    "world_area": "AE",
@@ -11823,7 +11923,16 @@
      "a": "Thomas Allom",
      "l": "Public domain"
     }
-   ]
+   ],
+   "map_geometry": {
+    "type": "point",
+    "latitude": 35.6,
+    "longitude": 116.99,
+    "label": "Qufu, Shandong · città natale",
+    "precision": "representative_anchor"
+   },
+   "notes": "Verificata il 23/11/2026: Confermati 551–479 a.C. (anno di nascita tradizionale) e l’origine a Qufu, nello stato di Lu (oggi Shandong). Aggiunto il punto sulla mappa a Qufu.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-persian-wars",
@@ -11881,8 +11990,8 @@
    "event_type": "conflict",
    "start_year": -334,
    "end_year": -323,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Asia",
    "related_entity_ids": [
@@ -11890,15 +11999,15 @@
    ],
    "summary": "La conquista dell’Impero achemenide crea un vasto spazio politico e culturale ellenistico.",
    "source_ids": [
-    "src-openlearn-classical"
+    "src-v-encyclopaedia-britannica-alexander-the-great"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Macedonia, Egitto e Asia",
    "map_geometry": {
     "type": "point",
-    "latitude": 34.0,
-    "longitude": 45.0,
-    "label": "Macedonia, Egitto e Asia · punto di orientamento",
+    "latitude": 32.54,
+    "longitude": 44.42,
+    "label": "Babilonia · dove Alessandro morì nel 323 a.C.",
     "precision": "representative_anchor"
    },
    "layer": "eventi",
@@ -11923,7 +12032,9 @@
      "a": "Charles Le Brun",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermati il passaggio dei Dardanelli nella primavera del 334 a.C., la conquista dell’impero persiano e la morte a Babilonia il 13 giugno 323 a.C. Punto sulla mappa spostato da un centro generico a Babilonia.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-ashoka-edicts",
@@ -12297,15 +12408,16 @@
    ],
    "summary": "La pandemia si propaga lungo reti commerciali e militari, provocando una crisi demografica e sociale di enorme portata.",
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-black-death",
+    "src-v-world-history-encyclopedia-map-of-the-spread-of"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Europa, Asia e Nord Africa",
    "map_geometry": {
     "type": "point",
-    "latitude": 43.0,
-    "longitude": 35.0,
-    "label": "Europa, Asia e Nord Africa · punto di orientamento",
+    "latitude": 45.03,
+    "longitude": 35.38,
+    "label": "Caffa (Feodosia), Crimea · porta d’ingresso nel 1347",
     "precision": "representative_anchor"
    },
    "layer": "eventi",
@@ -12330,7 +12442,9 @@
      "a": "Michael Wolgemut",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: La peste nera (Yersinia pestis) colpì l’Europa nel 1347–1351 (Britannica); considerando anche Asia occidentale e Nord Africa l’arco è circa 1346–1353 (World History Encyclopedia). Arrivò a Caffa, in Crimea, e da lì per mare nel Mediterraneo; morì forse tra il 30 e il 50% della popolazione europea. Punto sulla mappa spostato su Caffa.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-zheng-he",
@@ -12389,9 +12503,10 @@
    ],
    "summary": "La stampa tipografica europea accelera la riproduzione e circolazione dei testi, innestandosi su precedenti tecnologie asiatiche.",
    "source_ids": [
-    "src-worldhistory-science"
+    "src-v-encyclopaedia-britannica-publishing-the-age-of-e",
+    "src-v-encyclopaedia-britannica-johannes-gutenberg-summ"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 1,
    "world_area": "EU",
@@ -12414,7 +12529,16 @@
      "a": "Gemena",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.0,
+    "longitude": 8.27,
+    "label": "Magonza · bottega di Gutenberg",
+    "precision": "representative_anchor"
+   },
+   "notes": "Verificata il 23/11/2026: Gutenberg sperimentava la stampa a Magonza dal 1438; la Bibbia a 42 linee fu completata entro il 1455. I libri stampati fino al 1500 sono gli incunaboli: in 50 anni in Europa si superarono i 9 milioni di copie. Aggiunto il punto sulla mappa a Magonza. Non verificato sulle fonti: il legame con le precedenti tecniche asiatiche (caratteri mobili in Cina dall’XI secolo, verificato nella voce sui Song, non in queste fonti).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-1492",
@@ -12789,8 +12913,8 @@
    "event_type": "political",
    "start_year": 1789,
    "end_year": 1799,
-   "date_precision": "approximate",
-   "date_confidence": "medium",
+   "date_precision": "range",
+   "date_confidence": "high",
    "place_id": null,
    "region": "Europa",
    "related_entity_ids": [
@@ -12798,9 +12922,10 @@
    ],
    "summary": "La crisi della monarchia francese produce trasformazioni istituzionali e politiche con ripercussioni internazionali.",
    "source_ids": [
-    "src-cfr-world-history"
+    "src-v-encyclopaedia-britannica-french-revolution",
+    "src-v-world-history-encyclopedia-french-revolution"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "subregion": "Francia",
    "map_geometry": {
     "type": "point",
@@ -12831,7 +12956,9 @@
      "a": "Jean-Pierre Houël",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Britannica fa partire la crisi rivoluzionaria dal 1787 (assemblea dei notabili), con il primo culmine nel 1789; l’atlante usa l’intervallo più comune, dagli Stati generali del 1789 al colpo di Stato di Napoleone del 18 brumaio 1799. Confermati la fine della monarchia, la prima Repubblica, le guerre rivoluzionarie e il Terrore.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-darwin-origin",
@@ -21131,10 +21258,7 @@
     "culture-chavin",
     "culture-wari",
     "culture-chimu",
-    "civilization-maurya",
     "civilization-inca",
-    "religion-buddhism",
-    "event-buddha",
     "event-ashoka-edicts",
     "event-1533-inca"
    ],
@@ -21149,8 +21273,7 @@
    "supports": [
     "culture-caral",
     "culture-paracas",
-    "culture-chimu",
-    "civilization-inca"
+    "culture-chimu"
    ],
    "notes": "Quadro introduttivo delle sequenze culturali peruviane; fonte istituzionale di sintesi, da integrare con archeologia specialistica per cronologie locali."
   },
@@ -21286,9 +21409,6 @@
    "source_type": "university_educational_resource",
    "supports": [
     "civilization-gupta",
-    "civilization-abbasid",
-    "movement-scientific-revolution",
-    "movement-industrialization",
     "event-house-wisdom",
     "event-copernicus",
     "event-galileo",
@@ -21308,36 +21428,20 @@
    "url": "https://www.cfr.org/education/learn/timelines/essential-events-1900",
    "source_type": "expert_educational_timeline",
    "supports": [
-    "civilization-han",
-    "civilization-byzantine",
-    "civilization-mali",
-    "civilization-ottoman",
-    "civilization-ming",
-    "civilization-mughal",
-    "civilization-qing",
-    "movement-silk-road",
     "movement-transsaharan",
-    "religion-christianity",
-    "religion-islam",
-    "movement-decolonization",
-    "civilization-rome",
     "civilization-aksum",
     "civilization-great-zimbabwe",
     "civilization-songhai",
     "civilization-safavid",
     "civilization-japan-shogunate",
     "civilization-haudenosaunee",
-    "event-world-war-one",
-    "event-world-war-two",
     "event-constantinople-found",
     "event-western-rome-end",
     "event-hijra",
     "event-baghdad-founded",
     "event-mali-mansa",
-    "event-black-death",
     "event-zheng-he",
     "event-1492",
-    "event-french-revolution",
     "event-meiji",
     "event-berlin-wall"
    ],
@@ -21380,15 +21484,8 @@
    "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=1781",
    "source_type": "university_educational_resource",
    "supports": [
-    "state-achaemenid",
-    "civilization-shang",
-    "civilization-zhou",
-    "civilization-aztec",
-    "civilization-rome",
     "event-shang-oracle",
-    "event-confucius",
     "event-persian-wars",
-    "event-alexander-campaigns",
     "event-pompeii",
     "event-1521-tenochtitlan"
    ],
@@ -21401,15 +21498,12 @@
    "url": "https://worldhistoryproject.app/en/science",
    "source_type": "curated_global_timeline",
    "supports": [
-    "civilization-indus",
-    "civilization-song",
     "invention-paper",
     "invention-printing-eastasia",
     "invention-compass",
     "invention-gunpowder",
     "event-paper-cai-lun",
-    "event-song-print",
-    "event-gutenberg"
+    "event-song-print"
    ],
    "notes": "Cronologia comparata di tecniche e invenzioni in diverse aree del mondo; date preistoriche indicative."
   },
@@ -28261,6 +28355,699 @@
     "event-diriyah-pact"
    ],
    "notes": "Fonte specifica usata nella verifica del 21/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-list-of-dynasties-of-an",
+   "institution": "Encyclopaedia Britannica",
+   "title": "List of dynasties of ancient Egypt",
+   "url": "https://www.britannica.com/topic/list-of-dynasties-of-ancient-Egypt",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-ancient-egypt"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministero-del-turismo-e-delle-antichita-degitto",
+   "institution": "Ministero del Turismo e delle Antichità d’Egitto",
+   "title": "Early Dynastic Period",
+   "url": "https://egymonuments.gov.eg/historical-periods/early-dynastic-period/",
+   "source_type": "institutional_document",
+   "supports": [
+    "state-ancient-egypt"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-india-the-indus-civiliz",
+   "institution": "Encyclopaedia Britannica",
+   "title": "India: The Indus civilization",
+   "url": "https://www.britannica.com/place/India/The-Indus-civilization",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-indus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-shang-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Shang dynasty",
+   "url": "https://www.britannica.com/topic/Shang-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-shang"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-stanford-program-on-international-and-cross-cult",
+   "institution": "Stanford Program on International and Cross-Cultural Education (SPICE)",
+   "title": "The Shang Dynasty, 1600 to 1050 BCE",
+   "url": "https://spice.fsi.stanford.edu/docs/117",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-shang"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-zhou-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Zhou dynasty",
+   "url": "https://www.britannica.com/topic/Zhou-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-zhou"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-confucius",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Confucius",
+   "url": "https://www.britannica.com/biography/Confucius",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-confucius"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-roman-republic",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Roman Republic",
+   "url": "https://www.britannica.com/place/Roman-Republic",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-rome"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ancient-rome-at-a-glanc",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ancient Rome: At a Glance",
+   "url": "https://www.britannica.com/topic/Ancient-Rome-At-a-Glance-2237745",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-rome"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-the-achaemenid-pe",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "The Achaemenid Persian Empire (550–330 B.C.)",
+   "url": "https://www.metmuseum.org/essays/the-achaemenid-persian-empire-550-330-b-c",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-achaemenid"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-penn-museum-expedition-magazine-who-were-the-may",
+   "institution": "Penn Museum · Expedition Magazine (R. Sharer, 2012)",
+   "title": "Who Were the Maya?",
+   "url": "https://www.penn.museum/sites/expedition/?p=13991",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-maya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-buddhism",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Buddhism",
+   "url": "https://www.britannica.com/topic/Buddhism",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-buddhism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-buddhism-historical-dev",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Buddhism: Historical development",
+   "url": "https://www.britannica.com/topic/Buddhism/Historical-development",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-buddhism"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-buddha-founder-of-buddh",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Buddha (founder of Buddhism)",
+   "url": "https://www.britannica.com/biography/Buddha-founder-of-Buddhism",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-buddha"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-dates-of-the-budd",
+   "institution": "World History Encyclopedia (J. J. Mark)",
+   "title": "The Dates of the Buddha",
+   "url": "https://www.worldhistory.org/article/493/the-dates-of-the-buddha/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-buddha"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-alexander-the-great",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Alexander the Great",
+   "url": "https://www.britannica.com/biography/Alexander-the-Great",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-alexander-campaigns"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mauryan-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mauryan empire",
+   "url": "https://www.britannica.com/place/Mauryan-Empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-maurya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-mauryan-empire-ca",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Mauryan Empire (ca. 323–185 B.C.)",
+   "url": "https://www.metmuseum.org/essays/mauryan-empire-ca-323-185-b-c",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "civilization-maurya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-han-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Han dynasty",
+   "url": "https://www.britannica.com/topic/Han-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-han"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-han-dynasty-206-b",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "Han Dynasty (206 B.C.–220 A.D.)",
+   "url": "https://www.metmuseum.org/essays/han-dynasty-206-b-c-220-a-d",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "civilization-han"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-silk-road",
+   "institution": "World History Encyclopedia (J. J. Mark)",
+   "title": "Silk Road",
+   "url": "https://www.worldhistory.org/Silk_Road/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-silk-road"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-byzantine-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Byzantine Empire",
+   "url": "https://www.britannica.com/place/Byzantine-Empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-byzantine"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-byzantine-empire",
+   "institution": "World History Encyclopedia",
+   "title": "Byzantine Empire",
+   "url": "https://www.worldhistory.org/Byzantine_Empire/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-byzantine"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-early-christianity",
+   "institution": "World History Encyclopedia (R. Denova)",
+   "title": "Early Christianity",
+   "url": "https://www.worldhistory.org/article/1205/early-christianity/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-christianity"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-christianity",
+   "institution": "World History Encyclopedia (R. Denova)",
+   "title": "Christianity",
+   "url": "https://www.worldhistory.org/Christianity/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-christianity"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-metropolitan-museum-of-art-the-birth-of-isla",
+   "institution": "The Metropolitan Museum of Art",
+   "title": "The Birth of Islam",
+   "url": "https://www.metmuseum.org/toah/hd/isla/hd_isla.htm",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "religion-islam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-muhammad-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Muhammad (summary)",
+   "url": "https://www.britannica.com/summary/Muhammad",
+   "source_type": "encyclopedia",
+   "supports": [
+    "religion-islam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-abbasid-caliphate",
+   "institution": "Encyclopaedia Britannica",
+   "title": "ʿAbbasid caliphate",
+   "url": "https://www.britannica.com/topic/Abbasid-caliphate",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-abbasid"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-smarthistory-the-abbasids-7501258",
+   "institution": "Smarthistory",
+   "title": "The Abbasids (750–1258)",
+   "url": "https://smarthistory.org/?p=62036",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "civilization-abbasid"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-song-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Song dynasty",
+   "url": "https://www.britannica.com/topic/Song-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-song"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-song-dynasty",
+   "institution": "World History Encyclopedia (M. Cartwright)",
+   "title": "Song Dynasty",
+   "url": "https://www.worldhistory.org/Song_Dynasty/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-song"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-inca-history",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Inca: History",
+   "url": "https://www.britannica.com/topic/Inca/History",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-inca"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-peru-history",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Peru: History",
+   "url": "https://www.britannica.com/place/Peru/History",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-inca"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mali-historical-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mali (historical empire, Africa)",
+   "url": "https://www.britannica.com/place/Mali-historical-empire-Africa",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-mali"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-mali-empire",
+   "institution": "World History Encyclopedia (M. Cartwright)",
+   "title": "Mali Empire",
+   "url": "https://www.worldhistory.org/Mali_Empire/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-mali"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ottoman-empire",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ottoman Empire",
+   "url": "https://www.britannica.com/place/Ottoman-Empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-ottoman"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ottoman-empire-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ottoman Empire (summary)",
+   "url": "https://www.britannica.com/summary/Ottoman-Empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-ottoman"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-tenochtitlan",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Tenochtitlán",
+   "url": "https://www.britannica.com/place/Tenochtitlan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-aztec"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-aztec-establishment-of",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Aztec: Establishment of the Aztec empire",
+   "url": "https://www.britannica.com/topic/Aztec/Establishment-of-the-Aztec-empire",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-aztec"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-black-death",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Black Death",
+   "url": "https://www.britannica.com/event/Black-Death",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-black-death"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-map-of-the-spread-of",
+   "institution": "World History Encyclopedia (S. Netchev)",
+   "title": "Map of the Spread of the Black Death, c. 1346–1353",
+   "url": "https://www.worldhistory.org/collection/215/10-maps-on-european-history/2/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-black-death"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ming-dynasty-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ming dynasty (summary)",
+   "url": "https://www.britannica.com/summary/Ming-dynasty-Chinese-history",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-ming"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-ming-dynasty",
+   "institution": "World History Encyclopedia",
+   "title": "Ming Dynasty",
+   "url": "https://www.worldhistory.org/Ming_Dynasty/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-ming"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-publishing-the-age-of-e",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Publishing: The age of early printing, 1450–1550",
+   "url": "https://www.britannica.com/topic/publishing/The-age-of-early-printing-1450-1550",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gutenberg"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-johannes-gutenberg-summ",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Johannes Gutenberg (summary)",
+   "url": "https://www.britannica.com/summary/Johannes-Gutenberg",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gutenberg"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mughal-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mughal dynasty",
+   "url": "https://www.britannica.com/topic/Mughal-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-mughal"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mughal-dynasty-timeline",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mughal Dynasty Timeline",
+   "url": "https://www.britannica.com/summary/Mughal-Dynasty-Timeline",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-mughal"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-scientific-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Scientific Revolution",
+   "url": "https://www.britannica.com/science/Scientific-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-scientific-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-science-newt",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of science: Newton",
+   "url": "https://www.britannica.com/science/history-of-science/Newton",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-scientific-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-qing-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Qing dynasty",
+   "url": "https://www.britannica.com/topic/Qing-dynasty",
+   "source_type": "encyclopedia",
+   "supports": [
+    "civilization-qing"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-industrial-revolution-t",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Industrial Revolution: The first Industrial Revolution",
+   "url": "https://www.britannica.com/event/Industrial-Revolution/The-first-Industrial-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-industrialization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-industrial-revolution-k",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Industrial Revolution Key Facts",
+   "url": "https://www.britannica.com/summary/Industrial-Revolution-Key-Facts",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-industrialization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-french-revolution",
+   "institution": "Encyclopaedia Britannica",
+   "title": "French Revolution",
+   "url": "https://www.britannica.com/event/French-Revolution",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-french-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-french-revolution",
+   "institution": "World History Encyclopedia (H. W. Mark)",
+   "title": "French Revolution",
+   "url": "https://www.worldhistory.org/French_Revolution/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-french-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-world-war-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "World War I",
+   "url": "https://www.britannica.com/event/World-War-I",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-world-war-one"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-world-war-i-19141918-sp",
+   "institution": "Encyclopaedia Britannica",
+   "title": "World War I 1914–1918 (special feature)",
+   "url": "https://www.britannica.com/discover/World-War-I",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-world-war-one"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-map-of-europe-at-the",
+   "institution": "World History Encyclopedia (S. Netchev)",
+   "title": "Map of Europe at the End of WW I, 1918",
+   "url": "https://www.worldhistory.org/collection/319/10-maps-of-world-war-i/7/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-world-war-one"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-world-war-ii",
+   "institution": "Encyclopaedia Britannica",
+   "title": "World War II",
+   "url": "https://www.britannica.com/event/World-War-II",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-world-war-two"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-imperial-war-museums-vj-day-and-the-end-of-the-s",
+   "institution": "Imperial War Museums",
+   "title": "VJ Day and the end of the Second World War",
+   "url": "https://www.iwm.org.uk/history/second-world-war/victory/vj-day-and-the-end-of-the-second-world-war",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-world-war-two"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-imperial-war-museums-victory",
+   "institution": "Imperial War Museums",
+   "title": "Victory",
+   "url": "https://www.iwm.org.uk/history/victory",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-world-war-two"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-decolonization-global-issues",
+   "institution": "Nazioni Unite",
+   "title": "Decolonization (Global Issues)",
+   "url": "https://www.un.org/en/global-issues/decolonization",
+   "source_type": "institutional_document",
+   "supports": [
+    "movement-decolonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-the-united-nations-and-decolonizat",
+   "institution": "Nazioni Unite",
+   "title": "The United Nations and Decolonization: about",
+   "url": "https://www.un.org/dppa/decolonization/about",
+   "source_type": "institutional_document",
+   "supports": [
+    "movement-decolonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-international-trusteeship-system",
+   "institution": "Nazioni Unite",
+   "title": "International Trusteeship System",
+   "url": "https://www.un.org/dppa/decolonization/en/node/673",
+   "source_type": "institutional_document",
+   "supports": [
+    "movement-decolonization"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   }
  ],
  "editorial_notes": [
@@ -28274,7 +29061,8 @@
   "v0.49: unite 27 voci doppie (le vecchie voci evento delle grandi civiltà e dei grandi eventi); i collegamenti sono stati reindirizzati.",
   "v0.50: verificate su fonti specifiche (Britannica, World History Encyclopedia, Metropolitan Museum, UNESCO, ONU, OMS, musei e articoli scientifici) le 86 voci di base con rilevanza 1. Stato «source-checked»; le correzioni sono indicate nella nota della voce.",
   "v0.51: verificate sulle fonti le 176 voci di base con rilevanza 2 (registro in tools/verifica/registro_v051_rilevanza2.json); 29 voci corrette, 26 con dettagli segnalati come non verificati.",
-  "v0.55: verificati su fonti specifiche i 20 eventi con anno esatto che avevano affidabilità media (registro in tools/verifica/registro_v055_anni_esatti.json); 17 passati ad affidabilità alta, 3 lasciati a media perché la data è tradizionale o discussa (Qarawiyyin, Cai Lun, patto di Diriyah)."
+  "v0.55: verificati su fonti specifiche i 20 eventi con anno esatto che avevano affidabilità media (registro in tools/verifica/registro_v055_anni_esatti.json); 17 passati ad affidabilità alta, 3 lasciati a media perché la data è tradizionale o discussa (Qarawiyyin, Cai Lun, patto di Diriyah).",
+  "v0.62 (23 novembre 2026): verificate con fonti specifiche le 34 voci di rilevanza 1 che non lo erano ancora; tolte le fonti generiche iniziali dove sostituite."
  ],
  "technology_domains": [
   {

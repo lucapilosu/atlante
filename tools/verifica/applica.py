@@ -60,7 +60,9 @@ for r in R:
                      notes=f'Fonte specifica usata nella verifica del {data_it(giorno)}.')
             S.append(s); per_url[u] = s; ids_fonti.add(sid); nuove += 1
         fonti.append(s['id'])
-    vecchie = [s for s in x.get('source_ids') or [] if s not in GENERALI]
+    # v0.62: con almeno una fonte specifica nuova si tolgono anche le fonti generiche del pacchetto iniziale (elenchi e corsi non legati alla voce); «togli» rimuove altre fonti indicate
+    DEBOLI = {'src-cfr-world-history', 'src-openlearn-classical', 'src-worldhistory-science', 'src-ou-science-history'} if fonti else set()
+    vecchie = [s for s in x.get('source_ids') or [] if s not in GENERALI and s not in DEBOLI and s not in set(r.get('togli') or [])]
     if r.get('sostituisci_unesco_lista'):
         vecchie = [s for s in vecchie if s != LISTA]
     x['source_ids'] = list(dict.fromkeys(fonti + vecchie))
