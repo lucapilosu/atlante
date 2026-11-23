@@ -1,0 +1,728 @@
+[
+ {
+  "id": "culture-botai",
+  "fonti": [
+   {
+    "institution": "Science (Gaunitz et al., 2018)",
+    "title": "Ancient genomes revisit the ancestry of domestic and Przewalski’s horses",
+    "url": "https://www.science.org/doi/10.1126/science.aao3297"
+   },
+   {
+    "institution": "Scientific Reports (2021)",
+    "title": "Rethinking the evidence for early horse domestication at Botai",
+    "url": "https://www.nature.com/articles/s41598-021-86832-9"
+   },
+   {
+    "institution": "Nature (2024)",
+    "title": "Widespread horse-based mobility arose around 2200 bce in Eurasia",
+    "url": "https://www.nature.com/articles/s41586-024-07597-5"
+   }
+  ],
+  "nota": "La cultura eneolitica di Botai, nel Kazakistan settentrionale, dà le prime tracce archeologiche di gestione dei cavalli, circa 5500 anni fa; i suoi cavalli però sono antenati dei cavalli di Przewalski, non di quelli domestici moderni (Science 2018), e questo ha riaperto il dibattito (Scientific Reports 2021). Uno studio del 2024 trova intorno al 3500 a.C. generazioni più brevi, compatibili con un allevamento locale (Nature). Datazione confermata come discussa.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-ulugh-beg-observatory",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ulūgh Beg",
+    "url": "https://www.britannica.com/biography/Ulugh-Beg"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Star catalog",
+    "url": "https://www.britannica.com/science/star-catalog"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Astronomical observatory",
+    "url": "https://www.britannica.com/science/astronomical-observatory"
+   }
+  ],
+  "nota": "Britannica fa risalire l’osservatorio di Samarcanda al 1420 circa (la biografia dice «iniziato nel 1428»); vi Ulugh Beg compilò tra il 1420 e il 1437 un catalogo stellare con un grande quadrante, l’osservatorio islamico più produttivo. Ulugh Beg morì il 27 ottobre 1449, ucciso per ordine del figlio.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-bukhara-khanate",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bukhara",
+    "url": "https://www.britannica.com/place/Bukhara"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Uzbekistan: The early Uzbeks",
+    "url": "https://www.britannica.com/place/Uzbekistan/The-early-Uzbeks"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ashtarkhanid dynasty",
+    "url": "https://www.britannica.com/topic/Ashtarkhanid-dynasty"
+   }
+  ],
+  "nota": "Muḥammad Shaybānī (regno 1500–10) caccia i Timuridi; Bukhara è conquistata nel 1506 e dalla metà del Cinquecento è capitale del khanato; agli Shaybanidi seguono gli Astrakhanidi (1599–1785) e poi i Mangit, con l’emiro Shah Murad dal 1785 (Britannica). La fine nel 1785 segna il cambio di dinastia: lo Stato continuò come emirato, protettorato russo dal 1868, fino al 1920. Tolto l’elenco UNESCO generico.",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-shang-oracle",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Shang Dynasty",
+    "url": "https://www.worldhistory.org/Shang_Dynasty/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Late Shang",
+    "url": "https://www.britannica.com/topic/Late-Shang"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yinxu",
+    "url": "https://www.britannica.com/place/Yinxu"
+   }
+  ],
+  "nota": "Verso il 1250 a.C. la scrittura cinese compare in forma riconoscibile sulle ossa oracolari di Anyang (World History Encyclopedia); il tardo periodo Shang va dal 1250 circa al 1046 a.C. (Britannica). A Yinxu, ultima capitale Shang presso Anyang, sono state trovate migliaia di ossa con la più antica scrittura cinese nota. Aggiunto il punto sulla mappa ad Anyang.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 36.1,
+    "longitude": 114.35,
+    "label": "Anyang (Yinxu) · ultima capitale Shang",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-first-sino-japanese-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "First Sino-Japanese War",
+    "url": "https://www.britannica.com/event/First-Sino-Japanese-War-1894-1895"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Treaty of Shimonoseki",
+    "url": "https://www.britannica.com/event/Treaty-of-Shimonoseki"
+   }
+  ],
+  "nota": "Confermati 1894–1895: guerra dichiarata il 1° agosto 1894, rapide vittorie giapponesi per terra e per mare; con il Trattato di Shimonoseki del 17 aprile 1895 la Cina riconosce l’indipendenza della Corea e cede Taiwan, le Pescadores e la penisola del Liaodong, che il Giappone dovrà restituire dopo il Triplice intervento di Russia, Francia e Germania (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-ashoka-edicts",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Edicts of Ashoka the Great",
+    "url": "https://www.worldhistory.org/Edicts_of_Ashoka/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Epigraphy: Ancient India",
+    "url": "https://www.britannica.com/topic/epigraphy/Ancient-Iran"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Lumbini",
+    "url": "https://www.worldhistory.org/Lumbini/"
+   }
+  ],
+  "nota": "Iscrizioni di Ashoka (regno 268–232 a.C.) su pilastri, rocce e pareti di grotte, in gran parte in pracrito e scrittura brahmi, diffuse dall’Afghanistan al Bangladesh: invitano al dhamma, la «retta condotta» (World History Encyclopedia; Britannica conta 14 editti su roccia e 7 su pilastro). L’inizio nel 260 a.C. segue la conversione dopo la guerra del Kalinga; nel 249 a.C. Ashoka eresse il pilastro di Lumbini. Tolta una fonte fuori tema (mostra sulla strada inca); aggiunto il punto sulla mappa a Lumbini.",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 27.47,
+    "longitude": 83.28,
+    "label": "Lumbini · pilastro di Ashoka, 249 a.C.",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-indian-national-congress",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indian National Congress",
+    "url": "https://www.britannica.com/topic/Indian-National-Congress"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "India: Indian nationalism and the British response, 1885–1920",
+    "url": "https://www.britannica.com/place/India/Indian-nationalism-and-the-British-response-1885-1920"
+   }
+  ],
+  "nota": "Confermato: la prima sessione del Congresso nazionale indiano si riunisce a Bombay il 28 dicembre 1885, promossa da Allan Octavian Hume con Dadabhai Naoroji e Surendranath Banerjee; il partito guiderà il movimento per l’indipendenza (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-song-print",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "China: Song culture",
+    "url": "https://www.britannica.com/place/China/Song-culture"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Song dynasty (summary)",
+    "url": "https://www.britannica.com/summary/Song-dynasty"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese literature: Song dynasty (960–1279)",
+    "url": "https://www.britannica.com/art/Chinese-literature/Song-dynasty-960-1279"
+   }
+  ],
+  "nota": "Sotto i Song (960–1279) la stampa passa dalla xilografia ai caratteri mobili, con produzione più ampia e meno costosa; la diffusione della stampa allarga l’alfabetizzazione e l’élite che affronta gli esami di Stato, insieme alle scuole pubbliche istituite dal 1044 (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-bangladesh-independence",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bangladesh: The Pakistani period (1947–71)",
+    "url": "https://www.britannica.com/place/Bangladesh/The-Pakistani-period-1947-71"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "1971 India-Pakistan War",
+    "url": "https://www.britannica.com/event/1971-India-Pakistan-War"
+   }
+  ],
+  "nota": "Confermato: dopo la vittoria della Lega Awami alle elezioni del 1970, il 25 marzo 1971 l’esercito pakistano attacca il Pakistan orientale; l’India entra in guerra il 3 dicembre e il 16 dicembre le forze pakistane si arrendono a Dacca, data dell’indipendenza del Bangladesh (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-nabta-playa",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre (lista provvisoria)",
+    "title": "Kharga Oasis and the Small Southern Oases",
+    "url": "https://whc.unesco.org/en/tentativelists/6067/"
+   }
+  ],
+  "nota": "Nabta Playa ha insediamenti di cacciatori-raccoglitori di circa 11.000 anni fa e strutture megalitiche, ovali di grandi blocchi di arenaria, costruite tra il 4600 e il 3400 a.C. (UNESCO, lista provvisoria). Datazione confermata come discussa.",
+  "parziale": "gli allineamenti legati al calendario e i pastori di bovini (non controllati in questa fonte).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "period-egypt-predynastic",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Naqādah",
+    "url": "https://www.britannica.com/place/Naqadah"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Gerzean culture",
+    "url": "https://www.britannica.com/topic/Gerzean-culture"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Hair Comb Decorated with Rows of Wild Animals (Late Naqada III)",
+    "url": "https://www.metmuseum.org/art/collection/search/544067"
+   }
+  ],
+  "nota": "Naqada è il sito eponimo del periodo predinastico, prima del 2925 a.C. circa; le fasi sono Amraziano (Naqada I) e Gerzeano (Naqada II, circa 3400–3100 a.C.) (Britannica); il Met data Naqada III circa 3300–3100 a.C. e oggetti del tardo Naqada I–II al 4500–4000 a.C.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-numidia",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Numidia (summary)",
+    "url": "https://www.britannica.com/summary/Numidia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "North Africa: The rise and decline of native kingdoms",
+    "url": "https://www.britannica.com/place/North-Africa/The-Greeks-in-Cyrenaica"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Jugurtha",
+    "url": "https://www.worldhistory.org/Jugurtha/"
+   }
+  ],
+  "nota": "Confermati: Masinissa, alleato di Roma dal 206 a.C., diventa re di Numidia dopo la vittoria romana sui Cartaginesi; il regno cade nel 46 a.C. a Tapso, dopo che Giuba I si era schierato con Pompeo, e diventa provincia romana (Britannica). Giugurta, nipote di Masinissa, regna dal 118 al 105 a.C. (World History Encyclopedia).",
+  "correzioni": {
+   "date_confidence": "high"
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-suez-crisis",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Suez Crisis",
+    "url": "https://www.britannica.com/event/Suez-Crisis"
+   },
+   {
+    "institution": "U.S. Department of State · Office of the Historian",
+    "title": "The Suez Crisis, 1956",
+    "url": "https://history.state.gov/milestones/1953-1960/suez"
+   }
+  ],
+  "nota": "Confermato: il 26 luglio 1956 Nasser nazionalizza la Compagnia del canale di Suez, controllata da interessi britannici e francesi, anche per finanziare la diga di Assuan; la crisi dura fino al marzo 1957 (Britannica, Office of the Historian). Britannica ricorda la minaccia sovietica contro le truppe britanniche, francesi e israeliane.",
+  "parziale": "il ruolo degli Stati Uniti nel fermare l’intervento (non letto negli estratti consultati).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-opec",
+  "fonti": [
+   {
+    "institution": "OPEC",
+    "title": "Brief History",
+    "url": "https://www.opec.org/brief-history.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "OPEC",
+    "url": "https://www.britannica.com/money/OPEC"
+   }
+  ],
+  "nota": "Confermato: l’OPEC nasce alla Conferenza di Baghdad del 10–14 settembre 1960, fondata da Iran, Iraq, Kuwait, Arabia Saudita e Venezuela, e viene costituita formalmente nel gennaio 1961 (OPEC, Britannica). Lo scopo dichiarato era impedire alle grandi compagnie concessionarie di abbassare il prezzo del petrolio (Britannica).",
+  "parziale": "il peso nelle crisi petrolifere degli anni Settanta (non letto negli estratti consultati).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-young-turks",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Young Turk Revolution",
+    "url": "https://www.britannica.com/topic/Young-Turk-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ottoman Empire: The Young Turk Revolution of 1908",
+    "url": "https://www.britannica.com/place/Ottoman-Empire/Rule-of-Abdulhamid-II"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Abdülhamid II",
+    "url": "https://www.britannica.com/biography/Abdulhamid-II"
+   }
+  ],
+  "nota": "Confermato: la rivolta parte il 3 luglio 1908 dal Terzo corpo d’armata in Macedonia; il 23–24 luglio Abdülhamid II ripristina la costituzione del 1876 e richiama il parlamento. Dopo la controrivoluzione dell’aprile 1909 il sultano viene deposto e sostituito dal fratello Mehmed V (Britannica). Britannica precisa che i Giovani Turchi non presero direttamente il potere per alcuni anni.",
+  "correzioni": {
+   "summary": "Ufficiali riformisti costringono il sultano a ripristinare la costituzione ottomana; nel 1909 Abdülhamid II viene deposto."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-isfahan-shah-abbas",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iran: Shah Abbas I",
+    "url": "https://www.britannica.com/place/Iran/Shah-Abbas-I"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Abbas I",
+    "url": "https://www.britannica.com/biography/Abbas-I-Safavid-shah-of-Persia"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Meidan Emam, Esfahan",
+    "url": "https://whc.unesco.org/en/list/115/"
+   }
+  ],
+  "nota": "Confermato: dopo aver eliminato la minaccia uzbeka nel 1598–99, Abbas I (regno 1588–1629) sposta la capitale da Qazvin a Isfahan, più centrale e meglio collegata al Golfo Persico; al centro crea la grande piazza Naqsh-e Jahan (Meidan Emam, patrimonio UNESCO dal 1979) e trasferisce a Nuova Giulfa una colonia di mercanti armeni (Britannica, UNESCO).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-jericho-neolithic",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Ancient Jericho/Tell es-Sultan",
+    "url": "https://whc.unesco.org/en/list/1687/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Walls of Jericho",
+    "url": "https://www.britannica.com/place/walls-of-Jericho"
+   }
+  ],
+  "nota": "Confermato: tra IX e VIII millennio a.C. Tell es-Sultan è già un insediamento permanente consistente, con un muro con fossato e una torre (UNESCO, patrimonio dal 2023); i depositi di attività umana risalgono a circa il 10.500 a.C. Britannica data le mura a circa l’8000 a.C.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-barbary-regencies",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "North Africa: Ottoman rule in the Maghrib",
+    "url": "https://www.britannica.com/place/North-Africa/Political-fragmentation-and-the-triumph-of-Islamic-culture-c-1250-c-1500"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Barbary pirate",
+    "url": "https://www.britannica.com/topic/Barbary-pirate"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "North Africa: North Africa after 1830",
+    "url": "https://www.britannica.com/place/North-Africa/North-Africa-after-1830"
+   }
+  ],
+  "nota": "Confermati: nel 1516 i corsari ʿArūj e Khayr al-Dīn Barbarossa occupano Algeri, prima terra del Maghreb a passare sotto gli Ottomani; la reggenza di Algeri, governata da Istanbul, diventa dal 1689 una sorta di repubblica militare (Britannica). I corsari barbareschi sono al massimo della potenza nel XVII secolo. Nel 1830 la presa francese di Algeri apre la colonizzazione europea (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "invention-ounjougou-pottery",
+  "fonti": [
+   {
+    "institution": "Antiquity · Université de Genève (archivio aperto)",
+    "title": "Huysecom et al. 2009, The emergence of pottery in Africa during the tenth millennium cal BC: new evidence from Ounjougou (Mali)",
+    "url": "https://archive-ouverte.unige.ch/unige:12635"
+   }
+  ],
+  "nota": "Gli scavi a Ounjougou (Mali) hanno restituito ceramica e strumenti litici anteriori al 9400 a.C. calibrato, cioè del X millennio a.C., in una fase calda e umida del Sahara; accanto ci sono piccole punte di freccia bifacciali, e i semi di graminacee selvatiche venivano probabilmente bolliti (Huysecom et al., Antiquity 2009). Date corrette da 9400–9000 a.C. a 10.000–9400 a.C.; tolta la definizione «cacciatori-raccoglitori», che la fonte non usa.",
+  "correzioni": {
+   "start_year": -10000,
+   "end_year": -9400,
+   "summary": "Frammenti di ceramica tra i più antichi dell’Africa, anteriori al 9400 a.C.: probabilmente servivano a bollire semi di graminacee selvatiche, in una fase umida del Sahara."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-african-union",
+  "fonti": [
+   {
+    "institution": "African Union",
+    "title": "OAU at 60 · Member States",
+    "url": "https://oau60.au.int/en/member-states"
+   },
+   {
+    "institution": "African Union",
+    "title": "About the African Union",
+    "url": "https://au.int/en/overview"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "African Union",
+    "url": "https://www.britannica.com/topic/African-Union"
+   }
+  ],
+  "nota": "Confermato: il 25 maggio 1963 ad Addis Abeba i 32 stati africani allora indipendenti fondano l’Organizzazione dell’unità africana; nel luglio 2002, a Durban, nasce l’Unione africana che la sostituisce, con sede ad Addis Abeba (Unione africana, Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "movement-jesuits-global",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jesuit",
+    "url": "https://www.britannica.com/topic/Jesuits"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Clement XIV",
+    "url": "https://www.britannica.com/biography/Clement-XIV"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Roman Catholicism: Missions in Asia",
+    "url": "https://www.britannica.com/topic/Roman-Catholicism/Roman-Catholicism-in-the-United-States-and-Canada"
+   }
+  ],
+  "nota": "Confermato: la Compagnia di Gesù, fondata da Ignazio di Loyola a Parigi nel 1534, è approvata da Paolo III nel 1540; il 21 luglio 1773 Clemente XIV la scioglie con il breve Dominus ac Redemptor (Britannica). Francesco Saverio, tra i primi compagni, predica in India e Giappone. Britannica nota che la soppressione tolse di scena i missionari cattolici più attivi in Asia.",
+  "parziale": "le missioni in Paraguay (non lette negli estratti consultati).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-calakmul",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre · ICOMOS",
+    "title": "Calakmul (Mexico) No 1061 · valutazione ICOMOS",
+    "url": "https://whc.unesco.org/document/151648"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Decision 38 COM 8B.16 Ancient Maya City and Protected Tropical Forests of Calakmul, Campeche",
+    "url": "https://whc.unesco.org/en/decisions/6102/"
+   }
+  ],
+  "nota": "Confermato: Calakmul, nella foresta tropicale delle Tierras Bajas del Messico meridionale, ha avuto un ruolo chiave per più di dodici secoli a partire dal IV secolo a.C.; fu una delle due città dominanti del cuore del mondo maya, l’altra era Tikal, con cui fu in guerra quasi continua (valutazione ICOMOS). Dal 2014 il sito è un bene misto UNESCO esteso alle foreste protette.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-uxmal",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Pre-Hispanic Town of Uxmal",
+    "url": "https://whc.unesco.org/en/list/791/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Uxmal",
+    "url": "https://www.britannica.com/place/Uxmal"
+   }
+  ],
+  "nota": "Uxmal fu fondata verso il 700 e arrivò a circa 25.000 abitanti; i suoi edifici, disposti secondo osservazioni astronomiche, sono del 700–1000 (UNESCO). Britannica la indica come il principale esempio dello stile Puuc; dopo il 1000 le grandi costruzioni cessano e la città viene abbandonata verso il 1450. Inizio corretto dal 500 al 700.",
+  "correzioni": {
+   "start_year": 700
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-toltec",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tula",
+    "url": "https://www.britannica.com/place/Tula-ancient-city-Mexico"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Toltec",
+    "url": "https://www.britannica.com/topic/Toltec"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Tula (zona arqueológica)",
+    "url": "https://lugares.inah.gob.mx/en/node/4360"
+   }
+  ],
+  "nota": "I Toltechi dominarono il Messico centrale dal X al XII secolo; la loro capitale Tollan, presso l’odierna Tula (Hidalgo), fu importante soprattutto dall’850 al 1150 circa e fu distrutta verso la metà del XII secolo (Britannica). L’INAH colloca l’apice di Tula tra il 900 e il 1000 e ne ricorda l’influenza sui Maya della penisola. Date corrette da 650–1200 a 850–1150.",
+  "correzioni": {
+   "start_year": 850,
+   "end_year": 1150
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-mayapan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mayapán",
+    "url": "https://www.britannica.com/place/Mayapan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "League of Mayapán",
+    "url": "https://www.britannica.com/topic/League-of-Mayapan"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Mayapán (zona arqueológica)",
+    "url": "https://lugares.inah.gob.mx/en/node/4439"
+   }
+  ],
+  "nota": "Confermato: città murata dello Yucatán, centro della Lega di Mayapán, potere politico e religioso dominante tra il 1200 e il 1450 circa; la lega si sciolse quando furono rovesciati i signori Cocom e la città fu abbandonata verso il 1450 (Britannica). L’INAH conferma che la capitale fu incendiata e distrutta verso la metà del XV secolo.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "state-purepecha",
+  "fonti": [
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Tzintzuntzan (zona arqueológica)",
+    "url": "https://lugares.inah.gob.mx/en/node/5548"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Museo Regional de Michoacán",
+    "url": "https://lugares.inah.gob.mx/en/node/4248"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Museo de Sitio de Tzintzuntzan",
+    "url": "https://lugares.inah.gob.mx/en/node/4304"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Pátzcuaro",
+    "url": "https://lugares.inah.gob.mx/en/node/4803"
+   }
+  ],
+  "nota": "Confermati: lo stato tarasco (purépecha) nasce e si consolida con il sovrano Tariácuri, nato nell’insediamento trecentesco di Pátzcuaro; la capitale Tzintzuntzan, sul lago di Pátzcuaro, contava circa 30.000 abitanti all’arrivo degli Spagnoli. Lo stato respinse ripetuti tentativi di incursione dei Mexica (Aztechi); gli abitanti erano noti argentieri e orafi. L’ultimo cazonci, Tangáxoan II (1510–1530), fu giustiziato da Nuño de Guzmán (INAH).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "civilization-haudenosaunee",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Haudenosaunee Confederacy",
+    "url": "https://www.britannica.com/topic/Haudenosaunee-Confederacy"
+   },
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Haudenosaunee (Iroquois)",
+    "url": "https://thecanadianencyclopedia.ca/en/article/iroquois"
+   },
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Hiawatha",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/hiawatha"
+   }
+  ],
+  "nota": "Confermati: confederazione di cinque nazioni (Mohawk, Oneida, Onondaga, Cayuga, Seneca), sesta dal 1722 con i Tuscarora, governata dalla Grande Legge della Pace e da un consiglio di 50 capi (Britannica). Il territorio andava dal fiume Genesee all’Hudson, attraverso la regione dei Finger Lakes (Canadian Encyclopedia). La fondazione è discussa: la tradizione riportata da Britannica la colloca tra 1570 e 1600, la Canadian Encyclopedia cita stime dalla metà del XVI secolo fino al 1142 e colloca Hiawatha verso il 1400–1450. Aggiunto un punto di orientamento nella regione dei Finger Lakes; affidabilità della data portata a «discussa».",
+  "correzioni": {
+   "date_confidence": "debated",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 42.75,
+    "longitude": -76.7,
+    "label": "New York settentrionale · dal Genesee all’Hudson",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-st-augustine",
+  "fonti": [
+   {
+    "institution": "U.S. National Park Service",
+    "title": "St. Augustine Town Plan Historic District",
+    "url": "https://www.nps.gov/places/st-augustine-town-plan-historic-district-st-augustine-florida.htm"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "Llambias House, FL",
+    "url": "https://www.nps.gov/places/llambias-house-fl.htm"
+   }
+  ],
+  "nota": "Confermato: l’8 settembre 1565 Pedro Menéndez de Avilés fonda St. Augustine in terra timucua; è il più antico insediamento europeo abitato senza interruzioni negli Stati Uniti continentali e resta la sede del potere spagnolo in Florida nel XVI, XVII e XVIII secolo. Il primo periodo coloniale spagnolo va dal 1565 al 1763 (National Park Service).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-new-amsterdam",
+  "fonti": [
+   {
+    "institution": "U.S. National Park Service",
+    "title": "Colonial and Early American New York",
+    "url": "https://www.nps.gov/elis/learn/historyculture/places_colonial_early_american.htm"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "The Rise and Fall of New Netherland",
+    "url": "https://www.nps.gov/mava/learn/historyculture/new-netherland.htm"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Richard Nicolls",
+    "url": "https://www.britannica.com/biography/Richard-Nicolls"
+   }
+  ],
+  "nota": "Confermato: nel 1625 gli Olandesi fondano Nuova Amsterdam nella punta meridionale di Manhattan; nel 1664 gli Inglesi prendono la Nuova Olanda e la ribattezzano New York (National Park Service). Il direttore generale Peter Stuyvesant si arrende senza combattere; secondo Britannica la resa avviene nel settembre 1664.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-california-gold-rush",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "California Gold Rush",
+    "url": "https://www.britannica.com/event/California-Gold-Rush"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sutter’s Mill",
+    "url": "https://www.britannica.com/place/Sutters-Mill"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "The California Gold Rush",
+    "url": "https://www.nps.gov/cali/learn/historyculture/california-gold-rush.htm"
+   }
+  ],
+  "nota": "Il 24 gennaio 1848 James W. Marshall trova oro alla segheria di John Sutter sull’American River; la corsa all’oro dura dal 1848 al 1859 circa, con il picco nel 1852, e porta in California più di 300.000 persone (Britannica). La corsa affrettò l’ingresso della California tra gli stati (Britannica); il National Park Service la definisce la più grande migrazione volontaria della storia americana. Fine corretta dal 1855 al 1859; sintesi precisata.",
+  "correzioni": {
+   "end_year": 1859,
+   "summary": "La scoperta dell’oro nel 1848 attira in California oltre 300.000 persone, dagli Stati Uniti e dal mondo, e ne affretta l’ingresso tra gli stati dell’Unione."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-canadian-confederation",
+  "fonti": [
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Constitution Act, 1867",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/constitution-act-1867"
+   },
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Confederation",
+    "url": "https://thecanadianencyclopedia.ca/en/article/confederation"
+   },
+   {
+    "institution": "Parks Canada",
+    "title": "Charlottetown and Québec Conferences of 1864 National Historic Event",
+    "url": "https://parks.canada.ca/culture/designation/evenement-event/conferences-charlottetown-quebec"
+   }
+  ],
+  "nota": "Confermato: il British North America Act, approvato dal Parlamento britannico il 29 marzo 1867, entra in vigore il 1° luglio 1867 e unisce in uno stato federale tre delle cinque colonie britanniche del Nord America: Nuova Scozia, Nuovo Brunswick e Provincia del Canada, divisa in Ontario e Québec (Canadian Encyclopedia, Parks Canada). La sintesi diceva che si univano «le colonie britanniche»: corretta, perché Terranova, Isola del Principe Edoardo e Columbia Britannica restarono fuori.",
+  "correzioni": {
+   "summary": "Nuova Scozia, Nuovo Brunswick e Provincia del Canada, divisa in Ontario e Québec, si uniscono nel Dominion del Canada: tre delle cinque colonie britanniche del Nord America."
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-ban-chiang",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Ban Chiang Archaeological Site",
+    "url": "https://whc.unesco.org/en/list/575/"
+   },
+   {
+    "institution": "Penn Museum",
+    "title": "Ban Chiang Project",
+    "url": "https://www.penn.museum/research/project.php?pid=10"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "The Ancient Town of Si Thep, appendice I (sintesi storica, con Ban Chiang)",
+    "url": "https://whc.unesco.org/document/195307"
+   }
+  ],
+  "nota": "Cronologia confermata come discussa. UNESCO data l’occupazione continua dal 1495 al 900 a.C. circa (C-14 e termoluminescenza) e descrive la produzione locale di bronzo e poi il passaggio al ferro. Un dossier UNESCO più recente (Si Thep) riporta datazioni AMS: età della pietra circa 4300 anni fa, età del bronzo circa 3500–3000 anni fa, e ricorda la ceramica dipinta in rosso. Il Penn Museum, che scavò il sito nel 1974–75 con il Dipartimento thailandese delle Belle Arti, lo considera il più importante insediamento preistorico del Sud-est asiatico (patrimonio UNESCO dal 1992).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-asean",
+  "fonti": [
+   {
+    "institution": "ASEAN",
+    "title": "About ASEAN",
+    "url": "https://asean.org/about-asean/"
+   },
+   {
+    "institution": "ASEAN",
+    "title": "Forging a New Era: Timor-Leste Admitted into ASEAN",
+    "url": "https://asean.org/forging-a-new-era-timor-leste-admitted-into-asean/"
+   }
+  ],
+  "nota": "Confermato: l’8 agosto 1967 a Bangkok i ministri di Indonesia, Malaysia, Filippine, Singapore e Thailandia firmano la Dichiarazione dell’ASEAN. Corretto il numero dei membri: con l’ingresso di Timor Est, firmato al vertice del 26 ottobre 2025, i paesi sono undici, non dieci (ASEAN).",
+  "correzioni": {
+   "summary": "Cinque stati del Sud-est asiatico fondano un’associazione regionale, che con Timor Est (2025) conta oggi undici paesi."
+  },
+  "data": "2026-11-23"
+ }
+]
