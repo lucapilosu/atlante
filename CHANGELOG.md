@@ -1,5 +1,13 @@
 # Registro delle versioni
 
+## v0.69 · 23 novembre 2026
+
+- **Mosaico in primo piano** (richiesta di Luca): su telefono e tablet ha un tasto proprio nella barra in basso, al secondo posto dopo Esplora (prima stava in «Altro»); su PC la scheda «Mosaico» è passata al secondo posto nella barra in alto.
+- **Simboli nuovi nella barra in basso**, disegnati (SVG) al posto dei caratteri tipografici: globo (Esplora), tessere di mosaico (Mosaico), fasce di una linea del tempo (Contemporanei), ruota (Tecnologia), pianeta con orbita (Universo), tre puntini (Altro). Il tasto attivo ha uno sfondo a pillola. Funzionano con i tre stili perché prendono il colore del testo. Scelte di Claude, da confermare con Luca.
+- In «Altro» restano Archivio e Confronto, con simboli disegnati anche lì (scatola d'archivio, bilancia).
+- Con sei tasti la larghezza di ognuno segue la lunghezza del nome, così «Contemporanei» entra anche su schermi stretti (provato a 360, 375, 390 px e su iPad); sotto i 380 px il testo scende a 10 px.
+- Test: 125 controlli; T64 controlla il tasto del Mosaico in basso e in alto, che non sia più in «Altro» e che ogni tasto abbia simbolo ed etichetta.
+
 ## v0.68 · 23 novembre 2026
 
 - **23 voci nuove dove nel tempo non c'era nessuna voce attiva** (scelta di Luca: direzione A, «buchi nel tempo»). Cina: Liangzhu, Longshan, Erlitou, Sanxingdui. Steppe e Asia centrale: Yamnaya, civiltà dell'Oxus, Andronovo. Asia meridionale: Dholavira. Africa: regno di Kerma, Lothagam North, domesticazione del miglio perlato. Nord America: Watson Brake, Adena, Hohokam, L'Anse aux Meadows, migrazione dei Thule. Sud America: Valdivia, Kotosh. Sud-est asiatico e Oceania: espansione austronesiana, Tonga e Samoa, popolamento della Polinesia orientale, Budj Bim (prima voce sull'Australia aborigena prima del 1788). Globale: siccità di 4200 anni fa (inizio del Meghalayano). Totale **460 voci**.

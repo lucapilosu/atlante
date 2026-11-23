@@ -545,12 +545,15 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     t64 = await p.evaluate("""async()=>{const w=t=>new Promise(r=>setTimeout(r,t));const out={};
         const links=[...document.querySelectorAll('[data-view-link="tavola"]')];out.labels=links.map(a=>(a.querySelector('strong')||a).textContent.trim());out.hrefs=[...new Set(links.map(a=>a.getAttribute('href')))];
         out.prova=/prova/i.test(document.getElementById('view-tavola').textContent+links.map(a=>a.textContent).join(''));out.h2=document.querySelector('#tavolaWrap h2')?.textContent;
+        out.nav=[...document.querySelectorAll('.mobile-nav a')].map(a=>a.dataset.viewLink);out.tabs=[...document.querySelectorAll('.view-tabs a')].map(a=>a.dataset.viewLink);out.inAltro=!!document.querySelector('#view-impostazioni [data-view-link="tavola"]');
+        out.icone=[...document.querySelectorAll('.mobile-nav a')].every(a=>a.querySelector('.ni svg')&&a.querySelector('.nl')?.textContent.trim());
         location.hash='#esplora';await w(250);location.hash='#mosaico';await w(500);out.viaNew=currentView;
         location.hash='#esplora';await w(250);location.hash='#tavola';await w(500);out.viaOld=currentView;
         goToView('tavola');await w(300);out.goHash=location.hash;goToView('esplora');await w(300);return out}""")
     ok64 = (t64["hrefs"] == ["#mosaico"] and not t64["prova"] and t64["h2"] == "Il mosaico del tempo" and t64["viaNew"] == "tavola" and t64["viaOld"] == "tavola"
-            and t64["goHash"] == "#mosaico" and any(l.startswith("Mosaico") for l in t64["labels"]) and any(l.startswith("Il mosaico del tempo") for l in t64["labels"]))
-    R.check("T64", "Vista «Mosaico» (prima «Tavola · prova»): nome nella barra in alto e in «Altro», niente «prova», #mosaico e il vecchio #tavola la aprono", ok64, f"{t64}")
+            and t64["goHash"] == "#mosaico" and t64["labels"] == ["Mosaico", "Mosaico"] and t64["nav"][:2] == ["esplora", "tavola"] and len(t64["nav"]) == 6
+            and t64["tabs"][:2] == ["esplora", "tavola"] and not t64["inAltro"] and t64["icone"])
+    R.check("T64", "Vista «Mosaico»: tasto proprio nella barra in basso (secondo, dalla v0.69) e secondo nella barra in alto, non più in «Altro», simboli disegnati su tutti i tasti; #mosaico e il vecchio #tavola la aprono", ok64, f"{t64}")
     # T63 v0.62: icone PNG per i browser che non usano la favicon SVG (Chrome e Safari su iPhone e iPad), SVG ancora presente; voci di rilevanza 1 tutte verificate con fonti
     t63 = await p.evaluate("""async()=>{const out={};for(const l of document.querySelectorAll('link[rel="icon"][type="image/png"],link[rel="apple-touch-icon"]')){const im=new Image();im.src=l.href;try{await im.decode();out[l.getAttribute('href')]=im.naturalWidth+'x'+im.naturalHeight}catch(e){out[l.getAttribute('href')]='errore'}}
         out.svg=!!document.querySelector('link[rel="icon"][type="image/svg+xml"]');out.rel1=DB.entities.concat(DB.events).filter(x=>!['source-checked','deep-dive-sourced'].includes(x.editorial_status)).map(x=>x.id);return out}""")
