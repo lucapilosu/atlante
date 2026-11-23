@@ -502,17 +502,17 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     await goto_view(p, "esplora")
     s27 = await p.evaluate("""()=>{const r=document.getElementById('dockRange').getBoundingClientRect(),th=9;
         const segs=[...document.querySelectorAll('#timeDock .epoch-nav-segment')].map(b=>b.getBoundingClientRect());
-        const bounds=[-1250,500,1700,1963];
+        const bounds=[-3500,476,1492,1789];
         const off=bounds.map((y,i)=>Math.abs((r.left+th+yearToPos(y)/1000*(r.width-2*th))-segs[i+1].left));
-        const trip=[-9000,-1250,-500,500,1200,1700,1850,1963,2000].filter(y=>y>=YEAR_MIN&&y<=YEAR_MAX).filter(y=>posToYear(yearToPos(y))!==y);
-        const steps=[[-3000,1],[-500,-1],[1200,1],[1990,1],[1990,-1]].map(([y,d])=>stepYear(y,d));
+        const trip=[-9000,-3500,-500,476,1200,1492,1700,1789,1850,2000].filter(y=>y>=YEAR_MIN&&y<=YEAR_MAX).filter(y=>posToYear(yearToPos(y))!==y);
+        const steps=[[-5000,1],[-500,-1],[1200,1],[1990,1],[1990,-1],[1490,1],[480,-1]].map(([y,d])=>stepYear(y,d));
         return {off:off.map(v=>Math.round(v*10)/10),trip,steps}}""")
     await click_el(p, "#yearPlus"); await p.wait_for_timeout(250)
     y_a = await year(p)
     await click_el(p, "#yearMinus"); await p.wait_for_timeout(250)
     y_b = await year(p)
-    ok27 = max(s27["off"]) <= 2 and not s27["trip"] and s27["steps"] == [-2900, -510, 1205, 1991, 1989] and y_a != y_b
-    R.check("T27", "Slider a tratti: epoche allineate ai blocchi, passo − / + per epoca (100, 10, 5, 1 anni)",
+    ok27 = max(s27["off"]) <= 2 and not s27["trip"] and s27["steps"] == [-4900, -510, 1205, 1991, 1989, 1492, 476] and y_a != y_b
+    R.check("T27", "Slider a tratti: epoche scolastiche (3500 a.C., 476, 1492, 1789) allineate ai blocchi, passo − / + per epoca (100, 10, 5, 1 anni) che si ferma sui confini",
             ok27, f"scarto dai confini delle epoche {s27['off']} px; andata e ritorno errati {s27['trip']}; passi {s27['steps']}; con i pulsanti {y_a} → {y_b}")
 
     # T28 stili: Ottanio (predefinito, scuro), Museo, Cartografo
@@ -1037,7 +1037,7 @@ async def new_checks(p, R, mobile, name):
 
     # T56 tono della mappa secondo l'epoca dell'anno scelto (stessi confini della barra del tempo)
     t56 = await p.evaluate("""async()=>{const out=[];const r=document.getElementById('yearRange');
-        for(const y of [-3000,-200,1200,1800,2000]){r.value=y;r.dispatchEvent(new Event('input',{bubbles:true}));await new Promise(res=>setTimeout(res,200));
+        for(const y of [-5000,-200,1200,1600,2000]){r.value=y;r.dispatchEvent(new Event('input',{bubbles:true}));await new Promise(res=>setTimeout(res,200));
           out.push([y,document.body.dataset.epoch,getComputedStyle(document.body).getPropertyValue('--epoch-land').trim()])}
         return out}""")
     ep56 = [v[1] for v in t56]
@@ -1193,7 +1193,7 @@ async def new_checks(p, R, mobile, name):
         await p.mouse.move(st62[0], st62[1]); await p.mouse.down(); await p.mouse.move(st62[0], st62[1] - 70, steps=5); await p.mouse.move(st62[0], st62[1] - 140, steps=5); await p.mouse.up()
     await p.wait_for_timeout(500)
     t62["drag"] = await p.evaluate("(o)=>({moved:Math.abs(TAV.oy-o)>60,sel:selected,open:detailOpen})", oy0)
-    pick = await p.evaluate("""()=>{const r=document.getElementById('tavStage').getBoundingClientRect();const t=[...document.querySelectorAll('.tav-tile:not([hidden])')].find(e=>{const b=e.querySelector('.tav-ph').getBoundingClientRect();return b.left>r.left+60&&b.right<r.right-10&&b.top>r.top+40&&b.bottom<r.top+r.height*0.45});if(!t)return null;t.setAttribute('data-pick','1');return t.dataset.tav}""")
+    pick = await p.evaluate("""()=>{const r=document.getElementById('tavStage').getBoundingClientRect();const t=[...document.querySelectorAll('.tav-tile:not([hidden])')].find(e=>{const b=e.querySelector('.tav-ph').getBoundingClientRect();return b.left>r.left+60&&b.right<r.right-10&&b.top>r.top+40&&b.bottom<r.top+r.height*0.6});if(!t)return null;t.setAttribute('data-pick','1');return t.dataset.tav}""")
     if pick:
         await tap(p, p.locator(".tav-tile[data-pick] .tav-ph"), mobile); await p.wait_for_timeout(800)
     t62["open"] = await p.evaluate("""(id)=>{const s=document.getElementById('scheda'),b=s.getBoundingClientRect(),dl=document.getElementById('detailLinks');return {pick:!!id,sel:selected===id,open:detailOpen,vis:!s.hidden,host:s.parentElement.id,

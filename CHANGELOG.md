@@ -1,5 +1,14 @@
 # Registro delle versioni
 
+## v0.63 · 23 novembre 2026
+
+- **Epoche scolastiche** (richiesta di Luca): Preistoria fino alla scrittura (circa 3500 a.C.), Antichità fino al 476, Medioevo 476–1492, Età moderna 1492–1789, Età contemporanea dal 1789. Prima erano 1250 a.C., 500, 1700 e 1963, per cui il 1600 risultava «Medioevo». Valgono ovunque si usano le epoche: barra del tempo, colore della mappa, Storia del luogo, finestra «stessa epoca» di Tecnologia, filtro dell'Archivio, fasce della Tavola, epoche evidenziate in Contemporanei.
+- **Barra del tempo ridistribuita** secondo le voci di ogni epoca (pesi 14/22/20/17/27 al posto di 18/22/20/20/20): l'Età contemporanea, che ora comincia nel 1789 e ha 131 voci, prende più spazio, la Preistoria (23 voci) meno. Il Novecento occupa circa il 14% della barra (prima circa il 25%, quasi tutto dopo il 1963, dove le voci sono 26); l'Ottocento passa da circa l'8% a circa il 12%. Su telefono il pulsante della Preistoria si accorcia in «Preist.».
+- I pulsanti − e + si fermano sui confini delle epoche (476, 1492 e 1789 non sono multipli del passo); il cursore raggiunge esattamente i confini.
+- Una voce che finisce proprio su un confine non conta nell'epoca dopo (Roma, che finisce nel 476, è solo Antichità); un evento di un solo anno sta nell'epoca di quell'anno (la caduta di Granada del 1492 è Età moderna).
+- Tavola: al massimo dello zoom su iPhone entrano 433 voci su 437 (prima 431); su PC tutte.
+- Test: 123 controlli (T27, T44, T56 aggiornati ai nuovi confini; in T62 la foto da toccare si cerca in un'area più ampia).
+
 ## v0.62 · 23 novembre 2026
 
 - **Verificate le 34 voci di rilevanza 1 che non lo erano ancora** (ora tutte quelle di rilevanza 1 hanno fonti specifiche, soprattutto Britannica, World History Encyclopedia, Imperial War Museums e Nazioni Unite). Restano da verificare 107 voci meno importanti (41 di rilevanza 2 e 66 di rilevanza 3), oltre alle 14 che hanno già le fonti degli approfondimenti.

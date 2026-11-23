@@ -74,7 +74,7 @@ header{background:linear-gradient(118deg,#102f3b 0%,#14515c 58%,#187d82 100%);pa
 .epoch-nav-segment{flex:var(--weight) 1 0;min-width:42px;height:32px;border:0;border-radius:5px;padding:0 5px;background:#dce7e1;color:#405a51;font-size:11px;font-weight:650;overflow:hidden;white-space:nowrap;text-overflow:clip}
 .epoch-nav-segment:nth-child(even){background:#e7eee9}
 .epoch-nav-segment.active{background:#c3ddd2;color:#15574f;box-shadow:inset 0 -3px #167d78}
-.epoch-nav-segment span{display:block;overflow:hidden;text-overflow:clip}
+.epoch-nav-segment span{display:block;overflow:hidden;text-overflow:clip}@media (max-width:600px){.epoch-nav-segment[data-short] span{display:none}.epoch-nav-segment[data-short]::after{content:attr(data-short)}}
 
 @media(max-width:760px){.epoch-navigator{height:36px}.epoch-nav-segment{height:30px;min-width:38px;padding:0 3px;font-size:10px}}
 
@@ -1003,7 +1003,7 @@ body[data-view="tavola"] #detailLinks{display:none!important}
 <div id="legacyHolder" hidden aria-hidden="true"><section class="panel year-panel" id="anno"><div class="topline"><div><div class="eyebrow">Anno selezionato</div><div class="small" id="activeCount">Caricamento delle schede…</div></div></div>
 <div class="yearrow"><div class="year" id="yearLabel">500 a.C.</div><input id="yearRange" type="range" min="-5000" max="2026" step="1" value="-1250" aria-label="Seleziona anno"><div class="small" id="yearCount">—</div></div>
 </section></div><div class="footer">Atlante storico del mondo · versione {{VERSIONE}} · prototipo interattivo · aggiornato al {{DATA}}<br>Contenuti sintetici per esplorazione: cronologie, fonti e geometrie saranno progressivamente approfondite.</div>
-</main><aside class="time-dock" id="timeDock" aria-label="Navigazione temporale permanente"><div class="dock-head"><span class="dock-kicker">ANNO</span><button type="button" class="dock-step" id="yearMinus" aria-label="Anno precedente">−</button><strong id="dockYear">—</strong><button type="button" class="dock-step" id="yearPlus" aria-label="Anno successivo">+</button></div><div class="dock-track"><input id="dockRange" type="range" min="0" max="1000" step="1" value="500" aria-label="Scorri la cronologia"><div class="dock-epochs"><div class="epoch-navigator" id="epochNavigator" aria-label="Navigazione per epoche"><button type="button" class="epoch-nav-segment" data-period="prehistory" style="--weight:18" title="Preistoria · fino al 1250 a.C."><span>Preistoria</span></button><button type="button" class="epoch-nav-segment" data-period="ancient" style="--weight:22" title="Antichità · 1250 a.C.–500 d.C."><span>Antichità</span></button><button type="button" class="epoch-nav-segment" data-period="medieval" style="--weight:20" title="Medioevo · 500–1700 d.C."><span>Medioevo</span></button><button type="button" class="epoch-nav-segment" data-period="modern" style="--weight:20" title="Età moderna · 1700–1963 d.C."><span>Moderna</span></button><button type="button" class="epoch-nav-segment" data-period="contemporary" style="--weight:20" title="Età contemporanea · dal 1963"><span>Cont.</span></button></div></div></div></aside>
+</main><aside class="time-dock" id="timeDock" aria-label="Navigazione temporale permanente"><div class="dock-head"><span class="dock-kicker">ANNO</span><button type="button" class="dock-step" id="yearMinus" aria-label="Anno precedente">−</button><strong id="dockYear">—</strong><button type="button" class="dock-step" id="yearPlus" aria-label="Anno successivo">+</button></div><div class="dock-track"><input id="dockRange" type="range" min="0" max="1000" step="1" value="500" aria-label="Scorri la cronologia"><div class="dock-epochs"><div class="epoch-navigator" id="epochNavigator" aria-label="Navigazione per epoche"><button type="button" class="epoch-nav-segment" data-period="prehistory" style="--weight:14" title="Preistoria · fino alla scrittura, circa 3500 a.C." data-short="Preist."><span>Preistoria</span></button><button type="button" class="epoch-nav-segment" data-period="ancient" style="--weight:22" title="Antichità · 3500 a.C.–476 d.C."><span>Antichità</span></button><button type="button" class="epoch-nav-segment" data-period="medieval" style="--weight:20" title="Medioevo · 476–1492"><span>Medioevo</span></button><button type="button" class="epoch-nav-segment" data-period="modern" style="--weight:17" title="Età moderna · 1492–1789"><span>Moderna</span></button><button type="button" class="epoch-nav-segment" data-period="contemporary" style="--weight:27" title="Età contemporanea · dal 1789"><span>Cont.</span></button></div></div></div></aside>
 <nav class="mobile-nav" aria-label="Viste dell’atlante"><a href="#esplora" data-view-link="esplora"><span>◎</span>Esplora</a><a href="#contemporanei" data-view-link="contemporanei"><span>⇆</span>Contemporanei</a><a href="#tecnologia" data-view-link="tecnologia"><span>⚒&#xFE0E;</span>Tecnologia</a><a href="#universo" data-view-link="universo"><span>✳</span>Universo</a><a href="#impostazioni" data-view-link="impostazioni" data-view-also="archivio confronto tavola" aria-label="Altro: archivio e impostazioni"><span>⚙</span>Altro</a></nav>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script>
@@ -1029,7 +1029,7 @@ function typeIcon(x){const k=typeCat(x);return `<svg class="type-ic" viewBox="0 
 // forma piccola dentro il punto della mappa: triangolo i siti, rombo gli eventi, quadrato religioni, movimenti e invenzioni, nulla civiltà e stati
 function pinGlyphKind(x){const k=typeCat(x);return k==='sito'?'tri':k==='evento'?'rombo':['religione','movimento','invenzione'].includes(k)?'quad':''}
 function pinGlyphPath(kind,cx,cy,s){if(kind==='tri')return `M${cx} ${cy-s}L${cx+s*.95} ${cy+s*.72}L${cx-s*.95} ${cy+s*.72}Z`;if(kind==='rombo')return `M${cx} ${cy-s}L${cx+s*.82} ${cy}L${cx} ${cy+s}L${cx-s*.82} ${cy}Z`;if(kind==='quad'){const h=s*.66;return `M${cx-h} ${cy-h}H${cx+h}V${cy+h}H${cx-h}Z`}return ''}
-function epochOf(y){if(y<-1250)return 'preistoria';if(y<500)return 'antichita';if(y<1700)return 'medioevo';if(y<1963)return 'moderna';return 'contemporanea'} // stessi confini delle epoche della barra del tempo
+function epochOf(y){if(y<-3500)return 'preistoria';if(y<476)return 'antichita';if(y<1492)return 'medioevo';if(y<1789)return 'moderna';return 'contemporanea'} // stessi confini delle epoche della barra del tempo
 const reduceMotion=()=>window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 function pinScreenPoint(id){const c=document.querySelector(`#pins .map-marker[data-id="${CSS.escape(id)}"] circle.pin`);if(!c)return null;const r=c.getBoundingClientRect();if(!r.width)return null;const x=r.left+r.width/2,y=r.top+r.height/2;if(x<0||y<0||x>innerWidth||y>innerHeight)return null;return {x,y}}
 // fili verso le voci collegate: archi sulla mappa mentre la scheda è aperta
@@ -1138,8 +1138,9 @@ const $=id=>document.getElementById(id);
 function fmt(y){if(y===0)return 'passaggio di era';if(y<0)return `${Math.abs(y).toLocaleString('it-IT')} a.C.`;return `${y.toLocaleString('it-IT')} d.C.`}
 function span(x){return `${fmt(x.start_year)}${x.end_year!==x.start_year?' – '+fmt(x.end_year):''}`}
 function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
-const PERIOD_BOUNDS={prehistory:[-Infinity,-1250],ancient:[-1250,500],medieval:[500,1700],modern:[1700,1963],contemporary:[1963,Infinity]};
-function periodMatch(x){if(period==='all')return true;const bounds=PERIOD_BOUNDS[period];if(!bounds)return true;return x.end_year>=bounds[0]&&x.start_year<bounds[1]}
+const PERIOD_BOUNDS={prehistory:[-Infinity,-3500],ancient:[-3500,476],medieval:[476,1492],modern:[1492,1789],contemporary:[1789,Infinity]}; // v0.63: periodizzazione scolastica (scrittura, 476, 1492, 1789)
+function spanInEpoch(s,e,a,b){return s===e?s>=a&&s<b:s<b&&e>a} // v0.63: una voce che finisce proprio sul confine (Roma nel 476) non conta nell'epoca dopo; gli eventi di un anno stanno nell'epoca di quell'anno
+function periodMatch(x){if(period==='all')return true;const bounds=PERIOD_BOUNDS[period];if(!bounds)return true;return spanInEpoch(x.start_year,x.end_year,bounds[0],bounds[1])}
 const DATA_MIN=Math.min(...ALL.map(x=>Number.isFinite(x.start_year)?x.start_year:0));
 const DATA_MAX=Math.max(...ALL.map(x=>Number.isFinite(x.end_year)?x.end_year:0));
 const DOMAIN_PAD=Math.max(100,Math.ceil((DATA_MAX-DATA_MIN)*0.035/100)*100);
@@ -1165,7 +1166,7 @@ function chooseOpeningYear(){
   return clampYear(pick);
 }
 chosenYear=chooseOpeningYear();
-period=chosenYear< -1250?'prehistory':chosenYear<500?'ancient':chosenYear<1700?'medieval':chosenYear<1963?'modern':'contemporary';
+period=chosenYear< -3500?'prehistory':chosenYear<476?'ancient':chosenYear<1492?'medieval':chosenYear<1789?'modern':'contemporary';
 $('yearRange').value=chosenYear;
 function normalizeSearch(value){
   return String(value??'')
@@ -1200,7 +1201,7 @@ function filtered(opts={}){
     const matchesActive=!useFilters||!$('onlyActiveYear')?.checked||(chosenYear>=Number(x.start_year)&&chosenYear<=Number(x.end_year));
     // v0.45: l'archivio non dipende più in modo nascosto dall'epoca scelta in Esplora; ha un suo filtro per epoca
     const ep=useFilters?($('archiveEpoch')?.value||'all'):'all',eb=PERIOD_BOUNDS[ep];
-    const matchesEpoch=ep==='all'||!eb||(x.end_year>=eb[0]&&x.start_year<eb[1]);
+    const matchesEpoch=ep==='all'||!eb||spanInEpoch(x.start_year,x.end_year,eb[0],eb[1]);
     return matchesRegion&&matchesType&&matchesText&&matchesActive&&matchesEpoch;
   });
 }
@@ -1537,8 +1538,8 @@ $('compareExample').addEventListener('click',()=>{compareIds=['culture-maya','ci
 function renderList(){let arr=filtered();$('listCount').textContent=`${arr.length} voci`;$('results').innerHTML=arr.map(x=>`<button class="item ${selected===x.id?'selected':''}" data-id="${esc(x.id)}"><strong>${esc(x.name)}</strong><div class="sub">${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')} · ${span(x)}</div><div class="desc">${esc((x.summary||'').slice(0,150))}${(x.summary||'').length>150?'…':''}</div></button>`).join('')||'<div class="empty">Nessuna voce corrisponde ai filtri.</div>';$('results').querySelectorAll('.item').forEach(b=>b.addEventListener('click',()=>openInEsplora(b.dataset.id)))}
 function renderCoverage(){
  const host=$('coveragePanel');if(!host)return;
- const eras=[['Preistoria',-Infinity,-1250],['Antichità',-1250,500],['Medioevo',500,1700],['Età moderna',1700,1963],['Contemporanea',1963,Infinity]];
- const cards=eras.map(([label,a,b])=>{const n=ALL.filter(x=>x.end_year>=a&&x.start_year<b).length;return `<div class="coverage-card"><b>${n}</b><span>${label}</span></div>`});
+ const eras=[['Preistoria',-Infinity,-3500],['Antichità',-3500,476],['Medioevo',476,1492],['Età moderna',1492,1789],['Contemporanea',1789,Infinity]];
+ const cards=eras.map(([label,a,b])=>{const n=ALL.filter(x=>spanInEpoch(x.start_year,x.end_year,a,b)).length;return `<div class="coverage-card"><b>${n}</b><span>${label}</span></div>`});
  host.innerHTML=cards.join('');
 }
 function renderYear(){ $('yearLabel').textContent=fmt(chosenYear);refreshFreeYearView();if(typeof updateEpochNavigator==='function')updateEpochNavigator();let a=activeAt(chosenYear);$('yearCount').textContent=`${a.length} voci attive nell’anno`; $('activeCount').textContent=`${ALL.length} voci · ${DB.sources.length} fonti registrate`;$('syncTitle').textContent=`Nel mondo intorno al ${fmt(chosenYear)}`;let shown=a.sort((x,y)=>((x.region==='Globale'?0:1)-(y.region==='Globale'?0:1))||x.name.localeCompare(y.name)).slice(0,6);$('syncList').innerHTML=shown.map(x=>`<div class="sync-item-row"><button class="item ${selected===x.id?'selected':''}" data-id="${esc(x.id)}"><strong>${esc(x.name)}</strong><div class="sub">${esc(x.region||'')} · ${esc(TYPE[x.kind]||x.kind)}</div><div class="desc">${esc((x.summary||'').slice(0,105))}${(x.summary||'').length>105?'…':''}</div></button><button type="button" class="sync-add-compare" data-sync-compare="${esc(x.id)}" ${compareIds.length>=5&&!compareIds.includes(x.id)?'disabled':''}>${compareIds.includes(x.id)?'✓ Nel confronto':'＋ Confronta'}</button></div>`).join('')||'<div class="empty">Nessuna voce copre l’anno selezionato con le cronologie attualmente registrate.</div>'; $('syncList').querySelectorAll('.item[data-id]').forEach(b=>b.addEventListener('click',()=>selectItem(b.dataset.id)));$('syncList').querySelectorAll('[data-sync-compare]').forEach(b=>b.addEventListener('click',()=>{const id=b.dataset.syncCompare;toggleCompare(id);renderYear() }));}
@@ -1842,7 +1843,7 @@ $('contempSearch')?.addEventListener('input',renderContempSearch);
 const CW_LABEL={prehistory:'Preistoria',ancient:'Antichità',medieval:'Medioevo',modern:'Moderna',contemporary:'Cont.'};
 function contempWhen(f){
  let segs,a,b;try{segs=TIME_SEGMENTS;a=yearToPos(f.start_year)/10;b=yearToPos(f.end_year)/10}catch(_){setTimeout(()=>{if(currentView==='contemporanei')renderContemporanei()},0);return ''}
- let cum=0;const eps=segs.map(s=>{const l=cum;cum+=s.w*100;const on=f.start_year<s.b()&&f.end_year>=s.a();return `<span class="cw-ep${on?' on':''}" style="left:${l.toFixed(2)}%;width:${(s.w*100).toFixed(2)}%">${CW_LABEL[s.p]||''}</span>`}).join('');
+ let cum=0;const eps=segs.map(s=>{const l=cum;cum+=s.w*100;const on=spanInEpoch(f.start_year,f.end_year,s.a(),s.b());return `<span class="cw-ep${on?' on':''}" style="left:${l.toFixed(2)}%;width:${(s.w*100).toFixed(2)}%">${CW_LABEL[s.p]||''}</span>`}).join('');
  return `<div class="contemp-when" role="img" aria-label="Durata di «${esc(f.name)}» sulla linea del tempo: ${esc(span(f))}"><div class="cw-track">${eps}<i class="cw-seg" style="left:${a.toFixed(2)}%;width:${Math.max(0,b-a).toFixed(2)}%"></i></div><div class="cw-cap">Dove si colloca nelle epoche (scala della barra del tempo, non proporzionale)</div></div>`;
 }
 function contempTicks(a,b){
@@ -2228,16 +2229,16 @@ uRender();
 // v0.47 · Slider a tratti: ogni epoca occupa sullo slider la stessa larghezza del suo blocco sotto,
 // con più spazio alle epoche recenti (più dense di eventi). I pulsanti − / + hanno un passo per epoca.
 const TIME_SEGMENTS=[
- {p:'prehistory',a:()=>YEAR_MIN,b:()=>-1250,w:.18,step:100},
- {p:'ancient',a:()=>-1250,b:()=>500,w:.22,step:10},
- {p:'medieval',a:()=>500,b:()=>1700,w:.20,step:5},
- {p:'modern',a:()=>1700,b:()=>1963,w:.20,step:1},
- {p:'contemporary',a:()=>1963,b:()=>Math.max(1964,Math.min(YEAR_MAX,new Date().getFullYear())),w:.20,step:1}
+ {p:'prehistory',a:()=>YEAR_MIN,b:()=>-3500,w:.14,step:100},
+ {p:'ancient',a:()=>-3500,b:()=>476,w:.22,step:10},
+ {p:'medieval',a:()=>476,b:()=>1492,w:.20,step:5},
+ {p:'modern',a:()=>1492,b:()=>1789,w:.17,step:1},
+ {p:'contemporary',a:()=>1789,b:()=>Math.max(1790,Math.min(YEAR_MAX,new Date().getFullYear())),w:.27,step:1}
 ];
 function timeSegFor(y){return TIME_SEGMENTS.find(s=>y<s.b())||TIME_SEGMENTS[TIME_SEGMENTS.length-1]}
 function yearToPos(y){let cum=0;for(const s of TIME_SEGMENTS){const a=s.a(),b=s.b();if(y<b||s===TIME_SEGMENTS[TIME_SEGMENTS.length-1]){return Math.round(1000*(cum+Math.max(0,Math.min(1,(y-a)/Math.max(1,b-a)))*s.w))}cum+=s.w}return 1000}
-function posToYear(pos){const t=Math.max(0,Math.min(1,pos/1000));let cum=0;for(const s of TIME_SEGMENTS){if(t<=cum+s.w||s===TIME_SEGMENTS[TIME_SEGMENTS.length-1]){const a=s.a(),b=s.b(),y=a+Math.min(1,(t-cum)/s.w)*(b-a);const r=Math.round(y/s.step)*s.step;return clampYear(Math.max(a,Math.min(b,r)))+0}cum+=s.w}return YEAR_MAX}
-function stepYear(y,dir){const st=dir>0?yearStep(y):yearStep(y-1);return dir>0?Math.floor(y/st)*st+st:Math.ceil(y/st)*st-st}
+function posToYear(pos){const t=Math.max(0,Math.min(1,pos/1000));let cum=0;for(const s of TIME_SEGMENTS){if(t<=cum+s.w||s===TIME_SEGMENTS[TIME_SEGMENTS.length-1]){const a=s.a(),b=s.b(),y=a+Math.min(1,(t-cum)/s.w)*(b-a);const r=Math.abs(y-b)<s.step/2?b:Math.abs(y-a)<s.step/2?a:Math.round(y/s.step)*s.step;return clampYear(Math.max(a,Math.min(b,r)))+0}cum+=s.w}return YEAR_MAX}
+function stepYear(y,dir){const sg=dir>0?timeSegFor(y):timeSegFor(y-1),st=sg.step,n=dir>0?Math.floor(y/st)*st+st:Math.ceil(y/st)*st-st;return dir>0?Math.min(n,Math.max(y+1,sg.b())):Math.max(n,Math.min(y-1,sg.a()))} // v0.63: i passi si fermano sui confini delle epoche (476, 1492, 1789 non sono multipli del passo)
 function yearStep(y){return timeSegFor(y).step}
 
 // Barra temporale globale: un solo slider compatto, sincronizzato con tutte le viste.
