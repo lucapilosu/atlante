@@ -1,5 +1,18 @@
 # Registro delle versioni
 
+## v0.70 · 23 novembre 2026
+
+- **27 voci nuove sui luoghi che Luca conosce** (direzione B, «approfondimenti»), tutte con fonti specifiche e punto sulla mappa. Totale **487 voci**.
+  - Sardegna (7): tombe dei giganti, giudicati sardi, conquista aragonese (1323–1410), Regno di Sardegna dei Savoia (1720–1861), editto delle chiudende, Brigata «Sassari» nella Grande Guerra, Grazia Deledda premio Nobel 1926.
+  - Maya (7): El Mirador, scrittura maya, codici maya e Codice di Dresda, Tulum, Popol Vuh, fondazione di Mérida sulla città maya di T’hó (1542), boom dell’henequén nello Yucatán.
+  - Rapa Nui (3): l'isola affittata come allevamento di pecore (1895–1953), Ley Pascua e cittadinanza cilena (1966), il parco affidato alla comunità Ma’u Henua (2017).
+  - Italia (10): Ravenna e i mosaici, san Benedetto a Montecassino, Federico II e la corte di Sicilia, Vespri siciliani, Divina Commedia, Repubblica di Venezia, Sacco di Roma (1527), Concilio di Trento, Resistenza e Liberazione, miracolo economico.
+- Fonti principali: Britannica, Treccani, UNESCO, INAH e governo messicano, Memoria Chilena e Biblioteca del Congreso Nacional del Cile, Regione Sardegna e Sardegna Cultura, Esercito italiano, Fondazione Nobel, SLUB di Dresda, Library of Congress, Senato. Datazione «discussa» per i codici maya (l'età del Codice di Dresda è dibattuta); affidabilità media per 9 voci con date ricavate da fasi archeologiche, da periodizzazioni o dalla tradizione.
+- Sintesi rese più prudenti dove le fonti non bastavano: fine dei giudicati al 1410 (non 1420), fronti della Brigata «Sassari» indicati con le fonti (Isonzo, Carso, Grappa), Deledda senza «prima italiana a vincerlo».
+- Date: gli eventi di un solo anno con affidabilità alta (Deledda, Mérida, Ley Pascua, Ma’u Henua, Sacco di Roma) mostrano l'anno senza «circa», come le altre 70 voci dello stesso tipo; gli intervalli con estremi certi (es. Concilio di Trento) usano la precisione «intervallo». Lo strumento `tools/voci/inserisci.py` ora lo fa da solo per gli anni singoli.
+- Le voci nuove non hanno ancora foto (icona del tipo nel Mosaico e nelle schede).
+- Test: 125 controlli; T53 conta 16 datazioni discusse (si aggiungono i codici maya).
+
 ## v0.69 · 23 novembre 2026
 
 - **Mosaico in primo piano** (richiesta di Luca): su telefono e tablet ha un tasto proprio nella barra in basso, al secondo posto dopo Esplora (prima stava in «Altro»); su PC la scheda «Mosaico» è passata al secondo posto nella barra in alto.

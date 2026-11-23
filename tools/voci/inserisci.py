@@ -31,10 +31,13 @@ if modo == 'nuove':
     for r in R:
         assert r['start_year'] <= r['end_year'] and 0 not in (r['start_year'], r['end_year']), r['id']
         v = dict(id=r['id'], name=r['name'], start_year=r['start_year'], end_year=r['end_year'],
-                 date_precision='approximate', date_confidence=r['date_confidence'], summary=r['summary'],
+                 date_precision=r.get('date_precision') or ('year' if r['start_year'] == r['end_year'] and r['date_confidence'] == 'high' else 'approximate'),
+                 date_confidence=r['date_confidence'], summary=r['summary'],
                  region=r['region'], subregion=r['subregion'], map_geometry=punto(r), source_ids=[],
                  editorial_status='research-seed', layer=r['layer'], relevance=r['relevance'],
                  world_area=r['world_area'])
+        if r.get('focus'):
+            v['focus'] = r['focus']
         if r['tipo'] == 'entity':
             v.update(entity_type=r['entity_type'], related_entities=list(r.get('related', [])),
                      key_sites=[], map_note=NOTA_MAPPA)

@@ -1,0 +1,1271 @@
+[
+ {
+  "tipo": "entity",
+  "id": "tradition-tombe-dei-giganti",
+  "name": "Tombe dei giganti",
+  "start_year": -1600,
+  "end_year": -1150,
+  "date_confidence": "medium",
+  "summary": "Grandi sepolture collettive di pietra, esclusive della Sardegna nuragica: un lungo corpo chiuso da un’abside e una facciata curva che abbraccia un’area per i riti, spesso con una stele centinata al centro.",
+  "region": "Europa",
+  "subregion": "Sardegna",
+  "lat": 40.1,
+  "lon": 9.0,
+  "label": "Sardegna centrale",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "EU",
+  "entity_type": "culture",
+  "focus": "sardegna",
+  "related": [
+   "culture-nuragic",
+   "site-mont-e-prama"
+  ],
+  "fonti": [
+   {
+    "institution": "Regione Sardegna · SardegnaCultura",
+    "title": "Le tombe di giganti",
+    "url": "https://www.sardegnacultura.it/en/articles/le-tombe-di-giganti"
+   },
+   {
+    "institution": "Regione Sardegna · SardegnaCultura (Virtual Archaeology)",
+    "title": "Altri esempi di tombe dei giganti in Sardegna",
+    "url": "https://virtualarchaeology.sardegnacultura.it/index.php/it/siti-archeologici/periodo-nuragico/tomba-dei-giganti-di-thomes/schede-di-dettaglio/1101-altri-esempi-di-tombe-dei-giganti-in-sardegna"
+   },
+   {
+    "institution": "Regione Sardegna · SardegnaCultura (Virtual Archaeology)",
+    "title": "Altri esempi di tombe dei giganti nel territorio di Dorgali",
+    "url": "https://virtualarchaeology.sardegnacultura.it/index.php/it/siti-archeologici/periodo-nuragico/tomba-dei-giganti-di-thomes/schede-di-dettaglio/1137-altri-esempi-di-tombe-dei-giganti-nel-territorio-di-dorgali"
+   }
+  ],
+  "nota": "Voce nuova. Le tombe di giganti sono grandi monumenti funerari collettivi esclusivi della Sardegna nuragica (1600–1150 a.C.), a forma di protome taurina; fino al 2003 ne erano state censite circa 800, soprattutto nella Sardegna centro-occidentale. Dal Bronzo medio (1600 a.C.) vi venivano deposti uomini e donne di tutte le età. SardegnaCultura sottolinea che il rito collettivo sorprende in una società che appare molto gerarchica. Punto sulla mappa indicativo: le tombe sono diffuse in tutta l’isola.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "state-giudicati-sardi",
+  "name": "Giudicati sardi",
+  "start_year": 900,
+  "end_year": 1420,
+  "date_confidence": "medium",
+  "summary": "Quattro regni sardi indipendenti, Cagliari, Arborea, Torres (Logudoro) e Gallura, nati dall’allontanamento da Bisanzio e retti da giudici con titolo di re; tre cadono dopo il 1250, l’Arborea resiste agli Aragonesi fino al 1410.",
+  "region": "Europa",
+  "subregion": "Sardegna",
+  "lat": 39.906,
+  "lon": 8.588,
+  "label": "Oristano · capitale dell’Arborea",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "EU",
+  "entity_type": "state",
+  "focus": "sardegna",
+  "related": [
+   "event-carta-de-logu",
+   "event-aragonese-conquest-sardinia",
+   "civilization-byzantine"
+  ],
+  "fonti": [
+   {
+    "institution": "Treccani",
+    "title": "Giudicato (Enciclopedia on line)",
+    "url": "https://www.treccani.it/enciclopedia/giudicato_res-49a304ed-b6aa-11df-9cd8-d5ce3506d72e/"
+   },
+   {
+    "institution": "Regione Sardegna · SardegnaCultura (Virtual Archaeology)",
+    "title": "I Giudicati",
+    "url": "https://virtualarchaeology.sardegnacultura.it/index.php/it/siti-archeologici/eta-medievale/monreale/schede-di-dettaglio/493-i-giudicati"
+   },
+   {
+    "institution": "Regione Sardegna · SardegnaCultura",
+    "title": "Giudicale",
+    "url": "https://www.sardegnacultura.it/categoria/storia/giudicale"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Cagliari (Enciclopedia on line)",
+    "url": "https://www.treccani.it/enciclopedia/cagliari/"
+   }
+  ],
+  "nota": "Voce nuova. I quattro giudicati (Cagliari, Arborea, Torres o Logudoro, Gallura) erano governati da iudices che si chiamavano reges, con una curia come governo (Treccani). Le fonti datano la nascita diversamente: tra VIII e IX secolo (SardegnaCultura, Virtual Archaeology), tra IX e X (Treccani, voce Cagliari), con regni indipendenti nel X (SardegnaCultura); qui l’inizio è al 900. Cagliari cade nel 1258, Torres nel 1259, Gallura nel 1298; l’Arborea resiste fino al 1410 (Treccani, SardegnaCultura). La fine al 1420 comprende gli ultimi anni del marchesato di Oristano: scelta editoriale.",
+  "parziale": "la fine al 1420 (le fonti lette danno il 1410 per l’Arborea).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-aragonese-conquest-sardinia",
+  "name": "Conquista aragonese della Sardegna",
+  "start_year": 1323,
+  "end_year": 1410,
+  "date_confidence": "high",
+  "summary": "Investita del regno di Sardegna dal papa nel 1297, la Corona d’Aragona sbarca nel 1323, toglie Cagliari a Pisa e poi combatte per quasi un secolo contro il giudicato di Arborea, sconfitto a Sanluri nel 1409.",
+  "region": "Europa",
+  "subregion": "Sardegna",
+  "lat": 39.217,
+  "lon": 9.113,
+  "label": "Cagliari · caposaldo aragonese",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "conquest",
+  "place_name": "Sardegna",
+  "focus": "sardegna",
+  "related": [
+   "state-giudicati-sardi",
+   "event-carta-de-logu"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sardinia: Aragonese domination",
+    "url": "https://www.britannica.com/place/Sardinia-island-Italy/Aragonese-domination"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Cagliari (Enciclopedia on line)",
+    "url": "https://www.treccani.it/enciclopedia/cagliari/"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Sardegna (Enciclopedia dell’Arte Medievale)",
+    "url": "https://www.treccani.it/enciclopedia/sardegna_(Enciclopedia-dell'-Arte-Medievale)/"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Sanluri (Enciclopedia Italiana)",
+    "url": "https://www.treccani.it/enciclopedia/sanluri_(Enciclopedia-Italiana)/"
+   }
+  ],
+  "nota": "Voce nuova. Nel 1297 Bonifacio VIII investe Giacomo II d’Aragona del regno di Sardegna e Corsica; gli Aragonesi conquistano davvero l’isola solo nel 1323–24 con l’infante Alfonso, aiutato dall’Arborea, che poi difende la propria indipendenza per tutto il XIV secolo; il giudicato diventa feudo aragonese nel 1410 (Britannica). Lo sbarco è del 1323 e la Cagliari pisana cade nel 1326; Cagliari diventa il caposaldo aragonese (Treccani). La battaglia di Sanluri, vinta da Martino d’Aragona, è del 1409; il giorno varia secondo le voci della Treccani (26 giugno, 30 giugno, 1º luglio).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "state-kingdom-sardinia-savoy",
+  "name": "Regno di Sardegna dei Savoia",
+  "start_year": 1720,
+  "end_year": 1861,
+  "date_confidence": "high",
+  "summary": "Ceduta la Sicilia, Vittorio Amedeo II di Savoia diventa re di Sardegna nel 1720; il regno, con capitale a Torino e centro in Piemonte, guida il Risorgimento fino alla nascita del Regno d’Italia nel 1861.",
+  "region": "Europa",
+  "subregion": "Piemonte e Sardegna",
+  "lat": 45.07,
+  "lon": 7.686,
+  "label": "Torino · capitale",
+  "layer": "civilta",
+  "relevance": 2,
+  "world_area": "EU",
+  "entity_type": "state",
+  "focus": "sardegna",
+  "related": [
+   "event-risorgimento",
+   "state-italy-kingdom",
+   "event-sa-die-sardigna"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sardinia (historical kingdom, Italy)",
+    "url": "https://www.britannica.com/place/Sardinia-historical-kingdom-Italy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sardinia: Austria and Savoy",
+    "url": "https://www.britannica.com/place/Sardinia-island-Italy/Aragonese-domination"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Victor Amadeus II",
+    "url": "https://www.britannica.com/biography/Victor-Amadeus-II"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Turin",
+    "url": "https://www.britannica.com/place/Turin-Italy"
+   }
+  ],
+  "nota": "Voce nuova. Con il trattato di Londra del 1718 Vittorio Amedeo II di Savoia cede la Sicilia agli Asburgo e riceve la Sardegna, fino ad allora spagnola; ne prende possesso il 24 agosto 1720, e da allora fino al 1861 i Savoia sono re di Sardegna, ma il centro del loro potere resta il Piemonte (Britannica). Torino è capitale del regno dal 1720 e centro del Risorgimento (Britannica). Britannica considera Vittorio Amedeo II il fondatore della base del futuro stato nazionale italiano.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-editto-chiudende",
+  "name": "Editto delle chiudende",
+  "start_year": 1820,
+  "end_year": 1823,
+  "date_confidence": "high",
+  "summary": "Il re di Sardegna permette a chi ne ha i mezzi di recintare le terre, anche quelle comuni usate da pastori e contadini: nasce la proprietà privata «perfetta», ma molti perdono gli usi collettivi.",
+  "region": "Europa",
+  "subregion": "Sardegna",
+  "lat": 40.0,
+  "lon": 9.1,
+  "label": "Sardegna",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "reform",
+  "place_name": "Sardegna",
+  "focus": "sardegna",
+  "related": [
+   "state-kingdom-sardinia-savoy"
+  ],
+  "fonti": [
+   {
+    "institution": "Treccani",
+    "title": "Carlo Felice di Savoia, re di Sardegna (Dizionario Biografico degli Italiani)",
+    "url": "https://www.treccani.it/enciclopedia/carlo-felice-di-savoia-re-di-sardegna_(Dizionario-Biografico)/"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Manno, Giuseppe (Dizionario Biografico degli Italiani)",
+    "url": "https://www.treccani.it/enciclopedia/giuseppe-manno_(Dizionario-Biografico)/"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Mele, Diego (Dizionario Biografico degli Italiani)",
+    "url": "https://www.treccani.it/enciclopedia/diego-mele_(Dizionario-Biografico)/"
+   },
+   {
+    "institution": "Regione Autonoma della Sardegna",
+    "title": "Documento sul paesaggio rurale (editto delle chiudende)",
+    "url": "https://www.regione.sardegna.it/documenti/1_13_20070830172744.pdf"
+   }
+  ],
+  "nota": "Voce nuova. Il Regio editto sopra le chiudende è promulgato il 6 ottobre 1820 ma pubblicato solo il 4 aprile 1823 (Treccani, voce Carlo Felice); voleva introdurre in Sardegna la «proprietà perfetta» della terra e superare il regime feudale (Treccani, voce Manno). Dava a chi ne avesse i mezzi la facoltà di recintare i terreni pubblici destinati agli usi comunitari e, dagli anni Trenta, portò a vasti accaparramenti (Treccani, voce Mele). La Regione Sardegna ricorda che favorì la chiusura delle terre e la fine delle consuetudini comunitarie.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-brigata-sassari",
+  "name": "Brigata «Sassari» nella Grande Guerra",
+  "start_year": 1915,
+  "end_year": 1918,
+  "date_confidence": "high",
+  "summary": "Costituita il 1° marzo 1915 con soldati reclutati solo in Sardegna, la Brigata «Sassari» combatte sull’Isonzo, sul Carso e sul Grappa e diventa la brigata più decorata della Prima guerra mondiale.",
+  "region": "Europa",
+  "subregion": "Sardegna e fronte italiano",
+  "lat": 40.9,
+  "lon": 9.105,
+  "label": "Tempio Pausania · costituzione",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "war",
+  "place_name": "Fronte italiano",
+  "focus": "sardegna",
+  "related": [
+   "event-world-war-one"
+  ],
+  "fonti": [
+   {
+    "institution": "Esercito Italiano · Ministero della Difesa",
+    "title": "Brigata «Sassari»: la storia",
+    "url": "https://www.esercito.difesa.it/organizzazione/capo-di-sme/COMFOTER/Divisione-Acqui/Brigata-meccanizzata-Sassari/Pagine/La-Storia.aspx"
+   },
+   {
+    "institution": "Esercito Italiano · Ministero della Difesa",
+    "title": "Museo Storico della Brigata «Sassari»",
+    "url": "https://www.esercito.difesa.it/drafts/storia/musei/museo-storico-della-brigata-sassari/125216.html?v=261120252358"
+   },
+   {
+    "institution": "Esercito Italiano · Ministero della Difesa",
+    "title": "101° Anniversario Brigata «Sassari»",
+    "url": "https://www.esercito.difesa.it/comunicazione/101%C2%B0-anniversario-brigata--sassari-/86589.html"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Il fronte che fece gli italiani",
+    "url": "https://www.treccani.it/magazine/chiasmo/lettere_e_arti/Scambio/SNS_De_Natale_Fronte.html"
+   }
+  ],
+  "nota": "Voce nuova. La Brigata «Sassari» nasce il 1° marzo 1915 con i reggimenti 151° (Sinnai) e 152° (Tempio Pausania), con personale reclutato solo in Sardegna; durante la Grande Guerra è più volte citata come unità d’assalto e diventa la brigata più decorata del conflitto (Esercito Italiano). Treccani: unico reparto dell’esercito su base regionale, prima sull’Isonzo e poi sul Carso; tra i suoi ufficiali c’era Emilio Lussu. Treccani ricorda che i «Sassarini» contribuirono a impedire lo sfondamento austro-tedesco sul Grappa.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-deledda-nobel",
+  "name": "Grazia Deledda, premio Nobel per la letteratura",
+  "start_year": 1926,
+  "end_year": 1926,
+  "date_confidence": "high",
+  "summary": "La scrittrice nuorese riceve il Nobel per la letteratura del 1926, prima italiana a vincerlo, per romanzi che raccontano la vita della Sardegna e insieme problemi umani universali.",
+  "region": "Europa",
+  "subregion": "Sardegna",
+  "lat": 40.321,
+  "lon": 9.33,
+  "label": "Nuoro · città natale",
+  "layer": "persone-idee",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "culture",
+  "place_name": "Nuoro",
+  "focus": "sardegna",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "Grazia Deledda · Facts",
+    "url": "https://www.nobelprize.org/prizes/literature/1926/deledda/facts/"
+   },
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "Grazia Deledda: Voice of Sardinia",
+    "url": "https://www.nobelprize.org/prizes/literature/1926/deledda/article/"
+   },
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "The Nobel Prize in Literature 1926 · Summary",
+    "url": "https://www.nobelprize.org/prizes/literature/1926/summary/"
+   }
+  ],
+  "nota": "Voce nuova. Il Nobel per la letteratura 1926 va a Grazia Deledda, nata a Nuoro il 27 settembre 1871, per scritti che ritraggono la vita della sua isola natale e trattano con profondità i problemi umani in generale; il premio le è consegnato nel 1927, perché nel 1926 il comitato non aveva trovato candidature adatte (NobelPrize.org). È la prima donna italiana a ricevere il Nobel per la letteratura.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-el-mirador",
+  "name": "El Mirador",
+  "start_year": -100,
+  "end_year": 250,
+  "date_confidence": "medium",
+  "summary": "Enorme città maya del Preclassico nel nord del Petén, con una mole di costruzioni superiore persino a Tikal, come la piramide La Danta, e strade rialzate che la collegavano ad altri centri.",
+  "region": "Americhe",
+  "subregion": "Petén settentrionale (Guatemala)",
+  "lat": 17.755,
+  "lon": -89.92,
+  "label": "El Mirador (Petén)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "MC",
+  "entity_type": "archaeological_site",
+  "focus": "maya",
+  "related": [
+   "culture-maya",
+   "site-calakmul",
+   "site-tikal"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mirador",
+    "url": "https://www.britannica.com/place/Mirador"
+   },
+   {
+    "institution": "Nature Communications",
+    "title": "Drought-induced civil conflict among the ancient Maya",
+    "url": "https://www.nature.com/articles/s41467-022-31522-x"
+   },
+   {
+    "institution": "Nature",
+    "title": "Revealed: massive Maya structures built by vast labour forces",
+    "url": "https://www.nature.com/articles/d41586-022-04392-y"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: El Mirador, nell’estremo nord del Petén, ha una massa di costruzioni che supera persino Tikal, ma fu abitato in modo consistente solo nella fase Chicanel (Preclassico tardo). Nature Communications (2022) lo indica come una delle più grandi capitali maya, affermatasi tra il 100 a.C. e il 250 d.C. Nature (2022): la piramide La Danta richiese fino a dieci milioni di giornate di lavoro; un rilievo aereo ha mostrato più di 400 insediamenti collegati da strade rialzate. La città ebbe fasi più antiche, non datate nelle fonti lette.",
+  "parziale": "l’inizio dell’occupazione (le fonti lette datano solo il periodo di massima grandezza).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-maya-writing",
+  "name": "Scrittura maya",
+  "start_year": -300,
+  "end_year": 1700,
+  "date_confidence": "medium",
+  "summary": "L’unico vero sistema di scrittura delle Americhe precolombiane: segni per parole intere e per sillabe, su stele, ceramiche e libri; i testi più antichi, a San Bartolo, risalgono al 300–200 a.C.",
+  "region": "Americhe",
+  "subregion": "Area maya",
+  "lat": 17.55,
+  "lon": -89.38,
+  "label": "San Bartolo (Petén) · testi più antichi",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "MC",
+  "entity_type": "invention",
+  "focus": "maya",
+  "related": [
+   "culture-maya",
+   "tradition-maya-codices"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Maya hieroglyphic writing",
+    "url": "https://www.britannica.com/topic/Maya-hieroglyphic-writing"
+   },
+   {
+    "institution": "Science",
+    "title": "Saturno, Stuart, Beltrán 2006, Early Maya Writing at San Bartolo, Guatemala",
+    "url": "https://www.science.org/doi/10.1126/science.1121745"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indigenous languages of Mesoamerica: writing systems",
+    "url": "https://www.britannica.com/topic/Mesoamerican-Indian-languages/Mesoamerican-writing-systems"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yury Valentinovich Knorozov",
+    "url": "https://www.britannica.com/biography/Yury-Valentinovich-Knorozov"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: le prove di San Bartolo datano la scrittura maya almeno al 300–200 a.C.; fu usata fino alla fine del XVII secolo, e tra i sistemi di registrazione delle Americhe precolombiane è l’unico vero sistema di scrittura. È logografica, con segni sillabici (Britannica). Science (2006): un testo di dieci glifi a San Bartolo, con legno carbonizzato datato al 200–300 a.C., mostra che la scrittura era già sviluppata secoli prima di quanto si pensasse. Fu decifrata soprattutto dalla metà del Novecento, con un contributo decisivo del linguista russo Jurij Knorozov (Britannica). La fine al 1700 traduce «fine del XVII secolo».",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "tradition-maya-codices",
+  "name": "Codici maya e Codice di Dresda",
+  "start_year": 1100,
+  "end_year": 1521,
+  "date_confidence": "debated",
+  "summary": "Libri a fisarmonica di carta di corteccia con calendari rituali, tavole astronomiche e figure di dei: ne sopravvivono solo quattro, scampati ai roghi dei missionari spagnoli; il più ricco è il Codice di Dresda.",
+  "region": "Americhe",
+  "subregion": "Penisola dello Yucatán",
+  "lat": 20.63,
+  "lon": -89.46,
+  "label": "Yucatán · origine probabile del Codice di Dresda",
+  "layer": "persone-idee",
+  "relevance": 3,
+  "world_area": "MC",
+  "entity_type": "culture",
+  "focus": "maya",
+  "related": [
+   "invention-maya-writing",
+   "event-landa-mani",
+   "site-mayapan"
+  ],
+  "fonti": [
+   {
+    "institution": "SLUB · Biblioteca di Stato e universitaria di Sassonia, Dresda",
+    "title": "The Maya Codex in the SLUB Dresden",
+    "url": "https://www.slub-dresden.de/en/explore/manuscripts/the-dresden-maya-codex"
+   },
+   {
+    "institution": "SLUB · Biblioteca di Stato e universitaria di Sassonia, Dresda",
+    "title": "Other Maya codices",
+    "url": "https://www.slub-dresden.de/en/explore/manuscripts/the-dresden-maya-codex/other-maya-codices"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dresden Codex",
+    "url": "https://www.britannica.com/topic/Dresden-Codex"
+   },
+   {
+    "institution": "Library of Congress · World Digital Library",
+    "title": "The Dresden Codex",
+    "url": "https://www.loc.gov/resource/gdcwdl.wdl_11621/?st=gallery"
+   }
+  ],
+  "nota": "Voce nuova. Restano solo quattro codici maya (Dresda, Madrid, Parigi e quello di Città del Messico, già Grolier), scampati al rogo ordinato da Diego de Landa il 12 luglio 1562 (SLUB). Il Codice di Dresda, 39 fogli di corteccia piegati a fisarmonica lunghi 3,56 m, contiene calendari rituali, tavole astronomiche e circa 400 disegni, ed è stato fondamentale per decifrare i glifi (SLUB). La datazione è discussa: XI o XII secolo per Britannica, intorno al 1200 per la Library of Congress, 1300–1521 per la SLUB; il Codice di Parigi è del 1300–1500 circa. Il Codice di Dresda viene dallo Yucatán (SLUB): il punto è indicativo.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-tulum",
+  "name": "Tulum",
+  "start_year": 1200,
+  "end_year": 1521,
+  "date_confidence": "medium",
+  "summary": "Città maya fortificata sulla costa caraibica dello Yucatán, porto chiave dei commerci per mare nel Postclassico tardo, con murales tra i meglio conservati del mondo maya.",
+  "region": "Americhe",
+  "subregion": "Quintana Roo (Messico)",
+  "lat": 20.215,
+  "lon": -87.429,
+  "label": "Tulum (Quintana Roo)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "MC",
+  "entity_type": "archaeological_site",
+  "focus": "maya",
+  "related": [
+   "culture-maya",
+   "site-mayapan",
+   "event-yucatan-conquest"
+  ],
+  "fonti": [
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Tulum (zona arqueológica)",
+    "url": "https://lugares.inah.gob.mx/en/node/4361"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Tulum: entre el mar y el intercambio cultural",
+    "url": "https://www.inah.gob.mx/foto-del-dia/tulum-entre-el-mar-y-el-intercambio-cultural"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Tulum, Quintana Roo (miniguida)",
+    "url": "https://mediateca.inah.gob.mx/repositorio/islandora/object/guia:300"
+   }
+  ],
+  "nota": "Voce nuova. Tulum è una città murata sulla costa, con alcune delle pitture murali meglio conservate dell’area maya; gli edifici visibili oggi sono del Postclassico medio e tardo (1250–1550), ma una stele del 564 indica una fondazione più antica (INAH). Nel Postclassico tardo (1200–1521) era un porto chiave, dove arrivavano canoe con ossidiana, giada, sale, cacao, tessuti e piume (INAH).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-popol-vuh",
+  "name": "Popol Vuh",
+  "start_year": 1554,
+  "end_year": 1558,
+  "date_confidence": "high",
+  "summary": "Autori k’iche’ mettono per iscritto, in alfabeto latino, la creazione del mondo e dell’umanità, le imprese degli dei e la storia dei loro re: il testo più importante della letteratura indigena delle Americhe.",
+  "region": "Americhe",
+  "subregion": "Altopiani del Guatemala",
+  "lat": 14.943,
+  "lon": -91.111,
+  "label": "Chichicastenango · manoscritto di Ximénez",
+  "layer": "persone-idee",
+  "relevance": 3,
+  "world_area": "MC",
+  "event_type": "culture",
+  "place_name": "Guatemala",
+  "focus": "maya",
+  "related": [
+   "culture-maya",
+   "tradition-maya-codices"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Popol Vuh",
+    "url": "https://www.britannica.com/topic/Popol-Vuh"
+   },
+   {
+    "institution": "Newberry Library",
+    "title": "Popol Vuh (guida alla ricerca)",
+    "url": "https://www.newberry.org/collection/research-guide/popol-vuh"
+   },
+   {
+    "institution": "Library of Congress",
+    "title": "Popol Vuh: Transcription in Quiché Mayan and Translation into Spanish",
+    "url": "https://www.loc.gov/item/2021668226"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indigenous languages of Mesoamerica: Mesoamerican literature",
+    "url": "https://www.britannica.com/topic/Mesoamerican-Indian-languages/Mesoamerican-literature"
+   }
+  ],
+  "nota": "Voce nuova. Il Popol Vuh fu scritto in k’iche’ da uno o più autori maya tra il 1554 e il 1558, in alfabeto latino; racconta la creazione dell’umanità, le azioni degli dei, l’origine e la storia dei K’iche’ e la cronologia dei loro re fino al 1550 (Britannica). L’originale è perduto: resta la trascrizione con traduzione spagnola del domenicano Francisco Ximénez, fatta a Chichicastenango tra il 1700 e il 1715 e oggi alla Newberry Library di Chicago (Newberry, Britannica). Britannica lo considera il più importante esempio di letteratura indigena delle Americhe.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-merida-founded",
+  "name": "Fondazione di Mérida sulla città maya di T’hó",
+  "start_year": 1542,
+  "end_year": 1542,
+  "date_confidence": "high",
+  "summary": "Il conquistatore Francisco de Montejo «el Mozo» fonda Mérida sulla città maya di T’hó (Ichcaanzihó), riusandone le pietre: diventa il capoluogo della provincia spagnola dello Yucatán.",
+  "region": "Americhe",
+  "subregion": "Yucatán (Messico)",
+  "lat": 20.967,
+  "lon": -89.624,
+  "label": "Mérida",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "MC",
+  "event_type": "foundation",
+  "place_name": "Mérida",
+  "focus": "maya",
+  "related": [
+   "event-yucatan-conquest",
+   "culture-maya"
+  ],
+  "fonti": [
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Museo de Historia Ateneo Peninsular",
+    "url": "https://lugares.inah.gob.mx/en/node/6338"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Escudo de armas de la ciudad de Mérida",
+    "url": "https://repositorio.inah.gob.mx/o-166265"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia",
+    "title": "Mérida (zona de monumentos históricos)",
+    "url": "https://lugares.inah.gob.mx/en/node/4823"
+   }
+  ],
+  "nota": "Voce nuova. Dopo varie sconfitte da parte dei Maya, Francisco de Montejo «el Mozo» fonda Mérida il 6 gennaio 1542 sulla città maya di T’hó; le pietre della città antica furono riusate per il nuovo centro coloniale (INAH). Il nome riprende la Mérida dell’Estremadura; il piano a scacchiera fu tracciato dal primo alcalde, Gaspar Pacheco (INAH).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-henequen-boom",
+  "name": "L’«oro verde»: il boom dell’henequén nello Yucatán",
+  "start_year": 1880,
+  "end_year": 1916,
+  "date_confidence": "medium",
+  "summary": "La fibra di un agave locale, usata per corde e spaghi, rende lo Yucatán uno degli stati più ricchi del Messico: centinaia di haciendas la coltivano con il lavoro dei contadini maya, spesso legati da debiti.",
+  "region": "Americhe",
+  "subregion": "Yucatán settentrionale",
+  "lat": 21.0,
+  "lon": -89.5,
+  "label": "Zona henequenera dello Yucatán",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "MC",
+  "event_type": "economy",
+  "place_name": "Yucatán",
+  "focus": "maya",
+  "related": [
+   "event-caste-war-yucatan",
+   "event-merida-founded"
+  ],
+  "fonti": [
+   {
+    "institution": "Governo del Messico · SIAP",
+    "title": "Henequén: el «oro verde» yucateco",
+    "url": "https://www.gob.mx/siap/es/articulos/henequen-el-oro-verde-yucateco?idiom=es"
+   },
+   {
+    "institution": "Governo del Messico · FIRCO",
+    "title": "Henequén, oro verde en época prehispánica",
+    "url": "https://www.gob.mx/firco/articulos/henequen-oro-verde-en-epoca-prehispanica?idiom=es"
+   },
+   {
+    "institution": "Archivo General de la Nación (Messico)",
+    "title": "Boletín del AGN: la hacienda henequenera",
+    "url": "https://bagn.archivos.gob.mx/index.php/legajos/article/download/356/345"
+   },
+   {
+    "institution": "Gobierno del Estado de Yucatán",
+    "title": "Sotuta de Peón",
+    "url": "https://www.yucatan.gob.mx/?p=sotuta_peon"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yucatán Peninsula",
+    "url": "https://kids.britannica.com/students/article/Yucat%20n-Peninsula/277863"
+   },
+   {
+    "institution": "Instituto Nacional de Antropología e Historia · Alquimia",
+    "title": "Retratos de afrodescendientes en Mérida en los siglos XIX y XX",
+    "url": "https://revistas.inah.gob.mx/index.php/alquimia/en/article/download/21133/22539"
+   }
+  ],
+  "nota": "Voce nuova. Dalla metà dell’Ottocento le haciendas del nord dello Yucatán intensificano la coltivazione dell’henequén, con lavoratori di ascendenza maya come pilastro dell’industria (FIRCO); tra il 1890 e il 1910 era chiamato «oro verde» (SIAP). A inizio Novecento centinaia di haciendas lo coltivavano con oltre 85.000 lavoratori (Archivo General de la Nación); tra il 1901 e il 1916 lo Yucatán fu il primo produttore mondiale di fibre dure (Stato dello Yucatán). Britannica: piantagioni dagli anni 1880, grandi fortune per l’élite e peonaggio per debiti per molti indigeni. Date del periodo indicative: le fonti usano intervalli diversi. La rivista Alquimia dell’INAH ricorda che, grazie all’henequén, nell’ultimo terzo dell’Ottocento lo Yucatán divenne uno degli stati più prosperi e ricchi del Messico.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-rapanui-sheep-ranch",
+  "name": "Rapa Nui affittata come allevamento di pecore",
+  "start_year": 1895,
+  "end_year": 1953,
+  "date_confidence": "high",
+  "summary": "Il governo cileno affitta l’isola a privati, poi alla Compañía Explotadora di Williamson & Balfour: Rapa Nui diventa una grande hacienda di pecore e i Rapanui sono confinati nel villaggio di Hanga Roa.",
+  "region": "Oceania",
+  "subregion": "Rapa Nui",
+  "lat": -27.15,
+  "lon": -109.43,
+  "label": "Hanga Roa",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "OC",
+  "event_type": "colonial",
+  "place_name": "Rapa Nui",
+  "focus": "rapa-nui",
+  "related": [
+   "event-rapanui-chilean-annexation",
+   "culture-rapanui",
+   "event-ley-pascua"
+  ],
+  "fonti": [
+   {
+    "institution": "Memoria Chilena · Biblioteca Nacional de Chile",
+    "title": "Incorporándola al territorio chileno",
+    "url": "https://www.memoriachilena.gob.cl/602/w3-article-94620.html"
+   },
+   {
+    "institution": "Memoria Chilena · Biblioteca Nacional de Chile",
+    "title": "Informe de la Comisión Verdad Histórica y Nuevo Trato (Rapa Nui)",
+    "url": "https://www.memoriachilena.gob.cl/602/articles-122901_recurso_6.pdf"
+   },
+   {
+    "institution": "Memoria Chilena · Biblioteca Nacional de Chile",
+    "title": "Rapa Nui (dossier)",
+    "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/mc0012722.pdf"
+   },
+   {
+    "institution": "Memoria Chilena · Biblioteca Nacional de Chile",
+    "title": "La Compañía Explotadora de Isla de Pascua: patrimonio, memoria e identidad",
+    "url": "https://www.memoriachilena.gob.cl/archivos2/pdfs/MC0062395.pdf"
+   }
+  ],
+  "nota": "Voce nuova. Dal 1895, per quasi sessant’anni, il governo cileno affitta l’isola trasformandola in una grande hacienda di pecore (Memoria Chilena). Il 3 settembre 1895 l’affittuario è Enrique Merlet, accusato di maltrattamenti, lavori forzati e incendi delle coltivazioni; nel 1903 cede i diritti a Williamson & Balfour, che crea la Compañía Explotadora de Isla de Pascua (Commissione Verità storica e Nuovo trattamento). Gli isolani furono confinati con la forza a Hanga Roa e l’isola arrivò a circa sessantamila pecore (Memoria Chilena). La compagnia gestì l’isola fino agli anni Cinquanta, poi sostituita dalla Marina.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-ley-pascua",
+  "name": "Ley Pascua: i Rapanui diventano cittadini cileni",
+  "start_year": 1966,
+  "end_year": 1966,
+  "date_confidence": "high",
+  "summary": "Dopo la protesta degli isolani, la legge 16.441 porta Rapa Nui sotto un governo civile e riconosce ai Rapanui, fino ad allora senza nazionalità, la cittadinanza cilena e il diritto di viaggiare.",
+  "region": "Oceania",
+  "subregion": "Rapa Nui",
+  "lat": -27.15,
+  "lon": -109.43,
+  "label": "Hanga Roa",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "OC",
+  "event_type": "law",
+  "place_name": "Rapa Nui",
+  "focus": "rapa-nui",
+  "related": [
+   "event-rapanui-sheep-ranch",
+   "event-rapanui-chilean-annexation",
+   "culture-rapanui"
+  ],
+  "fonti": [
+   {
+    "institution": "Biblioteca del Congreso Nacional de Chile",
+    "title": "Homenaje a Rapa Nui: cincuenta años de la ley N° 16.441",
+    "url": "https://www.bcn.cl/laborparlamentaria/participacion?idParticipacion=2204600"
+   },
+   {
+    "institution": "Biblioteca del Congreso Nacional de Chile",
+    "title": "Historia de la Ley (territorio especial de Isla de Pascua)",
+    "url": "https://www.bcn.cl/historiadelaley/historia-de-la-ley/vista-expandida/7521/"
+   },
+   {
+    "institution": "Memoria Chilena · Biblioteca Nacional de Chile",
+    "title": "Informe de la Comisión Verdad Histórica y Nuevo Trato (Rapa Nui)",
+    "url": "https://www.memoriachilena.gob.cl/602/articles-122901_recurso_6.pdf"
+   },
+   {
+    "institution": "Museo de Historia Natural de Valparaíso",
+    "title": "Moai Maea, testigo de una rebelión en Rapa Nui",
+    "url": "https://www.mhnv.gob.cl/noticias/moai-maea-testigo-de-una-rebelion-en-rapa-nui"
+   }
+  ],
+  "nota": "Voce nuova. La legge 16.441 del 10 marzo 1966, sotto la presidenza di Eduardo Frei Montalva, crea il dipartimento di Isla de Pascua e riconosce ai Rapanui la cittadinanza cilena, con il diritto di voto (Biblioteca del Congresso del Cile, Memoria Chilena). Prima di allora i Rapanui erano apolidi; la legge diede anche esenzioni fiscali e riconobbe diritti sulla terra (Commissione Verità storica). Con la carta d’identità arrivò la libertà di viaggiare e studiare (BCN). Il Museo di Storia naturale di Valparaíso la presenta come risposta alle richieste degli isolani dopo una rivolta.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-rapanui-mau-henua",
+  "name": "Il parco di Rapa Nui affidato alla comunità Ma’u Henua",
+  "start_year": 2017,
+  "end_year": 2017,
+  "date_confidence": "high",
+  "summary": "Dopo una consultazione indigena, lo Stato cileno affida per 50 anni la gestione del Parco nazionale Rapa Nui, con i moai e i luoghi sacri, alla comunità rapanui Ma’u Henua.",
+  "region": "Oceania",
+  "subregion": "Rapa Nui",
+  "lat": -27.12,
+  "lon": -109.35,
+  "label": "Rapa Nui",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "OC",
+  "event_type": "law",
+  "place_name": "Rapa Nui",
+  "focus": "rapa-nui",
+  "related": [
+   "event-rapanui-unesco-listing",
+   "culture-rapanui",
+   "event-ley-pascua"
+  ],
+  "fonti": [
+   {
+    "institution": "Ministero dello Sviluppo sociale e della Famiglia (Cile)",
+    "title": "Presidenta Bachelet entrega a comunidad Rapa Nui administración del Parque Nacional de la isla",
+    "url": "https://www.desarrollosocialyfamilia.gob.cl/noticias/presidenta-bachelet-entrega-a-comunidad-rapa-nui-administracion-del-parque-nacional-de-la-isla"
+   },
+   {
+    "institution": "Ministero dell’Interno (Cile)",
+    "title": "Presidenta Bachelet entrega administración del Parque Nacional Rapa Nui a la comunidad de Isla de Pascua",
+    "url": "https://www.interior.gob.cl/noticias/2017/11/23/presidenta-bachelet-entrega-administracion-del-parque-nacional-rapa-nui-a-la-comunidad-de-isla-de-pascua/"
+   },
+   {
+    "institution": "Governo provinciale di Isla de Pascua",
+    "title": "Administración del parque Rapa Nui",
+    "url": "http://rapanui.gob.cl/parque-rapa-nui/administracion.html"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati del bene",
+    "url": "https://whc.unesco.org/document/217157"
+   }
+  ],
+  "nota": "Voce nuova. Il 23 novembre 2017 la presidente Michelle Bachelet firma a Rapa Nui il decreto che affida per 50 anni l’amministrazione del Parco nazionale alla comunità indigena Ma’u Henua, circa 1300 membri del popolo rapanui (Ministero dello Sviluppo sociale); il parco comprende i luoghi sacri e i moai e prima era gestito dalla CONAF (Ministero dell’Interno). In una consultazione indigena secondo la Convenzione OIL 169 l’86,6% dei Rapanui votò per la gestione affidata a una comunità (governo provinciale). Anche UNESCO indica Ma’u Henua come gestore dal 2017; una pagina del Servizio nazionale del patrimonio dice invece dal 2016.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-ravenna-mosaics",
+  "name": "Ravenna e i suoi mosaici",
+  "start_year": 401,
+  "end_year": 600,
+  "date_confidence": "medium",
+  "summary": "Capitale dell’Impero d’Occidente nel V secolo e poi dell’Italia bizantina, Ravenna conserva otto monumenti paleocristiani, da San Vitale al mausoleo di Galla Placidia, con un insieme di mosaici unico al mondo.",
+  "region": "Europa",
+  "subregion": "Emilia-Romagna",
+  "lat": 44.4206,
+  "lon": 12.1964,
+  "label": "Ravenna · San Vitale",
+  "layer": "luoghi",
+  "relevance": 2,
+  "world_area": "EU",
+  "entity_type": "archaeological_site",
+  "focus": "europa",
+  "related": [
+   "event-western-rome-end",
+   "civilization-byzantine",
+   "event-justinian"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Early Christian Monuments of Ravenna",
+    "url": "https://whc.unesco.org/en/list/788/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre · ICOMOS",
+    "title": "Ravenna No 788 · valutazione della candidatura",
+    "url": "https://whc.unesco.org/document/154274"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Early Christian Monuments of Ravenna · Maps",
+    "url": "https://whc.unesco.org/en/list/788/maps/"
+   }
+  ],
+  "nota": "Voce nuova. Ravenna fu sede dell’Impero romano nel V secolo e poi dell’Italia bizantina fino all’VIII; ha una raccolta di mosaici e monumenti paleocristiani unica al mondo (UNESCO, patrimonio dal 1996). Gli otto edifici (mausoleo di Galla Placidia, battistero Neoniano, Sant’Apollinare Nuovo, battistero degli Ariani, cappella arcivescovile, mausoleo di Teodorico, San Vitale, Sant’Apollinare in Classe) sono stati costruiti nel V e VI secolo. Le date 401–600 traducono «V e VI secolo».",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-montecassino-benedict",
+  "name": "San Benedetto fonda Montecassino",
+  "start_year": 529,
+  "end_year": 547,
+  "date_confidence": "high",
+  "summary": "Benedetto da Norcia fonda sul Monte Cassino il primo monastero del suo ordine e scrive la Regola, che diventa la norma della vita monastica in tutta Europa: i monasteri saranno i principali centri di studio fino a Carlo Magno.",
+  "region": "Europa",
+  "subregion": "Lazio",
+  "lat": 41.49,
+  "lon": 13.814,
+  "label": "Montecassino",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "event_type": "religion",
+  "place_name": "Montecassino",
+  "focus": "europa",
+  "related": [
+   "religion-christianity",
+   "state-lombards"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Monte Cassino Abbey",
+    "url": "https://www.britannica.com/topic/Monte-Cassino-Abbey"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "St. Benedict",
+    "url": "https://www.britannica.com/biography/Saint-Benedict-of-Nursia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Education: Europe in the Middle Ages",
+    "url": "https://www.britannica.com/topic/education/Europe-in-the-Middle-Ages"
+   }
+  ],
+  "nota": "Voce nuova. Benedetto da Norcia fonda l’abbazia di Montecassino nel 529 e vi resta fino alla morte, verso il 547; i Longobardi la saccheggiano nel 580 (Britannica). Britannica lo chiama padre del monachesimo occidentale: la sua Regola diventa la norma della vita monastica in Europa; tra il V e l’VIII secolo i principali centri di studio sono i monasteri, e Montecassino ne è il prototipo.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-vespri-siciliani",
+  "name": "Vespri siciliani",
+  "start_year": 1282,
+  "end_year": 1302,
+  "date_confidence": "high",
+  "summary": "La sera di Pasquetta del 1282 Palermo insorge contro i Francesi di Carlo d’Angiò; la guerra che segue tra Angioini e Aragonesi separa la Sicilia da Napoli e finisce con la pace di Caltabellotta del 1302.",
+  "region": "Europa",
+  "subregion": "Sicilia",
+  "lat": 38.116,
+  "lon": 13.361,
+  "label": "Palermo",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "revolt",
+  "place_name": "Palermo",
+  "focus": "europa",
+  "related": [
+   "event-aragonese-conquest-sardinia",
+   "movement-italian-communes"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sicilian Vespers",
+    "url": "https://www.britannica.com/event/Sicilian-Vespers"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Peace of Caltabellotta",
+    "url": "https://www.britannica.com/topic/Peace-of-Caltabellotta"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kingdom of Naples",
+    "url": "https://www.britannica.com/place/Kingdom-of-Naples"
+   }
+  ],
+  "nota": "Voce nuova. Il nome viene da una sommossa scoppiata presso una chiesa fuori Palermo all’ora del vespro, il lunedì di Pasqua 30 marzo 1282, contro il regime di Carlo I d’Angiò; Pietro III d’Aragona aveva preparato la rivolta (Britannica). Il regno di Napoli perde così la Sicilia, la cui corona passa agli Aragonesi (Britannica). La pace di Caltabellotta del 31 agosto 1302 chiude la guerra. La guerra del Vespro è collegata anche alla Sardegna: per risolverla il papa creò nel 1297 il regno di Sardegna e Corsica per gli Aragonesi (Treccani, voce Pietro III d’Arborea, già citata in questa versione).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-divina-commedia",
+  "name": "Dante scrive la Divina Commedia",
+  "start_year": 1308,
+  "end_year": 1321,
+  "date_confidence": "medium",
+  "summary": "In esilio da Firenze, Dante racconta in volgare toscano, e non in latino, il viaggio attraverso Inferno, Purgatorio e Paradiso: un poema che fonda la lingua letteraria italiana.",
+  "region": "Europa",
+  "subregion": "Toscana e Italia settentrionale",
+  "lat": 43.771,
+  "lon": 11.256,
+  "label": "Firenze · città di Dante",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "event_type": "culture",
+  "place_name": "Italia",
+  "focus": "europa",
+  "related": [
+   "movement-italian-communes",
+   "movement-italian-renaissance"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "The Divine Comedy",
+    "url": "https://www.britannica.com/topic/The-Divine-Comedy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dante Alighieri",
+    "url": "https://www.britannica.com/biography/Dante-Alighieri"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did Dante contribute to the development of an Italian literary language?",
+    "url": "https://www.britannica.com/event/How-did-Dante-contribute-to-the-development-of-an-Italian-literary-language"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italian literature: Dante (1265–1321)",
+    "url": "https://www.britannica.com/art/Italian-literature/Comic-verse"
+   }
+  ],
+  "nota": "Voce nuova. Britannica data la Commedia al 1308–21 circa: poema in tre cantiche, iniziato negli anni dell’esilio da Firenze (dal 1302), scritto in terzine. La scelta del volgare toscano al posto del latino ebbe un impatto rivoluzionario e pose le basi dell’italiano letterario standard (Britannica). Dante nasce a Firenze nel 1265 e muore a Ravenna nel 1321. Il punto indica Firenze, città d’origine; il poema fu scritto in esilio, in più luoghi.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-concilio-di-trento",
+  "name": "Concilio di Trento",
+  "start_year": 1545,
+  "end_year": 1563,
+  "date_confidence": "high",
+  "summary": "Convocato da papa Paolo III, il concilio risponde alla Riforma protestante: fissa i sette sacramenti e il canone delle Scritture, riforma il clero e diventa il cuore della Controriforma cattolica.",
+  "region": "Europa",
+  "subregion": "Trentino",
+  "lat": 46.067,
+  "lon": 11.121,
+  "label": "Trento",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "event_type": "religion",
+  "place_name": "Trento",
+  "focus": "europa",
+  "related": [
+   "event-riforma-protestante-e-guerre-di-religione",
+   "religion-christianity",
+   "movement-jesuits-global"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Council of Trent",
+    "url": "https://www.britannica.com/event/Council-of-Trent"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Council of Trent summary",
+    "url": "https://www.britannica.com/summary/Council-of-Trent"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Counter-Reformation",
+    "url": "https://www.britannica.com/event/Counter-Reformation"
+   }
+  ],
+  "nota": "Voce nuova. Il Concilio di Trento si tenne in tre periodi tra il 1545 e il 1563 ed è la risposta ufficiale cattolica alla Riforma protestante: definisce la dottrina e vara ampie riforme interne (Britannica). Nel primo periodo (1545–47) fissa il canone delle Scritture, i sette sacramenti e la dottrina sul peccato originale, contro la giustificazione per sola fede di Lutero (Britannica). Britannica lo considera l’evento singolo più importante della Controriforma.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "state-republic-of-venice",
+  "name": "Repubblica di Venezia",
+  "start_year": 697,
+  "end_year": 1797,
+  "date_confidence": "medium",
+  "summary": "Per oltre mille anni una repubblica guidata da un doge e poi da un’aristocrazia mercantile: potenza marittima e commerciale del Mediterraneo orientale, rivale di Genova e degli Ottomani, finisce con Napoleone nel 1797.",
+  "region": "Europa",
+  "subregion": "Veneto e Mediterraneo orientale",
+  "lat": 45.434,
+  "lon": 12.338,
+  "label": "Venezia",
+  "layer": "civilta",
+  "relevance": 2,
+  "world_area": "EU",
+  "entity_type": "state",
+  "focus": "europa",
+  "related": [
+   "movement-italian-communes",
+   "civilization-byzantine",
+   "civilization-ottoman",
+   "event-napoleon"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Doge",
+    "url": "https://www.britannica.com/topic/doge"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Venetian Republic",
+    "url": "https://www.britannica.com/topic/Venetian-Republic"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Venice: Zenith of power and end of the republic",
+    "url": "https://www.britannica.com/place/Venice/Zenith-of-power"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did the Treaty of Campo Formio affect the Republic of Venice?",
+    "url": "https://www.britannica.com/event/How-did-the-Treaty-of-Campo-Formio-affect-the-Republic-of-Venice"
+   }
+  ],
+  "nota": "Voce nuova. Secondo la tradizione il primo doge, Paolo Lucio Anafesto, fu eletto nel 697, quando Venezia era formalmente soggetta a Bisanzio; dal XII secolo l’aristocrazia limitò i poteri del doge (Britannica). Potenza marittima e commerciale, combatté Genova per le rotte e gli Ottomani dal XV al XVIII secolo (Britannica). L’ultimo doge, Ludovico Manin, fu deposto il 12 maggio 1797; con il trattato di Campo Formio (17 ottobre 1797) il territorio passò all’Austria (Britannica). Inizio al 697 secondo la tradizione: affidabilità media.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-resistenza-liberazione",
+  "name": "Resistenza e Liberazione",
+  "start_year": 1943,
+  "end_year": 1945,
+  "date_confidence": "high",
+  "summary": "Dopo l’armistizio dell’8 settembre 1943, partigiani di diverse idee, coordinati dai Comitati di liberazione nazionale, combattono l’occupazione tedesca e la Repubblica di Salò; il 25 aprile 1945 il CLN Alta Italia proclama l’insurrezione generale.",
+  "region": "Europa",
+  "subregion": "Italia centro-settentrionale",
+  "lat": 45.464,
+  "lon": 9.19,
+  "label": "Milano · guida dell’insurrezione",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "event_type": "war",
+  "place_name": "Italia",
+  "focus": "europa",
+  "related": [
+   "event-world-war-two",
+   "event-fascism-italy",
+   "event-italian-republic-referendum",
+   "event-costituzione-italiana"
+  ],
+  "fonti": [
+   {
+    "institution": "Senato della Repubblica",
+    "title": "Transizione costituzionale",
+    "url": "https://www.senato.it/legislature/regno/transizione-costituzionale"
+   },
+   {
+    "institution": "Treccani",
+    "title": "La Resistenza (Dizionario di Storia)",
+    "url": "https://www.treccani.it/enciclopedia/la-resistenza_(Dizionario-di-Storia)/"
+   },
+   {
+    "institution": "Treccani",
+    "title": "Perché il 25 aprile?",
+    "url": "https://www.treccani.it/magazine/atlante/cultura/Perche_25_aprile.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: The partisans and the Resistance",
+    "url": "https://www.britannica.com/place/Italy/The-partisans-and-the-Resistance"
+   }
+  ],
+  "nota": "Voce nuova. La Resistenza italiana prese avvio dopo l’annuncio dell’armistizio dell’8 settembre 1943 (Treccani); il 9 settembre nacquero il CLN, presieduto da Ivanoe Bonomi, e il CLN Alta Italia, presieduto da Ferruccio Parri (Senato). Il 25 aprile 1945 il CLNAI assunse i poteri civili e militari e proclamò l’insurrezione generale: furono liberate Milano e Genova, poi Torino il 26 e altre città il 28 (Senato). La fine delle ostilità in Italia arrivò il 3 maggio 1945 (Treccani). Britannica: partigiani di diverse tendenze collaboravano nei CLN locali.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-federico-ii-melfi",
+  "name": "Federico II e la corte di Sicilia",
+  "start_year": 1198,
+  "end_year": 1250,
+  "date_confidence": "high",
+  "summary": "Re di Sicilia da bambino e poi imperatore, Federico II fa della sua corte una delle più brillanti d’Europa: con le Costituzioni di Melfi (1231) dà al regno il primo codice di leggi statale dai tempi di Giustiniano, e i poeti della Scuola siciliana scrivono in volgare.",
+  "region": "Europa",
+  "subregion": "Regno di Sicilia",
+  "lat": 38.111,
+  "lon": 13.353,
+  "label": "Palermo · corte di Federico II",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "politics",
+  "place_name": "Regno di Sicilia",
+  "focus": "europa",
+  "related": [
+   "event-vespri-siciliani",
+   "event-crusades",
+   "event-divina-commedia"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Frederick II: Years as a Crusader",
+    "url": "https://www.britannica.com/biography/Frederick-II-Holy-Roman-emperor/Years-as-a-Crusader"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Constitutions of Melfi",
+    "url": "https://www.britannica.com/topic/Constitutions-of-Melfi"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italian literature: the Sicilian school",
+    "url": "https://www.britannica.com/art/Italian-literature"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Frederick II",
+    "url": "https://kids.britannica.com/students/article/Frederick-II/274426"
+   }
+  ],
+  "nota": "Voce nuova. Federico II, nato a Jesi nel 1194, è incoronato re di Sicilia nel maggio 1198 ed è imperatore dal 1220 al 1250; la sua corte in Sicilia fu tra le più brillanti d’Europa e nel 1224 fondò l’Università di Napoli (Britannica). Nell’agosto 1231 a Melfi emana le nuove costituzioni per il regno di Sicilia: non si codificava il diritto amministrativo di uno stato europeo dai tempi di Giustiniano (Britannica). Alla corte siciliana nacque una lirica in volgare sul modello provenzale (Britannica, Scuola siciliana).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-sacco-di-roma-1527",
+  "name": "Sacco di Roma",
+  "start_year": 1527,
+  "end_year": 1527,
+  "date_confidence": "high",
+  "summary": "Truppe imperiali di Carlo V, in gran parte mercenari non pagati, saccheggiano Roma per giorni mentre il papa si rifugia in Castel Sant’Angelo: l’evento chiude la stagione romana del Rinascimento.",
+  "region": "Europa",
+  "subregion": "Lazio",
+  "lat": 41.903,
+  "lon": 12.466,
+  "label": "Roma · Castel Sant’Angelo",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "war",
+  "place_name": "Roma",
+  "focus": "europa",
+  "related": [
+   "movement-italian-renaissance",
+   "event-riforma-protestante-e-guerre-di-religione"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: The age of Charles V",
+    "url": "https://www.britannica.com/place/Italy/The-age-of-Charles-V"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Clement VII",
+    "url": "https://www.britannica.com/biography/Clement-VII-pope"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Rome: Evolution of the modern city",
+    "url": "https://www.britannica.com/place/Rome/Evolution-of-the-modern-city"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why did the Sack of Rome in 1527 mark the end of the Renaissance in Italy?",
+    "url": "https://www.britannica.com/event/Why-did-the-Sack-of-Rome-in-1527-mark-the-end-of-the-Renaissance-in-Italy"
+   }
+  ],
+  "nota": "Voce nuova. Dopo che papa Clemente VII si era alleato con la Francia (lega di Cognac), circa 12.000 soldati imperiali di Carlo V, in gran parte fanti luterani non pagati, attaccano e saccheggiano Roma il 6 maggio 1527; il papa si rifugia in Castel Sant’Angelo (Britannica). In otto giorni migliaia di chiese, palazzi e case vengono saccheggiati; il sacco pone fine al primato di Roma come centro del Rinascimento (Britannica). Britannica precisa che l’attacco non fu ordinato dall’imperatore ma partì da truppe ammutinate.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-miracolo-economico-italiano",
+  "name": "Miracolo economico italiano",
+  "start_year": 1958,
+  "end_year": 1963,
+  "date_confidence": "high",
+  "summary": "In pochi anni l’Italia passa da paese in gran parte agricolo a potenza industriale, con l’industria che cresce di oltre l’8% l’anno; centinaia di migliaia di persone lasciano il Sud per le fabbriche del Nord.",
+  "region": "Europa",
+  "subregion": "Italia",
+  "lat": 45.486,
+  "lon": 9.204,
+  "label": "Milano · Stazione Centrale",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "EU",
+  "event_type": "economy",
+  "place_name": "Italia",
+  "focus": "europa",
+  "related": [
+   "state-italian-republic",
+   "event-treaties-of-rome"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: The economic miracle",
+    "url": "https://www.britannica.com/place/Italy/The-economic-miracle"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: Postwar economic development",
+    "url": "https://www.britannica.com/place/Italy/Postwar-economic-development"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Milan: People",
+    "url": "https://www.britannica.com/place/Milan-Italy/Landscape"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: Development of heavy industry",
+    "url": "https://www.britannica.com/place/Italy/Manufacturing"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italy: Italy from the 1960s",
+    "url": "https://www.britannica.com/place/Italy/Italy-from-the-1960s"
+   }
+  ],
+  "nota": "Voce nuova. Gli anni dal 1958 al 1963 sono detti il miracolo economico italiano: il PIL cresce in media del 5,9% l’anno tra il 1950 e il 1963, con un picco dell’8,3% nel 1961 (Britannica); negli anni del boom l’industria cresce di oltre l’8% l’anno. La migrazione interna dal Sud raggiunse il culmine proprio negli anni del miracolo, quando migliaia di immigrati arrivavano ogni giorno alla Stazione Centrale di Milano (Britannica). Tra i fattori: Piano Marshall, CECA e Mercato comune dal 1958. Dagli anni Sessanta l’Italia completa la trasformazione da paese in gran parte agricolo e relativamente povero a uno dei paesi più avanzati (Britannica).",
+  "data": "2026-11-23"
+ }
+]
