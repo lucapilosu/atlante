@@ -273,10 +273,11 @@
     "tradition-domus-de-janas"
    ],
    "source_ids": [
-    "src-monte-daccoddi-official"
+    "src-monte-daccoddi-official",
+    "src-v-sardegna-cultura-sassari-altare-prenuragico-di-m"
    ],
-   "editorial_status": "needs_review",
-   "notes": "Le date sono quelle delle fasi attestate nel contesto di Monte d'Accoddi e non vanno estese automaticamente a ogni area dell'isola. Le denominazioni Ozieri I e Ozieri II indicano articolazioni cronologiche, non due entità politiche.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: La fase Ozieri II è datata tra il 3550 e il 2900 a.C. (sito ufficiale di Monte d’Accoddi); Sardegna Cultura colloca la fase evoluta tra il 3200 e il 2800 a.C. La fine intorno al 2900 a.C. è confermata. Non verificato sulle fonti: l’inizio nel 4400 a.C. (le fonti consultate datano solo le fasi avanzate).",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "focus": "sardegna",
    "layer": "civilta",
@@ -301,7 +302,8 @@
      "a": "Daniel Ventura",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "tradition-domus-de-janas",
@@ -310,7 +312,7 @@
    "region": "Europa",
    "subregion": "Sardegna",
    "start_year": -5000,
-   "end_year": -3000,
+   "end_year": -2000,
    "date_precision": "millennia",
    "date_confidence": "high",
    "summary": "Tradizione di tombe ipogeiche scavate nella roccia, spesso articolate in più ambienti e decorate con motivi simbolici e figurativi. Le necropoli sono distribuite in tutta la Sardegna e documentano pratiche funerarie e trasformazioni sociali dal Neolitico all'età dei metalli.",
@@ -333,10 +335,12 @@
     "culture-nuragic"
    ],
    "source_ids": [
-    "src-unesco-domus"
+    "src-unesco-domus",
+    "src-v-unesco-world-heritage-centre-new-inscribed-prope",
+    "src-v-commissione-nazionale-italiana-per-lunesco-le-do"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "UNESCO descrive il patrimonio seriale e il fenomeno di circa 3.500 ipogei sull'isola. Il periodo V-III millennio a.C. è un intervallo generale: singole tombe possono avere fasi di uso, riuso e ristrutturazione differenti.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Tombe scavate nella roccia («case delle fate») create tra il V e il III millennio a.C. (UNESCO); iscritte nel Patrimonio mondiale il 12 luglio 2025, 61° sito italiano. Fine corretta da 3000 a 2000 a.C. per comprendere tutto il III millennio indicato da UNESCO.",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "focus": "sardegna",
    "layer": "civilta",
@@ -361,7 +365,8 @@
      "a": "Mauro Mereu",
      "l": "CC BY-SA 2.5"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-monte-daccoddi",
@@ -387,10 +392,13 @@
     "tradition-domus-de-janas"
    ],
    "source_ids": [
+    "src-v-ministero-della-cultura-santuario-di-monte-dacco",
+    "src-v-ministero-della-cultura-altare-prenuragico-di-mo",
+    "src-v-sardegna-cultura-sassari-altare-prenuragico-di-m",
     "src-monte-daccoddi-official"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "Fasi indicate dalla pagina ufficiale del sito: San Ciriaco/Ozieri I circa 4400-3500 a.C.; Ozieri II circa 3550-2900 a.C.; villaggio della cultura Abealzu circa 2700-2400 a.C. L'abbandono all'inizio dell'età del Bronzo è indicato dalla fonte senza un anno preciso.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Santuario usato tra il IV e il III millennio a.C., occupato a fasi dal Neolitico al Bronzo antico (sito ufficiale): un primo altare, il «Tempio Rosso», sorge in una fase avanzata della cultura di Ozieri; dopo un incendio, verso il 2800 a.C., si costruisce l’altare a gradoni visibile oggi, 37×30 m con rampa di 42 m (Ministero della Cultura). La sepoltura di un bambino della cultura di Bonnanaro (1800 a.C. circa) segna l’abbandono definitivo: la fine nel 2400 a.C. dell’atlante è quindi prudente.",
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
    "focus": "sardegna",
    "layer": "luoghi",
@@ -415,7 +423,8 @@
      "a": "Daniel Ventura",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-tharros",
@@ -440,10 +449,12 @@
     "culture-nuragic"
    ],
    "source_ids": [
+    "src-v-ministero-della-cultura-area-archeologica-di-tha",
+    "src-v-ministero-della-cultura-idese-tharros-archaeolog",
     "src-idese-tharros"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "La scheda ministeriale riporta una cronologia complessiva VIII secolo a.C.-XI secolo d.C. e indica la fondazione fenicia nel VII secolo a.C. L'intervallo numerico qui adottato segue la cronologia complessiva VIII secolo a.C.-XI secolo d.C.; conservare le fasi punica, romana e bizantina come sotto-periodi distinti.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Città fondata alla fine dell’VIII secolo a.C. da coloni fenici, forse di Sidone, dove esisteva già un villaggio nuragico; conquistata dai Romani nel 238–237 a.C. (Ministero della Cultura). Cronologia del sito: VIII secolo a.C. – XI secolo d.C., quando fu abbandonata (IDESE).",
    "related_entity_labels": [
     "Cartagine (entità da normalizzare)",
     "Roma (entità già presente nel prototipo, da normalizzare)"
@@ -472,7 +483,8 @@
      "a": "Sailko",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-villanovan",
@@ -500,11 +512,14 @@
    ],
    "related_entities": [],
    "source_ids": [
+    "src-v-encyclopaedia-britannica-villanovan-culture",
+    "src-v-encyclopaedia-britannica-ancient-italic-people-h",
+    "src-v-world-history-encyclopedia-etruscan-civilization-2",
     "src-muv-villanovan",
     "src-rmo-villanovan"
    ],
-   "editorial_status": "needs_review",
-   "notes": "Il Comune di Castenaso indica IX-VII secolo a.C. e la fase di formazione degli Etruschi. La cronologia e la geografia vanno rese più granulari per le diverse facies regionali.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Prima età del Ferro in Italia, dal nome di Villanova presso Bologna (necropoli scoperta nel 1853); compare nel X o IX secolo a.C., con cremazione e urne biconiche (Britannica). È considerata la fase iniziale della civiltà etrusca, datata IX–VIII secolo a.C. (Britannica; World History Encyclopedia: circa 900–750 a.C.).",
    "related_entity_labels": [
     "Etruschi (entità già presente nel prototipo, da normalizzare)"
    ],
@@ -531,7 +546,8 @@
      "a": "sailko",
      "l": "CC BY 2.5"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-minoan-palatial",
@@ -1089,11 +1105,12 @@
     "culture-nazca"
    ],
    "source_ids": [
-    "src-met-andes",
-    "src-peru-travel-history"
+    "src-v-metropolitan-museum-of-art-central-and-southern",
+    "src-v-metropolitan-museum-of-art-peruvian-featherworks",
+    "src-met-andes"
    ],
-   "editorial_status": "research-seed",
-   "notes": "Cronologia di sintesi e non uniforme; le culture archeologiche non vanno interpretate automaticamente come stati o imperi. Punto indicativo nella regione di Ica; non rappresenta l'intera distribuzione dei siti.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati circa 700 a.C.–100 d.C. per le culture Paracas della costa meridionale del Perù (Met; altre pubblicazioni del Met danno 600–100 a.C.). Verso il 300 a.C. sulla penisola di Paracas i morti vengono sepolti in fagotti funerari avvolti in strati di tessuti ricamati. Tolta una fonte turistica.",
    "map_note": "Ancora geografica rappresentativa: non indica confini o controllo territoriale.",
    "layer": "civilta",
    "relevance": 3,
@@ -1117,7 +1134,8 @@
      "a": "Alfred W. Jenkins Fund",
      "l": "No restrictions"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-nazca",
@@ -1257,11 +1275,11 @@
     "civilization-inca"
    ],
    "source_ids": [
-    "src-met-andes",
-    "src-smithsonian-inka-road"
+    "src-v-metropolitan-museum-of-art-peruvian-featherworks",
+    "src-met-andes"
    ],
-   "editorial_status": "research-seed",
-   "notes": "Cronologia di sintesi e non uniforme; le culture archeologiche non vanno interpretate automaticamente come stati o imperi. Punto indicativo presso il centro archeologico di Huari, vicino ad Ayacucho.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermati circa 600–1000 (Met, che fa precedere Wari da Paracas, Nasca e Moche e seguire da Sicán, Chancay e Chimú). Tolta una fonte fuori tema (mostra sulla strada inca).",
    "map_note": "Ancora geografica rappresentativa: non indica confini o controllo territoriale.",
    "layer": "civilta",
    "relevance": 3,
@@ -1285,7 +1303,8 @@
      "a": "Autore sconosciuto",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-chimu",
@@ -1312,11 +1331,12 @@
     "civilization-inca"
    ],
    "source_ids": [
-    "src-smithsonian-inka-road",
-    "src-peru-travel-history"
+    "src-v-encyclopaedia-britannica-chimu",
+    "src-v-world-history-encyclopedia-chimu-civilization",
+    "src-v-metropolitan-museum-of-art-central-and-southern-2"
    ],
-   "editorial_status": "research-seed",
-   "notes": "Cronologia di sintesi e non uniforme; le culture archeologiche non vanno interpretate automaticamente come stati o imperi. Punto indicativo presso Chan Chan, capitale Chimú.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Regno di Chimor con capitale Chan Chan sulla costa settentrionale del Perù, fiorente tra XII e XV secolo (World History Encyclopedia; Britannica: circa 1000–1465). Conquistato dagli Inca tra il 1465 e il 1470 (Britannica); verso il 1470 gli Inca saccheggiano Chan Chan e portano i metallurghi a Cuzco (Met). L’inizio nel 900 è il limite alto delle stime. Tolte una fonte fuori tema e una turistica.",
    "map_note": "Ancora geografica rappresentativa: non indica confini o controllo territoriale.",
    "layer": "civilta",
    "relevance": 3,
@@ -1340,7 +1360,8 @@
      "a": "Vedi Wikimedia Commons",
      "l": "CC BY-SA 2.0"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-olmec",
@@ -3838,9 +3859,10 @@
     "culture-rapanui"
    ],
    "source_ids": [
+    "src-v-unesco-world-heritage-centre-rapa-nui-national-p",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "map_note": "Coordinata indicativa del sito archeologico.",
    "focus": "rapa-nui",
    "layer": "luoghi",
@@ -3865,7 +3887,9 @@
      "a": "Bjørn Christian Tørrissen",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Ahu Tongariki è la più grande delle piattaforme cerimoniali dell’isola, con 15 moai (UNESCO). Le date seguono l’arco XI–XVII secolo indicato da UNESCO per ahu e moai.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-orongo",
@@ -3889,9 +3913,11 @@
     "culture-rapanui"
    ],
    "source_ids": [
+    "src-v-rapa-nui-journal-studio-sui-petroglifi-del-culto",
+    "src-v-icomos-rapa-nui-no-715-valutazione",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "map_note": "Coordinata indicativa del sito archeologico.",
    "focus": "rapa-nui",
    "layer": "luoghi",
@@ -3916,7 +3942,9 @@
      "a": "American at German Wikipedia",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Il villaggio cerimoniale di ʻOrongo sta sul bordo del vulcano spento Rano Kau; vi si radunavano i partecipanti alla gara annuale per il primo uovo della sterna fuligginosa dall’isolotto di Motu Nui, che sceglieva l’uomo-uccello sacro (Rapa Nui Journal). La valutazione ICOMOS lega il culto dell’uomo-uccello agli isolotti al largo di Orongo, subentrato alla religione dei moai. Non verificato sulle fonti: le date 1100–1700, generiche per i siti dell’isola: il villaggio è legato soprattutto alla fase tarda del culto.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-rano-kau",
@@ -3940,9 +3968,11 @@
     "culture-rapanui"
    ],
    "source_ids": [
+    "src-v-rapa-nui-journal-studio-sui-petroglifi-del-culto",
+    "src-v-unesco-world-heritage-centre-rapa-nui-national-p",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "map_note": "Coordinata indicativa del sito archeologico.",
    "focus": "rapa-nui",
    "layer": "luoghi",
@@ -3961,7 +3991,9 @@
      "a": "Bjørn Christian Tørrissen",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Rano Kau è il vulcano spento sul cui bordo sorge il villaggio cerimoniale di ʻOrongo (Rapa Nui Journal); fa parte del Parco nazionale Rapa Nui (UNESCO). Non verificato sulle fonti: lago interno, ecologia del cratere e contesti abitativi del settore orientale (non controllati in queste fonti).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-anakena",
@@ -3985,14 +4017,18 @@
     "culture-rapanui"
    ],
    "source_ids": [
+    "src-v-science-late-colonization-of-easter-island",
+    "src-v-university-of-hawaii-at-manoa-evidence-suggests",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "map_note": "Coordinata indicativa del sito archeologico.",
    "focus": "rapa-nui",
    "layer": "luoghi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Anakena è l’unica duna di sabbia dell’isola e il luogo di approdo e insediamento dei primi abitanti; i suoi strati più antichi, datati al radiocarbonio, indicano una colonizzazione tarda, intorno al 1200 (Hunt e Lipo, Science 2006). Non verificato sulle fonti: Ahu Nau Nau (non controllato in queste fonti).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "site-ahu-akivi",
@@ -4016,9 +4052,10 @@
     "culture-rapanui"
    ],
    "source_ids": [
+    "src-v-icomos-rapa-nui-no-715-valutazione",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "map_note": "Coordinata indicativa del sito archeologico.",
    "focus": "rapa-nui",
    "layer": "luoghi",
@@ -4031,7 +4068,9 @@
      "a": "Ian Sewell",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Ahu Akivi è composto da sette grandi moai (valutazione ICOMOS per l’iscrizione UNESCO). Le interpretazioni astronomiche restano da trattare con cautela, come già indicato nella voce. Non verificato sulle fonti: la posizione all’interno dell’isola e l’orientamento (non controllati in questa fonte).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "culture-lapita",
@@ -10709,7 +10748,7 @@
    "event_type": "construction",
    "start_year": -1500,
    "end_year": -1350,
-   "date_precision": "range",
+   "date_precision": "approximate",
    "date_confidence": "medium",
    "place_id": "site-su-nuraxi",
    "related_entity_ids": [
@@ -10717,9 +10756,11 @@
    ],
    "summary": "Realizzazione del mastio, la torre centrale del complesso di Su Nuraxi.",
    "source_ids": [
+    "src-unesco-su-nuraxi",
+    "src-v-musei-della-sardegna-su-nuraxi-archaeological-si",
     "src-musei-sardegna-su-nuraxi"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Europa",
    "subregion": "Sardegna",
    "focus": "sardegna",
@@ -10739,7 +10780,16 @@
      "a": "Norbert Nagel",
      "l": "CC BY-SA 3.0"
     }
-   ]
+   ],
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.705833,
+    "longitude": 8.991389,
+    "label": "Su Nuraxi, Barumini",
+    "precision": "representative_anchor"
+   },
+   "notes": "Verificata il 23/11/2026: UNESCO data la torre centrale alla seconda metà del II millennio a.C., nell’età del Bronzo; i Musei della Sardegna fanno partire la civiltà nuragica dal 1500 a.C. L’intervallo 1500–1350 a.C. è una stima: precisione segnata come approssimata. Aggiunto il punto sulla mappa a Barumini.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-initial-settlement",
@@ -10754,12 +10804,14 @@
    ],
    "summary": "Le cronologie archeologiche e genetiche recenti collocano generalmente il popolamento polinesiano di Rapa Nui nel XII-XIII secolo d.C. La datazione più antica proposta in passato sulla base di un singolo campione è stata contestata e sottoposta a nuova analisi.",
    "source_ids": [
+    "src-v-science-late-colonization-of-easter-island",
+    "src-v-nature-ancient-rapanui-genomes-reveal-resilience",
     "src-nature-rapanui-genomes",
     "src-jpa-rapanui-redating",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "needs_review",
-   "notes": "La ricerca del 2021 su due contesti abitativi di Rano Kau ha ottenuto nuove date calibrate dal 1221 d.C. in avanti per il focolare di una casa rettangolare; il vecchio dato AD 770 ± 230 non è considerato una prova solida di un insediamento così antico. L'intervallo 1150-1280 è un quadro generale da mantenere con incertezza, non una data puntuale di sbarco. Collegare questo evento alla scheda Rapa Nui già presente nel prototipo, evitando di creare una seconda entità-civiltà duplicata.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Le datazioni degli strati più antichi di Anakena indicano una colonizzazione intorno al 1200 (Hunt e Lipo, Science 2006), invece del 400–800 accettato in passato sulla base di pochi campioni; lo studio genomico del 2024 parte da un popolamento intorno al 1250. L’intervallo 1150–1280 resta coerente con queste fonti.",
    "place_name": "Rapa Nui (Isola di Pasqua)",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
@@ -10786,7 +10838,8 @@
      "a": "NASA",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-roman-conquest-sardinia",
@@ -10800,10 +10853,12 @@
    "related_entity_ids": [],
    "summary": "Roma prende il controllo della Sardegna nel 238 a.C.; nelle città dell'isola, tra cui Tharros, le strutture e gli impianti urbani punici vengono progressivamente adattati e trasformati secondo pratiche e modelli romani.",
    "source_ids": [
+    "src-v-ministero-della-cultura-area-archeologica-di-tha",
+    "src-v-musei-della-sardegna-archaeological-area-of-thar",
     "src-idese-tharros"
    ],
-   "editorial_status": "seed-verified",
-   "notes": "La data è indicata nella scheda ministeriale di Tharros. L'evento segna il passaggio del controllo politico, ma non una sostituzione immediata delle pratiche, delle popolazioni o delle forme culturali locali.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermata: la conquista romana della Sardegna è del 238 a.C. (Musei della Sardegna); Tharros passa ai Romani nel 238–237 a.C. (Ministero della Cultura). Dalla seconda metà del VI secolo a.C. l’isola era sotto Cartagine. Aggiunto un punto indicativo sulla Sardegna.",
    "related_entity_labels": [
     "Roma (entità già presente nel prototipo, da normalizzare)"
    ],
@@ -10832,7 +10887,15 @@
      "a": "Ariosa1959",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "map_geometry": {
+    "type": "point",
+    "latitude": 40.0,
+    "longitude": 9.0,
+    "label": "Sardegna · punto indicativo",
+    "precision": "representative_anchor"
+   },
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-industrial-revolution",
@@ -11024,10 +11087,11 @@
     "state-italian-republic"
    ],
    "source_ids": [
-    "src-quirinale-repubblica"
+    "src-v-senato-della-repubblica-il-2-giugno-1946-festa-d",
+    "src-v-senato-della-repubblica-transizione-costituziona"
    ],
-   "editorial_status": "prototype-seed",
-   "notes": "Separare l’evento referendario del 1946 dall’entrata in vigore della Costituzione nel 1948.",
+   "editorial_status": "source-checked",
+   "notes": "Verificata il 23/11/2026: Confermato: il 2 giugno 1946 si tengono insieme il referendum istituzionale e l’elezione dell’Assemblea Costituente; la repubblica vince con 12.718.641 voti contro 10.718.502 (Senato). Il 9 maggio Vittorio Emanuele III aveva abdicato a favore di Umberto II. Sostituita la fonte generica (pagina principale del Quirinale).",
    "event_type": "historical_event",
    "focus": "europa",
    "layer": "eventi",
@@ -11052,7 +11116,8 @@
      "a": "Autore sconosciuto",
      "l": "Public domain"
     }
-   ]
+   ],
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-urbanizzazione-di-uruk",
@@ -13077,9 +13142,10 @@
    ],
    "summary": "Il miglioramento e l’impiego industriale della macchina a vapore contribuiscono alla trasformazione dei sistemi produttivi e dei trasporti.",
    "source_ids": [
-    "src-ou-science-history"
+    "src-v-world-history-encyclopedia-the-steam-engine-in-t",
+    "src-v-encyclopaedia-britannica-industrial-revolution-k"
    ],
-   "editorial_status": "editorial-expansion",
+   "editorial_status": "source-checked",
    "layer": "tecnologie",
    "relevance": 3,
    "world_area": "EU",
@@ -13102,7 +13168,9 @@
      "a": "André Karwath aka Aka",
      "l": "CC BY-SA 2.5"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Nata come pompa negli anni 1690, la macchina a vapore fu migliorata da James Watt nel 1769 (brevetto) e nel 1778 con Matthew Boulton; nel 1800 la Gran Bretagna contava oltre 2.500 macchine a vapore, soprattutto in miniere, filande di cotone e fabbriche (World History Encyclopedia). La rivoluzione industriale britannica è collocata tra gli anni Sessanta del Settecento e gli anni Trenta dell’Ottocento (Britannica).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-french-revolution",
@@ -13533,16 +13601,20 @@
    ],
    "summary": "Le comunità Rapa Nui intensificano pratiche agricole adattate a un’isola ventosa e con suoli vulnerabili: giardini protetti da pietre, pacciamatura litica, cavità e strutture manavai, oltre alla gestione di risorse idriche e microambienti.",
    "source_ids": [
+    "src-v-antiquity-prehistoric-agricultural-production-on",
+    "src-v-university-of-arizona-study-challenges-popular-i",
     "src-unesco-rapanui",
     "src-oxford-rapanui-archaeology"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "eventi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Gli agricoltori di Rapa Nui usavano otto tipi di campi e giardini, con la pacciamatura litica per trattenere l’umidità; dal XIII secolo crescono i campi gestiti dalle élite, insieme alle grandi strutture religiose (Antiquity 1999). Uno studio del 2024 su Science Advances stima che i giardini di pietre bastassero per poche migliaia di persone (University of Arizona).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-birdman-cult",
@@ -13558,10 +13630,12 @@
    ],
    "summary": "A Orongo si documenta la tradizione rituale del tangata manu, legata alla competizione per ottenere il primo uovo stagionale del manutara sugli isolotti al largo. Il culto e il villaggio cerimoniale rappresentano una trasformazione importante delle pratiche rituali dell’isola; la cronologia precisa delle origini è discussa.",
    "source_ids": [
+    "src-v-icomos-rapa-nui-no-715-valutazione",
+    "src-v-rapa-nui-journal-studio-sui-petroglifi-del-culto",
     "src-unesco-rapanui",
     "src-jpa-rapanui-warfare"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
@@ -13581,7 +13655,9 @@
      "a": "Manta22",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Il culto dell’uomo-uccello (tangata manu), con la gara annuale per il primo uovo di manutara dall’isolotto di Motu Nui e il raduno a ʻOrongo, è uno sviluppo della tarda preistoria dell’isola (Rapa Nui Journal) e subentrò alla religione delle statue (ICOMOS). Non verificato sulle fonti: le date 1600–1860 (le fonti istituzionali consultate non le precisano; fonti divulgative indicano XVIII e metà del XIX secolo).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-first-european-contact",
@@ -13596,16 +13672,20 @@
    ],
    "summary": "Il navigatore olandese Jacob Roggeveen raggiunge l’isola la domenica di Pasqua del 1722 e la registra con il nome Paasch-Eyland. Il contatto apre una nuova fase di relazioni, descrizioni e pressioni esterne.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-jacob-roggeveen",
+    "src-v-metropolitan-museum-of-art-easter-island",
     "src-met-rapanui",
     "src-quai-branly-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "eventi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Confermato: l’ammiraglio olandese Jacob Roggeveen vide l’isola la domenica di Pasqua del 1722 e la visitò per un solo giorno; quando arrivarono gli europei la tradizione dei moai era già in declino (Met).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-slave-raids",
@@ -13620,16 +13700,19 @@
    ],
    "summary": "Incursioni di mercanti e razziatori peruviani portano alla cattura e deportazione di una parte enorme della popolazione Rapa Nui verso il Perù, in particolare alle isole Chincha. Le deportazioni, insieme a malattie e violenze coloniali, provocano una frattura demografica e nella trasmissione di conoscenze.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-easter-island-people-an",
     "src-quai-branly-rapanui",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "eventi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Confermato: verso il 1860 l’isola contava circa 3.000 abitanti; una grande razzia schiavista partita dal Perù nel 1862, seguita da epidemie di vaiolo, li ridusse a 111 nel 1877 (Britannica). Non verificato sulle fonti: la destinazione alle isole Chincha (non controllata in questa fonte).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-catholic-mission",
@@ -13644,15 +13727,18 @@
    ],
    "summary": "Si stabilisce la prima missione cattolica permanente sull’isola, in una fase di drastica riduzione della popolazione e di trasformazioni religiose, sociali e linguistiche.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-easter-island-people-an",
     "src-quai-branly-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "persone-idee",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Britannica conferma l’arrivo dei missionari nel 1864, che introdussero il dialetto tahitiano in una popolazione ormai decimata. Non verificato sulle fonti: il carattere «permanente» della missione nel 1864 (non precisato nella fonte).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-chilean-annexation",
@@ -13667,15 +13753,18 @@
    ],
    "summary": "L’isola viene annessa dal Cile attraverso l’accordo noto come Acuerdo de Voluntades. La storia successiva è segnata da rapporti complessi tra comunità Rapa Nui, Stato cileno, proprietà della terra e amministrazione del territorio.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-easter-island",
     "src-quai-branly-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "eventi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Confermato: il Cile annette l’isola nel 1888; gli isolani ottengono la piena cittadinanza cilena nel 1965 e l’isola fa parte della regione di Valparaíso (Britannica). Non verificato sulle fonti: il nome dell’accordo (Acuerdo de Voluntades), non citato in questa fonte.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-unesco-listing",
@@ -13690,9 +13779,10 @@
    ],
    "summary": "Il Parco nazionale Rapa Nui viene iscritto nella Lista del Patrimonio mondiale UNESCO, riconoscendo il valore universale del paesaggio culturale e delle testimonianze archeologiche dell’isola.",
    "source_ids": [
+    "src-v-encyclopaedia-britannica-easter-island-summary",
     "src-unesco-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
@@ -13718,7 +13808,9 @@
      "a": "Jdiazacu",
      "l": "CC BY-SA 4.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermato: l’isola, annessa dal Cile nel 1888, è stata iscritta nel Patrimonio mondiale UNESCO nel 1995 (Britannica).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-precontact-americas",
@@ -13733,15 +13825,18 @@
    ],
    "summary": "Le analisi genomiche pubblicate nel 2024 rilevano una componente di ascendenza indigena americana in individui Rapanui antichi, compatibile con contatti transpacifici prima dell’arrivo europeo. La finestra cronologica è stimata su base genetica e non dimostra una migrazione di massa, una rotta precisa o un insediamento americano stabile.",
    "source_ids": [
+    "src-v-nature-ancient-rapanui-genomes-reveal-resilience",
     "src-nature-rapanui-genomes"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "eventi",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Confermato: i Rapanui antichi e attuali hanno circa il 10% di ascendenza indigena americana; un modello bayesiano che unisce dati genetici e datazioni al radiocarbonio colloca la mescolanza intorno al 1250–1430 (Nature, 2024).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-genomic-study-2024",
@@ -13756,15 +13851,18 @@
    ],
    "summary": "Uno studio su Nature analizza genomi Rapanui antichi e identifica evidenze di contatti pre-europei con popolazioni indigene delle Americhe, contribuendo a rivedere le ricostruzioni della storia del popolamento e delle connessioni oceaniche.",
    "source_ids": [
+    "src-v-nature-ancient-rapanui-genomes-reveal-resilience",
     "src-nature-rapanui-genomes"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
    "layer": "tecnologie",
    "relevance": 3,
-   "world_area": "OC"
+   "world_area": "OC",
+   "notes": "Verificata il 23/11/2026: Confermato: Nature 633, 389–397, pubblicato a settembre 2024. Lo studio rifiuta la teoria dell’«ecocidio», cioè un crollo della popolazione nel Seicento per sfruttamento delle risorse, e trova circa il 10% di ascendenza indigena americana, entrata intorno al 1250–1430.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-rapanui-rongorongo-dating-2024",
@@ -13779,10 +13877,11 @@
    ],
    "summary": "Un nuovo studio pubblica datazioni radiocarboniche di tavolette con iscrizioni roŋoroŋo e riapre la discussione sull’origine e sulla cronologia del sistema di segni. Il corpus resta non decifrato e le nuove datazioni non costituiscono una traduzione.",
    "source_ids": [
+    "src-v-scientific-reports-the-invention-of-writing-on-r",
     "src-scirep-rongorongo-2024",
     "src-quai-branly-rapanui"
    ],
-   "editorial_status": "seed-verified",
+   "editorial_status": "source-checked",
    "region": "Oceania",
    "subregion": "Rapa Nui (Isola di Pasqua)",
    "focus": "rapa-nui",
@@ -13808,7 +13907,9 @@
      "a": "Jefes rapanui - Rapanui chiefs",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermato: lo studio del 2 febbraio 2024 ha datato al radiocarbonio quattro tavolette conservate a Roma; una dà una data sicura alla metà del XV secolo, le altre cadono nell’Ottocento. Secondo gli autori l’uso della scrittura potrebbe precedere l’arrivo di influenze esterne; la scrittura resta non decifrata.",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-bandung-conference",
@@ -16314,10 +16415,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-icomos-jesuit-missions-of-la-santisima-trinidad",
+    "src-v-unesco-world-heritage-centre-jesuit-missions-of",
+    "src-v-encyclopaedia-britannica-doctrinas-de-guaranies"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 3,
    "world_area": "SA",
@@ -16343,7 +16445,9 @@
      "a": "Carlos Correa Loyola from Loja, Ecuador",
      "l": "CC BY 2.0"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermati 1609–1767: nel 1609 la Corona spagnola concede ai Gesuiti la zona di frontiera del Paraguay, dove nascono 30 riduzioni (8 nell’attuale Paraguay, 15 in Argentina, 7 in Brasile) (ICOMOS); con l’espulsione dei Gesuiti nel 1767 gli abitanti delle missioni vengono dispersi, spesso ridotti in schiavitù (Britannica).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-tasman-voyages",
@@ -16363,9 +16467,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-abel-tasman",
+    "src-v-ministry-for-culture-and-heritage-first-recorded"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 3,
    "world_area": "OC",
@@ -16391,7 +16496,9 @@
      "a": "Jacob Gerritsz. Cuyp",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermati: primo viaggio 1642–43 e secondo nel 1644 per la Compagnia olandese delle Indie orientali; primo europeo ad avvistare Tasmania, Nuova Zelanda, Tonga e Figi (Britannica). Avvistò la Tasmania il 24 novembre e la Nuova Zelanda il 13 dicembre 1642 (NZHistory).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-magellan-elcano",
@@ -18034,9 +18141,9 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-history-of-paraguay"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 3,
    "world_area": "SA",
@@ -18062,7 +18169,9 @@
      "a": "Hendrik Jacobus Vinkhuijzen",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermata: la guerra della Triplice Alleanza (1864/65–1870), il conflitto più sanguinoso della storia latinoamericana, oppose il Paraguay ad Argentina, Brasile e Uruguay; finì con la morte di Francisco Solano López il 1° marzo 1870; Argentina e Brasile annetterono circa 55.000 miglia quadrate di territorio paraguaiano (Britannica).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-cook-voyages",
@@ -20040,10 +20149,11 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-unesco-world-heritage-list",
-    "src-openstax-world-history-2"
+    "src-v-unesco-world-heritage-centre-brasilia",
+    "src-v-encyclopaedia-britannica-brasilia-summary",
+    "src-v-encyclopaedia-britannica-brasilia-britannica-kid"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "luoghi",
    "relevance": 3,
    "world_area": "SA",
@@ -20069,7 +20179,9 @@
      "a": "FML (Wikimedia Commons)",
      "l": "Public domain"
     }
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermata: capitale creata dal nulla nel centro del paese tra il 1956 e il 1960 (UNESCO), progettata da Lúcio Costa e Oscar Niemeyer; nel 1960 il governo comincia a trasferirsi da Rio de Janeiro (Britannica). La capitale fu trasferita ufficialmente il 21 aprile 1960 (Britannica Kids).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-chile-coup-1973",
@@ -20223,9 +20335,10 @@
     "precision": "representative_anchor"
    },
    "source_ids": [
-    "src-openstax-world-history-2"
+    "src-v-encyclopaedia-britannica-oceania-history",
+    "src-v-encyclopaedia-britannica-history-of-vanuatu"
    ],
-   "editorial_status": "base-draft",
+   "editorial_status": "source-checked",
    "layer": "eventi",
    "relevance": 3,
    "world_area": "OC",
@@ -20233,7 +20346,9 @@
    "place_name": "Samoa, Nauru, Figi, Papua Nuova Guinea, Vanuatu",
    "related_entity_ids": [
     "movement-decolonization"
-   ]
+   ],
+   "notes": "Verificata il 23/11/2026: Confermato: Samoa indipendente nel 1962, poi Nauru (1968), Figi e Tonga (1970), Papua Nuova Guinea (1975), Isole Salomone (1978), Isole Marshall e Kiribati (1979) e Vanuatu (1980, il 30 luglio) (Britannica).",
+   "verified_on": "2026-11-23"
   },
   {
    "id": "event-spanish-flu",
@@ -21145,7 +21260,8 @@
    "source_type": "world_heritage_record",
    "supports": [
     "culture-nuragic",
-    "site-su-nuraxi"
+    "site-su-nuraxi",
+    "event-su-nuraxi-main-tower"
    ],
    "notes": "Scheda del sito, descrizione architettonica e quadro della frequentazione."
   },
@@ -21474,8 +21590,6 @@
    "url": "https://americanindian.si.edu/inkaroad/ancestors/beginningsoftheroad/introduction.html",
    "source_type": "museum_research_resource",
    "supports": [
-    "culture-wari",
-    "culture-chimu",
     "civilization-inca",
     "event-ashoka-edicts",
     "event-1533-inca"
@@ -21626,7 +21740,6 @@
    "supports": [
     "event-copernicus",
     "event-newton-principia",
-    "event-industrial-steam",
     "event-darwin-origin",
     "event-dna",
     "event-moon-landing"
@@ -22340,21 +22453,16 @@
     "event-isfahan-shah-abbas",
     "event-st-augustine",
     "event-new-amsterdam",
-    "event-jesuit-reductions",
-    "event-tasman-voyages",
     "event-young-turks",
     "event-indian-national-congress",
     "event-first-sino-japanese-war",
     "event-california-gold-rush",
     "event-canadian-confederation",
-    "event-paraguayan-war",
     "event-opec",
     "event-suez-crisis",
     "event-african-union",
     "event-bangladesh-independence",
-    "event-asean",
-    "event-brasilia",
-    "event-pacific-independences"
+    "event-asean"
    ]
   },
   {
@@ -22378,12 +22486,10 @@
     "state-bukhara-khanate",
     "state-new-spain",
     "event-classical-athens",
-    "event-jesuit-reductions",
     "event-australia-colonization",
     "event-holocaust",
     "event-apartheid",
-    "event-hiroshima-nagasaki",
-    "event-brasilia"
+    "event-hiroshima-nagasaki"
    ]
   },
   {
@@ -29128,7 +29234,8 @@
    "source_type": "encyclopedia",
    "supports": [
     "movement-industrialization",
-    "event-industrial-revolution"
+    "event-industrial-revolution",
+    "event-industrial-steam"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -29261,7 +29368,8 @@
    "source_type": "institutional_document",
    "supports": [
     "culture-nuragic",
-    "site-su-nuraxi"
+    "site-su-nuraxi",
+    "event-su-nuraxi-main-tower"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -29855,7 +29963,8 @@
    "url": "https://www.senato.it/legislature/regno/transizione-costituzionale",
    "source_type": "institutional_document",
    "supports": [
-    "state-italy-kingdom"
+    "state-italy-kingdom",
+    "event-italian-republic-referendum"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -29866,7 +29975,8 @@
    "url": "https://www.senato.it/CESUS/2giugno/",
    "source_type": "institutional_document",
    "supports": [
-    "state-italian-republic"
+    "state-italian-republic",
+    "event-italian-republic-referendum"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -29954,7 +30064,8 @@
    "url": "https://www.metmuseum.org/toah/ht/04/sac.html",
    "source_type": "museum_or_educational",
    "supports": [
-    "culture-chavin"
+    "culture-chavin",
+    "culture-paracas"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -30254,6 +30365,8 @@
    "supports": [
     "culture-rapanui",
     "site-rano-raraku",
+    "site-ahu-tongariki",
+    "site-rano-kau",
     "event-rapanui-moai-tradition"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
@@ -30266,6 +30379,457 @@
    "source_type": "world_heritage_record",
    "supports": [
     "site-rano-raraku"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-rapa-nui-journal-studio-sui-petroglifi-del-culto",
+   "institution": "Rapa Nui Journal (University of Hawaiʻi, ScholarSpace)",
+   "title": "Studio sui petroglifi del culto dell’uomo-uccello a ʻOrongo",
+   "url": "https://evols.library.manoa.hawaii.edu/bitstreams/b652fd86-f0ad-4aca-b8aa-905616e0e24b/download",
+   "source_type": "academic_article",
+   "supports": [
+    "site-orongo",
+    "site-rano-kau",
+    "event-rapanui-birdman-cult"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-icomos-rapa-nui-no-715-valutazione",
+   "institution": "ICOMOS (UNESCO)",
+   "title": "Rapa Nui No 715 · valutazione",
+   "url": "https://whc.unesco.org/archive/advisory_body_evaluation/715.pdf",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-orongo",
+    "site-ahu-akivi",
+    "event-rapanui-birdman-cult"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-science-late-colonization-of-easter-island",
+   "institution": "Science (Hunt e Lipo, 2006) · PubMed",
+   "title": "Late colonization of Easter Island",
+   "url": "https://www.pubmed.gov/16527931/",
+   "source_type": "academic_article",
+   "supports": [
+    "site-anakena",
+    "event-rapanui-initial-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-university-of-hawaii-at-manoa-evidence-suggests",
+   "institution": "University of Hawaiʻi at Mānoa",
+   "title": "Evidence suggests colonization of Rapa Nui took place later than previously assumed",
+   "url": "https://manoa.hawaii.edu/news/article.php?aId=1364",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-anakena"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-ancient-rapanui-genomes-reveal-resilience",
+   "institution": "Nature (Moreno-Mayar et al., 2024) · Università di Vienna",
+   "title": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas",
+   "url": "https://ucrisportal.univie.ac.at/en/publications/ancient-rapanui-genomes-reveal-resilience-and-pre-european-contac-2/",
+   "source_type": "academic_article",
+   "supports": [
+    "event-rapanui-initial-settlement",
+    "event-rapanui-precontact-americas",
+    "event-rapanui-genomic-study-2024"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-antiquity-prehistoric-agricultural-production-on",
+   "institution": "Antiquity (Stevenson, Wozniak e Haoa, 1999) · eHRAF Yale",
+   "title": "Prehistoric agricultural production on Easter Island (Rapa Nui), Chile",
+   "url": "https://ehrafworldcultures.yale.edu/cultures/oy02/documents/022",
+   "source_type": "academic_article",
+   "supports": [
+    "event-rapanui-agricultural-landscape"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-university-of-arizona-study-challenges-popular-i",
+   "institution": "University of Arizona",
+   "title": "Study challenges popular idea that Easter Islanders committed ‘ecocide’",
+   "url": "https://news.arizona.edu/news/study-challenges-popular-idea-easter-islanders-committed-ecocide",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-rapanui-agricultural-landscape"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-jacob-roggeveen",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Jacob Roggeveen",
+   "url": "https://www.britannica.com/biography/Jacob-Roggeveen",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-rapanui-first-european-contact"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-easter-island",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Easter Island",
+   "url": "https://metmuseum.org/TOAH/HD/eais/hd_eais.htm",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "event-rapanui-first-european-contact"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-easter-island-people-an",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Easter Island: People and history",
+   "url": "https://www.britannica.com/place/Easter-Island/People",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-rapanui-slave-raids",
+    "event-rapanui-catholic-mission"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-easter-island",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Easter Island",
+   "url": "https://www.britannica.com/place/Easter-Island",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-rapanui-chilean-annexation"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-easter-island-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Easter Island (summary)",
+   "url": "https://www.britannica.com/summary/Easter-Island",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-rapanui-unesco-listing"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-the-invention-of-writing-on-r",
+   "institution": "Scientific Reports (Ferrara et al., 2024) · Università di Bologna",
+   "title": "The invention of writing on Rapa Nui (Easter Island). New radiocarbon dates on the Rongorongo script",
+   "url": "https://cris.unibo.it/handle/11585/955616",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-rapanui-rongorongo-dating-2024"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-abel-tasman",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Abel Tasman",
+   "url": "https://www.britannica.com/biography/Abel-Tasman",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tasman-voyages"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministry-for-culture-and-heritage-first-recorded",
+   "institution": "Ministry for Culture and Heritage (NZ) · NZHistory",
+   "title": "First recorded European sighting of New Zealand",
+   "url": "https://nzhistory.govt.nz/abel-tasman-sights-the-southern-alps-becoming-the-first-european-to-see-nz",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-tasman-voyages"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-oceania-history",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Oceania: History",
+   "url": "https://www.britannica.com/place/Oceania-region-Pacific-Ocean",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-pacific-independences"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-vanuatu",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Vanuatu",
+   "url": "https://www.britannica.com/topic/history-of-Vanuatu",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-pacific-independences"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-new-inscribed-prope",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "New Inscribed Properties 2025",
+   "url": "https://whc.unesco.org/en/newproperties/date=1982&mode=list",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tradition-domus-de-janas"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-commissione-nazionale-italiana-per-lunesco-le-do",
+   "institution": "Commissione Nazionale Italiana per l’UNESCO",
+   "title": "Le domus de janas, 61° sito italiano iscritto nella Lista del Patrimonio Mondiale",
+   "url": "https://www.unesco.it/it/news/tradizioni-funerarie-nella-preistoria-della-sardegna-le-domus-de-janas-ecco-il-61-sito-italiano-iscritto-nella-lista-del-patrimonio-mondiale-unesco/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "tradition-domus-de-janas"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-sardegna-cultura-sassari-altare-prenuragico-di-m",
+   "institution": "Sardegna Cultura (Regione Sardegna)",
+   "title": "Sassari, Altare prenuragico di Monte d’Accoddi",
+   "url": "https://www.sardegnacultura.it/en/articles/sassari-altare-prenuragico-di-monte-daccoddi",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-ozieri",
+    "site-monte-daccoddi"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministero-della-cultura-santuario-di-monte-dacco",
+   "institution": "Ministero della Cultura · Santuario di Monte d’Accoddi",
+   "title": "Monte d’Accoddi Prehistoric Sanctuary",
+   "url": "https://montedaccoddi.cultura.gov.it/en/home-accoddi-en/",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-monte-daccoddi"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministero-della-cultura-altare-prenuragico-di-mo",
+   "institution": "Ministero della Cultura",
+   "title": "Altare prenuragico di Monte d’Accoddi",
+   "url": "https://cultura.gov.it/luogo/altare-prenuragico-di-monte-d-accoddi",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-monte-daccoddi"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-villanovan-culture",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Villanovan culture",
+   "url": "https://www.britannica.com/topic/Villanovan-culture",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-villanovan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ancient-italic-people-h",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ancient Italic people: Historical periods",
+   "url": "https://www.britannica.com/topic/ancient-Italic-people",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-villanovan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-etruscan-civilization-2",
+   "institution": "World History Encyclopedia",
+   "title": "Etruscan Civilization",
+   "url": "https://www.worldhistory.org/Etruscan_Civilization/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-villanovan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministero-della-cultura-area-archeologica-di-tha",
+   "institution": "Ministero della Cultura",
+   "title": "Area archeologica di Tharros",
+   "url": "https://cultura.gov.it/luogo/area-archeologica-di-tharros",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-tharros",
+    "event-roman-conquest-sardinia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ministero-della-cultura-idese-tharros-archaeolog",
+   "institution": "Ministero della Cultura · IDESE",
+   "title": "Tharros archaeological site",
+   "url": "https://idese.cultura.gov.it/en/?p=25570",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-tharros"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-musei-della-sardegna-archaeological-area-of-thar",
+   "institution": "Musei della Sardegna (Ministero della Cultura)",
+   "title": "Archaeological area of Tharros",
+   "url": "https://musei.sardegna.beniculturali.it/?p=10382",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-roman-conquest-sardinia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-the-steam-engine-in-t",
+   "institution": "World History Encyclopedia",
+   "title": "The Steam Engine in the British Industrial Revolution",
+   "url": "https://www.worldhistory.org/article/2166/the-steam-engine-in-the-british-industrial-revolut/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-industrial-steam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-peruvian-featherworks",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Peruvian Featherworks: Art of the Precolumbian Era",
+   "url": "https://www.metmuseum.org/met-publications/peruvian-featherworks-art-of-the-precolumbian-era",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-paracas",
+    "culture-wari"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-chimu",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Chimú",
+   "url": "https://www.britannica.com/topic/Chimu",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-chimu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-world-history-encyclopedia-chimu-civilization",
+   "institution": "World History Encyclopedia",
+   "title": "Chimu Civilization",
+   "url": "https://www.worldhistory.org/Chimu_Civilization/",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-chimu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-central-and-southern-2",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Central and Southern Andes, 1400–1600 A.D. (Heilbrunn Timeline)",
+   "url": "https://www.metmuseum.org/toah/ht/08/sanc",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-chimu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-icomos-jesuit-missions-of-la-santisima-trinidad",
+   "institution": "ICOMOS (UNESCO)",
+   "title": "Jesuit Missions of La Santisima Trinidad de Parana and Jesus de Tavarangue · valutazione",
+   "url": "https://whc.unesco.org/document/153950",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "event-jesuit-reductions"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-jesuit-missions-of",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Jesuit Missions of the Guaranis",
+   "url": "https://whc.unesco.org/en/list/275/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "event-jesuit-reductions"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-doctrinas-de-guaranies",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Doctrinas de Guaranies",
+   "url": "https://www.britannica.com/topic/Doctrinas-de-Guaranies",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-jesuit-reductions"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-paraguay",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Paraguay",
+   "url": "https://www.britannica.com/topic/history-of-Paraguay",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-paraguayan-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-brasilia",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Brasilia",
+   "url": "https://whc.unesco.org/en/list/445/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "event-brasilia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-brasilia-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Brasília (summary)",
+   "url": "https://www.britannica.com/summary/Brasilia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-brasilia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-brasilia-britannica-kid",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Brasília (Britannica Kids)",
+   "url": "https://kids.britannica.com/students/article/Brasilia/273335",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-brasilia"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   }
@@ -30283,7 +30847,8 @@
   "v0.51: verificate sulle fonti le 176 voci di base con rilevanza 2 (registro in tools/verifica/registro_v051_rilevanza2.json); 29 voci corrette, 26 con dettagli segnalati come non verificati.",
   "v0.55: verificati su fonti specifiche i 20 eventi con anno esatto che avevano affidabilità media (registro in tools/verifica/registro_v055_anni_esatti.json); 17 passati ad affidabilità alta, 3 lasciati a media perché la data è tradizionale o discussa (Qarawiyyin, Cai Lun, patto di Diriyah).",
   "v0.62 (23 novembre 2026): verificate con fonti specifiche le 34 voci di rilevanza 1 che non lo erano ancora; tolte le fonti generiche iniziali dove sostituite.",
-  "v0.64 (23 novembre 2026): verificate con fonti specifiche le 41 voci di rilevanza 2 che non lo erano ancora; tolte fonti generiche, homepage e fonti fuori tema dove sostituite."
+  "v0.64 (23 novembre 2026): verificate con fonti specifiche le 41 voci di rilevanza 2 che non lo erano ancora; tolte fonti generiche, homepage e fonti fuori tema dove sostituite.",
+  "v0.66 (23 novembre 2026): blocco 3a della verifica, 33 voci di rilevanza 3 (Oceania e Rapa Nui, Sardegna ed Europa, America meridionale)."
  ],
  "technology_domains": [
   {

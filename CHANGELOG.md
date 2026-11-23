@@ -1,5 +1,12 @@
 # Registro delle versioni
 
+## v0.66 · 23 novembre 2026
+
+- **Verifica, blocco 3a: 33 voci di rilevanza 3** con fonti specifiche: le 18 voci dell'Oceania (Rapa Nui con UNESCO, Britannica, Met, Nature 2024, Scientific Reports 2024, Science 2006; viaggi di Tasman; indipendenze del Pacifico), le 9 della Sardegna e dell'Europa (domus de janas, Ozieri, Monte d'Accoddi, Su Nuraxi, Villanoviani, Tharros, conquista romana, macchina a vapore, referendum del 1946; fonti UNESCO, Ministero della Cultura, Regione Sardegna, Senato, Britannica) e le 6 dell'America meridionale (Paracas, Wari, Chimú, riduzioni gesuitiche, guerra del Paraguay, Brasília). Restano 33 voci, il blocco 3b.
+- Correzioni: domus de janas fino al 2000 a.C. (UNESCO: dal V al III millennio a.C.; prima fino al 3000); torre di Su Nuraxi segnata come datazione approssimata. Nuovi punti sulla mappa per la torre di Su Nuraxi e la conquista romana della Sardegna.
+- Dove le fonti non coprono una frase della voce, la nota lo dice (per esempio le date del culto dell'uomo-uccello, Ahu Nau Nau ad Anakena, il nome dell'accordo di annessione di Rapa Nui al Cile).
+- Tolte fonti generiche o fuori tema: pagina turistica sul Perù, mostra sulla strada inca su Wari e Chimú, homepage del Quirinale, elenco UNESCO generico per riduzioni gesuitiche e Brasília.
+
 ## v0.65 · 23 novembre 2026
 
 - **La «Tavola del tempo · prova» diventa «Il mosaico del tempo»** (nome scelto da Luca): «Mosaico» nella barra in alto su PC, «Il mosaico del tempo» in «Altro» su telefono e tablet e come titolo della pagina; tolto «prova». Nuovo indirizzo `#mosaico`; il vecchio `#tavola` funziona ancora.

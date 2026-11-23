@@ -1,0 +1,589 @@
+[
+ {
+  "id": "site-ahu-tongariki",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati e dichiarazione di valore",
+    "url": "https://whc.unesco.org/document/217157"
+   }
+  ],
+  "nota": "Ahu Tongariki è la più grande delle piattaforme cerimoniali dell’isola, con 15 moai (UNESCO). Le date seguono l’arco XI–XVII secolo indicato da UNESCO per ahu e moai.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-orongo",
+  "fonti": [
+   {
+    "institution": "Rapa Nui Journal (University of Hawaiʻi, ScholarSpace)",
+    "title": "Studio sui petroglifi del culto dell’uomo-uccello a ʻOrongo",
+    "url": "https://evols.library.manoa.hawaii.edu/bitstreams/b652fd86-f0ad-4aca-b8aa-905616e0e24b/download"
+   },
+   {
+    "institution": "ICOMOS (UNESCO)",
+    "title": "Rapa Nui No 715 · valutazione",
+    "url": "https://whc.unesco.org/archive/advisory_body_evaluation/715.pdf"
+   }
+  ],
+  "nota": "Il villaggio cerimoniale di ʻOrongo sta sul bordo del vulcano spento Rano Kau; vi si radunavano i partecipanti alla gara annuale per il primo uovo della sterna fuligginosa dall’isolotto di Motu Nui, che sceglieva l’uomo-uccello sacro (Rapa Nui Journal). La valutazione ICOMOS lega il culto dell’uomo-uccello agli isolotti al largo di Orongo, subentrato alla religione dei moai.",
+  "parziale": "le date 1100–1700, generiche per i siti dell’isola: il villaggio è legato soprattutto alla fase tarda del culto.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-rano-kau",
+  "fonti": [
+   {
+    "institution": "Rapa Nui Journal (University of Hawaiʻi, ScholarSpace)",
+    "title": "Studio sui petroglifi del culto dell’uomo-uccello a ʻOrongo",
+    "url": "https://evols.library.manoa.hawaii.edu/bitstreams/b652fd86-f0ad-4aca-b8aa-905616e0e24b/download"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park · dati e dichiarazione di valore",
+    "url": "https://whc.unesco.org/document/217157"
+   }
+  ],
+  "nota": "Rano Kau è il vulcano spento sul cui bordo sorge il villaggio cerimoniale di ʻOrongo (Rapa Nui Journal); fa parte del Parco nazionale Rapa Nui (UNESCO).",
+  "parziale": "lago interno, ecologia del cratere e contesti abitativi del settore orientale (non controllati in queste fonti).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-anakena",
+  "fonti": [
+   {
+    "institution": "Science (Hunt e Lipo, 2006) · PubMed",
+    "title": "Late colonization of Easter Island",
+    "url": "https://www.pubmed.gov/16527931/"
+   },
+   {
+    "institution": "University of Hawaiʻi at Mānoa",
+    "title": "Evidence suggests colonization of Rapa Nui took place later than previously assumed",
+    "url": "https://manoa.hawaii.edu/news/article.php?aId=1364"
+   }
+  ],
+  "nota": "Anakena è l’unica duna di sabbia dell’isola e il luogo di approdo e insediamento dei primi abitanti; i suoi strati più antichi, datati al radiocarbonio, indicano una colonizzazione tarda, intorno al 1200 (Hunt e Lipo, Science 2006).",
+  "parziale": "Ahu Nau Nau (non controllato in queste fonti).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-ahu-akivi",
+  "fonti": [
+   {
+    "institution": "ICOMOS (UNESCO)",
+    "title": "Rapa Nui No 715 · valutazione",
+    "url": "https://whc.unesco.org/archive/advisory_body_evaluation/715.pdf"
+   }
+  ],
+  "nota": "Ahu Akivi è composto da sette grandi moai (valutazione ICOMOS per l’iscrizione UNESCO). Le interpretazioni astronomiche restano da trattare con cautela, come già indicato nella voce.",
+  "parziale": "la posizione all’interno dell’isola e l’orientamento (non controllati in questa fonte).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-initial-settlement",
+  "fonti": [
+   {
+    "institution": "Science (Hunt e Lipo, 2006) · PubMed",
+    "title": "Late colonization of Easter Island",
+    "url": "https://www.pubmed.gov/16527931/"
+   },
+   {
+    "institution": "Nature (Moreno-Mayar et al., 2024) · Università di Vienna",
+    "title": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas",
+    "url": "https://ucrisportal.univie.ac.at/en/publications/ancient-rapanui-genomes-reveal-resilience-and-pre-european-contac-2/"
+   }
+  ],
+  "nota": "Le datazioni degli strati più antichi di Anakena indicano una colonizzazione intorno al 1200 (Hunt e Lipo, Science 2006), invece del 400–800 accettato in passato sulla base di pochi campioni; lo studio genomico del 2024 parte da un popolamento intorno al 1250. L’intervallo 1150–1280 resta coerente con queste fonti.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-agricultural-landscape",
+  "fonti": [
+   {
+    "institution": "Antiquity (Stevenson, Wozniak e Haoa, 1999) · eHRAF Yale",
+    "title": "Prehistoric agricultural production on Easter Island (Rapa Nui), Chile",
+    "url": "https://ehrafworldcultures.yale.edu/cultures/oy02/documents/022"
+   },
+   {
+    "institution": "University of Arizona",
+    "title": "Study challenges popular idea that Easter Islanders committed ‘ecocide’",
+    "url": "https://news.arizona.edu/news/study-challenges-popular-idea-easter-islanders-committed-ecocide"
+   }
+  ],
+  "nota": "Gli agricoltori di Rapa Nui usavano otto tipi di campi e giardini, con la pacciamatura litica per trattenere l’umidità; dal XIII secolo crescono i campi gestiti dalle élite, insieme alle grandi strutture religiose (Antiquity 1999). Uno studio del 2024 su Science Advances stima che i giardini di pietre bastassero per poche migliaia di persone (University of Arizona).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-precontact-americas",
+  "fonti": [
+   {
+    "institution": "Nature (Moreno-Mayar et al., 2024) · Università di Vienna",
+    "title": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas",
+    "url": "https://ucrisportal.univie.ac.at/en/publications/ancient-rapanui-genomes-reveal-resilience-and-pre-european-contac-2/"
+   }
+  ],
+  "nota": "Confermato: i Rapanui antichi e attuali hanno circa il 10% di ascendenza indigena americana; un modello bayesiano che unisce dati genetici e datazioni al radiocarbonio colloca la mescolanza intorno al 1250–1430 (Nature, 2024).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-birdman-cult",
+  "fonti": [
+   {
+    "institution": "ICOMOS (UNESCO)",
+    "title": "Rapa Nui No 715 · valutazione",
+    "url": "https://whc.unesco.org/archive/advisory_body_evaluation/715.pdf"
+   },
+   {
+    "institution": "Rapa Nui Journal (University of Hawaiʻi, ScholarSpace)",
+    "title": "Studio sui petroglifi del culto dell’uomo-uccello a ʻOrongo",
+    "url": "https://evols.library.manoa.hawaii.edu/bitstreams/b652fd86-f0ad-4aca-b8aa-905616e0e24b/download"
+   }
+  ],
+  "nota": "Il culto dell’uomo-uccello (tangata manu), con la gara annuale per il primo uovo di manutara dall’isolotto di Motu Nui e il raduno a ʻOrongo, è uno sviluppo della tarda preistoria dell’isola (Rapa Nui Journal) e subentrò alla religione delle statue (ICOMOS).",
+  "parziale": "le date 1600–1860 (le fonti istituzionali consultate non le precisano; fonti divulgative indicano XVIII e metà del XIX secolo).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-first-european-contact",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jacob Roggeveen",
+    "url": "https://www.britannica.com/biography/Jacob-Roggeveen"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Easter Island",
+    "url": "https://metmuseum.org/TOAH/HD/eais/hd_eais.htm"
+   }
+  ],
+  "nota": "Confermato: l’ammiraglio olandese Jacob Roggeveen vide l’isola la domenica di Pasqua del 1722 e la visitò per un solo giorno; quando arrivarono gli europei la tradizione dei moai era già in declino (Met).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-slave-raids",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Easter Island: People and history",
+    "url": "https://www.britannica.com/place/Easter-Island/People"
+   }
+  ],
+  "nota": "Confermato: verso il 1860 l’isola contava circa 3.000 abitanti; una grande razzia schiavista partita dal Perù nel 1862, seguita da epidemie di vaiolo, li ridusse a 111 nel 1877 (Britannica).",
+  "parziale": "la destinazione alle isole Chincha (non controllata in questa fonte).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-catholic-mission",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Easter Island: People and history",
+    "url": "https://www.britannica.com/place/Easter-Island/People"
+   }
+  ],
+  "nota": "Britannica conferma l’arrivo dei missionari nel 1864, che introdussero il dialetto tahitiano in una popolazione ormai decimata.",
+  "parziale": "il carattere «permanente» della missione nel 1864 (non precisato nella fonte).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-chilean-annexation",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Easter Island",
+    "url": "https://www.britannica.com/place/Easter-Island"
+   }
+  ],
+  "nota": "Confermato: il Cile annette l’isola nel 1888; gli isolani ottengono la piena cittadinanza cilena nel 1965 e l’isola fa parte della regione di Valparaíso (Britannica).",
+  "parziale": "il nome dell’accordo (Acuerdo de Voluntades), non citato in questa fonte.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-unesco-listing",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Easter Island (summary)",
+    "url": "https://www.britannica.com/summary/Easter-Island"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Rapa Nui National Park",
+    "url": "https://whc.unesco.org/en/list/715/"
+   }
+  ],
+  "nota": "Confermato: l’isola, annessa dal Cile nel 1888, è stata iscritta nel Patrimonio mondiale UNESCO nel 1995 (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-genomic-study-2024",
+  "fonti": [
+   {
+    "institution": "Nature (Moreno-Mayar et al., 2024) · Università di Vienna",
+    "title": "Ancient Rapanui genomes reveal resilience and pre-European contact with the Americas",
+    "url": "https://ucrisportal.univie.ac.at/en/publications/ancient-rapanui-genomes-reveal-resilience-and-pre-european-contac-2/"
+   }
+  ],
+  "nota": "Confermato: Nature 633, 389–397, pubblicato a settembre 2024. Lo studio rifiuta la teoria dell’«ecocidio», cioè un crollo della popolazione nel Seicento per sfruttamento delle risorse, e trova circa il 10% di ascendenza indigena americana, entrata intorno al 1250–1430.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-rapanui-rongorongo-dating-2024",
+  "fonti": [
+   {
+    "institution": "Scientific Reports (Ferrara et al., 2024) · Università di Bologna",
+    "title": "The invention of writing on Rapa Nui (Easter Island). New radiocarbon dates on the Rongorongo script",
+    "url": "https://cris.unibo.it/handle/11585/955616"
+   }
+  ],
+  "nota": "Confermato: lo studio del 2 febbraio 2024 ha datato al radiocarbonio quattro tavolette conservate a Roma; una dà una data sicura alla metà del XV secolo, le altre cadono nell’Ottocento. Secondo gli autori l’uso della scrittura potrebbe precedere l’arrivo di influenze esterne; la scrittura resta non decifrata.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-tasman-voyages",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Abel Tasman",
+    "url": "https://www.britannica.com/biography/Abel-Tasman"
+   },
+   {
+    "institution": "Ministry for Culture and Heritage (NZ) · NZHistory",
+    "title": "First recorded European sighting of New Zealand",
+    "url": "https://nzhistory.govt.nz/abel-tasman-sights-the-southern-alps-becoming-the-first-european-to-see-nz"
+   }
+  ],
+  "nota": "Confermati: primo viaggio 1642–43 e secondo nel 1644 per la Compagnia olandese delle Indie orientali; primo europeo ad avvistare Tasmania, Nuova Zelanda, Tonga e Figi (Britannica). Avvistò la Tasmania il 24 novembre e la Nuova Zelanda il 13 dicembre 1642 (NZHistory).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-pacific-independences",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Oceania: History",
+    "url": "https://www.britannica.com/place/Oceania-region-Pacific-Ocean"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Vanuatu",
+    "url": "https://www.britannica.com/topic/history-of-Vanuatu"
+   }
+  ],
+  "nota": "Confermato: Samoa indipendente nel 1962, poi Nauru (1968), Figi e Tonga (1970), Papua Nuova Guinea (1975), Isole Salomone (1978), Isole Marshall e Kiribati (1979) e Vanuatu (1980, il 30 luglio) (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "tradition-domus-de-janas",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Funerary Tradition in the Prehistory of Sardinia – The domus de janas",
+    "url": "https://whc.unesco.org/en/list/1730/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "New Inscribed Properties 2025",
+    "url": "https://whc.unesco.org/en/newproperties/date=1982&mode=list"
+   },
+   {
+    "institution": "Commissione Nazionale Italiana per l’UNESCO",
+    "title": "Le domus de janas, 61° sito italiano iscritto nella Lista del Patrimonio Mondiale",
+    "url": "https://www.unesco.it/it/news/tradizioni-funerarie-nella-preistoria-della-sardegna-le-domus-de-janas-ecco-il-61-sito-italiano-iscritto-nella-lista-del-patrimonio-mondiale-unesco/"
+   }
+  ],
+  "nota": "Tombe scavate nella roccia («case delle fate») create tra il V e il III millennio a.C. (UNESCO); iscritte nel Patrimonio mondiale il 12 luglio 2025, 61° sito italiano. Fine corretta da 3000 a 2000 a.C. per comprendere tutto il III millennio indicato da UNESCO.",
+  "correzioni": {
+   "end_year": -2000
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-ozieri",
+  "fonti": [
+   {
+    "institution": "Ministero della Cultura · Santuario di Monte d’Accoddi",
+    "title": "The Archaeological Site",
+    "url": "https://montedaccoddi.cultura.gov.it/en/the-archaeological-site/"
+   },
+   {
+    "institution": "Sardegna Cultura (Regione Sardegna)",
+    "title": "Sassari, Altare prenuragico di Monte d’Accoddi",
+    "url": "https://www.sardegnacultura.it/en/articles/sassari-altare-prenuragico-di-monte-daccoddi"
+   }
+  ],
+  "nota": "La fase Ozieri II è datata tra il 3550 e il 2900 a.C. (sito ufficiale di Monte d’Accoddi); Sardegna Cultura colloca la fase evoluta tra il 3200 e il 2800 a.C. La fine intorno al 2900 a.C. è confermata.",
+  "parziale": "l’inizio nel 4400 a.C. (le fonti consultate datano solo le fasi avanzate).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-monte-daccoddi",
+  "fonti": [
+   {
+    "institution": "Ministero della Cultura · Santuario di Monte d’Accoddi",
+    "title": "Monte d’Accoddi Prehistoric Sanctuary",
+    "url": "https://montedaccoddi.cultura.gov.it/en/home-accoddi-en/"
+   },
+   {
+    "institution": "Ministero della Cultura",
+    "title": "Altare prenuragico di Monte d’Accoddi",
+    "url": "https://cultura.gov.it/luogo/altare-prenuragico-di-monte-d-accoddi"
+   },
+   {
+    "institution": "Sardegna Cultura (Regione Sardegna)",
+    "title": "Sassari, Altare prenuragico di Monte d’Accoddi",
+    "url": "https://www.sardegnacultura.it/en/articles/sassari-altare-prenuragico-di-monte-daccoddi"
+   }
+  ],
+  "nota": "Santuario usato tra il IV e il III millennio a.C., occupato a fasi dal Neolitico al Bronzo antico (sito ufficiale): un primo altare, il «Tempio Rosso», sorge in una fase avanzata della cultura di Ozieri; dopo un incendio, verso il 2800 a.C., si costruisce l’altare a gradoni visibile oggi, 37×30 m con rampa di 42 m (Ministero della Cultura). La sepoltura di un bambino della cultura di Bonnanaro (1800 a.C. circa) segna l’abbandono definitivo: la fine nel 2400 a.C. dell’atlante è quindi prudente.",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-su-nuraxi-main-tower",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Su Nuraxi di Barumini",
+    "url": "https://whc.unesco.org/en/list/833/"
+   },
+   {
+    "institution": "Musei della Sardegna (Ministero della Cultura)",
+    "title": "“Su Nuraxi” Archaeological site in Barumini",
+    "url": "https://musei.sardegna.beniculturali.it/en/?p=5867"
+   }
+  ],
+  "nota": "UNESCO data la torre centrale alla seconda metà del II millennio a.C., nell’età del Bronzo; i Musei della Sardegna fanno partire la civiltà nuragica dal 1500 a.C. L’intervallo 1500–1350 a.C. è una stima: precisione segnata come approssimata. Aggiunto il punto sulla mappa a Barumini.",
+  "correzioni": {
+   "date_precision": "approximate",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.705833,
+    "longitude": 8.991389,
+    "label": "Su Nuraxi, Barumini",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-villanovan",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Villanovan culture",
+    "url": "https://www.britannica.com/topic/Villanovan-culture"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ancient Italic people: Historical periods",
+    "url": "https://www.britannica.com/topic/ancient-Italic-people"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Etruscan Civilization",
+    "url": "https://www.worldhistory.org/Etruscan_Civilization/"
+   }
+  ],
+  "nota": "Prima età del Ferro in Italia, dal nome di Villanova presso Bologna (necropoli scoperta nel 1853); compare nel X o IX secolo a.C., con cremazione e urne biconiche (Britannica). È considerata la fase iniziale della civiltà etrusca, datata IX–VIII secolo a.C. (Britannica; World History Encyclopedia: circa 900–750 a.C.).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "site-tharros",
+  "fonti": [
+   {
+    "institution": "Ministero della Cultura",
+    "title": "Area archeologica di Tharros",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-tharros"
+   },
+   {
+    "institution": "Ministero della Cultura · IDESE",
+    "title": "Tharros archaeological site",
+    "url": "https://idese.cultura.gov.it/en/?p=25570"
+   }
+  ],
+  "nota": "Città fondata alla fine dell’VIII secolo a.C. da coloni fenici, forse di Sidone, dove esisteva già un villaggio nuragico; conquistata dai Romani nel 238–237 a.C. (Ministero della Cultura). Cronologia del sito: VIII secolo a.C. – XI secolo d.C., quando fu abbandonata (IDESE).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-roman-conquest-sardinia",
+  "fonti": [
+   {
+    "institution": "Ministero della Cultura",
+    "title": "Area archeologica di Tharros",
+    "url": "https://cultura.gov.it/luogo/area-archeologica-di-tharros"
+   },
+   {
+    "institution": "Musei della Sardegna (Ministero della Cultura)",
+    "title": "Archaeological area of Tharros",
+    "url": "https://musei.sardegna.beniculturali.it/?p=10382"
+   }
+  ],
+  "nota": "Confermata: la conquista romana della Sardegna è del 238 a.C. (Musei della Sardegna); Tharros passa ai Romani nel 238–237 a.C. (Ministero della Cultura). Dalla seconda metà del VI secolo a.C. l’isola era sotto Cartagine. Aggiunto un punto indicativo sulla Sardegna.",
+  "correzioni": {
+   "map_geometry": {
+    "type": "point",
+    "latitude": 40.0,
+    "longitude": 9.0,
+    "label": "Sardegna · punto indicativo",
+    "precision": "representative_anchor"
+   }
+  },
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-industrial-steam",
+  "fonti": [
+   {
+    "institution": "World History Encyclopedia",
+    "title": "The Steam Engine in the British Industrial Revolution",
+    "url": "https://www.worldhistory.org/article/2166/the-steam-engine-in-the-british-industrial-revolut/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Industrial Revolution Key Facts",
+    "url": "https://www.britannica.com/summary/Industrial-Revolution-Key-Facts"
+   }
+  ],
+  "nota": "Nata come pompa negli anni 1690, la macchina a vapore fu migliorata da James Watt nel 1769 (brevetto) e nel 1778 con Matthew Boulton; nel 1800 la Gran Bretagna contava oltre 2.500 macchine a vapore, soprattutto in miniere, filande di cotone e fabbriche (World History Encyclopedia). La rivoluzione industriale britannica è collocata tra gli anni Sessanta del Settecento e gli anni Trenta dell’Ottocento (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-italian-republic-referendum",
+  "fonti": [
+   {
+    "institution": "Senato della Repubblica",
+    "title": "Il 2 giugno 1946 · Festa della Repubblica",
+    "url": "https://www.senato.it/CESUS/2giugno/"
+   },
+   {
+    "institution": "Senato della Repubblica",
+    "title": "Transizione costituzionale",
+    "url": "https://www.senato.it/legislature/regno/transizione-costituzionale"
+   }
+  ],
+  "nota": "Confermato: il 2 giugno 1946 si tengono insieme il referendum istituzionale e l’elezione dell’Assemblea Costituente; la repubblica vince con 12.718.641 voti contro 10.718.502 (Senato). Il 9 maggio Vittorio Emanuele III aveva abdicato a favore di Umberto II. Sostituita la fonte generica (pagina principale del Quirinale).",
+  "togli": [
+   "src-quirinale-repubblica"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-paracas",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Central and Southern Andes, 1000 B.C.–1 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/04/sac.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Peruvian Featherworks: Art of the Precolumbian Era",
+    "url": "https://www.metmuseum.org/met-publications/peruvian-featherworks-art-of-the-precolumbian-era"
+   }
+  ],
+  "nota": "Confermati circa 700 a.C.–100 d.C. per le culture Paracas della costa meridionale del Perù (Met; altre pubblicazioni del Met danno 600–100 a.C.). Verso il 300 a.C. sulla penisola di Paracas i morti vengono sepolti in fagotti funerari avvolti in strati di tessuti ricamati. Tolta una fonte turistica.",
+  "togli": [
+   "src-peru-travel-history"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-wari",
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Peruvian Featherworks: Art of the Precolumbian Era",
+    "url": "https://www.metmuseum.org/met-publications/peruvian-featherworks-art-of-the-precolumbian-era"
+   }
+  ],
+  "nota": "Confermati circa 600–1000 (Met, che fa precedere Wari da Paracas, Nasca e Moche e seguire da Sicán, Chancay e Chimú). Tolta una fonte fuori tema (mostra sulla strada inca).",
+  "togli": [
+   "src-smithsonian-inka-road"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "culture-chimu",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chimú",
+    "url": "https://www.britannica.com/topic/Chimu"
+   },
+   {
+    "institution": "World History Encyclopedia",
+    "title": "Chimu Civilization",
+    "url": "https://www.worldhistory.org/Chimu_Civilization/"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Central and Southern Andes, 1400–1600 A.D. (Heilbrunn Timeline)",
+    "url": "https://www.metmuseum.org/toah/ht/08/sanc"
+   }
+  ],
+  "nota": "Regno di Chimor con capitale Chan Chan sulla costa settentrionale del Perù, fiorente tra XII e XV secolo (World History Encyclopedia; Britannica: circa 1000–1465). Conquistato dagli Inca tra il 1465 e il 1470 (Britannica); verso il 1470 gli Inca saccheggiano Chan Chan e portano i metallurghi a Cuzco (Met). L’inizio nel 900 è il limite alto delle stime. Tolte una fonte fuori tema e una turistica.",
+  "togli": [
+   "src-smithsonian-inka-road",
+   "src-peru-travel-history"
+  ],
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-jesuit-reductions",
+  "fonti": [
+   {
+    "institution": "ICOMOS (UNESCO)",
+    "title": "Jesuit Missions of La Santisima Trinidad de Parana and Jesus de Tavarangue · valutazione",
+    "url": "https://whc.unesco.org/document/153950"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Jesuit Missions of the Guaranis",
+    "url": "https://whc.unesco.org/en/list/275/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Doctrinas de Guaranies",
+    "url": "https://www.britannica.com/topic/Doctrinas-de-Guaranies"
+   }
+  ],
+  "nota": "Confermati 1609–1767: nel 1609 la Corona spagnola concede ai Gesuiti la zona di frontiera del Paraguay, dove nascono 30 riduzioni (8 nell’attuale Paraguay, 15 in Argentina, 7 in Brasile) (ICOMOS); con l’espulsione dei Gesuiti nel 1767 gli abitanti delle missioni vengono dispersi, spesso ridotti in schiavitù (Britannica).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-paraguayan-war",
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Paraguay",
+    "url": "https://www.britannica.com/topic/history-of-Paraguay"
+   }
+  ],
+  "nota": "Confermata: la guerra della Triplice Alleanza (1864/65–1870), il conflitto più sanguinoso della storia latinoamericana, oppose il Paraguay ad Argentina, Brasile e Uruguay; finì con la morte di Francisco Solano López il 1° marzo 1870; Argentina e Brasile annetterono circa 55.000 miglia quadrate di territorio paraguaiano (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "id": "event-brasilia",
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Brasilia",
+    "url": "https://whc.unesco.org/en/list/445/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brasília (summary)",
+    "url": "https://www.britannica.com/summary/Brasilia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brasília (Britannica Kids)",
+    "url": "https://kids.britannica.com/students/article/Brasilia/273335"
+   }
+  ],
+  "nota": "Confermata: capitale creata dal nulla nel centro del paese tra il 1956 e il 1960 (UNESCO), progettata da Lúcio Costa e Oscar Niemeyer; nel 1960 il governo comincia a trasferirsi da Rio de Janeiro (Britannica). La capitale fu trasferita ufficialmente il 21 aprile 1960 (Britannica Kids).",
+  "sostituisci_unesco_lista": true,
+  "data": "2026-11-23"
+ }
+]
