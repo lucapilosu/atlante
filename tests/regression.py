@@ -1010,7 +1010,7 @@ async def new_checks(p, R, mobile, name):
     o53 = t53["out"]
     ok53 = (all(v["n"] == 2 and v["open"] and v["info"] for v in o53.values()) and o53["site-chichen-itza"]["date"].startswith("circa ")
             and o53["site-chichen-itza"]["sem"] == "mid" and o53["event-1492"]["date"] == "1492 d.C." and o53["event-1492"]["sem"] == "ok"
-            and o53["culture-botai"]["sem"] == "deb" and sum(t53["cnt"].values()) == t53["n"] and t53["cnt"]["deb"] == 16)  # 16 dalla v0.70: + codici maya (v0.68: espansione austronesiana e Polinesia orientale)
+            and o53["culture-botai"]["sem"] == "deb" and sum(t53["cnt"].values()) == t53["n"] and t53["cnt"]["deb"] == 17)  # 17 dalla v0.71: + zoroastrismo (v0.70 codici maya; v0.68 espansione austronesiana e Polinesia orientale)
     R.check("T53", "Scheda: data con «circa» se approssimata e un solo semaforo della datazione (solida · indicativa · discussa) con i dettagli al tocco", ok53, f"{t53}")
 
     # T54 icone per tipologia: scheda, riepilogo, ricerca; sui punti una forma per tipologia e l'icona piena sul punto scelto; legenda con le forme

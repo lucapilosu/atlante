@@ -1,5 +1,16 @@
 # Registro delle versioni
 
+## v0.71 · 23 novembre 2026
+
+- **31 voci nuove su tecnologie e idee** (direzione C), tutte con fonti specifiche e punto sulla mappa. Totale **518 voci**.
+  - Tecnologie (20): ruota, alfabeto, prime monete in Lidia, calcestruzzo romano e Pantheon, bronzi di Igbo-Ukwu, khipu inca, chinampas azteche, porcellana bianca e blu di Jingdezhen, Jantar Mantar di Jaipur, occhiali, pila di Volta, telegrafo senza fili di Marconi, primo volo dei Wright, penicillina, Sputnik, eradicazione del vaiolo, Euclide, Canone di Avicenna, Liber abaci di Fibonacci, relatività di Einstein.
+  - Persone e idee (11): Socrate, Platone e Aristotele; zoroastrismo; Nalanda; esami imperiali cinesi; Carta del Manden a Kurukan Fuga; Muqaddima di Ibn Khaldun; Il Principe di Machiavelli; Las Casas e la disputa di Valladolid; Dei delitti e delle pene di Beccaria; José Rizal; voto alle donne in Nuova Zelanda.
+- Per area: Europa 11, Asia occidentale 5, due ciascuna per Nord Africa, Africa subsahariana, Asia meridionale e Asia orientale, una ciascuna per Asia centrale, Sud-est asiatico, America settentrionale, Mesoamerica, America meridionale, Oceania e Globale. L'Europa pesa più che nel resto dell'atlante (35% contro 20%).
+- Fonti principali: Britannica, Treccani, UNESCO (patrimonio mondiale e immateriale), British Museum, Metropolitan Museum, Smithsonian (Museo degli indiani d'America e dell'aria e dello spazio), National Park Service, NASA, ESA, OMS, CDC, Fondazione Nobel, Museo Galileo, MacTutor, Encyclopaedia Iranica, American Chemical Society, American Physical Society, FAO, NZHistory e Te Ara.
+- Datazione «discussa» per lo zoroastrismo (le fonti mettono Zarathustra tra il 1500 e il 600 a.C.); affidabilità media dove le fonti danno solo secoli o date in disaccordo (ruota, alfabeto, monete, Igbo-Ukwu, Jantar Mantar, occhiali, Avicenna, Kurukan Fuga, Muqaddima e altre). Le date scelte da Claude sono segnate nella nota di verifica (inizio delle chinampas al 1325, degli esami imperiali al 618, Kurukan Fuga al 1235).
+- Le voci nuove non hanno ancora foto (icona del tipo nel Mosaico e nelle schede).
+- Test: 125 controlli; T53 conta 17 datazioni discusse (si aggiunge lo zoroastrismo).
+
 ## v0.70 · 23 novembre 2026
 
 - **27 voci nuove sui luoghi che Luca conosce** (direzione B, «approfondimenti»), tutte con fonti specifiche e punto sulla mappa. Totale **487 voci**.

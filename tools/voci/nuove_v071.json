@@ -1,0 +1,1506 @@
+[
+ {
+  "tipo": "entity",
+  "id": "invention-wheel",
+  "name": "Ruota e veicoli a ruote",
+  "start_year": -3500,
+  "end_year": -2000,
+  "date_confidence": "medium",
+  "summary": "Verso il 3500 a.C. in Mesopotamia nascono il tornio del vasaio e i primi veicoli a ruote, con ruote piene fatte di tre assi di legno; verso il 2000 a.C. le ruote a raggi alleggeriscono i carri da guerra.",
+  "region": "Asia",
+  "subregion": "Mesopotamia",
+  "lat": 31.322,
+  "lon": 45.636,
+  "label": "Uruk (Erech) · pittogramma con slitta su ruote",
+  "layer": "tecnologie",
+  "relevance": 1,
+  "world_area": "AO",
+  "related": [
+   "event-urbanizzazione-di-uruk",
+   "culture-sintashta"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Wheel",
+    "url": "https://www.britannica.com/technology/wheel"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Spoked wheel",
+    "url": "https://www.britannica.com/technology/spoked-wheel"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chariot",
+    "url": "https://www.britannica.com/technology/chariot"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: un pittogramma sumerico di Erech (Uruk) del 3500 a.C. circa mostra una slitta con ruote; le ruote più antiche note erano dischi di legno fatti di tre assi tenute da traverse; anche il tornio da vasaio esisteva in Mesopotamia entro il 3500 a.C. I primi carri mesopotamici, verso il 3000 a.C., erano pesanti, con ruote piene, trainati da buoi (Britannica, voce Chariot). Le ruote a raggi compaiono verso il 2000 a.C. sui carri dell’Asia Minore (Britannica, voce Spoked wheel). La fine al 2000 a.C. segna l’arrivo della ruota a raggi, non la fine dell’uso della ruota. Il punto su Uruk è indicativo.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-alphabet",
+  "name": "Alfabeto: dalla scrittura semitica a quella fenicia",
+  "start_year": -1700,
+  "end_year": -1000,
+  "date_confidence": "medium",
+  "summary": "Tra il 1700 e il 1500 a.C., sulla costa orientale del Mediterraneo, nasce una scrittura di 22 segni per sole consonanti. Diffusa dai mercanti fenici e adottata dai Greci, è l’antenata degli alfabeti europei.",
+  "region": "Asia",
+  "subregion": "Siria, Libano, Palestina",
+  "lat": 34.119,
+  "lon": 35.646,
+  "label": "Biblo · epitaffio di Ahiram (XI secolo a.C.)",
+  "layer": "tecnologie",
+  "relevance": 1,
+  "world_area": "AO",
+  "related": [
+   "culture-phoenician",
+   "event-greek-colonization",
+   "invention-cuneiform"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Alphabet · Theories of the origin of the alphabet",
+    "url": "https://www.britannica.com/topic/alphabet-writing"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Phoenician alphabet",
+    "url": "https://www.britannica.com/topic/Phoenician-alphabet"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "North Semitic alphabet",
+    "url": "https://www.britannica.com/topic/North-Semitic-alphabet"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Alphabet · Development and diffusion of alphabets",
+    "url": "https://www.britannica.com/topic/alphabet-writing/Development-and-diffusion-of-alphabets"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il primo passo fu compiuto da un gruppo di lingua semitica, forse i Fenici, sulla costa orientale del Mediterraneo tra il 1700 e il 1500 a.C.: una scrittura consonantica detta semitica settentrionale, con 22 lettere, solo consonanti, scritta da destra a sinistra, usata in Siria già nell’XI secolo a.C. e imparentata con le iscrizioni cananee e sinaitiche. Da essa derivano gli alfabeti fenicio e aramaico, e da questi gli alfabeti europei, semitici e indiani. La più antica iscrizione fenicia giunta fino a noi è l’epitaffio di Ahiram a Biblo (XI secolo a.C.); l’alfabeto fenicio, diffuso dai mercanti, è il probabile antenato di quello greco. La fine al 1000 a.C. indica l’alfabeto fenicio ormai formato; l’origine esatta è ancora studiata.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-coinage",
+  "name": "Prime monete in Lidia",
+  "start_year": -650,
+  "end_year": -550,
+  "date_confidence": "medium",
+  "summary": "Nel VII secolo a.C. il regno di Lidia, nell’attuale Turchia, conia le prime monete: pezzi di elettro, lega naturale di oro e argento, di peso fisso e con un marchio. Persiani e Greci adottano presto l’invenzione.",
+  "region": "Asia",
+  "subregion": "Anatolia occidentale",
+  "lat": 38.488,
+  "lon": 28.04,
+  "label": "Sardi · capitale della Lidia",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "state-achaemenid",
+   "event-greek-colonization"
+  ],
+  "fonti": [
+   {
+    "institution": "British Museum",
+    "title": "The origins of coinage",
+    "url": "https://www.britishmuseum.org/explore/themes/money/the_origins_of_coinage.aspx"
+   },
+   {
+    "institution": "British Museum",
+    "title": "Money Gallery, Room 68 · Large print guide",
+    "url": "https://www.britishmuseum.org/sites/default/files/2021-05/Money_Gallery_LPG_2020_Room_68.pdf"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Electrum",
+    "url": "https://www.britannica.com/science/electrum"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Sardis",
+    "url": "https://www.metmuseum.org/essays/sardis"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "From Prehistoric to Classical · A resource for educators",
+    "url": "https://www.metmuseum.org/-/media/files/learn/for-educators/publications-for-educators/greek.pdf"
+   }
+  ],
+  "nota": "Voce nuova. British Museum: le prime monete si trovano soprattutto nell’antica Lidia, sono di elettro, prodotte dal VII secolo a.C. (circa 650 a.C. nella guida della sala), con il disegno su un solo lato e coniate secondo un peso rigoroso; per Erodoto i Lidi furono i primi a usare monete d’oro e d’argento. La Lidia fu il primo luogo a coniare oro e argento separati, e il sistema fu adottato dall’Impero persiano. La data esatta è discussa: fine del VII secolo per il Met; forse già sotto re Gige per Britannica (voce Electrum). Il Met: la moneta si diffonde nella Grecia continentale e a occidente nella seconda metà del VI secolo. Creso regnò dal 560 circa (Met).",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-roman-concrete",
+  "name": "Calcestruzzo romano e cupola del Pantheon",
+  "start_year": -100,
+  "end_year": 128,
+  "date_confidence": "medium",
+  "summary": "Con calce e pozzolana, una cenere vulcanica, i Romani fanno un calcestruzzo che permette archi, volte e cupole. Quella del Pantheon, dedicato nel 128, è ancora la più grande al mondo in calcestruzzo non armato.",
+  "region": "Europa",
+  "subregion": "Roma",
+  "lat": 41.8986,
+  "lon": 12.4769,
+  "label": "Roma · Pantheon",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "civilization-rome"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pozzolana",
+    "url": "https://www.britannica.com/technology/pozzolana"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pantheon",
+    "url": "https://www.britannica.com/topic/Pantheon-building-Rome-Italy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did Roman architects use concrete to expand the possibilities of arches, vaults, and domes?",
+    "url": "https://www.britannica.com/art/How-did-Roman-architects-use-concrete-to-expand-the-possibilities-of-arches-vaults-and-domes"
+   },
+   {
+    "institution": "MIT News",
+    "title": "Riddle solved: Why was Roman concrete so durable?",
+    "url": "https://news.mit.edu/2023/roman-concrete-durability-lime-casts-0106"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Architecture · Pagan Rome",
+    "url": "https://kids.britannica.com/students/article/architecture/272939"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la pozzolana è un cemento idraulico perfezionato dai Romani, ottenuto macinando materiale vulcanico con calce idrata (due parti di pozzolana per una di calce); rese possibili edifici come il Pantheon e le Terme di Caracalla; l’opus caementicium permise grandi spazi interni coperti da archi, volte e cupole. Il Pantheon, iniziato da Agrippa nel 27 a.C., fu ricostruito da Adriano tra il 118 e il 128 circa; cupola di 43,2 m di diametro. MIT News (2023): dedicato nel 128, ha la più grande cupola in calcestruzzo non armato del mondo. Inizio al 100 a.C.: l’edizione per studenti di Britannica data il calcestruzzo pozzolanico al 100 a.C. circa (tempio della Fortuna Primigenia a Palestrina, 80 a.C. circa).",
+  "data": "2026-11-23",
+  "entity_type": "invention",
+  "focus": "europa"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-igbo-ukwu-bronzes",
+  "name": "Bronzi a cera persa di Igbo-Ukwu",
+  "start_year": 800,
+  "end_year": 1000,
+  "date_confidence": "medium",
+  "summary": "Verso il IX–X secolo, a Igbo-Ukwu, nell’attuale Nigeria, gli antenati degli Igbo fondono vasi rituali e insegne con la tecnica della cera persa: sono tra i bronzi fusi più antichi dell’Africa occidentale.",
+  "region": "Africa",
+  "subregion": "Nigeria sud-orientale",
+  "lat": 6.017,
+  "lon": 7.017,
+  "label": "Igbo-Ukwu · sepoltura e deposito rituale",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "AS",
+  "related": [
+   "culture-nok",
+   "state-benin-kingdom"
+  ],
+  "fonti": [
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Igbo-Ukwu (ca. 9th century)",
+    "url": "https://www.metmuseum.org/essays/igbo-ukwu-ca-9th-century"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Igbo Ukwu",
+    "url": "https://www.britannica.com/place/Igbo-Ukwu"
+   },
+   {
+    "institution": "British Museum",
+    "title": "African Kingdoms Timeline",
+    "url": "https://www.britishmuseum.org/sites/default/files/2024-04/African_Kingdoms_Timeline.pdf"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Metalwork · Africa",
+    "url": "https://www.britannica.com/topic/metalwork/Africa"
+   }
+  ],
+  "nota": "Voce nuova. Met: l’arte del metallo di Igbo-Ukwu potrebbe risalire al IX secolo, ma la data resta controversa; tre siti scavati hanno restituito centinaia di vasi rituali e insegne in bronzo o bronzo al piombo; gli abitanti, antenati degli Igbo di oggi, furono probabilmente tra i primi in Africa occidentale a usare la fusione a cera persa. Britannica: bronzi datati al IX secolo circa, scoperti negli anni 1930–40 vicino a Onitsha; i più antichi bronzi fusi dell’Africa occidentale, prima di quelli di Ife (XII secolo) e del Benin. British Museum: verso il 900 una sepoltura con oltre 100.000 perline, locali e importate attraverso il Sahara; un pendente del museo è datato IX–X secolo.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-khipu",
+  "name": "Khipu, le cordicelle annodate degli Inca",
+  "start_year": 1400,
+  "end_year": 1600,
+  "date_confidence": "medium",
+  "summary": "Senza una scrittura come la nostra, gli Inca registravano censimenti, tributi e merci con il khipu: una corda con cordicelle colorate e annodate. Funzionari specializzati li tenevano, i messaggeri chaski li portavano.",
+  "region": "Americhe",
+  "subregion": "Ande",
+  "lat": -13.5319,
+  "lon": -71.9675,
+  "label": "Cusco · capitale inca",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "SA",
+  "related": [
+   "civilization-inca",
+   "invention-qhapaq-nan"
+  ],
+  "fonti": [
+   {
+    "institution": "Smithsonian · National Museum of the American Indian",
+    "title": "Inka khipu (Infinity of Nations)",
+    "url": "https://americanindian.si.edu/exhibitions/infinityofnations/andes/143866.html"
+   },
+   {
+    "institution": "Smithsonian · National Museum of the American Indian",
+    "title": "The Great Inka Road · A road for administration",
+    "url": "https://americanindian.si.edu/inkaroad/inkauniverse/inkaroadexpansion/road-administration.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pre-Columbian civilizations · Andean civilization: the nature of the sources",
+    "url": "https://www.britannica.com/topic/pre-Columbian-civilizations/The-Chincha"
+   },
+   {
+    "institution": "Smithsonian · National Museum of the American Indian",
+    "title": "The Great Inka Road · A guide for teachers",
+    "url": "https://americanindian.si.edu/inkaroad/pdf/inka-teachers-guide.pdf"
+   }
+  ],
+  "nota": "Voce nuova. NMAI: il khipu, corda annodata per codificare informazioni numeriche, aiutò l’Impero inca a governare per oltre un secolo; le cordicelle variano per lunghezza, nodi, torsione e colore e registravano tributi, lavoro delle comunità e altri dati (esemplare da Chulpaca, Ica, datato 1425–1532). Censimenti, movimento di merci e persone, informazioni religiose e militari erano tenuti dai khipucamayuc; i chaski portavano i khipu lungo il Qhapaq Ñan. Britannica: la storia dinastica era annodata nei quipu tenuti da contabili professionisti; dopo la conquista il quipu di don Francisco Cusichaq registrava le esazioni spagnole e fu accettato come prova; ha una parte numerica e una storica, quest’ultima non ancora decifrata. Fine al 1600: uso documentato anche dopo la conquista e datazione NMAI di altri esemplari al 1400–1600. L’edizione per studenti di Britannica fa risalire i quipu al 2500 a.C.: dato non confermato da altre fonti e non usato.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-chinampas",
+  "name": "Chinampas, i campi sull’acqua della valle del Messico",
+  "start_year": 1325,
+  "end_year": 1521,
+  "date_confidence": "medium",
+  "summary": "Isole artificiali strette e lunghe, fatte di vegetazione e fango nei laghi e separate da canali: con le chinampas gli Aztechi coltivano ortaggi, frutta e fiori per Tenochtitlan. A Xochimilco si usano ancora.",
+  "region": "Americhe",
+  "subregion": "Valle del Messico",
+  "lat": 19.2572,
+  "lon": -99.1036,
+  "label": "Xochimilco · chinampas ancora coltivate",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "MC",
+  "related": [
+   "civilization-aztec",
+   "site-tenochtitlan"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinampa",
+    "url": "https://www.britannica.com/topic/chinampa"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Xochimilco",
+    "url": "https://www.britannica.com/place/Xochimilco"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aztec · Aztec agriculture",
+    "url": "https://www.britannica.com/topic/Aztec/Establishment-of-the-Aztec-empire"
+   },
+   {
+    "institution": "FAO · Globally Important Agricultural Heritage Systems",
+    "title": "Chinampas agricultural system of Mexico City",
+    "url": "https://www.fao.org/giahs/giahs-around-the-world/mexico-chinampas-agricultural-system/en"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la chinampa è una piccola isola artificiale fissa costruita in un lago d’acqua dolce per coltivare; la tecnica nacque ed è ancora usata soprattutto nella zona di Xochimilco; isole larghe 6–10 m e lunghe 100–200 m, fatte di strati di vegetazione, terra e fango; il lago fornisce l’umidità. A Xochimilco frutta, ortaggi e fiori erano spediti a Tenochtitlan via canale (Britannica). L’agricoltura azteca, base della ricchezza dell’impero, bonificava le paludi con questi campi rialzati (Britannica). La FAO riconosce le chinampas di Città del Messico come patrimonio agricolo mondiale, ancora coltivate con tecniche tramandate dall’epoca azteca. Le fonti consultate non danno una data d’inizio: il 1325 è la fondazione di Tenochtitlan, il 1521 la sua conquista; scelta di Claude.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-blue-white-porcelain",
+  "name": "Porcellana bianca e blu di Jingdezhen",
+  "start_year": 1300,
+  "end_year": 1700,
+  "date_confidence": "medium",
+  "summary": "Nel XIV secolo le fornaci di Jingdezhen perfezionano la porcellana bianca dipinta di blu cobalto: diventa la ceramica cinese più amata, esportata in Asia e in Medio Oriente e imitata, dal Seicento, anche in Europa.",
+  "region": "Asia",
+  "subregion": "Cina sud-orientale · Jiangxi",
+  "lat": 29.29,
+  "lon": 117.21,
+  "label": "Jingdezhen · fornaci della porcellana",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "AE",
+  "related": [
+   "state-dynasty-yuan",
+   "civilization-ming",
+   "event-manila-galleons"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese pottery · The Yuan dynasty (1206–1368)",
+    "url": "https://www.britannica.com/art/Chinese-pottery/The-Yuan-dynasty-1206-1368"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Jar with dragon (Ming, Xuande period)",
+    "url": "https://www.metmuseum.org/art/collection/search/39666"
+   },
+   {
+    "institution": "The Metropolitan Museum of Art",
+    "title": "Vase, Northern Song dynasty (Jingdezhen qingbai ware)",
+    "url": "https://www.metmuseum.org/art/collection/search/49914"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ming dynasty · Cultural achievements",
+    "url": "https://www.britannica.com/topic/Ming-dynasty-Chinese-history"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nanking porcelain",
+    "url": "https://www.britannica.com/art/Nanking-porcelain"
+   }
+  ],
+  "nota": "Voce nuova. Britannica (dinastia Yuan): le fabbriche di Jingdezhen si espandono; la tecnica del bianco e blu era pienamente padroneggiata nel 1351, come provano due vasi da tempio datati (Percival David Foundation, Londra); diventa la ceramica cinese più popolare in patria e all’estero; i pezzi migliori vanno alla corte, quelli più semplici al commercio con il Sud-est asiatico e il Medio Oriente. Met: la porcellana bianca dipinta di blu cobalto fiorì in Cina dal XIV secolo ed è forse lo sviluppo più importante della storia della ceramica; prima, a Jingdezhen si faceva porcellana qingbai (XI–XII secolo). Britannica (Ming): il bianco e blu fu imitato in Vietnam, Giappone e, dal XVII secolo, in Europa (la voce colloca Jingdezhen nel Jiangsu, ma la città è nel Jiangxi, come indica il Met). La fine al 1700 è indicativa: la produzione per l’esportazione continua sotto i Qing (porcellana «Nanking» del regno di Kangxi, 1661–1722).",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-jantar-mantar",
+  "name": "Jantar Mantar di Jaipur",
+  "start_year": 1724,
+  "end_year": 1730,
+  "date_confidence": "medium",
+  "summary": "All’inizio del Settecento il principe Jai Singh II costruisce a Jaipur una ventina di strumenti monumentali in muratura per misurare a occhio nudo la posizione degli astri: il più completo osservatorio storico dell’India.",
+  "region": "Asia",
+  "subregion": "India nord-occidentale · Rajasthan",
+  "lat": 26.9243,
+  "lon": 75.8219,
+  "label": "Jaipur · Jantar Mantar",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "AM",
+  "related": [
+   "invention-ulugh-beg-observatory",
+   "civilization-mughal"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "The Jantar Mantar, Jaipur",
+    "url": "https://whc.unesco.org/en/list/1338/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Periodic Report · The Jantar Mantar, Jaipur",
+    "url": "https://whc.unesco.org/document/164636"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre · ICOMOS",
+    "title": "Jaipur City (India) No 1605 · Evaluation",
+    "url": "https://whc.unesco.org/document/176193"
+   }
+  ],
+  "nota": "Voce nuova. UNESCO: sito di osservazione astronomica costruito all’inizio del XVIII secolo, con circa 20 strumenti fissi principali, esempi monumentali in muratura di strumenti noti ma spesso con caratteristiche proprie, pensati per osservare a occhio nudo le posizioni degli astri; alcuni sono i più grandi mai costruiti nella loro categoria; il più importante, completo e meglio conservato degli osservatori storici dell’India; espressione delle conoscenze astronomiche della corte di un principe erudito alla fine del periodo moghul, in una tradizione di astronomia posizionale tolemaica comune a molte civiltà. Patrimonio UNESCO dal 2010. Date: la valutazione della città di Jaipur (UNESCO) indica 1724–1730; la città fu fondata nel 1727 sotto Jai Singh II (regno 1700–1743). Le date sono quindi indicative.",
+  "data": "2026-11-23",
+  "entity_type": "invention"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-eyeglasses",
+  "name": "Occhiali",
+  "start_year": 1285,
+  "end_year": 1306,
+  "date_confidence": "medium",
+  "summary": "Alla fine del Duecento in Italia compaiono gli occhiali, lenti di vetro in una montatura che aiutano a leggere. All’inizio del Trecento il frate Giordano da Pisa li ricorda in una predica come un’invenzione recente.",
+  "region": "Europa",
+  "subregion": "Toscana",
+  "lat": 43.7167,
+  "lon": 10.4,
+  "label": "Pisa · convento domenicano di Santa Caterina",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Treccani · Storia della civiltà europea a cura di Umberto Eco",
+    "title": "Gli occhiali",
+    "url": "https://www.treccani.it/enciclopedia/gli-occhiali_(Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco)/"
+   },
+   {
+    "institution": "Treccani · Dizionario Biografico degli Italiani",
+    "title": "Alessandro della Spina",
+    "url": "https://www.treccani.it/enciclopedia/alessandro-della-spina_(Dizionario-Biografico)/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Eyeglasses",
+    "url": "https://www.britannica.com/science/eyeglasses"
+   },
+   {
+    "institution": "Treccani · Enciclopedia Italiana (1935)",
+    "title": "Occhiali",
+    "url": "https://www.treccani.it/enciclopedia/occhiali_(Enciclopedia-Italiana)/"
+   }
+  ],
+  "nota": "Voce nuova. Treccani (Storia della civiltà europea, a cura di U. Eco): legati alla lavorazione del vetro, gli occhiali si diffondono verso la fine del Duecento, preziosi soprattutto per leggere; le lenti per la miopia si producono solo dalla metà del Quattrocento; Giordano da Pisa ricorda la recente invenzione in una predica in Santa Maria Novella a Firenze il 23 febbraio 1305. Dizionario Biografico: secondo una predica del 1306 di Giordano, verso il 1290 il confratello pisano Alessandro della Spina fabbricò il primo paio di occhiali di vetro; la cronaca del convento di Santa Caterina dice che lo apprese da un inventore rimasto sconosciuto. Britannica: nel 1268 Ruggero Bacone fa il primo commento noto sull’uso ottico delle lenti; lenti d’ingrandimento montate si usavano per leggere in Europa e in Cina, e si discute chi abbia imparato da chi; in Europa gli occhiali compaiono per primi in Italia. L’Enciclopedia Italiana (1935) pensa piuttosto a Venezia: il luogo resta incerto e il punto a Pisa è indicativo. L’inizio al 1285 è una stima di Claude per «fine del Duecento».",
+  "data": "2026-11-23",
+  "entity_type": "invention",
+  "focus": "europa"
+ },
+ {
+  "tipo": "event",
+  "id": "event-volta-battery",
+  "name": "Pila di Volta",
+  "start_year": 1800,
+  "end_year": 1800,
+  "date_confidence": "high",
+  "summary": "Alessandro Volta, professore a Pavia, impila dischi di due metalli separati da panni bagnati in acqua salata e ottiene la prima corrente elettrica continua. La annuncia il 20 marzo 1800 alla Royal Society di Londra.",
+  "region": "Europa",
+  "subregion": "Lombardia",
+  "lat": 45.1867,
+  "lon": 9.1561,
+  "label": "Pavia · università dove insegnava Volta",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-royal-society",
+   "invention-telegraph"
+  ],
+  "fonti": [
+   {
+    "institution": "Treccani · Enciclopedia on line",
+    "title": "Volta, Alessandro",
+    "url": "https://www.treccani.it/enciclopedia/alessandro-volta/"
+   },
+   {
+    "institution": "Treccani · Enciclopedia Italiana (1935)",
+    "title": "Pila",
+    "url": "https://www.treccani.it/enciclopedia/pila_(Enciclopedia-Italiana)/"
+   },
+   {
+    "institution": "Treccani · Storia della Scienza",
+    "title": "L’Ottocento: fisica. La fisica matematica francese e l’elettrodinamica di Ampère",
+    "url": "https://www.treccani.it/enciclopedia/l-ottocento-fisica-la-fisica-matematica-francese-e-l-elettrodinamica-di-ampere_(Storia-della-Scienza)/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Battery · Development of batteries",
+    "url": "https://www.britannica.com/technology/battery-electronics/Development-of-batteries"
+   },
+   {
+    "institution": "Museo Galileo",
+    "title": "Alessandro Volta · Biografia",
+    "url": "https://catalogue.museogalileo.it/biography/AlessandroVolta.html"
+   }
+  ],
+  "nota": "Voce nuova. Treccani: l’apparecchio, costruito alla fine del 1799, fu annunciato da Volta in una lettera del 20 marzo 1800 a Sir Joseph Banks, presidente della Royal Society; Volta lo chiamò prima «organo elettrico artificiale», poi «appareil à colonne», da cui il nome «pila». Enciclopedia Italiana: la pila a colonna aveva dischi di rame e zinco separati da un panno bagnato in acqua salata o acidulata, primo esempio di corrente elettrica duratura. Britannica: dischi di zinco e argento; con la pila Faraday ricavò le leggi dell’elettrochimica (1834 circa). Treccani (Storia della Scienza): nel marzo 1800 Volta era professore di fisica a Pavia. Museo Galileo: nato a Como, rettore dell’Università di Pavia dal 1785; lo studio degli esperimenti di Galvani lo portò alla pila, primo generatore di corrente non istantanea.",
+  "data": "2026-11-23",
+  "event_type": "scientific",
+  "place_name": "Pavia",
+  "focus": "europa"
+ },
+ {
+  "tipo": "event",
+  "id": "event-marconi-wireless",
+  "name": "Marconi e il telegrafo senza fili",
+  "start_year": 1895,
+  "end_year": 1901,
+  "date_confidence": "high",
+  "summary": "Nel 1895, a Pontecchio vicino a Bologna, Guglielmo Marconi trasmette segnali senza fili; brevetta il sistema in Inghilterra e nel dicembre 1901 i suoi segnali attraversano l’Atlantico. Nobel per la fisica nel 1909.",
+  "region": "Europa",
+  "subregion": "Emilia",
+  "lat": 44.43,
+  "lon": 11.26,
+  "label": "Pontecchio (Bologna) · primi esperimenti",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "invention-telegraph"
+  ],
+  "fonti": [
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "Guglielmo Marconi · Biographical",
+    "url": "https://www.nobelprize.org/prizes/physics/1909/marconi/biographical/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Guglielmo Marconi",
+    "url": "https://www.britannica.com/biography/Guglielmo-Marconi"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Guglielmo Marconi · Long-distance radio communication and shortwave",
+    "url": "https://www.britannica.com/biography/Guglielmo-Marconi/Long-distance-radio-communication-and-shortwave"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Guglielmo Marconi summary",
+    "url": "https://www.britannica.com/summary/Guglielmo-Marconi"
+   }
+  ],
+  "nota": "Voce nuova. NobelPrize.org: nel 1895 esperimenti di laboratorio nella tenuta paterna di Pontecchio, segnali senza fili a un miglio e mezzo (2,4 km); nel 1896 in Inghilterra ottiene il primo brevetto al mondo per un sistema di telegrafia senza fili; dimostrazioni a Londra, sulla piana di Salisbury e attraverso il canale di Bristol; nel luglio 1897 fonda la sua società; Nobel per la fisica 1909 con Ferdinand Braun per la telegrafia senza fili. Britannica: nel 1899 collegamento attraverso la Manica; il 12 dicembre 1901 riceve a St. John’s, Terranova, segnali trasmessi da Poldhu, in Cornovaglia, benché alcuni matematici ritenessero che la curvatura terrestre limitasse le comunicazioni a 160–320 km. L’edizione per studenti di Britannica fa iniziare gli esperimenti nel 1894.",
+  "data": "2026-11-23",
+  "event_type": "technology",
+  "place_name": "Pontecchio, Bologna",
+  "focus": "europa",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-wright-first-flight",
+  "name": "Primo volo a motore dei fratelli Wright",
+  "start_year": 1903,
+  "end_year": 1903,
+  "date_confidence": "high",
+  "summary": "Il 17 dicembre 1903, a Kitty Hawk in North Carolina, Orville e Wilbur Wright fanno volare il Flyer, costruito da loro: è il primo volo controllato di una macchina a motore più pesante dell’aria. Dura 12 secondi.",
+  "region": "Americhe",
+  "subregion": "Stati Uniti · North Carolina",
+  "lat": 36.0146,
+  "lon": -75.6681,
+  "label": "Kill Devil Hills, Kitty Hawk · luogo dei voli",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "NA",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Smithsonian · National Air and Space Museum",
+    "title": "The Wright brothers made history at Kitty Hawk",
+    "url": "https://airandspace.si.edu/stories/editorial/wright-brothers-made-history-kitty-hawk"
+   },
+   {
+    "institution": "Smithsonian · National Air and Space Museum",
+    "title": "1903 Wright Flyer",
+    "url": "https://airandspace.si.edu/collection-objects/1903-wright-flyer/nasm_A19610048000"
+   },
+   {
+    "institution": "National Park Service",
+    "title": "Wright Brothers National Memorial",
+    "url": "https://www.nps.gov/wrbr"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Wright flyer of 1903",
+    "url": "https://www.britannica.com/topic/Wright-flyer-of-1903"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Wright brothers",
+    "url": "https://www.britannica.com/biography/Wright-brothers"
+   }
+  ],
+  "nota": "Voce nuova. Smithsonian (NASM): alle 10:35 del 17 dicembre 1903 a Kitty Hawk il primo volo controllato a motore di una macchina più pesante dell’aria, il Flyer, progettato e costruito dai Wright: 12 secondi, 36 m, ai comandi Orville; quattro voli quel giorno, il migliore di Wilbur, 255,6 m in 59 secondi; frutto di quattro anni di ricerca iniziata nel 1899, con tre alianti a grandezza naturale. NPS: a Kitty Hawk dal 1900 per i venti forti; dopo il 1903 gli esperimenti continuano a Dayton. Britannica: motore a benzina a quattro cilindri costruito dai Wright; i voli avvennero a Kill Devil Hills.",
+  "data": "2026-11-23",
+  "event_type": "technology",
+  "place_name": "Kitty Hawk, North Carolina"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-penicillin",
+  "name": "Penicillina, il primo antibiotico",
+  "start_year": 1928,
+  "end_year": 1945,
+  "date_confidence": "high",
+  "summary": "Nel 1928 a Londra Alexander Fleming nota che una muffa blocca i batteri; all’inizio degli anni Quaranta Howard Florey ed Ernst Chain la purificano e la producono come farmaco. Inizia l’era degli antibiotici.",
+  "region": "Europa",
+  "subregion": "Regno Unito",
+  "lat": 51.5171,
+  "lon": -0.1741,
+  "label": "Londra · St Mary’s Hospital, scoperta del 1928",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "invention-germ-theory"
+  ],
+  "fonti": [
+   {
+    "institution": "American Chemical Society",
+    "title": "Alexander Fleming discovery and development of penicillin · International Historic Chemical Landmark",
+    "url": "https://www.acs.org/education/whatischemistry/landmarks/flemingpenicillin.html"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Penicillin",
+    "url": "https://www.britannica.com/science/penicillin"
+   },
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "Sir Howard Florey · Facts",
+    "url": "https://www.nobelprize.org/prizes/medicine/1945/florey/facts/"
+   },
+   {
+    "institution": "Nobel Prize Outreach · NobelPrize.org",
+    "title": "Sir Howard Florey · Biographical",
+    "url": "https://www.nobelprize.org/prizes/medicine/1945/florey/biographical/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Alexander Fleming",
+    "url": "https://www.britannica.com/biography/Alexander-Fleming"
+   }
+  ],
+  "nota": "Voce nuova. ACS: nel 1928 Fleming, professore di batteriologia al St Mary’s Hospital di Londra, al ritorno dalle vacanze il 3 settembre nota una muffa in una piastra di stafilococchi; la penicillina è il primo vero antibiotico. Britannica: difficile da produrre in quantità, fu isolata e purificata da Florey e Chain, con uso terapeutico entro il 1941. NobelPrize.org: dal 1939 un gruppo britannico guidato da Florey e Chain, finanziato dalla Fondazione Rockefeller, arriva alla produzione su piccola scala e, all’inizio degli anni Quaranta, a una forma pura; Nobel per la medicina 1945 a Fleming, Chain e Florey, tutti allora legati a Londra e Oxford. Britannica: la scoperta avviò la rivoluzione degli antibiotici.",
+  "data": "2026-11-23",
+  "entity_type": "invention",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-sputnik",
+  "name": "Sputnik 1, il primo satellite artificiale",
+  "start_year": 1957,
+  "end_year": 1957,
+  "date_confidence": "high",
+  "summary": "Il 4 ottobre 1957 l’Unione Sovietica lancia da Bajkonur, in Kazakistan, lo Sputnik 1, sfera di 58 centimetri che gira intorno alla Terra in circa un’ora e mezza: inizia l’era spaziale e la corsa allo spazio.",
+  "region": "Asia",
+  "subregion": "Kazakistan",
+  "lat": 45.92,
+  "lon": 63.342,
+  "label": "Bajkonur (Tjuratam) · rampa 1",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "AC",
+  "related": [
+   "event-cold-war",
+   "event-moon-landing",
+   "event-soviet-central-asia"
+  ],
+  "fonti": [
+   {
+    "institution": "NASA",
+    "title": "Oct. 4, 1957 · Sputnik, the dawn of the Space Age",
+    "url": "https://www.nasa.gov/image-article/oct-4-1957-sputnik-dawn-of-space-age/"
+   },
+   {
+    "institution": "NASA",
+    "title": "Dawn of the Space Age",
+    "url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+   },
+   {
+    "institution": "NASA",
+    "title": "65 years ago: Sputnik ushers in the Space Age",
+    "url": "https://www.nasa.gov/history/65-years-ago-sputnik-ushers-in-the-space-age/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sputnik",
+    "url": "https://www.britannica.com/technology/Sputnik"
+   },
+   {
+    "institution": "European Space Agency",
+    "title": "Baikonur: steppe into space",
+    "url": "https://www.esa.int/articles/about-us/directorates/human-and-robotic-exploration/astronauts/baikonur-steppe-into-space"
+   }
+  ],
+  "nota": "Voce nuova. NASA: il 4 ottobre 1957 l’URSS lancia dal cosmodromo di Bajkonur, in Kazakistan, lo Sputnik 1, primo satellite artificiale: 58 cm di diametro, 83,6 kg, circa 98 minuti per orbita; il lancio segna l’inizio dell’era spaziale e della corsa allo spazio tra Stati Uniti e URSS. Il razzo era un R-7 nato come missile balistico intercontinentale; il satellite, semplice e progettato in fretta da Korolev, era un contributo all’Anno geofisico internazionale e il suo segnale era captato dai radioamatori di tutto il mondo. Britannica: orbita di 96 minuti, apogeo 940 km, perigeo 230 km; rientra il 4 gennaio 1958. ESA: lanciato dalla rampa 1 di Bajkonur.",
+  "data": "2026-11-23",
+  "event_type": "technology",
+  "place_name": "Bajkonur, Kazakistan"
+ },
+ {
+  "tipo": "event",
+  "id": "event-smallpox-eradication",
+  "name": "Eradicazione del vaiolo",
+  "start_year": 1967,
+  "end_year": 1980,
+  "date_confidence": "high",
+  "summary": "Dal 1967 l’Organizzazione mondiale della sanità intensifica la lotta al vaiolo, con vaccinazioni di massa e «ad anello» intorno a ogni caso. L’ultimo caso naturale è del 1977, in Somalia; nel 1980 il vaiolo è dichiarato eradicato.",
+  "region": "Globale",
+  "subregion": "Mondo",
+  "lat": 1.7167,
+  "lon": 44.7667,
+  "label": "Merca (Somalia) · ultimo caso naturale, 1977",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "invention-germ-theory"
+  ],
+  "fonti": [
+   {
+    "institution": "World Health Organization",
+    "title": "Smallpox · Health topic",
+    "url": "https://www.who.int/health-topics/smallpox"
+   },
+   {
+    "institution": "World Health Organization",
+    "title": "Statue commemorates smallpox eradication",
+    "url": "https://www.who.int/news/item/17-05-2010-statue-commemorates-smallpox-eradication"
+   },
+   {
+    "institution": "World Health Organization",
+    "title": "WHO commemorates the 40th anniversary of smallpox eradication",
+    "url": "https://www.who.int/news/item/13-12-2019-who-commemorates-the-40th-anniversary-of-smallpox-eradication"
+   },
+   {
+    "institution": "Centers for Disease Control and Prevention · MMWR",
+    "title": "25th anniversary of the last case of naturally acquired smallpox",
+    "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5142a5.htm"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Today in history, May 8: the end of smallpox",
+    "url": "https://www.britannica.com/today-in-history/May-8-smallpox-eradicated"
+   }
+  ],
+  "nota": "Voce nuova. OMS: la campagna intensificata parte nel 1967; in quattro anni il vaiolo scompare dall’America Latina, in altri quattro dall’Asia; l’ultima roccaforte è la Somalia; l’eradicazione è certificata da una commissione di scienziati di 19 paesi il 9 dicembre 1979 a Ginevra e dichiarata dall’Assemblea mondiale della sanità l’8 maggio 1980 (risoluzione WHA33.3); è l’unica malattia infettiva eradicata. Il vaiolo esisteva da almeno 3000 anni e solo nel Novecento uccise 300 milioni di persone (OMS). CDC: l’ultimo caso naturale il 26 ottobre 1977 nel distretto di Merca, in Somalia; dopo, solo un incidente di laboratorio a Birmingham nel 1978 (OMS). Britannica: la svolta fu la vaccinazione «ad anello», isolando i malati e vaccinando chi stava loro intorno. «Umana» è un’aggiunta di Claude per distinguerla dalle malattie animali.",
+  "data": "2026-11-23",
+  "event_type": "epidemic",
+  "place_name": "Merca, Somalia",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-euclid-elements",
+  "name": "Euclide e gli Elementi",
+  "start_year": -300,
+  "end_year": -300,
+  "date_confidence": "medium",
+  "summary": "Verso il 300 a.C., ad Alessandria d’Egitto, Euclide raccoglie la geometria greca negli Elementi: da dieci assiomi ricava con dimostrazioni rigorose centinaia di teoremi. Sarà un modello per oltre duemila anni.",
+  "region": "Africa",
+  "subregion": "Egitto",
+  "lat": 31.2001,
+  "lon": 29.9187,
+  "label": "Alessandria · dove insegnava Euclide",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "AN",
+  "related": [
+   "state-ptolemaic-egypt"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Euclid",
+    "url": "https://www.britannica.com/biography/Euclid-Greek-mathematician"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did Euclid live and teach in Alexandria, Egypt?",
+    "url": "https://www.britannica.com/biography/When-did-Euclid-live-and-teach-in-Alexandria-Egypt"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Geometry",
+    "url": "https://www.britannica.com/science/geometry"
+   },
+   {
+    "institution": "MacTutor History of Mathematics · University of St Andrews",
+    "title": "Euclid of Alexandria",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Euclide fiorisce verso il 300 a.C. ad Alessandria; secondo Proclo insegnò sotto Tolomeo I (323–285 a.C.); è il matematico più importante dell’antichità greco-romana; gli Elementi (300 a.C. circa) codificano la geometria su 10 assiomi o postulati, da cui centinaia di teoremi sono dimostrati per deduzione logica, e sono stati per secoli il modello del metodo assiomatico-deduttivo; gran parte del contenuto risale a ricerche del IV secolo a.C. MacTutor: l’opera ha influenzato la matematica occidentale per oltre 2000 anni; della vita di Euclide si sa pochissimo.",
+  "data": "2026-11-23",
+  "event_type": "scientific",
+  "place_name": "Alessandria d’Egitto"
+ },
+ {
+  "tipo": "event",
+  "id": "event-avicenna-canon",
+  "name": "Avicenna e il Canone della medicina",
+  "start_year": 1012,
+  "end_year": 1025,
+  "date_confidence": "medium",
+  "summary": "Verso il 1025 il medico e filosofo persiano Ibn Sina, Avicenna, completa il Canone della medicina, enciclopedia in cinque libri. Tradotto in latino, si studia nelle università europee fino a metà Seicento.",
+  "region": "Asia",
+  "subregion": "Iran",
+  "lat": 34.7983,
+  "lon": 48.5146,
+  "label": "Hamadan · dove Avicenna morì nel 1037",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "event-house-wisdom"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "The Canon of Medicine",
+    "url": "https://www.britannica.com/topic/The-Canon-of-Medicine"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Avicenna",
+    "url": "https://www.britannica.com/biography/Avicenna"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How long was The Canon of Medicine used as a medical textbook in Europe?",
+    "url": "https://www.britannica.com/biography/How-long-was-The-Canon-of-Medicine-used-as-a-medical-textbook-in-Europe"
+   },
+   {
+    "institution": "National Library of Medicine · PubMed Central",
+    "title": "Rabies in medieval Persian literature · the Canon of Avicenna (980–1037 AD)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3933285/"
+   },
+   {
+    "institution": "National Library of Medicine · PubMed Central",
+    "title": "Thousand-year anniversary of the historical book Kitab al-Qanun fit-Tibb",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3702097/"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Avicenna (980, presso Bukhara – 1037, Hamadan) unì filosofia aristotelica e neoplatonica e teologia islamica; il Canone, enciclopedia medica d’inizio XI secolo in cinque libri, fu manuale nelle scuole di medicina europee fino a metà Seicento (a Montpellier ancora nel 1650); l’edizione latina si deve a Gerardo da Cremona. Datazione della stesura: 1020–1025 (PMC 3933285), 1012–1024 (PMC 3702097); l’intervallo 1012–1025 le comprende. Il Canone fu tradotto in latino e ebbe molte edizioni a stampa; restò in uso a Lovanio e Montpellier fino al 1657 (PMC 3702097).",
+  "data": "2026-11-23",
+  "event_type": "scientific",
+  "place_name": "Hamadan"
+ },
+ {
+  "tipo": "event",
+  "id": "event-fibonacci-liber-abaci",
+  "name": "Fibonacci e il Liber abaci",
+  "start_year": 1202,
+  "end_year": 1202,
+  "date_confidence": "high",
+  "summary": "Nel 1202 il pisano Leonardo Fibonacci, che aveva studiato a Bugia in Nordafrica, pubblica il Liber abaci: insegna le cifre indo-arabiche e il valore posizionale, che in Europa si diffonderanno lentamente.",
+  "region": "Europa",
+  "subregion": "Toscana",
+  "lat": 43.7228,
+  "lon": 10.4017,
+  "label": "Pisa · città di Fibonacci",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "invention-indian-numerals-zero",
+   "event-house-wisdom"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Fibonacci",
+    "url": "https://www.britannica.com/biography/Fibonacci"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Liber abaci",
+    "url": "https://www.britannica.com/topic/Liber-abaci"
+   },
+   {
+    "institution": "MacTutor History of Mathematics · University of St Andrews",
+    "title": "Leonardo Pisano Fibonacci",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/"
+   },
+   {
+    "institution": "MacTutor History of Mathematics · University of St Andrews",
+    "title": "The Arabic numeral system",
+    "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Arabic_numerals/"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Fibonacci (1170 circa – dopo il 1240) scrisse il Liber abaci (1202), che introdusse in Europa le cifre indo-arabiche; prima erano note solo a pochi intellettuali tramite le traduzioni di al-Khwarizmi; i primi sette capitoli spiegano la notazione e il valore posizionale; il libro contiene il problema dei conigli da cui viene la successione di Fibonacci. MacTutor: Fibonacci studiò matematica a Bugia (oggi Béjaïa, Algeria) e viaggiò con il padre; il libro, pubblicato a Pisa nel 1202, fu molto copiato e imitato; l’accettazione delle nuove cifre fu lenta, ancora nel Quattrocento.",
+  "data": "2026-11-23",
+  "event_type": "scientific",
+  "place_name": "Pisa",
+  "focus": "europa"
+ },
+ {
+  "tipo": "event",
+  "id": "event-einstein-relativity",
+  "name": "Einstein e la teoria della relatività",
+  "start_year": 1905,
+  "end_year": 1915,
+  "date_confidence": "high",
+  "summary": "Nel 1905, impiegato all’ufficio brevetti di Berna, Albert Einstein pubblica la relatività ristretta e la formula E = mc²; nel 1915 completa la relatività generale: la gravità è una curvatura dello spazio-tempo.",
+  "region": "Europa",
+  "subregion": "Svizzera",
+  "lat": 46.9478,
+  "lon": 7.4516,
+  "label": "Berna · casa di Einstein in Kramgasse",
+  "layer": "tecnologie",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "American Physical Society",
+    "title": "Einsteinhaus Bern · Historic sites",
+    "url": "https://www.aps.org/funding-recognition/historic-sites/einsteinhaus"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Albert Einstein",
+    "url": "https://www.britannica.com/biography/Albert-Einstein"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Relativity",
+    "url": "https://www.britannica.com/science/relativity"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did Albert Einstein develop general relativity?",
+    "url": "https://www.britannica.com/science/When-did-Albert-Einstein-develop-general-relativity"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Albert Einstein summary",
+    "url": "https://www.britannica.com/summary/Albert-Einstein"
+   }
+  ],
+  "nota": "Voce nuova. APS: nella casa di Kramgasse 49 a Berna, tra marzo e giugno 1905, nel tempo libero dal lavoro all’ufficio brevetti, Einstein completò gli articoli sui quanti di luce, sulle dimensioni degli atomi, sul moto browniano e sulla relatività ristretta; il 1905 è il suo «anno mirabile». Britannica: nel 1905 anche la formula E = mc²; dal 1907 lavora per includere gravità e accelerazione e completa la relatività generale nel 1915: la gravità non è una forza a distanza ma una curvatura dello spazio-tempo; confermata dalle osservazioni dell’eclissi solare del 1919; Nobel per la fisica 1921 per l’effetto fotoelettrico.",
+  "data": "2026-11-23",
+  "event_type": "scientific",
+  "place_name": "Berna",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "entity",
+  "id": "movement-greek-philosophy",
+  "name": "Socrate, Platone, Aristotele: la filosofia ad Atene",
+  "start_year": -470,
+  "end_year": -322,
+  "date_confidence": "high",
+  "summary": "Nell’Atene del V e IV secolo a.C. Socrate interroga i concittadini su virtù e conoscenza, Platone fonda l’Accademia e Aristotele il Liceo: le loro idee sono la base della filosofia occidentale.",
+  "region": "Europa",
+  "subregion": "Grecia · Atene",
+  "lat": 37.9925,
+  "lon": 23.7085,
+  "label": "Atene · Accademia di Platone",
+  "layer": "persone-idee",
+  "relevance": 1,
+  "world_area": "EU",
+  "related": [
+   "event-classical-athens",
+   "event-alexander-campaigns"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Greek philosophy",
+    "url": "https://www.britannica.com/topic/Greek-philosophy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Greek philosophy · The seminal thinkers of Greek philosophy",
+    "url": "https://www.britannica.com/topic/Greek-philosophy/The-seminal-thinkers-of-Greek-philosophy"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Academy",
+    "url": "https://www.britannica.com/topic/Academy-ancient-academy-Athens-Greece"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aristotle · The Lyceum",
+    "url": "https://www.britannica.com/biography/Aristotle/The-Lyceum"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (Scholars)",
+    "title": "Socrates",
+    "url": "https://kids.britannica.com/scholars/article/Socrates/109554"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Socrate (470 circa – 399 a.C., Atene); Platone (428/427 – 348/347 a.C.), allievo di Socrate, acquista verso il 387 a.C. un terreno nei sobborghi nord-occidentali di Atene e vi insegna: l’Accademia, che durò fino al 529 d.C. ed è considerata da molti la prima università occidentale; Aristotele (384–322 a.C.) resta circa vent’anni nell’Accademia, poi fonda il Liceo, con lezioni spesso aperte al pubblico e gratuite, e inventa la logica formale. La filosofia greca influenzò la cultura romana e, attraverso di essa, l’Europa e il pensiero cristiano.",
+  "data": "2026-11-23",
+  "entity_type": "movement"
+ },
+ {
+  "tipo": "entity",
+  "id": "religion-zoroastrianism",
+  "name": "Zoroastrismo",
+  "start_year": -1200,
+  "end_year": 2026,
+  "date_confidence": "debated",
+  "summary": "Religione dell’antico Iran fondata dal profeta Zarathustra: il dio supremo Ahura Mazda lotta contro lo Spirito distruttivo. La venerano i re persiani da Dario I ed esiste ancora oggi; l’epoca di Zarathustra è discussa.",
+  "region": "Asia",
+  "subregion": "Iran",
+  "lat": 29.9355,
+  "lon": 52.8916,
+  "label": "Persepoli · re achemenidi devoti di Ahura Mazda",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "state-achaemenid",
+   "empire-sasanian"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zoroastrianism",
+    "url": "https://www.britannica.com/topic/Zoroastrianism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why is the date of Zoroaster uncertain?",
+    "url": "https://www.britannica.com/topic/Why-is-the-date-of-Zoroaster-uncertain"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ahura Mazdā",
+    "url": "https://www.britannica.com/topic/Ahura-Mazda"
+   },
+   {
+    "institution": "Encyclopaedia Iranica",
+    "title": "Zoroaster ii. General survey",
+    "url": "https://www.iranicaonline.org/articles/zoroaster-ii-general-survey/"
+   },
+   {
+    "institution": "Encyclopaedia Iranica",
+    "title": "Zoroaster iii. Zoroaster in the Avesta",
+    "url": "https://www.iranicaonline.org/articles/zoroaster-iii-zoroaster-in-the-avesta/"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Zarathustra riformò il politeismo persiano con l’insegnamento sul dio supremo Ahura Mazda e il suo scontro primordiale con Angra Mainyu, lo Spirito distruttivo; Dario I (522–486 a.C.) e i successori veneravano Ahura Mazda come il più grande degli dei. Datazione discussa: VI secolo a.C. per la voce Zoroastrismo di Britannica; tra il 1500 e il 600 a.C. per la scheda di Britannica sulla data, perché i Gatha, i testi più antichi, non citano persone o luoghi noti da altre fonti; fine del II millennio a.C., in Iran orientale, per l’Encyclopaedia Iranica, che ricorda come data, patria e perfino storicità siano state messe in dubbio. L’inizio al 1200 a.C. segue l’Iranica; la fine al 2026 indica che la religione è ancora praticata. Il punto a Persepoli è indicativo.",
+  "data": "2026-11-23",
+  "entity_type": "religion"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-nalanda",
+  "name": "Nalanda, il grande monastero-università buddhista",
+  "start_year": 400,
+  "end_year": 1200,
+  "date_confidence": "medium",
+  "summary": "Fondato come grande monastero buddhista sotto i Gupta, nel V secolo, Nalanda è il più antico centro di studi del subcontinente indiano: vi si trasmette il sapere per circa 800 anni, fino al saccheggio del XIII secolo.",
+  "region": "Asia",
+  "subregion": "India nord-orientale · Bihar",
+  "lat": 25.137,
+  "lon": 85.444,
+  "label": "Nalanda (Bihar) · resti del Mahavihara",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "AM",
+  "related": [
+   "civilization-gupta",
+   "religion-buddhism",
+   "event-university-bologna"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Archaeological Site of Nalanda Mahavihara at Nalanda, Bihar",
+    "url": "https://whc.unesco.org/en/list/1502/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Decision 40 COM 8B.20",
+    "url": "https://whc.unesco.org/en/decisions/6798/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Archaeological Site of Nalanda Mahavihara · Statement",
+    "url": "https://whc.unesco.org/document/180055"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why is Nalanda important in the history of Buddhism?",
+    "url": "https://www.britannica.com/place/Why-is-Nalanda-important-in-the-history-of-Buddhism"
+   }
+  ],
+  "nota": "Voce nuova. UNESCO: resti di un’istituzione monastica e scolastica dal III secolo a.C. al XIII d.C.; come centro di studi fu uno dei primi, il più grande del suo tempo e quello attivo più a lungo nel subcontinente indiano, dal V al XIII secolo, prima del saccheggio e dell’abbandono nel XIII secolo; è la più antica università del subcontinente e trasmise il sapere in modo organizzato per 800 anni senza interruzioni; il suo modello architettonico fu ripreso in Asia meridionale e sud-orientale. Patrimonio UNESCO dal 2016. Britannica: fondato come Mahavihara (grande monastero) sotto i Gupta nel V secolo, divenne un centro dello studio del buddhismo Mahayana e Vajrayana. Le date 400–1200 traducono «V–XIII secolo».",
+  "data": "2026-11-23",
+  "entity_type": "archaeological_site"
+ },
+ {
+  "tipo": "entity",
+  "id": "tradition-imperial-exams",
+  "name": "Esami imperiali cinesi",
+  "start_year": 618,
+  "end_year": 1905,
+  "date_confidence": "medium",
+  "summary": "Per oltre mille anni la Cina sceglie i suoi funzionari con esami pubblici molto competitivi sui classici confuciani: un sistema che premia lo studio, fa da modello ad altri paesi e viene abolito solo nel 1905.",
+  "region": "Asia",
+  "subregion": "Cina",
+  "lat": 34.2658,
+  "lon": 108.9541,
+  "label": "Chang’an (Xi’an) · capitale dei Tang",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "state-dynasty-tang",
+   "civilization-song",
+   "event-confucius"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese examination system",
+    "url": "https://www.britannica.com/topic/Chinese-examination-system"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese civil service",
+    "url": "https://www.britannica.com/topic/Chinese-civil-service"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jinshi",
+    "url": "https://www.britannica.com/topic/jinshi-Chinese-title"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why did the Qing dynasty abolish the Chinese civil service examination system in 1905?",
+    "url": "https://www.britannica.com/topic/Why-did-the-Qing-dynasty-abolish-the-Chinese-civil-service-examination-system-in-1905"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sishu",
+    "url": "https://www.britannica.com/topic/Sishu"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: sistema di esami competitivi per reclutare i funzionari, con radici nell’università imperiale degli Han, pienamente stabilito sotto i Tang (esame jinshi) e dominante nell’istruzione dai Song (960–1279); prove a livello di prefettura, provincia e capitale, soprattutto sui testi confuciani; dal 1313 basato sui Quattro Libri, con il commento di Zhu Xi obbligatorio dal 1415; tendeva a premiare la memoria più del pensiero originale. Diede stabilità e mobilità sociale e fu modello per il servizio civile di altri paesi asiatici e occidentali; i Qing lo abolirono nel 1905 perché troppo rigido. L’inizio al 618 (fondazione dei Tang) è una scelta di Claude: le fonti parlano di radici Han e di sistema compiuto sotto i Tang.",
+  "data": "2026-11-23",
+  "entity_type": "culture"
+ },
+ {
+  "tipo": "event",
+  "id": "event-kurukan-fuga",
+  "name": "Carta del Manden proclamata a Kurukan Fuga",
+  "start_year": 1235,
+  "end_year": 1235,
+  "date_confidence": "medium",
+  "summary": "Dopo una grande vittoria, il fondatore dell’Impero del Mali e i suoi saggi proclamano a Kurukan Fuga la Carta del Manden: pace nella diversità, inviolabilità della persona, istruzione, fine della schiavitù per razzia. Si tramanda a voce.",
+  "region": "Africa",
+  "subregion": "Mali · alto Niger",
+  "lat": 11.9333,
+  "lon": -8.4167,
+  "label": "Kangaba · radura di Kurukan Fuga",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "AS",
+  "related": [
+   "civilization-mali",
+   "event-mali-mansa"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO · Intangible Cultural Heritage",
+    "title": "Decision 4.COM 13.59 · Manden Charter, proclaimed in Kurukan Fuga",
+    "url": "https://ich.unesco.org/en/decisions/4.COM/13.59"
+   },
+   {
+    "institution": "UNESCO · Intangible Cultural Heritage",
+    "title": "Mali · Elements on the lists",
+    "url": "https://ich.unesco.org/en/state/mali-ML"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sundiata Keita",
+    "url": "https://www.britannica.com/biography/Sundiata-Keita"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mali (historical empire)",
+    "url": "https://www.britannica.com/place/Mali-historical-empire-Africa"
+   }
+  ],
+  "nota": "Voce nuova. UNESCO (patrimonio immateriale dal 2009): all’inizio del XIII secolo, dopo una grande vittoria militare, il fondatore dell’impero mandingo e l’assemblea dei suoi saggi proclamarono a Kurukan Fuga la Carta del Manden, dal nome del territorio dell’alto Niger tra Guinea e Mali, una delle costituzioni più antiche del mondo, soprattutto in forma orale; il preambolo e sette capitoli sostengono pace sociale nella diversità, inviolabilità dell’essere umano, istruzione, integrità della patria, sicurezza alimentare, abolizione della schiavitù per razzia, libertà di espressione e di commercio; si tramanda di padre in figlio nei clan malinke, con cerimonie annuali a Kangaba accanto alla radura di Kurukan Fuga, vicino al confine con la Guinea. Britannica: Sundiata fonda il Mali verso il 1235 dopo la vittoria di Kirina su Sumanguru; regna circa 1230–1255. Data discussa: il 1235 è la data di Kirina, che UNESCO non nomina (dice «inizio del XIII secolo»); collegamento e data sono una scelta di Claude.",
+  "data": "2026-11-23",
+  "event_type": "law",
+  "place_name": "Kangaba, Mali"
+ },
+ {
+  "tipo": "event",
+  "id": "event-ibn-khaldun-muqaddimah",
+  "name": "Ibn Khaldun scrive la Muqaddima",
+  "start_year": 1375,
+  "end_year": 1377,
+  "date_confidence": "medium",
+  "summary": "Ritirato in un castello in Algeria, lo storico tunisino Ibn Khaldun scrive la Muqaddima: spiega l’ascesa e la caduta delle dinastie con la coesione dei gruppi (ʿasabiyya) ed è considerato un precursore della sociologia.",
+  "region": "Africa",
+  "subregion": "Algeria",
+  "lat": 35.065,
+  "lon": 1.043,
+  "label": "Qalʿat Ibn Salama, presso Frenda",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "AN",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ibn Khaldūn · The Muqaddimah: Ibn Khaldūn’s philosophy of history",
+    "url": "https://www.britannica.com/biography/Ibn-Khaldun/The-Muqaddimah-Ibn-Khalduns-philosophy-of-history"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "The Muqaddimah",
+    "url": "https://www.britannica.com/topic/The-Muqaddimah"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "ʿAṣabīyyah",
+    "url": "https://www.britannica.com/topic/asabiyyah"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Historiography · Ibn Khaldūn",
+    "url": "https://www.britannica.com/topic/historiography/Islamic-historiography"
+   },
+   {
+    "institution": "Encyclopedia.com · Encyclopedia of Religion",
+    "title": "Ibn Khaldūn",
+    "url": "https://encyclopedia.com/topic/Ibn_Khaldun.aspx"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: vicino all’odierna Frenda, in Algeria, trascorse quattro anni «libero da ogni preoccupazione» e scrisse la Muqaddima, introduzione alla storia; a Qalʿat ibn Salāmah ne completò la prima stesura e parte della storia universale Kitāb al-ʿIbar. Concetto centrale: la ʿaṣabiyya, coesione sociale che nasce nei gruppi di parentela, può essere rafforzata dalla religione e porta i gruppi al potere; il suo inevitabile indebolimento ne causa la caduta. Temi: metodo storico, geografia, cultura, economia, finanza pubblica, popolazione, Stato, religione e politica; nuova «scienza della cultura» (ʿilm al-ʿumrān); opera fondativa della filosofia della storia e della sociologia (Britannica). Ibn Khaldun: Tunisi 1332 – Cairo 1406. Encyclopedia.com: Muqaddima completata nel 1377 e poi rivista per tutta la vita.",
+  "data": "2026-11-23",
+  "event_type": "cultural",
+  "place_name": "Algeria"
+ },
+ {
+  "tipo": "event",
+  "id": "event-machiavelli-principe",
+  "name": "Machiavelli scrive Il Principe",
+  "start_year": 1513,
+  "end_year": 1532,
+  "date_confidence": "high",
+  "summary": "Allontanato dal governo di Firenze al ritorno dei Medici, Niccolò Machiavelli scrive nel 1513 il De principatibus: come si conquista e si mantiene uno Stato. Circola manoscritto ed esce a stampa nel 1532 come Il Principe.",
+  "region": "Europa",
+  "subregion": "Toscana",
+  "lat": 43.6806,
+  "lon": 11.2264,
+  "label": "Sant’Andrea in Percussina · l’Albergaccio",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "movement-italian-renaissance"
+  ],
+  "fonti": [
+   {
+    "institution": "Treccani · Storia della civiltà europea a cura di Umberto Eco",
+    "title": "Niccolò Machiavelli",
+    "url": "https://www.treccani.it/enciclopedia/niccolo-machiavelli_(Storia-della-civilt%C3%A0-europea-a-cura-di-Umberto-Eco)/"
+   },
+   {
+    "institution": "Treccani · Il Libro dell’Anno 2013",
+    "title": "Il Principe, cinque secoli di un capolavoro",
+    "url": "https://www.treccani.it/enciclopedia/il-principe-cinque-secoli-di-un-capolavoro_(Il-Libro-dell%27Anno)/"
+   },
+   {
+    "institution": "Treccani · Enciclopedia dell’Italiano",
+    "title": "Machiavelli, Niccolò",
+    "url": "https://www.treccani.it/enciclopedia/niccolo-machiavelli_(Enciclopedia-dell%27Italiano)/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "The Prince",
+    "url": "https://www.britannica.com/topic/The-Prince"
+   }
+  ],
+  "nota": "Voce nuova. Treccani: nel 1512 i Medici riprendono il potere; Machiavelli perde le cariche, è incarcerato per sospetta congiura, liberato con l’amnistia e si ritira all’Albergaccio, a Sant’Andrea in Percussina; il 10 dicembre 1513 scrive a Francesco Vettori di aver composto il De principatibus, steso tra l’autunno 1513 e l’aprile 1514 e forse ampliato fino al maggio 1514; dedicato infine a Lorenzo di Piero de’ Medici; circolò in poche decine di copie manoscritte e fu stampato postumo nel 1532, a Roma (Blado) e a Firenze (Giunti), cinque anni dopo la morte dell’autore, con il titolo Il Principe. Britannica: breve trattato su come conquistare il potere, creare uno Stato e mantenerlo, guida all’azione politica basata sulla storia e sull’esperienza di segretario a Firenze.",
+  "data": "2026-11-23",
+  "event_type": "cultural",
+  "place_name": "Sant’Andrea in Percussina",
+  "focus": "europa",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-las-casas-valladolid",
+  "name": "Las Casas e i diritti degli indigeni americani",
+  "start_year": 1542,
+  "end_year": 1551,
+  "date_confidence": "high",
+  "summary": "Il domenicano Bartolomé de Las Casas denuncia le violenze della conquista (1542) e ispira le Nuove Leggi contro l’encomienda; nel 1550–51 a Valladolid difende contro Sepúlveda i diritti degli indigeni americani.",
+  "region": "Europa",
+  "subregion": "Spagna (sulle Americhe)",
+  "lat": 41.6523,
+  "lon": -4.7245,
+  "label": "Valladolid · la disputa del 1550–51",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "state-new-spain",
+   "event-1492",
+   "event-1533-inca"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bartolomé de Las Casas",
+    "url": "https://www.britannica.com/biography/Bartolome-de-Las-Casas"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bartolomé de Las Casas · Adviser to Charles V",
+    "url": "https://www.britannica.com/biography/Bartolome-de-Las-Casas/Adviser-to-Charles-V"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Spain · Colonial policy",
+    "url": "https://www.britannica.com/place/Spain/The-conquest-of-Granada"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Western colonialism · Spain’s American empire",
+    "url": "https://www.britannica.com/topic/Western-colonialism/Spains-American-empire"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Juan Ginés de Sepúlveda",
+    "url": "https://www.britannica.com/biography/Juan-Gines-de-Sepulveda"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la Brevísima relación de la destrucción de las Indias, scritta nel 1542, ebbe un impatto immediato in Spagna e fu probabilmente decisiva per le Nuove Leggi emanate nel 1542 da re Carlo I (l’imperatore Carlo V), basate in gran parte sugli argomenti di Las Casas: gli encomenderos dovevano liberare i loro servi dopo una sola generazione; l’applicazione incontrò disobbedienza nella Nuova Spagna e una rivolta armata in Perù. Nel 1550, al consiglio di Valladolid presieduto da teologi, Las Casas affrontò Juan Ginés de Sepúlveda, che giustificava la guerra contro gli indigeni; la disputa continuò nel 1551. Le sue dispute e gli scritti di Francisco de Vitoria sono le prime discussioni sistematiche dei problemi morali e giuridici della conquista; in pratica, però, nelle Indie si seguirono le idee di Sepúlveda. Il punto è a Valladolid perché la voce riguarda il dibattito in Spagna.",
+  "data": "2026-11-23",
+  "event_type": "political",
+  "place_name": "Valladolid",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-beccaria-delitti-pene",
+  "name": "Beccaria, Dei delitti e delle pene",
+  "start_year": 1764,
+  "end_year": 1786,
+  "date_confidence": "high",
+  "summary": "Nel 1764 il milanese Cesare Beccaria pubblica Dei delitti e delle pene: pene proporzionate, no alla tortura e alla pena di morte, «né utile né necessaria». Nel 1786 la Toscana è il primo Stato ad abolire la pena di morte, insieme alla tortura.",
+  "region": "Europa",
+  "subregion": "Lombardia",
+  "lat": 45.4669,
+  "lon": 9.19,
+  "label": "Milano · città di Beccaria",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "movement-enlightenment"
+  ],
+  "fonti": [
+   {
+    "institution": "Treccani · Enciclopedia on line",
+    "title": "Beccaria, Cesare",
+    "url": "https://www.treccani.it/enciclopedia/cesare-beccaria/"
+   },
+   {
+    "institution": "Treccani · Il Libro dell’Anno 2008",
+    "title": "Pena di morte",
+    "url": "https://www.treccani.it/enciclopedia/pena-di-morte_(Il-Libro-dell%27Anno)/"
+   },
+   {
+    "institution": "Treccani · Il Contributo italiano alla storia del Pensiero: Economia",
+    "title": "Scuola milanese",
+    "url": "https://www.treccani.it/enciclopedia/scuola-milanese_(Il-Contributo-italiano-alla-storia-del-Pensiero:-Economia)/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Cesare Beccaria",
+    "url": "https://www.britannica.com/biography/Cesare-Beccaria"
+   }
+  ],
+  "nota": "Voce nuova. Treccani: Beccaria (Milano 1738 – 1794), tra i massimi illuministi italiani, pubblicò anonimo a Livorno (editore Aubert) nel 1764 Dei delitti e delle pene, che pose le fondamenta della scienza criminale moderna; su basi contrattualistiche e utilitaristiche intende il delitto come violazione del patto sociale e la pena come sua difesa, da cui la polemica contro la pena di morte «né utile né necessaria»; il libro tratta in particolare tortura e pena capitale. Treccani (Libro dell’Anno 2008): la prima abolizione da parte di uno Stato è del 30 novembre 1786, con il Codice leopoldino di Pietro Leopoldo, granduca di Toscana, che abolì anche la tortura, per influenza diretta di Beccaria. Britannica: primo testo a enunciare in modo sistematico i principi della punizione; l’edizione per studenti ricorda la traduzione in sei lingue.",
+  "data": "2026-11-23",
+  "event_type": "law",
+  "place_name": "Milano",
+  "focus": "europa",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-rizal-noli",
+  "name": "José Rizal e il risveglio nazionale filippino",
+  "start_year": 1887,
+  "end_year": 1896,
+  "date_confidence": "high",
+  "summary": "Lo scrittore e medico José Rizal denuncia nel romanzo Noli me tangere (1887) gli abusi del dominio spagnolo nelle Filippine. Chiede riforme, ma è fucilato a Manila nel 1896: la sua morte alimenta la rivoluzione.",
+  "region": "Asia",
+  "subregion": "Filippine",
+  "lat": 14.5826,
+  "lon": 120.9787,
+  "label": "Manila · fucilato nel 1896",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "SE",
+  "related": [
+   "event-spanish-manila"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "José Rizal",
+    "url": "https://www.britannica.com/biography/Jose-Rizal"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippine Revolution",
+    "url": "https://www.britannica.com/event/Philippine-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Propaganda Movement",
+    "url": "https://www.britannica.com/topic/Propaganda-Movement"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why is José Rizal considered a national hero in the Philippines?",
+    "url": "https://www.britannica.com/place/Why-is-Jose-Rizal-considered-a-national-hero-in-the-Philippines"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: nato a Calamba il 19 giugno 1861, medico oculista formato anche a Madrid dal 1882; pubblica Noli me tangere nel 1887 (una pagina Britannica indica il 1886) e El filibusterismo nel 1891, romanzi che espongono la corruzione della società coloniale; guida il Movimento della Propaganda degli espatriati filippini (giornale La Solidaridad dal 1889); nel 1892 fonda la Liga Filipina e viene esiliato a Mindanao; senza legami con l’insurrezione del Katipunan, è processato per sedizione e fucilato a Manila il 30 dicembre 1896; chiedeva riforme pacifiche, ma la sua esecuzione unì i filippini e alimentò la rivoluzione; eroe nazionale, ricordato ogni 30 dicembre (Rizal Day).",
+  "data": "2026-11-23",
+  "event_type": "political",
+  "place_name": "Manila",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-nz-women-vote",
+  "name": "Nuova Zelanda: il voto alle donne",
+  "start_year": 1893,
+  "end_year": 1893,
+  "date_confidence": "high",
+  "summary": "Il 19 settembre 1893 la Nuova Zelanda diventa il primo paese con governo proprio in cui tutte le donne adulte votano per il parlamento, dopo le petizioni guidate da Kate Sheppard e firmate da quasi 32.000 donne.",
+  "region": "Oceania",
+  "subregion": "Nuova Zelanda",
+  "lat": -41.2784,
+  "lon": 174.7767,
+  "label": "Wellington · Parlamento",
+  "layer": "persone-idee",
+  "relevance": 2,
+  "world_area": "OC",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "NZHistory · Ministry for Culture and Heritage",
+    "title": "New Zealand women and the vote",
+    "url": "https://nzhistory.govt.nz/politics/womens-suffrage"
+   },
+   {
+    "institution": "Te Ara · The Encyclopedia of New Zealand",
+    "title": "Voting rights · Votes for women",
+    "url": "https://teara.govt.nz/en/voting-rights/page-4"
+   },
+   {
+    "institution": "NZHistory · Ministry for Culture and Heritage",
+    "title": "Massive women’s suffrage petition presented to Parliament",
+    "url": "https://nzhistory.govt.nz/womens-suffrage-petition-presented-to-parliament"
+   },
+   {
+    "institution": "NZHistory · Ministry for Culture and Heritage",
+    "title": "World suffrage timeline",
+    "url": "https://nzhistory.govt.nz/politics/womens-suffrage/world-suffrage-timeline"
+   }
+  ],
+  "nota": "Voce nuova. NZHistory e Te Ara: il 19 settembre 1893 il governatore Lord Glasgow firma il nuovo Electoral Act e la Nuova Zelanda diventa il primo paese autogovernato al mondo a concedere il voto a tutte le donne adulte per le elezioni parlamentari; in Gran Bretagna e negli Stati Uniti arriverà solo dopo la Prima guerra mondiale. La campagna fu guidata da Kate Sheppard e dalla Women’s Christian Temperance Union: petizioni con oltre 9000 firme nel 1891, quasi 20.000 nel 1892 e quasi 32.000 nel 1893, quasi un quarto delle donne adulte di origine europea. Le donne votano per la prima volta il 28 novembre 1893; nei seggi maori il 20 dicembre. Altri territori avevano dato prima un voto parziale (Pitcairn dal 1838, isola di Man nel 1881 per le proprietarie), ma non uno Stato autogovernato a tutte le donne adulte.",
+  "data": "2026-11-23",
+  "event_type": "political",
+  "place_name": "Wellington"
+ }
+]

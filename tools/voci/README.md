@@ -8,3 +8,5 @@
 Le coordinate delle posizioni sono punti di orientamento (`representative_anchor`) scelti da Claude: città o siti noti, non confini.
 
 Precisione delle date: se il record non indica `date_precision`, un anno singolo con affidabilità alta diventa `year` (la scheda mostra l'anno senza «circa»); tutto il resto diventa `approximate` («circa»). Per un intervallo con estremi certi (es. 1545–1563) indicare `"date_precision": "range"`.
+
+Dalla v0.71 il file delle voci nuove si può generare da uno script Python (`nuove_v071.py` scrive `nuove_v071.json`), comodo quando le voci sono molte.
