@@ -1,0 +1,970 @@
+[
+ {
+  "tipo": "entity",
+  "id": "site-liangzhu",
+  "name": "Liangzhu, città di un antico stato del basso Yangtze",
+  "start_year": -3300,
+  "end_year": -2300,
+  "date_confidence": "medium",
+  "summary": "Centro di potere e di culto di uno stato regionale del Neolitico tardo, fondato sulla coltivazione del riso, con un grande sistema di dighe e giade rituali.",
+  "region": "Asia",
+  "subregion": "Delta dello Yangtze (Zhejiang)",
+  "lat": 30.39,
+  "lon": 119.99,
+  "label": "Liangzhu (Hangzhou)",
+  "layer": "luoghi",
+  "relevance": 2,
+  "world_area": "AE",
+  "entity_type": "archaeological_site",
+  "related": [
+   "culture-yangshao"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Archaeological Ruins of Liangzhu City",
+    "url": "https://whc.unesco.org/en/list/1592/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Decision 43 COM 8B.15 Archaeological Ruins of Liangzhu City (China)",
+    "url": "https://whc.unesco.org/en/decisions/7372"
+   }
+  ],
+  "nota": "Voce nuova. La città di Liangzhu, costruita e abitata tra il 3300 e il 2300 a.C. circa, era il centro di potere e di culto di uno stato regionale del Neolitico tardo nel basso Yangtze, con economia basata sulla risicoltura; comprende un sistema idraulico di dighe, cimiteri gerarchici e giade che esprimono un sistema di credenze comune (UNESCO, patrimonio dal 2019)."
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-longshan",
+  "name": "Cultura di Longshan",
+  "start_year": -2600,
+  "end_year": -2000,
+  "date_confidence": "medium",
+  "summary": "Ultima grande cultura neolitica della Cina centrale e orientale: ceramica nera dalle pareti sottilissime fatta al tornio, mura di terra battuta e divinazione con ossa bovine.",
+  "region": "Asia",
+  "subregion": "Cina centrale e orientale",
+  "lat": 36.72,
+  "lon": 117.4,
+  "label": "Longshan (Shandong) · sito eponimo",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "AE",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-yangshao",
+   "civilization-shang"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Longshan culture",
+    "url": "https://www.britannica.com/topic/Longshan-culture"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese pottery: the formative period",
+    "url": "https://www.britannica.com/art/Chinese-pottery"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "China, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/02/eac.html"
+   }
+  ],
+  "nota": "Voce nuova. Britannica data la cultura di Longshan, dal sito dello Shandong scavato nel 1928, a circa 2600–2000 a.C.: ceramica brunita fatta al tornio, mura di terra compressa, divinazione scaldando ossa bovine; in molti siti sostituisce la cultura di Yangshao. Il Met la data più a lungo, 2500–1700 a.C.: datazione indicativa."
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-erlitou",
+  "name": "Cultura di Erlitou",
+  "start_year": -1900,
+  "end_year": -1350,
+  "date_confidence": "medium",
+  "summary": "Prima società di livello statale della Cina, con palazzi, tombe e i più antichi vasi di bronzo cinesi; spesso collegata alla dinastia Xia, la cui esistenza però non è dimostrata.",
+  "region": "Asia",
+  "subregion": "Pianura centrale (Henan)",
+  "lat": 34.69,
+  "lon": 112.69,
+  "label": "Erlitou (Yanshi, Henan)",
+  "layer": "civilta",
+  "relevance": 2,
+  "world_area": "AE",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-longshan",
+   "civilization-shang"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Erlitou culture",
+    "url": "https://www.britannica.com/topic/Erlitou-culture"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why is the Xia dynasty considered semimythical?",
+    "url": "https://www.britannica.com/topic/Why-is-the-Xia-dynasty-considered-semimythical"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chinese bronzes",
+    "url": "https://www.britannica.com/art/Chinese-bronzes"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "China, 2000–1000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/03/eac.html"
+   }
+  ],
+  "nota": "Voce nuova. Britannica data la cultura di Erlitou al 1900–1350 a.C. e la considera la prima società di livello statale in Cina, con palazzi, tombe reali, strade lastricate e bronzo avanzato; i più antichi vasi di bronzo cinesi vengono da qui. Il legame con la dinastia Xia è un’ipotesi: la Xia resta semileggendaria (Britannica). Il Met colloca il centro urbano tra il 1700 e il 1500 a.C."
+ },
+ {
+  "tipo": "entity",
+  "id": "site-dholavira",
+  "name": "Dholavira",
+  "start_year": -3000,
+  "end_year": -1500,
+  "date_confidence": "medium",
+  "summary": "Centro meridionale della civiltà dell’Indo, su un’isola arida del Gujarat: città fortificata con un ingegnoso sistema per raccogliere l’acqua e un grande cimitero.",
+  "region": "Asia",
+  "subregion": "Gujarat (Kachchh)",
+  "lat": 23.888,
+  "lon": 70.213,
+  "label": "Dholavira (isola di Khadir)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "AM",
+  "entity_type": "archaeological_site",
+  "related": [
+   "civilization-indus"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Dholavira: a Harappan City",
+    "url": "https://whc.unesco.org/en/list/1645/"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Decision 44 COM 8B.35 Dholavira: a Harappan City (India)",
+    "url": "https://whc.unesco.org/en/decisions/7954/"
+   }
+  ],
+  "nota": "Voce nuova. Dholavira, centro meridionale della civiltà di Harappa sull’isola di Khadir (Gujarat), fu abitata tra il 3000 e il 1500 a.C. circa: città fortificata, gestione dell’acqua di due torrenti stagionali, cimitero con cenotafi; sesto sito per grandezza tra oltre mille siti harappani, testimonia tutta la parabola della civiltà (UNESCO, patrimonio dal 2021)."
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-yamnaya",
+  "name": "Cultura di Yamnaya, pastori delle steppe",
+  "start_year": -3300,
+  "end_year": -2500,
+  "date_confidence": "medium",
+  "summary": "Pastori nomadi delle steppe a nord del Mar Nero e del Caspio, che seppellivano i morti sotto tumuli (kurgan): verso il 3000 a.C. si estendono dall’Ungheria al Kazakistan e la loro ascendenza entra in gran parte d’Europa. Secondo studi genetici recenti parlavano una forma antica di indoeuropeo.",
+  "region": "Asia",
+  "subregion": "Steppe pontico-caspiche",
+  "lat": 47.5,
+  "lon": 40.0,
+  "label": "Steppe a nord del Mar Nero e del Caspio",
+  "layer": "civilta",
+  "relevance": 2,
+  "world_area": "AC",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-botai",
+   "culture-sintashta"
+  ],
+  "fonti": [
+   {
+    "institution": "Nature",
+    "title": "Lazaridis et al. 2025, The genetic origin of the Indo-Europeans",
+    "url": "https://www.nature.com/articles/s41586-024-08531-5"
+   },
+   {
+    "institution": "Nature",
+    "title": "Wilkin et al. 2021, Dairying enabled Early Bronze Age Yamnaya steppe expansions",
+    "url": "https://www.nature.com/articles/s41586-021-03798-4.pdf"
+   },
+   {
+    "institution": "Scientific Reports",
+    "title": "Juras et al. 2017, Diverse origin of mitochondrial lineages in Iron Age Black Sea Scythians",
+    "url": "https://www.nature.com/articles/srep43950?proof=t"
+   },
+   {
+    "institution": "Scientific Reports",
+    "title": "Juras et al. 2018, Mitochondrial genomes reveal an east to west cline of steppe ancestry in Corded Ware populations",
+    "url": "https://www.nature.com/articles/s41598-018-29914-5"
+   }
+  ],
+  "nota": "Voce nuova. Il complesso archeologico di Yamnaya compare verso il 3300 a.C. nelle steppe a nord del Mar Nero e del Caspio e verso il 3000 a.C. va dall’Ungheria al Kazakistan; secondo lo studio genetico di Nature (2025) nasce da una piccola comunità che parlava l’indoeuropeo ancestrale. Nature (2021) colloca l’età del bronzo antico di Yamnaya tra il 3300 e il 2500 a.C. circa e lega l’espansione all’uso del latte; Yamnaya fa parte del fenomeno delle sepolture a kurgan (Scientific Reports). Il legame con le lingue indoeuropee è presentato nella sintesi come risultato di studi genetici, non come fatto acquisito. Scientific Reports (2018): i gruppi Yamnaya, pastori con sepolture a tumulo, contribuirono molto al patrimonio genetico degli europei dell’età del bronzo.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-bmac-oxus",
+  "name": "Civiltà dell’Oxus (Battriana e Margiana)",
+  "start_year": -2200,
+  "end_year": -1700,
+  "date_confidence": "medium",
+  "summary": "Civiltà delle oasi dell’Asia centrale nata con l’agricoltura irrigua: grandi edifici fortificati e oggetti di lusso in argento, oro e pietra.",
+  "region": "Asia",
+  "subregion": "Battriana e Margiana (Turkmenistan, Uzbekistan, Afghanistan)",
+  "lat": 37.6,
+  "lon": 62.0,
+  "label": "Oasi della Margiana e della Battriana",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "AC",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "civilization-indus"
+  ],
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Central and North Asia, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/02/nc.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Seated female, Bactria-Margiana Archaeological Complex",
+    "url": "https://www.metmuseum.org/art/collection/search/329073"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Art of the Bronze Age: Southeastern Iran, Western Central Asia, and the Indus Valley",
+    "url": "https://www.metmuseum.org/met-publications/art-of-the-bronze-age-southeastern-iran-western-central-asia-and-the-indus-valley"
+   }
+  ],
+  "nota": "Voce nuova. Verso il 2200 a.C. l’agricoltura irrigua porta la popolazione dalle colline alle oasi lungo i fiumi che scendono nel deserto centroasiatico; i nuovi insediamenti hanno grandi edifici fortificati e da qui nasce la civiltà dell’Oxus (BMAC), che il Met fa iniziare verso il 2000/1900 a.C.; gli oggetti del Met sono datati tra fine III e inizio II millennio a.C. (argento, elettro, steatite).",
+  "parziale": "la data di fine (1700 a.C. è una stima dall’«inizio del II millennio» indicato dal Met).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-andronovo",
+  "name": "Cultura di Andronovo",
+  "start_year": -2000,
+  "end_year": -1000,
+  "date_confidence": "medium",
+  "summary": "Cultura dell’età del bronzo diffusa nel II millennio a.C. su gran parte del Kazakistan e della Siberia occidentale: capanne interrate, allevamento di bovini, pecore e cavalli, ceramica a motivi geometrici.",
+  "region": "Asia",
+  "subregion": "Kazakistan e Siberia occidentale",
+  "lat": 50.0,
+  "lon": 68.0,
+  "label": "Steppe del Kazakistan",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "AC",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-sintashta",
+   "culture-botai",
+   "culture-scythians"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Stone Age: Asia (Andronovo)",
+    "url": "https://www.britannica.com/event/Stone-Age/European-cultures"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kazakhstan: Kazakhstan to c. 1700 ce",
+    "url": "https://www.britannica.com/place/Kazakhstan/Cultural-life#toc73648"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Central Asian arts: Neolithic and Metal Age cultures",
+    "url": "https://www.britannica.com/art/Central-Asian-arts/Visual-arts"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la cultura di Andronovo, dell’età del bronzo, si estende nel II millennio a.C. su gran parte del Kazakistan; abbastanza uniforme su un’area vasta, con agricoltura importante, capanne interrate, allevamento di bovini, pecore e cavalli e vasi a fondo piatto decorati con motivi geometrici. È più frequente in Siberia occidentale e Kazakistan e le seguono i nomadi poi identificati con gli Sciti. Una voce di Britannica la estende anche al I millennio a.C.: datazione indicativa.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "state-kerma",
+  "name": "Regno di Kerma",
+  "start_year": -2500,
+  "end_year": -1550,
+  "date_confidence": "medium",
+  "summary": "Primo regno della Nubia, con capitale a Kerma presso la terza cateratta del Nilo: rivale dell’Egitto, al culmine tra il 1700 e il 1550 a.C., quando produceva la ceramica più fine della valle del Nilo.",
+  "region": "Africa",
+  "subregion": "Alta Nubia (Sudan)",
+  "lat": 19.6,
+  "lon": 30.41,
+  "label": "Kerma (terza cateratta del Nilo)",
+  "layer": "civilta",
+  "relevance": 2,
+  "world_area": "AN",
+  "entity_type": "state",
+  "related": [
+   "state-kush",
+   "state-ancient-egypt"
+  ],
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Sudan, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/es/toah/ht/02/afs.html"
+   },
+   {
+    "institution": "Museum of Fine Arts, Boston",
+    "title": "Ancient Nubia Now",
+    "url": "https://www.mfa.org/exhibitions/nubia"
+   },
+   {
+    "institution": "Museum of Fine Arts, Boston",
+    "title": "Nubian Art",
+    "url": "https://www.mfa.org/collections/nubian-art"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nubia",
+    "url": "https://www.britannica.com/place/Nubia"
+   }
+  ],
+  "nota": "Voce nuova. Già verso il 2500 a.C. in Alta Nubia sembra formarsi un regno unito con capitale a Kerma, poco a sud della terza cateratta (Met). Il Museum of Fine Arts di Boston data la capitale Kerma al 2400–1550 a.C. e colloca il culmine della civiltà tra il 1700 e il 1550, con la ceramica più fine della valle del Nilo. Britannica ricorda che, all’epoca degli Hyksos, i Nubiani saccheggiarono l’Alto Egitto e portarono monumenti a Kerma.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-lothagam-north",
+  "name": "Lothagam North, cimitero monumentale dei primi pastori",
+  "start_year": -3000,
+  "end_year": -2300,
+  "date_confidence": "medium",
+  "summary": "Il più antico monumento dell’Africa orientale: un grande cimitero comune con pilastri di pietra, cerchi e tumuli presso il lago Turkana, costruito dai primi pastori della regione, senza segni di gerarchie sociali.",
+  "region": "Africa",
+  "subregion": "Lago Turkana (Kenya)",
+  "lat": 2.85,
+  "lon": 36.07,
+  "label": "Lago Turkana · Lothagam North",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "AS",
+  "entity_type": "archaeological_site",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "PNAS",
+    "title": "Hildebrand et al. 2018, A monumental cemetery built by eastern Africa’s first herders near Lake Turkana, Kenya",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1721975115"
+   },
+   {
+    "institution": "PNAS",
+    "title": "Grillo et al. 2020, Molecular and isotopic evidence for milk, meat, and plants in prehistoric eastern African herder food systems",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1920309117"
+   },
+   {
+    "institution": "Smithsonian Magazine",
+    "title": "Their World Was Crumbling, but These Ancient People Built a Lasting Memorial",
+    "url": "https://www.smithsonianmag.com/science-nature/when-their-world-was-chaos-these-ancient-people-coped-building-monument-180970087/"
+   }
+  ],
+  "nota": "Voce nuova. Lothagam North Pillar Site è un cimitero comune presso il lago Turkana costruito 5000 anni fa dai primi pastori dell’Africa orientale: pilastri megalitici, cerchi di pietre, tumuli e una piattaforma con una fossa che conteneva almeno 580 individui di ogni età e sesso, senza prove di stratificazione sociale; la costruzione dei siti a pilastri cessa entro circa 4100 anni fa (PNAS 2018). Il bestiame compare nel bacino del Turkana tra 5000 e 4500 anni fa, in una fase arida (PNAS 2020). Smithsonian data l’uso del sito a 5000–4300 anni fa.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-4-2-ka-drought",
+  "name": "Siccità di 4200 anni fa e inizio del Meghalayano",
+  "start_year": -2250,
+  "end_year": -2050,
+  "date_confidence": "medium",
+  "summary": "Circa due secoli di siccità e raffreddamento su scala quasi globale, verso il 2200 a.C., che misero in crisi diverse società agricole: dal 2018 segnano l’inizio dell’ultima età geologica, il Meghalayano.",
+  "region": "Globale",
+  "subregion": "Mondo",
+  "lat": 25.26,
+  "lon": 91.71,
+  "label": "Grotta di Mawmluh (Meghalaya) · stalagmite di riferimento",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "GL",
+  "event_type": "disaster",
+  "place_name": "Mondo",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Meghalayan Stage",
+    "url": "https://www.britannica.com/topic/Meghalayan-stage"
+   },
+   {
+    "institution": "International Commission on Stratigraphy",
+    "title": "Walker et al. 2018, Formal ratification of the subdivision of the Holocene Series",
+    "url": "https://stratigraphy.org/gssps/files/meghalayan.pdf"
+   },
+   {
+    "institution": "International Union of Geological Sciences",
+    "title": "The First 100 IUGS Geological Heritage Sites",
+    "url": "https://www.iugs.org/wp-content/uploads/2026/05/IUGS-FIRST-100-SITES-WEB-BOOK.pdf"
+   }
+  ],
+  "nota": "Voce nuova. Una stalagmite della grotta di Mawmluh (Meghalaya, India) registra circa 200 anni di siccità e raffreddamento mondiali verso 4200 anni fa (Britannica); l’evento di 4,2 mila anni fa definisce l’inizio del Meghalayano, ratificato all’unanimità dall’IUGS il 14 giugno 2018 (Commissione internazionale di stratigrafia). L’IUGS lo descrive come una siccità quasi globale che mise quasi al collasso società basate sull’agricoltura. Il punto sulla mappa indica la grotta della stalagmite di riferimento, non un luogo colpito più di altri.",
+  "parziale": "quali società in particolare furono colpite (non elencate nelle fonti lette).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "movement-austronesian-expansion",
+  "name": "Espansione austronesiana",
+  "start_year": -3500,
+  "end_year": 1300,
+  "date_confidence": "debated",
+  "summary": "Da Taiwan, popolazioni di lingua austronesiana raggiungono per mare le Filippine e l’Indonesia, poi l’Oceania remota fino a Rapa Nui e, a ovest, il Madagascar: la famiglia linguistica più estesa prima dell’espansione europea.",
+  "region": "Asia",
+  "subregion": "Taiwan, Filippine, Indonesia, Oceania, Madagascar",
+  "lat": 17.6,
+  "lon": 121.7,
+  "label": "Taiwan e Filippine settentrionali · partenza",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "SE",
+  "entity_type": "movement",
+  "related": [
+   "culture-lapita",
+   "event-rapanui-initial-settlement",
+   "event-maori-settlement"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Asia: Ethnic groups (Austronesian speakers)",
+    "url": "https://www.britannica.com/place/Asia/Ethnic-groups"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Austronesian languages",
+    "url": "https://kids.britannica.com/scholars/article/Austronesian-languages/109806"
+   },
+   {
+    "institution": "Nature Communications",
+    "title": "Lipson et al. 2014, Reconstructing Austronesian population history in Island Southeast Asia",
+    "url": "https://www.nature.com/articles/ncomms5689"
+   },
+   {
+    "institution": "Scientific Reports",
+    "title": "Leveraging known Pacific colonisation times to test models for the ancestry of Southeast Asians",
+    "url": "https://www.nature.com/articles/s41598-025-20856-3"
+   }
+  ],
+  "nota": "Voce nuova. Le prime lingue austronesiane si parlavano forse a Taiwan verso il 4000 a.C.; verso il 3500 a.C. popolazioni simili a quelle di Taiwan compaiono nelle Filippine settentrionali e entro un millennio in tutta l’Indonesia; il Madagascar fu popolato da emigrati del Borneo sudorientale (Britannica). Nature Communications (2014) fa iniziare l’espansione 4000–5000 anni fa: date discusse. Prima dell’espansione europea era la famiglia linguistica più estesa, dal Madagascar a Hawaii e Rapa Nui (Scientific Reports 2025). La fine al 1300 è una scelta editoriale, legata all’arrivo in Aotearoa e a Rapa Nui già presenti nell’atlante.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-pearl-millet",
+  "name": "Domesticazione del miglio perlato nel Sahel",
+  "start_year": -2800,
+  "end_year": -2500,
+  "date_confidence": "medium",
+  "summary": "Nel Sahel dell’Africa occidentale viene domesticato il miglio perlato, cereale adatto a suoli poveri e alla siccità: i resti domestici più antichi, di circa 4500 anni fa, vengono dalla valle del Tilemsi, in Mali.",
+  "region": "Africa",
+  "subregion": "Sahel occidentale",
+  "lat": 17.4,
+  "lon": 0.3,
+  "label": "Valle del Tilemsi (Mali)",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "AS",
+  "entity_type": "invention",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Scientific Reports",
+    "title": "New evidence reveals dispersal of pearl millet from West Africa to South Asia by 2500 BCE",
+    "url": "https://www.nature.com/articles/s41598-025-20110-w"
+   },
+   {
+    "institution": "Nature Biotechnology",
+    "title": "Varshney et al. 2017, Pearl millet genome sequence provides a resource to improve agronomic traits in arid environments",
+    "url": "https://www.nature.com/articles/nbt.3943"
+   },
+   {
+    "institution": "Scientific Reports",
+    "title": "Genetic control of rhizosheath formation in pearl millet",
+    "url": "https://www.nature.com/articles/s41598-022-13234-w"
+   }
+  ],
+  "nota": "Voce nuova. Gli studi genetici collocano la domesticazione del miglio perlato nel Sahel occidentale entro il 2800 a.C.; i primi caratteri domestici sono datati al 2500 a.C. circa, in impronte nella ceramica (Scientific Reports 2025). Il genoma conferma l’origine nella parte centrale dell’Africa occidentale, con resti di 4500 anni fa nel Sahel centro-settentrionale (Nature Biotechnology 2017). È un cereale coltivato su suoli secchi e poveri (Scientific Reports 2022). Lo studio del 2025 sostiene anche un arrivo in Asia meridionale entro il 2500 a.C., cinque secoli prima di quanto si pensava: dato recente, non riportato nella sintesi.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-watson-brake",
+  "name": "Watson Brake e i primi tumuli della Louisiana",
+  "start_year": -3700,
+  "end_year": -2800,
+  "date_confidence": "medium",
+  "summary": "Gruppi di tumuli di terra costruiti da cacciatori-raccoglitori nel nord-est della Louisiana: tra i più antichi monumenti del Nord America, più vecchi delle piramidi di Giza.",
+  "region": "Americhe",
+  "subregion": "Louisiana nord-orientale",
+  "lat": 32.37,
+  "lon": -92.13,
+  "label": "Watson Brake (Louisiana)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "NA",
+  "entity_type": "archaeological_site",
+  "related": [
+   "site-poverty-point"
+  ],
+  "fonti": [
+   {
+    "institution": "Louisiana Department of Culture, Recreation and Tourism",
+    "title": "Louisiana’s Comprehensive Archaeological Plan (2022)",
+    "url": "https://www.crt.state.la.us/Assets/OCD/archaeology/CRM-Resources/Section106/Comprehensive%20Plan%202022.pdf"
+   },
+   {
+    "institution": "Louisiana Department of Culture, Recreation and Tourism",
+    "title": "Indian Mounds of Northeast Louisiana: A Driving Trail",
+    "url": "https://www.crt.state.la.us/dataprojects/archaeology/moundsguide/index.html"
+   },
+   {
+    "institution": "Louisiana Department of Culture, Recreation and Tourism",
+    "title": "Ancient Mound Sites of Louisiana",
+    "url": "https://www.crt.state.la.us/Assets/OCD/archaeology/discoverarchaeology/virtual-books/PDFs/Ancient%20Mound%20Sites%20of%20LA.pdf?Ancient+Mound+Sites="
+   },
+   {
+    "institution": "Louisiana Department of Education",
+    "title": "Early Civilizations in North America · student reader",
+    "url": "https://doe.louisiana.gov/docs/default-source/academic-curriculum/unit-5-early-civilizations-in-north-america-student-reader.pdf?sfvrsn=adbd6118_4"
+   }
+  ],
+  "nota": "Voce nuova. I 13 siti a tumuli del medio Arcaico conosciuti in Louisiana furono costruiti tra il 3700 e il 2800 a.C. calibrato (piano archeologico dello stato, 2022); Watson Brake è il più grande sito a tumuli antico, e i tumuli della Louisiana sono più antichi di Stonehenge e delle grandi piramidi (Dipartimento della cultura della Louisiana). Erano tumuli a sommità arrotondata, non sepolture né basi di templi. Anche alcuni gruppi di cacciatori-raccoglitori costruivano tumuli, e i più antichi conosciuti risalgono al 3500 a.C. circa (Dipartimento dell’istruzione della Louisiana).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-adena",
+  "name": "Cultura Adena",
+  "start_year": -800,
+  "end_year": 100,
+  "date_confidence": "medium",
+  "summary": "Cacciatori, raccoglitori e agricoltori della valle dell’Ohio, noti per i grandi tumuli funerari di terra.",
+  "region": "Americhe",
+  "subregion": "Valle dell’Ohio",
+  "lat": 39.35,
+  "lon": -83.0,
+  "label": "Valle dell’Ohio (Chillicothe)",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "NA",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-hopewell",
+   "site-poverty-point"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Native American: Eastern Woodland cultures",
+    "url": "https://www.britannica.com/topic/Native-American/Eastern-Woodland-cultures"
+   },
+   {
+    "institution": "Ohio History Connection",
+    "title": "Story Mound",
+    "url": "https://www.ohiohistory.org/visit/browse-historical-sites/story-mound/"
+   },
+   {
+    "institution": "Ohio History Connection",
+    "title": "Serpent Mound",
+    "url": "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ohio: Prehistory and settlement",
+    "url": "https://www.britannica.com/place/Ohio-state/History"
+   }
+  ],
+  "nota": "Voce nuova. Britannica data la cultura Adena, nella media valle dell’Ohio, al 500 a.C.–100 d.C. circa, forse dal 1000 a.C. in alcune zone: cacciatori, raccoglitori e agricoltori che seppellivano i morti in tumuli. La Ohio History Connection usa 800 a.C.–100 d.C.; qui si segue questa data. Adena e Hopewell scompaiono dalla regione entro il 300–400 d.C. (Britannica).",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-hohokam",
+  "name": "Hohokam, i canali del deserto",
+  "start_year": 1,
+  "end_year": 1450,
+  "date_confidence": "medium",
+  "summary": "Agricoltori del deserto dell’Arizona meridionale che scavarono centinaia di chilometri di canali lungo i fiumi Gila e Salt: il sistema irriguo più grande delle Americhe a nord del Perù.",
+  "region": "Americhe",
+  "subregion": "Arizona meridionale",
+  "lat": 33.44,
+  "lon": -111.98,
+  "label": "Valle del Salt (Phoenix)",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "NA",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "site-chaco-canyon"
+  ],
+  "fonti": [
+   {
+    "institution": "U.S. National Park Service",
+    "title": "Hohokam Culture",
+    "url": "https://www.nps.gov/articles/hohokam-culture.htm"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hohokam culture",
+    "url": "https://www.britannica.com/topic/Hohokam-culture"
+   },
+   {
+    "institution": "U.S. National Park Service",
+    "title": "Arizona: Casa Grande Ruins National Monument",
+    "url": "https://www.nps.gov/articles/casagrande.htm"
+   }
+  ],
+  "nota": "Voce nuova. Il National Park Service fa durare la cultura Hohokam dai primi anni d.C. al 1450 circa, 90 anni prima dell’arrivo degli Spagnoli, e la ricorda per i canali lungo i fiumi Salt e Gila, i sistemi irrigui più grandi e complessi del Nuovo Mondo a nord del Perù; secondo un’altra pagina del NPS la cultura diventa distinta verso il 300. Britannica usa 200–1400 circa: datazione indicativa.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-lanse-aux-meadows",
+  "name": "L’Anse aux Meadows, i Norreni in America",
+  "start_year": 1000,
+  "end_year": 1025,
+  "date_confidence": "high",
+  "summary": "Accampamento norreno a Terranova, unico sito vichingo accertato nelle Americhe: la datazione di oggetti di legno prova una presenza europea nel 1021, quasi cinque secoli prima di Colombo.",
+  "region": "Americhe",
+  "subregion": "Terranova (Canada)",
+  "lat": 51.585,
+  "lon": -55.55,
+  "label": "L’Anse aux Meadows (Terranova)",
+  "layer": "luoghi",
+  "relevance": 2,
+  "world_area": "NA",
+  "entity_type": "archaeological_site",
+  "related": [
+   "event-vikings",
+   "event-1492"
+  ],
+  "fonti": [
+   {
+    "institution": "Nature",
+    "title": "Kuitems et al. 2022, Evidence for European presence in the Americas in AD 1021",
+    "url": "https://www.nature.com/articles/s41586-021-03972-8"
+   },
+   {
+    "institution": "Parks Canada",
+    "title": "L’Anse aux Meadows National Historic Site",
+    "url": "https://parks.canada.ca/culture/designation/lieu-site/anse-aux-meadows"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "L’Anse aux Meadows National Historic Site · dati del bene",
+    "url": "https://whc.unesco.org/document/215921"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre (lista provvisoria)",
+    "title": "Grobiņa archaeological ensemble · confronto con L’Anse aux Meadows",
+    "url": "https://whc.unesco.org/en/tentativelists/6258/"
+   }
+  ],
+  "nota": "Voce nuova. L’Anse aux Meadows, a Terranova, è l’unico sito norreno accertato nelle Americhe; la datazione al radiocarbonio anno per anno di oggetti di legno prova la presenza dei Norreni nel 1021 (Nature 2022). Parks Canada: base fondata verso il 1000, forse l’accampamento di Leif Eriksson; UNESCO (patrimonio dal 1978): otto edifici di legno e torba dell’XI secolo, nello stile della Groenlandia e dell’Islanda norrene. Un documento UNESCO indica che l’insediamento durò solo un paio di decenni: la fine al 1025 è una stima.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-thule-migration",
+  "name": "Migrazione dei Thule, antenati degli Inuit",
+  "start_year": 1000,
+  "end_year": 1200,
+  "date_confidence": "medium",
+  "summary": "Dalla costa settentrionale dell’Alaska i Thule, cacciatori di balene e antenati degli Inuit, si spostano verso est attraverso l’Artico canadese fino alla Groenlandia, con barche di pelle, kayak e slitte trainate da cani.",
+  "region": "Americhe",
+  "subregion": "Artico, dall’Alaska alla Groenlandia",
+  "lat": 69.0,
+  "lon": -95.0,
+  "label": "Artico canadese",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "NA",
+  "event_type": "process",
+  "place_name": "Artico canadese",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Early Inuit (Thule) Winter House",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/thule-winter-house"
+   },
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Inuit Art",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/inuit-art"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arctic: History of settlement",
+    "url": "https://www.britannica.com/place/Arctic/History-of-settlement"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Thule culture",
+    "url": "https://kids.britannica.com/students/article/Thule-culture/480478"
+   }
+  ],
+  "nota": "Voce nuova. I primi Inuit (Thule) cominciano a occupare l’Artico dall’Alaska alla Groenlandia verso il 1000 d.C.; la migrazione dall’Alaska settentrionale inizia dopo il 1000 e raggiunge la Groenlandia orientale entro il 1200 (Canadian Encyclopedia). Britannica: i Thule canadesi portarono la lingua inuit in Groenlandia; erano una cultura marittima di cacciatori di balene, con umiak (grandi barche di pelle), kayak e slitte trainate da cani. Britannica fa partire l’espansione già verso il 900.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-valdivia",
+  "name": "Cultura Valdivia",
+  "start_year": -3300,
+  "end_year": -1500,
+  "date_confidence": "medium",
+  "summary": "Villaggi della costa dell’Ecuador con alcune delle ceramiche più antiche delle Americhe e la prima tradizione di statuine di argilla del continente, per lo più femminili.",
+  "region": "Americhe",
+  "subregion": "Costa dell’Ecuador",
+  "lat": -2.37,
+  "lon": -80.73,
+  "label": "Penisola di Santa Elena (Ecuador)",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "SA",
+  "entity_type": "archaeological_culture",
+  "related": [
+   "culture-caral"
+  ],
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "South America, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/02/sa.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Female Figure, Valdivia",
+    "url": "https://www.metmuseum.org/art/collection/search/314204"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Figure, Valdivia",
+    "url": "https://www.metmuseum.org/art/collection/search/314201"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Ecuador",
+    "url": "https://www.britannica.com/topic/history-of-Ecuador"
+   }
+  ],
+  "nota": "Voce nuova. Il Met data le culture Valdivia al 3300–1500 a.C.: verso il 3300 nascono villaggi sulla penisola di Santa Elena, con vasi di ceramica e piccole statuine di pietra; nel III millennio a.C. la costa dell’Ecuador sviluppa la più antica tradizione di statuine in ceramica delle Americhe, per lo più femminili. Britannica: statuine e vasi ecuadoriani del 3000–2500 a.C. sono tra le ceramiche più antiche del Nuovo Mondo.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-budj-bim",
+  "name": "Budj Bim, le trappole per anguille dei Gunditjmara",
+  "start_year": -4600,
+  "end_year": 2026,
+  "date_confidence": "medium",
+  "summary": "Nel sud-est dell’Australia i Gunditjmara costruiscono sulle colate laviche canali, dighe e bacini per catturare e allevare le anguille: uno dei sistemi di acquacoltura più antichi del mondo, in uso da almeno 6600 anni.",
+  "region": "Oceania",
+  "subregion": "Victoria sud-occidentale (Australia)",
+  "lat": -38.06,
+  "lon": 141.86,
+  "label": "Budj Bim · lago Condah (Victoria)",
+  "layer": "luoghi",
+  "relevance": 2,
+  "world_area": "OC",
+  "entity_type": "archaeological_site",
+  "related": [
+   "event-australia-colonization"
+  ],
+  "fonti": [
+   {
+    "institution": "UNESCO World Heritage Centre",
+    "title": "Budj Bim Cultural Landscape",
+    "url": "https://whc.unesco.org/en/list/1577/"
+   },
+   {
+    "institution": "Australian Government · DCCEEW",
+    "title": "World Heritage Places: Budj Bim Cultural Landscape",
+    "url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/world/budj-bim"
+   },
+   {
+    "institution": "Australian Government · DCCEEW",
+    "title": "Budj Bim National Heritage Landscape: Mt Eccles Lake Condah Area",
+    "url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/national/budj-bim"
+   }
+  ],
+  "nota": "Voce nuova. Il paesaggio culturale di Budj Bim, nel territorio dei Gunditjmara (Australia sud-orientale), comprende uno dei sistemi di acquacoltura più estesi e antichi del mondo: canali, sbarramenti e dighe di roccia vulcanica per catturare, conservare e raccogliere le anguille, base della società gunditjmara per sei millenni (UNESCO, patrimonio dal 6 luglio 2019). Il governo australiano data il sistema ad almeno 6600 anni fa, con una trappola del lago Condah datata al radiocarbonio. La voce resta aperta fino a oggi perché il paesaggio è ancora curato dai Gunditjmara.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "culture-west-polynesia",
+  "name": "Tonga e Samoa: nasce la cultura polinesiana",
+  "start_year": -800,
+  "end_year": 900,
+  "date_confidence": "medium",
+  "summary": "Nelle isole di Tonga e Samoa, raggiunte dai Lapita verso l’800 a.C., si forma la cultura polinesiana; poi per quasi due millenni i viaggi verso est si fermano, finché riprendono verso il 900–1000.",
+  "region": "Oceania",
+  "subregion": "Polinesia occidentale (Tonga, Samoa)",
+  "lat": -21.2,
+  "lon": -175.2,
+  "label": "Tonga e Samoa",
+  "layer": "civilta",
+  "relevance": 3,
+  "world_area": "OC",
+  "entity_type": "culture",
+  "related": [
+   "culture-lapita",
+   "event-east-polynesia-settlement"
+  ],
+  "fonti": [
+   {
+    "institution": "Te Ara · Encyclopedia of New Zealand",
+    "title": "Pacific migrations",
+    "url": "https://teara.govt.nz/en/pacific-migrations/print"
+   },
+   {
+    "institution": "Te Ara · Encyclopedia of New Zealand",
+    "title": "The direction and timing of settlement (mappa)",
+    "url": "https://teara.govt.nz/en/map/1772/the-direction-and-timing-of-settlement"
+   },
+   {
+    "institution": "PNAS",
+    "title": "Sear et al. 2020, Human settlement of East Polynesia earlier, incremental, and coincident with prolonged South Pacific drought",
+    "url": "https://www.pnas.org/doi/full/10.1073/pnas.1920975117"
+   }
+  ],
+  "nota": "Voce nuova. I migranti si diffondono nella Melanesia insulare e nella Polinesia occidentale tra il 1100 e l’800 a.C., Samoa compresa; i Lapita popolano Figi, Samoa e Tonga, dove nasce la cultura polinesiana; per 2000 anni dopo l’arrivo dei Lapita nella Polinesia occidentale non ci sono insediamenti nella Polinesia orientale (Te Ara). PNAS (2020) data la ripresa dei viaggi verso est a partire dal 900 circa. La fine al 900 indica la fine della «pausa», non della cultura, che continua.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "event",
+  "id": "event-east-polynesia-settlement",
+  "name": "Popolamento della Polinesia orientale",
+  "start_year": 1000,
+  "end_year": 1300,
+  "date_confidence": "debated",
+  "summary": "Navigatori polinesiani partiti dalla Polinesia occidentale raggiungono le isole della Società e poi, in pochi secoli, le Marchesi, Hawaii, Rapa Nui e la Nuova Zelanda: gli ultimi luoghi abitabili della Terra occupati dall’uomo.",
+  "region": "Oceania",
+  "subregion": "Polinesia orientale",
+  "lat": -16.83,
+  "lon": -151.43,
+  "label": "Isole della Società · Raiatea",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "OC",
+  "event_type": "exploration",
+  "place_name": "Polinesia orientale",
+  "related": [
+   "culture-west-polynesia",
+   "event-rapanui-initial-settlement",
+   "event-maori-settlement",
+   "movement-austronesian-expansion"
+  ],
+  "fonti": [
+   {
+    "institution": "PNAS",
+    "title": "Wilmshurst et al. 2011, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia",
+    "url": "https://www.pnas.org/doi/10.1073/pnas.1015876108"
+   },
+   {
+    "institution": "PNAS",
+    "title": "Sear et al. 2020, Human settlement of East Polynesia earlier, incremental, and coincident with prolonged South Pacific drought",
+    "url": "https://www.pnas.org/doi/full/10.1073/pnas.1920975117"
+   },
+   {
+    "institution": "Te Ara · Encyclopedia of New Zealand",
+    "title": "Pacific migrations",
+    "url": "https://teara.govt.nz/en/pacific-migrations/print"
+   }
+  ],
+  "nota": "Voce nuova. I 15 arcipelaghi della Polinesia orientale, con Nuova Zelanda, Hawaii e Rapa Nui, furono gli ultimi luoghi abitabili colonizzati dall’uomo. Secondo una meta-analisi di 1434 datazioni (PNAS 2011) le isole della Società furono popolate verso il 1025–1120 e tutte le altre in un’unica ondata verso il 1190–1290; uno studio successivo (PNAS 2020) indica arrivi più graduali, a partire dal 900 circa. Te Ara: dopo il 1000 si popolano gli arcipelaghi, poi Marchesi, Hawaii, Rapa Nui e Nuova Zelanda tra il 1200 e il 1300. Datazione discussa.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-sanxingdui",
+  "name": "Sanxingdui, i bronzi del Sichuan",
+  "start_year": -1200,
+  "end_year": -1000,
+  "date_confidence": "medium",
+  "summary": "Nel Sichuan una civiltà dell’età del bronzo che non compare nei testi cinesi lascia statue umane di bronzo, una alta più di due metri e mezzo, maschere dagli occhi sporgenti, oro, giada e zanne d’elefante, sepolte in fosse.",
+  "region": "Asia",
+  "subregion": "Sichuan (Guanghan)",
+  "lat": 30.994,
+  "lon": 104.199,
+  "label": "Sanxingdui (Guanghan, Sichuan)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "AE",
+  "entity_type": "archaeological_site",
+  "related": [
+   "civilization-shang"
+  ],
+  "fonti": [
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "China, 2000–1000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/03/eac.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Treasures from a Lost Civilization: Ancient Chinese Art from Sichuan (comunicato)",
+    "url": "https://metmuseum.org/press/exhibitions/2001/treasures-from-a-lost-civilization-ancient-chinese-art-from-sichuan"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "Treasures from a Lost Civilization: Ancient Chinese Art from Sichuan (fotografie)",
+    "url": "https://www.metmuseum.org/exhibitions/listings/2002/sichuan/photo-gallery"
+   },
+   {
+    "institution": "UNESCO World Heritage Centre (lista provvisoria)",
+    "title": "Archaeological Sites of the Ancient Shu State",
+    "url": "https://whc.unesco.org/en/tentativelists/5816/"
+   }
+  ],
+  "nota": "Voce nuova. Nel 1986, a Sanxingdui (Sichuan), operai trovarono due fosse sepolte verso il 1200 a.C. con centinaia di bronzi, oggetti di pietra e d’oro e zanne d’elefante (Met). Il Met data al 1200–1000 a.C. circa figure umane di bronzo, alcune a grandezza naturale, e teste, e parla di una cultura metallurgica non documentata dai testi; la figura su piedistallo è alta 260,8 cm. La lista provvisoria UNESCO la collega all’antico stato di Shu.",
+  "data": "2026-11-23"
+ },
+ {
+  "tipo": "entity",
+  "id": "site-kotosh",
+  "name": "Kotosh e il Tempio delle mani incrociate",
+  "start_year": -2200,
+  "end_year": -900,
+  "date_confidence": "medium",
+  "summary": "Centro cerimoniale delle Ande centrali, tra Amazzonia e costa: il Tempio delle mani incrociate, con rilievi di fango a forma di braccia incrociate, è tra i primi templi delle Ande.",
+  "region": "Americhe",
+  "subregion": "Ande centrali (Huánuco, Perù)",
+  "lat": -9.93,
+  "lon": -76.27,
+  "label": "Kotosh (Huánuco)",
+  "layer": "luoghi",
+  "relevance": 3,
+  "world_area": "SA",
+  "entity_type": "archaeological_site",
+  "related": [
+   "culture-caral",
+   "culture-chavin"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kotosh",
+    "url": "https://www.britannica.com/place/Kotosh"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "South America, 2000–1000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/03/sa.html"
+   },
+   {
+    "institution": "Metropolitan Museum of Art",
+    "title": "South America, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+    "url": "https://www.metmuseum.org/toah/ht/02/sa.html"
+   }
+  ],
+  "nota": "Voce nuova. Kotosh, presso Huánuco, è noto per le sue prime strutture templari, della fine del Preceramico tardo (circa 2000–1800 a.C.), coperte poi da templi del Periodo iniziale e da materiali Chavín (Britannica). Il Met data le culture di Kotosh al 2200–900 a.C. e il Tempio delle mani incrociate al 2000 a.C. circa; il centro sta tra le pianure amazzoniche e la costa del Pacifico.",
+  "data": "2026-11-23"
+ }
+]

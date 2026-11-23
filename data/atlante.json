@@ -10801,6 +10801,721 @@
    ],
    "key_sites": [],
    "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
+  },
+  {
+   "id": "site-liangzhu",
+   "name": "Liangzhu, città di un antico stato del basso Yangtze",
+   "start_year": -3300,
+   "end_year": -2300,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Centro di potere e di culto di uno stato regionale del Neolitico tardo, fondato sulla coltivazione del riso, con un grande sistema di dighe e giade rituali.",
+   "region": "Asia",
+   "subregion": "Delta dello Yangtze (Zhejiang)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 30.39,
+    "longitude": 119.99,
+    "label": "Liangzhu (Hangzhou)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-unesco-world-heritage-centre-archaeological-ruin",
+    "src-v-unesco-world-heritage-centre-decision-43-com-8b"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 2,
+   "world_area": "AE",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "culture-yangshao"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. La città di Liangzhu, costruita e abitata tra il 3300 e il 2300 a.C. circa, era il centro di potere e di culto di uno stato regionale del Neolitico tardo nel basso Yangtze, con economia basata sulla risicoltura; comprende un sistema idraulico di dighe, cimiteri gerarchici e giade che esprimono un sistema di credenze comune (UNESCO, patrimonio dal 2019).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-longshan",
+   "name": "Cultura di Longshan",
+   "start_year": -2600,
+   "end_year": -2000,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Ultima grande cultura neolitica della Cina centrale e orientale: ceramica nera dalle pareti sottilissime fatta al tornio, mura di terra battuta e divinazione con ossa bovine.",
+   "region": "Asia",
+   "subregion": "Cina centrale e orientale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 36.72,
+    "longitude": 117.4,
+    "label": "Longshan (Shandong) · sito eponimo",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-longshan-culture",
+    "src-v-encyclopaedia-britannica-chinese-pottery-the-for",
+    "src-v-metropolitan-museum-of-art-china-80002000-b-c-he"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "AE",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-yangshao",
+    "civilization-shang"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Britannica data la cultura di Longshan, dal sito dello Shandong scavato nel 1928, a circa 2600–2000 a.C.: ceramica brunita fatta al tornio, mura di terra compressa, divinazione scaldando ossa bovine; in molti siti sostituisce la cultura di Yangshao. Il Met la data più a lungo, 2500–1700 a.C.: datazione indicativa.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-erlitou",
+   "name": "Cultura di Erlitou",
+   "start_year": -1900,
+   "end_year": -1350,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Prima società di livello statale della Cina, con palazzi, tombe e i più antichi vasi di bronzo cinesi; spesso collegata alla dinastia Xia, la cui esistenza però non è dimostrata.",
+   "region": "Asia",
+   "subregion": "Pianura centrale (Henan)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.69,
+    "longitude": 112.69,
+    "label": "Erlitou (Yanshi, Henan)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-erlitou-culture",
+    "src-v-encyclopaedia-britannica-why-is-the-xia-dynasty",
+    "src-v-encyclopaedia-britannica-chinese-bronzes",
+    "src-v-metropolitan-museum-of-art-china-20001000-b-c-he"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 2,
+   "world_area": "AE",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-longshan",
+    "civilization-shang"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Britannica data la cultura di Erlitou al 1900–1350 a.C. e la considera la prima società di livello statale in Cina, con palazzi, tombe reali, strade lastricate e bronzo avanzato; i più antichi vasi di bronzo cinesi vengono da qui. Il legame con la dinastia Xia è un’ipotesi: la Xia resta semileggendaria (Britannica). Il Met colloca il centro urbano tra il 1700 e il 1500 a.C.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-dholavira",
+   "name": "Dholavira",
+   "start_year": -3000,
+   "end_year": -1500,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Centro meridionale della civiltà dell’Indo, su un’isola arida del Gujarat: città fortificata con un ingegnoso sistema per raccogliere l’acqua e un grande cimitero.",
+   "region": "Asia",
+   "subregion": "Gujarat (Kachchh)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 23.888,
+    "longitude": 70.213,
+    "label": "Dholavira (isola di Khadir)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-unesco-world-heritage-centre-dholavira-a-harappa",
+    "src-v-unesco-world-heritage-centre-decision-44-com-8b"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 3,
+   "world_area": "AM",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "civilization-indus"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Dholavira, centro meridionale della civiltà di Harappa sull’isola di Khadir (Gujarat), fu abitata tra il 3000 e il 1500 a.C. circa: città fortificata, gestione dell’acqua di due torrenti stagionali, cimitero con cenotafi; sesto sito per grandezza tra oltre mille siti harappani, testimonia tutta la parabola della civiltà (UNESCO, patrimonio dal 2021).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-yamnaya",
+   "name": "Cultura di Yamnaya, pastori delle steppe",
+   "start_year": -3300,
+   "end_year": -2500,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Pastori nomadi delle steppe a nord del Mar Nero e del Caspio, che seppellivano i morti sotto tumuli (kurgan): verso il 3000 a.C. si estendono dall’Ungheria al Kazakistan e la loro ascendenza entra in gran parte d’Europa. Secondo studi genetici recenti parlavano una forma antica di indoeuropeo.",
+   "region": "Asia",
+   "subregion": "Steppe pontico-caspiche",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 47.5,
+    "longitude": 40.0,
+    "label": "Steppe a nord del Mar Nero e del Caspio",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-nature-lazaridis-et-al-2025-the-genetic-origin-o",
+    "src-v-nature-wilkin-et-al-2021-dairying-enabled-early",
+    "src-v-scientific-reports-juras-et-al-2017-diverse-orig",
+    "src-v-scientific-reports-juras-et-al-2018-mitochondria"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 2,
+   "world_area": "AC",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-botai",
+    "culture-sintashta"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Il complesso archeologico di Yamnaya compare verso il 3300 a.C. nelle steppe a nord del Mar Nero e del Caspio e verso il 3000 a.C. va dall’Ungheria al Kazakistan; secondo lo studio genetico di Nature (2025) nasce da una piccola comunità che parlava l’indoeuropeo ancestrale. Nature (2021) colloca l’età del bronzo antico di Yamnaya tra il 3300 e il 2500 a.C. circa e lega l’espansione all’uso del latte; Yamnaya fa parte del fenomeno delle sepolture a kurgan (Scientific Reports). Il legame con le lingue indoeuropee è presentato nella sintesi come risultato di studi genetici, non come fatto acquisito. Scientific Reports (2018): i gruppi Yamnaya, pastori con sepolture a tumulo, contribuirono molto al patrimonio genetico degli europei dell’età del bronzo.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-bmac-oxus",
+   "name": "Civiltà dell’Oxus (Battriana e Margiana)",
+   "start_year": -2200,
+   "end_year": -1700,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Civiltà delle oasi dell’Asia centrale nata con l’agricoltura irrigua: grandi edifici fortificati e oggetti di lusso in argento, oro e pietra.",
+   "region": "Asia",
+   "subregion": "Battriana e Margiana (Turkmenistan, Uzbekistan, Afghanistan)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 37.6,
+    "longitude": 62.0,
+    "label": "Oasi della Margiana e della Battriana",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-metropolitan-museum-of-art-central-and-north-asi",
+    "src-v-metropolitan-museum-of-art-seated-female-bactria",
+    "src-v-metropolitan-museum-of-art-art-of-the-bronze-age"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "AC",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "civilization-indus"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Verso il 2200 a.C. l’agricoltura irrigua porta la popolazione dalle colline alle oasi lungo i fiumi che scendono nel deserto centroasiatico; i nuovi insediamenti hanno grandi edifici fortificati e da qui nasce la civiltà dell’Oxus (BMAC), che il Met fa iniziare verso il 2000/1900 a.C.; gli oggetti del Met sono datati tra fine III e inizio II millennio a.C. (argento, elettro, steatite). Non verificato sulle fonti: la data di fine (1700 a.C. è una stima dall’«inizio del II millennio» indicato dal Met).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-andronovo",
+   "name": "Cultura di Andronovo",
+   "start_year": -2000,
+   "end_year": -1000,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Cultura dell’età del bronzo diffusa nel II millennio a.C. su gran parte del Kazakistan e della Siberia occidentale: capanne interrate, allevamento di bovini, pecore e cavalli, ceramica a motivi geometrici.",
+   "region": "Asia",
+   "subregion": "Kazakistan e Siberia occidentale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.0,
+    "longitude": 68.0,
+    "label": "Steppe del Kazakistan",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-stone-age-asia-andronov",
+    "src-v-encyclopaedia-britannica-kazakhstan-kazakhstan-t",
+    "src-v-encyclopaedia-britannica-central-asian-arts-neol"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "AC",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-sintashta",
+    "culture-botai",
+    "culture-scythians"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Britannica: la cultura di Andronovo, dell’età del bronzo, si estende nel II millennio a.C. su gran parte del Kazakistan; abbastanza uniforme su un’area vasta, con agricoltura importante, capanne interrate, allevamento di bovini, pecore e cavalli e vasi a fondo piatto decorati con motivi geometrici. È più frequente in Siberia occidentale e Kazakistan e le seguono i nomadi poi identificati con gli Sciti. Una voce di Britannica la estende anche al I millennio a.C.: datazione indicativa.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "state-kerma",
+   "name": "Regno di Kerma",
+   "start_year": -2500,
+   "end_year": -1550,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Primo regno della Nubia, con capitale a Kerma presso la terza cateratta del Nilo: rivale dell’Egitto, al culmine tra il 1700 e il 1550 a.C., quando produceva la ceramica più fine della valle del Nilo.",
+   "region": "Africa",
+   "subregion": "Alta Nubia (Sudan)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 19.6,
+    "longitude": 30.41,
+    "label": "Kerma (terza cateratta del Nilo)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-metropolitan-museum-of-art-sudan-80002000-b-c-he",
+    "src-v-museum-of-fine-arts-boston-ancient-nubia-now",
+    "src-v-museum-of-fine-arts-boston-nubian-art",
+    "src-v-encyclopaedia-britannica-nubia"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 2,
+   "world_area": "AN",
+   "entity_type": "state",
+   "related_entities": [
+    "state-kush",
+    "state-ancient-egypt"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Già verso il 2500 a.C. in Alta Nubia sembra formarsi un regno unito con capitale a Kerma, poco a sud della terza cateratta (Met). Il Museum of Fine Arts di Boston data la capitale Kerma al 2400–1550 a.C. e colloca il culmine della civiltà tra il 1700 e il 1550, con la ceramica più fine della valle del Nilo. Britannica ricorda che, all’epoca degli Hyksos, i Nubiani saccheggiarono l’Alto Egitto e portarono monumenti a Kerma.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-lothagam-north",
+   "name": "Lothagam North, cimitero monumentale dei primi pastori",
+   "start_year": -3000,
+   "end_year": -2300,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Il più antico monumento dell’Africa orientale: un grande cimitero comune con pilastri di pietra, cerchi e tumuli presso il lago Turkana, costruito dai primi pastori della regione, senza segni di gerarchie sociali.",
+   "region": "Africa",
+   "subregion": "Lago Turkana (Kenya)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 2.85,
+    "longitude": 36.07,
+    "label": "Lago Turkana · Lothagam North",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-pnas-hildebrand-et-al-2018-a-monumental-cemetery",
+    "src-v-pnas-grillo-et-al-2020-molecular-and-isotopic-ev",
+    "src-v-smithsonian-magazine-their-world-was-crumbling-b"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 3,
+   "world_area": "AS",
+   "entity_type": "archaeological_site",
+   "related_entities": [],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Lothagam North Pillar Site è un cimitero comune presso il lago Turkana costruito 5000 anni fa dai primi pastori dell’Africa orientale: pilastri megalitici, cerchi di pietre, tumuli e una piattaforma con una fossa che conteneva almeno 580 individui di ogni età e sesso, senza prove di stratificazione sociale; la costruzione dei siti a pilastri cessa entro circa 4100 anni fa (PNAS 2018). Il bestiame compare nel bacino del Turkana tra 5000 e 4500 anni fa, in una fase arida (PNAS 2020). Smithsonian data l’uso del sito a 5000–4300 anni fa.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "movement-austronesian-expansion",
+   "name": "Espansione austronesiana",
+   "start_year": -3500,
+   "end_year": 1300,
+   "date_precision": "approximate",
+   "date_confidence": "debated",
+   "summary": "Da Taiwan, popolazioni di lingua austronesiana raggiungono per mare le Filippine e l’Indonesia, poi l’Oceania remota fino a Rapa Nui e, a ovest, il Madagascar: la famiglia linguistica più estesa prima dell’espansione europea.",
+   "region": "Asia",
+   "subregion": "Taiwan, Filippine, Indonesia, Oceania, Madagascar",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 17.6,
+    "longitude": 121.7,
+    "label": "Taiwan e Filippine settentrionali · partenza",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-asia-ethnic-groups-aust",
+    "src-v-encyclopaedia-britannica-austronesian-languages",
+    "src-v-nature-communications-lipson-et-al-2014-reconstr",
+    "src-v-scientific-reports-leveraging-known-pacific-colo"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "SE",
+   "entity_type": "movement",
+   "related_entities": [
+    "culture-lapita",
+    "event-rapanui-initial-settlement",
+    "event-maori-settlement"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Le prime lingue austronesiane si parlavano forse a Taiwan verso il 4000 a.C.; verso il 3500 a.C. popolazioni simili a quelle di Taiwan compaiono nelle Filippine settentrionali e entro un millennio in tutta l’Indonesia; il Madagascar fu popolato da emigrati del Borneo sudorientale (Britannica). Nature Communications (2014) fa iniziare l’espansione 4000–5000 anni fa: date discusse. Prima dell’espansione europea era la famiglia linguistica più estesa, dal Madagascar a Hawaii e Rapa Nui (Scientific Reports 2025). La fine al 1300 è una scelta editoriale, legata all’arrivo in Aotearoa e a Rapa Nui già presenti nell’atlante.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "invention-pearl-millet",
+   "name": "Domesticazione del miglio perlato nel Sahel",
+   "start_year": -2800,
+   "end_year": -2500,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Nel Sahel dell’Africa occidentale viene domesticato il miglio perlato, cereale adatto a suoli poveri e alla siccità: i resti domestici più antichi, di circa 4500 anni fa, vengono dalla valle del Tilemsi, in Mali.",
+   "region": "Africa",
+   "subregion": "Sahel occidentale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 17.4,
+    "longitude": 0.3,
+    "label": "Valle del Tilemsi (Mali)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-scientific-reports-new-evidence-reveals-dispersa",
+    "src-v-nature-biotechnology-varshney-et-al-2017-pearl-m",
+    "src-v-scientific-reports-genetic-control-of-rhizosheat"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "tecnologie",
+   "relevance": 3,
+   "world_area": "AS",
+   "entity_type": "invention",
+   "related_entities": [],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Gli studi genetici collocano la domesticazione del miglio perlato nel Sahel occidentale entro il 2800 a.C.; i primi caratteri domestici sono datati al 2500 a.C. circa, in impronte nella ceramica (Scientific Reports 2025). Il genoma conferma l’origine nella parte centrale dell’Africa occidentale, con resti di 4500 anni fa nel Sahel centro-settentrionale (Nature Biotechnology 2017). È un cereale coltivato su suoli secchi e poveri (Scientific Reports 2022). Lo studio del 2025 sostiene anche un arrivo in Asia meridionale entro il 2500 a.C., cinque secoli prima di quanto si pensava: dato recente, non riportato nella sintesi.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-watson-brake",
+   "name": "Watson Brake e i primi tumuli della Louisiana",
+   "start_year": -3700,
+   "end_year": -2800,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Gruppi di tumuli di terra costruiti da cacciatori-raccoglitori nel nord-est della Louisiana: tra i più antichi monumenti del Nord America, più vecchi delle piramidi di Giza.",
+   "region": "Americhe",
+   "subregion": "Louisiana nord-orientale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 32.37,
+    "longitude": -92.13,
+    "label": "Watson Brake (Louisiana)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-louisiana-department-of-culture-recreation-and-t",
+    "src-v-louisiana-department-of-culture-recreation-and-t-2",
+    "src-v-louisiana-department-of-culture-recreation-and-t-3",
+    "src-v-louisiana-department-of-education-early-civiliza"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 3,
+   "world_area": "NA",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "site-poverty-point"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. I 13 siti a tumuli del medio Arcaico conosciuti in Louisiana furono costruiti tra il 3700 e il 2800 a.C. calibrato (piano archeologico dello stato, 2022); Watson Brake è il più grande sito a tumuli antico, e i tumuli della Louisiana sono più antichi di Stonehenge e delle grandi piramidi (Dipartimento della cultura della Louisiana). Erano tumuli a sommità arrotondata, non sepolture né basi di templi. Anche alcuni gruppi di cacciatori-raccoglitori costruivano tumuli, e i più antichi conosciuti risalgono al 3500 a.C. circa (Dipartimento dell’istruzione della Louisiana).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-adena",
+   "name": "Cultura Adena",
+   "start_year": -800,
+   "end_year": 100,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Cacciatori, raccoglitori e agricoltori della valle dell’Ohio, noti per i grandi tumuli funerari di terra.",
+   "region": "Americhe",
+   "subregion": "Valle dell’Ohio",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.35,
+    "longitude": -83.0,
+    "label": "Valle dell’Ohio (Chillicothe)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-native-american-eastern",
+    "src-v-ohio-history-connection-story-mound",
+    "src-v-ohio-history-connection-serpent-mound",
+    "src-v-encyclopaedia-britannica-ohio-prehistory-and-set"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "NA",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-hopewell",
+    "site-poverty-point"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Britannica data la cultura Adena, nella media valle dell’Ohio, al 500 a.C.–100 d.C. circa, forse dal 1000 a.C. in alcune zone: cacciatori, raccoglitori e agricoltori che seppellivano i morti in tumuli. La Ohio History Connection usa 800 a.C.–100 d.C.; qui si segue questa data. Adena e Hopewell scompaiono dalla regione entro il 300–400 d.C. (Britannica).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-hohokam",
+   "name": "Hohokam, i canali del deserto",
+   "start_year": 1,
+   "end_year": 1450,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Agricoltori del deserto dell’Arizona meridionale che scavarono centinaia di chilometri di canali lungo i fiumi Gila e Salt: il sistema irriguo più grande delle Americhe a nord del Perù.",
+   "region": "Americhe",
+   "subregion": "Arizona meridionale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 33.44,
+    "longitude": -111.98,
+    "label": "Valle del Salt (Phoenix)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-u-s-national-park-service-hohokam-culture",
+    "src-v-encyclopaedia-britannica-hohokam-culture",
+    "src-v-u-s-national-park-service-arizona-casa-grande-ru"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "NA",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "site-chaco-canyon"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Il National Park Service fa durare la cultura Hohokam dai primi anni d.C. al 1450 circa, 90 anni prima dell’arrivo degli Spagnoli, e la ricorda per i canali lungo i fiumi Salt e Gila, i sistemi irrigui più grandi e complessi del Nuovo Mondo a nord del Perù; secondo un’altra pagina del NPS la cultura diventa distinta verso il 300. Britannica usa 200–1400 circa: datazione indicativa.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-lanse-aux-meadows",
+   "name": "L’Anse aux Meadows, i Norreni in America",
+   "start_year": 1000,
+   "end_year": 1025,
+   "date_precision": "approximate",
+   "date_confidence": "high",
+   "summary": "Accampamento norreno a Terranova, unico sito vichingo accertato nelle Americhe: la datazione di oggetti di legno prova una presenza europea nel 1021, quasi cinque secoli prima di Colombo.",
+   "region": "Americhe",
+   "subregion": "Terranova (Canada)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 51.585,
+    "longitude": -55.55,
+    "label": "L’Anse aux Meadows (Terranova)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-nature-kuitems-et-al-2022-evidence-for-european",
+    "src-v-parks-canada-lanse-aux-meadows-national-historic",
+    "src-v-unesco-world-heritage-centre-lanse-aux-meadows-n",
+    "src-v-unesco-world-heritage-centre-grobina-archaeologi"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 2,
+   "world_area": "NA",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "event-vikings",
+    "event-1492"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. L’Anse aux Meadows, a Terranova, è l’unico sito norreno accertato nelle Americhe; la datazione al radiocarbonio anno per anno di oggetti di legno prova la presenza dei Norreni nel 1021 (Nature 2022). Parks Canada: base fondata verso il 1000, forse l’accampamento di Leif Eriksson; UNESCO (patrimonio dal 1978): otto edifici di legno e torba dell’XI secolo, nello stile della Groenlandia e dell’Islanda norrene. Un documento UNESCO indica che l’insediamento durò solo un paio di decenni: la fine al 1025 è una stima.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-valdivia",
+   "name": "Cultura Valdivia",
+   "start_year": -3300,
+   "end_year": -1500,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Villaggi della costa dell’Ecuador con alcune delle ceramiche più antiche delle Americhe e la prima tradizione di statuine di argilla del continente, per lo più femminili.",
+   "region": "Americhe",
+   "subregion": "Costa dell’Ecuador",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -2.37,
+    "longitude": -80.73,
+    "label": "Penisola di Santa Elena (Ecuador)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-metropolitan-museum-of-art-south-america-8000200",
+    "src-v-metropolitan-museum-of-art-female-figure-valdivi",
+    "src-v-metropolitan-museum-of-art-figure-valdivia",
+    "src-v-encyclopaedia-britannica-history-of-ecuador"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "SA",
+   "entity_type": "archaeological_culture",
+   "related_entities": [
+    "culture-caral"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Il Met data le culture Valdivia al 3300–1500 a.C.: verso il 3300 nascono villaggi sulla penisola di Santa Elena, con vasi di ceramica e piccole statuine di pietra; nel III millennio a.C. la costa dell’Ecuador sviluppa la più antica tradizione di statuine in ceramica delle Americhe, per lo più femminili. Britannica: statuine e vasi ecuadoriani del 3000–2500 a.C. sono tra le ceramiche più antiche del Nuovo Mondo.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-budj-bim",
+   "name": "Budj Bim, le trappole per anguille dei Gunditjmara",
+   "start_year": -4600,
+   "end_year": 2026,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Nel sud-est dell’Australia i Gunditjmara costruiscono sulle colate laviche canali, dighe e bacini per catturare e allevare le anguille: uno dei sistemi di acquacoltura più antichi del mondo, in uso da almeno 6600 anni.",
+   "region": "Oceania",
+   "subregion": "Victoria sud-occidentale (Australia)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -38.06,
+    "longitude": 141.86,
+    "label": "Budj Bim · lago Condah (Victoria)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-unesco-world-heritage-centre-budj-bim-cultural-l",
+    "src-v-australian-government-dcceew-world-heritage-plac",
+    "src-v-australian-government-dcceew-budj-bim-national-h"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 2,
+   "world_area": "OC",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "event-australia-colonization"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Il paesaggio culturale di Budj Bim, nel territorio dei Gunditjmara (Australia sud-orientale), comprende uno dei sistemi di acquacoltura più estesi e antichi del mondo: canali, sbarramenti e dighe di roccia vulcanica per catturare, conservare e raccogliere le anguille, base della società gunditjmara per sei millenni (UNESCO, patrimonio dal 6 luglio 2019). Il governo australiano data il sistema ad almeno 6600 anni fa, con una trappola del lago Condah datata al radiocarbonio. La voce resta aperta fino a oggi perché il paesaggio è ancora curato dai Gunditjmara.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "culture-west-polynesia",
+   "name": "Tonga e Samoa: nasce la cultura polinesiana",
+   "start_year": -800,
+   "end_year": 900,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Nelle isole di Tonga e Samoa, raggiunte dai Lapita verso l’800 a.C., si forma la cultura polinesiana; poi per quasi due millenni i viaggi verso est si fermano, finché riprendono verso il 900–1000.",
+   "region": "Oceania",
+   "subregion": "Polinesia occidentale (Tonga, Samoa)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -21.2,
+    "longitude": -175.2,
+    "label": "Tonga e Samoa",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-te-ara-encyclopedia-of-new-zealand-pacific-migra",
+    "src-v-te-ara-encyclopedia-of-new-zealand-the-direction",
+    "src-v-pnas-sear-et-al-2020-human-settlement-of-east-po"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "civilta",
+   "relevance": 3,
+   "world_area": "OC",
+   "entity_type": "culture",
+   "related_entities": [
+    "culture-lapita",
+    "event-east-polynesia-settlement"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. I migranti si diffondono nella Melanesia insulare e nella Polinesia occidentale tra il 1100 e l’800 a.C., Samoa compresa; i Lapita popolano Figi, Samoa e Tonga, dove nasce la cultura polinesiana; per 2000 anni dopo l’arrivo dei Lapita nella Polinesia occidentale non ci sono insediamenti nella Polinesia orientale (Te Ara). PNAS (2020) data la ripresa dei viaggi verso est a partire dal 900 circa. La fine al 900 indica la fine della «pausa», non della cultura, che continua.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-sanxingdui",
+   "name": "Sanxingdui, i bronzi del Sichuan",
+   "start_year": -1200,
+   "end_year": -1000,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Nel Sichuan una civiltà dell’età del bronzo che non compare nei testi cinesi lascia statue umane di bronzo, una alta più di due metri e mezzo, maschere dagli occhi sporgenti, oro, giada e zanne d’elefante, sepolte in fosse.",
+   "region": "Asia",
+   "subregion": "Sichuan (Guanghan)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 30.994,
+    "longitude": 104.199,
+    "label": "Sanxingdui (Guanghan, Sichuan)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-metropolitan-museum-of-art-china-20001000-b-c-he",
+    "src-v-metropolitan-museum-of-art-treasures-from-a-lost",
+    "src-v-metropolitan-museum-of-art-treasures-from-a-lost-2",
+    "src-v-unesco-world-heritage-centre-archaeological-site-2"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 3,
+   "world_area": "AE",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "civilization-shang"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Nel 1986, a Sanxingdui (Sichuan), operai trovarono due fosse sepolte verso il 1200 a.C. con centinaia di bronzi, oggetti di pietra e d’oro e zanne d’elefante (Met). Il Met data al 1200–1000 a.C. circa figure umane di bronzo, alcune a grandezza naturale, e teste, e parla di una cultura metallurgica non documentata dai testi; la figura su piedistallo è alta 260,8 cm. La lista provvisoria UNESCO la collega all’antico stato di Shu.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "site-kotosh",
+   "name": "Kotosh e il Tempio delle mani incrociate",
+   "start_year": -2200,
+   "end_year": -900,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Centro cerimoniale delle Ande centrali, tra Amazzonia e costa: il Tempio delle mani incrociate, con rilievi di fango a forma di braccia incrociate, è tra i primi templi delle Ande.",
+   "region": "Americhe",
+   "subregion": "Ande centrali (Huánuco, Perù)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -9.93,
+    "longitude": -76.27,
+    "label": "Kotosh (Huánuco)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-kotosh",
+    "src-v-metropolitan-museum-of-art-south-america-2000100",
+    "src-v-metropolitan-museum-of-art-south-america-8000200"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "luoghi",
+   "relevance": 3,
+   "world_area": "SA",
+   "entity_type": "archaeological_site",
+   "related_entities": [
+    "culture-caral",
+    "culture-chavin"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 23/11/2026: Voce nuova. Kotosh, presso Huánuco, è noto per le sue prime strutture templari, della fine del Preceramico tardo (circa 2000–1800 a.C.), coperte poi da templi del Periodo iniziale e da materiali Chavín (Britannica). Il Met data le culture di Kotosh al 2200–900 a.C. e il Tempio delle mani incrociate al 2000 a.C. circa; il centro sta tra le pianure amazzoniche e la costa del Pacifico.",
+   "verified_on": "2026-11-23"
   }
  ],
  "events": [
@@ -10901,7 +11616,15 @@
      "l": "Public domain"
     }
    ],
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-roman-conquest-sardinia",
@@ -12406,7 +13129,15 @@
    "relevance": 3,
    "world_area": "AE",
    "notes": "Verificata il 21/11/2026: Il 105 d.C. è la data tradizionale della presentazione del procedimento all’imperatore; Cai Lun è tradizionalmente indicato come inventore, ma la carta esisteva già prima: affidabilità lasciata media.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.62,
+    "longitude": 112.45,
+    "label": "Luoyang · corte degli Han orientali",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-pompeii",
@@ -12452,7 +13183,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Eruzione del 79 d.C. confermata. Il giorno è discusso (24 agosto secondo la tradizione, forse ottobre secondo indizi archeologici), l’anno no: affidabilità alta.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 40.749,
+    "longitude": 14.485,
+    "label": "Pompei",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-constantinople-found",
@@ -12497,7 +13236,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Inaugurazione ufficiale della nuova capitale l’11 maggio 330 confermata (lavori iniziati nel 324).",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 41.008,
+    "longitude": 28.98,
+    "label": "Costantinopoli (Istanbul)",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-western-rome-end",
@@ -12532,7 +13279,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Deposizione di Romolo Augustolo da parte di Odoacre nel 476 confermata; la fonte conferma anche che il 476 è la data convenzionale della fine dell’Impero d’Occidente.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 44.418,
+    "longitude": 12.204,
+    "label": "Ravenna",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-hijra",
@@ -12557,7 +13312,15 @@
    "relevance": 2,
    "world_area": "AO",
    "notes": "Verificata il 21/11/2026: Migrazione da Mecca a Yathrib (Medina) nel 622 e suo uso come inizio del calendario islamico confermati.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 24.467,
+    "longitude": 39.611,
+    "label": "Medina (Yathrib)",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-baghdad-founded",
@@ -12602,7 +13365,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Fondazione nel 762 da parte del califfo abbaside al-Mansur come nuova capitale confermata.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 33.315,
+    "longitude": 44.366,
+    "label": "Baghdad",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-house-wisdom",
@@ -12976,7 +13747,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Assedio dal 22 maggio e resa il 13 agosto 1521 confermati, con la coalizione di Spagnoli e alleati indigeni.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 19.435,
+    "longitude": -99.131,
+    "label": "Tenochtitlan (Città del Messico)",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-1533-inca",
@@ -13022,7 +13801,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Cattura di Atahualpa a Cajamarca nel novembre 1532 e ingresso degli Spagnoli a Cusco il 15 novembre 1533 confermati.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -13.516,
+    "longitude": -71.978,
+    "label": "Cusco",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-copernicus",
@@ -13068,7 +13855,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Pubblicazione a Norimberga nel 1543 confermata.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 49.452,
+    "longitude": 11.077,
+    "label": "Norimberga · stampa del De revolutionibus",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-galileo",
@@ -13168,7 +13963,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Prima riunione e data ufficiale di fondazione il 28 novembre 1660, al Gresham College di Londra, confermate.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 51.507,
+    "longitude": -0.128,
+    "label": "Londra",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-newton-principia",
@@ -13213,7 +14016,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Pubblicazione nel 1687, con le tre leggi del moto e la gravitazione universale, confermata.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 51.507,
+    "longitude": -0.128,
+    "label": "Londra · pubblicazione",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-industrial-steam",
@@ -13356,7 +14167,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Pubblicazione il 24 novembre 1859 confermata.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 51.507,
+    "longitude": -0.128,
+    "label": "Londra · pubblicazione",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-meiji",
@@ -13448,7 +14267,15 @@
     }
    ],
    "notes": "Verificata il 21/11/2026: Prima tavola di Mendeleev del 1869 confermata; i posti vuoti con le previsioni delle proprietà sono soprattutto nella versione del 1871.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 59.939,
+    "longitude": 30.316,
+    "label": "San Pietroburgo",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-dna",
@@ -13473,7 +14300,15 @@
    "relevance": 2,
    "world_area": "GL",
    "notes": "Verificata il 21/11/2026: Articolo di Watson e Crick su Nature del 25 aprile 1953 confermato, come il peso dei dati sperimentali di Rosalind Franklin.",
-   "verified_on": "2026-11-21"
+   "verified_on": "2026-11-21",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 52.205,
+    "longitude": 0.119,
+    "label": "Cambridge",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-moon-landing",
@@ -13674,7 +14509,15 @@
     }
    ],
    "notes": "Verificata il 23/11/2026: UNESCO colloca la costruzione di santuari e moai tra il X e il XVI secolo nella descrizione breve e tra l’XI e il XVII nella dichiarazione aggiornata; l’atlante usa 1100–1650. Circa 900 statue alte da 2 a 20 metri e oltre 300 piattaforme cerimoniali; la più grande è Ahu Tongariki, con 15 moai.",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.122,
+    "longitude": -109.289,
+    "label": "Rano Raraku · cava dei moai",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-agricultural-landscape",
@@ -13702,7 +14545,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Gli agricoltori di Rapa Nui usavano otto tipi di campi e giardini, con la pacciamatura litica per trattenere l’umidità; dal XIII secolo crescono i campi gestiti dalle élite, insieme alle grandi strutture religiose (Antiquity 1999). Uno studio del 2024 su Science Advances stima che i giardini di pietre bastassero per poche migliaia di persone (University of Arizona).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-birdman-cult",
@@ -13745,7 +14596,15 @@
     }
    ],
    "notes": "Verificata il 23/11/2026: Il culto dell’uomo-uccello (tangata manu), con la gara annuale per il primo uovo di manutara dall’isolotto di Motu Nui e il raduno a ʻOrongo, è uno sviluppo della tarda preistoria dell’isola (Rapa Nui Journal) e subentrò alla religione delle statue (ICOMOS). Non verificato sulle fonti: le date 1600–1860 (le fonti istituzionali consultate non le precisano; fonti divulgative indicano XVIII e metà del XIX secolo).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.19,
+    "longitude": -109.445,
+    "label": "Orongo",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-first-european-contact",
@@ -13773,7 +14632,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Confermato: l’ammiraglio olandese Jacob Roggeveen vide l’isola la domenica di Pasqua del 1722 e la visitò per un solo giorno; quando arrivarono gli europei la tradizione dei moai era già in declino (Met).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-slave-raids",
@@ -13800,7 +14667,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Confermato: verso il 1860 l’isola contava circa 3.000 abitanti; una grande razzia schiavista partita dal Perù nel 1862, seguita da epidemie di vaiolo, li ridusse a 111 nel 1877 (Britannica). Non verificato sulle fonti: la destinazione alle isole Chincha (non controllata in questa fonte).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-catholic-mission",
@@ -13826,7 +14701,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Britannica conferma l’arrivo dei missionari nel 1864, che introdussero il dialetto tahitiano in una popolazione ormai decimata. Non verificato sulle fonti: il carattere «permanente» della missione nel 1864 (non precisato nella fonte).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-chilean-annexation",
@@ -13852,7 +14735,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Confermato: il Cile annette l’isola nel 1888; gli isolani ottengono la piena cittadinanza cilena nel 1965 e l’isola fa parte della regione di Valparaíso (Britannica). Non verificato sulle fonti: il nome dell’accordo (Acuerdo de Voluntades), non citato in questa fonte.",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-unesco-listing",
@@ -13898,7 +14789,15 @@
     }
    ],
    "notes": "Verificata il 23/11/2026: Confermato: l’isola, annessa dal Cile nel 1888, è stata iscritta nel Patrimonio mondiale UNESCO nel 1995 (Britannica).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-precontact-americas",
@@ -13924,7 +14823,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Confermato: i Rapanui antichi e attuali hanno circa il 10% di ascendenza indigena americana; un modello bayesiano che unisce dati genetici e datazioni al radiocarbonio colloca la mescolanza intorno al 1250–1430 (Nature, 2024).",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-genomic-study-2024",
@@ -13950,7 +14857,15 @@
    "relevance": 3,
    "world_area": "OC",
    "notes": "Verificata il 23/11/2026: Confermato: Nature 633, 389–397, pubblicato a settembre 2024. Lo studio rifiuta la teoria dell’«ecocidio», cioè un crollo della popolazione nel Seicento per sfruttamento delle risorse, e trova circa il 10% di ascendenza indigena americana, entrata intorno al 1250–1430.",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-rapanui-rongorongo-dating-2024",
@@ -13997,7 +14912,15 @@
     }
    ],
    "notes": "Verificata il 23/11/2026: Confermato: lo studio del 2 febbraio 2024 ha datato al radiocarbonio quattro tavolette conservate a Roma; una dà una data sicura alla metà del XV secolo, le altre cadono nell’Ottocento. Secondo gli autori l’uso della scrittura potrebbe precedere l’arrivo di influenze esterne; la scrittura resta non decifrata.",
-   "verified_on": "2026-11-23"
+   "verified_on": "2026-11-23",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -27.12,
+    "longitude": -109.35,
+    "label": "Rapa Nui",
+    "precision": "representative_anchor"
+   },
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale."
   },
   {
    "id": "event-bandung-conference",
@@ -21371,6 +22294,108 @@
      "l": "Public domain"
     }
    ]
+  },
+  {
+   "id": "event-4-2-ka-drought",
+   "name": "Siccità di 4200 anni fa e inizio del Meghalayano",
+   "start_year": -2250,
+   "end_year": -2050,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Circa due secoli di siccità e raffreddamento su scala quasi globale, verso il 2200 a.C., che misero in crisi diverse società agricole: dal 2018 segnano l’inizio dell’ultima età geologica, il Meghalayano.",
+   "region": "Globale",
+   "subregion": "Mondo",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 25.26,
+    "longitude": 91.71,
+    "label": "Grotta di Mawmluh (Meghalaya) · stalagmite di riferimento",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-meghalayan-stage",
+    "src-v-international-commission-on-stratigraphy-walker",
+    "src-v-international-union-of-geological-sciences-the-f"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "GL",
+   "event_type": "disaster",
+   "place_name": "Mondo",
+   "related_entity_ids": [],
+   "notes": "Verificata il 23/11/2026: Voce nuova. Una stalagmite della grotta di Mawmluh (Meghalaya, India) registra circa 200 anni di siccità e raffreddamento mondiali verso 4200 anni fa (Britannica); l’evento di 4,2 mila anni fa definisce l’inizio del Meghalayano, ratificato all’unanimità dall’IUGS il 14 giugno 2018 (Commissione internazionale di stratigrafia). L’IUGS lo descrive come una siccità quasi globale che mise quasi al collasso società basate sull’agricoltura. Il punto sulla mappa indica la grotta della stalagmite di riferimento, non un luogo colpito più di altri. Non verificato sulle fonti: quali società in particolare furono colpite (non elencate nelle fonti lette).",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "event-thule-migration",
+   "name": "Migrazione dei Thule, antenati degli Inuit",
+   "start_year": 1000,
+   "end_year": 1200,
+   "date_precision": "approximate",
+   "date_confidence": "medium",
+   "summary": "Dalla costa settentrionale dell’Alaska i Thule, cacciatori di balene e antenati degli Inuit, si spostano verso est attraverso l’Artico canadese fino alla Groenlandia, con barche di pelle, kayak e slitte trainate da cani.",
+   "region": "Americhe",
+   "subregion": "Artico, dall’Alaska alla Groenlandia",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 69.0,
+    "longitude": -95.0,
+    "label": "Artico canadese",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-the-canadian-encyclopedia-early-inuit-thule-wint",
+    "src-v-the-canadian-encyclopedia-inuit-art",
+    "src-v-encyclopaedia-britannica-arctic-history-of-settl",
+    "src-v-encyclopaedia-britannica-thule-culture"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "NA",
+   "event_type": "process",
+   "place_name": "Artico canadese",
+   "related_entity_ids": [],
+   "notes": "Verificata il 23/11/2026: Voce nuova. I primi Inuit (Thule) cominciano a occupare l’Artico dall’Alaska alla Groenlandia verso il 1000 d.C.; la migrazione dall’Alaska settentrionale inizia dopo il 1000 e raggiunge la Groenlandia orientale entro il 1200 (Canadian Encyclopedia). Britannica: i Thule canadesi portarono la lingua inuit in Groenlandia; erano una cultura marittima di cacciatori di balene, con umiak (grandi barche di pelle), kayak e slitte trainate da cani. Britannica fa partire l’espansione già verso il 900.",
+   "verified_on": "2026-11-23"
+  },
+  {
+   "id": "event-east-polynesia-settlement",
+   "name": "Popolamento della Polinesia orientale",
+   "start_year": 1000,
+   "end_year": 1300,
+   "date_precision": "approximate",
+   "date_confidence": "debated",
+   "summary": "Navigatori polinesiani partiti dalla Polinesia occidentale raggiungono le isole della Società e poi, in pochi secoli, le Marchesi, Hawaii, Rapa Nui e la Nuova Zelanda: gli ultimi luoghi abitabili della Terra occupati dall’uomo.",
+   "region": "Oceania",
+   "subregion": "Polinesia orientale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -16.83,
+    "longitude": -151.43,
+    "label": "Isole della Società · Raiatea",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-pnas-wilmshurst-et-al-2011-high-precision-radioc",
+    "src-v-pnas-sear-et-al-2020-human-settlement-of-east-po",
+    "src-v-te-ara-encyclopedia-of-new-zealand-pacific-migra"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "OC",
+   "event_type": "exploration",
+   "place_name": "Polinesia orientale",
+   "related_entity_ids": [
+    "culture-west-polynesia",
+    "event-rapanui-initial-settlement",
+    "event-maori-settlement",
+    "movement-austronesian-expansion"
+   ],
+   "notes": "Verificata il 23/11/2026: Voce nuova. I 15 arcipelaghi della Polinesia orientale, con Nuova Zelanda, Hawaii e Rapa Nui, furono gli ultimi luoghi abitabili colonizzati dall’uomo. Secondo una meta-analisi di 1434 datazioni (PNAS 2011) le isole della Società furono popolate verso il 1025–1120 e tutte le altre in un’unica ondata verso il 1190–1290; uno studio successivo (PNAS 2020) indica arrivi più graduali, a partire dal 900 circa. Te Ara: dopo il 1000 si popolano gli arcipelaghi, poi Marchesi, Hawaii, Rapa Nui e Nuova Zelanda tra il 1200 e il 1300. Datazione discussa.",
+   "verified_on": "2026-11-23"
   }
  ],
  "sources": [
@@ -31872,6 +32897,813 @@
     "event-asean"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-archaeological-ruin",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Archaeological Ruins of Liangzhu City",
+   "url": "https://whc.unesco.org/en/list/1592/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-liangzhu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-decision-43-com-8b",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Decision 43 COM 8B.15 Archaeological Ruins of Liangzhu City (China)",
+   "url": "https://whc.unesco.org/en/decisions/7372",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-liangzhu"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-longshan-culture",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Longshan culture",
+   "url": "https://www.britannica.com/topic/Longshan-culture",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-longshan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-chinese-pottery-the-for",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Chinese pottery: the formative period",
+   "url": "https://www.britannica.com/art/Chinese-pottery",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-longshan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-china-80002000-b-c-he",
+   "institution": "Metropolitan Museum of Art",
+   "title": "China, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/toah/ht/02/eac.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-longshan"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-erlitou-culture",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Erlitou culture",
+   "url": "https://www.britannica.com/topic/Erlitou-culture",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-erlitou"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-why-is-the-xia-dynasty",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Why is the Xia dynasty considered semimythical?",
+   "url": "https://www.britannica.com/topic/Why-is-the-Xia-dynasty-considered-semimythical",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-erlitou"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-chinese-bronzes",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Chinese bronzes",
+   "url": "https://www.britannica.com/art/Chinese-bronzes",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-erlitou"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-china-20001000-b-c-he",
+   "institution": "Metropolitan Museum of Art",
+   "title": "China, 2000–1000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/toah/ht/03/eac.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-erlitou",
+    "site-sanxingdui"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-dholavira-a-harappa",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Dholavira: a Harappan City",
+   "url": "https://whc.unesco.org/en/list/1645/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-dholavira"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-decision-44-com-8b",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Decision 44 COM 8B.35 Dholavira: a Harappan City (India)",
+   "url": "https://whc.unesco.org/en/decisions/7954/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-dholavira"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-lazaridis-et-al-2025-the-genetic-origin-o",
+   "institution": "Nature",
+   "title": "Lazaridis et al. 2025, The genetic origin of the Indo-Europeans",
+   "url": "https://www.nature.com/articles/s41586-024-08531-5",
+   "source_type": "academic_article",
+   "supports": [
+    "culture-yamnaya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-wilkin-et-al-2021-dairying-enabled-early",
+   "institution": "Nature",
+   "title": "Wilkin et al. 2021, Dairying enabled Early Bronze Age Yamnaya steppe expansions",
+   "url": "https://www.nature.com/articles/s41586-021-03798-4.pdf",
+   "source_type": "academic_article",
+   "supports": [
+    "culture-yamnaya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-juras-et-al-2017-diverse-orig",
+   "institution": "Scientific Reports",
+   "title": "Juras et al. 2017, Diverse origin of mitochondrial lineages in Iron Age Black Sea Scythians",
+   "url": "https://www.nature.com/articles/srep43950?proof=t",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-yamnaya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-central-and-north-asi",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Central and North Asia, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/toah/ht/02/nc.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-bmac-oxus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-seated-female-bactria",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Seated female, Bactria-Margiana Archaeological Complex",
+   "url": "https://www.metmuseum.org/art/collection/search/329073",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-bmac-oxus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-art-of-the-bronze-age",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Art of the Bronze Age: Southeastern Iran, Western Central Asia, and the Indus Valley",
+   "url": "https://www.metmuseum.org/met-publications/art-of-the-bronze-age-southeastern-iran-western-central-asia-and-the-indus-valley",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-bmac-oxus"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-stone-age-asia-andronov",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Stone Age: Asia (Andronovo)",
+   "url": "https://www.britannica.com/event/Stone-Age/European-cultures",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-andronovo"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kazakhstan-kazakhstan-t",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kazakhstan: Kazakhstan to c. 1700 ce",
+   "url": "https://www.britannica.com/place/Kazakhstan/Cultural-life#toc73648",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-andronovo"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-central-asian-arts-neol",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Central Asian arts: Neolithic and Metal Age cultures",
+   "url": "https://www.britannica.com/art/Central-Asian-arts/Visual-arts",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-andronovo"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-sudan-80002000-b-c-he",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Sudan, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/es/toah/ht/02/afs.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-kerma"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-museum-of-fine-arts-boston-ancient-nubia-now",
+   "institution": "Museum of Fine Arts, Boston",
+   "title": "Ancient Nubia Now",
+   "url": "https://www.mfa.org/exhibitions/nubia",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-kerma"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-museum-of-fine-arts-boston-nubian-art",
+   "institution": "Museum of Fine Arts, Boston",
+   "title": "Nubian Art",
+   "url": "https://www.mfa.org/collections/nubian-art",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "state-kerma"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nubia",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nubia",
+   "url": "https://www.britannica.com/place/Nubia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "state-kerma"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-pnas-hildebrand-et-al-2018-a-monumental-cemetery",
+   "institution": "PNAS",
+   "title": "Hildebrand et al. 2018, A monumental cemetery built by eastern Africa’s first herders near Lake Turkana, Kenya",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.1721975115",
+   "source_type": "academic_article",
+   "supports": [
+    "site-lothagam-north"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-pnas-grillo-et-al-2020-molecular-and-isotopic-ev",
+   "institution": "PNAS",
+   "title": "Grillo et al. 2020, Molecular and isotopic evidence for milk, meat, and plants in prehistoric eastern African herder food systems",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.1920309117",
+   "source_type": "academic_article",
+   "supports": [
+    "site-lothagam-north"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-smithsonian-magazine-their-world-was-crumbling-b",
+   "institution": "Smithsonian Magazine",
+   "title": "Their World Was Crumbling, but These Ancient People Built a Lasting Memorial",
+   "url": "https://www.smithsonianmag.com/science-nature/when-their-world-was-chaos-these-ancient-people-coped-building-monument-180970087/",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-lothagam-north"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-meghalayan-stage",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Meghalayan Stage",
+   "url": "https://www.britannica.com/topic/Meghalayan-stage",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-4-2-ka-drought"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-international-commission-on-stratigraphy-walker",
+   "institution": "International Commission on Stratigraphy",
+   "title": "Walker et al. 2018, Formal ratification of the subdivision of the Holocene Series",
+   "url": "https://stratigraphy.org/gssps/files/meghalayan.pdf",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-4-2-ka-drought"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-international-union-of-geological-sciences-the-f",
+   "institution": "International Union of Geological Sciences",
+   "title": "The First 100 IUGS Geological Heritage Sites",
+   "url": "https://www.iugs.org/wp-content/uploads/2026/05/IUGS-FIRST-100-SITES-WEB-BOOK.pdf",
+   "source_type": "academic_article",
+   "supports": [
+    "event-4-2-ka-drought"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-asia-ethnic-groups-aust",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Asia: Ethnic groups (Austronesian speakers)",
+   "url": "https://www.britannica.com/place/Asia/Ethnic-groups",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-austronesian-expansion"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-austronesian-languages",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Austronesian languages",
+   "url": "https://kids.britannica.com/scholars/article/Austronesian-languages/109806",
+   "source_type": "encyclopedia",
+   "supports": [
+    "movement-austronesian-expansion"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-communications-lipson-et-al-2014-reconstr",
+   "institution": "Nature Communications",
+   "title": "Lipson et al. 2014, Reconstructing Austronesian population history in Island Southeast Asia",
+   "url": "https://www.nature.com/articles/ncomms5689",
+   "source_type": "academic_article",
+   "supports": [
+    "movement-austronesian-expansion"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-leveraging-known-pacific-colo",
+   "institution": "Scientific Reports",
+   "title": "Leveraging known Pacific colonisation times to test models for the ancestry of Southeast Asians",
+   "url": "https://www.nature.com/articles/s41598-025-20856-3",
+   "source_type": "institutional_document",
+   "supports": [
+    "movement-austronesian-expansion"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-new-evidence-reveals-dispersa",
+   "institution": "Scientific Reports",
+   "title": "New evidence reveals dispersal of pearl millet from West Africa to South Asia by 2500 BCE",
+   "url": "https://www.nature.com/articles/s41598-025-20110-w",
+   "source_type": "institutional_document",
+   "supports": [
+    "invention-pearl-millet"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-biotechnology-varshney-et-al-2017-pearl-m",
+   "institution": "Nature Biotechnology",
+   "title": "Varshney et al. 2017, Pearl millet genome sequence provides a resource to improve agronomic traits in arid environments",
+   "url": "https://www.nature.com/articles/nbt.3943",
+   "source_type": "academic_article",
+   "supports": [
+    "invention-pearl-millet"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-genetic-control-of-rhizosheat",
+   "institution": "Scientific Reports",
+   "title": "Genetic control of rhizosheath formation in pearl millet",
+   "url": "https://www.nature.com/articles/s41598-022-13234-w",
+   "source_type": "institutional_document",
+   "supports": [
+    "invention-pearl-millet"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-louisiana-department-of-culture-recreation-and-t",
+   "institution": "Louisiana Department of Culture, Recreation and Tourism",
+   "title": "Louisiana’s Comprehensive Archaeological Plan (2022)",
+   "url": "https://www.crt.state.la.us/Assets/OCD/archaeology/CRM-Resources/Section106/Comprehensive%20Plan%202022.pdf",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-watson-brake"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-louisiana-department-of-culture-recreation-and-t-2",
+   "institution": "Louisiana Department of Culture, Recreation and Tourism",
+   "title": "Indian Mounds of Northeast Louisiana: A Driving Trail",
+   "url": "https://www.crt.state.la.us/dataprojects/archaeology/moundsguide/index.html",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-watson-brake"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-louisiana-department-of-culture-recreation-and-t-3",
+   "institution": "Louisiana Department of Culture, Recreation and Tourism",
+   "title": "Ancient Mound Sites of Louisiana",
+   "url": "https://www.crt.state.la.us/Assets/OCD/archaeology/discoverarchaeology/virtual-books/PDFs/Ancient%20Mound%20Sites%20of%20LA.pdf?Ancient+Mound+Sites=",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-watson-brake"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-native-american-eastern",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Native American: Eastern Woodland cultures",
+   "url": "https://www.britannica.com/topic/Native-American/Eastern-Woodland-cultures",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-adena"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ohio-history-connection-story-mound",
+   "institution": "Ohio History Connection",
+   "title": "Story Mound",
+   "url": "https://www.ohiohistory.org/visit/browse-historical-sites/story-mound/",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-adena"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-ohio-history-connection-serpent-mound",
+   "institution": "Ohio History Connection",
+   "title": "Serpent Mound",
+   "url": "https://www.ohiohistory.org/visit/browse-historical-sites/serpent-mound/",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-adena"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ohio-prehistory-and-set",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ohio: Prehistory and settlement",
+   "url": "https://www.britannica.com/place/Ohio-state/History",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-adena"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-u-s-national-park-service-hohokam-culture",
+   "institution": "U.S. National Park Service",
+   "title": "Hohokam Culture",
+   "url": "https://www.nps.gov/articles/hohokam-culture.htm",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-hohokam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-hohokam-culture",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Hohokam culture",
+   "url": "https://www.britannica.com/topic/Hohokam-culture",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-hohokam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-u-s-national-park-service-arizona-casa-grande-ru",
+   "institution": "U.S. National Park Service",
+   "title": "Arizona: Casa Grande Ruins National Monument",
+   "url": "https://www.nps.gov/articles/casagrande.htm",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-hohokam"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-nature-kuitems-et-al-2022-evidence-for-european",
+   "institution": "Nature",
+   "title": "Kuitems et al. 2022, Evidence for European presence in the Americas in AD 1021",
+   "url": "https://www.nature.com/articles/s41586-021-03972-8",
+   "source_type": "academic_article",
+   "supports": [
+    "site-lanse-aux-meadows"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-parks-canada-lanse-aux-meadows-national-historic",
+   "institution": "Parks Canada",
+   "title": "L’Anse aux Meadows National Historic Site",
+   "url": "https://parks.canada.ca/culture/designation/lieu-site/anse-aux-meadows",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-lanse-aux-meadows"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-lanse-aux-meadows-n",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "L’Anse aux Meadows National Historic Site · dati del bene",
+   "url": "https://whc.unesco.org/document/215921",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-lanse-aux-meadows"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-grobina-archaeologi",
+   "institution": "UNESCO World Heritage Centre (lista provvisoria)",
+   "title": "Grobiņa archaeological ensemble · confronto con L’Anse aux Meadows",
+   "url": "https://whc.unesco.org/en/tentativelists/6258/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-lanse-aux-meadows"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-canadian-encyclopedia-early-inuit-thule-wint",
+   "institution": "The Canadian Encyclopedia",
+   "title": "Early Inuit (Thule) Winter House",
+   "url": "https://www.thecanadianencyclopedia.ca/en/article/thule-winter-house",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thule-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-the-canadian-encyclopedia-inuit-art",
+   "institution": "The Canadian Encyclopedia",
+   "title": "Inuit Art",
+   "url": "https://www.thecanadianencyclopedia.ca/en/article/inuit-art",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thule-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-arctic-history-of-settl",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Arctic: History of settlement",
+   "url": "https://www.britannica.com/place/Arctic/History-of-settlement",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thule-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-thule-culture",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Thule culture",
+   "url": "https://kids.britannica.com/students/article/Thule-culture/480478",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-thule-migration"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-south-america-8000200",
+   "institution": "Metropolitan Museum of Art",
+   "title": "South America, 8000–2000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/toah/ht/02/sa.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-valdivia",
+    "site-kotosh"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-female-figure-valdivi",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Female Figure, Valdivia",
+   "url": "https://www.metmuseum.org/art/collection/search/314204",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-valdivia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-figure-valdivia",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Figure, Valdivia",
+   "url": "https://www.metmuseum.org/art/collection/search/314201",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "culture-valdivia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-ecuador",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Ecuador",
+   "url": "https://www.britannica.com/topic/history-of-Ecuador",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-valdivia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-budj-bim-cultural-l",
+   "institution": "UNESCO World Heritage Centre",
+   "title": "Budj Bim Cultural Landscape",
+   "url": "https://whc.unesco.org/en/list/1577/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-budj-bim"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-australian-government-dcceew-world-heritage-plac",
+   "institution": "Australian Government · DCCEEW",
+   "title": "World Heritage Places: Budj Bim Cultural Landscape",
+   "url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/world/budj-bim",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-budj-bim"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-australian-government-dcceew-budj-bim-national-h",
+   "institution": "Australian Government · DCCEEW",
+   "title": "Budj Bim National Heritage Landscape: Mt Eccles Lake Condah Area",
+   "url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/national/budj-bim",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-budj-bim"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-te-ara-encyclopedia-of-new-zealand-pacific-migra",
+   "institution": "Te Ara · Encyclopedia of New Zealand",
+   "title": "Pacific migrations",
+   "url": "https://teara.govt.nz/en/pacific-migrations/print",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-west-polynesia",
+    "event-east-polynesia-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-te-ara-encyclopedia-of-new-zealand-the-direction",
+   "institution": "Te Ara · Encyclopedia of New Zealand",
+   "title": "The direction and timing of settlement (mappa)",
+   "url": "https://teara.govt.nz/en/map/1772/the-direction-and-timing-of-settlement",
+   "source_type": "encyclopedia",
+   "supports": [
+    "culture-west-polynesia"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-pnas-sear-et-al-2020-human-settlement-of-east-po",
+   "institution": "PNAS",
+   "title": "Sear et al. 2020, Human settlement of East Polynesia earlier, incremental, and coincident with prolonged South Pacific drought",
+   "url": "https://www.pnas.org/doi/full/10.1073/pnas.1920975117",
+   "source_type": "academic_article",
+   "supports": [
+    "culture-west-polynesia",
+    "event-east-polynesia-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-pnas-wilmshurst-et-al-2011-high-precision-radioc",
+   "institution": "PNAS",
+   "title": "Wilmshurst et al. 2011, High-precision radiocarbon dating shows recent and rapid initial human colonization of East Polynesia",
+   "url": "https://www.pnas.org/doi/10.1073/pnas.1015876108",
+   "source_type": "academic_article",
+   "supports": [
+    "event-east-polynesia-settlement"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-treasures-from-a-lost",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Treasures from a Lost Civilization: Ancient Chinese Art from Sichuan (comunicato)",
+   "url": "https://metmuseum.org/press/exhibitions/2001/treasures-from-a-lost-civilization-ancient-chinese-art-from-sichuan",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "site-sanxingdui"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-treasures-from-a-lost-2",
+   "institution": "Metropolitan Museum of Art",
+   "title": "Treasures from a Lost Civilization: Ancient Chinese Art from Sichuan (fotografie)",
+   "url": "https://www.metmuseum.org/exhibitions/listings/2002/sichuan/photo-gallery",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "site-sanxingdui"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-unesco-world-heritage-centre-archaeological-site-2",
+   "institution": "UNESCO World Heritage Centre (lista provvisoria)",
+   "title": "Archaeological Sites of the Ancient Shu State",
+   "url": "https://whc.unesco.org/en/tentativelists/5816/",
+   "source_type": "world_heritage_record",
+   "supports": [
+    "site-sanxingdui"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kotosh",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kotosh",
+   "url": "https://www.britannica.com/place/Kotosh",
+   "source_type": "encyclopedia",
+   "supports": [
+    "site-kotosh"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-metropolitan-museum-of-art-south-america-2000100",
+   "institution": "Metropolitan Museum of Art",
+   "title": "South America, 2000–1000 B.C. (Heilbrunn Timeline of Art History)",
+   "url": "https://www.metmuseum.org/toah/ht/03/sa.html",
+   "source_type": "museum_or_educational",
+   "supports": [
+    "site-kotosh"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-scientific-reports-juras-et-al-2018-mitochondria",
+   "institution": "Scientific Reports",
+   "title": "Juras et al. 2018, Mitochondrial genomes reveal an east to west cline of steppe ancestry in Corded Ware populations",
+   "url": "https://www.nature.com/articles/s41598-018-29914-5",
+   "source_type": "institutional_document",
+   "supports": [
+    "culture-yamnaya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-louisiana-department-of-education-early-civiliza",
+   "institution": "Louisiana Department of Education",
+   "title": "Early Civilizations in North America · student reader",
+   "url": "https://doe.louisiana.gov/docs/default-source/academic-curriculum/unit-5-early-civilizations-in-north-america-student-reader.pdf?sfvrsn=adbd6118_4",
+   "source_type": "institutional_document",
+   "supports": [
+    "site-watson-brake"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   }
  ],
  "editorial_notes": [
@@ -31889,7 +33721,8 @@
   "v0.62 (23 novembre 2026): verificate con fonti specifiche le 34 voci di rilevanza 1 che non lo erano ancora; tolte le fonti generiche iniziali dove sostituite.",
   "v0.64 (23 novembre 2026): verificate con fonti specifiche le 41 voci di rilevanza 2 che non lo erano ancora; tolte fonti generiche, homepage e fonti fuori tema dove sostituite.",
   "v0.66 (23 novembre 2026): blocco 3a della verifica, 33 voci di rilevanza 3 (Oceania e Rapa Nui, Sardegna ed Europa, America meridionale).",
-  "v0.67 verifica rilevanza 3, blocco b"
+  "v0.67 verifica rilevanza 3, blocco b",
+  "v0.68 voci nuove per i buchi nel tempo (23) e posizioni sulla mappa"
  ],
  "technology_domains": [
   {

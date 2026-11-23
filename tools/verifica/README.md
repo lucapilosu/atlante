@@ -13,3 +13,4 @@ Registri delle verifiche delle voci di base su fonti specifiche, con gli script 
 - `v.py <registro> add '<lista json>'`: aggiunge o sostituisce record. Campi: `id`, `fonti` [{institution, title, url}], `nota` (esito, in italiano), facoltativi `data` (ISO, predefinita oggi), `correzioni` {campo: valore}, `parziale` (dettagli non verificati), `sostituisci_unesco_lista`, `togli` [id fonti].
 - `applica.py data/atlante.json <registro> "<nota editoriale>"`: applica il registro. Si può rilanciare: ogni volta riparte dallo stato attuale della voce.
 - Avanzamento: `python3 tools/verifica/da_fare.py`.
+- `../voci/nuove_v068.json`: 23 voci nuove della v0.68; lo stesso file serve a `tools/voci/inserisci.py` (crea le voci) e ad `applica.py` (fonti e nota).
