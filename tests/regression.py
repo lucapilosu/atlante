@@ -554,6 +554,37 @@ async def run_device(pw, name, ctx_kwargs, mobile):
             and t64["goHash"] == "#mosaico" and t64["labels"] == ["Mosaico", "Mosaico"] and t64["nav"][:2] == ["esplora", "tavola"] and len(t64["nav"]) == 6
             and t64["tabs"][:2] == ["esplora", "tavola"] and not t64["inAltro"] and t64["icone"])
     R.check("T64", "Vista «Mosaico»: tasto proprio nella barra in basso (secondo, dalla v0.69) e secondo nella barra in alto, non più in «Altro», simboli disegnati su tutti i tasti; #mosaico e il vecchio #tavola la aprono", ok64, f"{t64}")
+    # T65 v0.72: «Storia di questo luogo» nel riepilogo della mappa solo in Esplora; su schermo a tocco la barra del tempo ha una zona
+    # sensibile più alta (senza coprire − + e le epoche), il cursore si ingrandisce col dito giù e toccare non fa saltare l'anno
+    t65 = await p.evaluate("""async()=>{const w=t=>new Promise(r=>setTimeout(r,t));const x=ALL.find(v=>v.id==='civilization-rome');const out={};
+        goToView('contemporanei');await w(400);openMapPointPopup(x,450,180);await w(80);out.cont=!!document.querySelector('#mapPointPopup .popup-place');closeMapPointPopup();
+        goToView('esplora');await w(400);openMapPointPopup(x,450,180);await w(80);out.esp=!!document.querySelector('#mapPointPopup .popup-place');closeMapPointPopup();
+        const hit=document.querySelector('.dock-hit'),hb=hit.getBoundingClientRect();out.touch=document.documentElement.classList.contains('touch-ui');out.hitH=Math.round(hb.height);
+        const c=e=>{const b=e.getBoundingClientRect();return e.contains(document.elementFromPoint(b.left+b.width/2,b.top+b.height/2))};
+        const els=[document.getElementById('yearPlus'),document.getElementById('yearMinus'),...document.querySelectorAll('#timeDock .epoch-nav-segment')];out.blocked=els.filter(e=>!c(e)).map(e=>{const b=e.getBoundingClientRect(),t=document.elementFromPoint(b.left+b.width/2,b.top+b.height/2);return (e.id||e.dataset.period)+'→'+(t?(t.id||t.className||t.tagName):'fuori')});out.free=!out.blocked.length;
+        out.hit=[hb.left,hb.top,hb.width,hb.height];out.year=chosenYear;return out}""")
+    ok65 = not t65["cont"] and t65["esp"] and t65["free"]
+    d65 = ""
+    if mobile:
+        hx, hy, hw, hh = t65["hit"]; x, y = hx + hw * 0.5, hy + 8
+        await set_year(p, 1820)
+        cdp = await p.context.new_cdp_session(p)
+        await cdp.send("Input.dispatchTouchEvent", {"type": "touchStart", "touchPoints": [{"x": x, "y": y}]}); await p.wait_for_timeout(200)
+        g1 = await p.evaluate("()=>({grab:document.getElementById('timeDock').classList.contains('dock-grab'),y:chosenYear})")
+        for i in range(1, 9):
+            await cdp.send("Input.dispatchTouchEvent", {"type": "touchMove", "touchPoints": [{"x": x - 10 * i, "y": y + 2}]}); await p.wait_for_timeout(20)
+        await p.wait_for_timeout(120)
+        g2 = await p.evaluate("()=>chosenYear")
+        await cdp.send("Input.dispatchTouchEvent", {"type": "touchEnd", "touchPoints": []}); await p.wait_for_timeout(250)
+        g3 = await p.evaluate("()=>document.getElementById('timeDock').classList.contains('dock-grab')")
+        await cdp.detach()
+        await p.touchscreen.tap(hx + hw * 0.1, hy + hh / 2); await p.wait_for_timeout(250)
+        g4 = await p.evaluate("()=>chosenYear")
+        ok65 = ok65 and t65["touch"] and t65["hitH"] >= 44 and g1 == {"grab": True, "y": 1820} and g2 < 1820 and not g3 and g4 == g2
+        d65 = f"; dito giù {g1}, dopo il trascinamento {g2}, rilasciato con cursore grande {g3}, tocco senza trascinare {g4}"
+    else:
+        ok65 = ok65 and not t65["touch"] and t65["hitH"] == 0
+    R.check("T65", "«Storia di questo luogo» solo in Esplora; su schermo a tocco barra del tempo più facile da prendere, cursore grande col dito giù, nessun salto all'anno toccato", ok65, f"{t65}{d65}")
     # T63 v0.62: icone PNG per i browser che non usano la favicon SVG (Chrome e Safari su iPhone e iPad), SVG ancora presente; voci di rilevanza 1 tutte verificate con fonti
     t63 = await p.evaluate("""async()=>{const out={};for(const l of document.querySelectorAll('link[rel="icon"][type="image/png"],link[rel="apple-touch-icon"]')){const im=new Image();im.src=l.href;try{await im.decode();out[l.getAttribute('href')]=im.naturalWidth+'x'+im.naturalHeight}catch(e){out[l.getAttribute('href')]='errore'}}
         out.svg=!!document.querySelector('link[rel="icon"][type="image/svg+xml"]');out.rel1=DB.entities.concat(DB.events).filter(x=>!['source-checked','deep-dive-sourced'].includes(x.editorial_status)).map(x=>x.id);return out}""")

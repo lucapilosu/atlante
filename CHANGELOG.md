@@ -1,5 +1,16 @@
 # Registro delle versioni
 
+## v0.72 · 24 novembre 2026
+
+- **«Storia di questo luogo» solo in Esplora.** Nel riepilogo di un punto sulla mappa il collegamento compariva anche in Contemporanei, dove non apriva nulla (segnalazione di Luca). Ora c'è solo in Esplora; dalle altre viste «Apri scheda» porta comunque in Esplora.
+- **Barra del tempo più facile da usare con il dito** (telefono e tablet, richiesta di Luca):
+  - zona sensibile invisibile alta 49 px invece di 20, che sale anche sopra il numero dell'anno senza coprire i tasti − + e i pulsanti delle epoche;
+  - finché il dito è appoggiato il cursore diventa grande (30 px con alone), così si vede di averlo preso;
+  - toccare un punto qualsiasi della barra «prende» il cursore ma non fa saltare all'anno toccato: l'anno cambia solo trascinando, di quanto si sposta il dito.
+  - Su PC la barra resta com'era.
+- Il pulsante «Vedi nel Mosaico» proposto nella v0.69 non si fa (Luca: il Mosaico resta una vista a sé). I simboli della barra in basso restano quelli della v0.69.
+- Test: 127 controlli; nuovo T65 (collegamento solo in Esplora; su iPhone emulato zona sensibile, cursore grande col dito giù, nessun salto al tocco, trascinamento che cambia l'anno).
+
 ## v0.71 · 23 novembre 2026
 
 - **31 voci nuove su tecnologie e idee** (direzione C), tutte con fonti specifiche e punto sulla mappa. Totale **518 voci**.

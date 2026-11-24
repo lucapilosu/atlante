@@ -611,6 +611,14 @@ html body .contemp-row.cg-wrap{border:0!important;border-radius:0!important;marg
 .time-dock .dock-track input[type=range]::-moz-range-track{height:5px;border-radius:3px;background:rgba(220,236,238,.32)}
 .time-dock .dock-track input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;margin-top:-6.5px;border-radius:50%;background:var(--t-accent,#55c7c2);border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.35)}
 .time-dock .dock-track input[type=range]::-moz-range-thumb{width:16px;height:16px;border-radius:50%;background:var(--t-accent,#55c7c2);border:2px solid #fff}
+/* v0.72 · barra del tempo su schermo a tocco: zona sensibile alta 49 px (sopra il numero dell'anno, non sui tasti − +) e cursore grande mentre il dito è giù */
+.dock-hit,.dock-knob{display:none}
+html.touch-ui .dock-track{position:relative}
+html.touch-ui .dock-hit{display:block;position:absolute;left:-6px;right:-6px;top:-26px;height:49px;z-index:2;touch-action:none;-webkit-tap-highlight-color:transparent;-webkit-user-select:none;user-select:none}
+html.touch-ui .time-dock .dock-step{position:relative;z-index:3}
+html.touch-ui .dock-knob{display:block;position:absolute;top:10px;left:9px;width:30px;height:30px;margin:-15px 0 0 -15px;border-radius:50%;background:var(--t-accent,#55c7c2);border:2px solid #fff;box-shadow:0 0 0 7px color-mix(in srgb,var(--t-accent,#55c7c2) 30%,transparent),0 2px 8px rgba(0,0,0,.4);pointer-events:none;z-index:1;opacity:0;transform:scale(.6);transition:transform .14s ease,opacity .14s ease}
+html.touch-ui .time-dock.dock-grab .dock-knob{opacity:1;transform:scale(1)}
+@media (prefers-reduced-motion:reduce){html.touch-ui .dock-knob{transition:none}}
 .dock-track .dock-epochs .epoch-navigator{margin:3px 0 0;padding:0 9px;background:transparent!important;gap:0;height:22px}
 .dock-track .dock-epochs .epoch-nav-segment{min-width:0!important;border-radius:0;height:20px;padding:0 2px;border-left:1px solid rgba(255,255,255,.18)!important}
 .dock-track .dock-epochs .epoch-nav-segment:first-child{border-radius:6px 0 0 6px;border-left:0!important}
@@ -1326,7 +1334,7 @@ function openMapPointPopup(x,cx,cy){
   // v0.49: voci con il punto sovrapposto (stesso luogo, stesso periodo) elencate nel riepilogo, così ognuna resta raggiungibile
   const here=mapPinsNear(x,cx,cy);
   const hereHtml=here.length?`<div class="popup-here"><span>Qui vicino:</span>${here.slice(0,4).map(h=>`<button type="button" data-here="${esc(h.x.id)}" title="${esc(h.x.name)} · ${esc(span(h.x))}">${esc(h.x.name)}</button>`).join('')}${here.length>4?`<span>+${here.length-4}</span>`:''}</div>`:'';
-  popup.innerHTML=`<button type="button" class="popup-close" aria-label="Chiudi">×</button><strong>${esc(x.name)}</strong><div class="popup-meta">${typeIcon(x)}${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')} · ${esc(span(x))}</div>${hereHtml}<div class="popup-actions"><button type="button" class="popup-add">${compareIds.includes(x.id)?'✓ Nel confronto':'＋ Aggiungi al confronto'}</button><button type="button" class="popup-open">Apri scheda</button></div><button type="button" class="popup-place">Storia di questo luogo</button>`;
+  popup.innerHTML=`<button type="button" class="popup-close" aria-label="Chiudi">×</button><strong>${esc(x.name)}</strong><div class="popup-meta">${typeIcon(x)}${esc(TYPE[x.kind]||x.kind)} · ${esc(x.region||'')} · ${esc(span(x))}</div>${hereHtml}<div class="popup-actions"><button type="button" class="popup-add">${compareIds.includes(x.id)?'✓ Nel confronto':'＋ Aggiungi al confronto'}</button><button type="button" class="popup-open">Apri scheda</button></div>${currentView==='esplora'?'<button type="button" class="popup-place">Storia di questo luogo</button>':''}`;
   popup.hidden=false;
   positionMapPointPopup();
   popup.querySelector('.popup-close').onclick=closeMapPointPopup;
@@ -1335,7 +1343,8 @@ function openMapPointPopup(x,cx,cy){
   if(compareIds.includes(x.id))add.title='Tocca di nuovo per togliere la voce dal confronto';
   add.onclick=()=>{toggleCompare(x.id);closeMapPointPopup();};
   popup.querySelector('.popup-open').onclick=()=>{const back=placeCtx;closeMapPointPopup();openInEsplora(x.id,{fitMap:false});if(back){placeBack=back;renderDetail()}};
-  popup.querySelector('.popup-place').onclick=()=>{const m=svg.getScreenCTM();let sx,sy;if(m){const pt=svg.createSVGPoint();pt.x=cx;pt.y=cy;const q=pt.matrixTransform(m);sx=q.x;sy=q.y}openPlaceStory(sx,sy,{lonlat:{lon:Number(x.map_geometry.longitude),lat:Number(x.map_geometry.latitude)}})};
+  const placeB=popup.querySelector('.popup-place'); // v0.72: solo in Esplora (altrove la storia del luogo non si apre)
+  if(placeB)placeB.onclick=()=>{const m=svg.getScreenCTM();let sx,sy;if(m){const pt=svg.createSVGPoint();pt.x=cx;pt.y=cy;const q=pt.matrixTransform(m);sx=q.x;sy=q.y}openPlaceStory(sx,sy,{lonlat:{lon:Number(x.map_geometry.longitude),lat:Number(x.map_geometry.latitude)}})};
   popup.querySelectorAll('[data-here]').forEach(btn=>btn.onclick=ev=>{ev.stopPropagation();const h=here.find(v=>v.x.id===btn.dataset.here);if(h)openMapPointPopup(h.x,h.cx,h.cy);});
 }
 function mapPinsNear(x,cx,cy){
@@ -2268,6 +2277,21 @@ function yearStep(y){return timeSegFor(y).step}
  $('yearMinus')?.addEventListener('click',()=>go(stepYear(chosenYear,-1)));
  $('yearPlus')?.addEventListener('click',()=>go(stepYear(chosenYear,1)));
  $('yearRange').addEventListener('input',sync);
+ // v0.72 · schermo a tocco: zona sensibile più alta della barra (invisibile), cursore ingrandito finché il dito è giù,
+ // trascinamento relativo: toccare un punto qualsiasi «prende» il cursore senza saltare all'anno toccato; l'anno cambia solo trascinando
+ const track=range.parentElement,hit=document.createElement('div'),knob=document.createElement('div'),TH=9;
+ hit.className='dock-hit';hit.setAttribute('aria-hidden','true');knob.className='dock-knob';knob.setAttribute('aria-hidden','true');
+ track.append(knob,hit);
+ const placeKnob=()=>{knob.style.left=(TH+Number(range.value)/1000*Math.max(0,range.offsetWidth-2*TH))+'px'};
+ let drag=null,raf=0,pend=null;
+ hit.addEventListener('pointerdown',e=>{if(!document.documentElement.classList.contains('touch-ui')||drag)return;e.preventDefault();
+  drag={id:e.pointerId,x:e.clientX,pos:Number(range.value),w:Math.max(1,range.offsetWidth-2*TH)};try{hit.setPointerCapture(e.pointerId)}catch(_){}
+  placeKnob();dock.classList.add('dock-grab')});
+ hit.addEventListener('pointermove',e=>{if(!drag||e.pointerId!==drag.id)return;e.preventDefault();
+  pend=Math.round(Math.max(0,Math.min(1000,drag.pos+(e.clientX-drag.x)/drag.w*1000)));
+  if(!raf)raf=requestAnimationFrame(()=>{raf=0;const v=pend;pend=null;if(v===null||v===Number(range.value))return;range.value=String(v);go(posToYear(v));placeKnob()})});
+ const endDrag=e=>{if(!drag||(e&&e.pointerId!==drag.id))return;drag=null;dock.classList.remove('dock-grab')};
+ ['pointerup','pointercancel','lostpointercapture'].forEach(t=>hit.addEventListener(t,endDrag));
  const priorRender=renderYear;renderYear=function(){priorRender();sync()};
  sync();
 })();
