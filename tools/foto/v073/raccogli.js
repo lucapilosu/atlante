@@ -1,7 +1,7 @@
 // Raccolta candidate foto v0.73 — da eseguire nel browser integrato (pagina wikidata.org)
 (async () => {
   const BASE = 'https://raw.githubusercontent.com/lucapilosu/atlante/foto-v073/tools/foto/v073/';
-  const M = await (await fetch(BASE + 'mappa.json?' + Date.now())).json();
+  const M = await (await fetch(BASE + (window.MAPPA_FILE || 'mappa.json') + '?' + Date.now())).json();
   const sleep = ms => new Promise(r => setTimeout(r, ms));
   async function getJSON(url, tries = 6) {
     let wait = 800;
