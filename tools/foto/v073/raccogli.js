@@ -7,7 +7,7 @@
     let wait = 800;
     for (let i = 0; i < tries; i++) {
       try {
-        const r = await fetch(url);
+        const r = await fetch(url, { cache: 'no-store', priority: 'high' });
         if (r.status === 429 || r.status >= 500) { await sleep(wait); wait *= 2; continue; }
         if (r.status === 404) return null;
         return await r.json();
@@ -62,7 +62,7 @@
       const name = p.title.replace(/^File:/, '');
       const artist = em.Artist ? em.Artist.value.replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim() : '';
       const lic = em.LicenseShortName ? em.LicenseShortName.value : '';
-      info[name] = { w: ii.width, h: ii.height, url: ii.url, a: artist, l: lic };
+      info[name] = { w: ii.width, h: ii.height, url: ii.url.split('?')[0], a: artist, l: lic };
     }
   });
   // 3. filtro e visualizzazioni
@@ -81,11 +81,13 @@
       keep[id].push({ f: x.f, src: x.src, pi: x.pi, rel, ...i });
     }
   }
+  // visualizzazioni solo per le prime 12 di ogni voce (prima le pertinenti, nell'ordine della pagina)
+  for (const id of Object.keys(keep)) { keep[id].sort((a, b) => b.rel - a.rel); keep[id] = keep[id].slice(0, 12); }
   const files = [...new Set(Object.values(keep).flat().map(x => x.f))];
   S.log.push('candidate valide: ' + files.length);
   const views = {};
-  await pool(files, 4, async f => {
-    const path = info[f].url.replace('https://upload.wikimedia.org', '');
+  await pool(files, 3, async f => {
+    const path = decodeURIComponent(info[f].url.replace('https://upload.wikimedia.org', ''));
     const u = 'https://wikimedia.org/api/rest_v1/metrics/mediarequests/per-file/all-referers/user/' + encodeURIComponent(path) + '/monthly/20251101/20261031';
     const j = await getJSON(u);
     views[f] = j && j.items ? j.items.reduce((s, x) => s + (x.requests || 0), 0) : 0;
