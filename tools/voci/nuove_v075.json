@@ -1,0 +1,1519 @@
+[
+ {
+  "tipo": "event",
+  "id": "event-aids-epidemic",
+  "name": "Epidemia di AIDS",
+  "start_year": 1981,
+  "end_year": 2026,
+  "date_confidence": "high",
+  "summary": "Il 5 giugno 1981 i CDC statunitensi segnalano infezioni rare in giovani uomini: è il primo rapporto su quella che diventerà l’epidemia di HIV/AIDS. Il virus HIV è identificato nel 1983, il primo test arriva nel 1985. L’epidemia colpisce soprattutto l’Africa subsahariana; dal 1981 sono morte decine di milioni di persone.",
+  "region": "Globale",
+  "subregion": "Mondo intero, con il peso maggiore in Africa subsahariana",
+  "lat": 33.799,
+  "lon": -84.3277,
+  "label": "Atlanta · CDC, primo rapporto (1981)",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-smallpox-eradication",
+   "event-covid19"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "AIDS",
+    "url": "https://www.britannica.com/science/AIDS"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "AIDS summary",
+    "url": "https://www.britannica.com/summary/AIDS"
+   },
+   {
+    "institution": "UNAIDS",
+    "title": "40 years of the AIDS response",
+    "url": "https://www.unaids.org/sites/default/files/40-years-of-the-AIDS-response_en.pdf"
+   },
+   {
+    "institution": "UNAIDS",
+    "title": "Global AIDS response continues to show results (2011)",
+    "url": "https://www.unaids.org/en/resources/presscentre/pressreleaseandstatementarchive/2011/june/20110603praids30"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: l’AIDS fu riconosciuto il 5 giugno 1981 con un rapporto dei CDC su infezioni rare in uomini omosessuali; HIV isolato nel 1983, test del sangue entro il 1985; dal 1981 circa 35 milioni di morti (voce AIDS; la voce summary, più vecchia, dava 20 milioni). UNAIDS: AIDS definito nel 1982, epidemia eterosessuale in Africa rivelata nel 1984. «Decine di milioni» è la formulazione prudente scelta da Claude. Voce «in corso» perché l’epidemia non è finita. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "epidemic",
+  "place_name": "Mondo",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-bretton-woods",
+  "name": "Conferenza di Bretton Woods",
+  "start_year": 1944,
+  "end_year": 1944,
+  "date_confidence": "high",
+  "summary": "Nel luglio 1944, a guerra non ancora finita, i delegati di 44 paesi si riuniscono a Bretton Woods, negli Stati Uniti, per progettare l’economia del dopoguerra. Nascono il Fondo monetario internazionale e la Banca mondiale; il dollaro, convertibile in oro a 35 dollari l’oncia, diventa la moneta di riferimento mondiale.",
+  "region": "Globale",
+  "subregion": "Bretton Woods (New Hampshire, Stati Uniti)",
+  "lat": 44.2584,
+  "lon": -71.4412,
+  "label": "Bretton Woods · Mount Washington Hotel",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-world-war-two",
+   "event-united-nations",
+   "event-great-depression"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "International Monetary Fund",
+    "url": "https://www.britannica.com/topic/International-Monetary-Fund"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World Bank",
+    "url": "https://www.britannica.com/topic/World-Bank"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "20th-century international relations · The world after 1945",
+    "url": "https://www.britannica.com/topic/20th-century-international-relations-2085155/Wasteland-the-world-after-1945"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Global Governance Quiz",
+    "url": "https://www.britannica.com/quiz/global-governance-quiz"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: alla Conferenza monetaria e finanziaria delle Nazioni Unite di Bretton Woods (New Hampshire), luglio 1944, delegati di 44 paesi redassero gli statuti del FMI; la Banca mondiale fu fondata lì e iniziò a operare nel giugno 1946; il dollaro tornò convertibile in oro a 35 dollari l’oncia e divenne moneta di riserva mondiale, con le altre valute agganciate al dollaro; l’URSS non aderì. La fine del sistema nel 1971 non è stata verificata in questa sessione e non è nel testo. Il Mount Washington Hotel come sede della conferenza è da conoscenza generale. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "economic",
+  "place_name": "Bretton Woods",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-1968-protests",
+  "name": "Il Sessantotto: proteste nel mondo",
+  "start_year": 1968,
+  "end_year": 1968,
+  "date_confidence": "high",
+  "summary": "Nel 1968 un’ondata di proteste, soprattutto di studenti, attraversa il mondo, dagli Stati Uniti all’Europa. In Francia, a maggio, la rivolta nata all’università di Nanterre arriva alla Sorbona e si allarga a uno sciopero generale di circa 10 milioni di lavoratori; le università e la società francese ne escono cambiate.",
+  "region": "Globale",
+  "subregion": "Europa, America del Nord e altri paesi",
+  "lat": 48.8487,
+  "lon": 2.3431,
+  "label": "Parigi · Sorbona",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-prague-spring",
+   "event-vietnam-war",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Events of May 1968",
+    "url": "https://www.britannica.com/event/events-of-May-1968"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "New Left",
+    "url": "https://www.britannica.com/topic/New-Left"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of France · France since 1940",
+    "url": "https://www.britannica.com/topic/history-of-France/France-since-1940"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "France · Education",
+    "url": "https://www.britannica.com/place/France/Education"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: l’attivismo della Nuova Sinistra raggiunse il culmine nel 1968 con un’ondata di proteste in tutto il mondo; in Francia la rivolta studentesca iniziò a Nanterre (Università di Parigi), esplose il 3 maggio alla Sorbona e si trasformò in uno sciopero generale di circa 10 milioni di lavoratori; il governo fece concessioni e la riforma universitaria del 12 novembre 1968 cambiò profondamente l’istruzione superiore. La voce è centrata sul Maggio francese come caso più documentato. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Parigi e altre città",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-wto-globalization",
+  "name": "Nasce l’Organizzazione mondiale del commercio",
+  "start_year": 1995,
+  "end_year": 1995,
+  "date_confidence": "high",
+  "summary": "Il 1° gennaio 1995 nasce a Ginevra l’Organizzazione mondiale del commercio (OMC), erede del GATT del 1948. Oltre alle merci regola servizi e proprietà intellettuale e ha un tribunale per le dispute commerciali. Simbolo della globalizzazione, è anche criticata da chi la ritiene troppo favorevole alle multinazionali.",
+  "region": "Globale",
+  "subregion": "Ginevra e paesi membri",
+  "lat": 46.2236,
+  "lon": 6.1494,
+  "label": "Ginevra · Centro William Rappard (sede OMC)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "GL",
+  "related": [
+   "event-bretton-woods",
+   "event-united-nations"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World Trade Organization",
+    "url": "https://www.britannica.com/topic/World-Trade-Organization"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World Trade Organization summary",
+    "url": "https://www.britannica.com/summary/World-Trade-Organization"
+   },
+   {
+    "institution": "World Trade Organization",
+    "title": "History of the multilateral trading system",
+    "url": "https://www.wto.org/english/thewto_e/history_e/history_e.htm"
+   },
+   {
+    "institution": "World Trade Organization",
+    "title": "25 years of the WTO",
+    "url": "https://www.wto.org/english/thewto_e/25y_e/25ytimeline_e.htm"
+   }
+  ],
+  "nota": "Voce nuova. OMC e Britannica: l’OMC è nata il 1° gennaio 1995, erede del GATT (in vigore dal 1948), creata dall’Uruguay Round (1986–94; accordo di Marrakech firmato nell’aprile 1994); copre anche servizi e proprietà intellettuale e ha introdotto nuove procedure per le dispute; sede a Ginevra (Centro William Rappard, citato nella retrospettiva OMC). Le critiche dei movimenti contro la globalizzazione sono riportate nella voce summary di Britannica. Sostituisce la Dichiarazione dei diritti umani prevista nel piano, già trattata nella voce sull’ONU. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "economic",
+  "place_name": "Ginevra",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-chernobyl",
+  "name": "Disastro di Chernobyl",
+  "start_year": 1986,
+  "end_year": 1986,
+  "date_confidence": "high",
+  "summary": "Nella notte del 26 aprile 1986 un test mal progettato fa esplodere il reattore 4 della centrale di Chernobyl, in Ucraina sovietica: il peggior incidente della storia dell’energia nucleare. La nube radioattiva raggiunge l’Europa; Mosca prova a tacere finché la Svezia non rileva le radiazioni. Pryp’yat viene evacuata.",
+  "region": "Europa",
+  "subregion": "Ucraina (allora Unione Sovietica)",
+  "lat": 51.389,
+  "lon": 30.099,
+  "label": "Chernobyl · reattore 4",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-ussr-dissolution",
+   "event-cold-war",
+   "event-semipalatinsk"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chernobyl disaster",
+    "url": "https://www.britannica.com/event/Chernobyl-disaster"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "30th Anniversary of Chernobyl",
+    "url": "https://www.britannica.com/story/30th-anniversary-of-chernobyl"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Soviet Union · Economic and social reforms",
+    "url": "https://www.britannica.com/place/Soviet-Union/The-Interregnum-Andropov-and-Chernenko"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: alle 1:23 del 26 aprile 1986, durante un test sul reattore 4, la reazione a catena andò fuori controllo; esplosioni e fusione parziale del nocciolo rilasciarono grandi quantità di materiale radioattivo; tra 2 e 50 morti nelle esplosioni, decine di casi gravi di malattia da radiazioni; il 27 aprile iniziò l’evacuazione dei 30.000 abitanti di Pryp’yat; il 28 aprile stazioni svedesi rilevarono radioattività anomala e il governo sovietico ammise l’incidente; Gorbačëv parlò in televisione dopo 18 giorni. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "disaster",
+  "place_name": "Chernobyl",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-solidarnosc",
+  "name": "Solidarność in Polonia",
+  "start_year": 1980,
+  "end_year": 1989,
+  "date_confidence": "high",
+  "summary": "Nell’agosto 1980 gli scioperi ai cantieri navali di Danzica, guidati dall’elettricista Lech Wałęsa, portano alla nascita di Solidarność, il primo sindacato indipendente del blocco sovietico, con milioni di iscritti. Messo fuori legge con la legge marziale del dicembre 1981, sopravvive in clandestinità e nel 1989 vince le prime elezioni libere.",
+  "region": "Europa",
+  "subregion": "Polonia",
+  "lat": 54.36,
+  "lon": 18.649,
+  "label": "Danzica · cantieri navali",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-cold-war",
+   "event-berlin-wall",
+   "event-ussr-dissolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Solidarity",
+    "url": "https://www.britannica.com/topic/Solidarity"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Solidarity summary",
+    "url": "https://www.britannica.com/summary/Solidarity"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Lech Wałęsa",
+    "url": "https://www.britannica.com/biography/Lech-Walesa"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Lech Wałęsa",
+    "url": "https://kids.britannica.com/students/article/Lech-Wa%C5%82%E1%BA%BBsa/277639"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: sciopero ai cantieri Lenin di Danzica nell’agosto 1980; Solidarność fondata il 22 settembre 1980 con Wałęsa presidente, prima unione sindacale indipendente in un paese del blocco sovietico, rappresentava gran parte della forza lavoro polacca (quasi 10 milioni secondo l’edizione per ragazzi); legge marziale il 13 dicembre 1981 e messa al bando; legalizzata di nuovo nell’aprile 1989 e vittoriosa nelle elezioni del giugno 1989; Wałęsa presidente della Polonia 1990–95. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Danzica",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-carnation-revolution",
+  "name": "Rivoluzione dei garofani",
+  "start_year": 1974,
+  "end_year": 1974,
+  "date_confidence": "high",
+  "summary": "Il 25 aprile 1974 un gruppo di ufficiali, il Movimento delle forze armate, rovescia quasi senza sangue la dittatura dell’Estado Novo in Portogallo; i civili mettono garofani nelle canne dei fucili. Il nuovo regime abolisce la censura, avvia la democrazia e chiude le guerre coloniali in Africa.",
+  "region": "Europa",
+  "subregion": "Portogallo",
+  "lat": 38.712,
+  "lon": -9.1405,
+  "label": "Lisbona · Largo do Carmo",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-angola-mozambique-1975",
+   "movement-decolonization"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Revolution of the Carnations",
+    "url": "https://www.britannica.com/topic/Revolution-of-the-Carnations"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Portugal · The Revolution of the Carnations",
+    "url": "https://www.britannica.com/place/Portugal/The-New-State-after-Salazar"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Portugal · Constitutional framework",
+    "url": "https://www.britannica.com/place/Portugal/Government-and-society"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Junta of National Salvation",
+    "url": "https://www.britannica.com/topic/Junta-of-National-Salvation"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: colpo di Stato del 25 aprile 1974 guidato dal Movimento delle forze armate (MFA, 200–300 ufficiali), largamente incruento, con garofani nelle canne dei fucili; fine dell’Estado Novo (fondato da Salazar nel 1932); la Giunta di salvezza nazionale abolì la censura e avviò i negoziati con i movimenti africani; nuova costituzione nel 1976. Il Largo do Carmo (dove si arrese il capo del governo Caetano) è da conoscenza generale. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Lisbona",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-italo-ethiopian-war",
+  "name": "Guerra d’Etiopia",
+  "start_year": 1935,
+  "end_year": 1936,
+  "date_confidence": "high",
+  "summary": "Nell’ottobre 1935 l’Italia fascista di Mussolini invade l’Etiopia, uno dei pochi stati africani indipendenti, per vendicare la sconfitta di Adua del 1896. La guerra è brutale; il 5 maggio 1936 le truppe di Badoglio entrano ad Addis Abeba e Vittorio Emanuele III è proclamato imperatore. Le sanzioni della Società delle Nazioni falliscono; l’occupazione dura fino al 1941.",
+  "region": "Africa",
+  "subregion": "Etiopia",
+  "lat": 9.03,
+  "lon": 38.74,
+  "label": "Addis Abeba",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AS",
+  "related": [
+   "event-fascism-italy",
+   "event-battle-adwa",
+   "event-league-of-nations",
+   "event-world-war-two"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Italo-Ethiopian War",
+    "url": "https://www.britannica.com/event/Italo-Ethiopian-War-1935-1936"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "League of Nations · Third period, 1931–36",
+    "url": "https://www.britannica.com/topic/League-of-Nations/Third-period-1931-36"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Benito Mussolini · Dictatorship",
+    "url": "https://www.britannica.com/biography/Benito-Mussolini/Rise-to-power"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Italo-Ethiopian War",
+    "url": "https://kids.britannica.com/students/article/Italo-Ethiopian-War/327322"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: invasione il 3 ottobre 1935; vittoria presso il lago Ascianghi il 9 aprile 1936 e presa di Addis Abeba il 5 maggio 1936 (Badoglio e Graziani); Vittorio Emanuele III proclamato imperatore d’Etiopia; la Società delle Nazioni impose sanzioni ma non l’embargo sul petrolio; la guerra mostrò l’inefficacia della Società; il paese non fu mai del tutto pacificato. L’edizione per studenti indica che l’Italia tenne l’Etiopia per cinque anni (fino al 1941). Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Etiopia",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-angola-mozambique-1975",
+  "name": "Indipendenza di Angola e Mozambico",
+  "start_year": 1975,
+  "end_year": 1975,
+  "date_confidence": "high",
+  "summary": "Dopo la Rivoluzione dei garofani il Portogallo lascia le colonie africane. Il Mozambico diventa indipendente il 25 giugno 1975 sotto il Frelimo di Samora Machel; l’Angola l’11 novembre 1975, ma senza un governo condiviso: i movimenti di liberazione si combattono e inizia una lunga guerra civile.",
+  "region": "Africa",
+  "subregion": "Angola e Mozambico",
+  "lat": -8.8383,
+  "lon": 13.2344,
+  "label": "Luanda",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AS",
+  "related": [
+   "event-carnation-revolution",
+   "movement-decolonization",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Angola",
+    "url": "https://www.britannica.com/topic/history-of-Angola"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did Angola and Mozambique gain independence after Portugal’s 1974 military coup?",
+    "url": "https://www.britannica.com/topic/How-did-Angola-and-Mozambique-gain-independence-after-Portugals-1974-military-coup"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mozambique · Mozambique under the New State regime",
+    "url": "https://www.britannica.com/place/Mozambique/Mozambique-under-the-New-State-regime"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Frelimo",
+    "url": "https://www.britannica.com/topic/Frelimo"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Mozambico indipendente il 25 giugno 1975 come stato a partito unico sotto il Frelimo (guerriglia dal 1964), presidente Samora Machel; Angola indipendente l’11 novembre 1975 senza un nuovo governo stabilito: l’MPLA, sostenuto da URSS e Cuba, si proclamò governo, UNITA e FNLA formarono un governo rivale e iniziò la guerra civile; quasi tutti i coloni portoghesi lasciarono i due paesi. Il punto è su Luanda; il Mozambico è citato nel testo. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Luanda e Maputo",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-congo-wars",
+  "name": "Guerre del Congo",
+  "start_year": 1996,
+  "end_year": 2003,
+  "date_confidence": "high",
+  "summary": "Dopo il genocidio in Ruanda, nel 1996 i ribelli di Laurent Kabila, appoggiati da Ruanda, Uganda e Angola, partono dall’est dello Zaire e nel 1997 rovesciano Mobutu. Nel 1998 scoppia una seconda guerra che coinvolge molti paesi africani, la più sanguinosa del dopoguerra in Africa; finisce ufficialmente nel 2003, ma l’est resta instabile.",
+  "region": "Africa",
+  "subregion": "Repubblica Democratica del Congo",
+  "lat": -1.6585,
+  "lon": 29.2203,
+  "label": "Goma",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AS",
+  "related": [
+   "event-rwanda-genocide",
+   "event-congo-crisis"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of the Democratic Republic of the Congo",
+    "url": "https://www.britannica.com/topic/history-of-Democratic-Republic-of-the-Congo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Democratic Republic of the Congo · Second Congo War",
+    "url": "https://www.britannica.com/place/Democratic-Republic-of-the-Congo/The-Democratic-Republic-of-the-Congo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Democratic Republic of the Congo · First Congo War",
+    "url": "https://www.britannica.com/place/Democratic-Republic-of-the-Congo/Mobutus-regime"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "8 Deadliest Wars of the 21st Century",
+    "url": "https://www.britannica.com/list/Deadliest-Wars-of-the-21st-Century"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Goma",
+    "url": "https://www.britannica.com/place/Goma"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: prima guerra (1996–97) iniziata nell’ottobre 1996 dall’AFDL di Kabila, sostenuta da Ruanda, Angola e Uganda, con presa di Bukavu e Goma; Mobutu deposto nel maggio 1997 e Zaire ribattezzato Repubblica Democratica del Congo; seconda guerra (1998–2003) iniziata nell’agosto 1998 con ribelli sostenuti da Ruanda e Uganda, governo sostenuto da Angola, Namibia e Zimbabwe; detta «guerra mondiale africana», la più letale del XXI secolo nell’elenco Britannica; Kabila ucciso nel gennaio 2001, successore il figlio Joseph; combattimenti proseguiti nell’est dopo il 2003. «Più sanguinosa del dopoguerra in Africa» è una sintesi di Claude, non una citazione. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Congo orientale",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-qaddafi-libya",
+  "name": "La Libia di Gheddafi",
+  "start_year": 1969,
+  "end_year": 2011,
+  "date_confidence": "high",
+  "summary": "Il 1° settembre 1969 un gruppo di giovani ufficiali guidato da Muammar Gheddafi rovescia senza sangue re Idris e proclama la repubblica. Gheddafi governa la Libia per oltre quarant’anni con un potere quasi assoluto, finanziato dal petrolio. Nel 2011, sull’onda della Primavera araba, una rivolta lo caccia; viene ucciso a Sirte.",
+  "region": "Africa",
+  "subregion": "Libia",
+  "lat": 32.8872,
+  "lon": 13.1913,
+  "label": "Tripoli",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AN",
+  "related": [
+   "event-arab-spring",
+   "event-six-day-war",
+   "event-egypt-revolution-1952"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Muammar al-Qaddafi",
+    "url": "https://www.britannica.com/biography/Muammar-al-Qaddafi"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Libya Revolt of 2011",
+    "url": "https://www.britannica.com/event/Libya-Revolt-of-2011"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Libya · The discovery of oil",
+    "url": "https://www.britannica.com/place/Libya/The-discovery-of-oil"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Muammar al-Qaddafi",
+    "url": "https://kids.britannica.com/students/article/Muammar-al-Qaddafi/276602"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: colpo di Stato incruento del 1° settembre 1969 guidato da Gheddafi, allora capitano di 27 anni, contro re Idris I (in Turchia per cure), favorito dal silenzio del re durante la guerra del 1967; Libia proclamata repubblica; Gheddafi leader di fatto fino al 2011; rivolta iniziata a Bengasi nel febbraio 2011, presa di Tripoli ad agosto, Gheddafi ucciso a Sirte il 20 ottobre 2011. «Finanziato dal petrolio» è una sintesi di Claude basata sulla sezione Britannica sul petrolio libico. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Libia",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-armenian-genocide",
+  "name": "Genocidio armeno",
+  "start_year": 1915,
+  "end_year": 1916,
+  "date_confidence": "high",
+  "summary": "Durante la Prima guerra mondiale il governo dei Giovani Turchi accusa gli armeni dell’Impero ottomano di aiutare la Russia. Nell’aprile 1915 arresta gli intellettuali armeni di Istanbul, poi deporta la popolazione dell’Anatolia orientale verso i deserti della Siria con marce forzate e massacri. Muoiono da 600.000 a oltre un milione di persone.",
+  "region": "Asia",
+  "subregion": "Anatolia orientale e Siria (Impero ottomano)",
+  "lat": 39.9043,
+  "lon": 41.2679,
+  "label": "Anatolia orientale · punto di orientamento (Erzurum)",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "civilization-ottoman",
+   "event-world-war-one",
+   "event-holocaust"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Armenian Genocide",
+    "url": "https://www.britannica.com/event/Armenian-Genocide"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Armenian Genocide · Genocide",
+    "url": "https://www.britannica.com/event/Armenian-Genocide/Genocide"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What Was the Armenian Genocide?",
+    "url": "https://www.britannica.com/story/the-armenian-genocide"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Which Ottoman government leaders directed the deportation of Armenians during World War I?",
+    "url": "https://www.britannica.com/event/Which-Ottoman-government-leaders-directed-the-deportation-of-Armenians-during-World-War-I"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Armenia · Modern Armenia",
+    "url": "https://www.britannica.com/place/Armenia/Modern-Armenia"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: campagna di deportazione e uccisioni di massa contro gli armeni ottomani da parte del governo dei Giovani Turchi nel 1915–16, dopo la sconfitta di Sarıkamış (gennaio 1915) attribuita al «tradimento» armeno; nell’aprile 1915 Talat Paşa fece arrestare intellettuali e politici armeni a Istanbul; deportazioni verso campi nei deserti di Siria e Mesopotamia; stime prudenti di 600.000–oltre 1.000.000 di morti (la voce Armenia indica 600.000–1.500.000); la Turchia rifiuta di riconoscerlo come genocidio. Il punto su Erzurum è solo di orientamento nell’Anatolia orientale. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "genocide",
+  "place_name": "Anatolia orientale",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-sykes-picot",
+  "name": "Accordo Sykes-Picot e mandati in Medio Oriente",
+  "start_year": 1916,
+  "end_year": 1920,
+  "date_confidence": "high",
+  "summary": "Nel maggio 1916 Gran Bretagna e Francia, con l’assenso della Russia, si spartiscono in segreto le province arabe dell’Impero ottomano. Dopo la guerra, alla conferenza di Sanremo del 1920, i territori diventano «mandati» della Società delle Nazioni: Siria e Libano alla Francia, Iraq, Transgiordania e Palestina alla Gran Bretagna. I confini di oggi nascono in buona parte qui.",
+  "region": "Asia",
+  "subregion": "Siria, Libano, Iraq, Palestina, Giordania",
+  "lat": 33.5138,
+  "lon": 36.2765,
+  "label": "Damasco · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "civilization-ottoman",
+   "event-world-war-one",
+   "event-league-of-nations",
+   "event-israel-1948"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sykes-Picot Agreement",
+    "url": "https://www.britannica.com/event/Sykes-Picot-Agreement"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "20th-century international relations · The reorganization of the Middle East",
+    "url": "https://www.britannica.com/topic/20th-century-international-relations-2085155/The-reorganization-of-the-Middle-East"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Palestine · World War I and after",
+    "url": "https://www.britannica.com/place/Palestine/World-War-I-and-after"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Class A mandate",
+    "url": "https://www.britannica.com/topic/Class-A-mandate"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: accordo segreto del maggio 1916 tra Gran Bretagna e Francia, con l’assenso della Russia, per smembrare l’Impero ottomano (Palestina da internazionalizzare); alla conferenza di Sanremo dell’aprile 1920 Siria e Libano andarono in mandato alla Francia e la Palestina alla Gran Bretagna; i mandati di classe A (Iraq, Transgiordania e Palestina britannici; Siria e Libano francesi) ottennero tutti l’indipendenza entro il 1949. «I confini di oggi nascono in buona parte qui» è un’interpretazione corrente riassunta da Claude, non una citazione. Il punto su Damasco è solo di orientamento. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Medio Oriente",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-six-day-war",
+  "name": "Guerra dei sei giorni",
+  "start_year": 1967,
+  "end_year": 1967,
+  "date_confidence": "high",
+  "summary": "Dopo mesi di tensione, il 5 giugno 1967 Israele attacca per primo e distrugge a terra l’aviazione egiziana. In sei giorni sconfigge Egitto, Giordania e Siria e occupa Sinai, Striscia di Gaza, Cisgiordania con Gerusalemme Est e alture del Golan. La guerra cambia la carta del Medio Oriente e pesa ancora sul conflitto israelo-palestinese.",
+  "region": "Asia",
+  "subregion": "Israele, Egitto, Giordania, Siria",
+  "lat": 31.7767,
+  "lon": 35.2345,
+  "label": "Gerusalemme · Città Vecchia",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "event-israel-1948",
+   "event-suez-crisis",
+   "event-oil-crisis-1973"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Six-Day War",
+    "url": "https://www.britannica.com/event/Six-Day-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arab-Israeli wars",
+    "url": "https://www.britannica.com/event/Arab-Israeli-wars"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Golan Heights",
+    "url": "https://www.britannica.com/place/Golan-Heights"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Arab-Israeli wars",
+    "url": "https://kids.britannica.com/students/article/Arab-Israeli-wars/275102"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra del 5–10 giugno 1967 (detta anche guerra di giugno o Naksa); Israele lanciò un attacco preventivo che distrusse l’aviazione egiziana a terra; in sei giorni occupò la Città Vecchia di Gerusalemme, il Sinai, la Striscia di Gaza, la Cisgiordania e le alture del Golan (annesse nel 1981, annessione non riconosciuta a livello internazionale salvo da Stati Uniti e Colombia); precedenti: blocco egiziano dello stretto di Tiran e patto di difesa con la Giordania. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Medio Oriente",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-sri-lanka-civil-war",
+  "name": "Guerra civile in Sri Lanka",
+  "start_year": 1983,
+  "end_year": 2009,
+  "date_confidence": "high",
+  "summary": "Le tensioni tra la maggioranza singalese e la minoranza tamil sfociano nel 1983, dopo violenti pogrom anti-tamil, in una guerra civile. Le Tigri Tamil (LTTE) combattono per uno stato indipendente nel nord e nell’est dell’isola, anche con attentati suicidi. Nel maggio 2009 l’esercito conquista l’ultima roccaforte ribelle; i morti sono 70.000–80.000.",
+  "region": "Asia",
+  "subregion": "Sri Lanka",
+  "lat": 9.6615,
+  "lon": 80.0255,
+  "label": "Jaffna",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AM",
+  "related": [
+   "event-indipendenza-dellindia-e-partizione"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sri Lanka · Civil war",
+    "url": "https://www.britannica.com/place/Sri-Lanka/The-Republic-of-Sri-Lanka"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Sri Lanka",
+    "url": "https://www.britannica.com/topic/history-of-Sri-Lanka"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Liberation Tigers of Tamil Eelam (LTTE)",
+    "url": "https://www.britannica.com/topic/Liberation-Tigers-of-Tamil-Eelam"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: conflitto radicato nei rapporti tra singalesi e tamil; nel luglio 1983 ampi disordini anti-tamil organizzati; le LTTE (fondate nel 1976) cercavano uno stato tamil indipendente nel nord e nell’est, con guerriglia e attentati suicidi; la guerra finì nel maggio 2009 quando l’esercito conquistò l’ultima roccaforte e uccise i capi dell’LTTE; stimati 70.000–80.000 morti. Il punto su Jaffna, città principale del nord tamil, è da conoscenza generale. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Sri Lanka",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-bhopal-disaster",
+  "name": "Disastro di Bhopal",
+  "start_year": 1984,
+  "end_year": 1984,
+  "date_confidence": "high",
+  "summary": "Il 3 dicembre 1984 circa 45 tonnellate di isocianato di metile, un gas velenosissimo, fuoriescono da una fabbrica di insetticidi della filiale indiana dell’americana Union Carbide a Bhopal. La nube copre i quartieri poveri intorno all’impianto: migliaia di morti subito, 15.000–20.000 in totale e circa mezzo milione di persone con danni permanenti.",
+  "region": "Asia",
+  "subregion": "India (Madhya Pradesh)",
+  "lat": 23.2813,
+  "lon": 77.4103,
+  "label": "Bhopal · impianto Union Carbide",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AM",
+  "related": [
+   "event-green-revolution",
+   "event-chernobyl"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bhopal disaster",
+    "url": "https://www.britannica.com/event/Bhopal-disaster"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Union Carbide Corporation",
+    "url": "https://www.britannica.com/money/Union-Carbide-Corporation"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "10 Notable Accidents and Catastrophes",
+    "url": "https://www.britannica.com/list/the-perils-of-industry-10-notable-accidents-and-catastrophes"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Bhopal disaster",
+    "url": "https://kids.britannica.com/students/article/Bhopal-disaster/645735"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: nella notte tra il 2 e il 3 dicembre 1984 circa 45 tonnellate di isocianato di metile fuoriuscirono da un impianto di insetticidi della filiale indiana di Union Carbide; circa 3.800–4.000 morti immediati, 15.000–20.000 in totale, circa mezzo milione di persone con malattie permanenti; all’epoca il peggiore incidente industriale della storia; il sito è rimasto contaminato per decenni; cambiò le norme di sicurezza nelle industrie chimiche. Le coordinate dell’impianto sono approssimative. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "disaster",
+  "place_name": "Bhopal",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-korea-japanese-rule",
+  "name": "Corea sotto il dominio giapponese",
+  "start_year": 1910,
+  "end_year": 1945,
+  "date_confidence": "high",
+  "summary": "Nel 1910, dopo la vittoria sulla Russia, il Giappone annette la Corea e mette fine alla dinastia Joseon. Per 35 anni la governa con generali e ammiragli: niente libertà di stampa e di riunione, scuole che insegnano il giapponese al posto del coreano, ma anche ferrovie e industrie al servizio di Tokyo. Il dominio finisce con la resa giapponese nell’agosto 1945.",
+  "region": "Asia",
+  "subregion": "Corea",
+  "lat": 37.5796,
+  "lon": 126.977,
+  "label": "Seul · palazzo Gyeongbokgung",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-russo-japanese-war",
+   "event-first-sino-japanese-war",
+   "event-korean-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Korea Under Japanese Rule",
+    "url": "https://www.britannica.com/topic/Korea-Under-Japanese-Rule"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Korea · Korea under Japanese rule",
+    "url": "https://www.britannica.com/place/Korea/Korea-under-Japanese-rule"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Joseon dynasty",
+    "url": "https://www.britannica.com/topic/Joseon-dynasty"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why Are North and South Korea Divided?",
+    "url": "https://www.britannica.com/topic/Why-Are-North-and-South-Korea-Divided"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: annessione formale nel 1910, fine della dinastia Joseon (1392–1910); governatori generali scelti tra generali e ammiragli; soppressione delle libertà di riunione, associazione, stampa e parola; scuola usata per assimilare, con il giapponese al posto di lingua e storia coreane; reti di trasporto e comunicazione e nuovo sistema monetario; la resa del Giappone nell’agosto 1945 chiuse 35 anni di dominio, seguita dalla divisione lungo il 38° parallelo. Il palazzo Gyeongbokgung, dove sorgeva la sede del governo generale, è da conoscenza generale. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "colonization",
+  "place_name": "Corea",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-long-march",
+  "name": "La Lunga marcia",
+  "start_year": 1934,
+  "end_year": 1935,
+  "date_confidence": "high",
+  "summary": "Nell’ottobre 1934 i comunisti cinesi, accerchiati dai nazionalisti di Chiang Kai-shek nel Jiangxi, fuggono verso nord. In un anno percorrono circa 10.000 km, attraversando 18 catene montuose e 24 fiumi, e arrivano nello Shaanxi; si stabiliscono a Yan’an. Durante la marcia Mao Zedong diventa il capo indiscusso del partito.",
+  "region": "Asia",
+  "subregion": "Cina",
+  "lat": 36.5853,
+  "lon": 109.4897,
+  "label": "Yan’an · arrivo della marcia",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-xinhai-revolution",
+   "event-second-sino-japanese-war",
+   "event-fondazione-della-repubblica-popolare-cinese"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Long March",
+    "url": "https://www.britannica.com/event/Long-March"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Yan’an",
+    "url": "https://www.britannica.com/place/Yanan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Zhou Enlai",
+    "url": "https://www.britannica.com/biography/Zhou-Enlai"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did Mao Zedong rise to leadership in the Chinese Communist Party?",
+    "url": "https://www.britannica.com/place/How-did-Mao-Zedong-rise-to-leadership-in-the-Chinese-Communist-Party"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: marcia dal 15 ottobre 1934 all’ottobre 1935, circa 6.000 miglia (10.000 km), 18 catene montuose e 24 fiumi, dal sud-est al nord-ovest della Cina (Shaanxi), sempre combattendo le forze nazionaliste; Mao si affermò come capo indiscusso (conferenza di Zunyi, gennaio 1935); da Yan’an, base durante la guerra sino-giapponese e la guerra civile, i comunisti si rafforzarono fino alla vittoria del 1949. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Dal Jiangxi allo Shaanxi",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-great-leap-forward",
+  "name": "Grande balzo in avanti",
+  "start_year": 1958,
+  "end_year": 1962,
+  "date_confidence": "high",
+  "summary": "Nel 1958 Mao lancia il Grande balzo in avanti: i contadini cinesi vengono riuniti in enormi comuni popolari e spinti a produrre acciaio in piccoli altiforni di villaggio. La produzione agricola crolla; con le calamità naturali e la fine degli aiuti sovietici segue una carestia che tra il 1959 e il 1962 uccide decine di milioni di persone.",
+  "region": "Asia",
+  "subregion": "Cina",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "label": "Pechino · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-fondazione-della-repubblica-popolare-cinese",
+   "event-cultural-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Great Leap Forward",
+    "url": "https://www.britannica.com/event/Great-Leap-Forward"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Great Leap Forward Facts",
+    "url": "https://www.britannica.com/facts/Great-Leap-Forward"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How many people died of starvation during the Great Leap Forward famine?",
+    "url": "https://www.britannica.com/biography/How-many-people-died-of-starvation-during-the-Great-Leap-Forward-famine"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mao Zedong · Formation of the People’s Republic of China",
+    "url": "https://www.britannica.com/biography/Mao-Zedong/Formation-of-the-Peoples-Republic-of-China"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: campagna del Partito comunista dal 1958 all’inizio del 1960, con comuni rurali e piccole industrie locali (altiforni «di cortile»); non raggiunse gli obiettivi e portò a una carestia; circa 20 milioni di morti di fame tra il 1959 e il 1962 secondo la voce principale, mentre la scheda Facts cita stime recenti fino a 45 milioni e altre pagine Britannica 6–7 milioni o 30 milioni: le stime divergono molto, perciò il testo dice «decine di milioni» (intervallo plausibile 15–45 milioni). Cause concorrenti: calamità naturali e fine degli aiuti sovietici. Le date 1958–1962 uniscono campagna e carestia. Il punto su Pechino è solo di orientamento. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Cina",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-second-sino-japanese-war",
+  "name": "Seconda guerra sino-giapponese",
+  "start_year": 1937,
+  "end_year": 1945,
+  "date_confidence": "high",
+  "summary": "Il 7 luglio 1937 uno scontro presso il ponte Marco Polo, vicino a Pechino, diventa guerra aperta tra Giappone e Cina. I giapponesi conquistano le città della costa, tra cui Nanchino, dove compiono un massacro; il governo nazionalista si ritira all’interno. Dal 1941 la guerra si fonde con la Seconda guerra mondiale e finisce con la resa del Giappone nel 1945.",
+  "region": "Asia",
+  "subregion": "Cina",
+  "lat": 39.8496,
+  "lon": 116.2139,
+  "label": "Pechino · ponte Marco Polo",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-first-sino-japanese-war",
+   "event-world-war-two",
+   "event-hiroshima-nagasaki",
+   "event-long-march"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Second Sino-Japanese War",
+    "url": "https://www.britannica.com/event/Second-Sino-Japanese-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "World War II · The war in China, 1937–41",
+    "url": "https://www.britannica.com/event/World-War-II/The-war-in-the-Pacific-1938-41"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nanjing Massacre",
+    "url": "https://www.britannica.com/event/Nanjing-Massacre"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What incident sparked the outbreak of the Second Sino-Japanese War in 1937?",
+    "url": "https://www.britannica.com/event/What-incident-sparked-the-outbreak-of-the-Second-Sino-Japanese-War-in-1937"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra iniziata il 7 luglio 1937 con l’incidente del ponte Marco Polo presso Pechino (allora Beiping), durata fino al 1945 e preludio al fronte del Pacifico della Seconda guerra mondiale; origini nell’espansionismo giapponese e nel Manchukuo (1931–32); i giapponesi presero Nanchino e Hankou nonostante la resistenza cinese; stime del massacro di Nanchino tra 100.000 e oltre 300.000 morti. La ritirata del governo nazionalista a Chongqing è da conoscenza generale ed è detta solo «all’interno». Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Cina",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-mongolian-revolution",
+  "name": "Rivoluzione mongola",
+  "start_year": 1921,
+  "end_year": 1924,
+  "date_confidence": "high",
+  "summary": "Nel 1921 i rivoluzionari mongoli di Damdin Sükhbaatar, con l’Armata rossa sovietica, conquistano la capitale e cacciano le truppe del barone russo Ungern-Sternberg. Nasce un «governo popolare»; nel novembre 1924 viene proclamata la Repubblica Popolare Mongola, il secondo stato marxista del mondo, e la capitale prende il nome di Ulan Bator, «eroe rosso».",
+  "region": "Asia",
+  "subregion": "Mongolia",
+  "lat": 47.9189,
+  "lon": 106.9176,
+  "label": "Ulan Bator · piazza Sükhbaatar",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AC",
+  "related": [
+   "event-rivoluzione-russa",
+   "event-xinhai-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mongolia · Independence and revolution",
+    "url": "https://www.britannica.com/place/Mongolia/Independence-and-revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What happened during the Mongolian Revolution of 1921?",
+    "url": "https://www.britannica.com/place/What-happened-during-the-Mongolian-Revolution-of-1921"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Damdiny Sühbaatar",
+    "url": "https://www.britannica.com/biography/Damdiny-Suhbaatar"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When was the Mongolian People’s Republic proclaimed and how did it change the capital’s name?",
+    "url": "https://www.britannica.com/place/When-was-the-Mongolian-Peoples-Republic-proclaimed-and-how-did-it-change-the-capitals-name"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Mongolia",
+    "url": "https://kids.britannica.com/students/article/Mongolia/275899"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: nel marzo 1921 primo congresso del Partito popolare mongolo a Troitskosavsk; le forze di Sükhbaatar con unità sovietiche presero Niislel Khüree nel luglio 1921 dopo il breve dominio di Ungern-Sternberg; nominato un «governo popolare»; Repubblica Popolare Mongola proclamata nel novembre 1924 (Gran Khural dell’8–26 novembre) e capitale ribattezzata Ulaanbaatar («eroe rosso»); secondo stato marxista dopo l’URSS (edizione studenti); stato cliente sovietico fino ai primi anni Novanta. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Mongolia",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-kazakh-famine",
+  "name": "Carestia in Kazakistan",
+  "start_year": 1931,
+  "end_year": 1934,
+  "date_confidence": "medium",
+  "summary": "Con la collettivizzazione di Stalin i pastori nomadi kazaki sono costretti a stabilirsi e a cedere le greggi. Il bestiame viene macellato o muore, le requisizioni continuano: segue una carestia, parte di quella che colpisce anche Ucraina e Russia. Muore oltre un milione e mezzo di kazaki, forse due milioni, circa un quarto del popolo o più.",
+  "region": "Asia",
+  "subregion": "Kazakistan (allora Unione Sovietica)",
+  "lat": 43.2389,
+  "lon": 76.8897,
+  "label": "Almaty · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AC",
+  "related": [
+   "event-soviet-central-asia",
+   "event-russian-central-asia"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Kazakhstan",
+    "url": "https://www.britannica.com/topic/history-of-Kazakhstan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kazakh",
+    "url": "https://www.britannica.com/topic/Kazakh"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Soviet famine",
+    "url": "https://www.britannica.com/event/Soviet-famine-1931-34"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Soviet Union · The Party versus the peasants",
+    "url": "https://www.britannica.com/place/Soviet-Union/Toward-the-second-Revolution-1927-30"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: dal 1927 politica sovietica di sedentarizzazione dei nomadi kazaki e colonizzazione russa e ucraina; la collettivizzazione fu disastrosa: oltre 1,5 milioni di morti, soprattutto per fame e malattie (voci Kazakhstan e Kazakh); la voce Soviet Union stima che su circa 4 milioni di kazaki ne morirono più di un milione e probabilmente due, mentre circa 250.000 fuggirono in Cina; carestia parte della carestia sovietica 1931–34. Date: si usano quelle della carestia sovietica in Britannica; altre fonti datano la carestia kazaka 1930–33 (supposizione non verificata qui), perciò date_confidence media. «Circa un quarto o più» è calcolato da Claude: 1–2 milioni su circa 4 milioni = 25–50%. Il punto su Almaty è solo di orientamento. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "process",
+  "place_name": "Kazakistan",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-central-asia-independence",
+  "name": "Indipendenza delle repubbliche dell’Asia centrale",
+  "start_year": 1991,
+  "end_year": 1991,
+  "date_confidence": "high",
+  "summary": "Con il crollo dell’Unione Sovietica, nel 1991 le cinque repubbliche sovietiche dell’Asia centrale, Kazakistan, Uzbekistan, Kirghizistan, Tagikistan e Turkmenistan, diventano stati indipendenti, l’ultimo il Kazakistan il 16 dicembre. Devono costruire istituzioni ed economie proprie dentro confini disegnati dai sovietici; il Tagikistan cade subito in una guerra civile.",
+  "region": "Asia",
+  "subregion": "Asia centrale ex sovietica",
+  "lat": 41.2995,
+  "lon": 69.2401,
+  "label": "Tashkent · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AC",
+  "related": [
+   "event-ussr-dissolution",
+   "event-soviet-central-asia"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did the independence of Central Asian countries from the Soviet Union affect the region?",
+    "url": "https://www.britannica.com/question/How-did-the-independence-of-Central-Asian-countries-from-the-Soviet-Union-affect-the-region"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What role did the Soviet Union play in shaping modern Central Asia?",
+    "url": "https://www.britannica.com/question/What-role-did-the-Soviet-Union-play-in-shaping-modern-Central-Asia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kazakhstan · Independent Kazakhstan",
+    "url": "https://www.britannica.com/place/Kazakhstan/Independent-Kazakhstan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tajikistan · Independence",
+    "url": "https://www.britannica.com/place/Tajikistan/Independence"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: dopo la dissoluzione dell’URSS le cinque repubbliche sovietiche dell’Asia centrale ottennero l’indipendenza nel 1991 e dovettero costruire istituzioni ed economie proprie; i confini sovietici avevano ignorato le realtà etniche; Kazakistan sovranità il 25 ottobre 1990 e piena indipendenza il 16 dicembre 1991; Tagikistan indipendente il 9 settembre 1991, poi guerra civile. Che il Kazakistan sia stato l’ultimo a dichiararsi indipendente è conoscenza generale di Claude (confidenza circa 90%). Il punto su Tashkent è solo di orientamento. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Asia centrale",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-japanese-occupation-southeast-asia",
+  "name": "Occupazione giapponese del Sud-est asiatico",
+  "start_year": 1941,
+  "end_year": 1945,
+  "date_confidence": "high",
+  "summary": "Tra il dicembre 1941 e il 1942 il Giappone conquista le colonie britanniche, olandesi, francesi e americane del Sud-est asiatico, in nome di una «Sfera di co-prosperità della Grande Asia orientale». Promette «l’Asia agli asiatici» ma impone un dominio duro e sfrutta le risorse. Con la resa del 1945 molti leader locali proclamano l’indipendenza.",
+  "region": "Asia",
+  "subregion": "Sud-est asiatico",
+  "lat": 1.2903,
+  "lon": 103.852,
+  "label": "Singapore · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "SE",
+  "related": [
+   "event-world-war-two",
+   "event-indonesian-independence",
+   "event-burma-independence",
+   "state-french-indochina"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Greater East Asia Co-Prosperity Sphere (GEACPS)",
+    "url": "https://www.britannica.com/topic/Greater-East-Asia-Co-prosperity-Sphere"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Southeast Asia · Japanese occupation",
+    "url": "https://www.britannica.com/place/history-of-Southeast-Asia-556509/Patterns-of-a-colonial-age"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Pacific War",
+    "url": "https://www.britannica.com/topic/Pacific-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Western colonialism · Asia",
+    "url": "https://www.britannica.com/topic/Western-colonialism/The-United-States-and-the-Soviet-Union"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: progetto giapponese annunciato nel 1940 («l’Asia agli asiatici»); arrivo delle forze giapponesi nel Sud-est asiatico nel 1941–42, che scalzarono britannici, olandesi, francesi e americani; imposizione di lingua e cultura, controllo dei governi e sfruttamento delle risorse; crollo con la resa del 1945; l’occupazione rafforzò le élite locali e dopo la guerra molti leader dichiararono l’indipendenza (Sukarno il 17 agosto 1945). Guerra del Pacifico datata dall’8 dicembre 1941 al 2 settembre 1945. Il punto su Singapore è solo di orientamento. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Sud-est asiatico",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-burma-independence",
+  "name": "Indipendenza della Birmania",
+  "start_year": 1948,
+  "end_year": 1948,
+  "date_confidence": "high",
+  "summary": "Il leader nazionalista Aung San, prima alleato dei giapponesi e poi passato con gli Alleati, nel gennaio 1947 negozia a Londra l’indipendenza della Birmania. Viene assassinato con parte del suo governo nel luglio 1947; il 4 gennaio 1948 la Birmania diventa una repubblica indipendente fuori dal Commonwealth, ma presto precipita in conflitti interni.",
+  "region": "Asia",
+  "subregion": "Birmania (oggi Myanmar)",
+  "lat": 16.7795,
+  "lon": 96.1497,
+  "label": "Yangon (Rangoon)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [
+   "event-japanese-occupation-southeast-asia",
+   "event-indipendenza-dellindia-e-partizione",
+   "movement-decolonization"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Myanmar · The British in Burma, 1885–1948",
+    "url": "https://www.britannica.com/topic/history-of-Myanmar/The-British-in-Burma-1885-1948"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Myanmar · The emergence of nationalism",
+    "url": "https://www.britannica.com/place/Myanmar/The-emergence-of-nationalism"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aung San",
+    "url": "https://www.britannica.com/biography/Aung-San"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Myanmar",
+    "url": "https://www.britannica.com/topic/history-of-Myanmar"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: Aung San formò l’Esercito per l’indipendenza birmana nel dicembre 1941 con i giapponesi, poi nel 1945 passò agli Alleati; accordo di Londra del gennaio 1947 per l’indipendenza; a giugno decisione di uscire dal Commonwealth; Aung San e il suo governo assassinati il 19 luglio 1947; il 4 gennaio 1948 la Birmania divenne repubblica sovrana e indipendente; da allora il paese è segnato da conflitti civili. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Rangoon",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-east-timor-independence",
+  "name": "Indipendenza di Timor Est",
+  "start_year": 1999,
+  "end_year": 2002,
+  "date_confidence": "high",
+  "summary": "Ex colonia portoghese invasa dall’Indonesia nel 1975, Timor Est vota il 30 agosto 1999 in un referendum ONU: quasi l’80% sceglie l’indipendenza. Milizie contrarie uccidono centinaia di persone e distruggono il paese; dopo un periodo di amministrazione ONU, il 20 maggio 2002 nasce lo stato indipendente, con Xanana Gusmão presidente.",
+  "region": "Asia",
+  "subregion": "Timor Est",
+  "lat": -8.5569,
+  "lon": 125.5603,
+  "label": "Dili",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [
+   "event-indonesian-independence",
+   "event-carnation-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of East Timor",
+    "url": "https://www.britannica.com/topic/history-of-East-Timor"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "East Timor",
+    "url": "https://www.britannica.com/place/East-Timor"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Xanana Gusmão",
+    "url": "https://www.britannica.com/biography/Xanana-Gusmao"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "East Timor",
+    "url": "https://kids.britannica.com/students/article/East-Timor/384947"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: invasione indonesiana nel dicembre 1975 e annessione come provincia nel 1976, decine di migliaia di morti nella resistenza; referendum del 30 agosto 1999, quasi l’80% (quasi quattro quinti) per l’indipendenza; violenze delle milizie anti-indipendenza con centinaia di morti; amministrazione ONU e piena sovranità il 20 maggio 2002, con Gusmão presidente; membro ONU dal 27 settembre 2002 come Timor-Leste. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Timor Est",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-asian-financial-crisis",
+  "name": "Crisi finanziaria asiatica",
+  "start_year": 1997,
+  "end_year": 1998,
+  "date_confidence": "high",
+  "summary": "Nel luglio 1997 la Thailandia sgancia il baht dal dollaro e la sua moneta crolla. Il panico si propaga a Indonesia, Corea del Sud e altre «tigri asiatiche»: fuga di capitali, banche fallite, recessione. Il Fondo monetario interviene con prestiti enormi; in Indonesia la crisi fa cadere Suharto dopo trent’anni di potere.",
+  "region": "Asia",
+  "subregion": "Thailandia, Indonesia, Corea del Sud e paesi vicini",
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "label": "Bangkok",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [
+   "event-asean",
+   "event-japan-economic-miracle",
+   "event-bretton-woods"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Asian financial crisis",
+    "url": "https://www.britannica.com/money/Asian-financial-crisis"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Thailand · Economic and foreign policy developments",
+    "url": "https://www.britannica.com/place/Thailand/Economic-and-foreign-policy-developments"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Indonesia · Economic crisis and the fall of Suharto",
+    "url": "https://www.britannica.com/topic/history-of-Indonesia/Independent-Indonesia-to-1965"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why did South Korea receive an International Monetary Fund bailout in 1997?",
+    "url": "https://www.britannica.com/topic/Why-did-South-Korea-receive-an-International-Monetary-Fund-bailout-in-1997"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: crisi del 1997–98 iniziata in Thailandia quando Bangkok sganciò il baht dal dollaro (luglio 1997), con svalutazioni a catena e fughe di capitali; colpite soprattutto Thailandia, Indonesia e Corea del Sud; programma FMI di 40 miliardi di dollari (edizione studenti) e richiesta sudcoreana di 57 miliardi; l’economia indonesiana ne fu paralizzata. La caduta di Suharto nel 1998 è nel titolo della sezione Britannica sull’Indonesia; i «trent’anni di potere» vengono dall’edizione studenti. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "economic",
+  "place_name": "Asia orientale e Sud-est asiatico",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-caribbean-independence-1962",
+  "name": "Indipendenza di Giamaica e Trinidad e Tobago",
+  "start_year": 1962,
+  "end_year": 1962,
+  "date_confidence": "high",
+  "summary": "Dopo il fallimento della Federazione delle Indie Occidentali, da cui la Giamaica era uscita, nel 1962 le due maggiori colonie britanniche dei Caraibi diventano indipendenti nel Commonwealth: la Giamaica il 6 agosto, Trinidad e Tobago il 31 agosto. È l’inizio della decolonizzazione dei Caraibi anglofoni.",
+  "region": "Americhe",
+  "subregion": "Caraibi",
+  "lat": 17.9714,
+  "lon": -76.792,
+  "label": "Kingston (Giamaica)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "MC",
+  "related": [
+   "movement-decolonization"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Jamaica · The independent country",
+    "url": "https://www.britannica.com/place/Jamaica/The-independent-country"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Jamaica",
+    "url": "https://www.britannica.com/topic/history-of-Jamaica"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Trinidad and Tobago",
+    "url": "https://www.britannica.com/place/history-of-Trinidad-and-Tobago"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Flag of Trinidad and Tobago",
+    "url": "https://www.britannica.com/topic/flag-of-Trinidad-and-Tobago"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la Giamaica fu membro fondatore della Federazione delle Indie Occidentali nel 1958 ma ne uscì; autogoverno interno dal 1959; indipendenza il 6 agosto 1962 con piena condizione di dominion nel Commonwealth, primo ministro Bustamante; Trinidad e Tobago indipendente alla mezzanotte del 31 agosto 1962 (primo ministro Eric Williams), repubblica dal 1976; la federazione fu sciolta nel 1962. «Inizio della decolonizzazione dei Caraibi anglofoni» è una sintesi di Claude. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Giamaica e Trinidad",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-chaco-war",
+  "name": "Guerra del Chaco",
+  "start_year": 1932,
+  "end_year": 1935,
+  "date_confidence": "high",
+  "summary": "Bolivia e Paraguay combattono per il Chaco Boreal, una pianura arida che si crede ricca di petrolio e che per la Bolivia, senza sbocco al mare, è la via verso l’Atlantico. La Bolivia è più forte sulla carta, ma i paraguaiani si muovono meglio sul terreno. La guerra fa circa 100.000 morti; il trattato del 1938 dà al Paraguay gran parte del territorio.",
+  "region": "Americhe",
+  "subregion": "Chaco Boreal (Bolivia e Paraguay)",
+  "lat": -22.0,
+  "lon": -60.5,
+  "label": "Chaco Boreal · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SA",
+  "related": [
+   "event-paraguayan-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chaco War",
+    "url": "https://www.britannica.com/event/Chaco-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Gran Chaco summary",
+    "url": "https://www.britannica.com/summary/Gran-Chaco"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Chaco Boreal",
+    "url": "https://www.britannica.com/place/Chaco-Boreal"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Chaco War",
+    "url": "https://kids.britannica.com/students/article/Chaco-War/273584"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra 1932–12 giugno 1935 tra Bolivia e Paraguay per il Chaco Boreal, regione che si riteneva contenesse petrolio; la Bolivia cercava uno sbocco all’Atlantico attraverso il Río de la Plata; Bolivia con esercito più grande, Paraguay meglio adattato al terreno; trattato di pace del 1938: gran parte del territorio al Paraguay e alla Bolivia un corridoio sul fiume Paraguay; circa 100.000 morti. Il punto è un orientamento al centro del Chaco Boreal. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Chaco Boreal",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-brazil-military-dictatorship",
+  "name": "Dittatura militare in Brasile",
+  "start_year": 1964,
+  "end_year": 1985,
+  "date_confidence": "high",
+  "summary": "Nel 1964 i militari, guidati dal generale Castelo Branco, rovesciano il presidente riformista João Goulart. Per 21 anni cinque generali si succedono alla presidenza: partiti sciolti e sostituiti da due partiti autorizzati, censura e repressione degli oppositori. La crisi economica degli anni Ottanta porta al ritorno dei civili nel 1985 e alla costituzione del 1988.",
+  "region": "Americhe",
+  "subregion": "Brasile",
+  "lat": -15.799,
+  "lon": -47.8608,
+  "label": "Brasília · Palazzo del Planalto",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "SA",
+  "related": [
+   "event-cuban-revolution",
+   "event-chile-coup-1973",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brazil · Military intervention and dictatorship",
+    "url": "https://www.britannica.com/place/Brazil/Military-intervention-and-dictatorship"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Brazil · Political parties",
+    "url": "https://www.britannica.com/place/Brazil/Political-parties"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "João Baptista de Oliveira Figueiredo",
+    "url": "https://www.britannica.com/biography/Joao-Baptista-de-Oliveira-Figueiredo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "João Goulart",
+    "url": "https://www.britannica.com/biography/Joao-Goulart"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Brazil",
+    "url": "https://kids.britannica.com/students/article/Brazil/273339"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: colpo di Stato del 1964 che depose Goulart (presidente 1961–64) e inaugurò 21 anni di governo militare (1964–85) con cinque ufficiali presidenti, l’ultimo Figueiredo (1979–85); nel 1965 aboliti tutti i partiti e sostituiti da un partito governativo e uno d’opposizione; censura (edizione studenti, cinema); la crisi economica degli anni Ottanta contribuì alla fine della dittatura nel 1985; nuova costituzione nel 1988. Il ruolo di Castelo Branco viene dall’edizione studenti. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Brasile",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-mabo-decision",
+  "name": "Sentenza Mabo",
+  "start_year": 1992,
+  "end_year": 1992,
+  "date_confidence": "high",
+  "summary": "Il 3 giugno 1992 l’Alta Corte d’Australia dà ragione a Eddie Koiki Mabo e ad altri abitanti dell’isola di Mer, nello Stretto di Torres: l’Australia non era terra nullius, «terra di nessuno», quando arrivarono i britannici. Per la prima volta la legge riconosce il «titolo nativo» dei popoli indigeni sulle loro terre tradizionali.",
+  "region": "Oceania",
+  "subregion": "Australia (Stretto di Torres)",
+  "lat": -9.9167,
+  "lon": 144.05,
+  "label": "Isola di Mer (Murray)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "OC",
+  "related": [
+   "event-australia-colonization",
+   "event-australian-federation",
+   "event-treaty-waitangi"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "What was the outcome of Mabo v. Queensland in 1992?",
+    "url": "https://www.britannica.com/topic/What-was-the-outcome-of-Mabo-v-Queensland-in-1992"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Eddie Koiki Mabo",
+    "url": "https://www.britannica.com/biography/Eddie-Koiki-Mabo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Queensland · Federation and the state of Queensland",
+    "url": "https://www.britannica.com/place/Queensland-state-Australia/Federation-and-the-state-of-Queensland"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Eddie Mabo",
+    "url": "https://kids.britannica.com/students/article/Eddie-Mabo/628769"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: sentenza Mabo v. Queensland (No. 2) dell’Alta Corte d’Australia, emessa il 3 giugno 1992; dichiarò nulla la dottrina della terra nullius e riconobbe il «titolo nativo» dei popoli aborigeni e delle isole dello Stretto di Torres; Mabo, nato a Mer nel 1936, morì pochi mesi prima del verdetto; il 3 giugno si celebra il Mabo Day; la sentenza Wik del 1996 stabilì che il titolo nativo può coesistere con le concessioni pastorali. Le coordinate del punto sono da conoscenza generale e scelte da Claude come riferimento.",
+  "data": "2026-11-25",
+  "event_type": "law",
+  "place_name": "Isola di Mer e Canberra",
+  "date_precision": "year"
+ }
+]

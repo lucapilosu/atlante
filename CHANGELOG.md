@@ -1,5 +1,22 @@
 # Registro delle versioni
 
+## v0.75 · 25 novembre 2026
+
+- **31 voci nuove di storia contemporanea, secondo blocco**, tutte con fonti specifiche e punto sulla mappa. Totale **580 voci**.
+  - Mondo (4): epidemia di AIDS (dal 1981, in corso), conferenza di Bretton Woods, il Sessantotto, nascita dell'Organizzazione mondiale del commercio.
+  - Europa (3): Chernobyl, Solidarność, Rivoluzione dei garofani.
+  - Africa (4): guerra d'Etiopia, indipendenza di Angola e Mozambico, guerre del Congo (1996–2003), la Libia di Gheddafi.
+  - Asia occidentale (3): genocidio armeno, accordo Sykes-Picot e mandati, guerra dei sei giorni.
+  - Asia meridionale (2): guerra civile in Sri Lanka, disastro di Bhopal.
+  - Asia orientale (4): Corea sotto il dominio giapponese, Lunga marcia, Grande balzo in avanti, seconda guerra sino-giapponese.
+  - Asia centrale (3): rivoluzione mongola, carestia in Kazakistan, indipendenza delle repubbliche dell'Asia centrale.
+  - Sud-est asiatico (4): occupazione giapponese, indipendenza della Birmania, indipendenza di Timor Est, crisi finanziaria asiatica.
+  - Americhe (3): indipendenza di Giamaica e Trinidad e Tobago, guerra del Chaco, dittatura militare in Brasile.
+  - Oceania (1): sentenza Mabo.
+- La Dichiarazione universale dei diritti umani, prevista nel piano, è stata sostituita dall'OMC perché è già trattata nella voce sull'ONU.
+- Fonti: Britannica per quasi tutte (126 fonti); UNAIDS per l'AIDS, sito dell'OMC per l'OMC. Dove le fonti non concordano il testo lo dice o usa una formula prudente: morti del Grande balzo («decine di milioni»: Britannica riporta stime da 6–7 a 45 milioni), date della carestia kazaka (date_confidence media), vittime del genocidio armeno (da 600.000 a oltre un milione). Le frasi di sintesi di Claude sono segnalate nella nota di verifica.
+- **Senza foto per ora**: il PC non era collegato, quindi le foto delle 31 voci nuove vanno raccolte alla prossima sessione con il PC acceso (servono il browser integrato e wikidata.org).
+
 ## v0.74 · 25 novembre 2026
 
 - **31 voci nuove di storia contemporanea** (richiesta di Luca: infoltire gli eventi più recenti), tutte con fonti specifiche, punto sulla mappa e foto. Totale **549 voci**.
