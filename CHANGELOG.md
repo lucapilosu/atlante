@@ -1,5 +1,23 @@
 # Registro delle versioni
 
+## v0.74 · 25 novembre 2026
+
+- **31 voci nuove di storia contemporanea** (richiesta di Luca: infoltire gli eventi più recenti), tutte con fonti specifiche, punto sulla mappa e foto. Totale **549 voci**.
+  - Mondo (4): Società delle Nazioni, crisi petrolifera del 1973, crisi finanziaria del 2007–2008, smartphone.
+  - Europa (3): Primavera di Praga, guerre nella ex Jugoslavia (1991–1999), guerra russo-ucraina (dal 2014, in corso).
+  - Africa (4): indipendenza del Congo e crisi congolese, rivolta Mau Mau e indipendenza del Kenya, guerra del Biafra, rivoluzione egiziana e Nasser.
+  - Asia occidentale (3): guerra Iran-Iraq, guerra del Golfo, guerra civile siriana (2011–2024).
+  - Asia meridionale (2): questione del Kashmir, riforme economiche indiane del 1991.
+  - Asia orientale (3): guerra russo-giapponese, proteste di piazza Tiananmen, Hong Kong torna alla Cina.
+  - Asia centrale (3): prosciugamento del lago d’Aral, poligono nucleare di Semipalatinsk, guerra in Afghanistan (2001–2021).
+  - Sud-est asiatico (4): rivoluzione filippina, indipendenza della Malesia e nascita di Singapore, People Power nelle Filippine, tsunami dell’Oceano Indiano.
+  - Americhe (4): Nunavut, rivoluzione sandinista, guerra delle Falkland, il «No» a Pinochet.
+  - Oceania (1): nascita del Commonwealth d’Australia.
+- Scelta delle voci di Claude, con criterio di equilibrio: l'Europa pesa il 10% del blocco (contro il 20% dell'atlante); Asia centrale e Sud-est asiatico, le aree con meno voci, ne ricevono 3 e 4.
+- Fonti: soprattutto Britannica; Nazioni Unite e CTBTO per Semipalatinsk; Archivi nazionali e Parlamento australiano per la federazione; The Canadian Encyclopedia per il Nunavut; Al Jazeera (13 novembre 2026) per lo stato della guerra in Ucraina. Le frasi che non vengono dalle fonti citate (ad esempio «potenze nucleari» per il Kashmir, le cifre arrotondate sui profughi) sono segnalate nella nota di verifica.
+- Date «in corso»: guerra russo-ucraina, questione del Kashmir e lago d'Aral finiscono al 2026. La guerra civile siriana si ferma al 2024 (caduta di Assad), anche se Britannica la considera ancora in corso: è scritto nella nota.
+- **Foto**: 68 foto per 29 voci nuove, con le stesse regole delle versioni precedenti (niente fotografie di persone riconoscibili, niente immagini crude: per le guerre mezzi, edifici distrutti, monumenti e memoriali). Restano senza foto le riforme indiane del 1991 e la rivoluzione sandinista (c'erano solo ritratti, grafici, bandiere o mappe). In tutto 536 voci su 549 hanno foto (1.402 foto). Selezione controllata con SHA-256 `df371a78…ac6f`; nomi dei file controllati contro i reindirizzamenti di Commons.
+
 ## v0.73 · 25 novembre 2026
 
 - **Foto per 107 voci che non ne avevano** (269 foto nuove da Wikimedia Commons): ora hanno foto 507 voci su 518 (1.334 foto in tutto). Restano senza foto 11 voci per cui non c'era niente di adatto (solo mappe, schemi o ritratti fotografici): migrazioni bantu, Nora, Watson Brake, doppia elica del DNA, quattro eventi di Rapa Nui (paesaggio agricolo, incursioni schiaviste, annessione al Cile, studio genomico 2024), Organizzazione dell'unità africana, eradicazione della malaria in Sardegna, editto delle chiudende.
