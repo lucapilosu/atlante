@@ -1,5 +1,20 @@
 # Registro delle versioni
 
+## v0.73 · 25 novembre 2026
+
+- **Foto per 107 voci che non ne avevano** (269 foto nuove da Wikimedia Commons): ora hanno foto 507 voci su 518 (1.334 foto in tutto). Restano senza foto 11 voci per cui non c'era niente di adatto (solo mappe, schemi o ritratti fotografici): migrazioni bantu, Nora, Watson Brake, doppia elica del DNA, quattro eventi di Rapa Nui (paesaggio agricolo, incursioni schiaviste, annessione al Cile, studio genomico 2024), Organizzazione dell'unità africana, eradicazione della malaria in Sardegna, editto delle chiudende.
+  - Candidate dalle pagine Wikipedia (inglese e italiana) collegate a ogni voce e dall'immagine di Wikidata; solo JPEG/PNG di almeno 500×300 px con autore e licenza; visualizzazioni degli ultimi 12 mesi come criterio di ordine. Tutte le miniature viste a occhio.
+  - Stesse regole della v0.54: niente mappe, stemmi, schemi; niente fotografie di persone reali riconoscibili (restano dipinti, sculture, monete, francobolli, banconote); niente immagini violente. Eccezione da confermare con Luca: per le epidemie nelle Americhe c'è la tavola del Codice fiorentino che raffigura i malati di vaiolo (disegno del Cinquecento).
+  - Per la missione cattolica di Rapa Nui si usa la chiesa di Hanga Roa; per i Vespri, il Sacco di Roma e simili, dipinti e incisioni d'epoca o dell'Ottocento.
+  - Strumenti e selezione in `tools/foto/v073/` (raccolta dal browser integrato, testo trascritto e controllato con SHA-256 `ec2eecb1…b7ae`).
+- **Mosaico: comparsa delle foto più discreta** (scelta B di Luca). Prima ogni tessera che rientrava nel riquadro scivolava dall'angolo in alto a sinistra in 0,28 s, a ogni passaggio avanti e indietro. Ora la tessera compare al suo posto e sfuma in 0,2 s solo la prima volta; tornando su una zona già vista è già lì, ferma. Se la foto arriva dopo la cornice, sfuma dentro la cornice. «Riduci movimento» spegne tutto.
+- **Tecnologia, Sintesi come «linea dell'epoca»** (scelta B di Luca):
+  - asse degli anni vero al posto della scala logaritmica: lineare dall'inizio dell'epoca della voce alla sua fine; con «+ epoche precedenti» la stessa scala a tratti della barra del tempo;
+  - una riga per ambito con tutte le attestazioni (non più solo la prima per area), all'anno in cui compaiono, con una linea per la durata e il nome breve accanto quando c'è spazio;
+  - un tocco su un punto apre un riquadro sotto il grafico (nome, data, luogo, riassunto, «Apri la scheda» se c'è una voce collegata, «Vedi nel dettaglio»): il grafico resta;
+  - toccando un'area nella legenda si evidenziano solo i suoi punti; toccando il nome di un ambito si apre il Dettaglio di quell'ambito.
+- Test: 129 controlli; T34 riscritto per la nuova Sintesi; nuovo T66 (tessere del Mosaico che sfumano al loro posto, solo la prima volta).
+
 ## v0.72 · 24 novembre 2026
 
 - **«Storia di questo luogo» solo in Esplora.** Nel riepilogo di un punto sulla mappa il collegamento compariva anche in Contemporanei, dove non apriva nulla (segnalazione di Luca). Ora c'è solo in Esplora; dalle altre viste «Apri scheda» porta comunque in Esplora.

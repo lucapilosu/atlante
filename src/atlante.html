@@ -776,10 +776,24 @@ html body .ti-kpi b{display:block;font-size:22px;line-height:1.1;color:var(--t-a
 .ti-mark text{font:800 8.5px system-ui,-apple-system,"Segoe UI",sans-serif;fill:#fff;pointer-events:none}
 .ti-mark.is-focus circle{stroke:var(--t-ink2,#ffffff);stroke-width:2.6}
 .ti-mark:hover circle,.ti-mark:focus circle{stroke:var(--t-accent,#f3c64e);stroke-width:3}
-.ti-legend{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:11.5px;margin:9px 2px 2px;color:var(--t-ink,#dcecef)}
+.ti-legend{display:flex;flex-wrap:wrap;gap:6px;font-size:11.5px;margin:9px 2px 2px;color:var(--t-ink,#dcecef)}
 .ti-legend span{display:inline-flex;align-items:center;gap:5px}
 .ti-legend i,.ti-area-name i{display:inline-block;width:10px;height:10px;border-radius:50%;flex:0 0 auto}
 .ti-note{font-size:11.5px;line-height:1.45;opacity:.85;margin:6px 2px 0}
+.ti-dur{stroke-width:3;stroke-linecap:round;opacity:.55;pointer-events:none}
+.ti-row-line,.ti-grid,.ti-band,.ti-band-label,.ti-tick{pointer-events:none}
+.ti-lbl{font:600 10.5px system-ui,-apple-system,"Segoe UI",sans-serif;fill:var(--t-ink,#dcecef)!important;pointer-events:none}
+.ti-mark.dim{opacity:.18}.ti-mark{transition:opacity .15s}
+.ti-mark.sel circle{stroke:var(--t-accent,#f3c64e);stroke-width:3.4}
+.ti-domlink{cursor:pointer}.ti-domlink:hover .ti-dom,.ti-domlink:focus .ti-dom{fill:var(--t-accent,#42d3ce);text-decoration:underline}.ti-domlink:focus{outline:none}
+.ti-legend button.ti-area-btn{display:inline-flex;align-items:center;gap:5px;font:inherit;font-size:11.5px;color:inherit;background:transparent;border:1px solid var(--t-border,#294957);border-radius:999px;padding:3px 9px;cursor:pointer}
+.ti-legend button.ti-area-btn[aria-pressed="true"]{border-color:var(--t-accent,#42d3ce);background:color-mix(in srgb,var(--t-accent,#42d3ce) 16%,transparent)}
+.ti-card{position:relative;border:1px solid var(--t-border,#294957);border-radius:12px;padding:10px 34px 10px 12px;margin:8px 0 4px;background:var(--t-surface,#0b222e)}
+.ti-card strong{display:block;font-size:15px;line-height:1.25;margin:2px 0}
+.ti-card-k{font-size:11px;font-weight:700;letter-spacing:.02em;opacity:.85;display:flex;align-items:center;gap:6px}.ti-card-k i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.ti-card-d{font-size:12px;opacity:.85}.ti-card p{font-size:13px;line-height:1.45;margin:6px 0 8px}
+.ti-card-b{display:flex;flex-wrap:wrap;gap:6px}.ti-card-b button{font-size:12.5px}
+.ti-card-x{position:absolute;top:6px;right:8px;width:26px;height:26px;border-radius:50%;border:0;background:transparent;color:inherit;font-size:18px;line-height:1;cursor:pointer}
 .ti-h{font:600 16px/1.2 Georgia,serif;margin:18px 0 8px}
 .ti-areas{display:grid;gap:6px}
 .ti-area{display:grid;grid-template-columns:minmax(120px,190px) minmax(0,1fr) auto;align-items:center;gap:10px;padding:8px 11px;border:1px solid var(--t-border,#294957);border-radius:10px;background:var(--t-surface,#0b222e)}
@@ -974,8 +988,10 @@ body .tav-wrap button.tav-btn:hover{background:#22302d!important}
 .tav-tile:hover .tav-ph{transform:translateY(-2px) scale(1.04)}
 .tav-tile.sel .tav-ph{box-shadow:0 0 0 3px #7fd6c8,0 6px 22px rgba(0,0,0,.7)}
 .tav-tile.sel .tav-cap b{color:#7fd6c8}
-@media (prefers-reduced-motion:no-preference){.tav-tile:not([hidden]){animation:tavIn .28s ease-out}}
-@keyframes tavIn{from{opacity:0;transform:var(--tav-from,none)}to{opacity:1}}
+/* v0.73 · comparsa discreta: la tessera sfuma al suo posto solo la prima volta che entra nel riquadro; la foto, se arriva dopo, sfuma dentro la cornice */
+@media (prefers-reduced-motion:no-preference){.tav-tile.fresh{animation:tavIn .2s ease-out}.tav-ph img{transition:opacity .25s ease-out}}
+.tav-ph img.wait{opacity:0}
+@keyframes tavIn{from{opacity:0}to{opacity:1}}
 .tav-head{position:absolute;left:0;right:0;top:0;height:46px;background:linear-gradient(#0d1214 70%,rgba(13,18,20,0));pointer-events:none}
 .tav-head .tav-cont{position:absolute;top:5px;left:0;white-space:nowrap;font:800 10.5px/1 system-ui,sans-serif;letter-spacing:.9px;text-transform:uppercase;color:color-mix(in srgb,var(--c) 45%,#fff)}
 .tav-head .tav-bar{position:absolute;top:19px;left:0;height:3px;border-radius:2px;background:var(--c);opacity:.95}
@@ -1944,49 +1960,69 @@ function renderContemporanei(){
 var techMode='sintesi',tiLastW=0;
 const AREA_ABBR={Europa:'Eu',Asia:'As',Africa:'Af',Americhe:'Am',Oceania:'Oc'};
 function techFirsts(f){const out={};TECH.forEach(t=>{const rel=techRelation(t,f);if(!rel)return;const k=t.domain+'|'+t.region,cur=out[k];if(!cur||t.start_year<cur.t.start_year||(t.start_year===cur.t.start_year&&t.end_year<cur.t.end_year))out[k]={t,rel}});return out}
+// v0.73 · Sintesi come «linea dell'epoca»: asse degli anni vero (lineare dentro un'epoca; con «+ epoche precedenti» la stessa scala a tratti della barra del tempo),
+// una riga per ambito con tutte le attestazioni, fascia della voce; un tocco apre un riquadro sotto il grafico senza lasciarlo (scelta B di Luca, 25 novembre)
+var tiSel=null,tiArea=null;
+function tiPos(y){let cum=0;for(const s of TIME_SEGMENTS){const a=s.a(),b=s.b();if(y<b||s===TIME_SEGMENTS[TIME_SEGMENTS.length-1])return cum+Math.max(0,Math.min(1,(y-a)/Math.max(1,b-a)))*s.w;cum+=s.w}return 1}
+function tiYearLbl(y){return y<0?`${Math.abs(y).toLocaleString('it-IT')} a.C.`:`${y}`}
 function techInfographic(f,fArea){
- const firsts=techFirsts(f),list=$('techList');
+ const list=$('techList'),rows=TECH.map(t=>({t,rel:techRelation(t,f)})).filter(v=>v.rel);
  const W=Math.max(300,Math.round((list?.clientWidth||700)-2)),narrow=W<560;tiLastW=list?.clientWidth||0;
- const labelW=narrow?0:196,padL=narrow?12:8,padR=narrow?12:16;
- const x0=labelW+padL,x1=W-padR,bandW=Math.max(62,Math.min(104,(x1-x0)*.11)),gap=10,logR=x1-bandW-gap,logW=logR-x0;
- const prima=Object.values(firsts).filter(v=>v.rel.k==='prima').map(v=>Math.max(1,v.rel.n));
- const maxN=Math.max(100,...prima),nice=[100,200,500,1000,2000,5000,10000,20000,50000].find(v=>v>=maxN)||maxN;
- const LMIN=10,LX=n=>x0+(1-(Math.log10(Math.max(LMIN,n))-1)/(Math.log10(nice)-1))*logW;
- const top=36,rowH=narrow?66:54,r=narrow?10:9.5,H=top+TECH_DOMAINS.length*rowH+6;
- let svg=`<svg class="ti-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Per ogni ambito, quando compare la prima attestazione in ciascuna area rispetto a «${esc(f.name)}»">`;
- svg+=`<rect class="ti-band" x="${logR+gap}" y="${top-8}" width="${bandW}" height="${H-top+4}" rx="9"/><text class="ti-band-label" x="${logR+gap+bandW/2}" y="${top-14}" text-anchor="middle">durante</text>`;
- const ticks=[10,100,1000,10000,100000].filter(t=>t<=nice);if(!ticks.includes(nice)&&LX(ticks[ticks.length-1])-LX(nice)>44)ticks.push(nice);
- ticks.forEach(t=>{const tx=LX(t);svg+=`<line class="ti-grid" x1="${tx}" y1="${top-6}" x2="${tx}" y2="${H-4}"/><text class="ti-tick" x="${tx}" y="${top-14}" text-anchor="middle">${t.toLocaleString('it-IT')}</text>`});
- svg+=`<text class="ti-axis-cap" x="${narrow?x0:12}" y="${narrow?top-26:top-14}">anni prima della voce ←</text>`;
+ const labelW=narrow?0:176,padL=narrow?12:8,padR=narrow?14:18,x0=labelW+padL,x1=W-padR;
+ const B=Math.max(f.end_year,f.start_year+1),minT=Math.min(f.start_year,...rows.map(v=>v.t.start_year));
+ const ep=techEpoch(f),A0=techScope==='epoca'&&isFinite(ep.from)?Math.min(f.start_year,Math.max(ep.from,minT)):minT;
+ const pA=tiPos(A0),pB=tiPos(B),pad=(pB-pA)*.035,qA=pA-pad,X=y=>x0+(tiPos(y)-qA)/Math.max(1e-9,pB-qA)*(x1-x0);
+ const top=narrow?40:32,rowH=narrow?64:54,r=narrow?9:8.5,H=top+TECH_DOMAINS.length*rowH+20;
+ let svg=`<svg class="ti-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Attestazioni tecniche per ambito, dal ${esc(fmt(A0))} alla fine di «${esc(f.name)}»">`;
+ const bx=Math.max(x0,X(f.start_year)),bw=Math.max(4,x1-bx);
+ svg+=`<rect class="ti-band" x="${bx.toFixed(1)}" y="${top-6}" width="${bw.toFixed(1)}" height="${H-top-12}" rx="8"/>`;
+ // tacche: per ogni tratto della scala un passo «tondo» che lasci almeno 64 px tra due etichette
+ const steps=[1,2,5,10,20,25,50,100,200,250,500,1000,2000,2500,5000,10000],ticks=[];
+ let cum=0;for(const sg of TIME_SEGMENTS){const a=Math.max(sg.a(),A0),b=Math.min(sg.b(),B);if(b>a){const ppy=(X(b)-X(a))/(b-a),st=steps.find(v=>v*ppy>=64)||steps[steps.length-1];for(let y=Math.ceil(a/st)*st;y<=b;y+=st)if(y!==0)ticks.push(y)}cum+=sg.w}
+ let lastX=-1e9;ticks.sort((p,q)=>p-q).forEach(y=>{const tx=X(y);if(tx<x0-1||tx>x1+1)return;svg+=`<line class="ti-grid" x1="${tx.toFixed(1)}" y1="${top-6}" x2="${tx.toFixed(1)}" y2="${H-4}"/>`;const lb=tiYearLbl(y),lw=lb.length*5.6+8;if(tx-lastX<lw||tx+lw/2>W)return;lastX=tx;svg+=`<text class="ti-tick" x="${tx.toFixed(1)}" y="${top-12}" text-anchor="middle">${esc(lb)}</text>`});
+ const endAnchor=bx+110>x1;svg+=`<text class="ti-band-label" x="${(endAnchor?x1-4:bx+6).toFixed(1)}" y="${H-5}" text-anchor="${endAnchor?'end':'start'}">durante la voce</text>`;
  const areaCount={},domCount={};
  TECH_DOMAINS.forEach((d,i)=>{
-  const y=top+i*rowH,cy=narrow?y+42:y+rowH/2;
-  const present=TECH_AREAS.filter(a=>firsts[d.id+'|'+a]),missing=TECH_AREAS.filter(a=>!firsts[d.id+'|'+a]);
-  if(present.length)domCount[d.id]=present.length;present.forEach(a=>{areaCount[a]=(areaCount[a]||0)+1});
-  svg+=`<line class="ti-row-line" x1="${x0}" y1="${cy}" x2="${logR}" y2="${cy}"/>`;
-  const miss=missing.length?`nessun dato: ${missing.map(a=>AREA_ABBR[a]).join(' ')}`:'';
-  if(narrow){svg+=`<text class="ti-dom" x="${x0}" y="${y+14}">${esc(d.label)}</text>${miss?`<text class="ti-miss" x="${x1}" y="${y+14}" text-anchor="end">${esc(miss)}</text>`:''}`}
-  else{svg+=`<text class="ti-dom" x="12" y="${cy-(miss?3:-4)}">${esc(d.label)}</text>${miss?`<text class="ti-miss" x="12" y="${cy+13}">${esc(miss)}</text>`:''}`}
-  const marks=present.map(a=>{const v=firsts[d.id+'|'+a];const n=v.rel.k==='prima'?Math.max(1,v.rel.n):0;return {a,v,n,x:v.rel.k==='prima'?LX(n):logR+gap+bandW/2}}).sort((p,q)=>q.n-p.n);
-  const offs=narrow?[0,-12,12]:[0,-11,11,-22,22],placed=[];
-  // punti vicini: prima si sposta in verticale; se non basta, di poco in orizzontale (la posizione resta indicativa, il valore esatto è nel titolo)
-  marks.forEach(m=>{const free=(x,o)=>placed.every(p=>Math.hypot(p.x-x,p.dy-o)>=2*r-1);const nudges=[0,1,-1,2,-2,3,-3].map(k=>k*r*1.15);let best=null;
-   for(const dx of nudges){const x=Math.max(x0+r,Math.min(x1-r,m.x+dx));if(m.v.rel.k==='prima'&&x>logR)continue;const o=offs.find(o=>free(x,o));if(o!==undefined){best={x,o};break}}
-   if(!best)best={x:m.x,o:offs[placed.length%offs.length]};m.x=best.x;m.dy=best.o;placed.push({x:m.x,dy:m.dy})});
-  marks.forEach(m=>{const t=m.v.t,when=m.v.rel.k==='prima'?`≈ ${anni(roundYears(m.n))} prima`:'durante la voce';
-   svg+=`<g class="ti-mark${m.a===fArea?' is-focus':''}" data-ti="${esc(t.id)}" data-domain="${esc(d.id)}" tabindex="0" role="button" aria-label="${esc(d.label)}, ${esc(m.a)}: ${esc(t.name)}, ${esc(when)}"><circle cx="${m.x}" cy="${cy+m.dy}" r="${r}" fill="${COLORS[m.a]||COLORS.Globale}"/><text x="${m.x}" y="${cy+m.dy+3.4}" text-anchor="middle">${AREA_ABBR[m.a]}</text><title>${esc(m.a)} · ${esc(t.name)} · ${esc(techSpan(t))} · ${esc(when)}</title></g>`});
+  const y=top+i*rowH,cy=narrow?y+38:y+rowH/2,items=rows.filter(v=>v.t.domain===d.id).sort((p,q)=>p.t.start_year-q.t.start_year);
+  const present=new Set(items.map(v=>v.t.region)),missing=TECH_AREAS.filter(a=>!present.has(a));
+  if(items.length)domCount[d.id]=items.length;present.forEach(a=>{areaCount[a]=(areaCount[a]||0)+1});
+  svg+=`<line class="ti-row-line" x1="${x0}" y1="${cy}" x2="${x1}" y2="${cy}"/>`;
+  const miss=missing.length&&missing.length<TECH_AREAS.length?`nessun dato: ${missing.map(a=>AREA_ABBR[a]).join(' ')}`:missing.length?'nessun dato':'';
+  if(narrow)svg+=`<g class="ti-domlink" data-domain="${esc(d.id)}" tabindex="0" role="button" aria-label="Dettaglio: ${esc(d.label)}"><text class="ti-dom" x="${x0}" y="${y+15}">${esc(d.label)} ›</text></g>${miss?`<text class="ti-miss" x="${x1}" y="${y+15}" text-anchor="end">${esc(miss)}</text>`:''}`;
+  else svg+=`<g class="ti-domlink" data-domain="${esc(d.id)}" tabindex="0" role="button" aria-label="Dettaglio: ${esc(d.label)}"><text class="ti-dom" x="10" y="${cy-(miss?3:-4)}">${esc(d.label)} ›</text></g>${miss?`<text class="ti-miss" x="10" y="${cy+13}">${esc(miss)}</text>`:''}`;
+  // punti: all'anno d'inizio; se due si toccano il secondo sale o scende di una corsia; nome breve a destra se c'è posto
+  const lanes=narrow?[0,-13,13]:[0,-12,12],placed=[];
+  const marks=items.map(v=>{const x=Math.max(x0+r,Math.min(x1-r,X(v.t.start_year)));const o=lanes.find(o=>placed.every(p=>Math.abs(p.x-x)>=2*r-1||p.o!==o))??lanes[placed.length%lanes.length];placed.push({x,o});return {...v,x,o}});
+  marks.forEach((m,k)=>{const t=m.t,a=t.region,ex=Math.min(x1,X(Math.min(t.end_year,B)));
+   if(ex-m.x>r+2)svg+=`<line class="ti-dur" x1="${m.x.toFixed(1)}" y1="${cy+m.o}" x2="${ex.toFixed(1)}" y2="${cy+m.o}" stroke="${COLORS[a]||COLORS.Globale}"/>`;
+   const next=marks.slice(k+1).find(n=>n.o===m.o),room=(next?next.x-r-4:x1)-(m.x+r+4);let lbl='';
+   if(!narrow||m.o===0){const nm=t.name.replace(/\s*\(.*?\)\s*/g,' ').trim(),max=Math.floor(room/5.9);if(max>=6)lbl=nm.length>max?nm.slice(0,max-1).trimEnd()+'…':nm}
+   const when=m.rel.k==='prima'?`≈ ${anni(roundYears(Math.max(1,m.rel.n)))} prima`:'durante la voce';
+   svg+=`<g class="ti-mark${a===fArea?' is-focus':''}${tiSel===t.id?' sel':''}${tiArea&&tiArea!==a?' dim':''}" data-ti="${esc(t.id)}" data-domain="${esc(d.id)}" data-area="${esc(a)}" tabindex="0" role="button" aria-label="${esc(d.label)}, ${esc(a)}: ${esc(t.name)}, ${esc(techSpan(t))}, ${esc(when)}"><circle cx="${m.x.toFixed(1)}" cy="${cy+m.o}" r="${r}" fill="${COLORS[a]||COLORS.Globale}"/><text x="${m.x.toFixed(1)}" y="${cy+m.o+3.2}" text-anchor="middle">${AREA_ABBR[a]}</text>${lbl?`<text class="ti-lbl" x="${(m.x+r+4).toFixed(1)}" y="${cy+m.o+3.6}">${esc(lbl)}</text>`:''}</g>`});
  });
  svg+='</svg>';
  const nDom=Object.keys(domCount).length,nTot=TECH_DOMAINS.length;
- const oldest=Object.values(firsts).filter(v=>v.rel.k==='prima').sort((a,b)=>b.rel.n-a.rel.n)[0];
- const kpi=[`<div class="ti-kpi"><b>${nDom}/${nTot}</b><span>ambiti con almeno un’attestazione ${techScope==='epoca'?`nell’epoca («${esc(techEpoch(f).name)}»), fino alla`:'entro la'} fine della voce</span></div>`,
+ const oldest=rows.filter(v=>v.rel.k==='prima').sort((a,b)=>b.rel.n-a.rel.n)[0];
+ const kpi=[`<div class="ti-kpi"><b>${nDom}/${nTot}</b><span>ambiti con almeno un’attestazione ${techScope==='epoca'?`nell’epoca («${esc(ep.name)}»), fino alla`:'entro la'} fine della voce</span></div>`,
   fArea?`<div class="ti-kpi"><b>${areaCount[fArea]||0}/${nTot}</b><span>ambiti attestati in ${esc(fArea)}, l’area della voce</span></div>`:'',
   oldest?`<div class="ti-kpi"><b>≈ ${anni(roundYears(oldest.rel.n))}</b><span>prima: ${esc(oldest.t.name)} (${esc(oldest.t.region)})</span></div>`:''].join('');
- const areas='';/* v0.53: tolta la griglia «Ambiti attestati per area» (scelta di Luca) */const _unusedAreas=TECH_AREAS.map(a=>{const n=areaCount[a]||0;return `<div class="ti-area${a===fArea?' is-focus':''}"><span class="ti-area-name"><i style="background:${COLORS[a]}"></i>${esc(a)}${a===fArea?'<small>area della voce</small>':''}</span><span class="ti-cells">${TECH_DOMAINS.map(d=>{const v=firsts[d.id+'|'+a];return `<i class="${v?'on':''}" style="${v?`background:${COLORS[a]}`:''}" title="${esc(d.label)}: ${v?esc(v.t.name):'nessun dato'}"></i>`}).join('')}</span><b>${n}/${nTot}</b></div>`}).join('');
- return `<div class="tech-infographic"><div class="ti-kpis">${kpi}</div><div class="ti-chart">${svg}</div><p class="ti-legend">${TECH_AREAS.map(a=>`<span><i style="background:${COLORS[a]}"></i>${AREA_ABBR[a]} ${esc(a)}</span>`).join('')}</p><p class="ti-note">Ogni punto è la prima attestazione nota di un’area per quell’ambito. Scala logaritmica: ogni tacca vale dieci volte la precedente; sotto i 10 anni i punti stanno sull’ultima tacca. Tocca un punto per la scheda.${techScope==='epoca'?` Sono mostrate solo le attestazioni della stessa epoca della voce («${esc(techEpoch(f).name)}»): «+ epoche precedenti» aggiunge le più antiche.`:''}</p><p class="ti-note">Conta solo le attestazioni del dataset (${TECH.length} voci di partenza, da ampliare): un ambito senza punti è un’assenza di dati, non di capacità.</p></div>`;
+ const legend=TECH_AREAS.map(a=>`<button type="button" class="ti-area-btn" data-ti-area="${esc(a)}" aria-pressed="${tiArea===a}"><i style="background:${COLORS[a]}"></i>${AREA_ABBR[a]} ${esc(a)}</button>`).join('');
+ return `<div class="tech-infographic"><div class="ti-kpis">${kpi}</div><div class="ti-chart">${svg}</div><div class="ti-card" id="tiCard" hidden></div><div class="ti-legend" role="group" aria-label="Evidenzia un’area">${legend}</div><p class="ti-note">Ogni punto è un’attestazione, all’anno in cui compare; la linea che segue indica quanto dura. ${techScope==='epoca'?`Scala lineare dall’inizio dell’epoca della voce («${esc(ep.name)}») alla sua fine: «+ epoche precedenti» aggiunge le attestazioni più antiche.`:'Stessa scala a tratti della barra del tempo.'} Tocca un punto per leggerlo, un’area per evidenziarla, il nome di un ambito per il dettaglio.</p><p class="ti-note">Conta solo le attestazioni del dataset (${TECH.length} voci di partenza, da ampliare): un ambito senza punti è un’assenza di dati, non di capacità.</p></div>`;
 }
+function tiShowCard(id){const card=$('tiCard');if(!card)return;const t=id&&TECH.find(x=>x.id===id),f=techFocus();
+ document.querySelectorAll('#techList .ti-mark').forEach(g=>g.classList.toggle('sel',g.dataset.ti===id));
+ if(!t||!f){tiSel=null;card.hidden=true;card.innerHTML='';return}tiSel=id;const rel=techRelation(t,f),ent=(t.related_ids||[]).map(i=>ALL.find(x=>x.id===i)).find(Boolean),dom=TECH_DOMAINS.find(d=>d.id===t.domain);
+ const when=!rel?'':rel.k==='prima'?`≈ ${anni(roundYears(Math.max(1,rel.n)))} prima della voce`:'durante la voce';
+ card.innerHTML=`<button type="button" class="ti-card-x" aria-label="Chiudi">×</button><div class="ti-card-k"><i style="background:${COLORS[t.region]||COLORS.Globale}"></i>${esc(dom?.label||'')} · ${esc(t.region)}</div><strong>${esc(t.name)}</strong><div class="ti-card-d">${esc(techSpan(t))} · ${esc(t.place||t.region)}${when?` · ${esc(when)}`:''}${t.date_confidence==='debated'?' · datazione discussa':''}</div><p>${esc(t.summary||'')}</p><div class="ti-card-b">${ent?openSchedaBtn(ent):''}<button type="button" class="open-scheda ti-card-more" data-ti-more="${esc(t.id)}">Vedi nel dettaglio</button></div>`;
+ card.hidden=false;card.querySelector('.ti-card-x').addEventListener('click',()=>tiShowCard(null));
+ card.querySelector('[data-ti-more]').addEventListener('click',()=>{techMode='dettaglio';techDomain=t.domain;techOpenId=t.id;tiSel=null;renderTecnologia();requestAnimationFrame(()=>document.querySelector(`#techList [data-tech-id="${CSS.escape(t.id)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}))});
+ if(card.getBoundingClientRect().bottom>innerHeight)card.scrollIntoView({behavior:reduceMotion()?'instant':'smooth',block:'nearest'})}
 function bindTechInfographic(){
- document.querySelectorAll('#techList .ti-mark').forEach(m=>{const go=()=>{techMode='dettaglio';techDomain=m.dataset.domain;techOpenId=m.dataset.ti;renderTecnologia();requestAnimationFrame(()=>document.querySelector(`#techList [data-tech-id="${CSS.escape(m.dataset.ti)}"]`)?.scrollIntoView({behavior:'smooth',block:'center'}))};m.addEventListener('click',go);m.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go()}})});
+ const key=(el,fn)=>{el.addEventListener('click',fn);el.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();fn()}})};
+ document.querySelectorAll('#techList .ti-mark').forEach(m=>key(m,()=>tiShowCard(tiSel===m.dataset.ti?null:m.dataset.ti)));
+ document.querySelectorAll('#techList .ti-domlink').forEach(g=>key(g,()=>{techMode='dettaglio';techDomain=g.dataset.domain;techOpenId=null;tiSel=null;renderTecnologia();window.scrollTo({top:0,behavior:reduceMotion()?'instant':'smooth'})}));
+ document.querySelectorAll('#techList [data-ti-area]').forEach(b=>b.addEventListener('click',()=>{tiArea=tiArea===b.dataset.tiArea?null:b.dataset.tiArea;document.querySelectorAll('#techList [data-ti-area]').forEach(x=>x.setAttribute('aria-pressed',String(x.dataset.tiArea===tiArea)));document.querySelectorAll('#techList .ti-mark').forEach(g=>g.classList.toggle('dim',!!tiArea&&g.dataset.area!==tiArea))}));
+ if(tiSel){if(document.querySelector(`#techList .ti-mark[data-ti="${CSS.escape(tiSel)}"]`))tiShowCard(tiSel);else tiSel=null}
 }
 window.addEventListener('resize',()=>{if(typeof currentView!=='undefined'&&currentView==='tecnologia'&&techMode==='sintesi')requestAnimationFrame(()=>{if(($('techList')?.clientWidth||0)!==tiLastW)renderTecnologia()})});
 
@@ -2017,7 +2053,7 @@ function techAreaOf(f){if(!f)return null;if(TECH_AREAS.includes(f.region))return
 function techSpan(t){const a=fmt(t.start_year);if(t.start_year===t.end_year)return t.date_precision==='year'?a:`circa ${a}`;return `${a} – ${fmt(t.end_year)}`}
 function roundYears(n){return n<100?n:n<1000?Math.round(n/10)*10:Math.round(n/100)*100}
 function techRelation(t,f){if(t.start_year<f.start_year){if(techScope==='epoca'&&t.start_year<techEpoch(f).from)return null;return {k:'prima',n:yearsBetween(t.start_year,f.start_year)}}if(t.start_year<=f.end_year)return {k:'durante'};return null}
-function setTechFocus(id){techMode='sintesi';techDomain='all';const x=ALL.find(v=>v.id===id);if(!x)return;techFocusId=id;techOpenId=null;techExpanded={};const f=$('techSearch');if(f)f.value='';const r=$('techResults');if(r){r.hidden=true;r.innerHTML=''}selectItem(id,{fitMap:false});renderTecnologia()}
+function setTechFocus(id){techMode='sintesi';techDomain='all';tiSel=null;const x=ALL.find(v=>v.id===id);if(!x)return;techFocusId=id;techOpenId=null;techExpanded={};const f=$('techSearch');if(f)f.value='';const r=$('techResults');if(r){r.hidden=true;r.innerHTML=''}selectItem(id,{fitMap:false});renderTecnologia()}
 function renderTechSearch(){
  const box=$('techResults'),q=($('techSearch')?.value||'').trim();if(!box)return;
  if(!q){box.hidden=true;box.innerHTML='';return}
@@ -2367,7 +2403,7 @@ function tavSchedule(){if(!TAV||TAV.raf)return;TAV.raf=requestAnimationFrame(tav
 function tavMakeEl(it){const x=it.x,el=document.createElement('div');el.className='tav-tile'+(it.big?' big':'')+(it.im?'':' noimg');el.dataset.tav=it.id;el.setAttribute('role','button');el.tabIndex=-1;
  el.style.setProperty('--area',COLORS[it.cont]||COLORS.Globale);el.setAttribute('aria-label',`${x.name}, ${tavSpan(x)}`);
  el.innerHTML=`<span class="tav-ph">${it.im?`<img alt="" decoding="async" src="${esc(imgUrl(it.im,120))}">`:typeIcon(x)}</span><span class="tav-cap"><b>${esc(x.name)}</b><small>${esc(tavSpan(x))}</small></span>`;
- const img=el.querySelector('img');if(img)img.addEventListener('error',()=>{el.classList.add('noimg');el.querySelector('.tav-ph').innerHTML=typeIcon(x)},{once:true});
+ const img=el.querySelector('img');if(img){if(!img.complete){img.classList.add('wait');img.addEventListener('load',()=>img.classList.remove('wait'),{once:true})}img.addEventListener('error',()=>{el.classList.add('noimg');el.querySelector('.tav-ph').innerHTML=typeIcon(x)},{once:true})}
  el.hidden=true;$('tavTiles').appendChild(el);TAV.els.set(it.id,el);if(selected===it.id)el.classList.add('sel');return el}
 function tavDraw(){const T=TAV;T.raf=0;if(!T||currentView!=='tavola'||!T.sw)return;
  if(!T.layS||Math.abs(Math.log(T.s/T.layS))>0.04)tavLayout();
@@ -2383,7 +2419,7 @@ function tavDraw(){const T=TAV;T.raf=0;if(!T||currentView!=='tavola'||!T.sw)retu
   if(!r){if(el&&!el.hidden)el.hidden=true;if(ax>-6&&ax<T.sw+6&&ay>-6&&ay<T.sh+6){ctx.beginPath();ctx.arc(ax,ay,it.big?2.6:1.7,0,Math.PI*2);ctx.fillStyle=it.big?'rgba(190,230,222,.6)':'rgba(130,170,163,.38)';ctx.fill()}continue}
   let sx=ax+r.dx-r.w/2;const sy=ay-r.p/2+(r.dy||0);if(W+2*T.M<=T.sw-T.G+1&&ax>T.G-4&&ax<T.sw+4)sx=Math.min(Math.max(sx,T.G+2),T.sw-r.w-2);if(sx>T.sw+20||sx+r.w<-20||sy>T.sh+20||sy+r.h<-20){if(el&&!el.hidden)el.hidden=true;continue}
   if(!el)el=tavMakeEl(it);if(el._p!==r.p||el._w!==r.w){el._p=r.p;el._w=r.w;el.style.setProperty('--p',r.p+'px');el.style.width=r.w+'px'}el.classList.toggle('compact',!!T.compact);if(it.im&&r.p>64&&!el._hi){el._hi=true;const hi=new Image();hi.decoding='async';hi.onload=()=>{const img=el.querySelector('img');if(img)img.src=hi.src};hi.src=imgUrl(it.im,250)}
-  el.style.transform=`translate(${sx.toFixed(1)}px,${sy.toFixed(1)}px)`;if(el.hidden)el.hidden=false}
+  el.style.transform=`translate(${sx.toFixed(1)}px,${sy.toFixed(1)}px)`;if(el.hidden){el.hidden=false;if(!el._seen){el._seen=true;el.classList.add('fresh');setTimeout(()=>el.classList.remove('fresh'),260)}}}
  if(T.selId!==selected){T.els.get(T.selId)?.classList.remove('sel');T.selId=selected;T.els.get(selected)?.classList.add('sel')}
  // intestazioni delle colonne: centrate sulla parte visibile della colonna
  const cw=TAV_COL*s,spans=T.groups.map(g=>{const a=Math.max(T.ox+g.i0*cw,T.G),b=Math.min(T.ox+(g.i1+1)*cw,T.sw);return [a,b]});

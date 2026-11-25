@@ -585,6 +585,15 @@ async def run_device(pw, name, ctx_kwargs, mobile):
     else:
         ok65 = ok65 and not t65["touch"] and t65["hitH"] == 0
     R.check("T65", "«Storia di questo luogo» solo in Esplora; su schermo a tocco barra del tempo più facile da prendere, cursore grande col dito giù, nessun salto all'anno toccato", ok65, f"{t65}{d65}")
+    # T66 v0.73: nel Mosaico le tessere compaiono al loro posto (nessuno scivolamento dall'angolo) e sfumano solo la prima volta; tornando indietro sono già lì
+    t66 = await p.evaluate("""async()=>{const w=t=>new Promise(r=>setTimeout(r,t));goToView('tavola');await w(500);const T=TAV;tavFitAll();await w(600);const [wx,wy]=tavCenterWorld();tavFlyTo(T.s*4,wx,wy);await w(900);
+        T.els.forEach(el=>{if(el.hidden)el._seen=false});const move=async dy=>{const o=T.oy;T.oy+=dy;tavClamp();if(Math.abs(T.oy-o)<200){T.oy=o-dy;tavClamp()}tavSchedule();await w(50);move.d=T.oy-o;return [...document.querySelectorAll('.tav-tile.fresh:not([hidden])')]};
+        const f1=await move(700),slide=f1.filter(el=>{const m=new DOMMatrix(getComputedStyle(el).transform),r=/translate\\(([-\\d.]+)px, ?([-\\d.]+)px\\)/.exec(el.style.transform);return !r||Math.abs(m.e-+r[1])>1||Math.abs(m.f-+r[2])>1}).length;
+        const d=move.d;await w(300);await move(-d);await w(300);const f3=await move(d),again=f3.filter(el=>f1.includes(el)).length;
+        const css=[...document.styleSheets].flatMap(s=>{try{return [...s.cssRules]}catch(e){return []}}).map(r=>r.cssText).join(' ');
+        goToView('esplora');await w(300);return {f1:f1.length,slide,again,noFrom:!/tav-from/.test(css)}}""")
+    ok66 = t66["f1"] > 0 and t66["slide"] == 0 and t66["again"] == 0 and t66["noFrom"]
+    R.check("T66", "Mosaico: le tessere nuove sfumano al loro posto senza scivolare dall'angolo, e solo la prima volta (andando avanti e indietro restano ferme)", ok66, f"{t66}")
     # T63 v0.62: icone PNG per i browser che non usano la favicon SVG (Chrome e Safari su iPhone e iPad), SVG ancora presente; voci di rilevanza 1 tutte verificate con fonti
     t63 = await p.evaluate("""async()=>{const out={};for(const l of document.querySelectorAll('link[rel="icon"][type="image/png"],link[rel="apple-touch-icon"]')){const im=new Image();im.src=l.href;try{await im.decode();out[l.getAttribute('href')]=im.naturalWidth+'x'+im.naturalHeight}catch(e){out[l.getAttribute('href')]='errore'}}
         out.svg=!!document.querySelector('link[rel="icon"][type="image/svg+xml"]');out.rel1=DB.entities.concat(DB.events).filter(x=>!['source-checked','deep-dive-sourced'].includes(x.editorial_status)).map(x=>x.id);return out}""")
@@ -753,32 +762,42 @@ async def new_checks(p, R, mobile, name):
     R.check("T37", "Universo: un tocco su una voce apre il riepilogo; «Aggiungi al confronto» la aggiunge e mostra l'avviso",
             tip["vis"] and tip["title"] == name37 and t37["cmp"] and t37["toast"] and t37["strip"], f"riepilogo {tip}; dopo l'aggiunta {t37}")
 
-    # T34 Tecnologia, sintesi: un punto per ambito e area, posizione coerente con gli anni, tocco → dettaglio dell'attestazione
+    # T34 Tecnologia, sintesi (v0.73, linea dell'epoca): un punto per attestazione, in ordine di anno nella sua riga, fascia della voce coerente;
+    # un tocco apre il riquadro sotto il grafico senza lasciarlo; «Vedi nel dettaglio» porta al dettaglio; area della legenda e nome dell'ambito funzionano
     await goto_view(p, "tecnologia")
-    await p.evaluate("()=>{techScope='tutte';techFocusId='event-rapanui-moai-tradition';techMode='sintesi';techDomain='all';techOpenId=null;renderTecnologia()}"); await p.wait_for_timeout(250)
-    t34 = await p.evaluate("""()=>{const f=techFocus(),fi=techFirsts(f),keys=Object.keys(fi);
+    await p.evaluate("()=>{techScope='tutte';techFocusId='event-rapanui-moai-tradition';techMode='sintesi';techDomain='all';techOpenId=null;tiSel=null;tiArea=null;renderTecnologia()}"); await p.wait_for_timeout(250)
+    t34 = await p.evaluate("""()=>{const f=techFocus(),rows=TECH.filter(t=>techRelation(t,f));
         const band=document.querySelector('#techList .ti-band'),bl=+band.getAttribute('x'),br=bl+ +band.getAttribute('width');
-        const marks=[...document.querySelectorAll('#techList .ti-mark')].map(g=>{const c=g.querySelector('circle');return {id:g.dataset.ti,x:+c.getAttribute('cx'),r:+c.getAttribute('r')}});
-        const info=marks.map(m=>{const t=TECH.find(t=>t.id===m.id),rel=techRelation(t,f);return {...m,k:rel.k,n:rel.n||0}});
-        const bad=[];info.forEach(a=>{if(a.k==='durante'&&(a.x<bl||a.x>br))bad.push(a.id+' fuori dalla fascia');if(a.k==='prima'&&a.x>=bl)bad.push(a.id+' nella fascia');
-          info.forEach(b=>{if(a.k==='prima'&&b.k==='prima'&&a.n>Math.max(10,b.n)*2&&a.x>b.x+2.6*a.r)bad.push(a.id+'>'+b.id)})});
+        const marks=[...document.querySelectorAll('#techList .ti-mark')].map(g=>{const c=g.querySelector('circle'),t=TECH.find(t=>t.id===g.dataset.ti);return {id:t.id,d:t.domain,y0:t.start_year,x:+c.getAttribute('cx'),r:+c.getAttribute('r'),k:techRelation(t,f).k}});
+        const bad=[];marks.forEach(a=>{if(a.k==='durante'&&(a.x<bl-a.r||a.x>br+a.r))bad.push(a.id+' fuori dalla fascia');if(a.k==='prima'&&a.x>bl+a.r)bad.push(a.id+' nella fascia');
+          marks.forEach(b=>{if(a.d===b.d&&a.y0<b.y0&&a.x>b.x+0.5)bad.push(a.id+' dopo '+b.id)})});
         const w=document.querySelector('#techList .ti-svg').getBoundingClientRect().width,lw=document.getElementById('techList').getBoundingClientRect().width;
-        return {pairs:keys.length,marks:marks.length,bad:bad.slice(0,4),nBad:bad.length,fits:w<=lw+1,kpi:document.querySelectorAll('#techList .ti-kpi').length,areas:document.querySelectorAll('#techList .ti-area').length}}""")
-    mk = p.locator("#techList .ti-mark[data-ti='tech-arch-great-pyramid']")
-    await tap(p, mk, mobile); await p.wait_for_timeout(500)
-    t34b = await p.evaluate("()=>({mode:techMode,open:techOpenId,domain:techDomain,shown:!!document.querySelector(\"#techList .tech-item.open[data-tech-id='tech-arch-great-pyramid']\")})")
-    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;techScope='epoca';renderTecnologia()}")
-    ok34 = (t34["marks"] == t34["pairs"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 0
-            and t34b == {"mode": "dettaglio", "open": "tech-arch-great-pyramid", "domain": "architettura", "shown": True})
-    R.check("T34", "Tecnologia, sintesi: infografica con un punto per ambito e area, coerente con gli anni (senza la griglia «Ambiti attestati per area», tolta nella v0.53); un tocco apre il dettaglio",
-            ok34, f"{t34}; dopo il tocco {t34b}")
+        return {rows:rows.length,marks:marks.length,bad:bad.slice(0,4),nBad:bad.length,fits:w<=lw+1,kpi:document.querySelectorAll('#techList .ti-kpi').length,areas:document.querySelectorAll('#techList .ti-area').length}}""")
+    mk = p.locator("#techList .ti-mark[data-ti='tech-arch-great-pyramid'] circle")
+    await tap(p, mk, mobile); await p.wait_for_timeout(400)
+    t34b = await p.evaluate("()=>({mode:techMode,sel:tiSel,card:!document.getElementById('tiCard').hidden&&document.querySelector('#tiCard strong')?.textContent===TECH.find(t=>t.id==='tech-arch-great-pyramid').name,hl:!!document.querySelector(\"#techList .ti-mark.sel[data-ti='tech-arch-great-pyramid']\")})")
+    await tap(p, p.locator("#techList [data-ti-area='Africa']"), mobile); await p.wait_for_timeout(200)
+    t34c = await p.evaluate("()=>{const m=[...document.querySelectorAll('#techList .ti-mark')];return {dim:m.filter(g=>g.classList.contains('dim')).every(g=>g.dataset.area!=='Africa'),nDim:m.filter(g=>g.classList.contains('dim')).length,nAf:m.filter(g=>g.dataset.area==='Africa').length,tot:m.length}}")
+    await tap(p, p.locator("#tiCard [data-ti-more]"), mobile); await p.wait_for_timeout(500)
+    t34d = await p.evaluate("()=>({mode:techMode,open:techOpenId,domain:techDomain,shown:!!document.querySelector(\"#techList .tech-item.open[data-tech-id='tech-arch-great-pyramid']\")})")
+    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;tiSel=null;tiArea=null;renderTecnologia()}"); await p.wait_for_timeout(200)
+    await tap(p, p.locator("#techList .ti-domlink[data-domain='idraulica']"), mobile); await p.wait_for_timeout(300)
+    t34e = await p.evaluate("()=>({mode:techMode,domain:techDomain})")
+    await p.evaluate("()=>{techMode='sintesi';techDomain='all';techOpenId=null;tiSel=null;tiArea=null;techScope='epoca';renderTecnologia()}")
+    ok34 = (t34["marks"] == t34["rows"] and t34["nBad"] == 0 and t34["fits"] and t34["kpi"] >= 2 and t34["areas"] == 0
+            and t34b == {"mode": "sintesi", "sel": "tech-arch-great-pyramid", "card": True, "hl": True}
+            and t34c["dim"] and t34c["nDim"] == t34c["tot"] - t34c["nAf"] and t34c["nAf"] > 0
+            and t34d == {"mode": "dettaglio", "open": "tech-arch-great-pyramid", "domain": "architettura", "shown": True}
+            and t34e == {"mode": "dettaglio", "domain": "idraulica"})
+    R.check("T34", "Tecnologia, sintesi (linea dell'epoca): un punto per attestazione, in ordine di anno e coerente con la fascia della voce; il tocco apre il riquadro sotto il grafico; area della legenda evidenziata; «Vedi nel dettaglio» e nome dell'ambito portano al dettaglio",
+            ok34, f"{t34}; tocco {t34b}; area {t34c}; dettaglio {t34d}; ambito {t34e}")
 
     # T35 contrasto del testo nei dettagli del confronto e nelle nuove parti, in ogni palette
     low = []
     await p.evaluate("()=>{['culture-maya','civilization-inca','state-ancient-egypt'].forEach(id=>{if(!compareIds.includes(id))addCompare(id)});hideToast()}")
     sels = {"confronto": "#comparatore .compare-insight strong,#comparatore .compare-insight div,#comparatore .compare-table th,#comparatore .compare-table td,#comparatore .compare-chip,#compareCount",
             "universo": ".uv-strip-text strong,.uv-strip-text span,.uv-scale button,.uv-legend button,.universe-status",
-            "tecnologia": "#techList .ti-kpi b,#techList .ti-kpi span,#techList .ti-area-name,#techList .ti-area>b,.ti-mode button"}
+            "tecnologia": "#techList .ti-kpi b,#techList .ti-kpi span,#techList .ti-area-btn,.ti-mode button"}
     for pal in STYLES:
         await p.evaluate("(n)=>document.querySelector(`.palette-choice[data-palette='${n}']`).click()", pal)
         for v, sel in sels.items():
