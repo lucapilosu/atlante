@@ -11,7 +11,7 @@
   }
  },
  "dataset_version": "1.2",
- "update_date": "2026-11-23",
+ "update_date": "2026-11-25",
  "description": "Atlante storico globale: ampliamento comparativo di civiltà, religioni, reti commerciali, scienza, tecnologia e trasformazioni politiche.",
  "date_convention": "ISO 8601-like signed year: negative = BCE, positive = CE; year 0 is not used in display.",
  "entities": [
@@ -13259,6 +13259,43 @@
      "l": "Public domain"
     }
    ]
+  },
+  {
+   "id": "invention-smartphone",
+   "name": "Smartphone: Internet in tasca",
+   "start_year": 2007,
+   "end_year": 2008,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel 2007 Apple presenta l’iPhone: telefono, macchina fotografica, lettore musicale e computer con accesso a Internet in uno schermo che si comanda con le dita. Dal 2008 si possono scaricare applicazioni di altri sviluppatori: lo smartphone cambia il modo di comunicare, comprare e lavorare.",
+   "region": "Globale",
+   "subregion": "Stati Uniti, poi tutto il mondo",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 37.3318,
+    "longitude": -122.0312,
+    "label": "Cupertino (California) · sede di Apple",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-iphone",
+    "src-v-encyclopaedia-britannica-ios",
+    "src-v-encyclopaedia-britannica-history-of-technology-t",
+    "src-v-encyclopaedia-britannica-palm-os"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "tecnologie",
+   "relevance": 3,
+   "world_area": "GL",
+   "entity_type": "invention",
+   "related_entities": [
+    "event-web",
+    "invention-personal-computer"
+   ],
+   "key_sites": [],
+   "map_note": "Punto rappresentativo per orientamento; non indica confini o distribuzione territoriale.",
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: l’iPhone, che unisce telefono, fotocamera, lettore musicale e computer, uscì negli Stati Uniti nel 2007 dopo oltre due anni di sviluppo; schermo a sfioramento usato con le dita invece di stilo o tasti; l’aggiornamento del 2008 permise di comprare applicazioni di sviluppatori terzi e «rivoluzionò» il modo di socializzare, comprare e lavorare (voce iOS). Non fu il primo smartphone (BlackBerry dal 2002, voce Palm OS) ma rese popolare il genere. Voce scelta per rappresentare lo smartphone, non un singolo marchio; il punto su Cupertino è da conoscenza generale.",
+   "verified_on": "2026-11-25"
   }
  ],
  "events": [
@@ -26369,6 +26406,1072 @@
      "l": "CC BY-SA 4.0"
     }
    ]
+  },
+  {
+   "id": "event-league-of-nations",
+   "name": "Società delle Nazioni",
+   "start_year": 1920,
+   "end_year": 1946,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nata il 10 gennaio 1920 dai trattati di pace della Prima guerra mondiale, con sede a Ginevra, è la prima organizzazione mondiale per risolvere le dispute senza guerre. Senza gli Stati Uniti e incapace di fermare le aggressioni di Giappone e Italia, non evita la Seconda guerra mondiale; nel 1946 lascia il posto all’ONU.",
+   "region": "Globale",
+   "subregion": "Ginevra",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 46.2266,
+    "longitude": 6.1405,
+    "label": "Ginevra · Palazzo delle Nazioni",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-league-of-nations",
+    "src-v-encyclopaedia-britannica-covenant-of-the-league",
+    "src-v-encyclopaedia-britannica-history-of-europe-the-i"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "GL",
+   "event_type": "political",
+   "place_name": "Ginevra",
+   "related_entity_ids": [
+    "event-world-war-one",
+    "event-world-war-two",
+    "event-united-nations"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: istituita il 10 gennaio 1920 su iniziativa degli Alleati vincitori della Prima guerra mondiale, sciolta formalmente il 19 aprile 1946 e sostituita dall’ONU; sede a Ginevra; 42 membri fondatori, senza gli Stati Uniti; il Patto (Covenant) era parte del trattato di Versailles. Non riuscì a impedire le aggressioni di Giappone e Italia negli anni Trenta (voce Covenant). Il punto sul Palazzo delle Nazioni (sede dal 1936) è scelto da Claude come riferimento a Ginevra.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-oil-crisis-1973",
+   "name": "Crisi petrolifera del 1973",
+   "start_year": 1973,
+   "end_year": 1974,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Durante la guerra arabo-israeliana dell’ottobre 1973 i paesi arabi dell’OPEC bloccano il petrolio agli Stati Uniti e ad altri alleati di Israele e ne quadruplicano il prezzo. Code ai distributori, inflazione e crisi: finisce la lunga crescita del dopoguerra in Occidente e in Giappone.",
+   "region": "Globale",
+   "subregion": "Medio Oriente, Stati Uniti, Europa, Giappone",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 29.3759,
+    "longitude": 47.9774,
+    "label": "Golfo Persico · punto di orientamento",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-arab-oil-embargo",
+    "src-v-encyclopaedia-britannica-oil-crisis",
+    "src-v-encyclopaedia-britannica-japan-economic-transfor"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "GL",
+   "event_type": "economic",
+   "place_name": "Medio Oriente e paesi importatori",
+   "related_entity_ids": [
+    "event-opec",
+    "event-israel-1948",
+    "event-japan-economic-miracle"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: embargo dei membri arabi dell’OPEC da ottobre 1973 a marzo 1974 contro Stati Uniti, Paesi Bassi, Portogallo, Rodesia e Sudafrica, per il sostegno a Israele nella guerra del Kippur; il prezzo del petrolio fu quadruplicato fino a quasi 12 dollari al barile ed esportazioni vietate verso Stati Uniti, Giappone ed Europa occidentale. In Giappone l’«oil shock» del 1973 chiuse l’epoca dell’alta crescita. Il punto nel Golfo Persico è solo di orientamento.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-financial-crisis-2008",
+   "name": "Crisi finanziaria del 2007–2008 e Grande recessione",
+   "start_year": 2007,
+   "end_year": 2009,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Lo scoppio della bolla dei mutui negli Stati Uniti travolge le banche: il 15 settembre 2008 fallisce Lehman Brothers, il più grande fallimento della storia americana. I governi salvano le banche con somme senza precedenti, ma la recessione colpisce il mondo intero e servono anni per riprendersi.",
+   "region": "Globale",
+   "subregion": "Stati Uniti e mercati finanziari mondiali",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 40.7605,
+    "longitude": -73.9845,
+    "label": "New York · sede di Lehman Brothers",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-bankruptcy-of-lehman-br",
+    "src-v-encyclopaedia-britannica-great-recession",
+    "src-v-encyclopaedia-britannica-financial-crisis-of-200",
+    "src-v-encyclopaedia-britannica-5-of-the-worlds-most-de"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "GL",
+   "event_type": "economic",
+   "place_name": "New York e mercati mondiali",
+   "related_entity_ids": [
+    "event-great-depression"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: crisi iniziata nel 2007 con lo scoppio della bolla immobiliare statunitense (mutui subprime); la banca d’investimento Lehman Brothers, con sede a New York, fallì il 15 settembre 2008, il più grande fallimento della storia statunitense fino ad allora; seguirono salvataggi pubblici senza precedenti. La Grande recessione negli Stati Uniti va da dicembre 2007 a giugno 2009 (PIL −4,3%, disoccupazione dal 5 al 9,5%); per tornare alla normalità servì quasi un decennio. L’indirizzo esatto della sede è da conoscenza generale.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-prague-spring",
+   "name": "Primavera di Praga",
+   "start_year": 1968,
+   "end_year": 1968,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Nel 1968 il comunista slovacco Alexander Dubček prova in Cecoslovacchia un «socialismo dal volto umano»: meno censura, più libertà. Il 20–21 agosto le truppe del Patto di Varsavia guidate dall’URSS invadono il paese e mettono fine alle riforme.",
+   "region": "Europa",
+   "subregion": "Cecoslovacchia",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.0813,
+    "longitude": 14.428,
+    "label": "Praga · piazza San Venceslao",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-prague-spring",
+    "src-v-encyclopaedia-britannica-why-did-soviet-forces-i",
+    "src-v-encyclopaedia-britannica-moscow-protocol"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "EU",
+   "event_type": "political",
+   "place_name": "Praga",
+   "related_entity_ids": [
+    "event-cold-war"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: breve periodo di liberalizzazione in Cecoslovacchia iniziato nel gennaio 1968 con Alexander Dubček primo segretario del Partito comunista («socialismo dal volto umano»: fine della censura, diritti civili); il 20 agosto 1968 forze guidate dall’URSS invasero il paese e arrestarono Dubček e altri dirigenti; la popolazione oppose una resistenza passiva; il Protocollo di Mosca (27 agosto) chiuse la stagione delle riforme. Il punto su piazza San Venceslao è scelto da Claude.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-yugoslav-wars",
+   "name": "Guerre nella ex Jugoslavia",
+   "start_year": 1991,
+   "end_year": 1999,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Quando la Jugoslavia si dissolve, nel 1991, scoppiano guerre tra le sue repubbliche e i suoi popoli: Slovenia, Croazia, Bosnia ed Erzegovina, con l’assedio di Sarajevo e il genocidio di Srebrenica (1995). Gli accordi di Dayton chiudono la guerra in Bosnia; nel 1999 la NATO bombarda la Serbia per il Kosovo.",
+   "region": "Europa",
+   "subregion": "Balcani occidentali",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 43.8563,
+    "longitude": 18.4131,
+    "label": "Sarajevo",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-serbia-the-disintegrati",
+    "src-v-encyclopaedia-britannica-bosnian-war",
+    "src-v-encyclopaedia-britannica-dayton-accords",
+    "src-v-encyclopaedia-britannica-bosnia-and-herzegovina",
+    "src-v-encyclopaedia-britannica-history-of-kosovo"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "EU",
+   "event_type": "war",
+   "place_name": "Slovenia, Croazia, Bosnia ed Erzegovina, Kosovo",
+   "related_entity_ids": [
+    "event-ussr-dissolution",
+    "event-cold-war"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il 25 giugno 1991 Slovenia e Croazia lasciarono la federazione e seguì una guerra di dieci giorni in Slovenia; poi la guerra in Croazia e in Bosnia (1992–95), con l’assedio di Sarajevo e il massacro di Srebrenica (luglio 1995, oltre 7.000 uomini bosgnacchi uccisi dalle forze serbo-bosniache, riconosciuto come genocidio); gli accordi di Dayton (21 novembre 1995) chiusero la guerra in Bosnia. Il conflitto del Kosovo (1998–99) finì nel giugno 1999 dopo i bombardamenti NATO iniziati il 24 marzo. La voce si ferma al 1999; Britannica non usa una data unica di fine per l’insieme delle guerre.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-russia-ukraine-war",
+   "name": "Guerra russo-ucraina",
+   "start_year": 2014,
+   "end_year": 2026,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel 2014 la Russia occupa e annette la Crimea e sostiene i separatisti nel Donbas; il 24 febbraio 2022 lancia l’invasione su vasta scala dell’Ucraina. È la guerra più grande in Europa dal 1945, con centinaia di migliaia di morti e milioni di profughi; a fine 2026 si combatte ancora.",
+   "region": "Europa",
+   "subregion": "Ucraina",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.4501,
+    "longitude": 30.5234,
+    "label": "Kyiv",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-russia-ukraine-war",
+    "src-v-encyclopaedia-britannica-when-did-the-russia-ukr",
+    "src-v-encyclopaedia-britannica-ukraine-crisis-of-20131",
+    "src-v-al-jazeera-ukraine-claims-record-russian-casualt"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "EU",
+   "event_type": "war",
+   "place_name": "Ucraina",
+   "related_entity_ids": [
+    "event-ussr-dissolution",
+    "event-cold-war"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica (data febbraio 2014 – presente): la guerra inizia nel febbraio 2014 con l’invasione nascosta della Crimea, annessa nel marzo 2014; da aprile 2014 forze russe e locali occupano parte del Donbas (oltre 14.000 morti prima del 2022); il 24 febbraio 2022 la Russia lancia l’invasione su vasta scala. Stato al 25 novembre 2026 (Al Jazeera, 13 novembre 2026, e altre agenzie): la guerra continua, colloqui ad Abu Dhabi il 10–11 novembre senza svolta, solo tregue locali. La fine al 2026 indica «in corso». I «milioni di profughi» e le «centinaia di migliaia di morti» sono indicazioni d’ordine di grandezza riportate dalle agenzie, non dati ufficiali.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-congo-crisis",
+   "name": "Indipendenza del Congo e crisi congolese",
+   "start_year": 1960,
+   "end_year": 1965,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Il 30 giugno 1960 il Congo belga diventa indipendente, con Patrice Lumumba primo ministro. Subito si ammutina l’esercito, il Katanga si separa e intervengono Belgio e ONU in piena guerra fredda; Lumumba è deposto e ucciso nel 1961. Nel 1965 prende il potere Mobutu.",
+   "region": "Africa",
+   "subregion": "Congo (oggi Repubblica Democratica del Congo)",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -4.3217,
+    "longitude": 15.3126,
+    "label": "Kinshasa (allora Léopoldville)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-congo-crisis",
+    "src-v-encyclopaedia-britannica-patrice-lumumba",
+    "src-v-encyclopaedia-britannica-joseph-kasavubu",
+    "src-v-encyclopaedia-britannica-democratic-republic-of",
+    "src-v-encyclopaedia-britannica-20th-century-internatio"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AS",
+   "event_type": "independence",
+   "place_name": "Léopoldville (Kinshasa) e Katanga",
+   "related_entity_ids": [
+    "movement-decolonization",
+    "event-cold-war",
+    "event-espansione-coloniale-europea-in-africa"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: indipendenza il 30 giugno 1960 con Kasavubu presidente e Lumumba primo ministro; ammutinamento della Force Publique (5 luglio) e intervento dei paracadutisti belgi; secessione del Katanga di Tshombe; intervento dell’ONU; Lumumba deposto nel settembre 1960 e ucciso il 17 gennaio 1961 in Katanga; il 1960 fu l’anno culminante della decolonizzazione africana e la prima crisi della guerra fredda nel continente. Kasavubu fu presidente fino al 1965, quando Mobutu lo destituì (edizione per studenti).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-mau-mau-kenya",
+   "name": "Rivolta Mau Mau e indipendenza del Kenya",
+   "start_year": 1952,
+   "end_year": 1963,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Dal 1952, sugli altopiani del Kenya, il movimento Mau Mau, soprattutto di etnia kikuyu, combatte i coloni britannici per riavere terra e libertà. La rivolta è schiacciata, con oltre 20.000 kenyani morti, ma convince Londra ad accelerare: il 12 dicembre 1963 il Kenya è indipendente, con Jomo Kenyatta.",
+   "region": "Africa",
+   "subregion": "Kenya",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -0.4201,
+    "longitude": 36.9476,
+    "label": "Nyeri · altopiani centrali (punto indicativo)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-mau-mau-rebellion",
+    "src-v-encyclopaedia-britannica-mau-mau",
+    "src-v-encyclopaedia-britannica-history-of-kenya",
+    "src-v-encyclopaedia-britannica-when-did-kenya-become-i"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AS",
+   "event_type": "independence",
+   "place_name": "Altopiani centrali del Kenya",
+   "related_entity_ids": [
+    "movement-decolonization",
+    "event-ghana-independence"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: la rivolta Mau Mau (1952–60), condotta soprattutto da kikuyu contro il governo britannico e milizie africane da esso armate, fu schiacciata; più di 20.000 kenyani morti, cifra discussa; stato d’emergenza dall’ottobre 1952; secondo vari studiosi contribuì a creare le condizioni per l’indipendenza, ottenuta il 12 dicembre 1963, con Jomo Kenyatta primo ministro. La rivolta si svolse soprattutto negli altopiani (edizione per studenti). Il punto su Nyeri, nel cuore degli altopiani centrali, è scelto da Claude.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-biafra-war",
+   "name": "Guerra del Biafra",
+   "start_year": 1967,
+   "end_year": 1970,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel maggio 1967 la regione orientale della Nigeria, abitata soprattutto da Igbo, si proclama indipendente come Repubblica del Biafra. Segue una guerra civile con un blocco che provoca una carestia terribile: i morti sono tra 500.000 e 3 milioni. Nel gennaio 1970 il Biafra si arrende.",
+   "region": "Africa",
+   "subregion": "Nigeria sud-orientale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 6.4584,
+    "longitude": 7.5464,
+    "label": "Enugu · Nigeria sud-orientale (punto indicativo)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-nigerian-civil-war",
+    "src-v-encyclopaedia-britannica-biafra",
+    "src-v-encyclopaedia-britannica-nigeria-the-civil-war",
+    "src-v-encyclopaedia-britannica-how-did-the-nigerian-ci"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AS",
+   "event_type": "war",
+   "place_name": "Nigeria orientale",
+   "related_entity_ids": [
+    "movement-decolonization"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: guerra civile (1967–70) tra il governo federale nigeriano e la Repubblica del Biafra, proclamata da Ojukwu il 30 maggio 1967 per le tre regioni orientali, a maggioranza igbo; cause: conflitti etnici, disuguaglianze economiche e di istruzione; morti stimati tra 500.000 e 3.000.000; fame diffusa; crollo finale dal 24 dicembre 1969, Ojukwu fuggì l’11 gennaio 1970. Il punto su Enugu è indicativo (scelta di Claude).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-egypt-revolution-1952",
+   "name": "Rivoluzione egiziana e Nasser",
+   "start_year": 1952,
+   "end_year": 1970,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Il 23 luglio 1952 gli «Ufficiali liberi» guidati da Gamal Abdel Nasser rovesciano re Faruk: l’Egitto diventa una repubblica. Presidente dal 1956 alla morte nel 1970, Nasser nazionalizza il canale di Suez, avvia riforme e diventa il simbolo del nazionalismo arabo.",
+   "region": "Africa",
+   "subregion": "Egitto",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 30.0444,
+    "longitude": 31.2357,
+    "label": "Il Cairo",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-egypt-the-revolution-an",
+    "src-v-encyclopaedia-britannica-free-officers",
+    "src-v-encyclopaedia-britannica-gamal-abdel-nasser",
+    "src-v-encyclopaedia-britannica-how-did-the-1952-coup-c"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AN",
+   "event_type": "revolution",
+   "place_name": "Il Cairo",
+   "related_entity_ids": [
+    "event-suez-crisis",
+    "invention-suez-canal",
+    "event-israel-1948"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: gli Ufficiali liberi guidati dal colonnello Nasser rovesciarono la monarchia con un colpo di stato quasi incruento il 23 luglio 1952; re Faruk fu costretto all’esilio; fine della monarchia, abolizione dei partiti e nascita della repubblica; Nasser primo ministro (1954–56) e presidente (1956–70); modernizzazione, socialismo, nazionalizzazione del canale di Suez, nazionalismo arabo.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-iran-iraq-war",
+   "name": "Guerra Iran-Iraq",
+   "start_year": 1980,
+   "end_year": 1988,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel settembre 1980 l’Iraq di Saddam Hussein invade l’Iran, appena uscito dalla rivoluzione islamica, per il fiume Shatt al-Arab e il petrolio del Khuzestan. Ne nasce una guerra di logoramento, con l’uso di armi chimiche, che fa forse un milione di vittime e finisce nel 1988 senza vincitori.",
+   "region": "Asia",
+   "subregion": "Iran e Iraq",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 30.4397,
+    "longitude": 48.1664,
+    "label": "Khorramshahr",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-iran-iraq-war",
+    "src-v-encyclopaedia-britannica-iran-iraq-war-summary",
+    "src-v-encyclopaedia-britannica-iran-iraq-war-2"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AO",
+   "event_type": "war",
+   "place_name": "Confine tra Iran e Iraq",
+   "related_entity_ids": [
+    "event-iranian-revolution"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: guerra prolungata (1980–88) iniziata dall’invasione irachena (22 settembre 1980) dopo la rivoluzione iraniana del 1979; obiettivi iracheni: controllo dello Shatt al-Arab e della provincia petrolifera del Khuzestan; vittime stimate tra uno e due milioni; primo uso di armi chimiche dalla Prima guerra mondiale; cessate il fuoco nel 1988, pace formale il 16 agosto 1990. «Forse un milione» è il minimo della stima. Il punto su Khorramshahr, città presa dall’Iraq nel 1980, è scelto da Claude.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-gulf-war",
+   "name": "Guerra del Golfo",
+   "start_year": 1990,
+   "end_year": 1991,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Il 2 agosto 1990 l’Iraq invade e annette il Kuwait, ricco di petrolio. L’ONU condanna l’invasione e una coalizione guidata dagli Stati Uniti, nel gennaio–febbraio 1991, bombarda l’Iraq e libera il Kuwait in pochi giorni di guerra di terra.",
+   "region": "Asia",
+   "subregion": "Kuwait e Iraq",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 29.3759,
+    "longitude": 47.9774,
+    "label": "Kuwait City",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-timeline-of-the-persian",
+    "src-v-encyclopaedia-britannica-iraq-the-persian-gulf-w",
+    "src-v-encyclopaedia-britannica-operation-desert-storm",
+    "src-v-encyclopaedia-britannica-history-of-kuwait"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AO",
+   "event_type": "war",
+   "place_name": "Kuwait e Iraq",
+   "related_entity_ids": [
+    "event-iran-iraq-war",
+    "event-opec"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il 2 agosto 1990 l’Iraq invase e annesse il Kuwait; lo stesso giorno la risoluzione 660 del Consiglio di sicurezza ne chiese il ritiro; l’operazione Desert Storm, campagna aerea guidata dagli Stati Uniti, iniziò il 17 gennaio 1991; l’offensiva di terra dal 24 febbraio liberò il Kuwait entro fine febbraio. Tra le cause, i debiti iracheni della guerra con l’Iran e il calo del prezzo del petrolio.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-syrian-civil-war",
+   "name": "Guerra civile siriana",
+   "start_year": 2011,
+   "end_year": 2024,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel 2011 le proteste della primavera araba arrivano in Siria; la repressione di Bashar al-Assad le trasforma in guerra civile, con interventi stranieri, l’ascesa dell’ISIS e milioni di profughi. L’8 dicembre 2024 un’offensiva ribelle conquista Damasco e Assad fugge; il paese resta instabile.",
+   "region": "Asia",
+   "subregion": "Siria",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 33.5138,
+    "longitude": 36.2765,
+    "label": "Damasco",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-syrian-civil-war",
+    "src-v-encyclopaedia-britannica-syrian-civil-war-uprisi",
+    "src-v-encyclopaedia-britannica-syria",
+    "src-v-encyclopaedia-britannica-who-are-the-major-comba"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AO",
+   "event_type": "war",
+   "place_name": "Siria",
+   "related_entity_ids": [
+    "event-arab-spring",
+    "event-iranian-revolution"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: conflitto iniziato nel 2011 con una rivolta contro Bashar al-Assad, ispirata alla primavera araba; la repressione portò alla guerra; coinvolgimento di attori internazionali (Russia e Iran con Assad), ascesa dell’ISIS; l’8 dicembre 2024 forze ribelli guidate da Hayat Tahrir al-Sham presero Damasco e Assad fu deposto; Ahmed al-Sharaa presidente dal 2025. Britannica considera la guerra ancora in corso («2011 – presente») perché il nuovo governo non controlla tutto il paese: la fine al 2024 indica la caduta di Assad (scelta di Claude). «Milioni di profughi» è un ordine di grandezza, non dalla fonte citata.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-kashmir-conflict",
+   "name": "Questione del Kashmir",
+   "start_year": 1947,
+   "end_year": 2026,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Alla spartizione del 1947 il maharaja del Kashmir, regione a maggioranza musulmana, aderisce all’India; il Pakistan non lo accetta e scoppia la prima guerra. Dal 1949 una linea di cessate il fuoco divide la regione: da allora India e Pakistan, poi potenze nucleari, si sono combattuti altre volte e la contesa è aperta.",
+   "region": "Asia",
+   "subregion": "Kashmir",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.0837,
+    "longitude": 74.7973,
+    "label": "Srinagar · valle del Kashmir",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-kashmir",
+    "src-v-encyclopaedia-britannica-how-was-the-line-of-con",
+    "src-v-encyclopaedia-britannica-instrument-of-accession"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AM",
+   "event_type": "conflict",
+   "place_name": "Kashmir",
+   "related_entity_ids": [
+    "event-indipendenza-dellindia-e-partizione",
+    "event-bangladesh-independence"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: regione rivendicata da India e Pakistan, fonte di tensione dalla spartizione del 1947 e teatro di tre guerre tra i due paesi; nell’ottobre 1947 il maharaja Hari Singh firmò l’atto di adesione all’India dopo una rivolta dei sudditi musulmani e l’invasione di tribù pashtun; combattimenti fino al 1948 e cessate il fuoco dell’ONU dal gennaio 1949; la «linea di controllo» divide ancora la regione. «Potenze nucleari» è conoscenza generale (test del 1998), non dalle fonti citate. La fine al 2026 indica «ancora aperta».",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-india-1991-reforms",
+   "name": "Riforme economiche indiane del 1991",
+   "start_year": 1991,
+   "end_year": 1996,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel 1991, davanti a una grave crisi della bilancia dei pagamenti, il governo di P.V. Narasimha Rao e il ministro delle finanze Manmohan Singh aprono l’economia indiana: meno vincoli statali, privatizzazioni, investimenti stranieri. Inizia una lunga stagione di crescita rapida.",
+   "region": "Asia",
+   "subregion": "India",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 28.6139,
+    "longitude": 77.209,
+    "label": "Nuova Delhi",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-economy-of-india-libera",
+    "src-v-encyclopaedia-britannica-p-v-narasimha-rao",
+    "src-v-encyclopaedia-britannica-manmohan-singh",
+    "src-v-encyclopaedia-britannica-manmohan-singh-2"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AM",
+   "event_type": "reform",
+   "place_name": "Nuova Delhi",
+   "related_entity_ids": [
+    "event-indipendenza-dellindia-e-partizione",
+    "event-green-revolution"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: nel 1991 l’India affrontò una grave crisi della bilancia dei pagamenti, chiese aiuto a FMI e Banca mondiale e avviò un vasto programma di riforme guidato dal primo ministro Rao e dal ministro delle finanze Singh (1991–96): liberalizzazione, privatizzazioni, apertura agli investimenti stranieri, che portarono a una forte crescita. La fine al 1996 è quella del governo Rao, non delle riforme.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-russo-japanese-war",
+   "name": "Guerra russo-giapponese",
+   "start_year": 1904,
+   "end_year": 1905,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel febbraio 1904 il Giappone attacca la flotta russa a Port Arthur per il controllo di Corea e Manciuria. Dopo le vittorie di Mukden e dello stretto di Tsushima, la pace di Portsmouth (1905) riconosce il Giappone come potenza dominante dell’Asia orientale: per la prima volta un paese asiatico batte una grande potenza europea.",
+   "region": "Asia",
+   "subregion": "Manciuria e Corea",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 38.8121,
+    "longitude": 121.2615,
+    "label": "Lüshun (Port Arthur)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-russo-japanese-war",
+    "src-v-encyclopaedia-britannica-empire-of-japan-the-rus",
+    "src-v-encyclopaedia-britannica-japan-the-emergence-of"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AE",
+   "event_type": "war",
+   "place_name": "Port Arthur, Manciuria, stretto di Tsushima",
+   "related_entity_ids": [
+    "event-meiji",
+    "event-first-sino-japanese-war",
+    "event-rivoluzione-russa"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: guerra dall’8 febbraio 1904 al 5 settembre 1905 per il predominio in Corea e Manciuria; attacco giapponese a sorpresa alla flotta russa di Port Arthur; vittorie giapponesi a Mukden (marzo 1905) e Tsushima (27–29 maggio 1905); trattato di Portsmouth mediato da Theodore Roosevelt, che riconobbe al Giappone il primato in Corea e gli interessi russi nella Manciuria meridionale. «Per la prima volta un paese asiatico batte una grande potenza europea» è un giudizio comune dei manuali, non una frase delle fonti citate.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-tiananmen-1989",
+   "name": "Proteste di piazza Tiananmen",
+   "start_year": 1989,
+   "end_year": 1989,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Nella primavera del 1989 studenti e cittadini cinesi chiedono riforme politiche, più libertà e meno corruzione, occupando piazza Tiananmen a Pechino. Nella notte tra il 3 e il 4 giugno l’esercito sgombra la piazza con carri armati: centinaia di morti, forse di più. Il governo vieta ancora oggi di ricordarlo.",
+   "region": "Asia",
+   "subregion": "Cina",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 39.9054,
+    "longitude": 116.3976,
+    "label": "Pechino · piazza Tiananmen",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-tiananmen-square-incide",
+    "src-v-encyclopaedia-britannica-how-did-the-chinese-gov",
+    "src-v-encyclopaedia-britannica-hu-yaobang"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AE",
+   "event_type": "revolt",
+   "place_name": "Pechino",
+   "related_entity_ids": [
+    "event-deng-reforms",
+    "event-fondazione-della-repubblica-popolare-cinese"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: proteste dall’aprile 1989, dopo la morte del riformista Hu Yaobang (15 aprile), per riforme politiche ed economiche; legge marziale a Pechino; nella notte tra il 3 e il 4 giugno truppe e carri armati sgomberarono la piazza, con centinaia di morti e migliaia di feriti (cifra ufficiale 241); il governo ha poi soppresso i riferimenti all’evento.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-hong-kong-handover",
+   "name": "Hong Kong torna alla Cina",
+   "start_year": 1997,
+   "end_year": 1997,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il 1° luglio 1997, dopo 156 anni, la colonia britannica di Hong Kong torna alla Cina come regione amministrativa speciale. Secondo l’accordo del 1984 vale il principio «un paese, due sistemi»: per 50 anni Hong Kong conserva economia capitalista, leggi e ampie libertà proprie.",
+   "region": "Asia",
+   "subregion": "Cina meridionale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 22.2833,
+    "longitude": 114.1733,
+    "label": "Hong Kong · Wan Chai, sede della cerimonia",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-handover-of-hong-kong",
+    "src-v-encyclopaedia-britannica-hong-kong-return-to-chi",
+    "src-v-encyclopaedia-britannica-basic-law-of-the-hong-k"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AE",
+   "event_type": "political",
+   "place_name": "Hong Kong",
+   "related_entity_ids": [
+    "event-guerre-delloppio",
+    "event-deng-reforms"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il 1° luglio 1997 la colonia britannica passò alla sovranità cinese dopo 156 anni, come Regione amministrativa speciale; la Dichiarazione congiunta sino-britannica del dicembre 1984 garantiva ampia autonomia (salvo esteri e difesa) e sistema sociale ed economico invariato per 50 anni; principio «un paese, due sistemi» nella Legge fondamentale; Britannica segnala preoccupazioni per l’erosione delle libertà. Il punto a Wan Chai (centro congressi) è scelto da Claude.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-aral-sea",
+   "name": "Prosciugamento del lago d’Aral",
+   "start_year": 1960,
+   "end_year": 2026,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Dal 1960 l’Unione Sovietica devia l’Amu Darya e il Syr Darya per irrigare i campi di cotone dell’Asia centrale. L’Aral, allora il quarto lago del mondo, perde in pochi decenni gran parte dell’acqua: si divide in più laghi, i porti restano nel deserto e il fondo scoperto sparge sale e veleni.",
+   "region": "Asia",
+   "subregion": "Kazakistan e Uzbekistan",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 43.7683,
+    "longitude": 59.0214,
+    "label": "Muynak · ex porto sul lago",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-aral-sea",
+    "src-v-encyclopaedia-britannica-how-did-river-diversion",
+    "src-v-encyclopaedia-britannica-aral-sea-2",
+    "src-v-encyclopaedia-britannica-kok-aral-dam"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AC",
+   "event_type": "disaster",
+   "place_name": "Lago d’Aral",
+   "related_entity_ids": [
+    "event-soviet-central-asia"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: un tempo quarto specchio d’acqua interno del mondo, l’Aral si è ridotto per la deviazione a scopo irriguo del Syr Darya e dell’Amu Darya, decisa dalla politica economica sovietica; dal 1960 ha perso circa tre quarti del volume e metà della superficie e si è diviso in più laghi; salinità e sostanze tossiche sul suolo scoperto. La diga di Kok-Aral (2005) ha salvato in parte l’Aral settentrionale. Il cotone come coltura principale è indicato da Britannica nelle domande collegate. Muynak come ex porto è conoscenza generale; la fine al 2026 indica che il fenomeno continua.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-semipalatinsk",
+   "name": "Poligono nucleare di Semipalatinsk",
+   "start_year": 1949,
+   "end_year": 1991,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Il 29 agosto 1949 l’Unione Sovietica fa esplodere la sua prima bomba atomica nella steppa del Kazakistan. Fino al 1989 il poligono ospita 456 test nucleari, che espongono alle radiazioni centinaia di migliaia di persone. Il Kazakistan lo chiude il 29 agosto 1991, oggi Giornata internazionale contro i test nucleari.",
+   "region": "Asia",
+   "subregion": "Kazakistan orientale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 50.7566,
+    "longitude": 78.5409,
+    "label": "Kurchatov · centro del poligono",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-nuclear-weapon-the-sovi",
+    "src-v-nazioni-unite-un-news-every-step-towards-disarma",
+    "src-v-ctbto-international-day-against-nuclear-tests",
+    "src-v-encyclopaedia-britannica-kazakhstan-2"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "AC",
+   "event_type": "technology",
+   "place_name": "Steppa del Kazakistan orientale",
+   "related_entity_ids": [
+    "event-cold-war",
+    "invention-manhattan-project",
+    "event-ussr-dissolution"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: primo test atomico sovietico (Joe-1) il 29 agosto 1949 al poligono di Semipalatinsk, in Kazakistan; anche la prima bomba termonucleare sovietica (1955) fu provata lì; i test contaminarono i suoli. UN News (agosto 2026): 456 test tra il 1949 e il 1989, centinaia di migliaia di persone esposte; chiusura il 29 agosto 1991, data poi proclamata dall’Assemblea generale (2009, su iniziativa del Kazakistan) Giornata internazionale contro i test nucleari (anche CTBTO). Kurchatov come «ground zero» è indicato da UN News (2016).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-afghanistan-war-2001",
+   "name": "Guerra in Afghanistan",
+   "start_year": 2001,
+   "end_year": 2021,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Dopo gli attentati dell’11 settembre 2001 i talebani rifiutano di consegnare Bin Laden: Stati Uniti e alleati attaccano l’Afghanistan e li cacciano dal potere entro dicembre. Segue una guerra lunga vent’anni contro la loro guerriglia; con il ritiro americano, nell’agosto 2021 i talebani riprendono Kabul.",
+   "region": "Asia",
+   "subregion": "Afghanistan",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 34.5553,
+    "longitude": 69.2075,
+    "label": "Kabul",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-afghanistan-war-the-u-s",
+    "src-v-encyclopaedia-britannica-taliban",
+    "src-v-encyclopaedia-britannica-withdrawal-of-united-st",
+    "src-v-encyclopaedia-britannica-afghanistan-u-s-led-inv"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "AC",
+   "event_type": "war",
+   "place_name": "Afghanistan",
+   "related_entity_ids": [
+    "event-september-11",
+    "event-soviet-afghan-war"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: dopo l’11 settembre i talebani rifiutarono di estradare Bin Laden; da ottobre 2001 bombardamenti di Stati Uniti e Regno Unito e offensiva dell’Alleanza del Nord; il 7 dicembre i talebani lasciarono Kandahar; missione di combattimento NATO chiusa il 28 dicembre 2014; ritiro statunitense avviato nel 2020 e completato il 30 agosto 2021; a metà agosto 2021 i talebani avevano ripreso quasi tutto il paese, Kabul compresa.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-philippine-revolution",
+   "name": "Rivoluzione filippina",
+   "start_year": 1896,
+   "end_year": 1898,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nell’agosto 1896 la società segreta Katipunan di Andrés Bonifacio insorge contro il dominio spagnolo. Il 12 giugno 1898 Emilio Aguinaldo proclama l’indipendenza a Kawit, ma con la pace di Parigi la Spagna cede le Filippine agli Stati Uniti: segue la guerra filippino-americana (1899–1902).",
+   "region": "Asia",
+   "subregion": "Filippine",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 14.4469,
+    "longitude": 120.9035,
+    "label": "Kawit (Cavite) · proclamazione del 1898",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-philippine-revolution",
+    "src-v-encyclopaedia-britannica-philippines-the-philipp",
+    "src-v-encyclopaedia-britannica-andres-bonifacio",
+    "src-v-encyclopaedia-britannica-philippine-american-war"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "SE",
+   "event_type": "revolution",
+   "place_name": "Luzon (Manila e Cavite)",
+   "related_entity_ids": [
+    "event-rizal-noli"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: rivoluzione (agosto 1896–1898) che mostrò la debolezza del dominio spagnolo; il Katipunan, fondato nel 1892 da Bonifacio, insorse nell’agosto 1896; Aguinaldo proclamò l’indipendenza il 12 giugno 1898 a Kawit (Cavite); la guerra ispano-americana chiuse il dominio spagnolo e il trattato di Parigi (dicembre 1898) cedette le Filippine agli Stati Uniti, provocando la guerra filippino-americana (1899–1902).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-malaysia-singapore",
+   "name": "Indipendenza della Malesia e nascita di Singapore",
+   "start_year": 1957,
+   "end_year": 1965,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Il 31 agosto 1957 la Federazione della Malaya diventa indipendente dal Regno Unito. Nel 1963 si unisce a Singapore, Sarawak e Sabah nel Borneo per formare la Malesia, ma nell’agosto 1965 Singapore, a maggioranza cinese, ne esce e diventa una repubblica indipendente.",
+   "region": "Asia",
+   "subregion": "Penisola malese e Borneo settentrionale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 3.139,
+    "longitude": 101.6869,
+    "label": "Kuala Lumpur",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-history-of-malaysia-the",
+    "src-v-encyclopaedia-britannica-malaysia",
+    "src-v-encyclopaedia-britannica-history-of-singapore",
+    "src-v-encyclopaedia-britannica-federation-of-malaya"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "SE",
+   "event_type": "independence",
+   "place_name": "Kuala Lumpur e Singapore",
+   "related_entity_ids": [
+    "movement-decolonization",
+    "event-asean"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: la Federazione della Malaya ottenne l’indipendenza il 31 agosto 1957 (governo dell’Alleanza di Tunku Abdul Rahman, capitale Kuala Lumpur); la Malesia nacque il 16 settembre 1963 unendo Malaya, Singapore, Sarawak e Borneo settentrionale (Sabah); Singapore si separò nell’agosto 1965 per attriti politici e divenne una repubblica indipendente sotto Lee Kuan Yew.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-people-power-1986",
+   "name": "People Power: la fine di Marcos nelle Filippine",
+   "start_year": 1986,
+   "end_year": 1986,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Dopo vent’anni di potere, legge marziale e corruzione, nel febbraio 1986 Ferdinand Marcos si proclama vincitore di elezioni contestate contro Corazon Aquino. Una rivolta pacifica di massa, il «People Power», con l’appoggio di parte dell’esercito, lo costringe all’esilio: torna la democrazia.",
+   "region": "Asia",
+   "subregion": "Filippine",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 14.5896,
+    "longitude": 121.0577,
+    "label": "Manila · viale EDSA",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-philippines",
+    "src-v-encyclopaedia-britannica-ferdinand-marcos",
+    "src-v-encyclopaedia-britannica-corazon-aquino",
+    "src-v-encyclopaedia-britannica-fidel-ramos"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "SE",
+   "event_type": "revolution",
+   "place_name": "Manila",
+   "related_entity_ids": [
+    "event-philippine-revolution"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: dopo più di un decennio di governo autoritario di Marcos (al potere dal 1965, legge marziale dal 1972), nel 1986 il movimento People Power guidò una rivolta incruenta che portò all’esilio di Marcos e al ritorno della democrazia; Marcos aveva indetto elezioni per il febbraio 1986 contro Corazon Aquino; la defezione di militari come Fidel Ramos innescò il movimento civile. Il viale EDSA come luogo delle manifestazioni è conoscenza generale.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-tsunami-2004",
+   "name": "Tsunami dell’Oceano Indiano",
+   "start_year": 2004,
+   "end_year": 2004,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il 26 dicembre 2004 un terremoto di magnitudo 9,1 al largo di Sumatra solleva onde alte fino a 9 metri che in poche ore colpiscono le coste dell’Oceano Indiano, dall’Indonesia all’Africa orientale. Muoiono circa 228.000 persone in una dozzina di paesi, oltre 200.000 nella sola Indonesia.",
+   "region": "Asia",
+   "subregion": "Oceano Indiano",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 5.5483,
+    "longitude": 95.3238,
+    "label": "Banda Aceh (Sumatra)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-indian-ocean-tsunami-of",
+    "src-v-encyclopaedia-britannica-indian-ocean-tsunami-of-2",
+    "src-v-encyclopaedia-britannica-banda-aceh"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "SE",
+   "event_type": "disaster",
+   "place_name": "Coste dell’Oceano Indiano",
+   "related_entity_ids": [],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il 26 dicembre 2004 un terremoto sottomarino di magnitudo 9,1 al largo di Sumatra causò uno tsunami con onde di 9 metri o più; circa 228.000 morti in una dozzina di paesi (altre pagine Britannica: 13–15 paesi, almeno 230.000); in Indonesia oltre 200.000, soprattutto nella provincia di Aceh; le onde raggiunsero l’Africa orientale entro sette ore; Banda Aceh in gran parte distrutta.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-nunavut",
+   "name": "Nunavut, la terra degli Inuit",
+   "start_year": 1999,
+   "end_year": 1999,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il 1° aprile 1999 il Canada divide i Territori del Nord-Ovest e crea il Nunavut («la nostra terra» in inuktitut), un territorio autonomo nell’Artico dove oltre quattro abitanti su cinque sono Inuit. È il risultato del più grande accordo sui diritti fondiari indigeni della storia canadese.",
+   "region": "Americhe",
+   "subregion": "Artico canadese",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 63.7467,
+    "longitude": -68.517,
+    "label": "Iqaluit · capitale del Nunavut",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-nunavut",
+    "src-v-encyclopaedia-britannica-nunavut-summary",
+    "src-v-the-canadian-encyclopedia-territorial-government"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "NA",
+   "event_type": "political",
+   "place_name": "Nunavut",
+   "related_entity_ids": [
+    "event-thule-migration",
+    "event-canadian-confederation"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il Nunavut, creato il 1° aprile 1999 dalla parte orientale dei Territori del Nord-Ovest dopo il plebiscito del 1992 e il Nunavut Act del 1993, comprende le terre tradizionali degli Inuit; capitale Iqaluit; «Nunavut» significa «la nostra terra» in inuktitut; frutto del più grande accordo canadese sulle rivendicazioni fondiarie; gli Inuit sono oltre i quattro quinti della popolazione. The Canadian Encyclopedia conferma la data e le prime elezioni (15 febbraio 1999).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-sandinista-revolution",
+   "name": "Rivoluzione sandinista in Nicaragua",
+   "start_year": 1979,
+   "end_year": 1990,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nel luglio 1979 il Fronte sandinista rovescia Anastasio Somoza, ultimo di una famiglia che domina il Nicaragua dal 1936. I sandinisti avviano riforme sociali, ma devono combattere i «contras» sostenuti dagli Stati Uniti; nel 1990 perdono elezioni libere e lasciano il governo a Violeta Chamorro.",
+   "region": "Americhe",
+   "subregion": "Nicaragua",
+   "map_geometry": {
+    "type": "point",
+    "latitude": 12.1364,
+    "longitude": -86.2514,
+    "label": "Managua",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-sandinista",
+    "src-v-encyclopaedia-britannica-history-of-nicaragua",
+    "src-v-encyclopaedia-britannica-nicaragua",
+    "src-v-encyclopaedia-britannica-violeta-barrios-de-cham"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "MC",
+   "event_type": "revolution",
+   "place_name": "Managua",
+   "related_entity_ids": [
+    "event-cuban-revolution",
+    "event-cold-war"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: nel 1979 il Fronte sandinista di liberazione nazionale (FSLN) rovesciò Anastasio Somoza Debayle, ponendo fine a 46 anni di dittatura della famiglia Somoza (dal 1936); i sandinisti governarono dal 1979 al 1990; programmi contro disuguaglianza e povertà, guerra con un’insurrezione appoggiata dagli Stati Uniti dai primi anni Ottanta, embargo statunitense del 1985; vinsero le elezioni del 1984 e persero quelle libere del 1990; Violeta Chamorro presidente dal 25 aprile 1990.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-falklands-war",
+   "name": "Guerra delle Falkland (Malvinas)",
+   "start_year": 1982,
+   "end_year": 1982,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il 2 aprile 1982 la giunta militare argentina occupa le isole Falkland, che l’Argentina chiama Malvinas e rivendica dal XIX secolo. Il Regno Unito di Margaret Thatcher invia una flotta: il 14 giugno gli argentini si arrendono a Stanley. La sconfitta accelera la fine della dittatura in Argentina.",
+   "region": "Americhe",
+   "subregion": "Atlantico meridionale",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -51.6977,
+    "longitude": -57.8519,
+    "label": "Stanley (Puerto Argentino)",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-falkland-islands-war",
+    "src-v-encyclopaedia-britannica-when-did-the-falkland-i",
+    "src-v-encyclopaedia-britannica-argentina-galtieri-and",
+    "src-v-encyclopaedia-britannica-falkland-islands-war-2"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "SA",
+   "event_type": "war",
+   "place_name": "Isole Falkland/Malvinas",
+   "related_entity_ids": [
+    "event-operation-condor"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: breve guerra non dichiarata tra Argentina e Regno Unito (2 aprile – 14 giugno 1982) per il controllo delle Falkland/Malvinas; l’Argentina rivendicava le isole dall’inizio del XIX secolo, prese dai britannici nel 1833; la giunta del generale Galtieri ordinò l’invasione; Thatcher inviò una forza navale; resa argentina a Stanley; circa 750 argentini e 255–256 britannici morti. Il legame tra la sconfitta e la fine della dittatura (1983) è un giudizio comune, presente nella voce Argentina di Britannica ma qui non citato parola per parola.",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-chile-plebiscite-1988",
+   "name": "Il «No» a Pinochet e il ritorno della democrazia in Cile",
+   "start_year": 1988,
+   "end_year": 1990,
+   "date_precision": "range",
+   "date_confidence": "high",
+   "summary": "Nell’ottobre 1988 i cileni votano in un plebiscito previsto dalla costituzione di Pinochet: il «No» a un altro mandato vince con il 55%. Pinochet deve indire elezioni libere e l’11 marzo 1990 lascia la presidenza al democristiano Patricio Aylwin, dopo 17 anni di dittatura.",
+   "region": "Americhe",
+   "subregion": "Cile",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -33.4489,
+    "longitude": -70.6693,
+    "label": "Santiago del Cile",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-encyclopaedia-britannica-augusto-pinochet",
+    "src-v-encyclopaedia-britannica-history-of-chile",
+    "src-v-encyclopaedia-britannica-patricio-aylwin",
+    "src-v-encyclopaedia-britannica-military-rule-transitio"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 3,
+   "world_area": "SA",
+   "event_type": "political",
+   "place_name": "Santiago del Cile",
+   "related_entity_ids": [
+    "event-chile-coup-1973",
+    "event-operation-condor"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Britannica: il plebiscito dell’ottobre 1988, previsto dalla costituzione del 1980/81, diede il 55% al «no» e il 43% al «sì»; Pinochet restò in carica fino all’insediamento del presidente eletto Patricio Aylwin l’11 marzo 1990; Aylwin fu il primo presidente eletto democraticamente dopo il colpo di stato del 1973 (17 anni di regime: 1973–90).",
+   "verified_on": "2026-11-25"
+  },
+  {
+   "id": "event-australian-federation",
+   "name": "Nasce il Commonwealth d’Australia",
+   "start_year": 1901,
+   "end_year": 1901,
+   "date_precision": "year",
+   "date_confidence": "high",
+   "summary": "Il 1° gennaio 1901 le sei colonie britanniche d’Australia si uniscono in una federazione, il Commonwealth d’Australia, con una costituzione scritta da delegati australiani e approvata con referendum. Il nuovo parlamento federale si riunisce a Melbourne finché non sarà costruita la capitale, Canberra.",
+   "region": "Oceania",
+   "subregion": "Australia",
+   "map_geometry": {
+    "type": "point",
+    "latitude": -37.8136,
+    "longitude": 144.9631,
+    "label": "Melbourne · prima sede del Parlamento federale",
+    "precision": "representative_anchor"
+   },
+   "source_ids": [
+    "src-v-national-archives-of-australia-the-federation-of",
+    "src-v-parliament-of-australia-infosheet-13-the-constit",
+    "src-v-parliament-of-australia-federation-and-the-seat",
+    "src-v-parliament-of-australia-parliament-explained-fed"
+   ],
+   "editorial_status": "source-checked",
+   "layer": "eventi",
+   "relevance": 2,
+   "world_area": "OC",
+   "event_type": "state_formation",
+   "place_name": "Australia",
+   "related_entity_ids": [
+    "event-treaty-waitangi"
+   ],
+   "notes": "Verificata il 25/11/2026: Voce nuova. Archivi nazionali e Parlamento australiano: le sei colonie (Nuovo Galles del Sud, Victoria, Queensland, Australia Meridionale, Australia Occidentale, Tasmania) diventarono una nazione, il Commonwealth d’Australia, il 1° gennaio 1901, quando entrò in vigore la costituzione approvata dal Parlamento britannico (assenso reale il 9 luglio 1900), scritta in convenzioni degli anni 1890 e approvata con referendum in ogni colonia; la costituzione stabiliva che il Parlamento sedesse a Melbourne fino alla nuova sede del governo. Canberra come capitale è conoscenza generale.",
+   "verified_on": "2026-11-25"
   }
  ],
  "sources": [
@@ -33127,7 +34230,8 @@
    "url": "https://www.britannica.com/place/Japan/Economic-transformation",
    "source_type": "encyclopedia",
    "supports": [
-    "event-japan-economic-miracle"
+    "event-japan-economic-miracle",
+    "event-oil-crisis-1973"
    ],
    "notes": "Fonte specifica usata nella verifica del 19/11/2026."
   },
@@ -33292,7 +34396,8 @@
    "url": "https://www.britannica.com/biography/Augusto-Pinochet",
    "source_type": "encyclopedia",
    "supports": [
-    "event-chile-coup-1973"
+    "event-chile-coup-1973",
+    "event-chile-plebiscite-1988"
    ],
    "notes": "Fonte specifica usata nella verifica del 19/11/2026."
   },
@@ -35415,7 +36520,8 @@
    "url": "https://www.britannica.com/story/history-of-technology-timeline",
    "source_type": "encyclopedia",
    "supports": [
-    "invention-compass"
+    "invention-compass",
+    "invention-smartphone"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -40157,7 +41263,8 @@
    "url": "https://www.britannica.com/event/Philippine-Revolution",
    "source_type": "encyclopedia",
    "supports": [
-    "event-rizal-noli"
+    "event-rizal-noli",
+    "event-philippine-revolution"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
   },
@@ -40226,6 +41333,1238 @@
     "event-nz-women-vote"
    ],
    "notes": "Fonte specifica usata nella verifica del 23/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-league-of-nations",
+   "institution": "Encyclopaedia Britannica",
+   "title": "League of Nations",
+   "url": "https://www.britannica.com/topic/League-of-Nations",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-league-of-nations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-covenant-of-the-league",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Covenant of the League of Nations",
+   "url": "https://www.britannica.com/topic/Covenant-of-the-League-of-Nations",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-league-of-nations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-europe-the-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Europe · The interwar years",
+   "url": "https://www.britannica.com/topic/history-of-Europe/The-interwar-years",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-league-of-nations"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-arab-oil-embargo",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Arab oil embargo",
+   "url": "https://www.britannica.com/event/Arab-oil-embargo",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-oil-crisis-1973"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-oil-crisis",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Oil crisis",
+   "url": "https://www.britannica.com/money/oil-crisis",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-oil-crisis-1973"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-bankruptcy-of-lehman-br",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Bankruptcy of Lehman Brothers",
+   "url": "https://www.britannica.com/event/bankruptcy-of-Lehman-Brothers",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-financial-crisis-2008"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-great-recession",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Great Recession",
+   "url": "https://www.britannica.com/money/great-recession",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-financial-crisis-2008"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-financial-crisis-of-200",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Financial crisis of 2007–08 · Key events of the crisis",
+   "url": "https://www.britannica.com/money/financial-crisis-of-2007-2008/Key-events-of-the-crisis",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-financial-crisis-2008"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-5-of-the-worlds-most-de",
+   "institution": "Encyclopaedia Britannica",
+   "title": "5 of the World’s Most Devastating Financial Crises",
+   "url": "https://www.britannica.com/story/5-of-the-worlds-most-devastating-financial-crises",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-financial-crisis-2008"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iphone",
+   "institution": "Encyclopaedia Britannica",
+   "title": "iPhone",
+   "url": "https://www.britannica.com/technology/iPhone",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-smartphone"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ios",
+   "institution": "Encyclopaedia Britannica",
+   "title": "iOS",
+   "url": "https://www.britannica.com/technology/iOS",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-smartphone"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-palm-os",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Palm OS",
+   "url": "https://www.britannica.com/technology/Palm-OS",
+   "source_type": "encyclopedia",
+   "supports": [
+    "invention-smartphone"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-prague-spring",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Prague Spring",
+   "url": "https://www.britannica.com/event/Prague-Spring",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-prague-spring"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-why-did-soviet-forces-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Why did Soviet forces invade Czechoslovakia in August 1968?",
+   "url": "https://www.britannica.com/place/Why-did-Soviet-forces-invade-Czechoslovakia-in-August-1968",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-prague-spring"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-moscow-protocol",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Moscow Protocol",
+   "url": "https://www.britannica.com/topic/Moscow-Protocol",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-prague-spring"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-serbia-the-disintegrati",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Serbia · The disintegration of the federation",
+   "url": "https://www.britannica.com/place/Serbia/The-disintegration-of-the-federation",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-yugoslav-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-bosnian-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Bosnian War",
+   "url": "https://www.britannica.com/event/Bosnian-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-yugoslav-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-dayton-accords",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Dayton Accords",
+   "url": "https://www.britannica.com/event/Dayton-Accords",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-yugoslav-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-bosnia-and-herzegovina",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Bosnia and Herzegovina · Independence and war",
+   "url": "https://www.britannica.com/place/Bosnia-and-Herzegovina/Bosnia-and-Herzegovina-in-communist-Yugoslavia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-yugoslav-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-kosovo",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Kosovo",
+   "url": "https://www.britannica.com/place/history-of-Kosovo",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-yugoslav-wars"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-russia-ukraine-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Russia-Ukraine War",
+   "url": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russia-ukraine-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-did-the-russia-ukr",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When did the Russia-Ukraine War begin?",
+   "url": "https://www.britannica.com/question/When-did-the-Russia-Ukraine-War-begin",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russia-ukraine-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ukraine-crisis-of-20131",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ukraine crisis of 2013–14",
+   "url": "https://www.britannica.com/topic/Ukraine-crisis",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russia-ukraine-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-al-jazeera-ukraine-claims-record-russian-casualt",
+   "institution": "Al Jazeera",
+   "title": "Ukraine claims record Russian casualties as war drags on (13 novembre 2026)",
+   "url": "https://www.aljazeera.com/amp/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-russia-ukraine-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-congo-crisis",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Congo crisis",
+   "url": "https://www.britannica.com/topic/Congo-crisis",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-congo-crisis"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-patrice-lumumba",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Patrice Lumumba",
+   "url": "https://www.britannica.com/biography/Patrice-Lumumba",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-congo-crisis"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-joseph-kasavubu",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Joseph Kasavubu",
+   "url": "https://www.britannica.com/biography/Joseph-Kasavubu",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-congo-crisis"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-democratic-republic-of",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Democratic Republic of the Congo",
+   "url": "https://kids.britannica.com/students/article/Democratic-Republic-of-the-Congo/277871",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-congo-crisis"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-20th-century-internatio",
+   "institution": "Encyclopaedia Britannica",
+   "title": "20th-century international relations · Decolonization and development",
+   "url": "https://www.britannica.com/topic/20th-century-international-relations-2085155/Decolonization-and-development",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-congo-crisis"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mau-mau-rebellion",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mau Mau Rebellion",
+   "url": "https://www.britannica.com/event/Mau-Mau-Rebellion",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mau-mau-kenya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-mau-mau",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Mau Mau",
+   "url": "https://www.britannica.com/topic/Mau-Mau",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mau-mau-kenya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-kenya",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Kenya",
+   "url": "https://www.britannica.com/topic/history-of-Kenya",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mau-mau-kenya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-did-kenya-become-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When did Kenya become independent?",
+   "url": "https://www.britannica.com/place/When-did-Kenya-become-independent",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-mau-mau-kenya"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nigerian-civil-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nigerian Civil War",
+   "url": "https://www.britannica.com/topic/Nigerian-civil-war",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-biafra-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-biafra",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Biafra",
+   "url": "https://www.britannica.com/place/Biafra",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-biafra-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nigeria-the-civil-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nigeria · The civil war",
+   "url": "https://www.britannica.com/place/Nigeria/Independent-Nigeria",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-biafra-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-how-did-the-nigerian-ci",
+   "institution": "Encyclopaedia Britannica",
+   "title": "How did the Nigerian Civil War end in 1970?",
+   "url": "https://www.britannica.com/topic/How-did-the-Nigerian-Civil-War-end-in-1970",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-biafra-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-egypt-the-revolution-an",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Egypt · The revolution and the Republic",
+   "url": "https://www.britannica.com/place/Egypt/The-revolution-and-the-Republic",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-egypt-revolution-1952"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-free-officers",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Free Officers",
+   "url": "https://www.britannica.com/topic/Free-Officers",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-egypt-revolution-1952"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-gamal-abdel-nasser",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Gamal Abdel Nasser",
+   "url": "https://www.britannica.com/biography/Gamal-Abdel-Nasser",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-egypt-revolution-1952"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-how-did-the-1952-coup-c",
+   "institution": "Encyclopaedia Britannica",
+   "title": "How did the 1952 coup change Egypt’s political landscape?",
+   "url": "https://www.britannica.com/question/How-did-the-1952-coup-change-Egypts-political-landscape",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-egypt-revolution-1952"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iran-iraq-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Iran-Iraq War",
+   "url": "https://www.britannica.com/event/Iran-Iraq-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-iran-iraq-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iran-iraq-war-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Iran-Iraq War summary",
+   "url": "https://www.britannica.com/summary/Iran-Iraq-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-iran-iraq-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iran-iraq-war-2",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Iran-Iraq War",
+   "url": "https://kids.britannica.com/students/article/Iran-Iraq-War/574399",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-iran-iraq-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-timeline-of-the-persian",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Timeline of the Persian Gulf War",
+   "url": "https://www.britannica.com/list/persian-gulf-war-timeline",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gulf-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-iraq-the-persian-gulf-w",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Iraq · The Persian Gulf War",
+   "url": "https://www.britannica.com/place/Iraq/The-Persian-Gulf-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gulf-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-operation-desert-storm",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Operation Desert Storm",
+   "url": "https://www.britannica.com/topic/Operation-Desert-Storm-Middle-Eastern-history",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gulf-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-kuwait",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Kuwait",
+   "url": "https://www.britannica.com/topic/history-of-Kuwait",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-gulf-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-syrian-civil-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Syrian Civil War",
+   "url": "https://www.britannica.com/event/Syrian-Civil-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-syrian-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-syrian-civil-war-uprisi",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Syrian Civil War · Uprising in Syria, 2011–",
+   "url": "https://www.britannica.com/event/Syrian-Civil-War/Uprising-in-Syria-2011",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-syrian-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-syria",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Syria",
+   "url": "https://www.britannica.com/place/Syria",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-syrian-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-who-are-the-major-comba",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Who are the major combatants in the Syrian Civil War?",
+   "url": "https://www.britannica.com/question/Who-are-the-major-combatants-in-the-Syrian-Civil-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-syrian-civil-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kashmir",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kashmir",
+   "url": "https://www.britannica.com/place/Kashmir-region-Indian-subcontinent",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-kashmir-conflict"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-how-was-the-line-of-con",
+   "institution": "Encyclopaedia Britannica",
+   "title": "How was the line of control in Kashmir established?",
+   "url": "https://www.britannica.com/place/How-was-the-line-of-control-in-Kashmir-established",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-kashmir-conflict"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-instrument-of-accession",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Instrument of Accession to the Indian Union",
+   "url": "https://www.britannica.com/topic/Instrument-of-Accession-to-the-Indian-Union",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-kashmir-conflict"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-economy-of-india-libera",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Economy of India · Liberalization and reform (1991–2000)",
+   "url": "https://www.britannica.com/money/economy-of-India",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-india-1991-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-p-v-narasimha-rao",
+   "institution": "Encyclopaedia Britannica",
+   "title": "P.V. Narasimha Rao",
+   "url": "https://www.britannica.com/biography/P-V-Narasimha-Rao",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-india-1991-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-manmohan-singh",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Manmohan Singh",
+   "url": "https://www.britannica.com/biography/Manmohan-Singh",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-india-1991-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-manmohan-singh-2",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Manmohan Singh",
+   "url": "https://kids.britannica.com/students/article/Manmohan-Singh/476657",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-india-1991-reforms"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-russo-japanese-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Russo-Japanese War",
+   "url": "https://www.britannica.com/event/Russo-Japanese-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russo-japanese-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-empire-of-japan-the-rus",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Empire of Japan · The Russo-Japanese War",
+   "url": "https://www.britannica.com/place/Empire-of-Japan/The-Russo-Japanese-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russo-japanese-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-japan-the-emergence-of",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Japan · The emergence of imperial Japan",
+   "url": "https://www.britannica.com/place/Japan/The-emergence-of-imperial-Japan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-russo-japanese-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-tiananmen-square-incide",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Tiananmen Square incident",
+   "url": "https://www.britannica.com/event/Tiananmen-Square-incident",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tiananmen-1989"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-how-did-the-chinese-gov",
+   "institution": "Encyclopaedia Britannica",
+   "title": "How did the Chinese government respond to the 1989 Tiananmen Square protests?",
+   "url": "https://www.britannica.com/event/How-did-the-Chinese-government-respond-to-the-1989-Tiananmen-Square-protests",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tiananmen-1989"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-hu-yaobang",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Hu Yaobang",
+   "url": "https://www.britannica.com/biography/Hu-Yaobang",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tiananmen-1989"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-handover-of-hong-kong",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Handover of Hong Kong",
+   "url": "https://www.britannica.com/event/handover-of-Hong-Kong",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-hong-kong-handover"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-hong-kong-return-to-chi",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Hong Kong · Return to Chinese sovereignty",
+   "url": "https://www.britannica.com/place/Hong-Kong/Postwar-Hong-Kong",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-hong-kong-handover"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-basic-law-of-the-hong-k",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Basic Law of the Hong Kong Special Administrative Region",
+   "url": "https://www.britannica.com/topic/Basic-Law-of-the-Hong-Kong-Special-Administrative-Region",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-hong-kong-handover"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-aral-sea",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Aral Sea",
+   "url": "https://www.britannica.com/place/Aral-Sea",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-aral-sea"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-how-did-river-diversion",
+   "institution": "Encyclopaedia Britannica",
+   "title": "How did river diversion for irrigation contribute to the shrinking of the Aral Sea?",
+   "url": "https://www.britannica.com/technology/How-did-river-diversion-for-irrigation-contribute-to-the-shrinking-of-the-Aral-Sea",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-aral-sea"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-aral-sea-2",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Aral Sea",
+   "url": "https://kids.britannica.com/students/article/Aral-Sea/272930",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-aral-sea"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kok-aral-dam",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kok-Aral Dam",
+   "url": "https://www.britannica.com/topic/Kok-Aral-Dam",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-aral-sea"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nuclear-weapon-the-sovi",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nuclear weapon · The Soviet Union",
+   "url": "https://www.britannica.com/technology/nuclear-weapon/The-Soviet-Union",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-semipalatinsk"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-nazioni-unite-un-news-every-step-towards-disarma",
+   "institution": "Nazioni Unite · UN News",
+   "title": "‘Every step towards disarmament matters,’ nuclear testing survivors warn (2026)",
+   "url": "https://news.un.org/en/story/2026/08/1168231",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-semipalatinsk"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-ctbto-international-day-against-nuclear-tests",
+   "institution": "CTBTO",
+   "title": "International Day against Nuclear Tests",
+   "url": "https://www.ctbto.org/news-and-events/international-day-against-nuclear-tests",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-semipalatinsk"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-kazakhstan-2",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Kazakhstan",
+   "url": "https://www.britannica.com/place/Kazakhstan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-semipalatinsk"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-afghanistan-war-the-u-s",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Afghanistan War · The U.S. withdrawal and the return of the Taliban",
+   "url": "https://www.britannica.com/event/Afghanistan-War/Obama-and-the-U-S-troop-surge",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-afghanistan-war-2001"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-taliban",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Taliban",
+   "url": "https://www.britannica.com/topic/Taliban",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-afghanistan-war-2001"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-withdrawal-of-united-st",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Withdrawal of United States troops from Afghanistan",
+   "url": "https://www.britannica.com/event/withdrawal-of-United-States-troops-from-Afghanistan",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-afghanistan-war-2001"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-afghanistan-u-s-led-inv",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Afghanistan · U.S.-led invasion and toppling of the Taliban",
+   "url": "https://www.britannica.com/place/Afghanistan/Struggle-for-democracy",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-afghanistan-war-2001"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-philippines-the-philipp",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Philippines · The Philippine Revolution",
+   "url": "https://www.britannica.com/place/Philippines/The-19th-century",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-philippine-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-andres-bonifacio",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Andrés Bonifacio",
+   "url": "https://www.britannica.com/biography/Andres-Bonifacio",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-philippine-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-philippine-american-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Philippine-American War",
+   "url": "https://www.britannica.com/event/Philippine-American-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-philippine-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-malaysia-the",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Malaysia · The impact of British rule",
+   "url": "https://www.britannica.com/topic/history-of-Malaysia/The-impact-of-British-rule",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-malaysia-singapore"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-malaysia",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Malaysia",
+   "url": "https://www.britannica.com/place/Malaysia",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-malaysia-singapore"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-singapore",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Singapore",
+   "url": "https://www.britannica.com/topic/history-of-Singapore",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-malaysia-singapore"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-federation-of-malaya",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Federation of Malaya",
+   "url": "https://www.britannica.com/place/Federation-of-Malaya",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-malaysia-singapore"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-philippines",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Philippines",
+   "url": "https://www.britannica.com/place/Philippines",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-people-power-1986"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-ferdinand-marcos",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Ferdinand Marcos",
+   "url": "https://www.britannica.com/biography/Ferdinand-E-Marcos",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-people-power-1986"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-corazon-aquino",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Corazon Aquino",
+   "url": "https://www.britannica.com/biography/Corazon-Aquino",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-people-power-1986"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-fidel-ramos",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Fidel Ramos",
+   "url": "https://www.britannica.com/biography/Fidel-Ramos",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-people-power-1986"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-indian-ocean-tsunami-of",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Indian Ocean tsunami of 2004",
+   "url": "https://www.britannica.com/event/Indian-Ocean-tsunami-of-2004",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tsunami-2004"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-indian-ocean-tsunami-of-2",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Indian Ocean tsunami of 2004",
+   "url": "https://kids.britannica.com/students/article/Indian-Ocean-tsunami-of-2004/604538",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tsunami-2004"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-banda-aceh",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Banda Aceh",
+   "url": "https://www.britannica.com/place/Banda-Aceh",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-tsunami-2004"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nunavut",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nunavut",
+   "url": "https://www.britannica.com/place/Nunavut",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-nunavut"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nunavut-summary",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nunavut summary",
+   "url": "https://www.britannica.com/summary/Nunavut",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-nunavut"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-the-canadian-encyclopedia-territorial-government",
+   "institution": "The Canadian Encyclopedia",
+   "title": "Territorial Government in Canada",
+   "url": "https://www.thecanadianencyclopedia.ca/en/article/territorial-government",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-nunavut"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-sandinista",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Sandinista",
+   "url": "https://www.britannica.com/topic/Sandinista",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-sandinista-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-nicaragua",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Nicaragua",
+   "url": "https://www.britannica.com/topic/history-of-Nicaragua",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-sandinista-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-nicaragua",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Nicaragua",
+   "url": "https://www.britannica.com/place/Nicaragua",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-sandinista-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-violeta-barrios-de-cham",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Violeta Barrios de Chamorro",
+   "url": "https://www.britannica.com/biography/Violeta-Barrios-de-Chamorro",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-sandinista-revolution"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-falkland-islands-war",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Falkland Islands War",
+   "url": "https://www.britannica.com/event/Falkland-Islands-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-falklands-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-when-did-the-falkland-i",
+   "institution": "Encyclopaedia Britannica",
+   "title": "When did the Falkland Islands War begin and end?",
+   "url": "https://www.britannica.com/event/When-did-the-Falkland-Islands-War-begin-and-end",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-falklands-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-argentina-galtieri-and",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Argentina · Galtieri and the Falklands War",
+   "url": "https://www.britannica.com/place/Argentina/Galtieri-and-the-Falklands-War",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-falklands-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-falkland-islands-war-2",
+   "institution": "Encyclopaedia Britannica (edizione per studenti)",
+   "title": "Falkland Islands War",
+   "url": "https://kids.britannica.com/students/article/Falkland-Islands-War/603440",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-falklands-war"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-history-of-chile",
+   "institution": "Encyclopaedia Britannica",
+   "title": "History of Chile",
+   "url": "https://www.britannica.com/topic/history-of-Chile",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-chile-plebiscite-1988"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-patricio-aylwin",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Patricio Aylwin",
+   "url": "https://www.britannica.com/biography/Patricio-Aylwin",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-chile-plebiscite-1988"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-encyclopaedia-britannica-military-rule-transitio",
+   "institution": "Encyclopaedia Britannica",
+   "title": "Military rule · Transitions from military rule",
+   "url": "https://www.britannica.com/topic/military-rule/Mechanisms-and-impacts-of-military-rule",
+   "source_type": "encyclopedia",
+   "supports": [
+    "event-chile-plebiscite-1988"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-national-archives-of-australia-the-federation-of",
+   "institution": "National Archives of Australia",
+   "title": "The Federation of Australia",
+   "url": "https://www.naa.gov.au/students-and-teachers/student-research-portal/learning-resource-themes/government-and-democracy/federation/federation-australia",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-australian-federation"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-parliament-of-australia-infosheet-13-the-constit",
+   "institution": "Parliament of Australia",
+   "title": "Infosheet 13 · The Constitution",
+   "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_13_-_The_Constitution",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-australian-federation"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-parliament-of-australia-federation-and-the-seat",
+   "institution": "Parliament of Australia",
+   "title": "Federation and the Seat of Government debate, 1900–1911",
+   "url": "https://www.aph.gov.au/25th_Anniversary_Chronology/Federation_and_the_Seat_of_Government_debate",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-australian-federation"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
+  },
+  {
+   "id": "src-v-parliament-of-australia-parliament-explained-fed",
+   "institution": "Parliament of Australia",
+   "title": "Parliament Explained: Federation",
+   "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/About_the_House_News/News/Parliament_Explained_Federation",
+   "source_type": "institutional_document",
+   "supports": [
+    "event-australian-federation"
+   ],
+   "notes": "Fonte specifica usata nella verifica del 25/11/2026."
   }
  ],
  "editorial_notes": [
@@ -40246,7 +42585,8 @@
   "v0.67 verifica rilevanza 3, blocco b",
   "v0.68 voci nuove per i buchi nel tempo (23) e posizioni sulla mappa",
   "v0.70 approfondimenti: Sardegna, Maya e Yucatán, Rapa Nui, Europa e Italia (27 voci)",
-  "Voce nuova della v0.71 (tecnologie e idee), con fonti specifiche."
+  "Voce nuova della v0.71 (tecnologie e idee), con fonti specifiche.",
+  "v0.74 storia contemporanea: 31 voci dal 1901 al 2026 in tutte le aree del mondo"
  ],
  "technology_domains": [
   {

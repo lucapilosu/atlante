@@ -1,0 +1,1443 @@
+[
+ {
+  "tipo": "event",
+  "id": "event-league-of-nations",
+  "name": "Società delle Nazioni",
+  "start_year": 1920,
+  "end_year": 1946,
+  "date_confidence": "high",
+  "summary": "Nata il 10 gennaio 1920 dai trattati di pace della Prima guerra mondiale, con sede a Ginevra, è la prima organizzazione mondiale per risolvere le dispute senza guerre. Senza gli Stati Uniti e incapace di fermare le aggressioni di Giappone e Italia, non evita la Seconda guerra mondiale; nel 1946 lascia il posto all’ONU.",
+  "region": "Globale",
+  "subregion": "Ginevra",
+  "lat": 46.2266,
+  "lon": 6.1405,
+  "label": "Ginevra · Palazzo delle Nazioni",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-world-war-one",
+   "event-world-war-two",
+   "event-united-nations"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "League of Nations",
+    "url": "https://www.britannica.com/topic/League-of-Nations"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Covenant of the League of Nations",
+    "url": "https://www.britannica.com/topic/Covenant-of-the-League-of-Nations"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Europe · The interwar years",
+    "url": "https://www.britannica.com/topic/history-of-Europe/The-interwar-years"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: istituita il 10 gennaio 1920 su iniziativa degli Alleati vincitori della Prima guerra mondiale, sciolta formalmente il 19 aprile 1946 e sostituita dall’ONU; sede a Ginevra; 42 membri fondatori, senza gli Stati Uniti; il Patto (Covenant) era parte del trattato di Versailles. Non riuscì a impedire le aggressioni di Giappone e Italia negli anni Trenta (voce Covenant). Il punto sul Palazzo delle Nazioni (sede dal 1936) è scelto da Claude come riferimento a Ginevra.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Ginevra",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-oil-crisis-1973",
+  "name": "Crisi petrolifera del 1973",
+  "start_year": 1973,
+  "end_year": 1974,
+  "date_confidence": "high",
+  "summary": "Durante la guerra arabo-israeliana dell’ottobre 1973 i paesi arabi dell’OPEC bloccano il petrolio agli Stati Uniti e ad altri alleati di Israele e ne quadruplicano il prezzo. Code ai distributori, inflazione e crisi: finisce la lunga crescita del dopoguerra in Occidente e in Giappone.",
+  "region": "Globale",
+  "subregion": "Medio Oriente, Stati Uniti, Europa, Giappone",
+  "lat": 29.3759,
+  "lon": 47.9774,
+  "label": "Golfo Persico · punto di orientamento",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-opec",
+   "event-israel-1948",
+   "event-japan-economic-miracle"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Arab oil embargo",
+    "url": "https://www.britannica.com/event/Arab-oil-embargo"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Oil crisis",
+    "url": "https://www.britannica.com/money/oil-crisis"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Japan · Economic transformation",
+    "url": "https://www.britannica.com/place/Japan/Economic-transformation"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: embargo dei membri arabi dell’OPEC da ottobre 1973 a marzo 1974 contro Stati Uniti, Paesi Bassi, Portogallo, Rodesia e Sudafrica, per il sostegno a Israele nella guerra del Kippur; il prezzo del petrolio fu quadruplicato fino a quasi 12 dollari al barile ed esportazioni vietate verso Stati Uniti, Giappone ed Europa occidentale. In Giappone l’«oil shock» del 1973 chiuse l’epoca dell’alta crescita. Il punto nel Golfo Persico è solo di orientamento.",
+  "data": "2026-11-25",
+  "event_type": "economic",
+  "place_name": "Medio Oriente e paesi importatori",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-financial-crisis-2008",
+  "name": "Crisi finanziaria del 2007–2008 e Grande recessione",
+  "start_year": 2007,
+  "end_year": 2009,
+  "date_confidence": "high",
+  "summary": "Lo scoppio della bolla dei mutui negli Stati Uniti travolge le banche: il 15 settembre 2008 fallisce Lehman Brothers, il più grande fallimento della storia americana. I governi salvano le banche con somme senza precedenti, ma la recessione colpisce il mondo intero e servono anni per riprendersi.",
+  "region": "Globale",
+  "subregion": "Stati Uniti e mercati finanziari mondiali",
+  "lat": 40.7605,
+  "lon": -73.9845,
+  "label": "New York · sede di Lehman Brothers",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "GL",
+  "related": [
+   "event-great-depression"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bankruptcy of Lehman Brothers",
+    "url": "https://www.britannica.com/event/bankruptcy-of-Lehman-Brothers"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Great Recession",
+    "url": "https://www.britannica.com/money/great-recession"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Financial crisis of 2007–08 · Key events of the crisis",
+    "url": "https://www.britannica.com/money/financial-crisis-of-2007-2008/Key-events-of-the-crisis"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "5 of the World’s Most Devastating Financial Crises",
+    "url": "https://www.britannica.com/story/5-of-the-worlds-most-devastating-financial-crises"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: crisi iniziata nel 2007 con lo scoppio della bolla immobiliare statunitense (mutui subprime); la banca d’investimento Lehman Brothers, con sede a New York, fallì il 15 settembre 2008, il più grande fallimento della storia statunitense fino ad allora; seguirono salvataggi pubblici senza precedenti. La Grande recessione negli Stati Uniti va da dicembre 2007 a giugno 2009 (PIL −4,3%, disoccupazione dal 5 al 9,5%); per tornare alla normalità servì quasi un decennio. L’indirizzo esatto della sede è da conoscenza generale.",
+  "data": "2026-11-25",
+  "event_type": "economic",
+  "place_name": "New York e mercati mondiali",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "entity",
+  "id": "invention-smartphone",
+  "name": "Smartphone: Internet in tasca",
+  "start_year": 2007,
+  "end_year": 2008,
+  "date_confidence": "high",
+  "summary": "Nel 2007 Apple presenta l’iPhone: telefono, macchina fotografica, lettore musicale e computer con accesso a Internet in uno schermo che si comanda con le dita. Dal 2008 si possono scaricare applicazioni di altri sviluppatori: lo smartphone cambia il modo di comunicare, comprare e lavorare.",
+  "region": "Globale",
+  "subregion": "Stati Uniti, poi tutto il mondo",
+  "lat": 37.3318,
+  "lon": -122.0312,
+  "label": "Cupertino (California) · sede di Apple",
+  "layer": "tecnologie",
+  "relevance": 3,
+  "world_area": "GL",
+  "related": [
+   "event-web",
+   "invention-personal-computer"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "iPhone",
+    "url": "https://www.britannica.com/technology/iPhone"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "iOS",
+    "url": "https://www.britannica.com/technology/iOS"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Technology Timeline",
+    "url": "https://www.britannica.com/story/history-of-technology-timeline"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Palm OS",
+    "url": "https://www.britannica.com/technology/Palm-OS"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: l’iPhone, che unisce telefono, fotocamera, lettore musicale e computer, uscì negli Stati Uniti nel 2007 dopo oltre due anni di sviluppo; schermo a sfioramento usato con le dita invece di stilo o tasti; l’aggiornamento del 2008 permise di comprare applicazioni di sviluppatori terzi e «rivoluzionò» il modo di socializzare, comprare e lavorare (voce iOS). Non fu il primo smartphone (BlackBerry dal 2002, voce Palm OS) ma rese popolare il genere. Voce scelta per rappresentare lo smartphone, non un singolo marchio; il punto su Cupertino è da conoscenza generale.",
+  "data": "2026-11-25",
+  "entity_type": "invention",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-prague-spring",
+  "name": "Primavera di Praga",
+  "start_year": 1968,
+  "end_year": 1968,
+  "date_confidence": "high",
+  "summary": "Nel 1968 il comunista slovacco Alexander Dubček prova in Cecoslovacchia un «socialismo dal volto umano»: meno censura, più libertà. Il 20–21 agosto le truppe del Patto di Varsavia guidate dall’URSS invadono il paese e mettono fine alle riforme.",
+  "region": "Europa",
+  "subregion": "Cecoslovacchia",
+  "lat": 50.0813,
+  "lon": 14.428,
+  "label": "Praga · piazza San Venceslao",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Prague Spring",
+    "url": "https://www.britannica.com/event/Prague-Spring"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Why did Soviet forces invade Czechoslovakia in August 1968?",
+    "url": "https://www.britannica.com/place/Why-did-Soviet-forces-invade-Czechoslovakia-in-August-1968"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Moscow Protocol",
+    "url": "https://www.britannica.com/topic/Moscow-Protocol"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: breve periodo di liberalizzazione in Cecoslovacchia iniziato nel gennaio 1968 con Alexander Dubček primo segretario del Partito comunista («socialismo dal volto umano»: fine della censura, diritti civili); il 20 agosto 1968 forze guidate dall’URSS invasero il paese e arrestarono Dubček e altri dirigenti; la popolazione oppose una resistenza passiva; il Protocollo di Mosca (27 agosto) chiuse la stagione delle riforme. Il punto su piazza San Venceslao è scelto da Claude.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Praga",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-yugoslav-wars",
+  "name": "Guerre nella ex Jugoslavia",
+  "start_year": 1991,
+  "end_year": 1999,
+  "date_confidence": "high",
+  "summary": "Quando la Jugoslavia si dissolve, nel 1991, scoppiano guerre tra le sue repubbliche e i suoi popoli: Slovenia, Croazia, Bosnia ed Erzegovina, con l’assedio di Sarajevo e il genocidio di Srebrenica (1995). Gli accordi di Dayton chiudono la guerra in Bosnia; nel 1999 la NATO bombarda la Serbia per il Kosovo.",
+  "region": "Europa",
+  "subregion": "Balcani occidentali",
+  "lat": 43.8563,
+  "lon": 18.4131,
+  "label": "Sarajevo",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-ussr-dissolution",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Serbia · The disintegration of the federation",
+    "url": "https://www.britannica.com/place/Serbia/The-disintegration-of-the-federation"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bosnian War",
+    "url": "https://www.britannica.com/event/Bosnian-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Dayton Accords",
+    "url": "https://www.britannica.com/event/Dayton-Accords"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Bosnia and Herzegovina · Independence and war",
+    "url": "https://www.britannica.com/place/Bosnia-and-Herzegovina/Bosnia-and-Herzegovina-in-communist-Yugoslavia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Kosovo",
+    "url": "https://www.britannica.com/place/history-of-Kosovo"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il 25 giugno 1991 Slovenia e Croazia lasciarono la federazione e seguì una guerra di dieci giorni in Slovenia; poi la guerra in Croazia e in Bosnia (1992–95), con l’assedio di Sarajevo e il massacro di Srebrenica (luglio 1995, oltre 7.000 uomini bosgnacchi uccisi dalle forze serbo-bosniache, riconosciuto come genocidio); gli accordi di Dayton (21 novembre 1995) chiusero la guerra in Bosnia. Il conflitto del Kosovo (1998–99) finì nel giugno 1999 dopo i bombardamenti NATO iniziati il 24 marzo. La voce si ferma al 1999; Britannica non usa una data unica di fine per l’insieme delle guerre.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Slovenia, Croazia, Bosnia ed Erzegovina, Kosovo",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-russia-ukraine-war",
+  "name": "Guerra russo-ucraina",
+  "start_year": 2014,
+  "end_year": 2026,
+  "date_confidence": "high",
+  "summary": "Nel 2014 la Russia occupa e annette la Crimea e sostiene i separatisti nel Donbas; il 24 febbraio 2022 lancia l’invasione su vasta scala dell’Ucraina. È la guerra più grande in Europa dal 1945, con centinaia di migliaia di morti e milioni di profughi; a fine 2026 si combatte ancora.",
+  "region": "Europa",
+  "subregion": "Ucraina",
+  "lat": 50.4501,
+  "lon": 30.5234,
+  "label": "Kyiv",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "EU",
+  "related": [
+   "event-ussr-dissolution",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Russia-Ukraine War",
+    "url": "https://www.britannica.com/event/2022-Russian-invasion-of-Ukraine"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did the Russia-Ukraine War begin?",
+    "url": "https://www.britannica.com/question/When-did-the-Russia-Ukraine-War-begin"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ukraine crisis of 2013–14",
+    "url": "https://www.britannica.com/topic/Ukraine-crisis"
+   },
+   {
+    "institution": "Al Jazeera",
+    "title": "Ukraine claims record Russian casualties as war drags on (13 novembre 2026)",
+    "url": "https://www.aljazeera.com/amp/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
+   }
+  ],
+  "nota": "Voce nuova. Britannica (data febbraio 2014 – presente): la guerra inizia nel febbraio 2014 con l’invasione nascosta della Crimea, annessa nel marzo 2014; da aprile 2014 forze russe e locali occupano parte del Donbas (oltre 14.000 morti prima del 2022); il 24 febbraio 2022 la Russia lancia l’invasione su vasta scala. Stato al 25 novembre 2026 (Al Jazeera, 13 novembre 2026, e altre agenzie): la guerra continua, colloqui ad Abu Dhabi il 10–11 novembre senza svolta, solo tregue locali. La fine al 2026 indica «in corso». I «milioni di profughi» e le «centinaia di migliaia di morti» sono indicazioni d’ordine di grandezza riportate dalle agenzie, non dati ufficiali.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Ucraina",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-congo-crisis",
+  "name": "Indipendenza del Congo e crisi congolese",
+  "start_year": 1960,
+  "end_year": 1965,
+  "date_confidence": "high",
+  "summary": "Il 30 giugno 1960 il Congo belga diventa indipendente, con Patrice Lumumba primo ministro. Subito si ammutina l’esercito, il Katanga si separa e intervengono Belgio e ONU in piena guerra fredda; Lumumba è deposto e ucciso nel 1961. Nel 1965 prende il potere Mobutu.",
+  "region": "Africa",
+  "subregion": "Congo (oggi Repubblica Democratica del Congo)",
+  "lat": -4.3217,
+  "lon": 15.3126,
+  "label": "Kinshasa (allora Léopoldville)",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AS",
+  "related": [
+   "movement-decolonization",
+   "event-cold-war",
+   "event-espansione-coloniale-europea-in-africa"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Congo crisis",
+    "url": "https://www.britannica.com/topic/Congo-crisis"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Patrice Lumumba",
+    "url": "https://www.britannica.com/biography/Patrice-Lumumba"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Joseph Kasavubu",
+    "url": "https://www.britannica.com/biography/Joseph-Kasavubu"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Democratic Republic of the Congo",
+    "url": "https://kids.britannica.com/students/article/Democratic-Republic-of-the-Congo/277871"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "20th-century international relations · Decolonization and development",
+    "url": "https://www.britannica.com/topic/20th-century-international-relations-2085155/Decolonization-and-development"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: indipendenza il 30 giugno 1960 con Kasavubu presidente e Lumumba primo ministro; ammutinamento della Force Publique (5 luglio) e intervento dei paracadutisti belgi; secessione del Katanga di Tshombe; intervento dell’ONU; Lumumba deposto nel settembre 1960 e ucciso il 17 gennaio 1961 in Katanga; il 1960 fu l’anno culminante della decolonizzazione africana e la prima crisi della guerra fredda nel continente. Kasavubu fu presidente fino al 1965, quando Mobutu lo destituì (edizione per studenti).",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Léopoldville (Kinshasa) e Katanga",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-mau-mau-kenya",
+  "name": "Rivolta Mau Mau e indipendenza del Kenya",
+  "start_year": 1952,
+  "end_year": 1963,
+  "date_confidence": "high",
+  "summary": "Dal 1952, sugli altopiani del Kenya, il movimento Mau Mau, soprattutto di etnia kikuyu, combatte i coloni britannici per riavere terra e libertà. La rivolta è schiacciata, con oltre 20.000 kenyani morti, ma convince Londra ad accelerare: il 12 dicembre 1963 il Kenya è indipendente, con Jomo Kenyatta.",
+  "region": "Africa",
+  "subregion": "Kenya",
+  "lat": -0.4201,
+  "lon": 36.9476,
+  "label": "Nyeri · altopiani centrali (punto indicativo)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AS",
+  "related": [
+   "movement-decolonization",
+   "event-ghana-independence"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mau Mau Rebellion",
+    "url": "https://www.britannica.com/event/Mau-Mau-Rebellion"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Mau Mau",
+    "url": "https://www.britannica.com/topic/Mau-Mau"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Kenya",
+    "url": "https://www.britannica.com/topic/history-of-Kenya"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did Kenya become independent?",
+    "url": "https://www.britannica.com/place/When-did-Kenya-become-independent"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la rivolta Mau Mau (1952–60), condotta soprattutto da kikuyu contro il governo britannico e milizie africane da esso armate, fu schiacciata; più di 20.000 kenyani morti, cifra discussa; stato d’emergenza dall’ottobre 1952; secondo vari studiosi contribuì a creare le condizioni per l’indipendenza, ottenuta il 12 dicembre 1963, con Jomo Kenyatta primo ministro. La rivolta si svolse soprattutto negli altopiani (edizione per studenti). Il punto su Nyeri, nel cuore degli altopiani centrali, è scelto da Claude.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Altopiani centrali del Kenya",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-biafra-war",
+  "name": "Guerra del Biafra",
+  "start_year": 1967,
+  "end_year": 1970,
+  "date_confidence": "high",
+  "summary": "Nel maggio 1967 la regione orientale della Nigeria, abitata soprattutto da Igbo, si proclama indipendente come Repubblica del Biafra. Segue una guerra civile con un blocco che provoca una carestia terribile: i morti sono tra 500.000 e 3 milioni. Nel gennaio 1970 il Biafra si arrende.",
+  "region": "Africa",
+  "subregion": "Nigeria sud-orientale",
+  "lat": 6.4584,
+  "lon": 7.5464,
+  "label": "Enugu · Nigeria sud-orientale (punto indicativo)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AS",
+  "related": [
+   "movement-decolonization"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nigerian Civil War",
+    "url": "https://www.britannica.com/topic/Nigerian-civil-war"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Biafra",
+    "url": "https://www.britannica.com/place/Biafra"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nigeria · The civil war",
+    "url": "https://www.britannica.com/place/Nigeria/Independent-Nigeria"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did the Nigerian Civil War end in 1970?",
+    "url": "https://www.britannica.com/topic/How-did-the-Nigerian-Civil-War-end-in-1970"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra civile (1967–70) tra il governo federale nigeriano e la Repubblica del Biafra, proclamata da Ojukwu il 30 maggio 1967 per le tre regioni orientali, a maggioranza igbo; cause: conflitti etnici, disuguaglianze economiche e di istruzione; morti stimati tra 500.000 e 3.000.000; fame diffusa; crollo finale dal 24 dicembre 1969, Ojukwu fuggì l’11 gennaio 1970. Il punto su Enugu è indicativo (scelta di Claude).",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Nigeria orientale",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-egypt-revolution-1952",
+  "name": "Rivoluzione egiziana e Nasser",
+  "start_year": 1952,
+  "end_year": 1970,
+  "date_confidence": "high",
+  "summary": "Il 23 luglio 1952 gli «Ufficiali liberi» guidati da Gamal Abdel Nasser rovesciano re Faruk: l’Egitto diventa una repubblica. Presidente dal 1956 alla morte nel 1970, Nasser nazionalizza il canale di Suez, avvia riforme e diventa il simbolo del nazionalismo arabo.",
+  "region": "Africa",
+  "subregion": "Egitto",
+  "lat": 30.0444,
+  "lon": 31.2357,
+  "label": "Il Cairo",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AN",
+  "related": [
+   "event-suez-crisis",
+   "invention-suez-canal",
+   "event-israel-1948"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Egypt · The revolution and the Republic",
+    "url": "https://www.britannica.com/place/Egypt/The-revolution-and-the-Republic"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Free Officers",
+    "url": "https://www.britannica.com/topic/Free-Officers"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Gamal Abdel Nasser",
+    "url": "https://www.britannica.com/biography/Gamal-Abdel-Nasser"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did the 1952 coup change Egypt’s political landscape?",
+    "url": "https://www.britannica.com/question/How-did-the-1952-coup-change-Egypts-political-landscape"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: gli Ufficiali liberi guidati dal colonnello Nasser rovesciarono la monarchia con un colpo di stato quasi incruento il 23 luglio 1952; re Faruk fu costretto all’esilio; fine della monarchia, abolizione dei partiti e nascita della repubblica; Nasser primo ministro (1954–56) e presidente (1956–70); modernizzazione, socialismo, nazionalizzazione del canale di Suez, nazionalismo arabo.",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Il Cairo",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-iran-iraq-war",
+  "name": "Guerra Iran-Iraq",
+  "start_year": 1980,
+  "end_year": 1988,
+  "date_confidence": "high",
+  "summary": "Nel settembre 1980 l’Iraq di Saddam Hussein invade l’Iran, appena uscito dalla rivoluzione islamica, per il fiume Shatt al-Arab e il petrolio del Khuzestan. Ne nasce una guerra di logoramento, con l’uso di armi chimiche, che fa forse un milione di vittime e finisce nel 1988 senza vincitori.",
+  "region": "Asia",
+  "subregion": "Iran e Iraq",
+  "lat": 30.4397,
+  "lon": 48.1664,
+  "label": "Khorramshahr",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "event-iranian-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iran-Iraq War",
+    "url": "https://www.britannica.com/event/Iran-Iraq-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iran-Iraq War summary",
+    "url": "https://www.britannica.com/summary/Iran-Iraq-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Iran-Iraq War",
+    "url": "https://kids.britannica.com/students/article/Iran-Iraq-War/574399"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra prolungata (1980–88) iniziata dall’invasione irachena (22 settembre 1980) dopo la rivoluzione iraniana del 1979; obiettivi iracheni: controllo dello Shatt al-Arab e della provincia petrolifera del Khuzestan; vittime stimate tra uno e due milioni; primo uso di armi chimiche dalla Prima guerra mondiale; cessate il fuoco nel 1988, pace formale il 16 agosto 1990. «Forse un milione» è il minimo della stima. Il punto su Khorramshahr, città presa dall’Iraq nel 1980, è scelto da Claude.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Confine tra Iran e Iraq",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-gulf-war",
+  "name": "Guerra del Golfo",
+  "start_year": 1990,
+  "end_year": 1991,
+  "date_confidence": "high",
+  "summary": "Il 2 agosto 1990 l’Iraq invade e annette il Kuwait, ricco di petrolio. L’ONU condanna l’invasione e una coalizione guidata dagli Stati Uniti, nel gennaio–febbraio 1991, bombarda l’Iraq e libera il Kuwait in pochi giorni di guerra di terra.",
+  "region": "Asia",
+  "subregion": "Kuwait e Iraq",
+  "lat": 29.3759,
+  "lon": 47.9774,
+  "label": "Kuwait City",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "event-iran-iraq-war",
+   "event-opec"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Timeline of the Persian Gulf War",
+    "url": "https://www.britannica.com/list/persian-gulf-war-timeline"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Iraq · The Persian Gulf War",
+    "url": "https://www.britannica.com/place/Iraq/The-Persian-Gulf-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Operation Desert Storm",
+    "url": "https://www.britannica.com/topic/Operation-Desert-Storm-Middle-Eastern-history"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Kuwait",
+    "url": "https://www.britannica.com/topic/history-of-Kuwait"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il 2 agosto 1990 l’Iraq invase e annesse il Kuwait; lo stesso giorno la risoluzione 660 del Consiglio di sicurezza ne chiese il ritiro; l’operazione Desert Storm, campagna aerea guidata dagli Stati Uniti, iniziò il 17 gennaio 1991; l’offensiva di terra dal 24 febbraio liberò il Kuwait entro fine febbraio. Tra le cause, i debiti iracheni della guerra con l’Iran e il calo del prezzo del petrolio.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Kuwait e Iraq",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-syrian-civil-war",
+  "name": "Guerra civile siriana",
+  "start_year": 2011,
+  "end_year": 2024,
+  "date_confidence": "high",
+  "summary": "Nel 2011 le proteste della primavera araba arrivano in Siria; la repressione di Bashar al-Assad le trasforma in guerra civile, con interventi stranieri, l’ascesa dell’ISIS e milioni di profughi. L’8 dicembre 2024 un’offensiva ribelle conquista Damasco e Assad fugge; il paese resta instabile.",
+  "region": "Asia",
+  "subregion": "Siria",
+  "lat": 33.5138,
+  "lon": 36.2765,
+  "label": "Damasco",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AO",
+  "related": [
+   "event-arab-spring",
+   "event-iranian-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Syrian Civil War",
+    "url": "https://www.britannica.com/event/Syrian-Civil-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Syrian Civil War · Uprising in Syria, 2011–",
+    "url": "https://www.britannica.com/event/Syrian-Civil-War/Uprising-in-Syria-2011"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Syria",
+    "url": "https://www.britannica.com/place/Syria"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Who are the major combatants in the Syrian Civil War?",
+    "url": "https://www.britannica.com/question/Who-are-the-major-combatants-in-the-Syrian-Civil-War"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: conflitto iniziato nel 2011 con una rivolta contro Bashar al-Assad, ispirata alla primavera araba; la repressione portò alla guerra; coinvolgimento di attori internazionali (Russia e Iran con Assad), ascesa dell’ISIS; l’8 dicembre 2024 forze ribelli guidate da Hayat Tahrir al-Sham presero Damasco e Assad fu deposto; Ahmed al-Sharaa presidente dal 2025. Britannica considera la guerra ancora in corso («2011 – presente») perché il nuovo governo non controlla tutto il paese: la fine al 2024 indica la caduta di Assad (scelta di Claude). «Milioni di profughi» è un ordine di grandezza, non dalla fonte citata.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Siria",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-kashmir-conflict",
+  "name": "Questione del Kashmir",
+  "start_year": 1947,
+  "end_year": 2026,
+  "date_confidence": "high",
+  "summary": "Alla spartizione del 1947 il maharaja del Kashmir, regione a maggioranza musulmana, aderisce all’India; il Pakistan non lo accetta e scoppia la prima guerra. Dal 1949 una linea di cessate il fuoco divide la regione: da allora India e Pakistan, poi potenze nucleari, si sono combattuti altre volte e la contesa è aperta.",
+  "region": "Asia",
+  "subregion": "Kashmir",
+  "lat": 34.0837,
+  "lon": 74.7973,
+  "label": "Srinagar · valle del Kashmir",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AM",
+  "related": [
+   "event-indipendenza-dellindia-e-partizione",
+   "event-bangladesh-independence"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kashmir",
+    "url": "https://www.britannica.com/place/Kashmir-region-Indian-subcontinent"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How was the line of control in Kashmir established?",
+    "url": "https://www.britannica.com/place/How-was-the-line-of-control-in-Kashmir-established"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Instrument of Accession to the Indian Union",
+    "url": "https://www.britannica.com/topic/Instrument-of-Accession-to-the-Indian-Union"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: regione rivendicata da India e Pakistan, fonte di tensione dalla spartizione del 1947 e teatro di tre guerre tra i due paesi; nell’ottobre 1947 il maharaja Hari Singh firmò l’atto di adesione all’India dopo una rivolta dei sudditi musulmani e l’invasione di tribù pashtun; combattimenti fino al 1948 e cessate il fuoco dell’ONU dal gennaio 1949; la «linea di controllo» divide ancora la regione. «Potenze nucleari» è conoscenza generale (test del 1998), non dalle fonti citate. La fine al 2026 indica «ancora aperta».",
+  "data": "2026-11-25",
+  "event_type": "conflict",
+  "place_name": "Kashmir",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-india-1991-reforms",
+  "name": "Riforme economiche indiane del 1991",
+  "start_year": 1991,
+  "end_year": 1996,
+  "date_confidence": "high",
+  "summary": "Nel 1991, davanti a una grave crisi della bilancia dei pagamenti, il governo di P.V. Narasimha Rao e il ministro delle finanze Manmohan Singh aprono l’economia indiana: meno vincoli statali, privatizzazioni, investimenti stranieri. Inizia una lunga stagione di crescita rapida.",
+  "region": "Asia",
+  "subregion": "India",
+  "lat": 28.6139,
+  "lon": 77.209,
+  "label": "Nuova Delhi",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AM",
+  "related": [
+   "event-indipendenza-dellindia-e-partizione",
+   "event-green-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Economy of India · Liberalization and reform (1991–2000)",
+    "url": "https://www.britannica.com/money/economy-of-India"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "P.V. Narasimha Rao",
+    "url": "https://www.britannica.com/biography/P-V-Narasimha-Rao"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Manmohan Singh",
+    "url": "https://www.britannica.com/biography/Manmohan-Singh"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Manmohan Singh",
+    "url": "https://kids.britannica.com/students/article/Manmohan-Singh/476657"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: nel 1991 l’India affrontò una grave crisi della bilancia dei pagamenti, chiese aiuto a FMI e Banca mondiale e avviò un vasto programma di riforme guidato dal primo ministro Rao e dal ministro delle finanze Singh (1991–96): liberalizzazione, privatizzazioni, apertura agli investimenti stranieri, che portarono a una forte crescita. La fine al 1996 è quella del governo Rao, non delle riforme.",
+  "data": "2026-11-25",
+  "event_type": "reform",
+  "place_name": "Nuova Delhi",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-russo-japanese-war",
+  "name": "Guerra russo-giapponese",
+  "start_year": 1904,
+  "end_year": 1905,
+  "date_confidence": "high",
+  "summary": "Nel febbraio 1904 il Giappone attacca la flotta russa a Port Arthur per il controllo di Corea e Manciuria. Dopo le vittorie di Mukden e dello stretto di Tsushima, la pace di Portsmouth (1905) riconosce il Giappone come potenza dominante dell’Asia orientale: per la prima volta un paese asiatico batte una grande potenza europea.",
+  "region": "Asia",
+  "subregion": "Manciuria e Corea",
+  "lat": 38.8121,
+  "lon": 121.2615,
+  "label": "Lüshun (Port Arthur)",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-meiji",
+   "event-first-sino-japanese-war",
+   "event-rivoluzione-russa"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Russo-Japanese War",
+    "url": "https://www.britannica.com/event/Russo-Japanese-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Empire of Japan · The Russo-Japanese War",
+    "url": "https://www.britannica.com/place/Empire-of-Japan/The-Russo-Japanese-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Japan · The emergence of imperial Japan",
+    "url": "https://www.britannica.com/place/Japan/The-emergence-of-imperial-Japan"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: guerra dall’8 febbraio 1904 al 5 settembre 1905 per il predominio in Corea e Manciuria; attacco giapponese a sorpresa alla flotta russa di Port Arthur; vittorie giapponesi a Mukden (marzo 1905) e Tsushima (27–29 maggio 1905); trattato di Portsmouth mediato da Theodore Roosevelt, che riconobbe al Giappone il primato in Corea e gli interessi russi nella Manciuria meridionale. «Per la prima volta un paese asiatico batte una grande potenza europea» è un giudizio comune dei manuali, non una frase delle fonti citate.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Port Arthur, Manciuria, stretto di Tsushima",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-tiananmen-1989",
+  "name": "Proteste di piazza Tiananmen",
+  "start_year": 1989,
+  "end_year": 1989,
+  "date_confidence": "high",
+  "summary": "Nella primavera del 1989 studenti e cittadini cinesi chiedono riforme politiche, più libertà e meno corruzione, occupando piazza Tiananmen a Pechino. Nella notte tra il 3 e il 4 giugno l’esercito sgombra la piazza con carri armati: centinaia di morti, forse di più. Il governo vieta ancora oggi di ricordarlo.",
+  "region": "Asia",
+  "subregion": "Cina",
+  "lat": 39.9054,
+  "lon": 116.3976,
+  "label": "Pechino · piazza Tiananmen",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AE",
+  "related": [
+   "event-deng-reforms",
+   "event-fondazione-della-repubblica-popolare-cinese"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Tiananmen Square incident",
+    "url": "https://www.britannica.com/event/Tiananmen-Square-incident"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did the Chinese government respond to the 1989 Tiananmen Square protests?",
+    "url": "https://www.britannica.com/event/How-did-the-Chinese-government-respond-to-the-1989-Tiananmen-Square-protests"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hu Yaobang",
+    "url": "https://www.britannica.com/biography/Hu-Yaobang"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: proteste dall’aprile 1989, dopo la morte del riformista Hu Yaobang (15 aprile), per riforme politiche ed economiche; legge marziale a Pechino; nella notte tra il 3 e il 4 giugno truppe e carri armati sgomberarono la piazza, con centinaia di morti e migliaia di feriti (cifra ufficiale 241); il governo ha poi soppresso i riferimenti all’evento.",
+  "data": "2026-11-25",
+  "event_type": "revolt",
+  "place_name": "Pechino",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-hong-kong-handover",
+  "name": "Hong Kong torna alla Cina",
+  "start_year": 1997,
+  "end_year": 1997,
+  "date_confidence": "high",
+  "summary": "Il 1° luglio 1997, dopo 156 anni, la colonia britannica di Hong Kong torna alla Cina come regione amministrativa speciale. Secondo l’accordo del 1984 vale il principio «un paese, due sistemi»: per 50 anni Hong Kong conserva economia capitalista, leggi e ampie libertà proprie.",
+  "region": "Asia",
+  "subregion": "Cina meridionale",
+  "lat": 22.2833,
+  "lon": 114.1733,
+  "label": "Hong Kong · Wan Chai, sede della cerimonia",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AE",
+  "related": [
+   "event-guerre-delloppio",
+   "event-deng-reforms"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Handover of Hong Kong",
+    "url": "https://www.britannica.com/event/handover-of-Hong-Kong"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Hong Kong · Return to Chinese sovereignty",
+    "url": "https://www.britannica.com/place/Hong-Kong/Postwar-Hong-Kong"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Basic Law of the Hong Kong Special Administrative Region",
+    "url": "https://www.britannica.com/topic/Basic-Law-of-the-Hong-Kong-Special-Administrative-Region"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il 1° luglio 1997 la colonia britannica passò alla sovranità cinese dopo 156 anni, come Regione amministrativa speciale; la Dichiarazione congiunta sino-britannica del dicembre 1984 garantiva ampia autonomia (salvo esteri e difesa) e sistema sociale ed economico invariato per 50 anni; principio «un paese, due sistemi» nella Legge fondamentale; Britannica segnala preoccupazioni per l’erosione delle libertà. Il punto a Wan Chai (centro congressi) è scelto da Claude.",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Hong Kong",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-aral-sea",
+  "name": "Prosciugamento del lago d’Aral",
+  "start_year": 1960,
+  "end_year": 2026,
+  "date_confidence": "high",
+  "summary": "Dal 1960 l’Unione Sovietica devia l’Amu Darya e il Syr Darya per irrigare i campi di cotone dell’Asia centrale. L’Aral, allora il quarto lago del mondo, perde in pochi decenni gran parte dell’acqua: si divide in più laghi, i porti restano nel deserto e il fondo scoperto sparge sale e veleni.",
+  "region": "Asia",
+  "subregion": "Kazakistan e Uzbekistan",
+  "lat": 43.7683,
+  "lon": 59.0214,
+  "label": "Muynak · ex porto sul lago",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AC",
+  "related": [
+   "event-soviet-central-asia"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Aral Sea",
+    "url": "https://www.britannica.com/place/Aral-Sea"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "How did river diversion for irrigation contribute to the shrinking of the Aral Sea?",
+    "url": "https://www.britannica.com/technology/How-did-river-diversion-for-irrigation-contribute-to-the-shrinking-of-the-Aral-Sea"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Aral Sea",
+    "url": "https://kids.britannica.com/students/article/Aral-Sea/272930"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kok-Aral Dam",
+    "url": "https://www.britannica.com/topic/Kok-Aral-Dam"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: un tempo quarto specchio d’acqua interno del mondo, l’Aral si è ridotto per la deviazione a scopo irriguo del Syr Darya e dell’Amu Darya, decisa dalla politica economica sovietica; dal 1960 ha perso circa tre quarti del volume e metà della superficie e si è diviso in più laghi; salinità e sostanze tossiche sul suolo scoperto. La diga di Kok-Aral (2005) ha salvato in parte l’Aral settentrionale. Il cotone come coltura principale è indicato da Britannica nelle domande collegate. Muynak come ex porto è conoscenza generale; la fine al 2026 indica che il fenomeno continua.",
+  "data": "2026-11-25",
+  "event_type": "disaster",
+  "place_name": "Lago d’Aral",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-semipalatinsk",
+  "name": "Poligono nucleare di Semipalatinsk",
+  "start_year": 1949,
+  "end_year": 1991,
+  "date_confidence": "high",
+  "summary": "Il 29 agosto 1949 l’Unione Sovietica fa esplodere la sua prima bomba atomica nella steppa del Kazakistan. Fino al 1989 il poligono ospita 456 test nucleari, che espongono alle radiazioni centinaia di migliaia di persone. Il Kazakistan lo chiude il 29 agosto 1991, oggi Giornata internazionale contro i test nucleari.",
+  "region": "Asia",
+  "subregion": "Kazakistan orientale",
+  "lat": 50.7566,
+  "lon": 78.5409,
+  "label": "Kurchatov · centro del poligono",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "AC",
+  "related": [
+   "event-cold-war",
+   "invention-manhattan-project",
+   "event-ussr-dissolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nuclear weapon · The Soviet Union",
+    "url": "https://www.britannica.com/technology/nuclear-weapon/The-Soviet-Union"
+   },
+   {
+    "institution": "Nazioni Unite · UN News",
+    "title": "‘Every step towards disarmament matters,’ nuclear testing survivors warn (2026)",
+    "url": "https://news.un.org/en/story/2026/08/1168231"
+   },
+   {
+    "institution": "CTBTO",
+    "title": "International Day against Nuclear Tests",
+    "url": "https://www.ctbto.org/news-and-events/international-day-against-nuclear-tests"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Kazakhstan",
+    "url": "https://www.britannica.com/place/Kazakhstan"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: primo test atomico sovietico (Joe-1) il 29 agosto 1949 al poligono di Semipalatinsk, in Kazakistan; anche la prima bomba termonucleare sovietica (1955) fu provata lì; i test contaminarono i suoli. UN News (agosto 2026): 456 test tra il 1949 e il 1989, centinaia di migliaia di persone esposte; chiusura il 29 agosto 1991, data poi proclamata dall’Assemblea generale (2009, su iniziativa del Kazakistan) Giornata internazionale contro i test nucleari (anche CTBTO). Kurchatov come «ground zero» è indicato da UN News (2016).",
+  "data": "2026-11-25",
+  "event_type": "technology",
+  "place_name": "Steppa del Kazakistan orientale",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-afghanistan-war-2001",
+  "name": "Guerra in Afghanistan",
+  "start_year": 2001,
+  "end_year": 2021,
+  "date_confidence": "high",
+  "summary": "Dopo gli attentati dell’11 settembre 2001 i talebani rifiutano di consegnare Bin Laden: Stati Uniti e alleati attaccano l’Afghanistan e li cacciano dal potere entro dicembre. Segue una guerra lunga vent’anni contro la loro guerriglia; con il ritiro americano, nell’agosto 2021 i talebani riprendono Kabul.",
+  "region": "Asia",
+  "subregion": "Afghanistan",
+  "lat": 34.5553,
+  "lon": 69.2075,
+  "label": "Kabul",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "AC",
+  "related": [
+   "event-september-11",
+   "event-soviet-afghan-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Afghanistan War · The U.S. withdrawal and the return of the Taliban",
+    "url": "https://www.britannica.com/event/Afghanistan-War/Obama-and-the-U-S-troop-surge"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Taliban",
+    "url": "https://www.britannica.com/topic/Taliban"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Withdrawal of United States troops from Afghanistan",
+    "url": "https://www.britannica.com/event/withdrawal-of-United-States-troops-from-Afghanistan"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Afghanistan · U.S.-led invasion and toppling of the Taliban",
+    "url": "https://www.britannica.com/place/Afghanistan/Struggle-for-democracy"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: dopo l’11 settembre i talebani rifiutarono di estradare Bin Laden; da ottobre 2001 bombardamenti di Stati Uniti e Regno Unito e offensiva dell’Alleanza del Nord; il 7 dicembre i talebani lasciarono Kandahar; missione di combattimento NATO chiusa il 28 dicembre 2014; ritiro statunitense avviato nel 2020 e completato il 30 agosto 2021; a metà agosto 2021 i talebani avevano ripreso quasi tutto il paese, Kabul compresa.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Afghanistan",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-philippine-revolution",
+  "name": "Rivoluzione filippina",
+  "start_year": 1896,
+  "end_year": 1898,
+  "date_confidence": "high",
+  "summary": "Nell’agosto 1896 la società segreta Katipunan di Andrés Bonifacio insorge contro il dominio spagnolo. Il 12 giugno 1898 Emilio Aguinaldo proclama l’indipendenza a Kawit, ma con la pace di Parigi la Spagna cede le Filippine agli Stati Uniti: segue la guerra filippino-americana (1899–1902).",
+  "region": "Asia",
+  "subregion": "Filippine",
+  "lat": 14.4469,
+  "lon": 120.9035,
+  "label": "Kawit (Cavite) · proclamazione del 1898",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "SE",
+  "related": [
+   "event-rizal-noli"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippine Revolution",
+    "url": "https://www.britannica.com/event/Philippine-Revolution"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippines · The Philippine Revolution",
+    "url": "https://www.britannica.com/place/Philippines/The-19th-century"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Andrés Bonifacio",
+    "url": "https://www.britannica.com/biography/Andres-Bonifacio"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippine-American War",
+    "url": "https://www.britannica.com/event/Philippine-American-War"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: rivoluzione (agosto 1896–1898) che mostrò la debolezza del dominio spagnolo; il Katipunan, fondato nel 1892 da Bonifacio, insorse nell’agosto 1896; Aguinaldo proclamò l’indipendenza il 12 giugno 1898 a Kawit (Cavite); la guerra ispano-americana chiuse il dominio spagnolo e il trattato di Parigi (dicembre 1898) cedette le Filippine agli Stati Uniti, provocando la guerra filippino-americana (1899–1902).",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Luzon (Manila e Cavite)",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-malaysia-singapore",
+  "name": "Indipendenza della Malesia e nascita di Singapore",
+  "start_year": 1957,
+  "end_year": 1965,
+  "date_confidence": "high",
+  "summary": "Il 31 agosto 1957 la Federazione della Malaya diventa indipendente dal Regno Unito. Nel 1963 si unisce a Singapore, Sarawak e Sabah nel Borneo per formare la Malesia, ma nell’agosto 1965 Singapore, a maggioranza cinese, ne esce e diventa una repubblica indipendente.",
+  "region": "Asia",
+  "subregion": "Penisola malese e Borneo settentrionale",
+  "lat": 3.139,
+  "lon": 101.6869,
+  "label": "Kuala Lumpur",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [
+   "movement-decolonization",
+   "event-asean"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Malaysia · The impact of British rule",
+    "url": "https://www.britannica.com/topic/history-of-Malaysia/The-impact-of-British-rule"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Malaysia",
+    "url": "https://www.britannica.com/place/Malaysia"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Singapore",
+    "url": "https://www.britannica.com/topic/history-of-Singapore"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Federation of Malaya",
+    "url": "https://www.britannica.com/place/Federation-of-Malaya"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: la Federazione della Malaya ottenne l’indipendenza il 31 agosto 1957 (governo dell’Alleanza di Tunku Abdul Rahman, capitale Kuala Lumpur); la Malesia nacque il 16 settembre 1963 unendo Malaya, Singapore, Sarawak e Borneo settentrionale (Sabah); Singapore si separò nell’agosto 1965 per attriti politici e divenne una repubblica indipendente sotto Lee Kuan Yew.",
+  "data": "2026-11-25",
+  "event_type": "independence",
+  "place_name": "Kuala Lumpur e Singapore",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-people-power-1986",
+  "name": "People Power: la fine di Marcos nelle Filippine",
+  "start_year": 1986,
+  "end_year": 1986,
+  "date_confidence": "high",
+  "summary": "Dopo vent’anni di potere, legge marziale e corruzione, nel febbraio 1986 Ferdinand Marcos si proclama vincitore di elezioni contestate contro Corazon Aquino. Una rivolta pacifica di massa, il «People Power», con l’appoggio di parte dell’esercito, lo costringe all’esilio: torna la democrazia.",
+  "region": "Asia",
+  "subregion": "Filippine",
+  "lat": 14.5896,
+  "lon": 121.0577,
+  "label": "Manila · viale EDSA",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [
+   "event-philippine-revolution"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Philippines",
+    "url": "https://www.britannica.com/place/Philippines"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Ferdinand Marcos",
+    "url": "https://www.britannica.com/biography/Ferdinand-E-Marcos"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Corazon Aquino",
+    "url": "https://www.britannica.com/biography/Corazon-Aquino"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Fidel Ramos",
+    "url": "https://www.britannica.com/biography/Fidel-Ramos"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: dopo più di un decennio di governo autoritario di Marcos (al potere dal 1965, legge marziale dal 1972), nel 1986 il movimento People Power guidò una rivolta incruenta che portò all’esilio di Marcos e al ritorno della democrazia; Marcos aveva indetto elezioni per il febbraio 1986 contro Corazon Aquino; la defezione di militari come Fidel Ramos innescò il movimento civile. Il viale EDSA come luogo delle manifestazioni è conoscenza generale.",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Manila",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-tsunami-2004",
+  "name": "Tsunami dell’Oceano Indiano",
+  "start_year": 2004,
+  "end_year": 2004,
+  "date_confidence": "high",
+  "summary": "Il 26 dicembre 2004 un terremoto di magnitudo 9,1 al largo di Sumatra solleva onde alte fino a 9 metri che in poche ore colpiscono le coste dell’Oceano Indiano, dall’Indonesia all’Africa orientale. Muoiono circa 228.000 persone in una dozzina di paesi, oltre 200.000 nella sola Indonesia.",
+  "region": "Asia",
+  "subregion": "Oceano Indiano",
+  "lat": 5.5483,
+  "lon": 95.3238,
+  "label": "Banda Aceh (Sumatra)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SE",
+  "related": [],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Indian Ocean tsunami of 2004",
+    "url": "https://www.britannica.com/event/Indian-Ocean-tsunami-of-2004"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Indian Ocean tsunami of 2004",
+    "url": "https://kids.britannica.com/students/article/Indian-Ocean-tsunami-of-2004/604538"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Banda Aceh",
+    "url": "https://www.britannica.com/place/Banda-Aceh"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il 26 dicembre 2004 un terremoto sottomarino di magnitudo 9,1 al largo di Sumatra causò uno tsunami con onde di 9 metri o più; circa 228.000 morti in una dozzina di paesi (altre pagine Britannica: 13–15 paesi, almeno 230.000); in Indonesia oltre 200.000, soprattutto nella provincia di Aceh; le onde raggiunsero l’Africa orientale entro sette ore; Banda Aceh in gran parte distrutta.",
+  "data": "2026-11-25",
+  "event_type": "disaster",
+  "place_name": "Coste dell’Oceano Indiano",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-nunavut",
+  "name": "Nunavut, la terra degli Inuit",
+  "start_year": 1999,
+  "end_year": 1999,
+  "date_confidence": "high",
+  "summary": "Il 1° aprile 1999 il Canada divide i Territori del Nord-Ovest e crea il Nunavut («la nostra terra» in inuktitut), un territorio autonomo nell’Artico dove oltre quattro abitanti su cinque sono Inuit. È il risultato del più grande accordo sui diritti fondiari indigeni della storia canadese.",
+  "region": "Americhe",
+  "subregion": "Artico canadese",
+  "lat": 63.7467,
+  "lon": -68.517,
+  "label": "Iqaluit · capitale del Nunavut",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "NA",
+  "related": [
+   "event-thule-migration",
+   "event-canadian-confederation"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nunavut",
+    "url": "https://www.britannica.com/place/Nunavut"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nunavut summary",
+    "url": "https://www.britannica.com/summary/Nunavut"
+   },
+   {
+    "institution": "The Canadian Encyclopedia",
+    "title": "Territorial Government in Canada",
+    "url": "https://www.thecanadianencyclopedia.ca/en/article/territorial-government"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il Nunavut, creato il 1° aprile 1999 dalla parte orientale dei Territori del Nord-Ovest dopo il plebiscito del 1992 e il Nunavut Act del 1993, comprende le terre tradizionali degli Inuit; capitale Iqaluit; «Nunavut» significa «la nostra terra» in inuktitut; frutto del più grande accordo canadese sulle rivendicazioni fondiarie; gli Inuit sono oltre i quattro quinti della popolazione. The Canadian Encyclopedia conferma la data e le prime elezioni (15 febbraio 1999).",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Nunavut",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-sandinista-revolution",
+  "name": "Rivoluzione sandinista in Nicaragua",
+  "start_year": 1979,
+  "end_year": 1990,
+  "date_confidence": "high",
+  "summary": "Nel luglio 1979 il Fronte sandinista rovescia Anastasio Somoza, ultimo di una famiglia che domina il Nicaragua dal 1936. I sandinisti avviano riforme sociali, ma devono combattere i «contras» sostenuti dagli Stati Uniti; nel 1990 perdono elezioni libere e lasciano il governo a Violeta Chamorro.",
+  "region": "Americhe",
+  "subregion": "Nicaragua",
+  "lat": 12.1364,
+  "lon": -86.2514,
+  "label": "Managua",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "MC",
+  "related": [
+   "event-cuban-revolution",
+   "event-cold-war"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Sandinista",
+    "url": "https://www.britannica.com/topic/Sandinista"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Nicaragua",
+    "url": "https://www.britannica.com/topic/history-of-Nicaragua"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Nicaragua",
+    "url": "https://www.britannica.com/place/Nicaragua"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Violeta Barrios de Chamorro",
+    "url": "https://www.britannica.com/biography/Violeta-Barrios-de-Chamorro"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: nel 1979 il Fronte sandinista di liberazione nazionale (FSLN) rovesciò Anastasio Somoza Debayle, ponendo fine a 46 anni di dittatura della famiglia Somoza (dal 1936); i sandinisti governarono dal 1979 al 1990; programmi contro disuguaglianza e povertà, guerra con un’insurrezione appoggiata dagli Stati Uniti dai primi anni Ottanta, embargo statunitense del 1985; vinsero le elezioni del 1984 e persero quelle libere del 1990; Violeta Chamorro presidente dal 25 aprile 1990.",
+  "data": "2026-11-25",
+  "event_type": "revolution",
+  "place_name": "Managua",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-falklands-war",
+  "name": "Guerra delle Falkland (Malvinas)",
+  "start_year": 1982,
+  "end_year": 1982,
+  "date_confidence": "high",
+  "summary": "Il 2 aprile 1982 la giunta militare argentina occupa le isole Falkland, che l’Argentina chiama Malvinas e rivendica dal XIX secolo. Il Regno Unito di Margaret Thatcher invia una flotta: il 14 giugno gli argentini si arrendono a Stanley. La sconfitta accelera la fine della dittatura in Argentina.",
+  "region": "Americhe",
+  "subregion": "Atlantico meridionale",
+  "lat": -51.6977,
+  "lon": -57.8519,
+  "label": "Stanley (Puerto Argentino)",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SA",
+  "related": [
+   "event-operation-condor"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Falkland Islands War",
+    "url": "https://www.britannica.com/event/Falkland-Islands-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "When did the Falkland Islands War begin and end?",
+    "url": "https://www.britannica.com/event/When-did-the-Falkland-Islands-War-begin-and-end"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Argentina · Galtieri and the Falklands War",
+    "url": "https://www.britannica.com/place/Argentina/Galtieri-and-the-Falklands-War"
+   },
+   {
+    "institution": "Encyclopaedia Britannica (edizione per studenti)",
+    "title": "Falkland Islands War",
+    "url": "https://kids.britannica.com/students/article/Falkland-Islands-War/603440"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: breve guerra non dichiarata tra Argentina e Regno Unito (2 aprile – 14 giugno 1982) per il controllo delle Falkland/Malvinas; l’Argentina rivendicava le isole dall’inizio del XIX secolo, prese dai britannici nel 1833; la giunta del generale Galtieri ordinò l’invasione; Thatcher inviò una forza navale; resa argentina a Stanley; circa 750 argentini e 255–256 britannici morti. Il legame tra la sconfitta e la fine della dittatura (1983) è un giudizio comune, presente nella voce Argentina di Britannica ma qui non citato parola per parola.",
+  "data": "2026-11-25",
+  "event_type": "war",
+  "place_name": "Isole Falkland/Malvinas",
+  "date_precision": "year"
+ },
+ {
+  "tipo": "event",
+  "id": "event-chile-plebiscite-1988",
+  "name": "Il «No» a Pinochet e il ritorno della democrazia in Cile",
+  "start_year": 1988,
+  "end_year": 1990,
+  "date_confidence": "high",
+  "summary": "Nell’ottobre 1988 i cileni votano in un plebiscito previsto dalla costituzione di Pinochet: il «No» a un altro mandato vince con il 55%. Pinochet deve indire elezioni libere e l’11 marzo 1990 lascia la presidenza al democristiano Patricio Aylwin, dopo 17 anni di dittatura.",
+  "region": "Americhe",
+  "subregion": "Cile",
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "label": "Santiago del Cile",
+  "layer": "eventi",
+  "relevance": 3,
+  "world_area": "SA",
+  "related": [
+   "event-chile-coup-1973",
+   "event-operation-condor"
+  ],
+  "fonti": [
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Augusto Pinochet",
+    "url": "https://www.britannica.com/biography/Augusto-Pinochet"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "History of Chile",
+    "url": "https://www.britannica.com/topic/history-of-Chile"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Patricio Aylwin",
+    "url": "https://www.britannica.com/biography/Patricio-Aylwin"
+   },
+   {
+    "institution": "Encyclopaedia Britannica",
+    "title": "Military rule · Transitions from military rule",
+    "url": "https://www.britannica.com/topic/military-rule/Mechanisms-and-impacts-of-military-rule"
+   }
+  ],
+  "nota": "Voce nuova. Britannica: il plebiscito dell’ottobre 1988, previsto dalla costituzione del 1980/81, diede il 55% al «no» e il 43% al «sì»; Pinochet restò in carica fino all’insediamento del presidente eletto Patricio Aylwin l’11 marzo 1990; Aylwin fu il primo presidente eletto democraticamente dopo il colpo di stato del 1973 (17 anni di regime: 1973–90).",
+  "data": "2026-11-25",
+  "event_type": "political",
+  "place_name": "Santiago del Cile",
+  "date_precision": "range"
+ },
+ {
+  "tipo": "event",
+  "id": "event-australian-federation",
+  "name": "Nasce il Commonwealth d’Australia",
+  "start_year": 1901,
+  "end_year": 1901,
+  "date_confidence": "high",
+  "summary": "Il 1° gennaio 1901 le sei colonie britanniche d’Australia si uniscono in una federazione, il Commonwealth d’Australia, con una costituzione scritta da delegati australiani e approvata con referendum. Il nuovo parlamento federale si riunisce a Melbourne finché non sarà costruita la capitale, Canberra.",
+  "region": "Oceania",
+  "subregion": "Australia",
+  "lat": -37.8136,
+  "lon": 144.9631,
+  "label": "Melbourne · prima sede del Parlamento federale",
+  "layer": "eventi",
+  "relevance": 2,
+  "world_area": "OC",
+  "related": [
+   "event-treaty-waitangi"
+  ],
+  "fonti": [
+   {
+    "institution": "National Archives of Australia",
+    "title": "The Federation of Australia",
+    "url": "https://www.naa.gov.au/students-and-teachers/student-research-portal/learning-resource-themes/government-and-democracy/federation/federation-australia"
+   },
+   {
+    "institution": "Parliament of Australia",
+    "title": "Infosheet 13 · The Constitution",
+    "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/Powers_practice_and_procedure/00_-_Infosheets/Infosheet_13_-_The_Constitution"
+   },
+   {
+    "institution": "Parliament of Australia",
+    "title": "Federation and the Seat of Government debate, 1900–1911",
+    "url": "https://www.aph.gov.au/25th_Anniversary_Chronology/Federation_and_the_Seat_of_Government_debate"
+   },
+   {
+    "institution": "Parliament of Australia",
+    "title": "Parliament Explained: Federation",
+    "url": "https://www.aph.gov.au/About_Parliament/House_of_Representatives/About_the_House_News/News/Parliament_Explained_Federation"
+   }
+  ],
+  "nota": "Voce nuova. Archivi nazionali e Parlamento australiano: le sei colonie (Nuovo Galles del Sud, Victoria, Queensland, Australia Meridionale, Australia Occidentale, Tasmania) diventarono una nazione, il Commonwealth d’Australia, il 1° gennaio 1901, quando entrò in vigore la costituzione approvata dal Parlamento britannico (assenso reale il 9 luglio 1900), scritta in convenzioni degli anni 1890 e approvata con referendum in ogni colonia; la costituzione stabiliva che il Parlamento sedesse a Melbourne fino alla nuova sede del governo. Canberra come capitale è conoscenza generale.",
+  "data": "2026-11-25",
+  "event_type": "state_formation",
+  "place_name": "Australia",
+  "date_precision": "year"
+ }
+]
