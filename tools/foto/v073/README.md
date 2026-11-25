@@ -6,3 +6,4 @@
 - `foglio.js`: `FOGLIO(da, a)` mostra le candidate come foglio di miniature per il controllo a occhio.
 - Scelta a mano (Claude, 25 novembre 2026), stesse regole della v0.54. Risultato trascritto in `selezione_grezza_v073.txt` (gruppo|voce|file|autore|licenza|visualizzazioni; SHA-256 `ec2eecb182a8b2f99e0694bd4b54c6c682fa6057e260d21ff6f01b047d9ab7ae`, identico a quello calcolato nel browser), convertito in `selezione_v073.tsv`.
 - `python3 tools/foto/v073/aggiungi.py tools/foto/v073/selezione_v073.tsv` aggiunge le foto solo alle voci che non ne hanno.
+- Dopo la pubblicazione due nomi risultavano reindirizzamenti (miniature in 404) e sono stati sostituiti col nome vero del file: «Temple of Concordia, Agrigento BW 2012-10-07 13-09-13.jpg» e «P. Oxy. I 29.jpg». Per le prossime raccolte: chiedere `imageinfo` con `redirects=1` e usare il titolo restituito.
