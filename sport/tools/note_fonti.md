@@ -53,3 +53,10 @@ Riscontri esterni dei risultati successivi alla mia data di aggiornamento (giugn
 - Mondiali di beach volley 2025 (Adelaide): Åhman/Hellvig e Graudiņa/Samoilova (CEV, FIVB).
 
 Note aggiunte da me (conoscenza generale, non presenti come testo nelle tabelle): Calciopoli per 2004-05 e 2005-06, revoca del 1926-27 al Torino, titolo onorifico dello Spezia 1944, BAA 1947–1949. Confidenza alta (≥ 95%), da ricontrollare su FIGC se servono le date esatte.
+
+## Atleti (preparazione v0.3, 26/11/2026)
+
+100 atleti (25 italiani). Medagliere da en.wikipedia (solo la tabella dentro l'infobox; escluse giovanili, Universiadi, Giochi del Mediterraneo, Pan Pacific, Nations League e simili), titoli NBA/WNBA dalla lista «Career highlights», Slam, Grandi Giri, titoli di F1/moto e Coppe del Mondo di sci dall'infobox; campionati nazionali e Champions League dalla sezione Palmarès di it.wikipedia (solo vittorie). Blocchi `sport/tools/atleti/b0..b5.txt` verificati con SHA-256.
+Correzioni scritte in `atleti.py`: ruolo di allenatore per Beckenbauer (Mondiali 1986 e 1990, Europei 1988) e per i secondi elenchi di Cruijff, Zidane, Bernardi (it.wikipedia li mette sotto «Allenatore»); per Abdul-Jabbar i titoli NBA 2009-2010 sono da vice allenatore; tolto lo scudetto 2004-05 di Buffon (revocato); Bill Russell: i titoli 1968-69 da giocatore-allenatore contati una volta.
+Kiraly: dal 24/10/2024 commissario tecnico della nazionale maschile USA (USA Volleyball), non più della femminile.
+Da verificare: Giba «Campionato inglese 2018-19» (lo riporta it.wikipedia; non trovato altrove).

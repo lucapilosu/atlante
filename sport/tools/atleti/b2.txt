@@ -1,0 +1,215 @@
+@Kōhei Uchimura|Kōhei Uchimura|1386384889|Kōhei Uchimura|153544677
+X|Men's artistic gymnastics
+M|O|G|2012|All-Around
+M|O|G|2016|Team
+M|O|G|2016|All-Around
+M|O|S|2008|Team
+M|O|S|2008|All-Around
+M|O|S|2012|Team
+M|O|S|2012|Floor Exercise
+M|W|G|2009|All-Around
+M|W|G|2010|All-Around
+M|W|G|2011|All-Around
+M|W|G|2011|Floor Exercise
+M|W|G|2013|All-Around
+M|W|G|2013|Parallel Bars
+M|W|G|2014|All-Around
+M|W|G|2015|Team
+M|W|G|2015|All-Around
+M|W|G|2015|Horizontal bar
+M|W|S|2010|Team
+M|W|S|2010|Floor Exercise
+M|W|S|2011|Team
+M|W|S|2014|Team
+M|W|S|2014|Horizontal Bar
+M|W|S|2018|Horizontal Bar
+M|W|B|2010|Parallel Bars
+M|W|B|2011|Horizontal Bar
+M|W|B|2013|Floor Exercise
+M|W|B|2013|Horizontal Bar
+M|W|B|2018|Team
+@LeBron James|LeBron James|1388010561|LeBron James|153436468
+X|Men's basketball
+M|O|G|2008|Team
+M|O|G|2012|Team
+M|O|G|2024|Team
+M|O|B|2004|Team
+M|W|B|2006|
+L|4× NBA champion (2012, 2013, 2016, 2020)
+L|4× NBA Finals MVP (2012, 2013, 2016, 2020)
+L|4× NBA Most Valuable Player (2009, 2010, 2012, 2013)
+I|Campionato NBA|Miami Heat: 2012, 2013 Cleveland Cavaliers: 2016 Los Angeles Lakers: 2020
+@Michael Jordan|Michael Jordan|1387981560|Michael Jordan|153234125
+X|Men's basketball
+M|O|G|1984|Men's basketball
+M|O|G|1992|Men's basketball
+L|6× NBA champion (1991–1993, 1996–1998)
+L|6× NBA Finals MVP (1991–1993, 1996–1998)
+L|5× NBA Most Valuable Player (1988, 1991, 1992, 1996, 1998)
+I|Campionato NBA|Chicago Bulls: 1991, 1992, 1993, 1996, 1997, 1998
+@Kareem Abdul-Jabbar|Kareem Abdul-Jabbar|1387433921|Kareem Abdul-Jabbar|153279211
+L|6× NBA champion (1971, 1980, 1982, 1985, 1987, 1988)
+L|2× NBA Finals MVP (1971, 1985)
+L|6× NBA Most Valuable Player (1971, 1972, 1974, 1976, 1977, 1980)
+L|2× NBA champion (2009, 2010)
+I|Campionato NBA|Milwaukee Bucks: 1971 Los Angeles Lakers: 1980, 1982, 1985, 1987, 1988
+@Bill Russell|Bill Russell|1387871227|Bill Russell|151993668
+X|Men's basketball
+M|O|G|1956|Team competition
+L|11× NBA champion (1957, 1959–1966, 1968, 1969)
+L|5× NBA Most Valuable Player (1958, 1961–1963, 1965)
+L|2× NBA champion (1968, 1969)
+I|Campionato NBA|Boston Celtics: 1957, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1968, 1969.
+I|Campionato NBA|Boston Celtics: 1968, 1969
+@Magic Johnson|Magic Johnson|1387911771|Magic Johnson|153479525
+X|Men's basketball
+M|O|G|1992|Men's basketball
+L|5× NBA champion (1980, 1982, 1985, 1987, 1988)
+L|3× NBA Finals MVP (1980, 1982, 1987)
+L|3× NBA Most Valuable Player (1987, 1989, 1990)
+I|Campionato NBA|Los Angeles Lakers: 1980, 1982, 1985, 1987, 1988
+@Kobe Bryant|Kobe Bryant|1388063675|Kobe Bryant|153018024
+X|Men's basketball
+M|O|G|2008|Team
+M|O|G|2012|Team
+L|5× NBA champion (2000–2002, 2009, 2010)
+L|2× NBA Finals MVP (2009, 2010)
+L|NBA Most Valuable Player (2008)
+I|Campionato NBA|Los Angeles Lakers: 2000, 2001, 2002, 2009, 2010
+@Stephen Curry|Stephen Curry|1387568791|Stephen Curry|152790725
+X|Men's basketball
+M|O|G|2024|Team
+M|W|G|2010|Team
+M|W|G|2014|Team
+L|4× NBA champion (2015, 2017, 2018, 2022)
+L|NBA Finals MVP (2022)
+L|2× NBA Most Valuable Player (2015, 2016)
+I|Campionato NBA|Golden State Warriors: 2015, 2017, 2018, 2022
+@Nikola Jokić|Nikola Jokić|1387551134|Nikola Jokić|153501996
+X|Men's basketball
+M|O|S|2016|Team
+M|O|B|2024|Team
+L|NBA champion (2023)
+L|NBA Finals MVP (2023)
+L|3× NBA Most Valuable Player (2021, 2022, 2024)
+I|Campionato NBA|Denver Nuggets: 2023
+@Diana Taurasi|Diana Taurasi|1387978552|Diana Taurasi|150716496
+X|Women's basketball
+M|O|G|2004|Team
+M|O|G|2008|Team
+M|O|G|2012|Team
+M|O|G|2016|Team
+M|O|G|2020|Team
+M|O|G|2024|Team
+M|W|G|2010|
+M|W|G|2014|
+M|W|G|2018|
+M|W|B|2006|
+L|3× WNBA champion (2007, 2009, 2014)
+L|2× WNBA Finals MVP (2009, 2014)
+L|6× EuroLeague champion (2007–2010, 2013, 2016)
+I|Campionato WNBA|Phoenix Mercury: 2007, 2009, 2014
+I|Eurolega|Sparta&k Vidnoe: 2006-07, 2007-08, 2008-09, 2009-10 UMMC Ekaterinburg: 2012-13, 2015-16, 2017-18
+I|Campionato russo|Spartak Mosca: 2006-07, 2007-08
+@Dino Meneghin|Dino Meneghin|1385705541|Dino Meneghin|152641732
+X|Men's basketball
+M|O|S|1980|
+M|E|B|1971|
+M|E|B|1975|
+M|E|G|1983|
+L|7× EuroLeague champion (1970, 1972, 1973, 1975, 1976, 1987, 1988)
+I|Campionato italiano|Pallacanestro Varese: 1968-69, 1969-70, 1970-71, 1972-73, 1973-74, 1976-77, 1977-78 Olimpia Milano: 1981-82, 1984-85, 1985-86, 1986-87, 1988-89
+I|Coppa dei Campioni|Pallacanestro Varese: 1969-70, 1971-72, 1972-73, 1974-75, 1975-76 Olimpia Milano: 1986-87, 1987-88
+@Arvydas Sabonis|Arvydas Sabonis|1386716284|Arvydas Sabonis|151672569
+X|Men's basketball
+M|O|G|1988|Team
+M|O|B|1992|Team
+M|O|B|1996|Team
+M|E|B|1983|
+M|E|G|1985|
+M|E|B|1989|
+M|E|S|1995|
+M|E|G|1981|Under-18
+I|Campionato sovietico|Žalgiris Kaunas: 1984-85, 1985-86, 1986-87
+I|Campionato spagnolo|Real Madrid: 1992-93, 1993-94
+I|Coppa dei Campioni|Real Madrid: 1994-1995
+@Manu Ginóbili|Manu Ginóbili|1385703709|Emanuel Ginóbili|152791715
+X|Men's basketball
+M|O|G|2004|
+M|O|B|2008|
+M|W|S|2002|
+L|4× NBA champion (2003, 2005, 2007, 2014)
+L|EuroLeague champion (2001)
+I|Campionato italiano|Virtus Bologna: 2000-01
+I|Eurolega|Virtus Bologna: 2000-01
+I|Campionato NBA|San Antonio Spurs: 2003, 2005, 2007, 2014
+@Karch Kiraly|Karch Kiraly|1382523472|Karch Kiraly|152160973
+M|O|G|2020|Indoor #coach
+M|O|S|2024|Indoor #coach
+M|O|B|2016|Indoor #coach
+M|W|G|2014|Indoor #coach
+M|O|G|1984|Indoor
+M|O|G|1988|Indoor
+M|O|G|1996|Beach
+M|W|G|1986|Indoor
+I|Campionato italiano|1990-91
+I|Coppa dei Campioni|1991-92
+@Giba|Giba|1382518205|Gilberto de Godoy|152745263
+X|Men's volleyball
+M|O|G|2004|
+M|O|S|2008|
+M|O|S|2012|
+M|W|G|2002|
+M|W|G|2006|
+M|W|G|2010|
+I|Campionato brasiliano|1999-00
+I|Campionato inglese|2018-19
+@Lorenzo Bernardi|Lorenzo Bernardi|1386931088|Lorenzo Bernardi|153498268
+X|Men's volleyball
+M|O|S|1996|
+M|W|G|1990|
+M|W|G|1994|
+M|E|G|1989|
+M|E|G|1995|
+M|E|S|1991|
+M|E|S|2001|
+I|Campionato italiano|1985-86, 1986-87, 1987-1988, 1988-1989 1993-94, 1995-96, 1997-98, 1998-99, 2000-01
+I|Coppa dei Campioni|1989-90 1994-95, 1998-99, 1999-00
+I|Campionato turco|2015-16
+I|Campionato italiano|2017-18
+@Andrea Giani|Andrea Giani|1382515902|Andrea Giani|153282833
+X|Men's volleyball
+M|O|S|1996|
+M|O|S|2004|
+M|O|B|2000|
+M|W|G|1990|
+M|W|G|1994|
+M|W|G|1998|
+M|E|G|1993|
+M|E|G|1995|
+M|E|G|1999|
+M|E|G|2003|
+M|E|S|2015| #coach
+M|E|S|2017| #coach
+M|O|G|2024| #coach
+M|E|S|2026| #coach
+I|Campionato italiano|Parma: 1989-1990, 1991-1992, 1992-1993 Modena: 1996-1997, 2001-2002
+I|Coppa dei Campioni|Modena: 1996-1997, 1997-1998
+@Ivan Zaytsev|Ivan Zaytsev (volleyball)|1382754281|Ivan Zaytsev|152990008
+X|Men's volleyball
+M|O|S|2016|Team
+M|O|B|2012|Team
+M|E|S|2011|Team
+M|E|S|2013|Team
+M|E|B|2015|Team
+I|Campionato italiano|2013-14, 2017-18, 2021-22
+@Simone Giannelli|Simone Giannelli|1382922366|Simone Giannelli|153397159
+X|Men's volleyball
+M|O|S|2016|Team
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|S|2023|
+M|E|B|2015|
+I|Campionato italiano|2012-13, 2014-15, 2023-24, 2025-26
+I|CEV Champions League|2024-25, 2025-26

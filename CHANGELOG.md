@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.2.1 · 26 novembre 2026
+
+- **Più mondo, meno Italia:** 22 tessere nuove con risultati e record non italiani (Owens 1936, Bannister 1954, Bikila 1960, Beamon 1968, Kipchoge 2019, Comăneci 1976, Spitz 1972, Phelps 2008, Chamberlain 1962, Dream Team 1992, LeBron 2023, Cuba 2000, May-Treanor e Walsh 2012, Pelé 1958, Brasile 1970, Maradona 1986, Laver 1969, Graf 1988, primo Tour 1903, Merckx 1969, Hamilton 2020, Shiffrin 2023), ognuna con fonte (olympics.com, FIFA, NBA, FIVB, FIS, Formula 1, ATP, Britannica). Le tessere italiane passano dal 37% al 26%.
+- Nuova colonna **Ginnastica** (pittogramma originale con due anelli dell'attrezzo).
+- Preparati (non ancora visibili) i palmarès di 100 atleti per la ricerca per atleta della v0.3: `sport/data/atleti.json`, generato da `sport/tools/atleti.py`.
+
 ## Pilu Sports Almanac v0.2 · 26 novembre 2026
 
 - **Pagina di ricerca** (pulsante «Cerca», tasto `/`, indirizzo `#cerca=…`): cerca in tessere e albi d'oro per squadra, nazione, atleta, città o anno, anche combinati («Italia 1982») e senza accenti («peru» trova Perù). Filtri per sport e per tipo (tessere / albi d'oro). Toccando un risultato si apre la tessera o l'albo giusto con la riga evidenziata.

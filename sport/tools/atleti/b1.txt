@@ -1,0 +1,260 @@
+@Katie Ledecky|Katie Ledecky|1387317176|Katie Ledecky|153050083
+X|Women's swimming
+M|O|G|2012|800 m freestyle
+M|O|G|2016|200 m freestyle
+M|O|G|2016|400 m freestyle
+M|O|G|2016|800 m freestyle
+M|O|G|2016|4×200 m freestyle
+M|O|G|2020|800 m freestyle
+M|O|G|2020|1500 m freestyle
+M|O|G|2024|800 m freestyle
+M|O|G|2024|1500 m freestyle
+M|O|S|2016|4×100 m freestyle
+M|O|S|2020|400 m freestyle
+M|O|S|2020|4×200 m freestyle
+M|O|S|2024|4×200 m freestyle
+M|O|B|2024|400 m freestyle
+M|W|G|2013|400 m freestyle
+M|W|G|2013|800 m freestyle
+M|W|G|2013|1500 m freestyle
+M|W|G|2013|4×200 m freestyle
+M|W|G|2015|200 m freestyle
+M|W|G|2015|400 m freestyle
+M|W|G|2015|800 m freestyle
+M|W|G|2015|1500 m freestyle
+M|W|G|2015|4×200 m freestyle
+M|W|G|2017|400 m freestyle
+M|W|G|2017|800 m freestyle
+M|W|G|2017|1500 m freestyle
+M|W|G|2017|4×100 m freestyle
+M|W|G|2017|4×200 m freestyle
+M|W|G|2019|800 m freestyle
+M|W|G|2022|400 m freestyle
+M|W|G|2022|800 m freestyle
+M|W|G|2022|1500 m freestyle
+M|W|G|2022|4×200 m freestyle
+M|W|G|2023|800 m freestyle
+M|W|G|2023|1500 m freestyle
+M|W|G|2025|800 m freestyle
+M|W|G|2025|1500 m freestyle
+M|W|S|2017|200 m freestyle
+M|W|S|2019|400 m freestyle
+M|W|S|2019|4×200 m freestyle
+M|W|S|2023|400 m freestyle
+M|W|S|2023|4×200 m freestyle
+M|W|S|2025|4×200 m freestyle
+M|W|B|2025|400 m freestyle
+@Ian Thorpe|Ian Thorpe|1387902691|Ian Thorpe|153044650
+X|Men's swimming
+M|O|G|2000|400 m freestyle
+M|O|G|2000|4×100 m free
+M|O|G|2000|4×200 m free
+M|O|G|2004|200 m freestyle
+M|O|G|2004|400 m freestyle
+M|O|S|2000|200 m freestyle
+M|O|S|2000|4×100 m medley
+M|O|S|2004|4×200 m free
+M|O|B|2004|100 m freestyle
+M|W|G|1998|400 m freestyle
+M|W|G|1998|4×200 m free
+M|W|G|2001|200 m freestyle
+M|W|G|2001|400 m freestyle
+M|W|G|2001|800 m freestyle
+M|W|G|2001|4×100 m free
+M|W|G|2001|4×200 m free
+M|W|G|2001|4×100 m medley
+M|W|G|2003|200 m freestyle
+M|W|G|2003|400 m freestyle
+M|W|G|2003|4×200 m free
+M|W|S|2003|200 m medley
+M|W|B|2003|100 m freestyle
+@Federica Pellegrini|Federica Pellegrini|1376018694|Federica Pellegrini|153526554
+X|Women's swimming
+M|O|G|2008|200 m freestyle
+M|O|S|2004|200 m freestyle
+M|W|G|2009|200 m freestyle
+M|W|G|2009|400 m freestyle
+M|W|G|2011|200 m freestyle
+M|W|G|2011|400 m freestyle
+M|W|G|2017|200 m freestyle
+M|W|G|2019|200 m freestyle
+M|W|S|2005|200 m freestyle
+M|W|S|2013|200 m freestyle
+M|W|S|2015|200 m freestyle
+M|W|S|2015|4 × 200 m freestyle
+M|W|B|2007|200 m freestyle
+M|E|G|2008|400 m freestyle
+M|E|G|2010|200 m freestyle
+M|E|G|2012|200 m freestyle
+M|E|G|2012|4 × 200 m freestyle
+M|E|G|2014|200 m freestyle
+M|E|G|2014|4 × 200 m freestyle
+M|E|G|2016|200 m freestyle
+M|E|S|2008|4 × 100 m freestyle
+M|E|S|2016|4 × 100 m freestyle
+M|E|S|2016|4 × 100 m mixed freestyle
+M|E|S|2016|4 × 100 m mixed medley
+M|E|S|2020|4 × 200 m mixed freestyle
+M|E|S|2020|200 m freestyle
+M|E|B|2008|4 × 200 m freestyle
+M|E|B|2010|800 m freestyle
+M|E|B|2012|4 × 100 m freestyle
+M|E|B|2014|4 × 100 m freestyle
+M|E|B|2020|4 × 200 m freestyle
+M|E|B|2020|4 × 100 m mixed freestyle
+M|E|B|2020|4 × 100 m medley
+@Léon Marchand|Léon Marchand|1381324703|Léon Marchand|153433626
+X|Men's swimming
+M|O|G|2024|200 m breaststroke
+M|O|G|2024|200 m butterfly
+M|O|G|2024|200 m medley
+M|O|G|2024|400 m medley
+M|O|B|2024|4x100 m medley
+M|W|G|2022|200 m medley
+M|W|G|2022|400 m medley
+M|W|G|2023|200 m butterfly
+M|W|G|2023|200 m medley
+M|W|G|2023|400 m medley
+M|W|G|2025|200 m medley
+M|W|G|2025|400 m medley
+M|W|S|2022|200 m butterfly
+M|W|S|2025|4x100 m medley
+M|E|G|2026|200 m butterfly
+M|E|G|2026|400 m freestyle
+M|E|S|2026|4×200 m freestyle
+M|E|B|2026|4×100 m medley
+@Yuri Chechi|Jury Chechi|1373585107|Jury Chechi|153507069
+X|Men's artistic gymnastics
+M|O|G|1996|Rings
+M|O|B|2004|Rings
+M|W|G|1993|Rings
+M|W|G|1994|Rings
+M|W|G|1995|Rings
+M|W|G|1996|Rings
+M|W|G|1997|Rings
+M|W|B|1989|Rings
+M|W|B|1991|Rings
+M|E|G|1990|Rings
+M|E|G|1992|Rings
+M|E|G|1994|Rings
+M|E|G|1996|Rings
+M|E|B|1990|All-around
+M|E|B|1992|Floor
+@Nadia Comăneci|Nadia Comăneci|1387907727|Nadia Comăneci|153341224
+X|Women's artistic gymnastics
+M|O|G|1976|All-Around
+M|O|G|1976|Uneven Bars
+M|O|G|1976|Balance Beam
+M|O|G|1980|Balance Beam
+M|O|G|1980|Floor Exercise
+M|O|S|1976|Team
+M|O|S|1980|Team
+M|O|S|1980|All-Around
+M|O|B|1976|Floor Exercise
+M|W|G|1978|Balance Beam
+M|W|G|1979|Team
+M|W|S|1978|Team
+M|W|S|1978|Vault
+M|E|G|1975|All-Around
+M|E|G|1975|Uneven Bars
+M|E|G|1975|Balance Beam
+M|E|G|1975|Vault
+M|E|G|1977|All-Around
+M|E|G|1977|Uneven Bars
+M|E|G|1979|All-Around
+M|E|G|1979|Vault
+M|E|G|1979|Floor Exercise
+M|E|S|1975|Floor Exercise
+M|E|S|1977|Vault
+M|E|B|1979|Balance Beam
+@Simone Biles|Simone Biles|1387490712|Simone Biles|153454017
+X|Women's artistic gymnastics
+M|O|G|2016|Team
+M|O|G|2016|All-around
+M|O|G|2016|Vault
+M|O|G|2016|Floor exercise
+M|O|G|2024|Team
+M|O|G|2024|All-around
+M|O|G|2024|Vault
+M|O|S|2020|Team
+M|O|S|2024|Floor exercise
+M|O|B|2016|Balance beam
+M|O|B|2020|Balance beam
+M|W|G|2013|All-around
+M|W|G|2013|Floor exercise
+M|W|G|2014|Team
+M|W|G|2014|All-around
+M|W|G|2014|Balance beam
+M|W|G|2014|Floor exercise
+M|W|G|2015|Team
+M|W|G|2015|All-around
+M|W|G|2015|Balance beam
+M|W|G|2015|Floor exercise
+M|W|G|2018|Team
+M|W|G|2018|All-around
+M|W|G|2018|Vault
+M|W|G|2018|Floor exercise
+M|W|G|2019|Team
+M|W|G|2019|All-around
+M|W|G|2019|Vault
+M|W|G|2019|Balance beam
+M|W|G|2019|Floor exercise
+M|W|G|2023|Team
+M|W|G|2023|All-around
+M|W|G|2023|Balance beam
+M|W|G|2023|Floor exercise
+M|W|S|2013|Vault
+M|W|S|2014|Vault
+M|W|S|2018|Uneven bars
+M|W|S|2023|Vault
+M|W|B|2013|Balance beam
+M|W|B|2015|Vault
+M|W|B|2018|Balance beam
+@Larisa Latynina|Larisa Latynina|1381900696|Larisa Latynina|147007703
+X|Women's artistic gymnastics
+M|O|G|1956|Team
+M|O|G|1956|All-Around
+M|O|G|1956|Vault
+M|O|G|1956|Floor exercise
+M|O|G|1960|Team
+M|O|G|1960|All-around
+M|O|G|1960|Floor exercise
+M|O|G|1964|Team
+M|O|G|1964|Floor exercise
+M|O|S|1956|Uneven bars
+M|O|S|1960|Uneven bars
+M|O|S|1960|Balance beam
+M|O|S|1964|All-around
+M|O|S|1964|Vault
+M|O|B|1956|Team, apparatus
+M|O|B|1960|Vault
+M|O|B|1964|Uneven bars
+M|O|B|1964|Balance beam
+M|W|G|1954|Team
+M|W|G|1958|Team
+M|W|G|1958|All-around
+M|W|G|1958|Vault
+M|W|G|1958|Uneven bars
+M|W|G|1958|Balance beam
+M|W|G|1962|Team
+M|W|G|1962|All-around
+M|W|G|1962|Floor exercise
+M|W|S|1958|Floor exercise
+M|W|S|1962|Vault
+M|W|S|1962|Balance beam
+M|W|S|1966|Team
+M|W|B|1962|Uneven bars
+M|E|G|1957|All-around
+M|E|G|1957|Vault
+M|E|G|1957|Uneven bars
+M|E|G|1957|Balance beam
+M|E|G|1957|Floor exercise
+M|E|G|1961|All-around
+M|E|G|1961|Floor exercise
+M|E|S|1961|Uneven bars
+M|E|S|1961|Balance beam
+M|E|S|1965|All-around
+M|E|S|1965|Uneven bars
+M|E|S|1965|Balance beam
+M|E|S|1965|Floor exercise
+M|E|B|1965|Vault

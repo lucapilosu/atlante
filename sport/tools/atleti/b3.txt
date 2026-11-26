@@ -1,0 +1,248 @@
+@Earvin N'Gapeth|Earvin N'Gapeth|1382747430|Earvin N'Gapeth|153369777
+X|Men's volleyball
+M|O|G|2020|Team
+M|O|G|2024|Team
+M|E|G|2015|
+I|Campionato francese|2009-10
+I|Campionato italiano|2015-16
+I|Campionato turco|2023-24
+@Wilfredo León|Wilfredo León|1383107193|Wilfredo León|152650387
+X|Men's volleyball
+M|W|S|2010|
+M|O|S|2024|Team
+M|W|B|2025|
+M|E|G|2023|
+M|E|G|2026|
+M|E|B|2019|
+M|E|B|2021|
+I|Campionato russo|2014-15, 2015-16, 2016-17, 2017-18
+I|Campionato italiano|2023-24
+I|Campionato polacco|2024-25
+I|CEV Champions League|2014-15, 2015-16, 2016-17, 2017-18
+@Bartosz Kurek|Bartosz Kurek|1387191438|Bartosz Kurek|146955331
+X|Men's volleyball
+M|O|S|2024|Team
+M|W|G|2018|
+M|W|S|2022|
+M|W|B|2025|
+M|E|G|2009|
+M|E|G|2023|
+M|E|B|2011|
+M|E|B|2021|
+I|Campionato polacco|2008-09, 2009-10, 2010-11
+I|Campionato italiano|2013-14
+@Paola Egonu|Paola Egonu|1386777915|Paola Egonu|153509746
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|S|2018|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+M|E|S|2026|Team
+I|Campionato italiano|2020-21, 2021-22
+I|CEV Champions League|2018-19, 2020-21, 2022-23
+@Francesca Piccinini|Francesca Piccinini|1382518021|Francesca Piccinini|152165359
+X|Women's volleyball
+M|W|G|2002|Team
+M|E|G|2007|Team
+M|E|G|2009|Team
+M|E|S|2001|Team
+M|E|S|2005|Team
+I|Campionato italiano|2001-02, 2003-04, 2005-06, 2010-11, 2016-17
+@Monica De Gennaro|Monica De Gennaro|1382765535|Monica De Gennaro|153055883
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|S|2018|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+I|Campionato italiano|2015-16, 2017-18, 2018-19, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26
+I|CEV Champions League|2020-21, 2023-24, 2024-25
+@Tijana Bošković|Tijana Bošković|1382926470|Tijana Bošković|152353626
+X|Women's volleyball
+M|O|S|2016|Team
+M|O|B|2020|Team
+M|W|G|2018|Team
+M|W|G|2022|Team
+M|E|G|2017|
+M|E|G|2019|
+M|E|S|2021|
+M|E|S|2023|
+M|E|B|2015|
+M|E|B|2026|
+I|Campionato turco|2025-26
+I|CEV Champions League|2025-26
+@Zhu Ting|Zhu Ting (volleyball)|1382932541|Zhu Ting (pallavolista)|153055844
+X|Volleyball
+M|O|G|2016|Team
+M|W|S|2014|Team
+M|W|B|2018|Team
+I|Campionato turco|2017-18
+I|Campionato cinese|2019-20, 2020-21
+I|Campionato italiano|2024-25, 2025-26
+I|CEV Champions League|2016-17, 2017-18, 2024-25
+@Kim Yeon-koung|Kim Yeon-koung|1383855498|Kim Yeon-koung|144463237
+X|Women's volleyball
+I|Campionato sudcoreano|2005-06, 2006-07, 2008-09
+I|Campionato giapponese|2010-11
+I|Campionato turco|2014-15, 2016-17
+I|CEV Champions League|2011-12
+@Regla Torres|Regla Torres|1382912503|Regla Torres|151508359
+X|Women's volleyball
+M|O|G|1992|Team
+M|O|G|1996|Team
+M|O|G|2000|Team
+M|W|G|1994|Team
+M|W|G|1998|Team
+@Lang Ping|Lang Ping|1387225862|Lang Ping|146391781
+X|Women's volleyball
+M|O|G|1984|Team
+M|W|G|1982|
+M|W|S|1990|Team
+@Kerri Walsh Jennings|Kerri Walsh Jennings|1386536364|Kerri Walsh|139754602
+X|Women's beach volleyball
+M|O|G|2004|Beach
+M|O|G|2008|Beach
+M|O|G|2012|Beach
+M|O|B|2016|Beach
+M|W|G|2003|Beach
+M|W|G|2005|Beach
+M|W|G|2007|Beach
+M|W|S|2011|Beach
+@Misty May-Treanor|Misty May-Treanor|1382523642|Misty May-Treanor|151411599
+X|Women's beach volleyball
+M|O|G|2004|Beach
+M|O|G|2008|Beach
+M|O|G|2012|Beach
+M|W|G|2003|Beach
+M|W|G|2005|Beach
+M|W|G|2007|Beach
+M|W|S|2011|Beach
+X|Women's volleyball
+@Phil Dalhausser|Phil Dalhausser|1382524395|Phil Dalhausser|151423390
+X|Men's beach volleyball
+M|O|G|2008|Beach
+M|W|G|2007|Beach
+M|W|B|2009|Beach
+@Emanuel Rego|Emanuel Rego|1382517676|Emanuel Rego|150047958
+X|Men's beach volleyball
+M|O|G|2004|Beach
+M|O|S|2012|Beach
+M|O|B|2008|Beach
+M|W|G|1999|Beach
+M|W|G|2003|Beach
+M|W|G|2011|Beach
+@Ricardo Santos (beach volleyball)|Ricardo Santos (beach volleyball)|1382529091|Ricardo Santos|152580520
+X|Men's beach volleyball
+M|O|G|2004|Beach
+M|O|S|2000|Beach
+M|O|B|2008|Beach
+M|W|G|2003|Beach
+M|W|S|2001|Beach
+M|W|S|2011|Beach
+M|W|S|2013|Beach
+@Anders Mol|Anders Mol|1382515863|Anders Mol|151619259
+X|Men's beach volleyball
+M|O|G|2020|Beach
+M|O|B|2024|Beach
+M|W|G|2022|Beach
+M|W|B|2019|Beach
+M|E|G|2025|Beach
+M|E|G|2021|Beach
+M|E|G|2020|Beach
+M|E|G|2019|Beach
+M|E|G|2018|Beach
+M|E|S|2026|Beach
+M|E|B|2022|Beach
+@David Åhman|David Åhman|1382745984|David Åhman|151538682
+X|Men's beach volleyball
+M|O|G|2024|Beach
+M|W|G|2025|Beach
+M|W|S|2023|Beach
+M|E|G|2022|Beach
+M|E|G|2023|Beach
+M|E|S|2025|Beach
+@Laura Ludwig|Laura Ludwig|1387535365|Laura Ludwig|147488352
+X|Women's beach volleyball
+M|O|G|2016|Beach
+M|W|G|2017|Beach
+M|E|G|2008|Beach
+M|E|G|2010|Beach
+M|E|G|2015|Beach
+M|E|G|2016|Beach
+M|E|S|2007|Beach
+M|E|S|2009|Beach
+M|E|B|2013|Beach
+M|E|B|2014|Beach
+M|E|B|2023|Beach
+I|Campionato tedesco|
+@Paolo Nicolai|Paolo Nicolai|1382910206|Paolo Nicolai|143684445
+X|Men's beach volleyball
+M|O|S|2016|Beach
+@Daniele Lupo|Daniele Lupo|1382743694|Daniele Lupo|152671780
+X|Men's beach volleyball
+M|O|S|2016|Beach
+@Marta Menegatti|Marta Menegatti|1385426773|Marta Menegatti|151473149
+X|Women's beach volleyball
+M|E|G|2011|Team
+M|E|S|2024|Women's
+@Ana Patrícia Ramos|Ana Patrícia|1383600572||
+X|Women's beach volleyball
+M|O|G|2024|Beach
+M|W|G|2022|Beach
+M|W|S|2023|Beach
+@Eduarda Santos Lisboa|Duda Lisboa|1383611932||
+X|Women's beach volleyball
+M|O|G|2024|Beach
+M|W|G|2022|Beach
+M|W|S|2023|Beach
+@Pelé|Pelé|1387328868|Pelé|153541342
+X|Men's football
+M|W|G|1958|
+M|W|G|1962|
+M|W|G|1970|
+I|Campeonato Brasileiro Série A|Santos: 1961, 1962, 1963, 1964, 1965, 1968
+I|Coppa Libertadores|Santos: 1962, 1963
+@Diego Maradona|Diego Maradona|1388025535|Diego Armando Maradona|153534152
+X|Men's football
+M|W|G|1986|
+M|W|S|1990|
+M|A|B|1989|
+I|Campionato argentino|Boca Juniors: Metropolitano 1981
+I|Campionato italiano|Napoli: 1986-1987, 1989-1990
+@Lionel Messi|Lionel Messi|1387711246|Lionel Messi|153497085
+X|Men's football
+M|W|G|2022|
+M|W|S|2014|
+M|W|S|2026|
+M|A|G|2021|
+M|A|G|2024|
+M|A|S|2007|
+M|A|S|2015|
+M|A|S|2016|
+M|A|B|2019|
+M|O|G|2008|Team
+I|Campionato spagnolo|Barcellona: 2004-2005, 2005-2006, 2008-2009, 2009-2010, 2010-2011, 2012-2013, 2014-2015, 2015-2016, 2017-2018, 2018-2019
+I|Campionato francese|Paris Saint-Germain: 2021-2022, 2022-2023
+I|UEFA Champions League|Barcellona: 2005-2006, 2008-2009, 2010-2011, 2014-2015
+@Cristiano Ronaldo|Cristiano Ronaldo|1387620804|Cristiano Ronaldo|153543216
+X|Men's football
+M|E|G|2016|
+M|E|S|2004|
+M|E|B|2012|
+I|Campionato inglese|Manchester United: 2006-2007, 2007-2008, 2008-2009
+I|Campionato spagnolo|Real Madrid: 2011-2012, 2016-2017
+I|Campionato italiano|Juventus: 2018-2019, 2019-2020
+I|UEFA Champions League|Manchester United: 2007-2008 Real Madrid: 2013-2014, 2015-2016, 2016-2017, 2017-2018
+@Zinedine Zidane|Zinedine Zidane|1387754871|Zinédine Zidane|153475357
+X|Men's football
+M|W|G|1998|
+M|W|S|2006|
+M|E|G|2000|
+I|Campionato italiano|Juventus: 1996-1997, 1997-1998
+I|Campionato spagnolo|Real Madrid: 2002-2003
+I|UEFA Champions League|Real Madrid: 2001-2002
+I|Campionato spagnolo|Real Madrid: 2016-2017, 2019-2020
+I|UEFA Champions League|Real Madrid: 2015-2016, 2016-2017, 2017-2018

@@ -1,0 +1,55 @@
+@Lindsey Vonn|Lindsey Vonn|1387319442|Lindsey Vonn|152995797
+X|Women's alpine skiing
+M|O|G|2010|Downhill
+M|O|B|2010|Super-G
+M|O|B|2018|Downhill
+M|W|G|2009|Downhill
+M|W|G|2009|Super-G
+M|W|S|2007|Downhill
+M|W|S|2007|Super-G
+M|W|S|2011|Downhill
+M|W|B|2015|Super-G
+M|W|B|2017|Downhill
+M|W|B|2019|Downhill
+C|World Cup|4 – (2008–10, 2012)
+@Alberto Tomba|Alberto Tomba|1375844046|Alberto Tomba|153055717
+X|Men's alpine skiing
+M|O|G|1988|Slalom
+M|O|G|1988|Giant slalom
+M|O|G|1992|Giant slalom
+M|O|S|1992|Slalom
+M|O|S|1994|Slalom
+M|W|G|1996|Slalom
+M|W|G|1996|Giant slalom
+M|W|B|1987|Giant slalom
+M|W|B|1997|Slalom
+C|World Cup|1 (1995)
+@Marcel Hirscher|Marcel Hirscher|1387479729|Marcel Hirscher|151414582
+M|O|G|2018|Combined
+M|O|G|2018|Giant slalom
+M|O|S|2014|Slalom
+M|W|G|2013|Slalom
+M|W|G|2013|Team event
+M|W|G|2015|Combined
+M|W|G|2015|Team event
+M|W|G|2017|Giant slalom
+M|W|G|2017|Slalom
+M|W|G|2019|Slalom
+M|W|S|2013|Giant slalom
+M|W|S|2015|Giant slalom
+M|W|S|2017|Combined
+M|W|S|2019|Giant slalom
+C|World Cup|8 – (2012–2019)
+@Federica Brignone|Federica Brignone|1377248862|Federica Brignone|153552309
+X|Women's alpine skiing
+M|O|G|2026|Super-G
+M|O|G|2026|Giant slalom
+M|O|S|2022|Giant slalom
+M|O|B|2018|Giant slalom
+M|O|B|2022|Combined
+M|W|G|2023|Combined
+M|W|G|2025|Giant slalom
+M|W|S|2011|Giant slalom
+M|W|S|2023|Giant slalom
+M|W|S|2025|Super-G
+C|World Cup|2 – (2020, 2025)

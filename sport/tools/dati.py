@@ -14,6 +14,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
+import atleti  # noqa: E402  (palmarès degli atleti, v0.3)
+import voci_v03  # noqa: E402  (tessere dal mondo, v0.3)
 
 SPORT = [
     ("olimpiadi", "Olimpiadi e mondo", "#c8a85a", "globo"),
@@ -27,6 +29,7 @@ SPORT = [
     ("motori", "Motori", "#9aa3ad", "scacchi"),
     ("sci", "Sci", "#8fd6f6", "sci"),
     ("nuoto", "Nuoto", "#2fb7b3", "onde"),
+    ("ginnastica", "Ginnastica", "#a98ce8", "anelli"),
 ]
 
 OC = "olympics.com"
@@ -353,6 +356,8 @@ v("nuoto-mondiali-1973", "nuoto", 1973, "I primi Mondiali di nuoto",
   "Belgrado",
   [f("World Aquatics", "Overview and history", "https://www.worldaquatics.com/content/overview-and-history")])
 
+voci_v03.aggiungi(v, f)
+
 # ---------- Albi d'oro olimpici ----------
 P = {"United States": "Stati Uniti", "Canada": "Canada", "Mexico": "Messico", "Poland": "Polonia", "France": "Francia",
      "Brazil": "Brasile", "Soviet Union": "Unione Sovietica", "Uruguay": "Uruguay", "Argentina": "Argentina", "Italy": "Italia",
@@ -517,5 +522,7 @@ ids = [x["id"] for x in V]
 assert len(ids) == len(set(ids))
 assert all(x["sport"] in {s[0] for s in SPORT} for x in V)
 Path("sport/data").mkdir(parents=True, exist_ok=True)
+ATL = atleti.costruisci()
+Path("sport/data/atleti.json").write_text(json.dumps(ATL, ensure_ascii=False, indent=1), encoding="utf-8")  # usato dalla v0.3
 Path("sport/data/almanacco.json").write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(V), "tessere;", sum(len(t["righe"]) for a in ALBI.values() for g in a["gruppi"] for t in g["tornei"]), "righe di albo d'oro")

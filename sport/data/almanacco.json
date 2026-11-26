@@ -65,6 +65,12 @@
    "nome": "Nuoto",
    "colore": "#2fb7b3",
    "icona": "onde"
+  },
+  {
+   "id": "ginnastica",
+   "nome": "Ginnastica",
+   "colore": "#a98ce8",
+   "icona": "anelli"
   }
  ],
  "voci": [
@@ -279,6 +285,30 @@
      "i": "Britannica",
      "t": "Davis Cup",
      "u": "https://www.britannica.com/sports/Davis-Cup"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "tour-1903",
+   "sport": "ciclismo",
+   "anno": 1903,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo Tour de France",
+   "testo": "Il giornalista Henri Desgrange lancia il Tour de France per far vendere il suo giornale, L'Auto. Partono in 60, arrivano in 21: vince il francese Maurice Garin.",
+   "luogo": "Francia",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "When was the Tour de France first held?",
+     "u": "https://www.britannica.com/sports/When-was-the-Tour-de-France-first-held"
+    },
+    {
+     "i": "Britannica",
+     "t": "Tour de France winners",
+     "u": "https://www.britannica.com/sports/Tour-de-France-winners-2227411"
     }
    ],
    "italia": false,
@@ -591,6 +621,30 @@
    "nota": ""
   },
   {
+   "id": "owens-1936",
+   "sport": "atletica",
+   "anno": 1936,
+   "data": "",
+   "circa": false,
+   "titolo": "Owens, quattro ori a Berlino",
+   "testo": "Ai Giochi di Berlino Jesse Owens vince 100 m, 200 m, salto in lungo e staffetta 4×100. Il record di quattro ori nell'atletica in una sola edizione resterà ineguagliato fino a Carl Lewis, a Los Angeles 1984.",
+   "luogo": "Berlino",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Berlin 1936 Summer Olympics",
+     "u": "https://www.olympics.com/en/olympic-games/berlin-1936"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Jesse Owens – biografia",
+     "u": "https://www.olympics.com/en/athletes/jesse-owens"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "basket-nba",
    "sport": "basket",
    "anno": 1946,
@@ -687,6 +741,73 @@
    "nota": ""
   },
   {
+   "id": "bannister-1954",
+   "sport": "atletica",
+   "anno": 1954,
+   "data": "6 maggio 1954",
+   "circa": false,
+   "titolo": "Il primo miglio sotto i 4 minuti",
+   "testo": "Il 6 maggio 1954, in una gara a Oxford, lo studente di medicina inglese Roger Bannister corre il miglio in 3'59\"4: è il primo uomo sotto i quattro minuti.",
+   "luogo": "Oxford (Regno Unito)",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Roger Bannister",
+     "u": "https://www.britannica.com/biography/Roger-Bannister"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "pele-1958",
+   "sport": "calcio",
+   "anno": 1958,
+   "data": "29 giugno 1958",
+   "circa": false,
+   "titolo": "Pelé, campione a 17 anni",
+   "testo": "In Svezia il Brasile vince il suo primo Mondiale battendo i padroni di casa 5-2 in finale. Pelé, 17 anni, segna due gol: è ancora il più giovane marcatore in una finale mondiale.",
+   "luogo": "Solna (Svezia)",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "Brazil v Sweden, 1958",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/brazil-sweden-1958"
+    },
+    {
+     "i": "FIFA",
+     "t": "Behind the World Cup record: Pele",
+     "u": "https://inside.fifa.com/tournaments/mens/worldcup/1958sweden/news/behind-the-world-cup-record-pele"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "bikila-1960",
+   "sport": "atletica",
+   "anno": 1960,
+   "data": "10 settembre 1960",
+   "circa": false,
+   "titolo": "Bikila, maratona a piedi nudi",
+   "testo": "A Roma l'etiope Abebe Bikila vince la maratona olimpica correndo scalzo, in 2h15'16\": è il primo africano nero campione olimpico della maratona. Quattro anni dopo, a Tokyo, vincerà di nuovo.",
+   "luogo": "Roma",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Abebe Bikila wins men's marathon barefoot",
+     "u": "https://www.olympics.com/en/news/this-week-in-olympic-history-9-15-september-abebe-bikila-wins-mens-marathon-barefoot"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Abebe Bikila – biografia",
+     "u": "https://www.olympics.com/en/athletes/abebe-bikila"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "roma-1960-paralimpiadi",
    "sport": "olimpiadi",
    "anno": 1960,
@@ -709,6 +830,25 @@
    ],
    "italia": true,
    "nota": "Partecipanti: l'IPC indica 400 atleti da 23 paesi nella pagina generale e 319 atleti da 21 paesi nella pagina dedicata a Roma 1960; nel testo non c'è il numero."
+  },
+  {
+   "id": "chamberlain-1962",
+   "sport": "basket",
+   "anno": 1962,
+   "data": "2 marzo 1962",
+   "circa": false,
+   "titolo": "Chamberlain, 100 punti",
+   "testo": "A Hershey, in Pennsylvania, Wilt Chamberlain segna 100 punti nella vittoria dei Philadelphia Warriors sui New York Knicks (169-147). È ancora il record NBA in una partita.",
+   "luogo": "Hershey (Stati Uniti)",
+   "fonti": [
+    {
+     "i": "NBA",
+     "t": "Top Moments: Wilt Chamberlain scores 100",
+     "u": "https://www.nba.com/news/history-top-moments-wilt-chamberlain-scores-100"
+    }
+   ],
+   "italia": false,
+   "nota": ""
   },
   {
    "id": "volley-tokyo-1964",
@@ -759,6 +899,30 @@
    "nota": ""
   },
   {
+   "id": "beamon-1968",
+   "sport": "atletica",
+   "anno": 1968,
+   "data": "18 ottobre 1968",
+   "circa": false,
+   "titolo": "Beamon, 8,90 nel lungo",
+   "testo": "Ai Giochi di Città del Messico Bob Beamon salta 8,90 m al primo tentativo della finale e migliora il record del mondo di 55 centimetri. Resta tuttora il record olimpico.",
+   "luogo": "Città del Messico",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Beamon breaks World and Olympic record",
+     "u": "https://www.olympics.com/en/news/week-in-olympic-history-14-20-october"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Olympic jump records",
+     "u": "https://www.olympics.com/en/news/olympic-records-jump-high-long-triple-pole-vault"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "tennis-open",
    "sport": "tennis",
    "anno": 1968,
@@ -777,6 +941,97 @@
      "i": "Britannica",
      "t": "What Is the Open Era in Tennis?",
      "u": "https://www.britannica.com/sports/What-Is-the-Open-Era-in-Tennis"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "laver-1969",
+   "sport": "tennis",
+   "anno": 1969,
+   "data": "",
+   "circa": false,
+   "titolo": "Laver, il secondo Grande Slam",
+   "testo": "L'australiano Rod Laver vince nello stesso anno Australian Open, Roland Garros, Wimbledon e US Open, come nel 1962. È l'unico ad averlo fatto due volte, e l'unico uomo nell'era Open.",
+   "luogo": "",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Rod Laver",
+     "u": "https://www.britannica.com/biography/Rod-Laver"
+    },
+    {
+     "i": "ATP Tour",
+     "t": "Grand Slams: Tournaments, Records, Stats",
+     "u": "https://www.atptour.com/en/news/grand-slams-tournaments-records-stats"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "merckx-1969",
+   "sport": "ciclismo",
+   "anno": 1969,
+   "data": "",
+   "circa": false,
+   "titolo": "Merckx vince il primo Tour",
+   "testo": "Il belga Eddy Merckx vince il suo primo Tour de France; ne vincerà cinque (1969-72 e 1974), oltre a cinque Giri d'Italia e una Vuelta. In carriera conterà 445 vittorie.",
+   "luogo": "Francia",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Eddy Merckx",
+     "u": "https://www.britannica.com/biography/Eddy-Merckx"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "brasile-1970",
+   "sport": "calcio",
+   "anno": 1970,
+   "data": "21 giugno 1970",
+   "circa": false,
+   "titolo": "La Coppa Rimet resta al Brasile",
+   "testo": "Battendo l'Italia 4-1 in finale a Città del Messico, il Brasile vince il terzo Mondiale e tiene per sempre la Coppa Jules Rimet. Dal 1974 si gioca per un trofeo nuovo.",
+   "luogo": "Città del Messico",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Jules Rimet Trophy",
+     "u": "https://www.britannica.com/sports/Jules-Rimet-Trophy"
+    },
+    {
+     "i": "FIFA",
+     "t": "The World Cup Trophy in numbers",
+     "u": "https://www.fifa.com/en/articles/world-cup-trophy-in-numbers-fifa-world-cup-qatar-2022"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "spitz-1972",
+   "sport": "nuoto",
+   "anno": 1972,
+   "data": "",
+   "circa": false,
+   "titolo": "Spitz, sette ori e sette record",
+   "testo": "A Monaco di Baviera Mark Spitz vince sette gare su sette, tutte con il record del mondo. Il primato di ori in una sola edizione durerà 36 anni.",
+   "luogo": "Monaco di Baviera",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Mark Spitz – biografia",
+     "u": "https://www.olympics.com/en/athletes/mark-spitz"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Munich 1972 Summer Olympics",
+     "u": "https://www.olympics.com/en/olympic-games/munich-1972"
     }
    ],
    "italia": false,
@@ -820,6 +1075,30 @@
      "i": "Wikipedia",
      "t": "Basketball at the Summer Olympics (rev. 1383154364)",
      "u": "https://en.wikipedia.org/w/index.php?title=Basketball_at_the_Summer_Olympics&oldid=1383154364"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "comaneci-1976",
+   "sport": "ginnastica",
+   "anno": 1976,
+   "data": "18 luglio 1976",
+   "circa": false,
+   "titolo": "Comăneci, il primo 10",
+   "testo": "A Montréal la romena Nadia Comăneci, 14 anni, ottiene alle parallele asimmetriche il primo 10 della storia olimpica. Il tabellone, che non prevedeva il 10, mostra «1.00». Ne prenderà altri sei in quei Giochi.",
+   "luogo": "Montréal",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Nadia Comaneci scores the first perfect 10",
+     "u": "https://www.olympics.com/en/news/this-week-in-olympic-history-july-15-21-nadia-comaneci-scores-the-first-perfect-10-in-gymnastics"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Nadia Comaneci – biografia",
+     "u": "https://www.olympics.com/en/athletes/nadia-comaneci"
     }
    ],
    "italia": false,
@@ -917,6 +1196,30 @@
    "nota": ""
   },
   {
+   "id": "maradona-1986",
+   "sport": "calcio",
+   "anno": 1986,
+   "data": "22 giugno 1986",
+   "circa": false,
+   "titolo": "Maradona e il «gol del secolo»",
+   "testo": "Nei quarti del Mondiale messicano Diego Maradona segna all'Inghilterra il gol di mano e, quattro minuti dopo, quello partito da metà campo poi votato gol del secolo. L'Argentina vincerà il Mondiale.",
+   "luogo": "Città del Messico",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "Diego Maradona spurs Argentina past England at Mexico 1986",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/argentina-england-1986-diego-maradona"
+    },
+    {
+     "i": "Britannica",
+     "t": "Diego Maradona",
+     "u": "https://www.britannica.com/biography/Diego-Maradona"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "beach-fivb-1987",
    "sport": "beach",
    "anno": 1987,
@@ -930,6 +1233,30 @@
      "i": "FIVB",
      "t": "FIVB celebrates 75th Anniversary",
      "u": "https://www.fivb.com/fivb-celebrates-75th-anniversary/"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "graf-1988",
+   "sport": "tennis",
+   "anno": 1988,
+   "data": "",
+   "circa": false,
+   "titolo": "Graf, il Golden Slam",
+   "testo": "Steffi Graf vince i quattro tornei del Grande Slam e poi l'oro olimpico a Seul, battendo in finale Gabriela Sabatini. È l'unica ad aver vinto tutto nello stesso anno.",
+   "luogo": "Seul",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Tennis' first Golden Slam winner: Steffi Graf",
+     "u": "https://www.olympics.com/en/news/tennis-golden-slam-steffi-graf-1988-olympics-gold"
+    },
+    {
+     "i": "Britannica",
+     "t": "Steffi Graf",
+     "u": "https://www.britannica.com/biography/Steffi-Graf"
     }
    ],
    "italia": false,
@@ -973,6 +1300,30 @@
      "i": "FIFA",
      "t": "We are FIFA",
      "u": "https://jobs.fifa.com/we-are-fifa"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "dream-team-1992",
+   "sport": "basket",
+   "anno": 1992,
+   "data": "",
+   "circa": false,
+   "titolo": "Il Dream Team",
+   "testo": "Barcellona 1992 è la prima Olimpiade aperta ai giocatori NBA. Gli Stati Uniti di Jordan, Magic Johnson, Bird e Barkley vincono l'oro battendo gli avversari con una media di 44 punti di scarto.",
+   "luogo": "Barcellona",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Dream Team 1992 Revisited",
+     "u": "https://www.olympics.com/en/news/dream-team-1992-usa-basketball-olympics"
+    },
+    {
+     "i": "olympics.com",
+     "t": "The Barcelona 1992 Dream Team",
+     "u": "https://www.olympics.com/en/topics/this-is-the-dream-team"
     }
    ],
    "italia": false,
@@ -1041,6 +1392,30 @@
    "nota": "Che la Spagna sia la finalista viene dalla tabella FIBA (Italia prima, Spagna seconda)."
   },
   {
+   "id": "cuba-volley-2000",
+   "sport": "pallavolo",
+   "anno": 2000,
+   "data": "",
+   "circa": false,
+   "titolo": "Cuba, tre ori di fila",
+   "testo": "Con il successo di Sydney 2000 la nazionale femminile cubana, quella di Regla Torres e Mireya Luis, vince il terzo oro olimpico consecutivo dopo Barcellona 1992 e Atlanta 1996. Nessun'altra squadra femminile ci è riuscita.",
+   "luogo": "Sydney",
+   "fonti": [
+    {
+     "i": "FIVB",
+     "t": "Cuba aim to reignite past glory on World Championship return",
+     "u": "https://www.fivb.com/cuba-aim-to-reignite-past-glory-on-world-championship-return/"
+    },
+    {
+     "i": "olympics.com",
+     "t": "The history of Olympic volleyball",
+     "u": "https://www.olympics.com/en/news/the-history-of-olympic-volleyball"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "basket-atene-2004",
    "sport": "basket",
    "anno": 2004,
@@ -1089,6 +1464,30 @@
    "nota": ""
   },
   {
+   "id": "phelps-2008",
+   "sport": "nuoto",
+   "anno": 2008,
+   "data": "17 agosto 2008",
+   "circa": false,
+   "titolo": "Phelps, otto ori a Pechino",
+   "testo": "A Pechino Michael Phelps vince tutte le otto gare a cui partecipa, sette con il record del mondo, e supera i sette ori di Spitz. Chiuderà la carriera con 28 medaglie olimpiche, 23 d'oro.",
+   "luogo": "Pechino",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Phelps' eight-gold haul ten years on",
+     "u": "https://www.olympics.com/en/news/phelps-eight-gold-haul-ten-years-on-could-it-happen-again"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Michael Phelps – biografia",
+     "u": "https://www.olympics.com/en/athletes/michael-phelps-ii"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
    "id": "atletica-958",
    "sport": "atletica",
    "anno": 2009,
@@ -1107,6 +1506,30 @@
      "i": "World Athletics",
      "t": "100 Metres men - All Time Top Lists",
      "u": "https://worldathletics.org/records/all-time-toplists/sprints/100-metres/outdoor/men/senior"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "may-walsh-2012",
+   "sport": "beach",
+   "anno": 2012,
+   "data": "",
+   "circa": false,
+   "titolo": "May-Treanor e Walsh, tre ori",
+   "testo": "A Londra Misty May-Treanor e Kerri Walsh Jennings battono le connazionali Kessy e Ross e vincono il terzo oro olimpico consecutivo, dopo Atene 2004 e Pechino 2008.",
+   "luogo": "Londra",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Misty May-Treanor – biografia",
+     "u": "https://www.olympics.com/en/athletes/misty-may-treanor"
+    },
+    {
+     "i": "olympics.com",
+     "t": "How May-Treanor and Walsh Jennings danced to victory",
+     "u": "https://www.olympics.com/en/news/how-may-treanor-and-walsh-jennings-danced-to-victory"
     }
    ],
    "italia": false,
@@ -1134,6 +1557,97 @@
     }
    ],
    "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "kipchoge-2019",
+   "sport": "atletica",
+   "anno": 2019,
+   "data": "12 ottobre 2019",
+   "circa": false,
+   "titolo": "La maratona sotto le due ore",
+   "testo": "A Vienna, in una prova organizzata apposta con 41 lepri, Eliud Kipchoge corre i 42,195 km in 1h59'40\". È il primo sotto le due ore, ma non vale come record del mondo perché non è una gara in condizioni regolari.",
+   "luogo": "Vienna",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Eliud Kipchoge runs first sub two hour marathon",
+     "u": "https://www.olympics.com/en/news/eliud-kipchoge-first-sub-two-hour-marathon"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Eliud Kipchoge – biografia",
+     "u": "https://www.olympics.com/en/athletes/eliud-kipchoge"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "hamilton-2020",
+   "sport": "motori",
+   "anno": 2020,
+   "data": "15 novembre 2020",
+   "circa": false,
+   "titolo": "Hamilton, sette titoli come Schumacher",
+   "testo": "Vincendo sotto la pioggia il Gran Premio di Turchia, Lewis Hamilton conquista il settimo titolo mondiale di Formula 1 ed eguaglia il record di Michael Schumacher.",
+   "luogo": "Istanbul",
+   "fonti": [
+    {
+     "i": "Formula 1",
+     "t": "Hamilton seals historic 7th title in Turkey",
+     "u": "https://www.formula1.com/en/latest/article/hamilton-seals-historic-7th-title-with-peerless-wet-weather-victory-in.4wK1atemiXDvWXQxOknL4J"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "lebron-2023",
+   "sport": "basket",
+   "anno": 2023,
+   "data": "7 febbraio 2023",
+   "circa": false,
+   "titolo": "LeBron miglior marcatore di sempre",
+   "testo": "Il 7 febbraio 2023 LeBron James supera i 38.387 punti di Kareem Abdul-Jabbar e diventa il miglior marcatore nella storia della NBA. Il record di Abdul-Jabbar resisteva da 39 anni.",
+   "luogo": "Los Angeles",
+   "fonti": [
+    {
+     "i": "NBA",
+     "t": "LeBron James surpasses Kareem Abdul-Jabbar for NBA career scoring record",
+     "u": "https://www.nba.com/news/lebron-james-scoring-tracker"
+    },
+    {
+     "i": "NBA",
+     "t": "LeBron James set to become 1st player to score 50,000 total points",
+     "u": "https://www.nba.com/news/lebron-james-50000-total-points-milestone"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "shiffrin-2023",
+   "sport": "sci",
+   "anno": 2023,
+   "data": "11 marzo 2023",
+   "circa": false,
+   "titolo": "Shiffrin supera Stenmark",
+   "testo": "Con lo slalom di Åre, in Svezia, Mikaela Shiffrin arriva a 87 vittorie in Coppa del Mondo e supera il record di Ingemar Stenmark, che durava da 34 anni.",
+   "luogo": "Åre (Svezia)",
+   "fonti": [
+    {
+     "i": "FIS",
+     "t": "Unbelievable Shiffrin re-writes record books",
+     "u": "https://www.fis-ski.com/alpine-skiing/news/2022-23/unbelievable-shiffrin-re-writes-record-books-to-becomes-the-greatest"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Mikaela Shiffrin sets new World Cup wins record in Are slalom",
+     "u": "https://www.olympics.com/en/news/mikaela-shiffrin-sets-new-world-cup-wins-record-are-slalom"
+    }
+   ],
+   "italia": false,
    "nota": ""
   },
   {
