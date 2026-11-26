@@ -428,7 +428,7 @@ function risultati() {
   const hits = INDICE.filter(e => (!C.sport || e.sport === C.sport) && (!C.tipo || e.tipo === C.tipo) && corrisponde(e, RR));
   const vv = hits.filter(e => e.tipo === 'voce').sort((a, b) => b.anno - a.anno);
   const aa = hits.filter(e => e.tipo === 'albo').sort((a, b) => b.anno - a.anno || a.sport.localeCompare(b.sport));
-  let h = `<div class="conta">${hits.length ? `${vv.length} tessere · ${aa.length} righe di albo d'oro` : ''}</div>`;
+  let h = `<div class="conta">${hits.length ? `${vv.length} ${vv.length === 1 ? 'tessera' : 'tessere'} · ${aa.length} ${aa.length === 1 ? 'riga' : 'righe'} di albo d'oro` : ''}</div>`;
   if (!hits.length) h += `<p class="vuoto">Nessun risultato${C.sport ? ' in questo sport' : ''}. Prova con meno parole o senza filtri.</p>`;
   if (vv.length) h += `<h3>Tessere</h3><ul>${vv.slice(0, C.limite).map(e => riga(e, toks)).join('')}</ul>`;
   if (aa.length) h += `<h3>Albi d'oro</h3><ul>${aa.slice(0, C.limite).map(e => riga(e, toks)).join('')}</ul>`;
