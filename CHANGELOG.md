@@ -1,5 +1,13 @@
 # Registro delle versioni
 
+## v0.76 · 26 novembre 2026
+
+- **Foto per le 31 voci della v0.75**: 66 foto da Wikimedia Commons, tutte le voci nuove ne hanno almeno una. In tutto **567 voci su 580** hanno foto (1.468 foto); restano senza le stesse 13 di prima.
+  - Stesse regole delle versioni precedenti: niente fotografie di persone riconoscibili, niente immagini crude. Per guerre, genocidi e carestie ci sono memoriali, edifici, mezzi, documenti e banconote d'epoca (per esempio Tsitsernakaberd per il genocidio armeno, la lapide di Almaty per la carestia kazaka, le banconote d'occupazione giapponesi, il monumento Tortura Nunca Mais di Recife per la dittatura brasiliana).
+  - Scelte di Claude da far vedere a Luca: per la Rivoluzione dei garofani c'è solo il ponte 25 de Abril (le foto del 1974 mostrano persone da vicino); per la guerra d'Etiopia l'obelisco di Axum portato a Roma nel 1937; per il Sessantotto le scritte situazioniste e una folla vista dall'alto; per la sentenza Mabo un acquerello del 1845 dell'isola di Mer e la sede dell'Alta Corte; per la guerra del Chaco un carro Vickers dello stesso modello (collegamento indiretto).
+  - Selezione in `tools/foto/v073/selezione_grezza_v076.txt` (SHA-256 `db7c4b97…012d`, identico a quello calcolato nel browser); nessun nome è un reindirizzamento.
+- Controlli sul sito pubblicato (26 novembre, dal browser integrato): la v0.75 è online con 580 voci e tutte le 68 foto della v0.74 si caricano. Copie della v0.74 e della v0.75 salvate su OneDrive.
+
 ## v0.75 · 25 novembre 2026
 
 - **31 voci nuove di storia contemporanea, secondo blocco**, tutte con fonti specifiche e punto sulla mappa. Totale **580 voci**.
