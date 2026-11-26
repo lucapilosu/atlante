@@ -122,6 +122,9 @@ NOTE = {
                      "aveva allenato quella femminile.",
                      {"i": "USA Volleyball", "t": "Karch Kiraly to Coach U.S. Men's National Team (24 ottobre 2024)",
                       "u": "https://usavolleyball.org/story/karch-kiraly-to-coach-u-s-mens-national-team/"}),
+    "giba": ("Il titolo inglese 2018-19 l'ha vinto con l'IBB Polonia London, tornando a giocare dopo cinque anni di ritiro.",
+             {"i": "CEV", "t": "Giba and IBB Polonia London - Champions of England (16 aprile 2019)",
+              "u": "https://www.cev.eu/articles/volleyball/giba-and-ibb-polonia-london-champions-of-england"}),
 }
 COMP = {"O": "Olimpiadi", "W": "Mondiali", "E": "Europei", "A": "Copa América"}
 MED = {"G": "oro", "S": "argento", "B": "bronzo"}

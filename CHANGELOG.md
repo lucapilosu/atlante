@@ -1,5 +1,17 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.3 · 26 novembre 2026
+
+- **Nuova grafica «Figurine»** in due stili, scelti da Luca: **Notte** (predefinito) e **Pastello**, con il pulsante «Stile» come nell'Atlante; la scelta resta salvata sul dispositivo. Tessere con bordo del colore dello sport, anno in un'etichetta in alto a destra, bandierina in alto a sinistra.
+- **Favicon a medaglia** (disegno originale; i cerchi olimpici sono un simbolo protetto del CIO).
+- **Bandierina al posto dell'evidenziazione verde** negli albi d'oro: segna l'Italia accanto al nome, senza colorare la riga.
+- **Ricerca con filtri**: cosa (tessere, albi d'oro, atleti), paese, sport, competizione (Olimpiadi, Mondiali, Europei, campionati), risultato (oro, argento, bronzo), anni, genere. Sul telefono i filtri stanno in una riga «Filtri» che si apre e mostra il riepilogo. Con paese o risultato scelti, la medaglia corrispondente è messa in evidenza.
+- **Ricerca per atleta** (100 atleti, anche con altri nomi: «Yuri Chechi», «Mondo Duplantis», «Djokovic»): porta a una **vista filtrata** con solo gli sport dell'atleta (Kiraly: pallavolo e beach volley), medaglie sull'asse degli anni (piene da atleta, tratteggiate da allenatore) e la scheda del palmarès divisa tra «da atleta» e «da allenatore». 398 voci del palmarès portano alla riga giusta dell'albo d'oro («albo →»); ogni collegamento è controllato. Gli atleti si scaricano solo quando servono (circa 17 kB compressi).
+- **Albo d'oro olimpico dell'atletica**: 100, 200, 400, 5000, 10.000 m, maratona, staffette 4×100 e 4×400, salti in alto, con l'asta e in lungo, uomini e donne, più la 4×400 mista (490 righe; in tutto 1.248). Scelta per genere e poi per gara; pari merito e medaglie non assegnate annotati (Sydney 2000, oro dei 100 m donne non riassegnato).
+- **Telefono**: la scheda si chiude tirandola giù, come nell'Atlante. Per aggiornare la pagina si tira giù la **barra in alto** (il gesto nativo non può funzionare perché il trascinamento muove il mosaico); in più, quando torni sulla pagina e c'è una versione nuova compare l'avviso «Aggiorna».
+- Giba, titolo inglese 2018-19: verificato sulla CEV, fonte aggiunta.
+- Prove: 101 controlli su PC e iPhone emulato (erano 57).
+
 ## Pilu Sports Almanac v0.2.1 · 26 novembre 2026
 
 - **Più mondo, meno Italia:** 22 tessere nuove con risultati e record non italiani (Owens 1936, Bannister 1954, Bikila 1960, Beamon 1968, Kipchoge 2019, Comăneci 1976, Spitz 1972, Phelps 2008, Chamberlain 1962, Dream Team 1992, LeBron 2023, Cuba 2000, May-Treanor e Walsh 2012, Pelé 1958, Brasile 1970, Maradona 1986, Laver 1969, Graf 1988, primo Tour 1903, Merckx 1969, Hamilton 2020, Shiffrin 2023), ognuna con fonte (olympics.com, FIFA, NBA, FIVB, FIS, Formula 1, ATP, Britannica). Le tessere italiane passano dal 37% al 26%.

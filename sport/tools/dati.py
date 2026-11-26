@@ -14,6 +14,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
+import albo_atletica  # noqa: E402  (albo olimpico dell'atletica, v0.3)
 import atleti  # noqa: E402  (palmarès degli atleti, v0.3)
 import voci_v03  # noqa: E402  (tessere dal mondo, v0.3)
 
@@ -498,16 +499,34 @@ OLIMPIADI = {
               "fonti": [wp("Beach volleyball at the Summer Olympics", 1380739173),
                         f("FIVB", "History (beach volleyball)", "https://www.fivb.com/beach-volleyball/the-game/history/")]},
 }
+OLIMPIADI["atletica"] = {
+    "tornei": albo_atletica.costruisci(),
+    "nota": ("Solo le gare del programma olimpico attuale scelte per l'almanacco (velocità, mezzofondo, maratona, staffette, "
+             "salti in alto, con l'asta e in lungo). Trascritto il 26/11/2026 dalle liste dei medagliati di Wikipedia "
+             "(revisione fissata, controllo d'integrità con impronta SHA-256); controllato a campione su olympics.com, "
+             "World Athletics e Olympedia (Londra 1908, Sydney 2000, Tokyo 2020, Parigi 2024). I medagliati riflettono le "
+             "riassegnazioni per doping già decise. Le edizioni di Tokyo 2020 si sono disputate nel 2021."),
+    "fonti": [f("Wikipedia", "List of Olympic medalists in athletics (men) (revisione 1379935508)",
+                "https://en.wikipedia.org/w/index.php?title=List_of_Olympic_medalists_in_athletics_(men)&oldid=1379935508"),
+              f("Wikipedia", "List of Olympic medalists in athletics (women) (revisione 1379934565)",
+                "https://en.wikipedia.org/w/index.php?title=List_of_Olympic_medalists_in_athletics_(women)&oldid=1379934565"),
+              f("World Athletics", "Sydney 2000, 100 metri donne: oro non riassegnato",
+                "https://worldathletics.org/results/olympic-games/2000/27th-olympic-games-2363/women/100-metres/final/result"),
+              f("Olympedia", "Londra 1908, 400 metri uomini", "https://www.olympedia.org/results/56313"),
+              f(OC, "Tokyo 2020, staffetta 4×400 mista", "https://olympics.com/en/olympic-games/tokyo-2020/results/athletics/4-x-400m-relay-mixed"),
+              f("World Athletics", "Parigi 2024, salto in alto uomini",
+                "https://worldathletics.org/results/olympic-games/2024/the-xxxiii-olympic-games-7087/men/high-jump/final/result")],
+}
 ALTRI = albi.costruisci()
 NOTA_ALBI = ("Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, "
              "controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o "
              "giornalistiche, elencate tra le fonti.")
 ALBI = {}
-for sp in ["calcio", "basket", "pallavolo", "beach"]:
+for sp in ["calcio", "basket", "pallavolo", "beach", "atletica"]:
     gruppi = []
     if sp in OLIMPIADI:
         gruppi.append({"id": "olimpiadi", "nome": "Olimpiadi", "nota": NOTA_OLIMPIADI, **OLIMPIADI[sp]})
-    for g in ALTRI[sp]:
+    for g in ALTRI.get(sp, []):
         gruppi.append({**g, "nota": NOTA_ALBI})
     ALBI[sp] = {"titolo": "Albi d'oro", "gruppi": gruppi}
 for a in ALBI.values():
@@ -523,6 +542,77 @@ assert len(ids) == len(set(ids))
 assert all(x["sport"] in {s[0] for s in SPORT} for x in V)
 Path("sport/data").mkdir(parents=True, exist_ok=True)
 ATL = atleti.costruisci()
+# Genere di ogni atleta (per il filtro Uomini/Donne della ricerca): qui le donne, gli altri sono uomini.
+DONNE = {"shelly-ann-fraser-pryce", "allyson-felix", "sara-simeoni", "katie-ledecky", "federica-pellegrini",
+         "nadia-comaneci", "simone-biles", "larisa-latynina", "diana-taurasi", "paola-egonu", "francesca-piccinini",
+         "monica-de-gennaro", "tijana-boskovic", "zhu-ting", "kim-yeon-koung", "regla-torres", "lang-ping",
+         "kerri-walsh-jennings", "misty-may-treanor", "laura-ludwig", "marta-menegatti", "ana-patricia", "duda-lisboa",
+         "marta", "serena-williams", "steffi-graf", "mikaela-shiffrin", "lindsey-vonn", "federica-brignone"}
+assert DONNE <= {a["id"] for a in ATL}, DONNE - {a["id"] for a in ATL}
+# Squadre allenate di genere diverso da quello dell'allenatore (palmarès da allenatore presenti nei dati).
+SQUADRA_ALLENATA = {"karch-kiraly": "Donne"}
+GRUPPO = {"Olimpiadi": "olimpiadi", "Mondiali": "mondiali", "Europei": "europei", "Campionato italiano": "scudetto",
+          "Campionato NBA": "nba"}
+NOMI_PAESE = {"Unione Sovietica, poi Lituania": {"Unione Sovietica", "Lituania", "Squadra Unificata"},
+              "Unione Sovietica, poi Ucraina": {"Unione Sovietica", "Ucraina", "Squadra Unificata"},
+              "Cuba, poi Polonia": {"Cuba", "Polonia"}, "Germania Ovest": {"Germania Ovest", "Germania"},
+              "Regno Unito": {"Gran Bretagna", "Regno Unito"}, "Cecoslovacchia": {"Cecoslovacchia"}}
+
+
+def _n(x):
+    import unicodedata
+    return unicodedata.normalize("NFD", x).encode("ascii", "ignore").decode().lower()
+
+
+def collega(atl, albi_):
+    """Aggiunge a ogni voce di palmarès il collegamento alla riga d'albo d'oro corrispondente, solo se la riga
+    esiste e (per le nazionali) il paese o il cognome dell'atleta compare proprio nella casella di quella medaglia."""
+    fatti, scartati = 0, []
+    for a in atl:
+        a["genere"] = "Donne" if a["id"] in DONNE else "Uomini"
+        paesi = NOMI_PAESE.get(a["paese"], {a["paese"]})
+        cognomi = {_n(a["nome"]).split()[-1]} | {_n(x) for x in a.get("alias", "").split() if len(x) > 3}
+        for p in a["palmares"]:
+            gid = GRUPPO.get(p["comp"])
+            al = albi_.get(p["sport"])
+            if not gid or not al or p["anno"] is None:
+                continue
+            gi = next((i for i, g in enumerate(al["gruppi"]) if g["id"] == gid), None)
+            if gi is None:
+                continue
+            G = al["gruppi"][gi]
+            gen = SQUADRA_ALLENATA.get(a["id"], a["genere"]) if p["ruolo"] == "allenatore" else a["genere"]
+            if any("genere" in t for t in G["tornei"]):
+                ti = next((i for i, t in enumerate(G["tornei"]) if t["genere"] == gen and _n(t["nome"]) == _n(p["gara"])), None)
+            elif len(G["tornei"]) == 1:
+                ti = 0 if gen == "Uomini" else None
+            else:
+                ti = next((i for i, t in enumerate(G["tornei"]) if t["nome"] == gen), None)
+            if ti is None:
+                continue
+            T = G["tornei"][ti]
+            chiave = (p.get("stag") or "").replace("-", "–") or str(p["anno"])
+            if T["tipo"] == "lega" and not p.get("stag"):
+                r = next((r for r in T["righe"] if r["anno"] == p["anno"]), None)  # NBA: anno = fine stagione
+                chiave = r.get("stag", str(r["anno"])) if r else chiave
+            else:
+                r = next((r for r in T["righe"] if (r.get("stag") or str(r["anno"])) == chiave), None)
+            cella = {"oro": "oro", "titolo": "oro", "argento": "argento", "bronzo": "bronzo"}.get(p["esito"])
+            if r is None or cella is None:
+                scartati.append((a["id"], p["comp"], p["anno"], p["gara"], "riga assente"))
+                continue
+            if T["tipo"] == "torneo" and p["ruolo"] == "atleta":  # da allenatore può guidare un'altra nazionale
+                c = _n(r[cella])
+                if not (any(_n(x) in c for x in paesi) or any(k in c for k in cognomi)):
+                    scartati.append((a["id"], p["comp"], p["anno"], p["gara"], p["esito"], r[cella]))
+                    continue
+            p["albo"] = f"{p['sport']}|{gid}|{ti}|{chiave}"
+            fatti += 1
+    return fatti, scartati
+fatti, scartati = collega(ATL, ALBI)
+print(fatti, "voci di palmarès collegate all'albo d'oro;", len(scartati), "non collegate")
+for x in scartati:
+    print("  non collegata:", x)
 Path("sport/data/atleti.json").write_text(json.dumps(ATL, ensure_ascii=False, indent=1), encoding="utf-8")  # usato dalla v0.3
 Path("sport/data/almanacco.json").write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(V), "tessere;", sum(len(t["righe"]) for a in ALBI.values() for g in a["gruppi"] for t in g["tornei"]), "righe di albo d'oro")

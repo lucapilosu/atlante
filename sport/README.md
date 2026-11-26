@@ -7,5 +7,9 @@ Pagina a parte dell'atlante, pubblicata in `lucapilosu.github.io/atlante/sport/`
 - Albi d'oro non olimpici (v0.2): `tools/albi_grezzi.txt` contiene le tabelle di Wikipedia così come estratte nel browser, una sezione per competizione; `tools/albi.py` controlla l'impronta SHA-256 di ogni sezione (se il testo cambia, la generazione si ferma) e traduce in italiano nazioni, sedi e punteggi. Per aggiornare una competizione: rigenerare la sezione dal browser, aggiornare l'impronta in `HASH`, rilanciare `dati.py`.
 - Ricerca: indice costruito nella pagina da tessere e righe d'albo; parole in AND, inizio di parola, senza accenti.
 - Il titolo «Pilu Sports Almanac 1896–AAAA» prende l'ultimo anno dai dati: aggiungendo una tessera o una riga d'albo del 2027 diventa da solo «1896–2027».
-- Prove: `python3 tests/sport.py` (PC e iPhone emulato, 57 controlli).
+- Atleti (v0.3): `tools/atleti.py` → `data/atleti.json`; `build.py` lo copia compatto in `sport/atleti.json`, che la pagina scarica solo quando si apre la ricerca o un atleta (meno dati sul telefono). In `dati.py`: genere degli atleti e collegamenti palmarès → righe d'albo, controllati.
+- Albo olimpico dell'atletica (v0.3): `tools/atletica/a0..a5.txt` + `tools/albo_atletica.py`.
+- Versione: `build.py` scrive `sport/versione.json` con l'impronta del contenuto; la pagina la ricontrolla quando torna in primo piano e propone «Aggiorna» se è cambiata.
+- Stili Notte e Pastello (scelta salvata nel browser), favicon a medaglia (`favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`).
+- Prove: `python3 tests/sport.py` (PC e iPhone emulato, 101 controlli; avvia da sé un piccolo server locale).
 - Grafica originale (nessuna ripresa della copertina dell'almanacco del film, scelta concordata con Luca il 26/11/2026).

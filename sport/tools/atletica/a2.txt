@@ -1,0 +1,116 @@
+## M|Marathon
+1896|Spyridon Louis (Greece)|Charilaos Vasilakos (Greece)|Gyula Kellner (Hungary)
+1900|Michel Théato (France)|Émile Champion (France)|Ernst Fast (Sweden)
+1904|Thomas Hicks (United States)|Albert Corey (United States)|Arthur Newton (United States)
+1908|Johnny Hayes (United States)|Charles Hefferon (South Africa)|Joseph Forshaw (United States)
+1912|Ken McArthur (South Africa)|Christian Gitsham (South Africa)|Gaston Strobino (United States)
+1920|Hannes Kolehmainen (Finland)|Jüri Lossmann (Estonia)|Valerio Arri (Italy)
+1924|Albin Stenroos (Finland)|Romeo Bertini (Italy)|Clarence DeMar (United States)
+1928|Boughera El Ouafi (France)|Manuel Plaza (Chile)|Martti Marttelin (Finland)
+1932|Juan Carlos Zabala (Argentina)|Sam Ferris (Great Britain)|Armas Toivonen (Finland)
+1936|Sohn Kee-chung (Japan)|Ernest Harper (Great Britain)|Nam Sung-yong (Japan)
+1948|Delfo Cabrera (Argentina)|Tom Richards (Great Britain)|Étienne Gailly (Belgium)
+1952|Emil Zátopek (Czechoslovakia)|Reinaldo Gorno (Argentina)|Gustaf Jansson (Sweden)
+1956|Alain Mimoun (France)|Franjo Mihalić (Yugoslavia)|Veikko Karvonen (Finland)
+1960|Abebe Bikila (Ethiopia)|Rhadi Ben Abdesselam (Morocco)|Barry Magee (New Zealand)
+1964|Abebe Bikila (Ethiopia)|Basil Heatley (Great Britain)|Kōkichi Tsuburaya (Japan)
+1968|Mamo Wolde (Ethiopia)|Kenji Kimihara (Japan)|Mike Ryan (New Zealand)
+1972|Frank Shorter (United States)|Karel Lismont (Belgium)|Mamo Wolde (Ethiopia)
+1976|Waldemar Cierpinski (East Germany)|Frank Shorter (United States)|Karel Lismont (Belgium)
+1980|Waldemar Cierpinski (East Germany)|Gerard Nijboer (Netherlands)|Satymkul Dzhumanazarov (Soviet Union)
+1984|Carlos Lopes (Portugal)|John Treacy (Ireland)|Charlie Spedding (Great Britain)
+1988|Gelindo Bordin (Italy)|Douglas Wakiihuri (Kenya)|Ahmed Salah (Djibouti)
+1992|Hwang Young-cho (South Korea)|Kōichi Morishita (Japan)|Stephan Freigang (Germany)
+1996|Josia Thugwane (South Africa)|Lee Bong-ju (South Korea)|Erick Wainaina (Kenya)
+2000|Gezahegne Abera (Ethiopia)|Erick Wainaina (Kenya)|Tesfaye Tola (Ethiopia)
+2004|Stefano Baldini (Italy)|Meb Keflezighi (United States)|Vanderlei de Lima (Brazil)
+2008|Samuel Wanjiru (Kenya)|Jaouad Gharib (Morocco)|Tsegay Kebede (Ethiopia)
+2012|Stephen Kiprotich (Uganda)|Abel Kirui (Kenya)|Wilson Kipsang Kiprotich (Kenya)
+2016|Eliud Kipchoge (Kenya)|Feyisa Lelisa (Ethiopia)|Galen Rupp (United States)
+2020|Eliud Kipchoge (Kenya)|Abdi Nageeye (Netherlands)|Bashir Abdi (Belgium)
+2024|Tamirat Tola (Ethiopia)|Bashir Abdi (Belgium)|Benson Kipruto (Kenya)
+## M|4 × 100 metres relay
+1912|Great Britain|Sweden|none awarded
+1920|United States|France|Sweden
+1924|United States|Great Britain|Netherlands
+1928|United States|Germany|Great Britain
+1932|United States|Germany|Italy
+1936|United States|Italy|Germany
+1948|United States|Great Britain|Italy
+1952|United States|Soviet Union|Hungary
+1956|United States|Soviet Union|United Team of Germany
+1960|United Team of Germany|Soviet Union|Great Britain
+1964|United States|Poland|France
+1968|United States|Cuba|France
+1972|United States|Soviet Union|West Germany
+1976|United States|East Germany|Soviet Union
+1980|Soviet Union|Poland|France
+1984|United States|Jamaica|Canada
+1988|Soviet Union|Great Britain|France
+1992|United States|Nigeria|Cuba
+1996|Canada|United States|Brazil
+2000|United States|Brazil|Cuba
+2004|Great Britain|United States|Nigeria
+2008|Trinidad and Tobago|Japan|Brazil
+2012|Jamaica|Trinidad and Tobago|France
+2016|Jamaica|Japan|Canada
+2020|Italy|Canada|China
+2024|Canada|South Africa|Great Britain
+## M|4 × 400 metres relay
+1912|United States|France|Great Britain
+1920|Great Britain|South Africa|France
+1924|United States|Sweden|Great Britain
+1928|United States|Germany|Canada
+1932|United States|Great Britain|Canada
+1936|Great Britain|United States|Germany
+1948|United States|France|Sweden
+1952|Jamaica|United States|Germany
+1956|United States|Australia|Great Britain
+1960|United States|United Team of Germany|British West Indies
+1964|United States|Great Britain|Trinidad and Tobago
+1968|United States|Kenya|West Germany
+1972|Kenya|Great Britain|France
+1976|United States|Poland|West Germany
+1980|Soviet Union|East Germany|Italy
+1984|United States|Great Britain|Nigeria
+1988|United States|Jamaica|West Germany
+1992|United States|Cuba|Great Britain
+1996|United States|Great Britain|Jamaica
+2000|Nigeria|Jamaica|Bahamas
+2004|United States|Australia|Nigeria
+2008|United States|Bahamas|Great Britain
+2012|Bahamas|United States|Trinidad and Tobago
+2016|United States|Jamaica|Bahamas
+2020|United States|Netherlands|Botswana
+2024|United States|Botswana|Great Britain
+## M|High jump
+1896|Ellery Harding Clark (United States)|James Brendan Connolly (United States) ; Robert Garrett (United States)|none awarded
+1900|Irving Baxter (United States)|Patrick Leahy (Great Britain)|Lajos Gönczy (Hungary)
+1904|Samuel Jones (United States)|Garrett Serviss (United States)|Paul Weinstein (Germany)
+1908|Harry Porter (United States)|Géo André (France) ; Con Leahy (Great Britain) ; István Somodi (Hungary)|none awarded
+1912|Alma Richards (United States)|Hans Liesche (Germany)|George Horine (United States)
+1920|Richmond Landon (United States)|Harold Muller (United States)|Bo Ekelund (Sweden)
+1924|Harold Osborn (United States)|Leroy Brown (United States)|Pierre Lewden (France)
+1928|Bob King (United States)|Benjamin Hedges (United States)|Claude Ménard (France)
+1932|Duncan McNaughton (Canada)|Bob Van Osdel (United States)|Simeon Toribio (Philippines)
+1936|Cornelius Johnson (United States)|Dave Albritton (United States)|Delos Thurber (United States)
+1948|John Winter (Australia)|Bjørn Paulson (Norway)|George Stanich (United States)
+1952|Walt Davis (United States)|Ken Wiesner (United States)|José da Conceição (Brazil)
+1956|Charles Dumas (United States)|Chilla Porter (Australia)|Igor Kashkarov (Soviet Union)
+1960|Robert Shavlakadze (Soviet Union)|Valeriy Brumel (Soviet Union)|John Thomas (United States)
+1964|Valeriy Brumel (Soviet Union)|John Thomas (United States)|John Rambo (United States)
+1968|Dick Fosbury (United States)|Ed Caruthers (United States)|Valentin Gavrilov (Soviet Union)
+1972|Jüri Tarmak (Soviet Union)|Stefan Junge (East Germany)|Dwight Stones (United States)
+1976|Jacek Wszoła (Poland)|Greg Joy (Canada)|Dwight Stones (United States)
+1980|Gerd Wessig (East Germany)|Jacek Wszoła (Poland)|Jörg Freimuth (East Germany)
+1984|Dietmar Mögenburg (West Germany)|Patrik Sjöberg (Sweden)|Zhu Jianhua (China)
+1988|Hennadiy Avdyeyenko (Soviet Union)|Hollis Conway (United States)|Rudolf Povarnitsyn (Soviet Union) ; Patrik Sjöberg (Sweden)
+1992|Javier Sotomayor (Cuba)|Patrik Sjöberg (Sweden)|Hollis Conway (United States) ; Tim Forsyth (Australia) ; Artur Partyka (Poland)
+1996|Charles Austin (United States)|Artur Partyka (Poland)|Steve Smith (Great Britain)
+2000|Sergey Klyugin (Russia)|Javier Sotomayor (Cuba)|Abderahmane Hammad (Algeria)
+2004|Stefan Holm (Sweden)|Matt Hemingway (United States)|Jaroslav Bába (Czech Republic)
+2008|Andrey Silnov (Russia)|Germaine Mason (Great Britain)|Yaroslav Rybakov (Russia)
+2012|Erik Kynard (United States)|Mutaz Essa Barshim (Qatar) ; Derek Drouin (Canada) ; Robbie Grabarz (Great Britain)|none awarded
+2016|Derek Drouin (Canada)|Mutaz Essa Barshim (Qatar)|Bohdan Bondarenko (Ukraine)
+2020|Gianmarco Tamberi (Italy) ; Mutaz Essa Barshim (Qatar)|none awarded|Maksim Nedasekau (Belarus)
+2024|Hamish Kerr (New Zealand)|Shelby McEwen (United States)|Mutaz Essa Barshim (Qatar)

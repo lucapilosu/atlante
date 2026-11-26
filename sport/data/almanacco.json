@@ -7632,6 +7632,4152 @@
      "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
+  },
+  "atletica": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
+    {
+     "id": "olimpiadi",
+     "nome": "Olimpiadi",
+     "nota": "Solo le gare del programma olimpico attuale scelte per l'almanacco (velocità, mezzofondo, maratona, staffette, salti in alto, con l'asta e in lungo). Trascritto il 26/11/2026 dalle liste dei medagliati di Wikipedia (revisione fissata, controllo d'integrità con impronta SHA-256); controllato a campione su olympics.com, World Athletics e Olympedia (Londra 1908, Sydney 2000, Tokyo 2020, Parigi 2024). I medagliati riflettono le riassegnazioni per doping già decise. Le edizioni di Tokyo 2020 si sono disputate nel 2021.",
+     "tornei": [
+      {
+       "nome": "100 m",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "Thomas Burke (Stati Uniti)",
+         "ris": "",
+         "argento": "Fritz Hofmann (Germania)",
+         "bronzo": "Francis Lane (Stati Uniti), Alajos Szokolyi (Ungheria)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Frank Jarvis (Stati Uniti)",
+         "ris": "",
+         "argento": "Walter Tewksbury (Stati Uniti)",
+         "bronzo": "Stan Rowley (Australia)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Archie Hahn (Stati Uniti)",
+         "ris": "",
+         "argento": "Nathaniel Cartmell (Stati Uniti)",
+         "bronzo": "William Hogenson (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Reggie Walker (Sudafrica)",
+         "ris": "",
+         "argento": "James Rector (Stati Uniti)",
+         "bronzo": "Robert Kerr (Canada)"
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Ralph Craig (Stati Uniti)",
+         "ris": "",
+         "argento": "Alvah Meyer (Stati Uniti)",
+         "bronzo": "Donald Lippincott (Stati Uniti)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Charley Paddock (Stati Uniti)",
+         "ris": "",
+         "argento": "Morris Kirksey (Stati Uniti)",
+         "bronzo": "Harry Edward (Gran Bretagna)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Harold Abrahams (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jackson Scholz (Stati Uniti)",
+         "bronzo": "Arthur Porritt, Baron Porritt (Nuova Zelanda)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Percy Williams (Canada)",
+         "ris": "",
+         "argento": "Jack London (athlete) (Gran Bretagna)",
+         "bronzo": "Georg Lammers (Germania)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Eddie Tolan (Stati Uniti)",
+         "ris": "",
+         "argento": "Ralph Metcalfe (Stati Uniti)",
+         "bronzo": "Arthur Jonath (Germania)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Jesse Owens (Stati Uniti)",
+         "ris": "",
+         "argento": "Ralph Metcalfe (Stati Uniti)",
+         "bronzo": "Tinus Osendarp (Paesi Bassi)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Harrison Dillard (Stati Uniti)",
+         "ris": "",
+         "argento": "Barney Ewell (Stati Uniti)",
+         "bronzo": "Lloyd LaBeach (Panama)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Lindy Remigino (Stati Uniti)",
+         "ris": "",
+         "argento": "Herb McKenley (Giamaica)",
+         "bronzo": "McDonald Bailey (Gran Bretagna)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Bobby Morrow (Stati Uniti)",
+         "ris": "",
+         "argento": "Thane Baker (Stati Uniti)",
+         "bronzo": "Hector Hogan (Australia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Armin Hary (Squadra unificata tedesca)",
+         "ris": "",
+         "argento": "Dave Sime (Stati Uniti)",
+         "bronzo": "Peter Radford (Gran Bretagna)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Bob Hayes (Stati Uniti)",
+         "ris": "",
+         "argento": "Enrique Figuerola (Cuba)",
+         "bronzo": "Harry Jerome (Canada)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Jim Hines (Stati Uniti)",
+         "ris": "",
+         "argento": "Lennox Miller (Giamaica)",
+         "bronzo": "Charles Greene (Stati Uniti)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Valeriy Borzov (Unione Sovietica)",
+         "ris": "",
+         "argento": "Robert Taylor (Stati Uniti)",
+         "bronzo": "Lennox Miller (Giamaica)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Hasely Crawford (Trinidad e Tobago)",
+         "ris": "",
+         "argento": "Don Quarrie (Giamaica)",
+         "bronzo": "Valeriy Borzov (Unione Sovietica)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Allan Wells (Gran Bretagna)",
+         "ris": "",
+         "argento": "Silvio Leonard (Cuba)",
+         "bronzo": "Petar Petrov (Bulgaria)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Sam Graddy (Stati Uniti)",
+         "bronzo": "Ben Johnson (Canada)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Linford Christie (Gran Bretagna)",
+         "bronzo": "Calvin Smith (Stati Uniti)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Linford Christie (Gran Bretagna)",
+         "ris": "",
+         "argento": "Frankie Fredericks (Namibia)",
+         "bronzo": "Dennis Mitchell (Stati Uniti)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Donovan Bailey (Canada)",
+         "ris": "",
+         "argento": "Frankie Fredericks (Namibia)",
+         "bronzo": "Ato Boldon (Trinidad e Tobago)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Maurice Greene (Stati Uniti)",
+         "ris": "",
+         "argento": "Ato Boldon (Trinidad e Tobago)",
+         "bronzo": "Obadele Thompson (Barbados)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Justin Gatlin (Stati Uniti)",
+         "ris": "",
+         "argento": "Francis Obikwelu (Portogallo)",
+         "bronzo": "Maurice Greene (Stati Uniti)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Richard Thompson (Trinidad e Tobago)",
+         "bronzo": "Walter Dix (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Yohan Blake (Giamaica)",
+         "bronzo": "Justin Gatlin (Stati Uniti)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Justin Gatlin (Stati Uniti)",
+         "bronzo": "Andre De Grasse (Canada)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Marcell Jacobs (Italia)",
+         "ris": "",
+         "argento": "Fred Kerley (Stati Uniti)",
+         "bronzo": "Andre De Grasse (Canada)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Noah Lyles (Stati Uniti)",
+         "ris": "",
+         "argento": "Kishane Thompson (Giamaica)",
+         "bronzo": "Fred Kerley (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "200 m",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Walter Tewksbury (Stati Uniti)",
+         "ris": "",
+         "argento": "Norman Pritchard (India)",
+         "bronzo": "Stan Rowley (Australia)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Archie Hahn (Stati Uniti)",
+         "ris": "",
+         "argento": "Nate Cartmell (Stati Uniti)",
+         "bronzo": "William Hogenson (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Robert Kerr (Canada)",
+         "ris": "",
+         "argento": "Robert Cloughen (Stati Uniti)",
+         "bronzo": "Nate Cartmell (Stati Uniti)"
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Ralph Craig (Stati Uniti)",
+         "ris": "",
+         "argento": "Donald Lippincott (Stati Uniti)",
+         "bronzo": "Willie Applegarth (Gran Bretagna)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Allen Woodring (Stati Uniti)",
+         "ris": "",
+         "argento": "Charley Paddock (Stati Uniti)",
+         "bronzo": "Harry Edward (Gran Bretagna)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Jackson Scholz (Stati Uniti)",
+         "ris": "",
+         "argento": "Charley Paddock (Stati Uniti)",
+         "bronzo": "Eric Liddell (Gran Bretagna)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Percy Williams (Canada)",
+         "ris": "",
+         "argento": "Walter Rangeley (Gran Bretagna)",
+         "bronzo": "Helmut Körnig (Germania)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Eddie Tolan (Stati Uniti)",
+         "ris": "",
+         "argento": "George Simpson (Stati Uniti)",
+         "bronzo": "Ralph Metcalfe (Stati Uniti)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Jesse Owens (Stati Uniti)",
+         "ris": "",
+         "argento": "Mack Robinson (Stati Uniti)",
+         "bronzo": "Tinus Osendarp (Paesi Bassi)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Mel Patton (Stati Uniti)",
+         "ris": "",
+         "argento": "Barney Ewell (Stati Uniti)",
+         "bronzo": "Lloyd LaBeach (Panama)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Andy Stanfield (Stati Uniti)",
+         "ris": "",
+         "argento": "Thane Baker (Stati Uniti)",
+         "bronzo": "James Gathers (Stati Uniti)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Bobby Morrow (Stati Uniti)",
+         "ris": "",
+         "argento": "Andy Stanfield (Stati Uniti)",
+         "bronzo": "Thane Baker (Stati Uniti)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Livio Berruti (Italia)",
+         "ris": "",
+         "argento": "Lester Carney (Stati Uniti)",
+         "bronzo": "Abdoulaye Seye (Francia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Henry Carr (Stati Uniti)",
+         "ris": "",
+         "argento": "Paul Drayton (Stati Uniti)",
+         "bronzo": "Edwin Roberts (Trinidad e Tobago)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Tommie Smith (Stati Uniti)",
+         "ris": "",
+         "argento": "Peter Norman (Australia)",
+         "bronzo": "John Carlos (Stati Uniti)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Valeriy Borzov (Unione Sovietica)",
+         "ris": "",
+         "argento": "Larry Black (Stati Uniti)",
+         "bronzo": "Pietro Mennea (Italia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Don Quarrie (Giamaica)",
+         "ris": "",
+         "argento": "Millard Hampton (Stati Uniti)",
+         "bronzo": "Dwayne Evans (Stati Uniti)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Pietro Mennea (Italia)",
+         "ris": "",
+         "argento": "Allan Wells (Gran Bretagna)",
+         "bronzo": "Don Quarrie (Giamaica)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Kirk Baptiste (Stati Uniti)",
+         "bronzo": "Thomas Jefferson (Stati Uniti)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Joe DeLoach (Stati Uniti)",
+         "ris": "",
+         "argento": "Carl Lewis (Stati Uniti)",
+         "bronzo": "Robson da Silva (Brasile)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Michael Marsh (Stati Uniti)",
+         "ris": "",
+         "argento": "Frankie Fredericks (Namibia)",
+         "bronzo": "Michael Bates (Stati Uniti)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Michael Johnson (Stati Uniti)",
+         "ris": "",
+         "argento": "Frankie Fredericks (Namibia)",
+         "bronzo": "Ato Boldon (Trinidad e Tobago)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Konstantinos Kenteris (Grecia)",
+         "ris": "",
+         "argento": "Darren Campbell (Gran Bretagna)",
+         "bronzo": "Ato Boldon (Trinidad e Tobago)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Shawn Crawford (Stati Uniti)",
+         "ris": "",
+         "argento": "Bernard Williams (Stati Uniti)",
+         "bronzo": "Justin Gatlin (Stati Uniti)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Shawn Crawford (Stati Uniti)",
+         "bronzo": "Walter Dix (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Yohan Blake (Giamaica)",
+         "bronzo": "Warren Weir (Giamaica)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Usain Bolt (Giamaica)",
+         "ris": "",
+         "argento": "Andre De Grasse (Canada)",
+         "bronzo": "Christophe Lemaitre (Francia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Andre De Grasse (Canada)",
+         "ris": "",
+         "argento": "Kenny Bednarek (Stati Uniti)",
+         "bronzo": "Noah Lyles (Stati Uniti)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Letsile Tebogo (Botswana)",
+         "ris": "",
+         "argento": "Kenny Bednarek (Stati Uniti)",
+         "bronzo": "Noah Lyles (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "400 m",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "Thomas Burke (Stati Uniti)",
+         "ris": "",
+         "argento": "Herbert Jamison (Stati Uniti)",
+         "bronzo": "Charles Gmelin (Gran Bretagna)"
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Maxie Long (Stati Uniti)",
+         "ris": "",
+         "argento": "William Holland (Stati Uniti)",
+         "bronzo": "Ernst Schultz (Danimarca)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Harry Hillman (Stati Uniti)",
+         "ris": "",
+         "argento": "Frank Waller (Stati Uniti)",
+         "bronzo": "Herman Groman (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Wyndham Halswelle (Gran Bretagna)",
+         "ris": "",
+         "argento": "—",
+         "bronzo": "—",
+         "nota": "Argento e bronzo non assegnati."
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Charles Reidpath (Stati Uniti)",
+         "ris": "",
+         "argento": "Hanns Braun (Germania)",
+         "bronzo": "Edward Lindberg (Stati Uniti)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Bevil Rudd (Sudafrica)",
+         "ris": "",
+         "argento": "Guy Butler (Gran Bretagna)",
+         "bronzo": "Nils Engdahl (Svezia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Eric Liddell (Gran Bretagna)",
+         "ris": "",
+         "argento": "Horatio Fitch (Stati Uniti)",
+         "bronzo": "Guy Butler (Gran Bretagna)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Ray Barbuti (Stati Uniti)",
+         "ris": "",
+         "argento": "James Ball (Canada)",
+         "bronzo": "Joachim Büchner (Germania)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Bill Carr (Stati Uniti)",
+         "ris": "",
+         "argento": "Ben Eastman (Stati Uniti)",
+         "bronzo": "Alex Wilson (Canada)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Archie Williams (Stati Uniti)",
+         "ris": "",
+         "argento": "Godfrey Brown (Gran Bretagna)",
+         "bronzo": "James LuValle (Stati Uniti)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Arthur Wint (Giamaica)",
+         "ris": "",
+         "argento": "Herb McKenley (Giamaica)",
+         "bronzo": "Mal Whitfield (Stati Uniti)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "George Rhoden (Giamaica)",
+         "ris": "",
+         "argento": "Herb McKenley (Giamaica)",
+         "bronzo": "Ollie Matson (Stati Uniti)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Charles Jenkins (Stati Uniti)",
+         "ris": "",
+         "argento": "Karl-Friedrich Haas (Squadra unificata tedesca)",
+         "bronzo": "Voitto Hellsten (Finlandia), Ardalion Ignatyev (Unione Sovietica)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Otis Davis (Stati Uniti)",
+         "ris": "",
+         "argento": "Carl Kaufmann (Squadra unificata tedesca)",
+         "bronzo": "Malcolm Spence (Sudafrica)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Mike Larrabee (Stati Uniti)",
+         "ris": "",
+         "argento": "Wendell Mottley (Trinidad e Tobago)",
+         "bronzo": "Andrzej Badeński (Polonia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Lee Evans (Stati Uniti)",
+         "ris": "",
+         "argento": "Larry James (Stati Uniti)",
+         "bronzo": "Ron Freeman (Stati Uniti)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Vincent Matthews (Stati Uniti)",
+         "ris": "",
+         "argento": "Wayne Collett (Stati Uniti)",
+         "bronzo": "Julius Sang (Kenya)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Alberto Juantorena (Cuba)",
+         "ris": "",
+         "argento": "Fred Newhouse (Stati Uniti)",
+         "bronzo": "Herman Frazier (Stati Uniti)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Viktor Markin (Unione Sovietica)",
+         "ris": "",
+         "argento": "Rick Mitchell (Australia)",
+         "bronzo": "Frank Schaffer (Germania Est)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Alonzo Babers (Stati Uniti)",
+         "ris": "",
+         "argento": "Gabriel Tiacoh (Costa d'Avorio)",
+         "bronzo": "Antonio McKay (Stati Uniti)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Steve Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Butch Reynolds (Stati Uniti)",
+         "bronzo": "Danny Everett (Stati Uniti)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Quincy Watts (Stati Uniti)",
+         "ris": "",
+         "argento": "Steve Lewis (Stati Uniti)",
+         "bronzo": "Samson Kitur (Kenya)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Michael Johnson (Stati Uniti)",
+         "ris": "",
+         "argento": "Roger Black (Gran Bretagna)",
+         "bronzo": "Davis Kamoga (Uganda)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Michael Johnson (Stati Uniti)",
+         "ris": "",
+         "argento": "Alvin Harrison (Stati Uniti)",
+         "bronzo": "Greg Haughton (Giamaica)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Jeremy Wariner (Stati Uniti)",
+         "ris": "",
+         "argento": "Otis Harris (Stati Uniti)",
+         "bronzo": "Derrick Brew (Stati Uniti)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "LaShawn Merritt (Stati Uniti)",
+         "ris": "",
+         "argento": "Jeremy Wariner (Stati Uniti)",
+         "bronzo": "David Neville (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Kirani James (Grenada)",
+         "ris": "",
+         "argento": "Luguelín Santos (Repubblica Dominicana)",
+         "bronzo": "Lalonde Gordon (Trinidad e Tobago)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Wayde van Niekerk (Sudafrica)",
+         "ris": "",
+         "argento": "Kirani James (Grenada)",
+         "bronzo": "LaShawn Merritt (Stati Uniti)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Steven Gardiner (Bahamas)",
+         "ris": "",
+         "argento": "Anthony Zambrano (Colombia)",
+         "bronzo": "Kirani James (Grenada)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Quincy Hall (Stati Uniti)",
+         "ris": "",
+         "argento": "Matthew Hudson Smith (Gran Bretagna)",
+         "bronzo": "Muzala Samukonga (Zambia)"
+        }
+       ]
+      },
+      {
+       "nome": "5000 m",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Hannes Kolehmainen (Finlandia)",
+         "ris": "",
+         "argento": "Jean Bouin (Francia)",
+         "bronzo": "George Hutson (Gran Bretagna)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Joseph Guillemot (Francia)",
+         "ris": "",
+         "argento": "Paavo Nurmi (Finlandia)",
+         "bronzo": "Eric Backman (Svezia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Paavo Nurmi (Finlandia)",
+         "ris": "",
+         "argento": "Ville Ritola (Finlandia)",
+         "bronzo": "Edvin Wide (Svezia)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Ville Ritola (Finlandia)",
+         "ris": "",
+         "argento": "Paavo Nurmi (Finlandia)",
+         "bronzo": "Edvin Wide (Svezia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Lauri Lehtinen (Finlandia)",
+         "ris": "",
+         "argento": "Ralph Hill (Stati Uniti)",
+         "bronzo": "Lauri Virtanen (Finlandia)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Gunnar Höckert (Finlandia)",
+         "ris": "",
+         "argento": "Lauri Lehtinen (Finlandia)",
+         "bronzo": "Henry Jonsson (Svezia)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Gaston Reiff (Belgio)",
+         "ris": "",
+         "argento": "Emil Zátopek (Cecoslovacchia)",
+         "bronzo": "Willem Slijkhuis (Paesi Bassi)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Emil Zátopek (Cecoslovacchia)",
+         "ris": "",
+         "argento": "Alain Mimoun (Francia)",
+         "bronzo": "Herbert Schade (Germania)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Vladimir Kuts (Unione Sovietica)",
+         "ris": "",
+         "argento": "Gordon Pirie (Gran Bretagna)",
+         "bronzo": "Derek Ibbotson (Gran Bretagna)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Murray Halberg (Nuova Zelanda)",
+         "ris": "",
+         "argento": "Hans Grodotzki (Squadra unificata tedesca)",
+         "bronzo": "Kazimierz Zimny (Polonia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Bob Schul (Stati Uniti)",
+         "ris": "",
+         "argento": "Harald Norpoth (Squadra unificata tedesca)",
+         "bronzo": "Bill Dellinger (Stati Uniti)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Mohammed Gammoudi (Tunisia)",
+         "ris": "",
+         "argento": "Kipchoge Keino (Kenya)",
+         "bronzo": "Naftali Temu (Kenya)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Lasse Virén (Finlandia)",
+         "ris": "",
+         "argento": "Mohammed Gammoudi (Tunisia)",
+         "bronzo": "Ian Stewart (Gran Bretagna)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Lasse Virén (Finlandia)",
+         "ris": "",
+         "argento": "Dick Quax (Nuova Zelanda)",
+         "bronzo": "Klaus-Peter Hildenbrand (Germania Ovest)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Miruts Yifter (Etiopia)",
+         "ris": "",
+         "argento": "Suleiman Nyambui (Tanzania)",
+         "bronzo": "Kaarlo Maaninka (Finlandia)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Saïd Aouita (Marocco)",
+         "ris": "",
+         "argento": "Markus Ryffel (Svizzera)",
+         "bronzo": "António Leitão (Portogallo)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "John Ngugi (Kenya)",
+         "ris": "",
+         "argento": "Dieter Baumann (Germania Ovest)",
+         "bronzo": "Hansjörg Kunze (Germania Est)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Dieter Baumann (Germania)",
+         "ris": "",
+         "argento": "Paul Bitok (Kenya)",
+         "bronzo": "Fita Bayisa (Etiopia)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Vénuste Niyongabo (Burundi)",
+         "ris": "",
+         "argento": "Paul Bitok (Kenya)",
+         "bronzo": "Khalid Boulami (Marocco)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Million Wolde (Etiopia)",
+         "ris": "",
+         "argento": "Ali Saïdi-Sief (Algeria)",
+         "bronzo": "Brahim Lahlafi (Marocco)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Hicham El Guerrouj (Marocco)",
+         "ris": "",
+         "argento": "Kenenisa Bekele (Etiopia)",
+         "bronzo": "Eliud Kipchoge (Kenya)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Kenenisa Bekele (Etiopia)",
+         "ris": "",
+         "argento": "Eliud Kipchoge (Kenya)",
+         "bronzo": "Edwin Soi (Kenya)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Mo Farah (Gran Bretagna)",
+         "ris": "",
+         "argento": "Dejen Gebremeskel (Etiopia)",
+         "bronzo": "Thomas Longosiwa (Kenya)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Mo Farah (Gran Bretagna)",
+         "ris": "",
+         "argento": "Paul Chelimo (Stati Uniti)",
+         "bronzo": "Hagos Gebrhiwet (Etiopia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Joshua Cheptegei (Uganda)",
+         "ris": "",
+         "argento": "Mohammed Ahmed (Canada)",
+         "bronzo": "Paul Chelimo (Stati Uniti)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Jakob Ingebrigtsen (Norvegia)",
+         "ris": "",
+         "argento": "Ronald Kwemoi (Kenya)",
+         "bronzo": "Grant Fisher (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "10.000 m",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Hannes Kolehmainen (Finlandia)",
+         "ris": "",
+         "argento": "Lewis Tewanima (Stati Uniti)",
+         "bronzo": "Albin Stenroos (Finlandia)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Paavo Nurmi (Finlandia)",
+         "ris": "",
+         "argento": "Joseph Guillemot (Francia)",
+         "bronzo": "James Wilson (Gran Bretagna)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Ville Ritola (Finlandia)",
+         "ris": "",
+         "argento": "Edvin Wide (Svezia)",
+         "bronzo": "Eero Berg (Finlandia)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Paavo Nurmi (Finlandia)",
+         "ris": "",
+         "argento": "Ville Ritola (Finlandia)",
+         "bronzo": "Edvin Wide (Svezia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Janusz Kusociński (Polonia)",
+         "ris": "",
+         "argento": "Volmari Iso-Hollo (Finlandia)",
+         "bronzo": "Lasse Virtanen (Finlandia)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Ilmari Salminen (Finlandia)",
+         "ris": "",
+         "argento": "Arvo Askola (Finlandia)",
+         "bronzo": "Volmari Iso-Hollo (Finlandia)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Emil Zátopek (Cecoslovacchia)",
+         "ris": "",
+         "argento": "Alain Mimoun (Francia)",
+         "bronzo": "Bertil Albertsson (Svezia)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Emil Zátopek (Cecoslovacchia)",
+         "ris": "",
+         "argento": "Alain Mimoun (Francia)",
+         "bronzo": "Aleksandr Anufriyev (Unione Sovietica)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Vladimir Kuts (Unione Sovietica)",
+         "ris": "",
+         "argento": "József Kovács (Ungheria)",
+         "bronzo": "Al Lawrence (Australia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Pyotr Bolotnikov (Unione Sovietica)",
+         "ris": "",
+         "argento": "Hans Grodotzki (Squadra unificata tedesca)",
+         "bronzo": "Dave Power (Australia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Billy Mills (Stati Uniti)",
+         "ris": "",
+         "argento": "Mohammed Gammoudi (Tunisia)",
+         "bronzo": "Ron Clarke (Australia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Naftali Temu (Kenya)",
+         "ris": "",
+         "argento": "Mamo Wolde (Etiopia)",
+         "bronzo": "Mohammed Gammoudi (Tunisia)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Lasse Virén (Finlandia)",
+         "ris": "",
+         "argento": "Emiel Puttemans (Belgio)",
+         "bronzo": "Miruts Yifter (Etiopia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Lasse Virén (Finlandia)",
+         "ris": "",
+         "argento": "Carlos Lopes (Portogallo)",
+         "bronzo": "Brendan Foster (Gran Bretagna)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Miruts Yifter (Etiopia)",
+         "ris": "",
+         "argento": "Kaarlo Maaninka (Finlandia)",
+         "bronzo": "Mohamed Kedir (Etiopia)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Alberto Cova (Italia)",
+         "ris": "",
+         "argento": "Mike McLeod (Gran Bretagna)",
+         "bronzo": "Michael Musyoki (Kenya)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Brahim Boutayeb (Marocco)",
+         "ris": "",
+         "argento": "Salvatore Antibo (Italia)",
+         "bronzo": "Kipkemboi Kimeli (Kenya)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Khalid Skah (Marocco)",
+         "ris": "",
+         "argento": "Richard Chelimo (Kenya)",
+         "bronzo": "Addis Abebe (Etiopia)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Haile Gebrselassie (Etiopia)",
+         "ris": "",
+         "argento": "Paul Tergat (Kenya)",
+         "bronzo": "Saleh Hissou (Marocco)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Haile Gebrselassie (Etiopia)",
+         "ris": "",
+         "argento": "Paul Tergat (Kenya)",
+         "bronzo": "Assefa Mezgebu (Etiopia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Kenenisa Bekele (Etiopia)",
+         "ris": "",
+         "argento": "Sileshi Sihine (Etiopia)",
+         "bronzo": "Zersenay Tadese (Eritrea)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Kenenisa Bekele (Etiopia)",
+         "ris": "",
+         "argento": "Sileshi Sihine (Etiopia)",
+         "bronzo": "Micah Kogo (Kenya)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Mo Farah (Gran Bretagna)",
+         "ris": "",
+         "argento": "Galen Rupp (Stati Uniti)",
+         "bronzo": "Tariku Bekele (Etiopia)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Mo Farah (Gran Bretagna)",
+         "ris": "",
+         "argento": "Paul Tanui (Kenya)",
+         "bronzo": "Tamirat Tola (Etiopia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Selemon Barega (Etiopia)",
+         "ris": "",
+         "argento": "Joshua Cheptegei (Uganda)",
+         "bronzo": "Jacob Kiplimo (Uganda)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Joshua Cheptegei (Uganda)",
+         "ris": "",
+         "argento": "Berihu Aregawi (Etiopia)",
+         "bronzo": "Grant Fisher (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "Maratona",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "Spyridon Louis (Grecia)",
+         "ris": "",
+         "argento": "Charilaos Vasilakos (Grecia)",
+         "bronzo": "Gyula Kellner (Ungheria)"
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Michel Théato (Francia)",
+         "ris": "",
+         "argento": "Émile Champion (Francia)",
+         "bronzo": "Ernst Fast (Svezia)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Thomas Hicks (Stati Uniti)",
+         "ris": "",
+         "argento": "Albert Corey (Stati Uniti)",
+         "bronzo": "Arthur Newton (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Johnny Hayes (Stati Uniti)",
+         "ris": "",
+         "argento": "Charles Hefferon (Sudafrica)",
+         "bronzo": "Joseph Forshaw (Stati Uniti)"
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Ken McArthur (Sudafrica)",
+         "ris": "",
+         "argento": "Christian Gitsham (Sudafrica)",
+         "bronzo": "Gaston Strobino (Stati Uniti)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Hannes Kolehmainen (Finlandia)",
+         "ris": "",
+         "argento": "Jüri Lossmann (Estonia)",
+         "bronzo": "Valerio Arri (Italia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Albin Stenroos (Finlandia)",
+         "ris": "",
+         "argento": "Romeo Bertini (Italia)",
+         "bronzo": "Clarence DeMar (Stati Uniti)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Boughera El Ouafi (Francia)",
+         "ris": "",
+         "argento": "Manuel Plaza (Cile)",
+         "bronzo": "Martti Marttelin (Finlandia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Juan Carlos Zabala (Argentina)",
+         "ris": "",
+         "argento": "Sam Ferris (Gran Bretagna)",
+         "bronzo": "Armas Toivonen (Finlandia)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Sohn Kee-chung (Giappone)",
+         "ris": "",
+         "argento": "Ernest Harper (Gran Bretagna)",
+         "bronzo": "Nam Sung-yong (Giappone)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Delfo Cabrera (Argentina)",
+         "ris": "",
+         "argento": "Tom Richards (Gran Bretagna)",
+         "bronzo": "Étienne Gailly (Belgio)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Emil Zátopek (Cecoslovacchia)",
+         "ris": "",
+         "argento": "Reinaldo Gorno (Argentina)",
+         "bronzo": "Gustaf Jansson (Svezia)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Alain Mimoun (Francia)",
+         "ris": "",
+         "argento": "Franjo Mihalić (Jugoslavia)",
+         "bronzo": "Veikko Karvonen (Finlandia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Abebe Bikila (Etiopia)",
+         "ris": "",
+         "argento": "Rhadi Ben Abdesselam (Marocco)",
+         "bronzo": "Barry Magee (Nuova Zelanda)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Abebe Bikila (Etiopia)",
+         "ris": "",
+         "argento": "Basil Heatley (Gran Bretagna)",
+         "bronzo": "Kōkichi Tsuburaya (Giappone)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Mamo Wolde (Etiopia)",
+         "ris": "",
+         "argento": "Kenji Kimihara (Giappone)",
+         "bronzo": "Mike Ryan (Nuova Zelanda)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Frank Shorter (Stati Uniti)",
+         "ris": "",
+         "argento": "Karel Lismont (Belgio)",
+         "bronzo": "Mamo Wolde (Etiopia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Waldemar Cierpinski (Germania Est)",
+         "ris": "",
+         "argento": "Frank Shorter (Stati Uniti)",
+         "bronzo": "Karel Lismont (Belgio)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Waldemar Cierpinski (Germania Est)",
+         "ris": "",
+         "argento": "Gerard Nijboer (Paesi Bassi)",
+         "bronzo": "Satymkul Dzhumanazarov (Unione Sovietica)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Carlos Lopes (Portogallo)",
+         "ris": "",
+         "argento": "John Treacy (Irlanda)",
+         "bronzo": "Charlie Spedding (Gran Bretagna)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Gelindo Bordin (Italia)",
+         "ris": "",
+         "argento": "Douglas Wakiihuri (Kenya)",
+         "bronzo": "Ahmed Salah (Gibuti)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Hwang Young-cho (Corea del Sud)",
+         "ris": "",
+         "argento": "Kōichi Morishita (Giappone)",
+         "bronzo": "Stephan Freigang (Germania)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Josia Thugwane (Sudafrica)",
+         "ris": "",
+         "argento": "Lee Bong-ju (Corea del Sud)",
+         "bronzo": "Erick Wainaina (Kenya)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Gezahegne Abera (Etiopia)",
+         "ris": "",
+         "argento": "Erick Wainaina (Kenya)",
+         "bronzo": "Tesfaye Tola (Etiopia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Stefano Baldini (Italia)",
+         "ris": "",
+         "argento": "Meb Keflezighi (Stati Uniti)",
+         "bronzo": "Vanderlei de Lima (Brasile)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Samuel Wanjiru (Kenya)",
+         "ris": "",
+         "argento": "Jaouad Gharib (Marocco)",
+         "bronzo": "Tsegay Kebede (Etiopia)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Stephen Kiprotich (Uganda)",
+         "ris": "",
+         "argento": "Abel Kirui (Kenya)",
+         "bronzo": "Wilson Kipsang Kiprotich (Kenya)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Eliud Kipchoge (Kenya)",
+         "ris": "",
+         "argento": "Feyisa Lelisa (Etiopia)",
+         "bronzo": "Galen Rupp (Stati Uniti)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Eliud Kipchoge (Kenya)",
+         "ris": "",
+         "argento": "Abdi Nageeye (Paesi Bassi)",
+         "bronzo": "Bashir Abdi (Belgio)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Tamirat Tola (Etiopia)",
+         "ris": "",
+         "argento": "Bashir Abdi (Belgio)",
+         "bronzo": "Benson Kipruto (Kenya)"
+        }
+       ]
+      },
+      {
+       "nome": "Staffetta 4×100",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Gran Bretagna",
+         "ris": "",
+         "argento": "Svezia",
+         "bronzo": "—",
+         "nota": "Bronzo non assegnato."
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Francia",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Italia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Unione Sovietica",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Unione Sovietica",
+         "bronzo": "Squadra unificata tedesca"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Squadra unificata tedesca",
+         "ris": "",
+         "argento": "Unione Sovietica",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Polonia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Cuba",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Unione Sovietica",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania Est",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "",
+         "argento": "Polonia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Unione Sovietica",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Nigeria",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Canada",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Brasile",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Gran Bretagna",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Nigeria"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Trinidad e Tobago",
+         "ris": "",
+         "argento": "Giappone",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Giamaica",
+         "ris": "",
+         "argento": "Trinidad e Tobago",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Giamaica",
+         "ris": "",
+         "argento": "Giappone",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Italia",
+         "ris": "",
+         "argento": "Canada",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Canada",
+         "ris": "",
+         "argento": "Sudafrica",
+         "bronzo": "Gran Bretagna"
+        }
+       ]
+      },
+      {
+       "nome": "Staffetta 4×400",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Francia",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Gran Bretagna",
+         "ris": "",
+         "argento": "Sudafrica",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Svezia",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Gran Bretagna",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Francia",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Giamaica",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Australia",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Squadra unificata tedesca",
+         "bronzo": "Indie Occidentali Britanniche"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Trinidad e Tobago"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Kenya",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Kenya",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Polonia",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "",
+         "argento": "Germania Est",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Nigeria"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Cuba",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Giamaica"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Nigeria",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Bahamas"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Australia",
+         "bronzo": "Nigeria"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Bahamas",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Bahamas",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Trinidad e Tobago"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Bahamas"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Paesi Bassi",
+         "bronzo": "Botswana"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Botswana",
+         "bronzo": "Gran Bretagna"
+        }
+       ]
+      },
+      {
+       "nome": "Salto in alto",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "Ellery Harding Clark (Stati Uniti)",
+         "ris": "",
+         "argento": "James Brendan Connolly (Stati Uniti), Robert Garrett (Stati Uniti)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Irving Baxter (Stati Uniti)",
+         "ris": "",
+         "argento": "Patrick Leahy (Gran Bretagna)",
+         "bronzo": "Lajos Gönczy (Ungheria)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Samuel Jones (Stati Uniti)",
+         "ris": "",
+         "argento": "Garrett Serviss (Stati Uniti)",
+         "bronzo": "Paul Weinstein (Germania)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Harry Porter (Stati Uniti)",
+         "ris": "",
+         "argento": "Géo André (Francia), Con Leahy (Gran Bretagna), István Somodi (Ungheria)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Alma Richards (Stati Uniti)",
+         "ris": "",
+         "argento": "Hans Liesche (Germania)",
+         "bronzo": "George Horine (Stati Uniti)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Richmond Landon (Stati Uniti)",
+         "ris": "",
+         "argento": "Harold Muller (Stati Uniti)",
+         "bronzo": "Bo Ekelund (Svezia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Harold Osborn (Stati Uniti)",
+         "ris": "",
+         "argento": "Leroy Brown (Stati Uniti)",
+         "bronzo": "Pierre Lewden (Francia)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Bob King (Stati Uniti)",
+         "ris": "",
+         "argento": "Benjamin Hedges (Stati Uniti)",
+         "bronzo": "Claude Ménard (Francia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Duncan McNaughton (Canada)",
+         "ris": "",
+         "argento": "Bob Van Osdel (Stati Uniti)",
+         "bronzo": "Simeon Toribio (Filippine)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Cornelius Johnson (Stati Uniti)",
+         "ris": "",
+         "argento": "Dave Albritton (Stati Uniti)",
+         "bronzo": "Delos Thurber (Stati Uniti)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "John Winter (Australia)",
+         "ris": "",
+         "argento": "Bjørn Paulson (Norvegia)",
+         "bronzo": "George Stanich (Stati Uniti)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Walt Davis (Stati Uniti)",
+         "ris": "",
+         "argento": "Ken Wiesner (Stati Uniti)",
+         "bronzo": "José da Conceição (Brasile)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Charles Dumas (Stati Uniti)",
+         "ris": "",
+         "argento": "Chilla Porter (Australia)",
+         "bronzo": "Igor Kashkarov (Unione Sovietica)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Robert Shavlakadze (Unione Sovietica)",
+         "ris": "",
+         "argento": "Valeriy Brumel (Unione Sovietica)",
+         "bronzo": "John Thomas (Stati Uniti)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Valeriy Brumel (Unione Sovietica)",
+         "ris": "",
+         "argento": "John Thomas (Stati Uniti)",
+         "bronzo": "John Rambo (Stati Uniti)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Dick Fosbury (Stati Uniti)",
+         "ris": "",
+         "argento": "Ed Caruthers (Stati Uniti)",
+         "bronzo": "Valentin Gavrilov (Unione Sovietica)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Jüri Tarmak (Unione Sovietica)",
+         "ris": "",
+         "argento": "Stefan Junge (Germania Est)",
+         "bronzo": "Dwight Stones (Stati Uniti)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Jacek Wszoła (Polonia)",
+         "ris": "",
+         "argento": "Greg Joy (Canada)",
+         "bronzo": "Dwight Stones (Stati Uniti)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Gerd Wessig (Germania Est)",
+         "ris": "",
+         "argento": "Jacek Wszoła (Polonia)",
+         "bronzo": "Jörg Freimuth (Germania Est)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Dietmar Mögenburg (Germania Ovest)",
+         "ris": "",
+         "argento": "Patrik Sjöberg (Svezia)",
+         "bronzo": "Zhu Jianhua (Cina)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Hennadiy Avdyeyenko (Unione Sovietica)",
+         "ris": "",
+         "argento": "Hollis Conway (Stati Uniti)",
+         "bronzo": "Rudolf Povarnitsyn (Unione Sovietica), Patrik Sjöberg (Svezia)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Javier Sotomayor (Cuba)",
+         "ris": "",
+         "argento": "Patrik Sjöberg (Svezia)",
+         "bronzo": "Hollis Conway (Stati Uniti), Tim Forsyth (Australia), Artur Partyka (Polonia)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Charles Austin (Stati Uniti)",
+         "ris": "",
+         "argento": "Artur Partyka (Polonia)",
+         "bronzo": "Steve Smith (Gran Bretagna)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Sergey Klyugin (Russia)",
+         "ris": "",
+         "argento": "Javier Sotomayor (Cuba)",
+         "bronzo": "Abderahmane Hammad (Algeria)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Stefan Holm (Svezia)",
+         "ris": "",
+         "argento": "Matt Hemingway (Stati Uniti)",
+         "bronzo": "Jaroslav Bába (Repubblica Ceca)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Andrey Silnov (Russia)",
+         "ris": "",
+         "argento": "Germaine Mason (Gran Bretagna)",
+         "bronzo": "Yaroslav Rybakov (Russia)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Erik Kynard (Stati Uniti)",
+         "ris": "",
+         "argento": "Mutaz Essa Barshim (Qatar), Derek Drouin (Canada), Robbie Grabarz (Gran Bretagna)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Derek Drouin (Canada)",
+         "ris": "",
+         "argento": "Mutaz Essa Barshim (Qatar)",
+         "bronzo": "Bohdan Bondarenko (Ucraina)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Gianmarco Tamberi (Italia), Mutaz Essa Barshim (Qatar)",
+         "ris": "",
+         "argento": "—",
+         "bronzo": "Maksim Nedasekau (Bielorussia)",
+         "nota": "Oro ex aequo; argento non assegnato."
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Hamish Kerr (Nuova Zelanda)",
+         "ris": "",
+         "argento": "Shelby McEwen (Stati Uniti)",
+         "bronzo": "Mutaz Essa Barshim (Qatar)"
+        }
+       ]
+      },
+      {
+       "nome": "Salto con l'asta",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "William Hoyt (Stati Uniti)",
+         "ris": "",
+         "argento": "Albert Tyler (Stati Uniti)",
+         "bronzo": "Evangelos Damaskos (Grecia), Ioannis Theodoropoulos (Grecia)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Irving Baxter (Stati Uniti)",
+         "ris": "",
+         "argento": "Meredith Colket (Stati Uniti)",
+         "bronzo": "Carl Albert Andersen (Norvegia)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Charles Dvorak (Stati Uniti)",
+         "ris": "",
+         "argento": "LeRoy Samse (Stati Uniti)",
+         "bronzo": "Louis Wilkins (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Edward Cook (Stati Uniti), Alfred Gilbert (Stati Uniti)",
+         "ris": "",
+         "argento": "—",
+         "bronzo": "Edward Archibald (Canada), Clare Jacobs (Stati Uniti), Bruno Söderström (Svezia)",
+         "nota": "Oro ex aequo; argento non assegnato; bronzo ex aequo."
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Harry Babcock (Stati Uniti)",
+         "ris": "",
+         "argento": "Frank Nelson (Stati Uniti), Marc Wright (Stati Uniti)",
+         "bronzo": "William Halpenny (Canada), Frank Murphy (Stati Uniti), Bertil Uggla (Svezia)",
+         "nota": "Argento ex aequo; bronzo ex aequo."
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "Frank Foss (Stati Uniti)",
+         "ris": "",
+         "argento": "Henry Petersen (Danimarca)",
+         "bronzo": "Edwin Myers (Stati Uniti)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "Lee Barnes (Stati Uniti)",
+         "ris": "",
+         "argento": "Glenn Graham (Stati Uniti)",
+         "bronzo": "James Brooker (Stati Uniti)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Sabin Carr (Stati Uniti)",
+         "ris": "",
+         "argento": "William Droegemueller (Stati Uniti)",
+         "bronzo": "Charles McGinnis (Stati Uniti)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Bill Miller (Stati Uniti)",
+         "ris": "",
+         "argento": "Shuhei Nishida (Giappone)",
+         "bronzo": "George Jefferson (Stati Uniti)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Earle Meadows (Stati Uniti)",
+         "ris": "",
+         "argento": "Shuhei Nishida (Giappone)",
+         "bronzo": "Sueo Ōe (Giappone)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Guinn Smith (Stati Uniti)",
+         "ris": "",
+         "argento": "Erkki Kataja (Finlandia)",
+         "bronzo": "Bob Richards (Stati Uniti)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Bob Richards (Stati Uniti)",
+         "ris": "",
+         "argento": "Don Laz (Stati Uniti)",
+         "bronzo": "Ragnar Lundberg (Svezia)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Bob Richards (Stati Uniti)",
+         "ris": "",
+         "argento": "Bob Gutowski (Stati Uniti)",
+         "bronzo": "Georgios Roubanis (Grecia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Don Bragg (Stati Uniti)",
+         "ris": "",
+         "argento": "Ron Morris (Stati Uniti)",
+         "bronzo": "Eeles Landström (Finlandia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Fred Hansen (Stati Uniti)",
+         "ris": "",
+         "argento": "Wolfgang Reinhardt (Squadra unificata tedesca)",
+         "bronzo": "Klaus Lehnertz (Squadra unificata tedesca)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Bob Seagren (Stati Uniti)",
+         "ris": "",
+         "argento": "Claus Schiprowski (Germania Ovest)",
+         "bronzo": "Wolfgang Nordwig (Germania Est)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Wolfgang Nordwig (Germania Est)",
+         "ris": "",
+         "argento": "Bob Seagren (Stati Uniti)",
+         "bronzo": "Jan Johnson (Stati Uniti)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Tadeusz Ślusarski (Polonia)",
+         "ris": "",
+         "argento": "Antti Kalliomäki (Finlandia)",
+         "bronzo": "David Roberts (Stati Uniti)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Władysław Kozakiewicz (Polonia)",
+         "ris": "",
+         "argento": "Tadeusz Ślusarski (Polonia), Konstantin Volkov (Unione Sovietica)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Pierre Quinon (Francia)",
+         "ris": "",
+         "argento": "Mike Tully (Stati Uniti)",
+         "bronzo": "Earl Bell (Stati Uniti), Thierry Vigneron (Francia)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Sergey Bubka (Unione Sovietica)",
+         "ris": "",
+         "argento": "Radion Gataullin (Unione Sovietica)",
+         "bronzo": "Grigoriy Yegorov (Unione Sovietica)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Maksim Tarasov (Squadra Unificata)",
+         "ris": "",
+         "argento": "Igor Trandenkov (Squadra Unificata)",
+         "bronzo": "Javier García (Spagna)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Jean Galfione (Francia)",
+         "ris": "",
+         "argento": "Igor Trandenkov (Russia)",
+         "bronzo": "Andrei Tivontchik (Germania)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Nick Hysong (Stati Uniti)",
+         "ris": "",
+         "argento": "Lawrence Johnson (Stati Uniti)",
+         "bronzo": "Maksim Tarasov (Russia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Timothy Mack (Stati Uniti)",
+         "ris": "",
+         "argento": "Toby Stevenson (Stati Uniti)",
+         "bronzo": "Giuseppe Gibilisco (Italia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Steve Hooker (Australia)",
+         "ris": "",
+         "argento": "Yevgeny Lukyanenko (Russia)",
+         "bronzo": "Derek Miles (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Renaud Lavillenie (Francia)",
+         "ris": "",
+         "argento": "Björn Otto (Germania)",
+         "bronzo": "Raphael Holzdeppe (Germania)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Thiago Braz (Brasile)",
+         "ris": "",
+         "argento": "Renaud Lavillenie (Francia)",
+         "bronzo": "Sam Kendricks (Stati Uniti)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Armand Duplantis (Svezia)",
+         "ris": "",
+         "argento": "Chris Nilsen (Stati Uniti)",
+         "bronzo": "Thiago Braz (Brasile)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Armand Duplantis (Svezia)",
+         "ris": "",
+         "argento": "Sam Kendricks (Stati Uniti)",
+         "bronzo": "Emmanouil Karalis (Grecia)"
+        }
+       ]
+      },
+      {
+       "nome": "Salto in lungo",
+       "genere": "Uomini",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1896,
+         "sede": "Atene",
+         "oro": "Ellery Clark (Stati Uniti)",
+         "ris": "",
+         "argento": "Robert Garrett (Stati Uniti)",
+         "bronzo": "James Brendan Connolly (Stati Uniti)"
+        },
+        {
+         "anno": 1900,
+         "sede": "Parigi",
+         "oro": "Alvin Kraenzlein (Stati Uniti)",
+         "ris": "",
+         "argento": "Myer Prinstein (Stati Uniti)",
+         "bronzo": "Patrick Leahy (Gran Bretagna)"
+        },
+        {
+         "anno": 1904,
+         "sede": "Saint Louis",
+         "oro": "Myer Prinstein (Stati Uniti)",
+         "ris": "",
+         "argento": "Daniel Frank (Stati Uniti)",
+         "bronzo": "Robert Stangland (Stati Uniti)"
+        },
+        {
+         "anno": 1908,
+         "sede": "Londra",
+         "oro": "Frank Irons (Stati Uniti)",
+         "ris": "",
+         "argento": "Daniel Kelly (Stati Uniti)",
+         "bronzo": "Calvin Bricker (Canada)"
+        },
+        {
+         "anno": 1912,
+         "sede": "Stoccolma",
+         "oro": "Albert Gutterson (Stati Uniti)",
+         "ris": "",
+         "argento": "Calvin Bricker (Canada)",
+         "bronzo": "Georg Åberg (Svezia)"
+        },
+        {
+         "anno": 1920,
+         "sede": "Anversa",
+         "oro": "William Petersson (Svezia)",
+         "ris": "",
+         "argento": "Carl Johnson (Stati Uniti)",
+         "bronzo": "Erik Abrahamsson (Svezia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "Parigi",
+         "oro": "DeHart Hubbard (Stati Uniti)",
+         "ris": "",
+         "argento": "Edward Gourdin (Stati Uniti)",
+         "bronzo": "Sverre Hansen (Norvegia)"
+        },
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Ed Hamm (Stati Uniti)",
+         "ris": "",
+         "argento": "Silvio Cator (Haiti)",
+         "bronzo": "Al Bates (Stati Uniti)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Ed Gordon (Stati Uniti)",
+         "ris": "",
+         "argento": "Lambert Redd (Stati Uniti)",
+         "bronzo": "Chūhei Nambu (Giappone)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Jesse Owens (Stati Uniti)",
+         "ris": "",
+         "argento": "Luz Long (Germania)",
+         "bronzo": "Naoto Tajima (Giappone)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Willie Steele (Stati Uniti)",
+         "ris": "",
+         "argento": "Bill Bruce (Australia)",
+         "bronzo": "Herb Douglas (Stati Uniti)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Jerome Biffle (Stati Uniti)",
+         "ris": "",
+         "argento": "Meredith Gourdine (Stati Uniti)",
+         "bronzo": "Ödön Földessy (Ungheria)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Gregory Bell (Stati Uniti)",
+         "ris": "",
+         "argento": "John Bennett (Stati Uniti)",
+         "bronzo": "Jorma Valkama (Finlandia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Ralph Boston (Stati Uniti)",
+         "ris": "",
+         "argento": "Bo Roberson (Stati Uniti)",
+         "bronzo": "Igor Ter-Ovanesyan (Unione Sovietica)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Lynn Davies (Gran Bretagna)",
+         "ris": "",
+         "argento": "Ralph Boston (Stati Uniti)",
+         "bronzo": "Igor Ter-Ovanesyan (Unione Sovietica)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Bob Beamon (Stati Uniti)",
+         "ris": "",
+         "argento": "Klaus Beer (Germania Est)",
+         "bronzo": "Ralph Boston (Stati Uniti)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Randy Williams (Stati Uniti)",
+         "ris": "",
+         "argento": "Hans Baumgartner (Germania Ovest)",
+         "bronzo": "Arnie Robinson (Stati Uniti)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Arnie Robinson (Stati Uniti)",
+         "ris": "",
+         "argento": "Randy Williams (Stati Uniti)",
+         "bronzo": "Frank Wartenberg (Germania Est)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Lutz Dombrowski (Germania Est)",
+         "ris": "",
+         "argento": "Frank Paschek (Germania Est)",
+         "bronzo": "Valeriy Pidluzhnyy (Unione Sovietica)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Gary Honey (Australia)",
+         "bronzo": "Giovanni Evangelisti (Italia)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Mike Powell (Stati Uniti)",
+         "bronzo": "Larry Myricks (Stati Uniti)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "Mike Powell (Stati Uniti)",
+         "bronzo": "Joe Greene (Stati Uniti)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Carl Lewis (Stati Uniti)",
+         "ris": "",
+         "argento": "James Beckford (Giamaica)",
+         "bronzo": "Joe Greene (Stati Uniti)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Iván Pedroso (Cuba)",
+         "ris": "",
+         "argento": "Jai Taurima (Australia)",
+         "bronzo": "Roman Shchurenko (Ucraina)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Dwight Phillips (Stati Uniti)",
+         "ris": "",
+         "argento": "John Moffitt (Stati Uniti)",
+         "bronzo": "Joan Lino Martínez (Spagna)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Irving Saladino (Panama)",
+         "ris": "",
+         "argento": "Godfrey Khotso Mokoena (Sudafrica)",
+         "bronzo": "Ibrahim Camejo (Cuba)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Greg Rutherford (Gran Bretagna)",
+         "ris": "",
+         "argento": "Mitchell Watt (Australia)",
+         "bronzo": "Will Claye (Stati Uniti)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Jeff Henderson (Stati Uniti)",
+         "ris": "",
+         "argento": "Luvo Manyonga (Sudafrica)",
+         "bronzo": "Greg Rutherford (Gran Bretagna)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Miltiadis Tentoglou (Grecia)",
+         "ris": "",
+         "argento": "Juan Miguel Echevarría (Cuba)",
+         "bronzo": "Maykel Massó (Cuba)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Miltiadis Tentoglou (Grecia)",
+         "ris": "",
+         "argento": "Wayne Pinnock (Giamaica)",
+         "bronzo": "Mattia Furlani (Italia)"
+        }
+       ]
+      },
+      {
+       "nome": "100 m",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Betty Robinson (Stati Uniti)",
+         "ris": "",
+         "argento": "Fanny Rosenfeld (Canada)",
+         "bronzo": "Ethel Smith (Canada)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Stanisława Walasiewicz (Polonia)",
+         "ris": "",
+         "argento": "Hilda Strike (Canada)",
+         "bronzo": "Wilhelmina von Bremen (Stati Uniti)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Helen Stephens (Stati Uniti)",
+         "ris": "",
+         "argento": "Stanisława Walasiewicz (Polonia)",
+         "bronzo": "Käthe Krauß (Germania)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Fanny Blankers-Koen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Dorothy Manley (Gran Bretagna)",
+         "bronzo": "Shirley Strickland (Australia)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Marjorie Jackson (Australia)",
+         "ris": "",
+         "argento": "Daphne Hasenjäger (Sudafrica)",
+         "bronzo": "Shirley Strickland de la Hunty (Australia)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Betty Cuthbert (Australia)",
+         "ris": "",
+         "argento": "Christa Stubnick (Squadra unificata tedesca)",
+         "bronzo": "Marlene Mathews (Australia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Wilma Rudolph (Stati Uniti)",
+         "ris": "",
+         "argento": "Dorothy Hyman (Gran Bretagna)",
+         "bronzo": "Giuseppina Leone (Italia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Wyomia Tyus (Stati Uniti)",
+         "ris": "",
+         "argento": "Edith McGuire (Stati Uniti)",
+         "bronzo": "Ewa Kłobukowska (Polonia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Wyomia Tyus (Stati Uniti)",
+         "ris": "",
+         "argento": "Barbara Ferrell (Stati Uniti)",
+         "bronzo": "Irena Szewińska (Polonia)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Renate Stecher (Germania Est)",
+         "ris": "",
+         "argento": "Raelene Boyle (Australia)",
+         "bronzo": "Silvia Chivás (Cuba)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Annegret Richter (Germania Ovest)",
+         "ris": "",
+         "argento": "Renate Stecher (Germania Est)",
+         "bronzo": "Inge Helten (Germania Ovest)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Lyudmila Kondratyeva (Unione Sovietica)",
+         "ris": "",
+         "argento": "Marlies Göhr (Germania Est)",
+         "bronzo": "Ingrid Auerswald (Germania Est)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Evelyn Ashford (Stati Uniti)",
+         "ris": "",
+         "argento": "Alice Brown (Stati Uniti)",
+         "bronzo": "Merlene Ottey (Giamaica)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Florence Griffith Joyner (Stati Uniti)",
+         "ris": "",
+         "argento": "Evelyn Ashford (Stati Uniti)",
+         "bronzo": "Heike Drechsler (Germania Est)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Gail Devers (Stati Uniti)",
+         "ris": "",
+         "argento": "Juliet Cuthbert (Giamaica)",
+         "bronzo": "Irina Privalova (Squadra Unificata)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Gail Devers (Stati Uniti)",
+         "ris": "",
+         "argento": "Merlene Ottey (Giamaica)",
+         "bronzo": "Gwen Torrence (Stati Uniti)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "—",
+         "ris": "",
+         "argento": "Ekaterini Thanou (Grecia), Tayna Lawrence (Giamaica)",
+         "bronzo": "Merlene Ottey (Giamaica)",
+         "nota": "Oro revocato a Marion Jones (Stati Uniti) per doping e non riassegnato. Argento ex aequo."
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Yulia Nestsiarenka (Bielorussia)",
+         "ris": "",
+         "argento": "Lauryn Williams (Stati Uniti)",
+         "bronzo": "Veronica Campbell (Giamaica)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Shelly-Ann Fraser (Giamaica)",
+         "ris": "",
+         "argento": "Sherone Simpson (Giamaica), Kerron Stewart (Giamaica)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Shelly-Ann Fraser-Pryce (Giamaica)",
+         "ris": "",
+         "argento": "Carmelita Jeter (Stati Uniti)",
+         "bronzo": "Veronica Campbell-Brown (Giamaica)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Elaine Thompson (Giamaica)",
+         "ris": "",
+         "argento": "Tori Bowie (Stati Uniti)",
+         "bronzo": "Shelly-Ann Fraser-Pryce (Giamaica)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Elaine Thompson-Herah (Giamaica)",
+         "ris": "",
+         "argento": "Shelly-Ann Fraser-Pryce (Giamaica)",
+         "bronzo": "Shericka Jackson (Giamaica)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Julien Alfred (Santa Lucia)",
+         "ris": "",
+         "argento": "Sha'Carri Richardson (Stati Uniti)",
+         "bronzo": "Melissa Jefferson (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "200 m",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Fanny Blankers-Koen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Audrey Williamson (Gran Bretagna)",
+         "bronzo": "Audrey Patterson (Stati Uniti)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Marjorie Jackson (Australia)",
+         "ris": "",
+         "argento": "Bertha Brouwer (Paesi Bassi)",
+         "bronzo": "Nadezhda Khnykina-Dvalishvili (Unione Sovietica)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Betty Cuthbert (Australia)",
+         "ris": "",
+         "argento": "Christa Stubnick (Squadra unificata tedesca)",
+         "bronzo": "Marlene Mathews (Australia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Wilma Rudolph (Stati Uniti)",
+         "ris": "",
+         "argento": "Jutta Heine (Squadra unificata tedesca)",
+         "bronzo": "Dorothy Hyman (Gran Bretagna)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Edith McGuire (Stati Uniti)",
+         "ris": "",
+         "argento": "Irena Kirszenstein (Polonia)",
+         "bronzo": "Marilyn Black (Australia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Irena Szewińska (Polonia)",
+         "ris": "",
+         "argento": "Raelene Boyle (Australia)",
+         "bronzo": "Jenny Lamy (Australia)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Renate Stecher (Germania Est)",
+         "ris": "",
+         "argento": "Raelene Boyle (Australia)",
+         "bronzo": "Irena Szewińska (Polonia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Bärbel Eckert (Germania Est)",
+         "ris": "",
+         "argento": "Annegret Richter (Germania Ovest)",
+         "bronzo": "Renate Stecher (Germania Est)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Bärbel Wöckel (Germania Est)",
+         "ris": "",
+         "argento": "Natalya Bochina (Unione Sovietica)",
+         "bronzo": "Merlene Ottey (Giamaica)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Valerie Brisco-Hooks (Stati Uniti)",
+         "ris": "",
+         "argento": "Florence Griffith (Stati Uniti)",
+         "bronzo": "Merlene Ottey (Giamaica)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Florence Griffith Joyner (Stati Uniti)",
+         "ris": "",
+         "argento": "Grace Jackson (Giamaica)",
+         "bronzo": "Heike Drechsler (Germania Est)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Gwen Torrence (Stati Uniti)",
+         "ris": "",
+         "argento": "Juliet Cuthbert (Giamaica)",
+         "bronzo": "Merlene Ottey (Giamaica)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Marie-José Pérec (Francia)",
+         "ris": "",
+         "argento": "Merlene Ottey (Giamaica)",
+         "bronzo": "Mary Onyali (Nigeria)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Pauline Davis-Thompson (Bahamas)",
+         "ris": "",
+         "argento": "Susanthika Jayasinghe (Sri Lanka)",
+         "bronzo": "Beverly McDonald (Giamaica)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Veronica Campbell (Giamaica)",
+         "ris": "",
+         "argento": "Allyson Felix (Stati Uniti)",
+         "bronzo": "Debbie Ferguson (Bahamas)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Veronica Campbell-Brown (Giamaica)",
+         "ris": "",
+         "argento": "Allyson Felix (Stati Uniti)",
+         "bronzo": "Kerron Stewart (Giamaica)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Allyson Felix (Stati Uniti)",
+         "ris": "",
+         "argento": "Shelly-Ann Fraser-Pryce (Giamaica)",
+         "bronzo": "Carmelita Jeter (Stati Uniti)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Elaine Thompson (Giamaica)",
+         "ris": "",
+         "argento": "Dafne Schippers (Paesi Bassi)",
+         "bronzo": "Tori Bowie (Stati Uniti)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Elaine Thompson-Herah (Giamaica)",
+         "ris": "",
+         "argento": "Christine Mboma (Namibia)",
+         "bronzo": "Gabby Thomas (Stati Uniti)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Gabby Thomas (Stati Uniti)",
+         "ris": "",
+         "argento": "Julien Alfred (Santa Lucia)",
+         "bronzo": "Brittany Brown (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "400 m",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Betty Cuthbert (Australia)",
+         "ris": "",
+         "argento": "Ann Packer (Gran Bretagna)",
+         "bronzo": "Judy Amoore (Australia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Colette Besson (Francia)",
+         "ris": "",
+         "argento": "Lillian Board (Gran Bretagna)",
+         "bronzo": "Natalya Pechonkina (Unione Sovietica)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Monika Zehrt (Germania Est)",
+         "ris": "",
+         "argento": "Rita Wilden (Germania Ovest)",
+         "bronzo": "Kathy Hammond (Stati Uniti)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Irena Szewińska (Polonia)",
+         "ris": "",
+         "argento": "Christina Brehmer (Germania Est)",
+         "bronzo": "Ellen Streidt (Germania Est)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Marita Koch (Germania Est)",
+         "ris": "",
+         "argento": "Jarmila Kratochvílová (Cecoslovacchia)",
+         "bronzo": "Christina Lathan (Germania Est)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Valerie Brisco-Hooks (Stati Uniti)",
+         "ris": "",
+         "argento": "Chandra Cheeseborough (Stati Uniti)",
+         "bronzo": "Kathy Smallwood-Cook (Gran Bretagna)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Olga Bryzgina (Unione Sovietica)",
+         "ris": "",
+         "argento": "Petra Müller (Germania Est)",
+         "bronzo": "Olga Nazarova (Unione Sovietica)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Marie-José Pérec (Francia)",
+         "ris": "",
+         "argento": "Olga Bryzgina (Squadra Unificata)",
+         "bronzo": "Ximena Restrepo (Colombia)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Marie-José Pérec (Francia)",
+         "ris": "",
+         "argento": "Cathy Freeman (Australia)",
+         "bronzo": "Falilat Ogunkoya (Nigeria)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Cathy Freeman (Australia)",
+         "ris": "",
+         "argento": "Lorraine Graham (Giamaica)",
+         "bronzo": "Katharine Merry (Gran Bretagna)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Tonique Williams-Darling (Bahamas)",
+         "ris": "",
+         "argento": "Ana Guevara (Messico)",
+         "bronzo": "Natalya Antyukh (Russia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Christine Ohuruogu (Gran Bretagna)",
+         "ris": "",
+         "argento": "Shericka Williams (Giamaica)",
+         "bronzo": "Sanya Richards (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Sanya Richards-Ross (Stati Uniti)",
+         "ris": "",
+         "argento": "Christine Ohuruogu (Gran Bretagna)",
+         "bronzo": "DeeDee Trotter (Stati Uniti)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Shaunae Miller (Bahamas)",
+         "ris": "",
+         "argento": "Allyson Felix (Stati Uniti)",
+         "bronzo": "Shericka Jackson (Giamaica)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Shaunae Miller-Uibo (Bahamas)",
+         "ris": "",
+         "argento": "Marileidy Paulino (Repubblica Dominicana)",
+         "bronzo": "Allyson Felix (Stati Uniti)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Marileidy Paulino (Repubblica Dominicana)",
+         "ris": "",
+         "argento": "Salwa Eid Naser (Bahrein)",
+         "bronzo": "Natalia Kaczmarek (Polonia)"
+        }
+       ]
+      },
+      {
+       "nome": "5000 m",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Wang Junxia (Cina)",
+         "ris": "",
+         "argento": "Pauline Konga (Kenya)",
+         "bronzo": "Roberta Brunet (Italia)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Gabriela Szabo (Romania)",
+         "ris": "",
+         "argento": "Sonia O'Sullivan (Irlanda)",
+         "bronzo": "Gete Wami (Etiopia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Meseret Defar (Etiopia)",
+         "ris": "",
+         "argento": "Isabella Ochichi (Kenya)",
+         "bronzo": "Tirunesh Dibaba (Etiopia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Tirunesh Dibaba (Etiopia)",
+         "ris": "",
+         "argento": "Meseret Defar (Etiopia)",
+         "bronzo": "Sylvia Kibet (Kenya)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Meseret Defar (Etiopia)",
+         "ris": "",
+         "argento": "Vivian Cheruiyot (Kenya)",
+         "bronzo": "Tirunesh Dibaba (Etiopia)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Vivian Cheruiyot (Kenya)",
+         "ris": "",
+         "argento": "Hellen Obiri (Kenya)",
+         "bronzo": "Almaz Ayana (Etiopia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Sifan Hassan (Paesi Bassi)",
+         "ris": "",
+         "argento": "Hellen Obiri (Kenya)",
+         "bronzo": "Gudaf Tsegay (Etiopia)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Beatrice Chebet (Kenya)",
+         "ris": "",
+         "argento": "Faith Kipyegon (Kenya)",
+         "bronzo": "Sifan Hassan (Paesi Bassi)"
+        }
+       ]
+      },
+      {
+       "nome": "10.000 m",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Olga Bondarenko (Unione Sovietica)",
+         "ris": "",
+         "argento": "Liz McColgan (Gran Bretagna)",
+         "bronzo": "Olena Zhupiyeva-Vyazova (Unione Sovietica)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Derartu Tulu (Etiopia)",
+         "ris": "",
+         "argento": "Elana Meyer (Sudafrica)",
+         "bronzo": "Lynn Jennings (Stati Uniti)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Fernanda Ribeiro (Portogallo)",
+         "ris": "",
+         "argento": "Wang Junxia (Cina)",
+         "bronzo": "Gete Wami (Etiopia)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Derartu Tulu (Etiopia)",
+         "ris": "",
+         "argento": "Gete Wami (Etiopia)",
+         "bronzo": "Fernanda Ribeiro (Portogallo)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Xing Huina (Cina)",
+         "ris": "",
+         "argento": "Ejagayehu Dibaba (Etiopia)",
+         "bronzo": "Derartu Tulu (Etiopia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Tirunesh Dibaba (Etiopia)",
+         "ris": "",
+         "argento": "Shalane Flanagan (Stati Uniti)",
+         "bronzo": "Linet Masai (Kenya)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Tirunesh Dibaba (Etiopia)",
+         "ris": "",
+         "argento": "Sally Kipyego (Kenya)",
+         "bronzo": "Vivian Cheruiyot (Kenya)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Almaz Ayana (Etiopia)",
+         "ris": "",
+         "argento": "Vivian Cheruiyot (Kenya)",
+         "bronzo": "Tirunesh Dibaba (Etiopia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Sifan Hassan (Paesi Bassi)",
+         "ris": "",
+         "argento": "Kalkidan Gezahegne (Bahrein)",
+         "bronzo": "Letesenbet Gidey (Etiopia)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Beatrice Chebet (Kenya)",
+         "ris": "",
+         "argento": "Nadia Battocletti (Italia)",
+         "bronzo": "Sifan Hassan (Paesi Bassi)"
+        }
+       ]
+      },
+      {
+       "nome": "Maratona",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Joan Benoit (Stati Uniti)",
+         "ris": "",
+         "argento": "Grete Waitz (Norvegia)",
+         "bronzo": "Rosa Mota (Portogallo)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Rosa Mota (Portogallo)",
+         "ris": "",
+         "argento": "Lisa Martin (Australia)",
+         "bronzo": "Katrin Dörre (Germania Est)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Valentina Yegorova (Squadra Unificata)",
+         "ris": "",
+         "argento": "Yuko Arimori (Giappone)",
+         "bronzo": "Lorraine Moller (Nuova Zelanda)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Fatuma Roba (Etiopia)",
+         "ris": "",
+         "argento": "Valentina Yegorova (Russia)",
+         "bronzo": "Yuko Arimori (Giappone)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Naoko Takahashi (Giappone)",
+         "ris": "",
+         "argento": "Lidia Șimon (Romania)",
+         "bronzo": "Joyce Chepchumba (Kenya)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Mizuki Noguchi (Giappone)",
+         "ris": "",
+         "argento": "Catherine Ndereba (Kenya)",
+         "bronzo": "Deena Kastor (Stati Uniti)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Constantina Tomescu (Romania)",
+         "ris": "",
+         "argento": "Catherine Ndereba (Kenya)",
+         "bronzo": "Zhou Chunxiu (Cina)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Tiki Gelana (Etiopia)",
+         "ris": "",
+         "argento": "Priscah Jeptoo (Kenya)",
+         "bronzo": "Tatyana Petrova Arkhipova (Russia)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Jemima Sumgong (Kenya)",
+         "ris": "",
+         "argento": "Eunice Kirwa (Bahrein)",
+         "bronzo": "Mare Dibaba (Etiopia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Peres Jepchirchir (Kenya)",
+         "ris": "",
+         "argento": "Brigid Kosgei (Kenya)",
+         "bronzo": "Molly Seidel (Stati Uniti)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Sifan Hassan (Paesi Bassi)",
+         "ris": "",
+         "argento": "Tigst Assefa (Etiopia)",
+         "bronzo": "Hellen Obiri (Kenya)"
+        }
+       ]
+      },
+      {
+       "nome": "Staffetta 4×100",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Canada",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Canada",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Paesi Bassi",
+         "ris": "",
+         "argento": "Australia",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Australia",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Squadra unificata tedesca",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Polonia",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Cuba",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Germania Ovest",
+         "ris": "",
+         "argento": "Germania Est",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Germania Est",
+         "ris": "",
+         "argento": "Germania Ovest",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Germania Est",
+         "ris": "",
+         "argento": "Unione Sovietica",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Canada",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Germania Est",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Squadra Unificata",
+         "bronzo": "Nigeria"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Bahamas",
+         "bronzo": "Giamaica"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Bahamas",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Giamaica",
+         "ris": "",
+         "argento": "Russia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Belgio",
+         "ris": "",
+         "argento": "Nigeria",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Ucraina"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Giamaica",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Gran Bretagna",
+         "bronzo": "Germania"
+        }
+       ]
+      },
+      {
+       "nome": "Staffetta 4×400",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Germania Est",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Germania Est",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "",
+         "argento": "Germania Est",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Canada",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Unione Sovietica",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Germania Est"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Squadra Unificata",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Nigeria",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Russia",
+         "bronzo": "Giamaica"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Ucraina"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Giamaica",
+         "bronzo": "Gran Bretagna"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Polonia",
+         "bronzo": "Giamaica"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "",
+         "argento": "Paesi Bassi",
+         "bronzo": "Gran Bretagna"
+        }
+       ]
+      },
+      {
+       "nome": "Salto in alto",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1928,
+         "sede": "Amsterdam",
+         "oro": "Ethel Catherwood (Canada)",
+         "ris": "",
+         "argento": "Lien Gisolf (Paesi Bassi)",
+         "bronzo": "Mildred Wiley (Stati Uniti)"
+        },
+        {
+         "anno": 1932,
+         "sede": "Los Angeles",
+         "oro": "Jean Shiley (Stati Uniti)",
+         "ris": "",
+         "argento": "Babe Didrikson (Stati Uniti)",
+         "bronzo": "Eva Dawes (Canada)"
+        },
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Ibolya Csák (Ungheria)",
+         "ris": "",
+         "argento": "Dorothy Odam (Gran Bretagna)",
+         "bronzo": "Elfriede Kaun (Germania)"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Alice Coachman (Stati Uniti)",
+         "ris": "",
+         "argento": "Dorothy Tyler (Gran Bretagna)",
+         "bronzo": "Micheline Ostermeyer (Francia)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Esther Brand (Sudafrica)",
+         "ris": "",
+         "argento": "Sheila Lerwill (Gran Bretagna)",
+         "bronzo": "Aleksandra Chudina (Unione Sovietica)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Mildred McDaniel (Stati Uniti)",
+         "ris": "",
+         "argento": "Thelma Hopkins (Gran Bretagna), Mariya Pisareva (Unione Sovietica)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Iolanda Balaș (Romania)",
+         "ris": "",
+         "argento": "Jarosława Jóźwiakowska (Polonia), Dorothy Shirley (Gran Bretagna)",
+         "bronzo": "—",
+         "nota": "Argento ex aequo; bronzo non assegnato."
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Iolanda Balaș (Romania)",
+         "ris": "",
+         "argento": "Michele Brown (Australia)",
+         "bronzo": "Taisia Chenchik (Unione Sovietica)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Miloslava Rezková (Cecoslovacchia)",
+         "ris": "",
+         "argento": "Antonina Okorokova (Unione Sovietica)",
+         "bronzo": "Valentina Kozyr (Unione Sovietica)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Ulrike Meyfarth (Germania Ovest)",
+         "ris": "",
+         "argento": "Yordanka Blagoeva (Bulgaria)",
+         "bronzo": "Ilona Gusenbauer (Austria)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Rosemarie Ackermann (Germania Est)",
+         "ris": "",
+         "argento": "Sara Simeoni (Italia)",
+         "bronzo": "Yordanka Blagoeva (Bulgaria)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Sara Simeoni (Italia)",
+         "ris": "",
+         "argento": "Urszula Kielan (Polonia)",
+         "bronzo": "Jutta Kirst (Germania Est)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Ulrike Meyfarth (Germania Ovest)",
+         "ris": "",
+         "argento": "Sara Simeoni (Italia)",
+         "bronzo": "Joni Huntley (Stati Uniti)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Louise Ritter (Stati Uniti)",
+         "ris": "",
+         "argento": "Stefka Kostadinova (Bulgaria)",
+         "bronzo": "Tamara Bykova (Unione Sovietica)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Heike Henkel (Germania)",
+         "ris": "",
+         "argento": "Alina Astafei (Romania)",
+         "bronzo": "Ioamnet Quintero (Cuba)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stefka Kostadinova (Bulgaria)",
+         "ris": "",
+         "argento": "Niki Bakoyianni (Grecia)",
+         "bronzo": "Inha Babakova (Ucraina)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Yelena Yelesina (Russia)",
+         "ris": "",
+         "argento": "Hestrie Cloete (Sudafrica)",
+         "bronzo": "Kajsa Bergqvist (Svezia), Oana Pantelimon (Romania)",
+         "nota": "Bronzo ex aequo."
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Yelena Slesarenko (Russia)",
+         "ris": "",
+         "argento": "Hestrie Cloete (Sudafrica)",
+         "bronzo": "Vita Styopina (Ucraina)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Tia Hellebaut (Belgio)",
+         "ris": "",
+         "argento": "Blanka Vlašić (Croazia)",
+         "bronzo": "Chaunté Howard (Stati Uniti)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Anna Chicherova (Russia)",
+         "ris": "",
+         "argento": "Brigetta Barrett (Stati Uniti)",
+         "bronzo": "Ruth Beitia (Spagna)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Ruth Beitia (Spagna)",
+         "ris": "",
+         "argento": "Mirela Demireva (Bulgaria)",
+         "bronzo": "Blanka Vlašić (Croazia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Mariya Lasitskene (ROC (Russia))",
+         "ris": "",
+         "argento": "Nicola McDermott (Australia)",
+         "bronzo": "Yaroslava Mahuchikh (Ucraina)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Yaroslava Mahuchikh (Ucraina)",
+         "ris": "",
+         "argento": "Nicola Olyslagers (Australia)",
+         "bronzo": "Iryna Herashchenko (Ucraina), Eleanor Patterson (Australia)",
+         "nota": "Bronzo ex aequo."
+        }
+       ]
+      },
+      {
+       "nome": "Salto con l'asta",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Stacy Dragila (Stati Uniti)",
+         "ris": "",
+         "argento": "Tatiana Grigorieva (Australia)",
+         "bronzo": "Vala Flosadóttir (Islanda)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Yelena Isinbayeva (Russia)",
+         "ris": "",
+         "argento": "Svetlana Feofanova (Russia)",
+         "bronzo": "Anna Rogowska (Polonia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Yelena Isinbayeva (Russia)",
+         "ris": "",
+         "argento": "Jennifer Stuczynski (Stati Uniti)",
+         "bronzo": "Svetlana Feofanova (Russia)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Jennifer Suhr (Stati Uniti)",
+         "ris": "",
+         "argento": "Yarisley Silva (Cuba)",
+         "bronzo": "Yelena Isinbayeva (Russia)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Katerina Stefanidi (Grecia)",
+         "ris": "",
+         "argento": "Sandi Morris (Stati Uniti)",
+         "bronzo": "Eliza McCartney (Nuova Zelanda)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Katie Nageotte (Stati Uniti)",
+         "ris": "",
+         "argento": "Anzhelika Sidorova (ROC (Russia))",
+         "bronzo": "Holly Bradshaw (Gran Bretagna)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Nina Kennedy (Australia)",
+         "ris": "",
+         "argento": "Katie Moon (Stati Uniti)",
+         "bronzo": "Alysha Newman (Canada)"
+        }
+       ]
+      },
+      {
+       "nome": "Salto in lungo",
+       "genere": "Donne",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Olga Gyarmati (Ungheria)",
+         "ris": "",
+         "argento": "Noemí Simonetto (Argentina)",
+         "bronzo": "Ann-Britt Leyman (Svezia)"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Yvette Williams (Nuova Zelanda)",
+         "ris": "",
+         "argento": "Aleksandra Chudina (Unione Sovietica)",
+         "bronzo": "Shirley Cawley (Gran Bretagna)"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Elżbieta Krzesińska (Polonia)",
+         "ris": "",
+         "argento": "Willye White (Stati Uniti)",
+         "bronzo": "Nadezhda Khnykina-Dvalishvili (Unione Sovietica)"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Vera Krepkina (Unione Sovietica)",
+         "ris": "",
+         "argento": "Elżbieta Krzesińska (Polonia)",
+         "bronzo": "Hildrun Claus (Squadra unificata tedesca)"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Mary Rand (Gran Bretagna)",
+         "ris": "",
+         "argento": "Irena Kirszenstein (Polonia)",
+         "bronzo": "Tatyana Shchelkanova (Unione Sovietica)"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Viorica Viscopoleanu (Romania)",
+         "ris": "",
+         "argento": "Sheila Sherwood (Gran Bretagna)",
+         "bronzo": "Tatyana Talysheva (Unione Sovietica)"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Heide Rosendahl (Germania Ovest)",
+         "ris": "",
+         "argento": "Diana Yorgova (Bulgaria)",
+         "bronzo": "Eva Šuranová (Cecoslovacchia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Angela Voigt (Germania Est)",
+         "ris": "",
+         "argento": "Kathy McMillan (Stati Uniti)",
+         "bronzo": "Lidiya Alfeyeva (Unione Sovietica)"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Tatyana Kolpakova (Unione Sovietica)",
+         "ris": "",
+         "argento": "Brigitte Wujak (Germania Est)",
+         "bronzo": "Tatyana Skachko (Unione Sovietica)"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Anișoara Cușmir-Stanciu (Romania)",
+         "ris": "",
+         "argento": "Valy Ionescu (Romania)",
+         "bronzo": "Sue Hearnshaw (Gran Bretagna)"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Jackie Joyner-Kersee (Stati Uniti)",
+         "ris": "",
+         "argento": "Heike Drechsler (Germania Est)",
+         "bronzo": "Galina Chistyakova (Unione Sovietica)"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Heike Drechsler (Germania)",
+         "ris": "",
+         "argento": "Inessa Kravets (Squadra Unificata)",
+         "bronzo": "Jackie Joyner-Kersee (Stati Uniti)"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Chioma Ajunwa (Nigeria)",
+         "ris": "",
+         "argento": "Fiona May (Italia)",
+         "bronzo": "Jackie Joyner-Kersee (Stati Uniti)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Heike Drechsler (Germania)",
+         "ris": "",
+         "argento": "Fiona May (Italia)",
+         "bronzo": "Tatyana Kotova (Russia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Tatyana Lebedeva (Russia)",
+         "ris": "",
+         "argento": "Irina Simagina (Russia)",
+         "bronzo": "Tatyana Kotova (Russia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Maurren Maggi (Brasile)",
+         "ris": "",
+         "argento": "Blessing Okagbare (Nigeria)",
+         "bronzo": "Chelsea Hammond (Giamaica)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Brittney Reese (Stati Uniti)",
+         "ris": "",
+         "argento": "Elena Sokolova (Russia)",
+         "bronzo": "Janay DeLoach (Stati Uniti)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Tianna Bartoletta (Stati Uniti)",
+         "ris": "",
+         "argento": "Brittney Reese (Stati Uniti)",
+         "bronzo": "Ivana Španović (Serbia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Malaika Mihambo (Germania)",
+         "ris": "",
+         "argento": "Brittney Reese (Stati Uniti)",
+         "bronzo": "Ese Brume (Nigeria)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Tara Davis-Woodhall (Stati Uniti)",
+         "ris": "",
+         "argento": "Malaika Mihambo (Germania)",
+         "bronzo": "Jasmine Moore (Stati Uniti)"
+        }
+       ]
+      },
+      {
+       "nome": "Staffetta 4×400 mista",
+       "genere": "Misti",
+       "tipo": "torneo",
+       "righe": [
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Polonia",
+         "ris": "",
+         "argento": "Repubblica Dominicana",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Paesi Bassi",
+         "ris": "",
+         "argento": "Stati Uniti",
+         "bronzo": "Gran Bretagna"
+        }
+       ]
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "List of Olympic medalists in athletics (men) (revisione 1379935508)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_Olympic_medalists_in_athletics_(men)&oldid=1379935508"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "List of Olympic medalists in athletics (women) (revisione 1379934565)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_Olympic_medalists_in_athletics_(women)&oldid=1379934565"
+      },
+      {
+       "i": "World Athletics",
+       "t": "Sydney 2000, 100 metri donne: oro non riassegnato",
+       "u": "https://worldathletics.org/results/olympic-games/2000/27th-olympic-games-2363/women/100-metres/final/result"
+      },
+      {
+       "i": "Olympedia",
+       "t": "Londra 1908, 400 metri uomini",
+       "u": "https://www.olympedia.org/results/56313"
+      },
+      {
+       "i": "olympics.com",
+       "t": "Tokyo 2020, staffetta 4×400 mista",
+       "u": "https://olympics.com/en/olympic-games/tokyo-2020/results/athletics/4-x-400m-relay-mixed"
+      },
+      {
+       "i": "World Athletics",
+       "t": "Parigi 2024, salto in alto uomini",
+       "u": "https://worldathletics.org/results/olympic-games/2024/the-xxxiii-olympic-games-7087/men/high-jump/final/result"
+      }
+     ]
+    }
+   ]
   }
  },
  "aggiornato": "26 novembre 2026"
