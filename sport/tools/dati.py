@@ -6,9 +6,14 @@ Albi d'oro olimpici: trascritti dalle tabelle «Results summary» di Wikipedia
 (revisioni indicate in ALBI_FONTE) lette dal browser il 26/11/2026, con controllo
 a campione su olympics.com e fivb.com (Berlino 1936, Tokyo 1964, Atene 2004,
 Rio 2016, Parigi 2024; Atlanta 1996 per il beach volley).
+Mondiali, Europei e campionati nazionali: albi.py + albi_grezzi.txt (v0.2).
 """
 import json
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
 
 SPORT = [
     ("olimpiadi", "Olimpiadi e mondo", "#c8a85a", "globo"),
@@ -474,30 +479,43 @@ def wp(titolo, rev):
              f"https://en.wikipedia.org/w/index.php?title={titolo.replace(' ', '_')}&oldid={rev}")
 
 
-ALBI = {
-    "basket": {"titolo": "Albo d'oro olimpico del basket", "tornei": [
-        {"nome": "Uomini", "righe": righe(BASKET_M)}, {"nome": "Donne", "righe": righe(BASKET_F)}],
-        "fonti": [wp("Basketball at the Summer Olympics", 1383154364),
-                  f(OC, "Athens 2004 Basketball Results", "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball")]},
-    "pallavolo": {"titolo": "Albo d'oro olimpico della pallavolo", "tornei": [
-        {"nome": "Uomini", "righe": righe(VOLLEY_M)}, {"nome": "Donne", "righe": righe(VOLLEY_F)}],
-        "fonti": [wp("Volleyball at the Summer Olympics", 1381863204),
-                  f(OC, "Volleyball: a brief history", "https://www.olympics.com/en/news/volleyball-a-brief-history")]},
-    "beach": {"titolo": "Albo d'oro olimpico del beach volley", "tornei": [
-        {"nome": "Uomini", "righe": righe(BEACH_M)}, {"nome": "Donne", "righe": righe(BEACH_F)}],
-        "fonti": [wp("Beach volleyball at the Summer Olympics", 1380739173),
-                  f("FIVB", "History (beach volleyball)", "https://www.fivb.com/beach-volleyball/the-game/history/")]},
+NOTA_OLIMPIADI = ("Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione "
+                  "su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). "
+                  "Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.")
+OLIMPIADI = {
+    "basket": {"tornei": [{"nome": "Uomini", "righe": righe(BASKET_M)}, {"nome": "Donne", "righe": righe(BASKET_F)}],
+               "fonti": [wp("Basketball at the Summer Olympics", 1383154364),
+                         f(OC, "Athens 2004 Basketball Results", "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball")]},
+    "pallavolo": {"tornei": [{"nome": "Uomini", "righe": righe(VOLLEY_M)}, {"nome": "Donne", "righe": righe(VOLLEY_F)}],
+                  "fonti": [wp("Volleyball at the Summer Olympics", 1381863204),
+                            f(OC, "Volleyball: a brief history", "https://www.olympics.com/en/news/volleyball-a-brief-history")]},
+    "beach": {"tornei": [{"nome": "Uomini", "righe": righe(BEACH_M)}, {"nome": "Donne", "righe": righe(BEACH_F)}],
+              "fonti": [wp("Beach volleyball at the Summer Olympics", 1380739173),
+                        f("FIVB", "History (beach volleyball)", "https://www.fivb.com/beach-volleyball/the-game/history/")]},
 }
-NOTA_ALBI = ("Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione "
-             "su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). "
-             "Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.")
+ALTRI = albi.costruisci()
+NOTA_ALBI = ("Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, "
+             "controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o "
+             "giornalistiche, elencate tra le fonti.")
+ALBI = {}
+for sp in ["calcio", "basket", "pallavolo", "beach"]:
+    gruppi = []
+    if sp in OLIMPIADI:
+        gruppi.append({"id": "olimpiadi", "nome": "Olimpiadi", "nota": NOTA_OLIMPIADI, **OLIMPIADI[sp]})
+    for g in ALTRI[sp]:
+        gruppi.append({**g, "nota": NOTA_ALBI})
+    ALBI[sp] = {"titolo": "Albi d'oro", "gruppi": gruppi}
+for a in ALBI.values():
+    for g in a["gruppi"]:
+        for t in g["tornei"]:
+            t.setdefault("tipo", "torneo")
 
 dati = {"sport": [{"id": a, "nome": b, "colore": c, "icona": d} for a, b, c, d in SPORT],
-        "voci": sorted(V, key=lambda x: (x["anno"], x["id"])), "albi": ALBI, "nota_albi": NOTA_ALBI,
+        "voci": sorted(V, key=lambda x: (x["anno"], x["id"])), "albi": ALBI,
         "aggiornato": "26 novembre 2026"}
 ids = [x["id"] for x in V]
 assert len(ids) == len(set(ids))
 assert all(x["sport"] in {s[0] for s in SPORT} for x in V)
 Path("sport/data").mkdir(parents=True, exist_ok=True)
 Path("sport/data/almanacco.json").write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
-print(len(V), "tessere;", sum(len(t["righe"]) for a in ALBI.values() for t in a["tornei"]), "righe di albo d'oro")
+print(len(V), "tessere;", sum(len(t["righe"]) for a in ALBI.values() for g in a["gruppi"] for t in g["tornei"]), "righe di albo d'oro")

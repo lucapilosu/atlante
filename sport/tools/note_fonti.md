@@ -38,3 +38,18 @@
 - Italia campione d'Europa di basket nel 1983 (Francia, 26/5–4/6) e nel 1999 (Francia, MVP Fucka); argento olimpico ad Atene 2004 (oro Argentina) — fiba.basketball eurobasket-2025 all-time-medalists; fiba.basketball eurobasket-2025-preview-italy; olympics.com athens-2004/results/basketball.
 - Beach volley: Nicolai e Lupo argento a Rio 2016 (finale persa 2-0 con Alison/Bruno), prima medaglia olimpica italiana nel beach volley — volleyballworld.com it-s-all-new-for-nicolai-in-2022; fivb.com lupo-nicolai; olympics.com rio-2016 results beach-volleyball.
 - Coppa del Mondo di sci alpino: prima gara a Berchtesgaden il 5/1/1967 (slalom, Heinrich Messner); idea di Serge Lang (1966); 17 gare nella prima stagione — fis-ski.com crystal-globes...world-cup-turns-60; 100.fis-ski.com the-ski-world-cup-a-success-story.
+
+## Albi d'oro v0.2 (26/11/2026)
+
+Tabelle lette nel browser dalle API di en.wikipedia.org (revisioni nelle fonti di ogni albo), estratte con lo stesso codice e trascritte in `albi_grezzi.txt`; per ogni sezione l'impronta SHA-256 calcolata nel browser coincide con quella del file (controllo in `albi.py`).
+
+Riscontri esterni dei risultati successivi alla mia data di aggiornamento (giugno 2026) e del 2025:
+- Mondiali di calcio 2026: Spagna–Argentina 1–0 d.t.s. (FIFA, comunicato «Spain complete unprecedented global double»; ESPN, NBC).
+- Finali NBA 2026: New York Knicks–San Antonio Spurs 4–1 (NBA.com, ESPN, NBC Sports).
+- Mondiali femminili di basket 2026 (Berlino): Stati Uniti–Francia 97–79 (Al Jazeera, Eurohoops, CBS).
+- Scudetto calcio 2025-26: Inter, 21° titolo (inter.it, Sky).
+- Europei di pallavolo 2026: uomini Polonia–Francia 3–1 (FIVB, LaPresse); donne Turchia–Italia 3–2 (CEV).
+- Scudetto pallavolo 2025-26: Perugia–Civitanova 3–0 nella serie (Lega Pallavolo Serie A); Conegliano–Milano 3–1 nella serie (Il Post).
+- Mondiali di beach volley 2025 (Adelaide): Åhman/Hellvig e Graudiņa/Samoilova (CEV, FIVB).
+
+Note aggiunte da me (conoscenza generale, non presenti come testo nelle tabelle): Calciopoli per 2004-05 e 2005-06, revoca del 1926-27 al Torino, titolo onorifico dello Spezia 1944, BAA 1947–1949. Confidenza alta (≥ 95%), da ricontrollare su FIGC se servono le date esatte.

@@ -1,0 +1,722 @@
+## calcio_mondiali_m
+1930|Uruguay|Uruguay|4–2|Argentina|United States
+1934|Italy|Italy|2–1 (a.e.t.)|Czechoslovakia|Germany
+1938|France|Italy|4–2|Hungary|Brazil
+1942|Not held due to World War II|Not held due to World War II|Not held due to World War II|Not held due to World War II|Not held due to World War II
+1946|Not held due to World War II|Not held due to World War II|Not held due to World War II|Not held due to World War II|Not held due to World War II
+1950|Brazil|Uruguay|2–1|Brazil|Sweden
+1954|Switzerland|West Germany|3–2|Hungary|Austria
+1958|Sweden|Brazil|5–2|Sweden|France
+1962|Chile|Brazil|3–1|Czechoslovakia|Chile
+1966|England|England|4–2 (a.e.t.)|West Germany|Portugal
+1970|Mexico|Brazil|4–1|Italy|West Germany
+1974|West Germany|West Germany|2–1|Netherlands|Poland
+1978|Argentina|Argentina|3–1 (a.e.t.)|Netherlands|Brazil
+1982|Spain|Italy|3–1|West Germany|Poland
+1986|Mexico|Argentina|3–2|West Germany|France
+1990|Italy|West Germany|1–0|Argentina|Italy
+1994|United States|Brazil|0–0 (a.e.t.)(3–2 p)|Italy|Sweden
+1998|France|France|3–0|Brazil|Croatia
+2002|South Korea Japan|Brazil|2–0|Germany|Turkey
+2006|Germany|Italy|1–1 (a.e.t.)(5–3 p)|France|Germany
+2010|South Africa|Spain|1–0 (a.e.t.)|Netherlands|Germany
+2014|Brazil|Germany|1–0 (a.e.t.)|Argentina|Netherlands
+2018|Russia|France|4–2|Croatia|Belgium
+2022|Qatar|Argentina|3–3 (a.e.t.)(4–2 p)|France|Croatia
+2026|Canada Mexico United States|Spain|1–0 (a.e.t.)|Argentina|England
+#2030 -
+#2034 -
+## calcio_mondiali_f
+1991|China|United States|2–1|Norway|Sweden
+1995|Sweden|Norway|2–0|Germany|United States
+1999|United States|United States|0–0 (a.e.t.)(5–4 p)|China|Brazil
+2003|United States|Germany|2–1 (a.e.t.)|Sweden|United States
+2007|China|Germany|2–0|Brazil|United States
+2011|Germany|Japan|2–2 (a.e.t.)(3–1 p)|United States|Sweden
+2015|Canada|United States|5–2|Japan|England
+2019|France|United States|2–0|Netherlands|Sweden
+2023|Australia New Zealand|Spain|1–0|England|Sweden
+#2027 -
+#2031 -
+#2035 -
+## calcio_europei
+1960|France|Soviet Union|2–1 (a.e.t.)|Yugoslavia|Czechoslovakia
+1964|Spain|Spain|2–1|Soviet Union|Hungary
+1968|Italy|Italy|1–1 (a.e.t.)2–0 (replay)|Yugoslavia|England
+1972|Belgium|West Germany|3–0|Soviet Union|Belgium
+1976|Yugoslavia|Czechoslovakia|2–2 (a.e.t.)(5–3 p)|West Germany|Netherlands
+1980|Italy|West Germany|2–1|Belgium|Czechoslovakia
+1984|France|France|2–0|Spain|Denmark and Portugal
+1988|West Germany|Netherlands|2–0|Soviet Union|Italy and West Germany
+1992|Sweden|Denmark|2–0|Germany|Netherlands and Sweden
+1996|England|Germany|2–1 (g.g.)|Czech Republic|England and France
+2000|Belgium Netherlands|France|2–1 (g.g.)|Italy|Netherlands and Portugal
+2004|Portugal|Greece|1–0|Portugal|Czech Republic and Netherlands
+2008|Austria Switzerland|Spain|1–0|Germany|Russia and Turkey
+2012|Poland Ukraine|Spain|4–0|Italy|Germany and Portugal
+2016|France|Portugal|1–0 (a.e.t.)|France|Germany and Wales
+2020|Pan-Europe|Italy|1–1 (a.e.t.)(3–2 p)|England|Denmark and Spain
+2024|Germany|Spain|2–1|England|France and Netherlands
+#2028 -
+#2032 -
+## basket_mondiali_m
+1950|Argentina|Argentina|64–50No playoffs|United States|Chile
+1954|Brazil|United States|62–41No playoffs|Brazil|Philippines
+1959|Chile|Brazil|81–67No playoffs|United States|Chile
+1963|Brazil|Brazil|90–71No playoffs|Yugoslavia|Soviet Union
+1967|Uruguay|Soviet Union|71–59No playoffs|Yugoslavia|Brazil
+1970|Yugoslavia|Yugoslavia|80–55No playoffs|Brazil|Soviet Union
+1974|Puerto Rico|Soviet Union|79–82No playoffs|Yugoslavia|United States
+1978|Philippines|Yugoslavia|82–81 (OT)Araneta Coliseum, Quezon City|Soviet Union|Brazil
+1982|Colombia|Soviet Union|95–94Coliseo El Pueblo, Cali|United States|Yugoslavia
+1986|Spain|United States|87–85Palacio de Deportes, Madrid|Soviet Union|Yugoslavia
+1990|Argentina|Yugoslavia|92–75Estadio Luna Park, Buenos Aires|Soviet Union|United States
+1994|Canada|United States|137–91SkyDome, Toronto|Russia|Croatia
+1998|Greece|FR Yugoslavia|64–62Olympic Indoor Hall, Athens|Russia|United States
+2002|United States|FR Yugoslavia|84–77 (OT)Conseco Fieldhouse, Indianapolis|Argentina|Germany
+2006|Japan|Spain|70–47Saitama Super Arena, Saitama|Greece|United States
+2010|Turkey|United States|81–64Sinan Erdem Dome, Istanbul|Turkey|Lithuania
+2014|Spain|United States|129–92Palacio de Deportes, Madrid|Serbia|France
+2019|China|Spain|95–75Wukesong Arena, Beijing|Argentina|France
+2023|Philippines Japan Indonesia|Germany|83–77Mall of Asia Arena, Pasay|Serbia|Canada
+#2027 Future eventLusail Sports Arena, Lusail
+#2031 Future eventParis La Défense Arena, Paris
+## basket_mondiali_f
+1953|Chile|United States|49–36|Chile|France
+1957|Brazil|United States|51–48|Soviet Union|Czechoslovakia
+1959|Soviet Union|Soviet Union|51–38|Bulgaria|Czechoslovakia
+1964|Peru|Soviet Union|70–35|Czechoslovakia|Bulgaria
+1967|Czechoslovakia|Soviet Union|83–50|South Korea|Czechoslovakia
+1971|Brazil|Soviet Union|88–69|Czechoslovakia|Brazil
+1975|Colombia|Soviet Union|106–75|Japan|Czechoslovakia
+1979|South Korea|United States|94–82|South Korea|Canada
+1983|Brazil|Soviet Union|84–82|United States|China
+1986|Soviet Union|United States|108–88|Soviet Union|Canada
+1990|Malaysia|United States|88–78|Yugoslavia|Cuba
+1994|Australia|Brazil|96–87|China|United States
+1998|Germany|United States|71–65|Russia|Australia
+2002|China|United States|79–74|Russia|Australia
+2006|Brazil|Australia|91–74|Russia|United States
+2010|Czech Republic|United States|89–69|Czech Republic|Spain
+2014|Turkey|United States|77–64|Spain|Australia
+2018|Spain|United States|73–56|Australia|Spain
+2022|Australia|United States|83–61|China|Australia
+2026|Germany|United States|97–79|France|Spain
+#2030 Future eventTBA, Tokyo
+## basket_euro_m
+1935|Switzerland|Latvia|24–18|Spain|Czechoslovakia
+1937|Latvia|Lithuania|24–23|Italy|France
+1939|Lithuania|Lithuania|No playoffs|Latvia|Poland
+#1941 Cancelled due to World War II
+1946|Switzerland|Czechoslovakia|34–32|Italy|Hungary
+1947|Czechoslovakia|Soviet Union|56–37|Czechoslovakia|Egypt
+1949|Egypt|Egypt|No playoffs|France|Greece
+1951|France|Soviet Union|45–44|Czechoslovakia|France
+1953|USSR|Soviet Union|No playoffs|Hungary|France
+1955|Hungary|Hungary|No playoffs|Czechoslovakia|Soviet Union
+1957|Bulgaria|Soviet Union|No playoffs|Bulgaria|Czechoslovakia
+1959|Turkey|Soviet Union|No playoffs|Czechoslovakia|France
+1961|Yugoslavia|Soviet Union|60–53|Yugoslavia|Bulgaria
+1963|Poland|Soviet Union|61–45|Poland|Yugoslavia
+1965|Soviet Union|Soviet Union|58–49|Yugoslavia|Poland
+1967|Finland|Soviet Union|89–77|Czechoslovakia|Poland
+1969|Italy|Soviet Union|81–72|Yugoslavia|Czechoslovakia
+1971|West Germany|Soviet Union|69–64|Yugoslavia|Italy
+1973|Spain|Yugoslavia|78–67|Spain|Soviet Union
+1975|Yugoslavia|Yugoslavia|No playoffs|Soviet Union|Italy
+1977|Belgium|Yugoslavia|74–61|Soviet Union|Czechoslovakia
+1979|Italy|Soviet Union|98–76|Israel|Yugoslavia
+1981|Czechoslovakia|Soviet Union|84–67|Yugoslavia|Czechoslovakia
+1983|France|Italy|105–96|Spain|Soviet Union
+1985|West Germany|Soviet Union|120–89|Czechoslovakia|Italy
+1987|Greece|Greece|103–101 overtime|Soviet Union|Yugoslavia
+1989|Yugoslavia|Yugoslavia|98–77|Greece|Soviet Union
+1991|Italy|Yugoslavia|88–73|Italy|Spain
+1993|Germany|Germany|71–70|Russia|Croatia
+1995|Greece|FR Yugoslavia|96–90|Lithuania|Croatia
+1997|Spain|FR Yugoslavia|61–49|Italy|Russia
+1999|France|Italy|64–56|Spain|FR Yugoslavia
+2001|Turkey|FR Yugoslavia|78–69|Turkey|Spain
+2003|Sweden|Lithuania|93–84|Spain|Italy
+2005|Serbia and Montenegro|Greece|78–62|Germany|France
+2007|Spain|Russia|60–59|Spain|Lithuania
+2009|Poland|Spain|85–63|Serbia|Greece
+2011|Lithuania|Spain|98–85|France|Russia
+2013|Slovenia|France|80–66|Lithuania|Spain
+2015|France Croatia Germany Latvia|Spain|80–63|Lithuania|France
+2017|Finland Israel Romania Turkey|Slovenia|93–85|Serbia|Spain
+2022|Czech Republic Georgia Italy Germany|Spain|88–76|France|Germany
+2025|Cyprus Finland Poland Latvia|Germany|88–83|Turkey|Greece
+#2029 -
+## basket_euro_f
+1938|Italy|Italy|Round-robin|Lithuania|Poland
+#1940 Cancelled due to World War II
+1950|Hungary|Soviet Union|Round-robin|Hungary|Czechoslovakia
+1952|Soviet Union|Soviet Union|Round-robin|Czechoslovakia|Hungary
+1954|Yugoslavia|Soviet Union|Round-robin|Czechoslovakia|Bulgaria
+1956|Czechoslovakia|Soviet Union|49–41|Hungary|Czechoslovakia
+1958|Poland|Bulgaria|Round-robin|Soviet Union|Czechoslovakia
+1960|Bulgaria|Soviet Union|Round-robin|Bulgaria|Czechoslovakia
+1962|France|Soviet Union|63–46|Czechoslovakia|Bulgaria
+1964|Hungary|Soviet Union|55–53|Bulgaria|Czechoslovakia
+1966|Romania|Soviet Union|74–66|Czechoslovakia|East Germany
+1968|Italy|Soviet Union|Round-robin|Yugoslavia|Poland
+1970|Netherlands|Soviet Union|94–33|France|Yugoslavia
+1972|Bulgaria|Soviet Union|Round-robin|Bulgaria|Czechoslovakia
+1974|Italy|Soviet Union|Round-robin|Czechoslovakia|Italy
+1976|France|Soviet Union|Round-robin|Czechoslovakia|Bulgaria
+1978|Poland|Soviet Union|Round-robin|Yugoslavia|Czechoslovakia
+1980|Yugoslavia|Soviet Union|95–49|Poland|Yugoslavia
+1981|Italy|Soviet Union|85–42|Poland|Czechoslovakia
+1983|Hungary|Soviet Union|91–70|Bulgaria|Hungary
+1985|Italy|Soviet Union|103–69|Bulgaria|Hungary
+1987|Spain|Soviet Union|83–73|Yugoslavia|Hungary
+1989|Bulgaria|Soviet Union|64–61|Czechoslovakia|Bulgaria
+1991|Israel|Soviet Union|97–84|Yugoslavia|Hungary
+1993|Italy|Spain|63–53|France|Slovakia
+1995|Czech Republic|Ukraine|77–66|Italy|Russia
+1997|Hungary|Lithuania|72–62|Slovakia|Germany
+1999|Poland|Poland|59–56|France|Russia
+2001|France|France|73–68|Russia|Spain
+2003|Greece|Russia|59–56|Czech Republic|Spain
+2005|Turkey|Czech Republic|72–70|Russia|Spain
+2007|Italy|Russia|74–68|Spain|Belarus
+2009|Latvia|France|57–53|Russia|Spain
+2011|Poland|Russia|59–42|Turkey|France
+2013|France|Spain|70–69|France|Turkey
+2015|Hungary Romania|Serbia|76–68|France|Spain
+2017|Czech Republic|Spain|71–55|France|Belgium
+2019|Latvia Serbia|Spain|86–66|France|Serbia
+2021|France Spain|Serbia|63–54|France|Belgium
+2023|Israel Slovenia|Belgium|64–58|Spain|France
+2025|Czech Republic Germany Greece Italy|Belgium|67–65|Spain|Italy
+#2027 -
+#2029 -
+## volley_mondiali_m
+1949|Czechoslovakia|Soviet Union|Round-robin(3–1)|Czechoslovakia|Bulgaria
+1952|Soviet Union|Soviet Union|Round-robin(3–0)|Czechoslovakia|Bulgaria
+1956|France|Czechoslovakia|Round-robin(3–2)|Romania|Soviet Union
+1960|Brazil|Soviet Union|Round-robin(3–0)|Czechoslovakia|Romania
+1962|Soviet Union|Soviet Union|Round-robin(3–0)|Czechoslovakia|Romania
+1966|Czechoslovakia|Czechoslovakia|Round-robin(3–1)|Romania|Soviet Union
+1970|Bulgaria|East Germany|Round-robin(3–2)|Bulgaria|Japan
+1974|Mexico|Poland|Round-robin(3–2)|Soviet Union|Japan
+1978|Italy|Soviet Union|3–0|Italy|Cuba
+1982|Argentina|Soviet Union|3–0|Brazil|Argentina
+1986|France|United States|3–1|Soviet Union|Bulgaria
+1990|Brazil|Italy|3–1|Cuba|Soviet Union
+1994|Greece|Italy|3–1|Netherlands|United States
+1998|Japan|Italy|3–0|FR Yugoslavia|Cuba
+2002|Argentina|Brazil|3–2|Russia|France
+2006|Japan|Brazil|3–0|Poland|Bulgaria
+2010|Italy|Brazil|3–0|Cuba|Serbia
+2014|Poland|Poland|3–1|Brazil|Germany
+2018|Italy / Bulgaria|Poland|3–0|Brazil|United States
+2022|Poland / Slovenia|Italy|3–1|Poland|Brazil
+2025|Philippines|Italy|3–1|Bulgaria|Poland
+#2027 -
+#2029 -
+## volley_mondiali_f
+1952|Soviet Union|Soviet Union|Round-robin(3–0)|Poland|Czechoslovakia
+1956|France|Soviet Union|Round-robin(3–2)|Romania|Poland
+1960|Brazil|Soviet Union|Round-robin(3–1)|Japan|Czechoslovakia
+1962|Soviet Union|Japan|Round-robin(3–1)|Soviet Union|Poland
+1967|Japan|Japan|Round-robin(3–0)|United States|South Korea
+1970|Bulgaria|Soviet Union|Round-robin(3–1)|Japan|North Korea
+1974|Mexico|Japan|Round-robin(3–0)|Soviet Union|South Korea
+1978|Soviet Union|Cuba|3–0|Japan|Soviet Union
+1982|Peru|China|3–0|Peru|United States
+1986|Czechoslovakia|China|3–1|Cuba|Peru
+1990|China|Soviet Union|3–1|China|United States
+1994|Brazil|Cuba|3–0|Brazil|Russia
+1998|Japan|Cuba|3–0|China|Russia
+2002|Germany|Italy|3–2|United States|Russia
+2006|Japan|Russia|3–2|Brazil|Serbia and Montenegro
+2010|Japan|Russia|3–2|Brazil|Japan
+2014|Italy|United States|3–1|China|Brazil
+2018|Japan|Serbia|3–2|Italy|China
+2022|Netherlands / Poland|Serbia|3–0|Brazil|Italy
+2025|Thailand|Italy|3–2|Turkey|Brazil
+#2027 -
+#2029 -
+## volley_euro_m
+1948|Italy|Czechoslovakia|Round-robin(3–0)|France|Italy
+1950|Bulgaria|Soviet Union|Round-robin(3–0)|Czechoslovakia|Hungary
+1951|France|Soviet Union|Round-robin(3–0)|Bulgaria|France
+1955|Romania|Czechoslovakia|Round-robin(3–1)|Romania|Bulgaria
+1958|Czechoslovakia|Czechoslovakia|Round-robin(3–1)|Romania|Soviet Union
+1963|Romania|Romania|Round-robin(3–0)|Hungary|Soviet Union
+1967|Turkey|Soviet Union|Round-robin(3–2)|Czechoslovakia|Poland
+1971|Italy|Soviet Union|Round-robin(0–3)|Czechoslovakia|Romania
+1975|Yugoslavia|Soviet Union|Round-robin(3–0)|Poland|Yugoslavia
+1977|Finland|Soviet Union|3–1|Poland|Romania
+1979|France|Soviet Union|Round-robin(3–0)|Poland|Yugoslavia
+1981|Bulgaria|Soviet Union|Round-robin(3–0)|Poland|Bulgaria
+1983|East Germany|Soviet Union|Round-robin(3–1)|Poland|Bulgaria
+1985|Netherlands|Soviet Union|Round-robin(3–0)|Czechoslovakia|France
+1987|Belgium|Soviet Union|3–1|France|Greece
+1989|Sweden|Italy|3–1|Sweden|Netherlands
+1991|Germany|Soviet Union|3–0|Italy|Netherlands
+1993|Finland|Italy|3–2|Netherlands|Russia
+1995|Greece|Italy|3–2|Netherlands|FR Yugoslavia
+1997|Netherlands|Netherlands|3–1|FR Yugoslavia|Italy
+1999|Austria|Italy|3–1|Russia|FR Yugoslavia
+2001|Czech Republic|FR Yugoslavia|3–0|Italy|Russia
+2003|Germany|Italy|3–2|France|Russia
+2005|Italy / Serbia and Montenegro|Italy|3–2|Russia|Serbia and Montenegro
+2007|Russia|Spain|3–2|Russia|Serbia
+2009|Turkey|Poland|3–1|France|Bulgaria
+2011|Austria / Czech Republic|Serbia|3–1|Italy|Poland
+2013|Denmark / Poland|Russia|3–1|Italy|Serbia
+2015|Bulgaria / Italy|France|3–0|Slovenia|Italy
+2017|Poland|Russia|3–2|Germany|Serbia
+2019|France / Slovenia / Belgium / Netherlands|Serbia|3–1|Slovenia|Poland
+2021|Poland / Czech Republic / Estonia / Finland|Italy|3–2|Slovenia|Poland
+2023|Italy / Bulgaria / North Macedonia / Israel|Poland|3–0|Italy|Slovenia
+2026|Bulgaria / Finland / Italy / Romania|Poland|3–1|France|Finland
+#2028 -
+## volley_euro_f
+1949|Czechoslovakia|Soviet Union|Round-robin(3–0)|Czechoslovakia|Poland
+1950|Bulgaria|Soviet Union|Round-robin(3–0)|Poland|Czechoslovakia
+1951|France|Soviet Union|Round-robin(3–0)|Poland|Yugoslavia
+1955|Romania|Czechoslovakia|Round-robin(3–2)|Soviet Union|Poland
+1958|Czechoslovakia|Soviet Union|Round-robin(3–2)|Czechoslovakia|Poland
+1963|Romania|Soviet Union|Round-robin(3–2)|Poland|Romania
+1967|Turkey|Soviet Union|Round-robin(3–0)|Poland|Czechoslovakia
+1971|Italy|Soviet Union|Round-robin(3–0)|Czechoslovakia|Poland
+1975|Yugoslavia|Soviet Union|Round-robin(3–0)|Hungary|East Germany
+1977|Finland|Soviet Union|3–0|East Germany|Hungary
+1979|France|Soviet Union|Round-robin(3–0)|East Germany|Bulgaria
+1981|Bulgaria|Bulgaria|Round-robin(3–0)|Soviet Union|Hungary
+1983|East Germany|East Germany|Round-robin(3–2)|Soviet Union|Hungary
+1985|Netherlands|Soviet Union|Round-robin(3–0)|East Germany|Netherlands
+1987|Belgium|East Germany|3–2|Soviet Union|Czechoslovakia
+1989|West Germany|Soviet Union|3–1|East Germany|Italy
+1991|Italy|Soviet Union|3–0|Netherlands|Germany
+1993|Czech Republic|Russia|3–0|Czechoslovakia|Ukraine
+1995|Netherlands|Netherlands|3–0|Croatia|Russia
+1997|Czech Republic|Russia|3–0|Croatia|Czech Republic
+1999|Italy|Russia|3–0|Croatia|Italy
+2001|Bulgaria|Russia|3–2|Italy|Bulgaria
+2003|Turkey|Poland|3–0|Turkey|Germany
+2005|Croatia|Poland|3–1|Italy|Russia
+2007|Belgium / Luxembourg|Italy|3–0|Serbia|Russia
+2009|Poland|Italy|3–0|Netherlands|Poland
+2011|Italy / Serbia|Serbia|3–2|Germany|Turkey
+2013|Germany / Switzerland|Russia|3–1|Germany|Belgium
+2015|Belgium / Netherlands|Russia|3–0|Netherlands|Serbia
+2017|Azerbaijan / Georgia|Serbia|3–1|Netherlands|Turkey
+2019|Hungary / Poland / Slovakia / Turkey|Serbia|3–2|Turkey|Italy
+2021|Bulgaria / Croatia / Romania / Serbia|Italy|3–1|Serbia|Turkey
+2023|Belgium / Estonia / Germany / Italy|Turkey|3–2|Serbia|Netherlands
+2026|Azerbaijan / Czech Republic / Sweden / Turkey|Turkey|3–2|Italy|Serbia
+#2028 -
+## beach_mondiali_m
+1997|Los Angeles|Brazil: Rogério Ferreira / Guilherme Marques|2–1|United States: Canyon Ceman / Mike Whitmarsh|United States: Dain Blanton / Kent Steffes ; Brazil: Paulão Moreira / Paulo Emilio Silva
+1999|Marseille|Brazil: José Loiola / Emanuel Rego|1–0|Switzerland: Martin Laciga / Paul Laciga|Brazil: Rogério Ferreira / Guilherme Marques
+2001|Austria|Argentina: Mariano Baracetti / Martín Conde|2–1|Brazil: José Loiola / Ricardo Santos|Norway: Vegard Høidalen / Jørre Kjemperud
+2003|Rio de Janeiro|Brazil: Emanuel Rego / Ricardo Santos|2–0|United States: Dax Holdren / Stein Metzger|Brazil: Márcio Araújo / Benjamin Insfran
+2005|Berlin|Brazil: Márcio Araújo / Fábio Luiz Magalhães|2–0|Switzerland: Sascha Heyer / Paul Laciga|Germany: Julius Brink / Kjell Schneider
+2007|Gstaad|United States: Phil Dalhausser / Todd Rogers|2–0|Russia: Dmitri Barsuk / Igor Kolodinsky|Australia: Andrew Schacht / Joshua Slack
+2009|Stavanger|Germany: Julius Brink / Jonas Reckermann|2–0|Brazil: Alison Cerutti / Harley Marques Silva|United States: Phil Dalhausser / Todd Rogers
+2011|Rome|Brazil: Alison Cerutti / Emanuel Rego|2–0|Brazil: Márcio Araújo / Ricardo Santos|Germany: Julius Brink / Jonas Reckermann
+2013|Stare Jabłonki|Netherlands: Alexander Brouwer / Robert Meeuwsen|2–0|Brazil: Álvaro Morais Filho / Ricardo Santos|Germany: Jonathan Erdmann / Kay Matysik
+2015|Netherlands|Brazil: Alison Cerutti / Bruno Oscar Schmidt|2–1|Netherlands: Reinder Nummerdor / Christiaan Varenhorst|Brazil: Evandro Oliveira / Pedro Solberg
+2017|Vienna|Brazil: Evandro Oliveira / André Stein|2–0|Austria: Clemens Doppler / Alexander Horst|Russia: Viacheslav Krasilnikov / Nikita Liamin
+2019|Hamburg|Russia: Oleg Stoyanovskiy / Viacheslav Krasilnikov|2–1|Germany: Julius Thole / Clemens Wickler|Norway: Anders Mol / Christian Sørum
+2022|Rome|Norway: Anders Mol / Christian Sørum|2–0|Brazil: Renato Carvalho / Vitor Felipe|Brazil: André Stein / George Wanderley
+2023|Mexico|Czech Republic: Ondřej Perušič / David Schweiner|2–1|Sweden: David Åhman / Jonatan Hellvig|Poland: Bartosz Łosiak / Michał Bryl
+2025|Adelaide|Sweden: David Åhman / Jonatan Hellvig|2–0|Sweden: Jacob Nilsson / Elmer Andersson|France: Téo Rotar / Arnaud Gauthier-Rat
+## beach_mondiali_f
+1997|Los Angeles|Brazil: Sandra Pires / Jackie Silva|2–1|United States: Lisa Arce / Holly McPeak|Brazil: Shelda Bede / Adriana Behar ; United States: Karolyn Kirby / Nancy Reno
+1999|Marseille|Brazil: Shelda Bede / Adriana Behar|1–0|United States: Annett Davis / Jenny Johnson Jordan|United States: Liz Masakayan / Elaine Youngs
+2001|Austria|Brazil: Shelda Bede / Adriana Behar|2–0|Brazil: Tatiana Minello / Sandra Pires|Czech Republic: Eva Celbová / Soňa Nováková
+2003|Rio de Janeiro|United States: Misty May / Kerri Walsh|2–0|Brazil: Shelda Bede / Adriana Behar|Australia: Natalie Cook / Nicole Sanderson
+2005|Berlin|United States: Misty May-Treanor / Kerri Walsh|2–0|Brazil: Larissa França / Juliana Silva|China: Tian Jia / Wang Fei
+2007|Gstaad|United States: Misty May-Treanor / Kerri Walsh|2–0|China: Tian Jia / Wang Jie|Brazil: Larissa França / Juliana Silva
+2009|Stavanger|United States: Jennifer Kessy / April Ross|2–0|Brazil: Larissa França / Juliana Silva|Brazil: Maria Elisa Antonelli / Talita Antunes
+2011|Rome|Brazil: Larissa França / Juliana Silva|2–1|United States: Misty May-Treanor / Kerri Walsh|China: Xue Chen / Zhang Xi
+2013|Stare Jabłonki|China: Xue Chen / Zhang Xi|2–1|Germany: Karla Borger / Britta Büthe|Brazil: Liliane Maestrini / Bárbara Seixas
+2015|Netherlands|Brazil: Ágatha Bednarczuk / Bárbara Seixas|2–0|Brazil: Fernanda Alves / Taiana Lima|Brazil: Maria Elisa Antonelli / Juliana Silva
+2017|Vienna|Germany: Laura Ludwig / Kira Walkenhorst|2–1|United States: April Ross / Lauren Fendrick|Brazil: Larissa França / Talita Antunes
+2019|Hamburg|Canada: Sarah Pavan / Melissa Humana-Paredes|2–0|United States: Alix Klineman / April Ross|Australia: Taliqua Clancy / Mariafe Artacho del Solar
+2022|Rome|Brazil: Eduarda Santos Lisboa / Ana Patrícia Ramos|2–0|Canada: Sophie Bukovec / Brandie Wilkerson|Germany: Svenja Müller / Cinja Tillmann
+2023|Mexico|United States: Sara Hughes / Kelly Cheng|2–0|Brazil: Ana Patrícia Ramos / Eduarda Santos Lisboa|United States: Kristen Nuss / Taryn Kloth
+2025|Adelaide|Latvia: Tīna Graudiņa / Anastasija Samoilova|2–1|United States: Kristen Nuss / Taryn Brasher|Brazil: Carolina Solberg Salgado / Rebecca Cavalcante
+## calcio_seriea
+0|1898|Genoa (1)|Internazionale Torino
+0|1899|Genoa (2)|Internazionale Torino
+0|1900|Genoa (3)|Torinese
+0|1901|Milan (1)|Genoa
+0|1902|Genoa (4)|Milan
+0|1903|Genoa (5)|Juventus
+1|1904|Genoa (6)|Juventus
+1|1905|Juventus (1)|Genoa
+1|1906|Milan (2)|Juventus
+1|1907|Milan (3)|Torino
+1|1908|Pro Vercelli (1)|US Milanese
+1|1909|Pro Vercelli (2)|US Milanese
+1|1909–10|Internazionale (1)|Pro Vercelli
+1|Season|Winners|Veneto-Emilia champions
+1|1910–11|Pro Vercelli (3)|Vicenza
+1|1911–12|Pro Vercelli (4)|Venezia
+1|Season|Winners|Central-southern Italy champions
+1|1912–13|Pro Vercelli (5)|Lazio
+1|1913–14|Casale (1)|Lazio
+1|1914–15|Genoa (7)|-
+1|1915–19|Cancelled due to First World War|Cancelled due to First World War
+1|1919–20|Internazionale (2)|Livorno
+1|1920–21|Pro Vercelli (6)|Pisa
+1|Year|Winner|Second place
+1|1921–22(FIGC)|Novese (1)|Sampierdarenese
+2|1921–22(CCI)|Pro Vercelli (7)|Fortitudo Roma
+2|1922–23|Genoa (8)|Lazio
+2|1923–24|Genoa (9)|Savoia
+2|1924–25|Bologna (1)|Alba Trastevere
+2|1925–26|Juventus (2)|Alba Trastevere
+3|1926–27|Torino|Bologna
+3|1927–28|Torino (1)|Genoa
+3|Season|Winners|Second place
+3|1928–29|Bologna (2)|Torino
+5|1929–30|Ambrosiana-Inter (3)|Genoa
+5|1930–31|Juventus (3)|Roma
+5|1931–32|Juventus (4)|Bologna
+5|1932–33|Juventus (5)|Ambrosiana-Inter
+5|1933–34|Juventus (6)|Ambrosiana-Inter
+5|1934–35|Juventus (7)|Ambrosiana-Inter
+5|1935–36|Bologna (3)|Roma
+5|1936–37|Bologna (4)|Lazio
+5|1937–38|Ambrosiana-Inter (4)|Juventus
+5|1938–39|Bologna (5)|Torino
+5|1939–40|Ambrosiana-Inter (5)|Bologna
+5|1940–41|Bologna (6)|Ambrosiana-Inter
+5|1941–42|Roma (1)|Torino
+5|1942–43|Torino (2)|Livorno
+5|1944|Campionato Alta Italia Spezia Calcio (decoration)|Campionato Alta Italia Spezia Calcio (decoration)
+5|1945|Canceled due to Second World War|Canceled due to Second World War
+5|1945–46|Torino (3)|Juventus
+5|1946–47|Torino (4)|Juventus
+5|1947–48|Torino (5)|Milan/Juventus/Triestina
+5|1948–49|Torino (6)|Internazionale
+5|1949–50|Juventus (8)|Milan
+5|1950–51|Milan (4)|Internazionale
+5|1951–52|Juventus (9)|Milan
+5|1952–53|Internazionale (6)|Juventus
+5|1953–54|Internazionale (7)|Juventus
+5|1954–55|Milan (5)|Udinese
+5|1955–56|Fiorentina (1)|Milan
+5|1956–57|Milan (6)|Fiorentina
+5|1957–58|Juventus (10)|Fiorentina
+5|1958–59|Milan (7)|Fiorentina
+5|1959–60|Juventus (11)|Fiorentina
+5|1960–61|Juventus (12)|Milan
+5|1961–62|Milan (8)|Internazionale
+5|1962–63|Internazionale (8)|Juventus
+5|1963–64|Bologna (7)|Internazionale
+5|1964–65|Internazionale (9)|Milan
+5|1965–66|Internazionale (10)|Bologna
+5|1966–67|Juventus (13)|Internazionale
+5|1967–68|Milan (9)|Napoli
+5|1968–69|Fiorentina (2)|Cagliari
+5|1969–70|Cagliari (1)|Internazionale
+5|1970–71|Internazionale (11)|Milan
+5|1971–72|Juventus (14)|Milan/Torino
+5|1972–73|Juventus (15)|Milan
+5|1973–74|Lazio (1)|Juventus
+5|1974–75|Juventus (16)|Napoli
+5|1975–76|Torino (7)|Juventus
+5|1976–77|Juventus (17)|Torino
+5|1977–78|Juventus (18)|Vicenza/Torino
+5|1978–79|Milan (10)|Perugia
+5|1979–80|Internazionale (12)|Juventus
+5|1980–81|Juventus (19)|Roma
+5|1981–82|Juventus (20)|Fiorentina
+5|1982–83|Roma (2)|Juventus
+5|1983–84|Juventus (21)|Roma
+5|1984–85|Hellas Verona (1)|Torino
+5|1985–86|Juventus (22)|Roma
+5|1986–87|Napoli (1)|Juventus
+5|1987–88|Milan (11)|Napoli
+5|1988–89|Internazionale (13)|Napoli
+5|1989–90|Napoli (2)|Milan
+5|1990–91|Sampdoria (1)|Milan
+5|1991–92|Milan (12)|Juventus
+5|1992–93|Milan (13)|Internazionale
+5|1993–94|Milan (14)|Juventus
+5|1994–95|Juventus (23)|Parma
+5|1995–96|Milan (15)|Juventus
+5|1996–97|Juventus (24)|Parma
+5|1997–98|Juventus (25)|Internazionale
+5|1998–99|Milan (16)|Lazio
+5|1999–2000|Lazio (2)|Juventus
+5|2000–01|Roma (3)|Juventus
+5|2001–02|Juventus (26)|Roma
+5|2002–03|Juventus (27)|Internazionale
+5|2003–04|Milan (17)|Roma
+5|2004–05|Juventus|Milan
+5|2005–06|Internazionale (14)|Roma
+5|2006–07|Internazionale (15)|Roma
+5|2007–08|Internazionale (16)|Roma
+5|2008–09|Internazionale (17)|Juventus
+5|2009–10|Internazionale (18)|Roma
+5|2010–11|Milan (18)|Internazionale
+5|2011–12|Juventus (28)|Milan
+5|2012–13|Juventus (29)|Napoli
+5|2013–14|Juventus (30)|Roma
+5|2014–15|Juventus (31)|Roma
+5|2015–16|Juventus (32)|Napoli
+5|2016–17|Juventus (33)|Roma
+5|2017–18|Juventus (34)|Napoli
+5|2018–19|Juventus (35)|Napoli
+5|2019–20|Juventus (36)|Internazionale
+5|2020–21|Internazionale (19)|Milan
+5|2021–22|Milan (19)|Internazionale
+5|2022–23|Napoli (3)|Lazio
+5|2023–24|Internazionale (20)|Milan
+5|2024–25|Napoli (4)|Internazionale
+5|2025–26|Internazionale (21)|Napoli
+## basket_nba
+1947|Philadelphia Warriors|Chicago Stags|4–1|E
+1948|Baltimore Bullets|Philadelphia Warriors|4–2|O
+1949|Minneapolis Lakers|Washington Capitols|4–2|O
+1950|Minneapolis Lakers|Syracuse Nationals|4–2|O
+1951|Rochester Royals|New York Knicks|4–3|O
+1952|Minneapolis Lakers|New York Knicks|4–3|O
+1953|Minneapolis Lakers|New York Knicks|4–1|O
+1954|Minneapolis Lakers|Syracuse Nationals|4–3|O
+1955|Syracuse Nationals|Fort Wayne Pistons|4–3|E
+1956|Philadelphia Warriors|Fort Wayne Pistons|4–1|E
+1957|Boston Celtics|St. Louis Hawks|4–3|E
+1958|St. Louis Hawks|Boston Celtics|4–2|O
+1959|Boston Celtics|Minneapolis Lakers|4–0|E
+1960|Boston Celtics|St. Louis Hawks|4–3|E
+1961|Boston Celtics|St. Louis Hawks|4–1|E
+1962|Boston Celtics|Los Angeles Lakers|4–3|E
+1963|Boston Celtics|Los Angeles Lakers|4–2|E
+1964|Boston Celtics|San Francisco Warriors|4–1|E
+1965|Boston Celtics|Los Angeles Lakers|4–1|E
+1966|Boston Celtics|Los Angeles Lakers|4–3|E
+1967|Philadelphia 76ers|San Francisco Warriors|4–2|E
+1968|Boston Celtics|Los Angeles Lakers|4–2|E
+1969|Boston Celtics|Los Angeles Lakers|4–3|E
+1970|New York Knicks|Los Angeles Lakers|4–3|E
+1971|Milwaukee Bucks|Baltimore Bullets|4–0|O
+1972|Los Angeles Lakers|New York Knicks|4–1|O
+1973|New York Knicks|Los Angeles Lakers|4–1|E
+1974|Boston Celtics|Milwaukee Bucks|4–3|E
+1975|Golden State Warriors|Washington Bullets|4–0|O
+1976|Boston Celtics|Phoenix Suns|4–2|E
+1977|Portland Trail Blazers|Philadelphia 76ers|4–2|O
+1978|Washington Bullets|Seattle SuperSonics|4–3|E
+1979|Seattle SuperSonics|Washington Bullets|4–1|O
+1980|Los Angeles Lakers|Philadelphia 76ers|4–2|O
+1981|Boston Celtics|Houston Rockets|4–2|E
+1982|Los Angeles Lakers|Philadelphia 76ers|4–2|O
+1983|Philadelphia 76ers|Los Angeles Lakers|4–0|E
+1984|Boston Celtics|Los Angeles Lakers|4–3|E
+1985|Los Angeles Lakers|Boston Celtics|4–2|O
+1986|Boston Celtics|Houston Rockets|4–2|E
+1987|Los Angeles Lakers|Boston Celtics|4–2|O
+1988|Los Angeles Lakers|Detroit Pistons|4–3|O
+1989|Detroit Pistons|Los Angeles Lakers|4–0|E
+1990|Detroit Pistons|Portland Trail Blazers|4–1|E
+1991|Chicago Bulls|Los Angeles Lakers|4–1|E
+1992|Chicago Bulls|Portland Trail Blazers|4–2|E
+1993|Chicago Bulls|Phoenix Suns|4–2|E
+1994|Houston Rockets|New York Knicks|4–3|O
+1995|Houston Rockets|Orlando Magic|4–0|O
+1996|Chicago Bulls|Seattle SuperSonics|4–2|E
+1997|Chicago Bulls|Utah Jazz|4–2|E
+1998|Chicago Bulls|Utah Jazz|4–2|E
+1999|San Antonio Spurs|New York Knicks|4–1|O
+2000|Los Angeles Lakers|Indiana Pacers|4–2|O
+2001|Los Angeles Lakers|Philadelphia 76ers|4–1|O
+2002|Los Angeles Lakers|New Jersey Nets|4–0|O
+2003|San Antonio Spurs|New Jersey Nets|4–2|O
+2004|Detroit Pistons|Los Angeles Lakers|4–1|E
+2005|San Antonio Spurs|Detroit Pistons|4–3|O
+2006|Miami Heat|Dallas Mavericks|4–2|E
+2007|San Antonio Spurs|Cleveland Cavaliers|4–0|O
+2008|Boston Celtics|Los Angeles Lakers|4–2|E
+2009|Los Angeles Lakers|Orlando Magic|4–1|O
+2010|Los Angeles Lakers|Boston Celtics|4–3|O
+2011|Dallas Mavericks|Miami Heat|4–2|O
+2012|Miami Heat|Oklahoma City Thunder|4–1|E
+2013|Miami Heat|San Antonio Spurs|4–3|E
+2014|San Antonio Spurs|Miami Heat|4–1|O
+2015|Golden State Warriors|Cleveland Cavaliers|4–2|O
+2016|Cleveland Cavaliers|Golden State Warriors|4–3|E
+2017|Golden State Warriors|Cleveland Cavaliers|4–1|O
+2018|Golden State Warriors|Cleveland Cavaliers|4–0|O
+2019|Toronto Raptors|Golden State Warriors|4–2|E
+2020|Los Angeles Lakers|Miami Heat|4–2|O
+2021|Milwaukee Bucks|Phoenix Suns|4–2|E
+2022|Golden State Warriors|Boston Celtics|4–2|O
+2023|Denver Nuggets|Miami Heat|4–1|O
+2024|Boston Celtics|Dallas Mavericks|4–1|E
+2025|Oklahoma City Thunder|Indiana Pacers|4–3|O
+2026|New York Knicks|San Antonio Spurs|4–1|E
+## volley_ita_m
+1946|Robur Ravenna|Borsalino Alessandria
+1947|Robur Ravenna|Borsalino Alessandria
+1948|Robur Ravenna|Lega Navale Vercelli
+1949|Robur Ravenna|Ferrovieri Parma
+1950|Ferrovieri Parma|Robur Ravenna
+1951|Ferrovieri Parma|Robur Ravenna
+1952|Robur Ravenna|Multedo 1930 Genova
+1953|Minelli Modena|Multedo 1930 Genova
+1954|Minelli Modena|Avia Pervia Modena
+1955|Minelli Modena|Crocetta Modena
+1956|Crocetta Modena|Minelli Modena
+1957|Avia Pervia Modena|Sestese Sesto Fiorentino
+1958|Ciam Modena|Avia Pervia Modena
+1959|Avia Pervia Modena|Ciam Modena
+1960|Avia Pervia Modena|Ciam Modena
+1961|Ciam Modena|Avia Pervia Modena
+1962|Interauto Modena|Ciam Modena
+1962–63|Avia Pervia Modena|Ciam Modena
+1963–64|Ruini Firenze|Smalteria Ghirlandina Modena
+1964–65|Ruini Firenze|Parma
+1965–66|Virtus Bologna|Ruini Firenze
+1966–67|Virtus Bologna|Salvarani Parma
+1967–68|Ruini Firenze|Salvarani Parma
+1968–69|Parma|Minganti Bologna
+1969–70|Panini Modena|Ruini Firenze
+1970–71|Ruini Firenze|Panini Modena
+1971–72|Panini Modena|Ruini Firenze
+1972–73|Ruini Firenze|Lubiam Bologna
+1973–74|Panini Modena|Lubiam Bologna
+1974–75|Ariccia|Torino
+1975–76|Panini Modena|Klippan Torino
+1976–77|Federlazio Roma|Paoletti Catania
+1977–78|Paoletti Catania|Federlazio Roma
+1978–79|Klippan Torino|Panini Modena
+1979–80|Klippan Torino|Paoletti Catania
+1980–81|Robe di Kappa Torino|Panini Modena
+1981–82|Santal Parma|Robe di Kappa Torino
+1982–83|Santal Parma|Robe di Kappa Torino
+1983–84|Robe di Kappa Torino|Santal Parma
+1984–85|Mapier Bologna|Panini Modena
+1985–86|Panini Modena|Tartarini Bologna
+1986–87|Panini Modena|Santal Parma
+1987–88|Panini Modena|Maxicono Parma
+1988–89|Panini Modena|Maxicono Parma
+1989–90|Maxicono Parma|Philips Modena
+1990–91|il Messaggero Ravenna|Maxicono Parma
+1991–92|Maxicono Parma|il Messaggero Ravenna
+1992–93|Maxicono Parma|Misura Milano
+1993–94|Sisley Treviso|Mediolanum Milano
+1994–95|Daytona Las Modena|Sisley Treviso
+1995–96|Sisley Treviso|Alpitour Traco Cuneo
+1996–97|Las Daytona Modena|Sisley Treviso
+1997–98|Sisley Treviso|Alpitour Traco Cuneo
+1998–99|Sisley Treviso|Casa Modena Unibon
+1999–00|Piaggio Roma|Casa Modena Unibon
+2000–01|Sisley Treviso|Asystel Milano
+2001–02|Unibon Modena|Sisley Treviso
+2002–03|Sisley Treviso|Kerakoll Modena
+2003–04|Sisley Treviso|Copra Asystel Ventaglio Piacenza
+2004–05|Sisley Treviso|RPA LuigiBacchi.it Perugia
+2005–06|Lube Banca Marche Macerata|Sisley Treviso
+2006–07|Sisley Treviso|Copra Berni Piacenza
+2007–08|Itas Diatec Trentino|Copra Nordmeccanica Piacenza
+2008–09|Copra Nordmeccanica Piacenza|Itas Diatec Trentino
+2009–10|Bre Banca Lannutti Cuneo|Itas Diatec Trentino
+2010–11|Itas Diatec Trentino|Bre Banca Lannutti Cuneo
+2011–12|Lube Banca Marche Macerata|Itas Diatec Trentino
+2012–13|Itas Diatec Trentino|Copra Elior Piacenza
+2013–14|Lube Banca Marche Macerata|Sir Safety Perugia
+2014–15|Itas Diatec Trentino|Parmareggio Modena
+2015–16|DHL Modena|Sir Safety Perugia
+2016–17|Cucine Lube Civitanova|Diatec Trentino
+2017–18|Sir Safety Perugia|Cucine Lube Civitanova
+2018–19|Cucine Lube Civitanova|Sir Safety Perugia
+2019–20|Cancelled due to COVID-19 pandemic|Cancelled due to COVID-19 pandemic
+2020–21|Cucine Lube Civitanova|Sir Safety Perugia
+2021–22|Cucine Lube Civitanova|Sir Safety Perugia
+2022–23|Itas Trentino|Cucine Lube Civitanova
+2023–24|Sir Safety Perugia|Vero Volley Monza
+2024–25|Itas Diatec Trentino|Cucine Lube Civitanova
+2025–26|Sir Safety Perugia|Cucine Lube Civitanova
+## volley_ita_f
+1946|Amatori Bergamo|
+1947|Amatori Bergamo|
+1948|Invicta Trieste|
+1949|Invicta Trieste|Fari Bergamo
+1950|Lega Nazionale Trieste|Fari Bergamo
+1951|Fari Brescia|Invicta Trieste
+1952|Fari Brescia|Invicta Trieste
+1953|Audax Modena|Fari Brescia
+1954|Minelli Modena|Audax Modena
+1955|Minelli Modena|Audax Modena
+1956|Avis Audax Modena|Minelli Modena
+1957|Audax Modena|Minelli Modena
+1958|Audax Modena|Rizzoli Milano
+1959|Audax Modena|Spes Trieste
+1960|Casa Lampada Trieste|Saves Alessandria
+1961|Casa Lampada Trieste|Saves Alessandria
+1962|Casa Lampada Trieste|Muratori Vignola
+1962–63|Muratori Vignola|Minelli Modena
+1963–64|UISP Sesto Fiorentino|Muratori Vignola
+1964–65|Max Mara Reggio Emilia|Cabassi Modena
+1965–66|Max Mara Reggio Emilia|Minelli Modena
+1966–67|Max Mara Reggio Emilia|Minelli Modena
+1967–68|Max Mara Reggio Emilia|Fini Modena
+1968–69|Fini Modena|Max Mara Reggio Emilia
+1969–70|Fini Modena|CUS Parma
+1970–71|CUS Parma|Fini Modena
+1971–72|Fini Modena|Bartoli Reggio Emilia
+1972–73|Fini Modena|Bartoli Reggio Emilia
+1973–74|Valdagna Scandicci|Orlandini Reggio Emilia
+1974–75|Valdagna Scandicci|Coma Modena
+1975–76|Valdagna Scandicci|Burro Giglio Reggio Emilia
+1976–77|Alzano Bergamo|Metauro Fano
+1977–78|Burro Giglio Reggio Emilia|Pallavolo Cecina
+1978–79|2000 Uno Bari|Nelsen Reggio Emilia
+1979–80|Alidea Catania|Nelsen Reggio Emilia
+1980–81|Diana Docks Ravenna|Nelsen Reggio Emilia
+1981–82|Diana Docks Ravenna|Nelsen Reggio Emilia
+1982–83|Teodora Ravenna|Nelsen Reggio Emilia
+1983–84|Teodora Ravenna|Victor Village Bari
+1984–85|Teodora Ravenna|Nelsen Reggio Emilia
+1985–86|Teodora Ravenna|Civ&Civ Modena
+1986–87|Teodora Ravenna|Civ&Civ Modena
+1987–88|Teodora Ravenna|Civ&Civ Modena
+1988–89|Teodora Ravenna|Crocodile San Lazzaro di Savena
+1989–90|Teodora Ravenna|Braglia Reggio Emilia
+1990–91|Il Messaggero Ravenna|Imet Perugia
+1991–92|Calia Salotti Matera|Rasimelli&Coletti Perugia
+1992–93|Latte Rugiada Matera|Il Messaggero Ravenna
+1993–94|Latte Rugiada Matera|Isola Verde Modena
+1994–95|Latte Rugiada Matera|Anthesis Modena
+1995–96|Foppapedretti Bergamo|Anthesis Modena
+1996–97|Foppapedretti Bergamo|Anthesis Modena
+1997–98|Foppapedretti Bergamo|CerMagica Reggio Emilia
+1998–99|Foppapedretti Bergamo|Medinex Reggio Calabria
+1999–00|Phone Limited Modena|Medinex Reggio Calabria
+2000–01|Not assigned|Radio 105 Foppapedretti Bergamo
+2001–02|Radio 105 Foppapedretti Bergamo|Asystel Novara
+2002–03|Despar Perugia|Asystel Novara
+2003–04|Radio 105 Foppapedretti Bergamo|Asystel Novara
+2004–05|Despar Perugia|Radio 105 Foppapedretti Bergamo
+2005–06|Radio 105 Foppapedretti Bergamo|Monte Schiavo Banca Marche Jesi
+2006–07|Despar Perugia|Monte Schiavo Banca Marche Jesi
+2007–08|Scavolini Pesaro|Despar Perugia
+2008–09|Scavolini Pesaro|Asystel Volley Novara
+2009–10|Scavolini Pesaro|MC Carnaghi Villa Cortese
+2010–11|Norda Foppapedretti Bergamo|MC Carnaghi Villa Cortese
+2011–12|Yamamay Busto Arsizio|MC Carnaghi Villa Cortese
+2012–13|Rebecchi Nordmeccanica Piacenza|Imoco Volley Conegliano
+2013–14|Rebecchi Nordmeccanica Piacenza|Unendo Yamamay Busto Arsizio
+2014–15|Pomì Casalmaggiore|Igor Gorgonzola Novara
+2015–16|Imoco Volley Conegliano|Nordmeccanica Piacenza
+2016–17|Igor Gorgonzola Novara|Liu Jo Nordmeccanica Modena
+2017–18|Imoco Volley Conegliano|Igor Gorgonzola Novara
+2018–19|Imoco Volley Conegliano|Igor Gorgonzola Novara
+2019–20|Cancelled due to COVID-19 pandemic|Cancelled due to COVID-19 pandemic
+2020–21|Imoco Volley Conegliano|Igor Gorgonzola Novara
+2021–22|Imoco Volley Conegliano|ProVictoria Monza
+2022–23|Imoco Volley Conegliano|Vero Volley Milano
+2023–24|Imoco Volley Conegliano|Savino Del Bene Scandicci
+2024–25|Imoco Volley Conegliano|Vero Volley Milano
+2025–26|Imoco Volley Conegliano|Vero Volley Milano

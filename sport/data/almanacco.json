@@ -1258,744 +1258,5867 @@
   }
  ],
  "albi": {
-  "basket": {
-   "titolo": "Albo d'oro olimpico del basket",
-   "tornei": [
+  "calcio": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
     {
-     "nome": "Uomini",
-     "righe": [
+     "id": "mondiali",
+     "nome": "Mondiali",
+     "tornei": [
       {
-       "anno": 1936,
-       "sede": "Berlino",
-       "oro": "Stati Uniti",
-       "ris": "19–8",
-       "argento": "Canada",
-       "bronzo": "Messico"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1930,
+         "sede": "Uruguay",
+         "oro": "Uruguay",
+         "ris": "4–2",
+         "argento": "Argentina",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1934,
+         "sede": "Italia",
+         "oro": "Italia",
+         "ris": "2–1 d.t.s.",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1938,
+         "sede": "Francia",
+         "oro": "Italia",
+         "ris": "4–2",
+         "argento": "Ungheria",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1950,
+         "sede": "Brasile",
+         "oro": "Uruguay",
+         "ris": "2–1",
+         "argento": "Brasile",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 1954,
+         "sede": "Svizzera",
+         "oro": "Germania Ovest",
+         "ris": "3–2",
+         "argento": "Ungheria",
+         "bronzo": "Austria"
+        },
+        {
+         "anno": 1958,
+         "sede": "Svezia",
+         "oro": "Brasile",
+         "ris": "5–2",
+         "argento": "Svezia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1962,
+         "sede": "Cile",
+         "oro": "Brasile",
+         "ris": "3–1",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Cile"
+        },
+        {
+         "anno": 1966,
+         "sede": "Inghilterra",
+         "oro": "Inghilterra",
+         "ris": "4–2 d.t.s.",
+         "argento": "Germania Ovest",
+         "bronzo": "Portogallo"
+        },
+        {
+         "anno": 1970,
+         "sede": "Messico",
+         "oro": "Brasile",
+         "ris": "4–1",
+         "argento": "Italia",
+         "bronzo": "Germania Ovest"
+        },
+        {
+         "anno": 1974,
+         "sede": "Germania Ovest",
+         "oro": "Germania Ovest",
+         "ris": "2–1",
+         "argento": "Paesi Bassi",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1978,
+         "sede": "Argentina",
+         "oro": "Argentina",
+         "ris": "3–1 d.t.s.",
+         "argento": "Paesi Bassi",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1982,
+         "sede": "Spagna",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Germania Ovest",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1986,
+         "sede": "Messico",
+         "oro": "Argentina",
+         "ris": "3–2",
+         "argento": "Germania Ovest",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1990,
+         "sede": "Italia",
+         "oro": "Germania Ovest",
+         "ris": "1–0",
+         "argento": "Argentina",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1994,
+         "sede": "Stati Uniti",
+         "oro": "Brasile",
+         "ris": "0–0 d.t.s. (3–2 rig.)",
+         "argento": "Italia",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 1998,
+         "sede": "Francia",
+         "oro": "Francia",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Croazia"
+        },
+        {
+         "anno": 2002,
+         "sede": "Corea del Sud, Giappone",
+         "oro": "Brasile",
+         "ris": "2–0",
+         "argento": "Germania",
+         "bronzo": "Turchia"
+        },
+        {
+         "anno": 2006,
+         "sede": "Germania",
+         "oro": "Italia",
+         "ris": "1–1 d.t.s. (5–3 rig.)",
+         "argento": "Francia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2010,
+         "sede": "Sudafrica",
+         "oro": "Spagna",
+         "ris": "1–0 d.t.s.",
+         "argento": "Paesi Bassi",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2014,
+         "sede": "Brasile",
+         "oro": "Germania",
+         "ris": "1–0 d.t.s.",
+         "argento": "Argentina",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 2018,
+         "sede": "Russia",
+         "oro": "Francia",
+         "ris": "4–2",
+         "argento": "Croazia",
+         "bronzo": "Belgio"
+        },
+        {
+         "anno": 2022,
+         "sede": "Qatar",
+         "oro": "Argentina",
+         "ris": "3–3 d.t.s. (4–2 rig.)",
+         "argento": "Francia",
+         "bronzo": "Croazia"
+        },
+        {
+         "anno": 2026,
+         "sede": "Canada, Messico, Stati Uniti",
+         "oro": "Spagna",
+         "ris": "1–0 d.t.s.",
+         "argento": "Argentina",
+         "bronzo": "Inghilterra"
+        }
+       ],
+       "nota": "1942 e 1946 non disputati per la Seconda guerra mondiale. Nel 1930 non si giocò la finale per il terzo posto.",
+       "tipo": "torneo"
       },
       {
-       "anno": 1948,
-       "sede": "Londra",
-       "oro": "Stati Uniti",
-       "ris": "65–21",
-       "argento": "Francia",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 1952,
-       "sede": "Helsinki",
-       "oro": "Stati Uniti",
-       "ris": "36–25",
-       "argento": "Unione Sovietica",
-       "bronzo": "Uruguay"
-      },
-      {
-       "anno": 1956,
-       "sede": "Melbourne",
-       "oro": "Stati Uniti",
-       "ris": "89–55",
-       "argento": "Unione Sovietica",
-       "bronzo": "Uruguay"
-      },
-      {
-       "anno": 1960,
-       "sede": "Roma",
-       "oro": "Stati Uniti",
-       "ris": "81–57",
-       "argento": "Unione Sovietica",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 1964,
-       "sede": "Tokyo",
-       "oro": "Stati Uniti",
-       "ris": "73–59",
-       "argento": "Unione Sovietica",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 1968,
-       "sede": "Città del Messico",
-       "oro": "Stati Uniti",
-       "ris": "65–50",
-       "argento": "Jugoslavia",
-       "bronzo": "Unione Sovietica"
-      },
-      {
-       "anno": 1972,
-       "sede": "Monaco di Baviera",
-       "oro": "Unione Sovietica",
-       "ris": "51–50",
-       "argento": "Stati Uniti",
-       "bronzo": "Cuba"
-      },
-      {
-       "anno": 1976,
-       "sede": "Montréal",
-       "oro": "Stati Uniti",
-       "ris": "95–74",
-       "argento": "Jugoslavia",
-       "bronzo": "Unione Sovietica"
-      },
-      {
-       "anno": 1980,
-       "sede": "Mosca",
-       "oro": "Jugoslavia",
-       "ris": "86–77",
-       "argento": "Italia",
-       "bronzo": "Unione Sovietica"
-      },
-      {
-       "anno": 1984,
-       "sede": "Los Angeles",
-       "oro": "Stati Uniti",
-       "ris": "96–65",
-       "argento": "Spagna",
-       "bronzo": "Jugoslavia"
-      },
-      {
-       "anno": 1988,
-       "sede": "Seul",
-       "oro": "Unione Sovietica",
-       "ris": "76–63",
-       "argento": "Jugoslavia",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 1992,
-       "sede": "Barcellona",
-       "oro": "Stati Uniti",
-       "ris": "117–85",
-       "argento": "Croazia",
-       "bronzo": "Lituania"
-      },
-      {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Stati Uniti",
-       "ris": "95–69",
-       "argento": "RF Jugoslavia",
-       "bronzo": "Lituania"
-      },
-      {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "Stati Uniti",
-       "ris": "85–75",
-       "argento": "Francia",
-       "bronzo": "Lituania"
-      },
-      {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "Argentina",
-       "ris": "84–69",
-       "argento": "Italia",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "Stati Uniti",
-       "ris": "118–107",
-       "argento": "Spagna",
-       "bronzo": "Argentina"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "Stati Uniti",
-       "ris": "107–100",
-       "argento": "Spagna",
-       "bronzo": "Russia"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Stati Uniti",
-       "ris": "96–66",
-       "argento": "Serbia",
-       "bronzo": "Spagna"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Stati Uniti",
-       "ris": "87–82",
-       "argento": "Francia",
-       "bronzo": "Australia"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Stati Uniti",
-       "ris": "98–87",
-       "argento": "Francia",
-       "bronzo": "Serbia"
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1991,
+         "sede": "Cina",
+         "oro": "Stati Uniti",
+         "ris": "2–1",
+         "argento": "Norvegia",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 1995,
+         "sede": "Svezia",
+         "oro": "Norvegia",
+         "ris": "2–0",
+         "argento": "Germania",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1999,
+         "sede": "Stati Uniti",
+         "oro": "Stati Uniti",
+         "ris": "0–0 d.t.s. (5–4 rig.)",
+         "argento": "Cina",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2003,
+         "sede": "Stati Uniti",
+         "oro": "Germania",
+         "ris": "2–1 d.t.s.",
+         "argento": "Svezia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2007,
+         "sede": "Cina",
+         "oro": "Germania",
+         "ris": "2–0",
+         "argento": "Brasile",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2011,
+         "sede": "Germania",
+         "oro": "Giappone",
+         "ris": "2–2 d.t.s. (3–1 rig.)",
+         "argento": "Stati Uniti",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 2015,
+         "sede": "Canada",
+         "oro": "Stati Uniti",
+         "ris": "5–2",
+         "argento": "Giappone",
+         "bronzo": "Inghilterra"
+        },
+        {
+         "anno": 2019,
+         "sede": "Francia",
+         "oro": "Stati Uniti",
+         "ris": "2–0",
+         "argento": "Paesi Bassi",
+         "bronzo": "Svezia"
+        },
+        {
+         "anno": 2023,
+         "sede": "Australia, Nuova Zelanda",
+         "oro": "Spagna",
+         "ris": "1–0",
+         "argento": "Inghilterra",
+         "bronzo": "Svezia"
+        }
+       ],
+       "tipo": "torneo"
       }
-     ]
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "FIFA World Cup (revisione 1386052828, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIFA_World_Cup&oldid=1386052828"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "FIFA Women's World Cup (revisione 1385546953, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIFA_Women's_World_Cup&oldid=1385546953"
+      },
+      {
+       "i": "FIFA",
+       "t": "Spain complete unprecedented global double (finale 2026)",
+       "u": "https://inside.fifa.com/organisation/media-releases/spain-unprecedented-global-double-new-milestones-historic-world-cup-2026"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     },
     {
-     "nome": "Donne",
-     "righe": [
+     "id": "europei",
+     "nome": "Europei",
+     "tornei": [
       {
-       "anno": 1976,
-       "sede": "Montréal",
-       "oro": "Unione Sovietica",
-       "ris": "112–77",
-       "argento": "Stati Uniti",
-       "bronzo": "Bulgaria"
-      },
-      {
-       "anno": 1980,
-       "sede": "Mosca",
-       "oro": "Unione Sovietica",
-       "ris": "104–73",
-       "argento": "Bulgaria",
-       "bronzo": "Jugoslavia"
-      },
-      {
-       "anno": 1984,
-       "sede": "Los Angeles",
-       "oro": "Stati Uniti",
-       "ris": "85–55",
-       "argento": "Corea del Sud",
-       "bronzo": "Cina"
-      },
-      {
-       "anno": 1988,
-       "sede": "Seul",
-       "oro": "Stati Uniti",
-       "ris": "77–70",
-       "argento": "Jugoslavia",
-       "bronzo": "Unione Sovietica"
-      },
-      {
-       "anno": 1992,
-       "sede": "Barcellona",
-       "oro": "Squadra Unificata",
-       "ris": "76–66",
-       "argento": "Cina",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Stati Uniti",
-       "ris": "111–87",
-       "argento": "Brasile",
-       "bronzo": "Australia"
-      },
-      {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "Stati Uniti",
-       "ris": "76–54",
-       "argento": "Australia",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "Stati Uniti",
-       "ris": "74–63",
-       "argento": "Australia",
-       "bronzo": "Russia"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "Stati Uniti",
-       "ris": "92–65",
-       "argento": "Australia",
-       "bronzo": "Russia"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "Stati Uniti",
-       "ris": "86–50",
-       "argento": "Francia",
-       "bronzo": "Australia"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Stati Uniti",
-       "ris": "101–72",
-       "argento": "Spagna",
-       "bronzo": "Serbia"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Stati Uniti",
-       "ris": "90–75",
-       "argento": "Giappone",
-       "bronzo": "Francia"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Stati Uniti",
-       "ris": "67–66",
-       "argento": "Francia",
-       "bronzo": "Australia"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1960,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "2–1 d.t.s.",
+         "argento": "Jugoslavia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1964,
+         "sede": "Spagna",
+         "oro": "Spagna",
+         "ris": "2–1",
+         "argento": "Unione Sovietica",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1968,
+         "sede": "Italia",
+         "oro": "Italia",
+         "ris": "1–1 d.t.s.; 2–0 ripetizione",
+         "argento": "Jugoslavia",
+         "bronzo": "Inghilterra"
+        },
+        {
+         "anno": 1972,
+         "sede": "Belgio",
+         "oro": "Germania Ovest",
+         "ris": "3–0",
+         "argento": "Unione Sovietica",
+         "bronzo": "Belgio"
+        },
+        {
+         "anno": 1976,
+         "sede": "Jugoslavia",
+         "oro": "Cecoslovacchia",
+         "ris": "2–2 d.t.s. (5–3 rig.)",
+         "argento": "Germania Ovest",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 1980,
+         "sede": "Italia",
+         "oro": "Germania Ovest",
+         "ris": "2–1",
+         "argento": "Belgio",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1984,
+         "sede": "Francia",
+         "oro": "Francia",
+         "ris": "2–0",
+         "argento": "Spagna",
+         "bronzo": "Danimarca, Portogallo"
+        },
+        {
+         "anno": 1988,
+         "sede": "Germania Ovest",
+         "oro": "Paesi Bassi",
+         "ris": "2–0",
+         "argento": "Unione Sovietica",
+         "bronzo": "Italia, Germania Ovest"
+        },
+        {
+         "anno": 1992,
+         "sede": "Svezia",
+         "oro": "Danimarca",
+         "ris": "2–0",
+         "argento": "Germania",
+         "bronzo": "Paesi Bassi, Svezia"
+        },
+        {
+         "anno": 1996,
+         "sede": "Inghilterra",
+         "oro": "Germania",
+         "ris": "2–1 golden gol",
+         "argento": "Repubblica Ceca",
+         "bronzo": "Inghilterra, Francia"
+        },
+        {
+         "anno": 2000,
+         "sede": "Belgio, Paesi Bassi",
+         "oro": "Francia",
+         "ris": "2–1 golden gol",
+         "argento": "Italia",
+         "bronzo": "Paesi Bassi, Portogallo"
+        },
+        {
+         "anno": 2004,
+         "sede": "Portogallo",
+         "oro": "Grecia",
+         "ris": "1–0",
+         "argento": "Portogallo",
+         "bronzo": "Repubblica Ceca, Paesi Bassi"
+        },
+        {
+         "anno": 2008,
+         "sede": "Austria, Svizzera",
+         "oro": "Spagna",
+         "ris": "1–0",
+         "argento": "Germania",
+         "bronzo": "Russia, Turchia"
+        },
+        {
+         "anno": 2012,
+         "sede": "Polonia, Ucraina",
+         "oro": "Spagna",
+         "ris": "4–0",
+         "argento": "Italia",
+         "bronzo": "Germania, Portogallo"
+        },
+        {
+         "anno": 2016,
+         "sede": "Francia",
+         "oro": "Portogallo",
+         "ris": "1–0 d.t.s.",
+         "argento": "Francia",
+         "bronzo": "Germania, Galles"
+        },
+        {
+         "anno": 2020,
+         "sede": "11 città europee",
+         "oro": "Italia",
+         "ris": "1–1 d.t.s. (3–2 rig.)",
+         "argento": "Inghilterra",
+         "bronzo": "Danimarca, Spagna"
+        },
+        {
+         "anno": 2024,
+         "sede": "Germania",
+         "oro": "Spagna",
+         "ris": "2–1",
+         "argento": "Inghilterra",
+         "bronzo": "Francia, Paesi Bassi"
+        }
+       ],
+       "nota": "Dal 1984 non si gioca la finale per il terzo posto: nella colonna bronzo ci sono le due semifinaliste sconfitte. L'edizione «2020» si giocò nel 2021 in 11 città europee.",
+       "tipo": "torneo"
       }
-     ]
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "UEFA European Championship (revisione 1384979470, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=UEFA_European_Championship&oldid=1384979470"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "scudetto",
+     "nome": "Scudetto",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "lega",
+       "righe": [
+        {
+         "anno": 1898,
+         "stag": "1898",
+         "oro": "Genoa",
+         "argento": "Internazionale Torino"
+        },
+        {
+         "anno": 1899,
+         "stag": "1899",
+         "oro": "Genoa",
+         "argento": "Internazionale Torino"
+        },
+        {
+         "anno": 1900,
+         "stag": "1900",
+         "oro": "Genoa",
+         "argento": "Torinese"
+        },
+        {
+         "anno": 1901,
+         "stag": "1901",
+         "oro": "Milan",
+         "argento": "Genoa"
+        },
+        {
+         "anno": 1902,
+         "stag": "1902",
+         "oro": "Genoa",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1903,
+         "stag": "1903",
+         "oro": "Genoa",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1904,
+         "stag": "1904",
+         "oro": "Genoa",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1905,
+         "stag": "1905",
+         "oro": "Juventus",
+         "argento": "Genoa"
+        },
+        {
+         "anno": 1906,
+         "stag": "1906",
+         "oro": "Milan",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1907,
+         "stag": "1907",
+         "oro": "Milan",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1908,
+         "stag": "1908",
+         "oro": "Pro Vercelli",
+         "argento": "US Milanese"
+        },
+        {
+         "anno": 1909,
+         "stag": "1909",
+         "oro": "Pro Vercelli",
+         "argento": "US Milanese"
+        },
+        {
+         "anno": 1910,
+         "stag": "1909–10",
+         "oro": "Inter",
+         "argento": "Pro Vercelli"
+        },
+        {
+         "anno": 1911,
+         "stag": "1910–11",
+         "oro": "Pro Vercelli",
+         "argento": "Vicenza"
+        },
+        {
+         "anno": 1912,
+         "stag": "1911–12",
+         "oro": "Pro Vercelli",
+         "argento": "Venezia"
+        },
+        {
+         "anno": 1913,
+         "stag": "1912–13",
+         "oro": "Pro Vercelli",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 1914,
+         "stag": "1913–14",
+         "oro": "Casale",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 1915,
+         "stag": "1914–15",
+         "oro": "Genoa",
+         "argento": "",
+         "nota": "torneo interrotto dalla guerra, titolo assegnato al Genoa a fine conflitto"
+        },
+        {
+         "anno": 1920,
+         "stag": "1919–20",
+         "oro": "Inter",
+         "argento": "Livorno"
+        },
+        {
+         "anno": 1921,
+         "stag": "1920–21",
+         "oro": "Pro Vercelli",
+         "argento": "Pisa"
+        },
+        {
+         "anno": 1922,
+         "stag": "1921–22 (FIGC)",
+         "oro": "Novese",
+         "argento": "Sampierdarenese"
+        },
+        {
+         "anno": 1922,
+         "stag": "1921–22 (CCI)",
+         "oro": "Pro Vercelli",
+         "argento": "Fortitudo Roma"
+        },
+        {
+         "anno": 1923,
+         "stag": "1922–23",
+         "oro": "Genoa",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 1924,
+         "stag": "1923–24",
+         "oro": "Genoa",
+         "argento": "Savoia"
+        },
+        {
+         "anno": 1925,
+         "stag": "1924–25",
+         "oro": "Bologna",
+         "argento": "Alba Trastevere"
+        },
+        {
+         "anno": 1926,
+         "stag": "1925–26",
+         "oro": "Juventus",
+         "argento": "Alba Trastevere"
+        },
+        {
+         "anno": 1927,
+         "stag": "1926–27",
+         "oro": "Revocato",
+         "argento": "Bologna",
+         "nota": "titolo vinto sul campo dal Torino e revocato dalla FIGC"
+        },
+        {
+         "anno": 1928,
+         "stag": "1927–28",
+         "oro": "Torino",
+         "argento": "Genoa"
+        },
+        {
+         "anno": 1929,
+         "stag": "1928–29",
+         "oro": "Bologna",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1930,
+         "stag": "1929–30",
+         "oro": "Ambrosiana-Inter",
+         "argento": "Genoa"
+        },
+        {
+         "anno": 1931,
+         "stag": "1930–31",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 1932,
+         "stag": "1931–32",
+         "oro": "Juventus",
+         "argento": "Bologna"
+        },
+        {
+         "anno": 1933,
+         "stag": "1932–33",
+         "oro": "Juventus",
+         "argento": "Ambrosiana-Inter"
+        },
+        {
+         "anno": 1934,
+         "stag": "1933–34",
+         "oro": "Juventus",
+         "argento": "Ambrosiana-Inter"
+        },
+        {
+         "anno": 1935,
+         "stag": "1934–35",
+         "oro": "Juventus",
+         "argento": "Ambrosiana-Inter"
+        },
+        {
+         "anno": 1936,
+         "stag": "1935–36",
+         "oro": "Bologna",
+         "argento": "Roma"
+        },
+        {
+         "anno": 1937,
+         "stag": "1936–37",
+         "oro": "Bologna",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 1938,
+         "stag": "1937–38",
+         "oro": "Ambrosiana-Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1939,
+         "stag": "1938–39",
+         "oro": "Bologna",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1940,
+         "stag": "1939–40",
+         "oro": "Ambrosiana-Inter",
+         "argento": "Bologna"
+        },
+        {
+         "anno": 1941,
+         "stag": "1940–41",
+         "oro": "Bologna",
+         "argento": "Ambrosiana-Inter"
+        },
+        {
+         "anno": 1942,
+         "stag": "1941–42",
+         "oro": "Roma",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1943,
+         "stag": "1942–43",
+         "oro": "Torino",
+         "argento": "Livorno"
+        },
+        {
+         "anno": 1944,
+         "stag": "1944",
+         "oro": "Non assegnato",
+         "argento": "",
+         "nota": "Campionato Alta Italia in tempo di guerra, vinto dallo Spezia: la FIGC gli riconosce un titolo onorifico, non conteggiato tra gli scudetti"
+        },
+        {
+         "anno": 1946,
+         "stag": "1945–46",
+         "oro": "Torino",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1947,
+         "stag": "1946–47",
+         "oro": "Torino",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1948,
+         "stag": "1947–48",
+         "oro": "Torino",
+         "argento": "Milan, Juventus, Triestina",
+         "nota": "secondo posto a pari merito"
+        },
+        {
+         "anno": 1949,
+         "stag": "1948–49",
+         "oro": "Torino",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1950,
+         "stag": "1949–50",
+         "oro": "Juventus",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1951,
+         "stag": "1950–51",
+         "oro": "Milan",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1952,
+         "stag": "1951–52",
+         "oro": "Juventus",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1953,
+         "stag": "1952–53",
+         "oro": "Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1954,
+         "stag": "1953–54",
+         "oro": "Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1955,
+         "stag": "1954–55",
+         "oro": "Milan",
+         "argento": "Udinese"
+        },
+        {
+         "anno": 1956,
+         "stag": "1955–56",
+         "oro": "Fiorentina",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1957,
+         "stag": "1956–57",
+         "oro": "Milan",
+         "argento": "Fiorentina"
+        },
+        {
+         "anno": 1958,
+         "stag": "1957–58",
+         "oro": "Juventus",
+         "argento": "Fiorentina"
+        },
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "oro": "Milan",
+         "argento": "Fiorentina"
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "Juventus",
+         "argento": "Fiorentina"
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Juventus",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Milan",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Bologna",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Inter",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Inter",
+         "argento": "Bologna"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Juventus",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Milan",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Fiorentina",
+         "argento": "Cagliari"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Cagliari",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Inter",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Juventus",
+         "argento": "Milan, Torino",
+         "nota": "secondo posto a pari merito"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Juventus",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Lazio",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Juventus",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Torino",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Juventus",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Juventus",
+         "argento": "Vicenza, Torino",
+         "nota": "secondo posto a pari merito"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Milan",
+         "argento": "Perugia"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Juventus",
+         "argento": "Fiorentina"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Roma",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Hellas Verona",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Napoli",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Milan",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Inter",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Napoli",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Sampdoria",
+         "argento": "Milan"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Milan",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Milan",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Milan",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Juventus",
+         "argento": "Parma"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Milan",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Juventus",
+         "argento": "Parma"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Juventus",
+         "argento": "Inter"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Milan",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–2000",
+         "oro": "Lazio",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Roma",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "Juventus",
+         "argento": "Inter"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Milan",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Non assegnato",
+         "argento": "Milan",
+         "nota": "titolo revocato alla Juventus dopo Calciopoli"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Inter",
+         "argento": "Roma",
+         "nota": "titolo assegnato all'Inter d'ufficio dopo Calciopoli"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Inter",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Inter",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Inter",
+         "argento": "Juventus"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Inter",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Milan",
+         "argento": "Inter"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Juventus",
+         "argento": "Milan"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Juventus",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Juventus",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Juventus",
+         "argento": "Roma"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Juventus",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Juventus",
+         "argento": "Napoli"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Juventus",
+         "argento": "Inter"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Inter",
+         "argento": "Milan"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Milan",
+         "argento": "Inter"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Napoli",
+         "argento": "Lazio"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Inter",
+         "argento": "Milan"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Napoli",
+         "argento": "Inter"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Inter",
+         "argento": "Napoli"
+        }
+       ],
+       "nota": "Girone unico (Serie A) dal 1929–30. Prima il titolo si decideva con gironi regionali e finali: nella colonna del secondo posto c'è la finalista sconfitta. Nel 1921–22 ci furono due campionati, FIGC e CCI, entrambi riconosciuti. 1915–19 e 1945 non disputati per la guerra."
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "List of Italian football champions (revisione 1371936691, tabella «Champions»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_Italian_football_champions&oldid=1371936691"
+      },
+      {
+       "i": "Inter",
+       "t": "L'Inter è Campione d'Italia! Parma battuto, è lo Scudetto numero 21 (2025–26)",
+       "u": "https://www.inter.it/it/notizie/inter-parma-serie-a-2025-2026"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
-   ],
-   "fonti": [
+   ]
+  },
+  "basket": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
     {
-     "i": "Wikipedia",
-     "t": "Basketball at the Summer Olympics (revisione 1383154364, tabelle «Results summary»)",
-     "u": "https://en.wikipedia.org/w/index.php?title=Basketball_at_the_Summer_Olympics&oldid=1383154364"
+     "id": "olimpiadi",
+     "nome": "Olimpiadi",
+     "nota": "Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1936,
+         "sede": "Berlino",
+         "oro": "Stati Uniti",
+         "ris": "19–8",
+         "argento": "Canada",
+         "bronzo": "Messico"
+        },
+        {
+         "anno": 1948,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "65–21",
+         "argento": "Francia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1952,
+         "sede": "Helsinki",
+         "oro": "Stati Uniti",
+         "ris": "36–25",
+         "argento": "Unione Sovietica",
+         "bronzo": "Uruguay"
+        },
+        {
+         "anno": 1956,
+         "sede": "Melbourne",
+         "oro": "Stati Uniti",
+         "ris": "89–55",
+         "argento": "Unione Sovietica",
+         "bronzo": "Uruguay"
+        },
+        {
+         "anno": 1960,
+         "sede": "Roma",
+         "oro": "Stati Uniti",
+         "ris": "81–57",
+         "argento": "Unione Sovietica",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "73–59",
+         "argento": "Unione Sovietica",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Stati Uniti",
+         "ris": "65–50",
+         "argento": "Jugoslavia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Unione Sovietica",
+         "ris": "51–50",
+         "argento": "Stati Uniti",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Stati Uniti",
+         "ris": "95–74",
+         "argento": "Jugoslavia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Jugoslavia",
+         "ris": "86–77",
+         "argento": "Italia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "96–65",
+         "argento": "Spagna",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Unione Sovietica",
+         "ris": "76–63",
+         "argento": "Jugoslavia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Stati Uniti",
+         "ris": "117–85",
+         "argento": "Croazia",
+         "bronzo": "Lituania"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stati Uniti",
+         "ris": "95–69",
+         "argento": "RF Jugoslavia",
+         "bronzo": "Lituania"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Stati Uniti",
+         "ris": "85–75",
+         "argento": "Francia",
+         "bronzo": "Lituania"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Argentina",
+         "ris": "84–69",
+         "argento": "Italia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Stati Uniti",
+         "ris": "118–107",
+         "argento": "Spagna",
+         "bronzo": "Argentina"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "107–100",
+         "argento": "Spagna",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Stati Uniti",
+         "ris": "96–66",
+         "argento": "Serbia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "87–82",
+         "argento": "Francia",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "98–87",
+         "argento": "Francia",
+         "bronzo": "Serbia"
+        }
+       ],
+       "tipo": "torneo"
+      },
+      {
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Unione Sovietica",
+         "ris": "112–77",
+         "argento": "Stati Uniti",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "104–73",
+         "argento": "Bulgaria",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "85–55",
+         "argento": "Corea del Sud",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Stati Uniti",
+         "ris": "77–70",
+         "argento": "Jugoslavia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Squadra Unificata",
+         "ris": "76–66",
+         "argento": "Cina",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Stati Uniti",
+         "ris": "111–87",
+         "argento": "Brasile",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Stati Uniti",
+         "ris": "76–54",
+         "argento": "Australia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Stati Uniti",
+         "ris": "74–63",
+         "argento": "Australia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Stati Uniti",
+         "ris": "92–65",
+         "argento": "Australia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Stati Uniti",
+         "ris": "86–50",
+         "argento": "Francia",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Stati Uniti",
+         "ris": "101–72",
+         "argento": "Spagna",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "90–75",
+         "argento": "Giappone",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Stati Uniti",
+         "ris": "67–66",
+         "argento": "Francia",
+         "bronzo": "Australia"
+        }
+       ],
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Basketball at the Summer Olympics (revisione 1383154364, tabelle «Results summary»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Basketball_at_the_Summer_Olympics&oldid=1383154364"
+      },
+      {
+       "i": "olympics.com",
+       "t": "Athens 2004 Basketball Results",
+       "u": "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball"
+      }
+     ]
     },
     {
-     "i": "olympics.com",
-     "t": "Athens 2004 Basketball Results",
-     "u": "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball"
+     "id": "mondiali",
+     "nome": "Mondiali",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1950,
+         "sede": "Argentina",
+         "oro": "Argentina",
+         "ris": "girone",
+         "argento": "Stati Uniti",
+         "bronzo": "Cile"
+        },
+        {
+         "anno": 1954,
+         "sede": "Brasile",
+         "oro": "Stati Uniti",
+         "ris": "girone",
+         "argento": "Brasile",
+         "bronzo": "Filippine"
+        },
+        {
+         "anno": 1959,
+         "sede": "Cile",
+         "oro": "Brasile",
+         "ris": "girone",
+         "argento": "Stati Uniti",
+         "bronzo": "Cile"
+        },
+        {
+         "anno": 1963,
+         "sede": "Brasile",
+         "oro": "Brasile",
+         "ris": "girone",
+         "argento": "Jugoslavia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1967,
+         "sede": "Uruguay",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Jugoslavia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1970,
+         "sede": "Jugoslavia",
+         "oro": "Jugoslavia",
+         "ris": "girone",
+         "argento": "Brasile",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1974,
+         "sede": "Porto Rico",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Jugoslavia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1978,
+         "sede": "Filippine",
+         "oro": "Jugoslavia",
+         "ris": "82–81 d.t.s.",
+         "argento": "Unione Sovietica",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1982,
+         "sede": "Colombia",
+         "oro": "Unione Sovietica",
+         "ris": "95–94",
+         "argento": "Stati Uniti",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1986,
+         "sede": "Spagna",
+         "oro": "Stati Uniti",
+         "ris": "87–85",
+         "argento": "Unione Sovietica",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1990,
+         "sede": "Argentina",
+         "oro": "Jugoslavia",
+         "ris": "92–75",
+         "argento": "Unione Sovietica",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1994,
+         "sede": "Canada",
+         "oro": "Stati Uniti",
+         "ris": "137–91",
+         "argento": "Russia",
+         "bronzo": "Croazia"
+        },
+        {
+         "anno": 1998,
+         "sede": "Grecia",
+         "oro": "RF Jugoslavia",
+         "ris": "64–62",
+         "argento": "Russia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2002,
+         "sede": "Stati Uniti",
+         "oro": "RF Jugoslavia",
+         "ris": "84–77 d.t.s.",
+         "argento": "Argentina",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2006,
+         "sede": "Giappone",
+         "oro": "Spagna",
+         "ris": "70–47",
+         "argento": "Grecia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2010,
+         "sede": "Turchia",
+         "oro": "Stati Uniti",
+         "ris": "81–64",
+         "argento": "Turchia",
+         "bronzo": "Lituania"
+        },
+        {
+         "anno": 2014,
+         "sede": "Spagna",
+         "oro": "Stati Uniti",
+         "ris": "129–92",
+         "argento": "Serbia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2019,
+         "sede": "Cina",
+         "oro": "Spagna",
+         "ris": "95–75",
+         "argento": "Argentina",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2023,
+         "sede": "Filippine, Giappone, Indonesia",
+         "oro": "Germania",
+         "ris": "83–77",
+         "argento": "Serbia",
+         "bronzo": "Canada"
+        }
+       ],
+       "nota": "Fino al 1974 il titolo si assegnava con un girone finale («girone»), senza finale secca.",
+       "tipo": "torneo"
+      },
+      {
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1953,
+         "sede": "Cile",
+         "oro": "Stati Uniti",
+         "ris": "49–36",
+         "argento": "Cile",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1957,
+         "sede": "Brasile",
+         "oro": "Stati Uniti",
+         "ris": "51–48",
+         "argento": "Unione Sovietica",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1959,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "51–38",
+         "argento": "Bulgaria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1964,
+         "sede": "Perù",
+         "oro": "Unione Sovietica",
+         "ris": "70–35",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1967,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "83–50",
+         "argento": "Corea del Sud",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1971,
+         "sede": "Brasile",
+         "oro": "Unione Sovietica",
+         "ris": "88–69",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 1975,
+         "sede": "Colombia",
+         "oro": "Unione Sovietica",
+         "ris": "106–75",
+         "argento": "Giappone",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1979,
+         "sede": "Corea del Sud",
+         "oro": "Stati Uniti",
+         "ris": "94–82",
+         "argento": "Corea del Sud",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1983,
+         "sede": "Brasile",
+         "oro": "Unione Sovietica",
+         "ris": "84–82",
+         "argento": "Stati Uniti",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 1986,
+         "sede": "Unione Sovietica",
+         "oro": "Stati Uniti",
+         "ris": "108–88",
+         "argento": "Unione Sovietica",
+         "bronzo": "Canada"
+        },
+        {
+         "anno": 1990,
+         "sede": "Malesia",
+         "oro": "Stati Uniti",
+         "ris": "88–78",
+         "argento": "Jugoslavia",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1994,
+         "sede": "Australia",
+         "oro": "Brasile",
+         "ris": "96–87",
+         "argento": "Cina",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1998,
+         "sede": "Germania",
+         "oro": "Stati Uniti",
+         "ris": "71–65",
+         "argento": "Russia",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2002,
+         "sede": "Cina",
+         "oro": "Stati Uniti",
+         "ris": "79–74",
+         "argento": "Russia",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2006,
+         "sede": "Brasile",
+         "oro": "Australia",
+         "ris": "91–74",
+         "argento": "Russia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2010,
+         "sede": "Repubblica Ceca",
+         "oro": "Stati Uniti",
+         "ris": "89–69",
+         "argento": "Repubblica Ceca",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2014,
+         "sede": "Turchia",
+         "oro": "Stati Uniti",
+         "ris": "77–64",
+         "argento": "Spagna",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2018,
+         "sede": "Spagna",
+         "oro": "Stati Uniti",
+         "ris": "73–56",
+         "argento": "Australia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2022,
+         "sede": "Australia",
+         "oro": "Stati Uniti",
+         "ris": "83–61",
+         "argento": "Cina",
+         "bronzo": "Australia"
+        },
+        {
+         "anno": 2026,
+         "sede": "Germania",
+         "oro": "Stati Uniti",
+         "ris": "97–79",
+         "argento": "Francia",
+         "bronzo": "Spagna"
+        }
+       ],
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "FIBA Basketball World Cup (revisione 1383881599, tabella «Summaries»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIBA_Basketball_World_Cup&oldid=1383881599"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "FIBA Women's Basketball World Cup (revisione 1378996075, tabella «Summaries»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIBA_Women's_Basketball_World_Cup&oldid=1378996075"
+      },
+      {
+       "i": "Al Jazeera",
+       "t": "USA defeat France to win 12th FIBA Women's Basketball World Cup (2026)",
+       "u": "https://www.aljazeera.com/sports/2026/9/13/usa-defeat-france-to-win-12th-fiba-womens-basketball-world-cup"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "europei",
+     "nome": "Europei",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1935,
+         "sede": "Svizzera",
+         "oro": "Lettonia",
+         "ris": "24–18",
+         "argento": "Spagna",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1937,
+         "sede": "Lettonia",
+         "oro": "Lituania",
+         "ris": "24–23",
+         "argento": "Italia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1939,
+         "sede": "Lituania",
+         "oro": "Lituania",
+         "ris": "girone",
+         "argento": "Lettonia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1946,
+         "sede": "Svizzera",
+         "oro": "Cecoslovacchia",
+         "ris": "34–32",
+         "argento": "Italia",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1947,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "56–37",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Egitto"
+        },
+        {
+         "anno": 1949,
+         "sede": "Egitto",
+         "oro": "Egitto",
+         "ris": "girone",
+         "argento": "Francia",
+         "bronzo": "Grecia"
+        },
+        {
+         "anno": 1951,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "45–44",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1953,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Ungheria",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1955,
+         "sede": "Ungheria",
+         "oro": "Ungheria",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1957,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Bulgaria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1959,
+         "sede": "Turchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1961,
+         "sede": "Jugoslavia",
+         "oro": "Unione Sovietica",
+         "ris": "60–53",
+         "argento": "Jugoslavia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1963,
+         "sede": "Polonia",
+         "oro": "Unione Sovietica",
+         "ris": "61–45",
+         "argento": "Polonia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1965,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "58–49",
+         "argento": "Jugoslavia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1967,
+         "sede": "Finlandia",
+         "oro": "Unione Sovietica",
+         "ris": "89–77",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1969,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "81–72",
+         "argento": "Jugoslavia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1971,
+         "sede": "Germania Ovest",
+         "oro": "Unione Sovietica",
+         "ris": "69–64",
+         "argento": "Jugoslavia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1973,
+         "sede": "Spagna",
+         "oro": "Jugoslavia",
+         "ris": "78–67",
+         "argento": "Spagna",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1975,
+         "sede": "Jugoslavia",
+         "oro": "Jugoslavia",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1977,
+         "sede": "Belgio",
+         "oro": "Jugoslavia",
+         "ris": "74–61",
+         "argento": "Unione Sovietica",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1979,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "98–76",
+         "argento": "Israele",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1981,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "84–67",
+         "argento": "Jugoslavia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1983,
+         "sede": "Francia",
+         "oro": "Italia",
+         "ris": "105–96",
+         "argento": "Spagna",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1985,
+         "sede": "Germania Ovest",
+         "oro": "Unione Sovietica",
+         "ris": "120–89",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1987,
+         "sede": "Grecia",
+         "oro": "Grecia",
+         "ris": "103–101 d.t.s.",
+         "argento": "Unione Sovietica",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1989,
+         "sede": "Jugoslavia",
+         "oro": "Jugoslavia",
+         "ris": "98–77",
+         "argento": "Grecia",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1991,
+         "sede": "Italia",
+         "oro": "Jugoslavia",
+         "ris": "88–73",
+         "argento": "Italia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 1993,
+         "sede": "Germania",
+         "oro": "Germania",
+         "ris": "71–70",
+         "argento": "Russia",
+         "bronzo": "Croazia"
+        },
+        {
+         "anno": 1995,
+         "sede": "Grecia",
+         "oro": "RF Jugoslavia",
+         "ris": "96–90",
+         "argento": "Lituania",
+         "bronzo": "Croazia"
+        },
+        {
+         "anno": 1997,
+         "sede": "Spagna",
+         "oro": "RF Jugoslavia",
+         "ris": "61–49",
+         "argento": "Italia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 1999,
+         "sede": "Francia",
+         "oro": "Italia",
+         "ris": "64–56",
+         "argento": "Spagna",
+         "bronzo": "RF Jugoslavia"
+        },
+        {
+         "anno": 2001,
+         "sede": "Turchia",
+         "oro": "RF Jugoslavia",
+         "ris": "78–69",
+         "argento": "Turchia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2003,
+         "sede": "Svezia",
+         "oro": "Lituania",
+         "ris": "93–84",
+         "argento": "Spagna",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2005,
+         "sede": "Serbia e Montenegro",
+         "oro": "Grecia",
+         "ris": "78–62",
+         "argento": "Germania",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2007,
+         "sede": "Spagna",
+         "oro": "Russia",
+         "ris": "60–59",
+         "argento": "Spagna",
+         "bronzo": "Lituania"
+        },
+        {
+         "anno": 2009,
+         "sede": "Polonia",
+         "oro": "Spagna",
+         "ris": "85–63",
+         "argento": "Serbia",
+         "bronzo": "Grecia"
+        },
+        {
+         "anno": 2011,
+         "sede": "Lituania",
+         "oro": "Spagna",
+         "ris": "98–85",
+         "argento": "Francia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2013,
+         "sede": "Slovenia",
+         "oro": "Francia",
+         "ris": "80–66",
+         "argento": "Lituania",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2015,
+         "sede": "Francia, Croazia, Germania, Lettonia",
+         "oro": "Spagna",
+         "ris": "80–63",
+         "argento": "Lituania",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2017,
+         "sede": "Finlandia, Israele, Romania, Turchia",
+         "oro": "Slovenia",
+         "ris": "93–85",
+         "argento": "Serbia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2022,
+         "sede": "Repubblica Ceca, Georgia, Italia, Germania",
+         "oro": "Spagna",
+         "ris": "88–76",
+         "argento": "Francia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2025,
+         "sede": "Cipro, Finlandia, Polonia, Lettonia",
+         "oro": "Germania",
+         "ris": "88–83",
+         "argento": "Turchia",
+         "bronzo": "Grecia"
+        }
+       ],
+       "nota": "EuroBasket. 1941 annullato per la guerra.",
+       "tipo": "torneo"
+      },
+      {
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1938,
+         "sede": "Italia",
+         "oro": "Italia",
+         "ris": "girone",
+         "argento": "Lituania",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1950,
+         "sede": "Ungheria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Ungheria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1952,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1954,
+         "sede": "Jugoslavia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1956,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "49–41",
+         "argento": "Ungheria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1958,
+         "sede": "Polonia",
+         "oro": "Bulgaria",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1960,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Bulgaria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1962,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "63–46",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1964,
+         "sede": "Ungheria",
+         "oro": "Unione Sovietica",
+         "ris": "55–53",
+         "argento": "Bulgaria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1966,
+         "sede": "Romania",
+         "oro": "Unione Sovietica",
+         "ris": "74–66",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Germania Est"
+        },
+        {
+         "anno": 1968,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Jugoslavia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1970,
+         "sede": "Paesi Bassi",
+         "oro": "Unione Sovietica",
+         "ris": "94–33",
+         "argento": "Francia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1972,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Bulgaria",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1974,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1976,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1978,
+         "sede": "Polonia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Jugoslavia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1980,
+         "sede": "Jugoslavia",
+         "oro": "Unione Sovietica",
+         "ris": "95–49",
+         "argento": "Polonia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1981,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "85–42",
+         "argento": "Polonia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1983,
+         "sede": "Ungheria",
+         "oro": "Unione Sovietica",
+         "ris": "91–70",
+         "argento": "Bulgaria",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1985,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "103–69",
+         "argento": "Bulgaria",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1987,
+         "sede": "Spagna",
+         "oro": "Unione Sovietica",
+         "ris": "83–73",
+         "argento": "Jugoslavia",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1989,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "64–61",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1991,
+         "sede": "Israele",
+         "oro": "Unione Sovietica",
+         "ris": "97–84",
+         "argento": "Jugoslavia",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1993,
+         "sede": "Italia",
+         "oro": "Spagna",
+         "ris": "63–53",
+         "argento": "Francia",
+         "bronzo": "Slovacchia"
+        },
+        {
+         "anno": 1995,
+         "sede": "Repubblica Ceca",
+         "oro": "Ucraina",
+         "ris": "77–66",
+         "argento": "Italia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 1997,
+         "sede": "Ungheria",
+         "oro": "Lituania",
+         "ris": "72–62",
+         "argento": "Slovacchia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1999,
+         "sede": "Polonia",
+         "oro": "Polonia",
+         "ris": "59–56",
+         "argento": "Francia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2001,
+         "sede": "Francia",
+         "oro": "Francia",
+         "ris": "73–68",
+         "argento": "Russia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2003,
+         "sede": "Grecia",
+         "oro": "Russia",
+         "ris": "59–56",
+         "argento": "Repubblica Ceca",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2005,
+         "sede": "Turchia",
+         "oro": "Repubblica Ceca",
+         "ris": "72–70",
+         "argento": "Russia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2007,
+         "sede": "Italia",
+         "oro": "Russia",
+         "ris": "74–68",
+         "argento": "Spagna",
+         "bronzo": "Bielorussia"
+        },
+        {
+         "anno": 2009,
+         "sede": "Lettonia",
+         "oro": "Francia",
+         "ris": "57–53",
+         "argento": "Russia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2011,
+         "sede": "Polonia",
+         "oro": "Russia",
+         "ris": "59–42",
+         "argento": "Turchia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2013,
+         "sede": "Francia",
+         "oro": "Spagna",
+         "ris": "70–69",
+         "argento": "Francia",
+         "bronzo": "Turchia"
+        },
+        {
+         "anno": 2015,
+         "sede": "Ungheria, Romania",
+         "oro": "Serbia",
+         "ris": "76–68",
+         "argento": "Francia",
+         "bronzo": "Spagna"
+        },
+        {
+         "anno": 2017,
+         "sede": "Repubblica Ceca",
+         "oro": "Spagna",
+         "ris": "71–55",
+         "argento": "Francia",
+         "bronzo": "Belgio"
+        },
+        {
+         "anno": 2019,
+         "sede": "Lettonia, Serbia",
+         "oro": "Spagna",
+         "ris": "86–66",
+         "argento": "Francia",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2021,
+         "sede": "Francia, Spagna",
+         "oro": "Serbia",
+         "ris": "63–54",
+         "argento": "Francia",
+         "bronzo": "Belgio"
+        },
+        {
+         "anno": 2023,
+         "sede": "Israele, Slovenia",
+         "oro": "Belgio",
+         "ris": "64–58",
+         "argento": "Spagna",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2025,
+         "sede": "Repubblica Ceca, Germania, Grecia, Italia",
+         "oro": "Belgio",
+         "ris": "67–65",
+         "argento": "Spagna",
+         "bronzo": "Italia"
+        }
+       ],
+       "nota": "EuroBasket Women. 1940 annullato per la guerra.",
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "EuroBasket (revisione 1375424928, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=EuroBasket&oldid=1375424928"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "EuroBasket Women (revisione 1383589252, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=EuroBasket_Women&oldid=1383589252"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "nba",
+     "nome": "NBA",
+     "tornei": [
+      {
+       "nome": "Finali",
+       "tipo": "lega",
+       "righe": [
+        {
+         "anno": 1947,
+         "stag": "1946–47",
+         "oro": "Philadelphia Warriors",
+         "ris": "4–1",
+         "argento": "Chicago Stags"
+        },
+        {
+         "anno": 1948,
+         "stag": "1947–48",
+         "oro": "Baltimore Bullets",
+         "ris": "4–2",
+         "argento": "Philadelphia Warriors"
+        },
+        {
+         "anno": 1949,
+         "stag": "1948–49",
+         "oro": "Minneapolis Lakers",
+         "ris": "4–2",
+         "argento": "Washington Capitols"
+        },
+        {
+         "anno": 1950,
+         "stag": "1949–50",
+         "oro": "Minneapolis Lakers",
+         "ris": "4–2",
+         "argento": "Syracuse Nationals"
+        },
+        {
+         "anno": 1951,
+         "stag": "1950–51",
+         "oro": "Rochester Royals",
+         "ris": "4–3",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 1952,
+         "stag": "1951–52",
+         "oro": "Minneapolis Lakers",
+         "ris": "4–3",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 1953,
+         "stag": "1952–53",
+         "oro": "Minneapolis Lakers",
+         "ris": "4–1",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 1954,
+         "stag": "1953–54",
+         "oro": "Minneapolis Lakers",
+         "ris": "4–3",
+         "argento": "Syracuse Nationals"
+        },
+        {
+         "anno": 1955,
+         "stag": "1954–55",
+         "oro": "Syracuse Nationals",
+         "ris": "4–3",
+         "argento": "Fort Wayne Pistons"
+        },
+        {
+         "anno": 1956,
+         "stag": "1955–56",
+         "oro": "Philadelphia Warriors",
+         "ris": "4–1",
+         "argento": "Fort Wayne Pistons"
+        },
+        {
+         "anno": 1957,
+         "stag": "1956–57",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "St. Louis Hawks"
+        },
+        {
+         "anno": 1958,
+         "stag": "1957–58",
+         "oro": "St. Louis Hawks",
+         "ris": "4–2",
+         "argento": "Boston Celtics"
+        },
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "oro": "Boston Celtics",
+         "ris": "4–0",
+         "argento": "Minneapolis Lakers"
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "St. Louis Hawks"
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Boston Celtics",
+         "ris": "4–1",
+         "argento": "St. Louis Hawks"
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Boston Celtics",
+         "ris": "4–1",
+         "argento": "San Francisco Warriors"
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Boston Celtics",
+         "ris": "4–1",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Philadelphia 76ers",
+         "ris": "4–2",
+         "argento": "San Francisco Warriors"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "New York Knicks",
+         "ris": "4–3",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Milwaukee Bucks",
+         "ris": "4–0",
+         "argento": "Baltimore Bullets"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–1",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "New York Knicks",
+         "ris": "4–1",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "Milwaukee Bucks"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Golden State Warriors",
+         "ris": "4–0",
+         "argento": "Washington Bullets"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Phoenix Suns"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Portland Trail Blazers",
+         "ris": "4–2",
+         "argento": "Philadelphia 76ers"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Washington Bullets",
+         "ris": "4–3",
+         "argento": "Seattle SuperSonics"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Seattle SuperSonics",
+         "ris": "4–1",
+         "argento": "Washington Bullets"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Philadelphia 76ers"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Houston Rockets"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Philadelphia 76ers"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Philadelphia 76ers",
+         "ris": "4–0",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Boston Celtics",
+         "ris": "4–3",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Boston Celtics"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Houston Rockets"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Boston Celtics"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–3",
+         "argento": "Detroit Pistons"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Detroit Pistons",
+         "ris": "4–0",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Detroit Pistons",
+         "ris": "4–1",
+         "argento": "Portland Trail Blazers"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Chicago Bulls",
+         "ris": "4–1",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Chicago Bulls",
+         "ris": "4–2",
+         "argento": "Portland Trail Blazers"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Chicago Bulls",
+         "ris": "4–2",
+         "argento": "Phoenix Suns"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Houston Rockets",
+         "ris": "4–3",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Houston Rockets",
+         "ris": "4–0",
+         "argento": "Orlando Magic"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Chicago Bulls",
+         "ris": "4–2",
+         "argento": "Seattle SuperSonics"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Chicago Bulls",
+         "ris": "4–2",
+         "argento": "Utah Jazz"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Chicago Bulls",
+         "ris": "4–2",
+         "argento": "Utah Jazz"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "San Antonio Spurs",
+         "ris": "4–1",
+         "argento": "New York Knicks"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Indiana Pacers"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–1",
+         "argento": "Philadelphia 76ers"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–0",
+         "argento": "New Jersey Nets"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "San Antonio Spurs",
+         "ris": "4–2",
+         "argento": "New Jersey Nets"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Detroit Pistons",
+         "ris": "4–1",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "San Antonio Spurs",
+         "ris": "4–3",
+         "argento": "Detroit Pistons"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Miami Heat",
+         "ris": "4–2",
+         "argento": "Dallas Mavericks"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "San Antonio Spurs",
+         "ris": "4–0",
+         "argento": "Cleveland Cavaliers"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Boston Celtics",
+         "ris": "4–2",
+         "argento": "Los Angeles Lakers"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–1",
+         "argento": "Orlando Magic"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–3",
+         "argento": "Boston Celtics"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Dallas Mavericks",
+         "ris": "4–2",
+         "argento": "Miami Heat"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Miami Heat",
+         "ris": "4–1",
+         "argento": "Oklahoma City Thunder"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Miami Heat",
+         "ris": "4–3",
+         "argento": "San Antonio Spurs"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "San Antonio Spurs",
+         "ris": "4–1",
+         "argento": "Miami Heat"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Golden State Warriors",
+         "ris": "4–2",
+         "argento": "Cleveland Cavaliers"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Cleveland Cavaliers",
+         "ris": "4–3",
+         "argento": "Golden State Warriors"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Golden State Warriors",
+         "ris": "4–1",
+         "argento": "Cleveland Cavaliers"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Golden State Warriors",
+         "ris": "4–0",
+         "argento": "Cleveland Cavaliers"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Toronto Raptors",
+         "ris": "4–2",
+         "argento": "Golden State Warriors"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Los Angeles Lakers",
+         "ris": "4–2",
+         "argento": "Miami Heat"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Milwaukee Bucks",
+         "ris": "4–2",
+         "argento": "Phoenix Suns"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Golden State Warriors",
+         "ris": "4–2",
+         "argento": "Boston Celtics"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Denver Nuggets",
+         "ris": "4–1",
+         "argento": "Miami Heat"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Boston Celtics",
+         "ris": "4–1",
+         "argento": "Dallas Mavericks"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Oklahoma City Thunder",
+         "ris": "4–3",
+         "argento": "Indiana Pacers"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "New York Knicks",
+         "ris": "4–1",
+         "argento": "San Antonio Spurs"
+        }
+       ],
+       "nota": "Le finali 1947–1949 sono della BAA, la lega che nel 1949 diventò NBA; la NBA le conta come proprie. Nella colonna «serie» le partite vinte dalle due finaliste."
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "List of NBA champions (revisione 1387614241, tabella «Champions»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_NBA_champions&oldid=1387614241"
+      },
+      {
+       "i": "NBA",
+       "t": "2026 NBA Finals schedule (Knicks 4-1)",
+       "u": "https://www.nba.com/news/2026-nba-finals-schedule"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   },
   "pallavolo": {
-   "titolo": "Albo d'oro olimpico della pallavolo",
-   "tornei": [
+   "titolo": "Albi d'oro",
+   "gruppi": [
     {
-     "nome": "Uomini",
-     "righe": [
+     "id": "olimpiadi",
+     "nome": "Olimpiadi",
+     "nota": "Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.",
+     "tornei": [
       {
-       "anno": 1964,
-       "sede": "Tokyo",
-       "oro": "Unione Sovietica",
-       "ris": "girone",
-       "argento": "Cecoslovacchia",
-       "bronzo": "Giappone"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Giappone",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Giappone",
+         "ris": "3–1",
+         "argento": "Germania Est",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Polonia",
+         "ris": "3–2",
+         "argento": "Unione Sovietica",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Bulgaria",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Stati Uniti",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Stati Uniti",
+         "ris": "3–1",
+         "argento": "Unione Sovietica",
+         "bronzo": "Argentina"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Brasile",
+         "ris": "3–0",
+         "argento": "Paesi Bassi",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Paesi Bassi",
+         "ris": "3–2",
+         "argento": "Italia",
+         "bronzo": "RF Jugoslavia"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "RF Jugoslavia",
+         "ris": "3–0",
+         "argento": "Russia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Brasile",
+         "ris": "3–1",
+         "argento": "Italia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Stati Uniti",
+         "ris": "3–1",
+         "argento": "Brasile",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Russia",
+         "ris": "3–2",
+         "argento": "Brasile",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Brasile",
+         "ris": "3–0",
+         "argento": "Italia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Francia",
+         "ris": "3–2",
+         "argento": "ROC (Russia)",
+         "bronzo": "Argentina"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Francia",
+         "ris": "3–0",
+         "argento": "Polonia",
+         "bronzo": "Stati Uniti"
+        }
+       ],
+       "tipo": "torneo"
       },
       {
-       "anno": 1968,
-       "sede": "Città del Messico",
-       "oro": "Unione Sovietica",
-       "ris": "girone",
-       "argento": "Giappone",
-       "bronzo": "Cecoslovacchia"
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1964,
+         "sede": "Tokyo",
+         "oro": "Giappone",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1968,
+         "sede": "Città del Messico",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Giappone",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1972,
+         "sede": "Monaco di Baviera",
+         "oro": "Unione Sovietica",
+         "ris": "3–2",
+         "argento": "Giappone",
+         "bronzo": "Corea del Nord"
+        },
+        {
+         "anno": 1976,
+         "sede": "Montréal",
+         "oro": "Giappone",
+         "ris": "3–0",
+         "argento": "Unione Sovietica",
+         "bronzo": "Corea del Sud"
+        },
+        {
+         "anno": 1980,
+         "sede": "Mosca",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Germania Est",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1984,
+         "sede": "Los Angeles",
+         "oro": "Cina",
+         "ris": "3–0",
+         "argento": "Stati Uniti",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 1988,
+         "sede": "Seul",
+         "oro": "Unione Sovietica",
+         "ris": "3–2",
+         "argento": "Perù",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 1992,
+         "sede": "Barcellona",
+         "oro": "Cuba",
+         "ris": "3–1",
+         "argento": "Squadra Unificata",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Cuba",
+         "ris": "3–1",
+         "argento": "Cina",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Cuba",
+         "ris": "3–2",
+         "argento": "Russia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Cina",
+         "ris": "3–2",
+         "argento": "Russia",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Brasile",
+         "ris": "3–1",
+         "argento": "Stati Uniti",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Brasile",
+         "ris": "3–1",
+         "argento": "Stati Uniti",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Cina",
+         "ris": "3–1",
+         "argento": "Serbia",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Stati Uniti",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Italia",
+         "ris": "3–0",
+         "argento": "Stati Uniti",
+         "bronzo": "Brasile"
+        }
+       ],
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Volleyball at the Summer Olympics (revisione 1381863204, tabelle «Results summary»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Volleyball_at_the_Summer_Olympics&oldid=1381863204"
       },
       {
-       "anno": 1972,
-       "sede": "Monaco di Baviera",
-       "oro": "Giappone",
-       "ris": "3–1",
-       "argento": "Germania Est",
-       "bronzo": "Unione Sovietica"
-      },
-      {
-       "anno": 1976,
-       "sede": "Montréal",
-       "oro": "Polonia",
-       "ris": "3–2",
-       "argento": "Unione Sovietica",
-       "bronzo": "Cuba"
-      },
-      {
-       "anno": 1980,
-       "sede": "Mosca",
-       "oro": "Unione Sovietica",
-       "ris": "3–1",
-       "argento": "Bulgaria",
-       "bronzo": "Romania"
-      },
-      {
-       "anno": 1984,
-       "sede": "Los Angeles",
-       "oro": "Stati Uniti",
-       "ris": "3–0",
-       "argento": "Brasile",
-       "bronzo": "Italia"
-      },
-      {
-       "anno": 1988,
-       "sede": "Seul",
-       "oro": "Stati Uniti",
-       "ris": "3–1",
-       "argento": "Unione Sovietica",
-       "bronzo": "Argentina"
-      },
-      {
-       "anno": 1992,
-       "sede": "Barcellona",
-       "oro": "Brasile",
-       "ris": "3–0",
-       "argento": "Paesi Bassi",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Paesi Bassi",
-       "ris": "3–2",
-       "argento": "Italia",
-       "bronzo": "RF Jugoslavia"
-      },
-      {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "RF Jugoslavia",
-       "ris": "3–0",
-       "argento": "Russia",
-       "bronzo": "Italia"
-      },
-      {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "Brasile",
-       "ris": "3–1",
-       "argento": "Italia",
-       "bronzo": "Russia"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "Stati Uniti",
-       "ris": "3–1",
-       "argento": "Brasile",
-       "bronzo": "Russia"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "Russia",
-       "ris": "3–2",
-       "argento": "Brasile",
-       "bronzo": "Italia"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Brasile",
-       "ris": "3–0",
-       "argento": "Italia",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Francia",
-       "ris": "3–2",
-       "argento": "ROC (Russia)",
-       "bronzo": "Argentina"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Francia",
-       "ris": "3–0",
-       "argento": "Polonia",
-       "bronzo": "Stati Uniti"
+       "i": "olympics.com",
+       "t": "Volleyball: a brief history",
+       "u": "https://www.olympics.com/en/news/volleyball-a-brief-history"
       }
      ]
     },
     {
-     "nome": "Donne",
-     "righe": [
+     "id": "mondiali",
+     "nome": "Mondiali",
+     "tornei": [
       {
-       "anno": 1964,
-       "sede": "Tokyo",
-       "oro": "Giappone",
-       "ris": "girone",
-       "argento": "Unione Sovietica",
-       "bronzo": "Polonia"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1949,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1952,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1956,
+         "sede": "Francia",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Romania",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1960,
+         "sede": "Brasile",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1962,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1966,
+         "sede": "Cecoslovacchia",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Romania",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1970,
+         "sede": "Bulgaria",
+         "oro": "Germania Est",
+         "ris": "girone",
+         "argento": "Bulgaria",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 1974,
+         "sede": "Messico",
+         "oro": "Polonia",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 1978,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "3–0",
+         "argento": "Italia",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 1982,
+         "sede": "Argentina",
+         "oro": "Unione Sovietica",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Argentina"
+        },
+        {
+         "anno": 1986,
+         "sede": "Francia",
+         "oro": "Stati Uniti",
+         "ris": "3–1",
+         "argento": "Unione Sovietica",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1990,
+         "sede": "Brasile",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Cuba",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1994,
+         "sede": "Grecia",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Paesi Bassi",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1998,
+         "sede": "Giappone",
+         "oro": "Italia",
+         "ris": "3–0",
+         "argento": "RF Jugoslavia",
+         "bronzo": "Cuba"
+        },
+        {
+         "anno": 2002,
+         "sede": "Argentina",
+         "oro": "Brasile",
+         "ris": "3–2",
+         "argento": "Russia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 2006,
+         "sede": "Giappone",
+         "oro": "Brasile",
+         "ris": "3–0",
+         "argento": "Polonia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 2010,
+         "sede": "Italia",
+         "oro": "Brasile",
+         "ris": "3–0",
+         "argento": "Cuba",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2014,
+         "sede": "Polonia",
+         "oro": "Polonia",
+         "ris": "3–1",
+         "argento": "Brasile",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2018,
+         "sede": "Italia, Bulgaria",
+         "oro": "Polonia",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 2022,
+         "sede": "Polonia, Slovenia",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Polonia",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2025,
+         "sede": "Filippine",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Bulgaria",
+         "bronzo": "Polonia"
+        }
+       ],
+       "tipo": "torneo"
       },
       {
-       "anno": 1968,
-       "sede": "Città del Messico",
-       "oro": "Unione Sovietica",
-       "ris": "girone",
-       "argento": "Giappone",
-       "bronzo": "Polonia"
-      },
-      {
-       "anno": 1972,
-       "sede": "Monaco di Baviera",
-       "oro": "Unione Sovietica",
-       "ris": "3–2",
-       "argento": "Giappone",
-       "bronzo": "Corea del Nord"
-      },
-      {
-       "anno": 1976,
-       "sede": "Montréal",
-       "oro": "Giappone",
-       "ris": "3–0",
-       "argento": "Unione Sovietica",
-       "bronzo": "Corea del Sud"
-      },
-      {
-       "anno": 1980,
-       "sede": "Mosca",
-       "oro": "Unione Sovietica",
-       "ris": "3–1",
-       "argento": "Germania Est",
-       "bronzo": "Bulgaria"
-      },
-      {
-       "anno": 1984,
-       "sede": "Los Angeles",
-       "oro": "Cina",
-       "ris": "3–0",
-       "argento": "Stati Uniti",
-       "bronzo": "Giappone"
-      },
-      {
-       "anno": 1988,
-       "sede": "Seul",
-       "oro": "Unione Sovietica",
-       "ris": "3–2",
-       "argento": "Perù",
-       "bronzo": "Cina"
-      },
-      {
-       "anno": 1992,
-       "sede": "Barcellona",
-       "oro": "Cuba",
-       "ris": "3–1",
-       "argento": "Squadra Unificata",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Cuba",
-       "ris": "3–1",
-       "argento": "Cina",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "Cuba",
-       "ris": "3–2",
-       "argento": "Russia",
-       "bronzo": "Brasile"
-      },
-      {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "Cina",
-       "ris": "3–2",
-       "argento": "Russia",
-       "bronzo": "Cuba"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "Brasile",
-       "ris": "3–1",
-       "argento": "Stati Uniti",
-       "bronzo": "Cina"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "Brasile",
-       "ris": "3–1",
-       "argento": "Stati Uniti",
-       "bronzo": "Giappone"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Cina",
-       "ris": "3–1",
-       "argento": "Serbia",
-       "bronzo": "Stati Uniti"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Stati Uniti",
-       "ris": "3–0",
-       "argento": "Brasile",
-       "bronzo": "Serbia"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Italia",
-       "ris": "3–0",
-       "argento": "Stati Uniti",
-       "bronzo": "Brasile"
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1952,
+         "sede": "Unione Sovietica",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1956,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Romania",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1960,
+         "sede": "Brasile",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Giappone",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1962,
+         "sede": "Unione Sovietica",
+         "oro": "Giappone",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1967,
+         "sede": "Giappone",
+         "oro": "Giappone",
+         "ris": "girone",
+         "argento": "Stati Uniti",
+         "bronzo": "Corea del Sud"
+        },
+        {
+         "anno": 1970,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Giappone",
+         "bronzo": "Corea del Nord"
+        },
+        {
+         "anno": 1974,
+         "sede": "Messico",
+         "oro": "Giappone",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Corea del Sud"
+        },
+        {
+         "anno": 1978,
+         "sede": "Unione Sovietica",
+         "oro": "Cuba",
+         "ris": "3–0",
+         "argento": "Giappone",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1982,
+         "sede": "Perù",
+         "oro": "Cina",
+         "ris": "3–0",
+         "argento": "Perù",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1986,
+         "sede": "Cecoslovacchia",
+         "oro": "Cina",
+         "ris": "3–1",
+         "argento": "Cuba",
+         "bronzo": "Perù"
+        },
+        {
+         "anno": 1990,
+         "sede": "Cina",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Cina",
+         "bronzo": "Stati Uniti"
+        },
+        {
+         "anno": 1994,
+         "sede": "Brasile",
+         "oro": "Cuba",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 1998,
+         "sede": "Giappone",
+         "oro": "Cuba",
+         "ris": "3–0",
+         "argento": "Cina",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2002,
+         "sede": "Germania",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Stati Uniti",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2006,
+         "sede": "Giappone",
+         "oro": "Russia",
+         "ris": "3–2",
+         "argento": "Brasile",
+         "bronzo": "Serbia e Montenegro"
+        },
+        {
+         "anno": 2010,
+         "sede": "Giappone",
+         "oro": "Russia",
+         "ris": "3–2",
+         "argento": "Brasile",
+         "bronzo": "Giappone"
+        },
+        {
+         "anno": 2014,
+         "sede": "Italia",
+         "oro": "Stati Uniti",
+         "ris": "3–1",
+         "argento": "Cina",
+         "bronzo": "Brasile"
+        },
+        {
+         "anno": 2018,
+         "sede": "Giappone",
+         "oro": "Serbia",
+         "ris": "3–2",
+         "argento": "Italia",
+         "bronzo": "Cina"
+        },
+        {
+         "anno": 2022,
+         "sede": "Paesi Bassi, Polonia",
+         "oro": "Serbia",
+         "ris": "3–0",
+         "argento": "Brasile",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2025,
+         "sede": "Thailandia",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Turchia",
+         "bronzo": "Brasile"
+        }
+       ],
+       "tipo": "torneo"
       }
-     ]
-    }
-   ],
-   "fonti": [
-    {
-     "i": "Wikipedia",
-     "t": "Volleyball at the Summer Olympics (revisione 1381863204, tabelle «Results summary»)",
-     "u": "https://en.wikipedia.org/w/index.php?title=Volleyball_at_the_Summer_Olympics&oldid=1381863204"
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "FIVB Men's Volleyball World Championship (revisione 1380470993, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIVB_Men's_Volleyball_World_Championship&oldid=1380470993"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "FIVB Women's Volleyball World Championship (revisione 1380862738, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIVB_Women's_Volleyball_World_Championship&oldid=1380862738"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     },
     {
-     "i": "olympics.com",
-     "t": "Volleyball: a brief history",
-     "u": "https://www.olympics.com/en/news/volleyball-a-brief-history"
+     "id": "europei",
+     "nome": "Europei",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1948,
+         "sede": "Italia",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Francia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1950,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1951,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Bulgaria",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1955,
+         "sede": "Romania",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Romania",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1958,
+         "sede": "Cecoslovacchia",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Romania",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1963,
+         "sede": "Romania",
+         "oro": "Romania",
+         "ris": "girone",
+         "argento": "Ungheria",
+         "bronzo": "Unione Sovietica"
+        },
+        {
+         "anno": 1967,
+         "sede": "Turchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1971,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1975,
+         "sede": "Jugoslavia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1977,
+         "sede": "Finlandia",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Polonia",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1979,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1981,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1983,
+         "sede": "Germania Est",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1985,
+         "sede": "Paesi Bassi",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Francia"
+        },
+        {
+         "anno": 1987,
+         "sede": "Belgio",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Francia",
+         "bronzo": "Grecia"
+        },
+        {
+         "anno": 1989,
+         "sede": "Svezia",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Svezia",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 1991,
+         "sede": "Germania",
+         "oro": "Unione Sovietica",
+         "ris": "3–0",
+         "argento": "Italia",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 1993,
+         "sede": "Finlandia",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Paesi Bassi",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 1995,
+         "sede": "Grecia",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Paesi Bassi",
+         "bronzo": "RF Jugoslavia"
+        },
+        {
+         "anno": 1997,
+         "sede": "Paesi Bassi",
+         "oro": "Paesi Bassi",
+         "ris": "3–1",
+         "argento": "RF Jugoslavia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1999,
+         "sede": "Austria",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Russia",
+         "bronzo": "RF Jugoslavia"
+        },
+        {
+         "anno": 2001,
+         "sede": "Repubblica Ceca",
+         "oro": "RF Jugoslavia",
+         "ris": "3–0",
+         "argento": "Italia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2003,
+         "sede": "Germania",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Francia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2005,
+         "sede": "Italia, Serbia e Montenegro",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Russia",
+         "bronzo": "Serbia e Montenegro"
+        },
+        {
+         "anno": 2007,
+         "sede": "Russia",
+         "oro": "Spagna",
+         "ris": "3–2",
+         "argento": "Russia",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2009,
+         "sede": "Turchia",
+         "oro": "Polonia",
+         "ris": "3–1",
+         "argento": "Francia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 2011,
+         "sede": "Austria, Repubblica Ceca",
+         "oro": "Serbia",
+         "ris": "3–1",
+         "argento": "Italia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 2013,
+         "sede": "Danimarca, Polonia",
+         "oro": "Russia",
+         "ris": "3–1",
+         "argento": "Italia",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2015,
+         "sede": "Bulgaria, Italia",
+         "oro": "Francia",
+         "ris": "3–0",
+         "argento": "Slovenia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2017,
+         "sede": "Polonia",
+         "oro": "Russia",
+         "ris": "3–2",
+         "argento": "Germania",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2019,
+         "sede": "Francia, Slovenia, Belgio, Paesi Bassi",
+         "oro": "Serbia",
+         "ris": "3–1",
+         "argento": "Slovenia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 2021,
+         "sede": "Polonia, Repubblica Ceca, Estonia, Finlandia",
+         "oro": "Italia",
+         "ris": "3–2",
+         "argento": "Slovenia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 2023,
+         "sede": "Italia, Bulgaria, Macedonia del Nord, Israele",
+         "oro": "Polonia",
+         "ris": "3–0",
+         "argento": "Italia",
+         "bronzo": "Slovenia"
+        },
+        {
+         "anno": 2026,
+         "sede": "Bulgaria, Finlandia, Italia, Romania",
+         "oro": "Polonia",
+         "ris": "3–1",
+         "argento": "Francia",
+         "bronzo": "Finlandia"
+        }
+       ],
+       "tipo": "torneo"
+      },
+      {
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1949,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1950,
+         "sede": "Bulgaria",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1951,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Jugoslavia"
+        },
+        {
+         "anno": 1955,
+         "sede": "Romania",
+         "oro": "Cecoslovacchia",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1958,
+         "sede": "Cecoslovacchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1963,
+         "sede": "Romania",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Romania"
+        },
+        {
+         "anno": 1967,
+         "sede": "Turchia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Polonia",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1971,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 1975,
+         "sede": "Jugoslavia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Ungheria",
+         "bronzo": "Germania Est"
+        },
+        {
+         "anno": 1977,
+         "sede": "Finlandia",
+         "oro": "Unione Sovietica",
+         "ris": "3–0",
+         "argento": "Germania Est",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1979,
+         "sede": "Francia",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Germania Est",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 1981,
+         "sede": "Bulgaria",
+         "oro": "Bulgaria",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1983,
+         "sede": "Germania Est",
+         "oro": "Germania Est",
+         "ris": "girone",
+         "argento": "Unione Sovietica",
+         "bronzo": "Ungheria"
+        },
+        {
+         "anno": 1985,
+         "sede": "Paesi Bassi",
+         "oro": "Unione Sovietica",
+         "ris": "girone",
+         "argento": "Germania Est",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 1987,
+         "sede": "Belgio",
+         "oro": "Germania Est",
+         "ris": "3–2",
+         "argento": "Unione Sovietica",
+         "bronzo": "Cecoslovacchia"
+        },
+        {
+         "anno": 1989,
+         "sede": "Germania Ovest",
+         "oro": "Unione Sovietica",
+         "ris": "3–1",
+         "argento": "Germania Est",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 1991,
+         "sede": "Italia",
+         "oro": "Unione Sovietica",
+         "ris": "3–0",
+         "argento": "Paesi Bassi",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 1993,
+         "sede": "Repubblica Ceca",
+         "oro": "Russia",
+         "ris": "3–0",
+         "argento": "Cecoslovacchia",
+         "bronzo": "Ucraina"
+        },
+        {
+         "anno": 1995,
+         "sede": "Paesi Bassi",
+         "oro": "Paesi Bassi",
+         "ris": "3–0",
+         "argento": "Croazia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 1997,
+         "sede": "Repubblica Ceca",
+         "oro": "Russia",
+         "ris": "3–0",
+         "argento": "Croazia",
+         "bronzo": "Repubblica Ceca"
+        },
+        {
+         "anno": 1999,
+         "sede": "Italia",
+         "oro": "Russia",
+         "ris": "3–0",
+         "argento": "Croazia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2001,
+         "sede": "Bulgaria",
+         "oro": "Russia",
+         "ris": "3–2",
+         "argento": "Italia",
+         "bronzo": "Bulgaria"
+        },
+        {
+         "anno": 2003,
+         "sede": "Turchia",
+         "oro": "Polonia",
+         "ris": "3–0",
+         "argento": "Turchia",
+         "bronzo": "Germania"
+        },
+        {
+         "anno": 2005,
+         "sede": "Croazia",
+         "oro": "Polonia",
+         "ris": "3–1",
+         "argento": "Italia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2007,
+         "sede": "Belgio, Lussemburgo",
+         "oro": "Italia",
+         "ris": "3–0",
+         "argento": "Serbia",
+         "bronzo": "Russia"
+        },
+        {
+         "anno": 2009,
+         "sede": "Polonia",
+         "oro": "Italia",
+         "ris": "3–0",
+         "argento": "Paesi Bassi",
+         "bronzo": "Polonia"
+        },
+        {
+         "anno": 2011,
+         "sede": "Italia, Serbia",
+         "oro": "Serbia",
+         "ris": "3–2",
+         "argento": "Germania",
+         "bronzo": "Turchia"
+        },
+        {
+         "anno": 2013,
+         "sede": "Germania, Svizzera",
+         "oro": "Russia",
+         "ris": "3–1",
+         "argento": "Germania",
+         "bronzo": "Belgio"
+        },
+        {
+         "anno": 2015,
+         "sede": "Belgio, Paesi Bassi",
+         "oro": "Russia",
+         "ris": "3–0",
+         "argento": "Paesi Bassi",
+         "bronzo": "Serbia"
+        },
+        {
+         "anno": 2017,
+         "sede": "Azerbaigian, Georgia",
+         "oro": "Serbia",
+         "ris": "3–1",
+         "argento": "Paesi Bassi",
+         "bronzo": "Turchia"
+        },
+        {
+         "anno": 2019,
+         "sede": "Ungheria, Polonia, Slovacchia, Turchia",
+         "oro": "Serbia",
+         "ris": "3–2",
+         "argento": "Turchia",
+         "bronzo": "Italia"
+        },
+        {
+         "anno": 2021,
+         "sede": "Bulgaria, Croazia, Romania, Serbia",
+         "oro": "Italia",
+         "ris": "3–1",
+         "argento": "Serbia",
+         "bronzo": "Turchia"
+        },
+        {
+         "anno": 2023,
+         "sede": "Belgio, Estonia, Germania, Italia",
+         "oro": "Turchia",
+         "ris": "3–2",
+         "argento": "Serbia",
+         "bronzo": "Paesi Bassi"
+        },
+        {
+         "anno": 2026,
+         "sede": "Azerbaigian, Repubblica Ceca, Svezia, Turchia",
+         "oro": "Turchia",
+         "ris": "3–2",
+         "argento": "Italia",
+         "bronzo": "Serbia"
+        }
+       ],
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Men's European Volleyball Championship (revisione 1381071838, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Men's_European_Volleyball_Championship&oldid=1381071838"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "Women's European Volleyball Championship (revisione 1377059491, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Women's_European_Volleyball_Championship&oldid=1377059491"
+      },
+      {
+       "i": "CEV",
+       "t": "Sultans of the Net retain EuroVolley crown (2026, donne)",
+       "u": "https://www.cev.eu/articles/volleyball/sultans-of-the-net-delight-record-crowd-to-retain-eurovolley-crown-and-qualify-for-la28/"
+      },
+      {
+       "i": "FIVB",
+       "t": "Poland punch ticket to LA28 with EuroVolley triumph (2026, uomini)",
+       "u": "https://www.fivb.com/poland-punch-ticket-to-la28-with-eurovolley-triumph/"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "scudetto",
+     "nome": "Scudetto",
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "lega",
+       "righe": [
+        {
+         "anno": 1946,
+         "stag": "1946",
+         "oro": "Robur Ravenna",
+         "argento": "Borsalino Alessandria"
+        },
+        {
+         "anno": 1947,
+         "stag": "1947",
+         "oro": "Robur Ravenna",
+         "argento": "Borsalino Alessandria"
+        },
+        {
+         "anno": 1948,
+         "stag": "1948",
+         "oro": "Robur Ravenna",
+         "argento": "Lega Navale Vercelli"
+        },
+        {
+         "anno": 1949,
+         "stag": "1949",
+         "oro": "Robur Ravenna",
+         "argento": "Ferrovieri Parma"
+        },
+        {
+         "anno": 1950,
+         "stag": "1950",
+         "oro": "Ferrovieri Parma",
+         "argento": "Robur Ravenna"
+        },
+        {
+         "anno": 1951,
+         "stag": "1951",
+         "oro": "Ferrovieri Parma",
+         "argento": "Robur Ravenna"
+        },
+        {
+         "anno": 1952,
+         "stag": "1952",
+         "oro": "Robur Ravenna",
+         "argento": "Multedo 1930 Genova"
+        },
+        {
+         "anno": 1953,
+         "stag": "1953",
+         "oro": "Minelli Modena",
+         "argento": "Multedo 1930 Genova"
+        },
+        {
+         "anno": 1954,
+         "stag": "1954",
+         "oro": "Minelli Modena",
+         "argento": "Avia Pervia Modena"
+        },
+        {
+         "anno": 1955,
+         "stag": "1955",
+         "oro": "Minelli Modena",
+         "argento": "Crocetta Modena"
+        },
+        {
+         "anno": 1956,
+         "stag": "1956",
+         "oro": "Crocetta Modena",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1957,
+         "stag": "1957",
+         "oro": "Avia Pervia Modena",
+         "argento": "Sestese Sesto Fiorentino"
+        },
+        {
+         "anno": 1958,
+         "stag": "1958",
+         "oro": "Ciam Modena",
+         "argento": "Avia Pervia Modena"
+        },
+        {
+         "anno": 1959,
+         "stag": "1959",
+         "oro": "Avia Pervia Modena",
+         "argento": "Ciam Modena"
+        },
+        {
+         "anno": 1960,
+         "stag": "1960",
+         "oro": "Avia Pervia Modena",
+         "argento": "Ciam Modena"
+        },
+        {
+         "anno": 1961,
+         "stag": "1961",
+         "oro": "Ciam Modena",
+         "argento": "Avia Pervia Modena"
+        },
+        {
+         "anno": 1962,
+         "stag": "1962",
+         "oro": "Interauto Modena",
+         "argento": "Ciam Modena"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Avia Pervia Modena",
+         "argento": "Ciam Modena"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Ruini Firenze",
+         "argento": "Smalteria Ghirlandina Modena"
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Ruini Firenze",
+         "argento": "Parma"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Virtus Bologna",
+         "argento": "Ruini Firenze"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Virtus Bologna",
+         "argento": "Salvarani Parma"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Ruini Firenze",
+         "argento": "Salvarani Parma"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Parma",
+         "argento": "Minganti Bologna"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Panini Modena",
+         "argento": "Ruini Firenze"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Ruini Firenze",
+         "argento": "Panini Modena"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Panini Modena",
+         "argento": "Ruini Firenze"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Ruini Firenze",
+         "argento": "Lubiam Bologna"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Panini Modena",
+         "argento": "Lubiam Bologna"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Ariccia",
+         "argento": "Torino"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Panini Modena",
+         "argento": "Klippan Torino"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Federlazio Roma",
+         "argento": "Paoletti Catania"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Paoletti Catania",
+         "argento": "Federlazio Roma"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Klippan Torino",
+         "argento": "Panini Modena"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Klippan Torino",
+         "argento": "Paoletti Catania"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Robe di Kappa Torino",
+         "argento": "Panini Modena"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Santal Parma",
+         "argento": "Robe di Kappa Torino"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Santal Parma",
+         "argento": "Robe di Kappa Torino"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Robe di Kappa Torino",
+         "argento": "Santal Parma"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Mapier Bologna",
+         "argento": "Panini Modena"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Panini Modena",
+         "argento": "Tartarini Bologna"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Panini Modena",
+         "argento": "Santal Parma"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Panini Modena",
+         "argento": "Maxicono Parma"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Panini Modena",
+         "argento": "Maxicono Parma"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Maxicono Parma",
+         "argento": "Philips Modena"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "il Messaggero Ravenna",
+         "argento": "Maxicono Parma"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Maxicono Parma",
+         "argento": "il Messaggero Ravenna"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Maxicono Parma",
+         "argento": "Misura Milano"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Sisley Treviso",
+         "argento": "Mediolanum Milano"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Daytona Las Modena",
+         "argento": "Sisley Treviso"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Sisley Treviso",
+         "argento": "Alpitour Traco Cuneo"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Las Daytona Modena",
+         "argento": "Sisley Treviso"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Sisley Treviso",
+         "argento": "Alpitour Traco Cuneo"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Sisley Treviso",
+         "argento": "Casa Modena Unibon"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Piaggio Roma",
+         "argento": "Casa Modena Unibon"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Sisley Treviso",
+         "argento": "Asystel Milano"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Unibon Modena",
+         "argento": "Sisley Treviso"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "Sisley Treviso",
+         "argento": "Kerakoll Modena"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Sisley Treviso",
+         "argento": "Copra Asystel Ventaglio Piacenza"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Sisley Treviso",
+         "argento": "RPA LuigiBacchi.it Perugia"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Lube Banca Marche Macerata",
+         "argento": "Sisley Treviso"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Sisley Treviso",
+         "argento": "Copra Berni Piacenza"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Itas Diatec Trentino",
+         "argento": "Copra Nordmeccanica Piacenza"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Copra Nordmeccanica Piacenza",
+         "argento": "Itas Diatec Trentino"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Bre Banca Lannutti Cuneo",
+         "argento": "Itas Diatec Trentino"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Itas Diatec Trentino",
+         "argento": "Bre Banca Lannutti Cuneo"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Lube Banca Marche Macerata",
+         "argento": "Itas Diatec Trentino"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Itas Diatec Trentino",
+         "argento": "Copra Elior Piacenza"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Lube Banca Marche Macerata",
+         "argento": "Sir Safety Perugia"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Itas Diatec Trentino",
+         "argento": "Parmareggio Modena"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "DHL Modena",
+         "argento": "Sir Safety Perugia"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Cucine Lube Civitanova",
+         "argento": "Diatec Trentino"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Sir Safety Perugia",
+         "argento": "Cucine Lube Civitanova"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Cucine Lube Civitanova",
+         "argento": "Sir Safety Perugia"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnato",
+         "argento": "",
+         "nota": "stagione interrotta per la pandemia di COVID-19"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Cucine Lube Civitanova",
+         "argento": "Sir Safety Perugia"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Cucine Lube Civitanova",
+         "argento": "Sir Safety Perugia"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Itas Trentino",
+         "argento": "Cucine Lube Civitanova"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Sir Safety Perugia",
+         "argento": "Vero Volley Monza"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Itas Diatec Trentino",
+         "argento": "Cucine Lube Civitanova"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Sir Safety Perugia",
+         "argento": "Cucine Lube Civitanova"
+        }
+       ],
+       "nota": "Oggi SuperLega; le squadre hanno il nome dello sponsor di quella stagione."
+      },
+      {
+       "nome": "Donne",
+       "tipo": "lega",
+       "righe": [
+        {
+         "anno": 1946,
+         "stag": "1946",
+         "oro": "Amatori Bergamo",
+         "argento": ""
+        },
+        {
+         "anno": 1947,
+         "stag": "1947",
+         "oro": "Amatori Bergamo",
+         "argento": ""
+        },
+        {
+         "anno": 1948,
+         "stag": "1948",
+         "oro": "Invicta Trieste",
+         "argento": ""
+        },
+        {
+         "anno": 1949,
+         "stag": "1949",
+         "oro": "Invicta Trieste",
+         "argento": "Fari Bergamo"
+        },
+        {
+         "anno": 1950,
+         "stag": "1950",
+         "oro": "Lega Nazionale Trieste",
+         "argento": "Fari Bergamo"
+        },
+        {
+         "anno": 1951,
+         "stag": "1951",
+         "oro": "Fari Brescia",
+         "argento": "Invicta Trieste"
+        },
+        {
+         "anno": 1952,
+         "stag": "1952",
+         "oro": "Fari Brescia",
+         "argento": "Invicta Trieste"
+        },
+        {
+         "anno": 1953,
+         "stag": "1953",
+         "oro": "Audax Modena",
+         "argento": "Fari Brescia"
+        },
+        {
+         "anno": 1954,
+         "stag": "1954",
+         "oro": "Minelli Modena",
+         "argento": "Audax Modena"
+        },
+        {
+         "anno": 1955,
+         "stag": "1955",
+         "oro": "Minelli Modena",
+         "argento": "Audax Modena"
+        },
+        {
+         "anno": 1956,
+         "stag": "1956",
+         "oro": "Avis Audax Modena",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1957,
+         "stag": "1957",
+         "oro": "Audax Modena",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1958,
+         "stag": "1958",
+         "oro": "Audax Modena",
+         "argento": "Rizzoli Milano"
+        },
+        {
+         "anno": 1959,
+         "stag": "1959",
+         "oro": "Audax Modena",
+         "argento": "Spes Trieste"
+        },
+        {
+         "anno": 1960,
+         "stag": "1960",
+         "oro": "Casa Lampada Trieste",
+         "argento": "Saves Alessandria"
+        },
+        {
+         "anno": 1961,
+         "stag": "1961",
+         "oro": "Casa Lampada Trieste",
+         "argento": "Saves Alessandria"
+        },
+        {
+         "anno": 1962,
+         "stag": "1962",
+         "oro": "Casa Lampada Trieste",
+         "argento": "Muratori Vignola"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Muratori Vignola",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "UISP Sesto Fiorentino",
+         "argento": "Muratori Vignola"
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Max Mara Reggio Emilia",
+         "argento": "Cabassi Modena"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Max Mara Reggio Emilia",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Max Mara Reggio Emilia",
+         "argento": "Minelli Modena"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Max Mara Reggio Emilia",
+         "argento": "Fini Modena"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Fini Modena",
+         "argento": "Max Mara Reggio Emilia"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Fini Modena",
+         "argento": "CUS Parma"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "CUS Parma",
+         "argento": "Fini Modena"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Fini Modena",
+         "argento": "Bartoli Reggio Emilia"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Fini Modena",
+         "argento": "Bartoli Reggio Emilia"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Valdagna Scandicci",
+         "argento": "Orlandini Reggio Emilia"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Valdagna Scandicci",
+         "argento": "Coma Modena"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Valdagna Scandicci",
+         "argento": "Burro Giglio Reggio Emilia"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Alzano Bergamo",
+         "argento": "Metauro Fano"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Burro Giglio Reggio Emilia",
+         "argento": "Pallavolo Cecina"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "2000 Uno Bari",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Alidea Catania",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Diana Docks Ravenna",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Diana Docks Ravenna",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Teodora Ravenna",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Teodora Ravenna",
+         "argento": "Victor Village Bari"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Teodora Ravenna",
+         "argento": "Nelsen Reggio Emilia"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Teodora Ravenna",
+         "argento": "Civ&Civ Modena"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Teodora Ravenna",
+         "argento": "Civ&Civ Modena"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Teodora Ravenna",
+         "argento": "Civ&Civ Modena"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Teodora Ravenna",
+         "argento": "Crocodile San Lazzaro di Savena"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Teodora Ravenna",
+         "argento": "Braglia Reggio Emilia"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Il Messaggero Ravenna",
+         "argento": "Imet Perugia"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Calia Salotti Matera",
+         "argento": "Rasimelli&Coletti Perugia"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Latte Rugiada Matera",
+         "argento": "Il Messaggero Ravenna"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Latte Rugiada Matera",
+         "argento": "Isola Verde Modena"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Latte Rugiada Matera",
+         "argento": "Anthesis Modena"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Foppapedretti Bergamo",
+         "argento": "Anthesis Modena"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Foppapedretti Bergamo",
+         "argento": "Anthesis Modena"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Foppapedretti Bergamo",
+         "argento": "CerMagica Reggio Emilia"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Foppapedretti Bergamo",
+         "argento": "Medinex Reggio Calabria"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Phone Limited Modena",
+         "argento": "Medinex Reggio Calabria"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Non assegnato",
+         "argento": "Radio 105 Foppapedretti Bergamo"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Radio 105 Foppapedretti Bergamo",
+         "argento": "Asystel Novara"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "Despar Perugia",
+         "argento": "Asystel Novara"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Radio 105 Foppapedretti Bergamo",
+         "argento": "Asystel Novara"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Despar Perugia",
+         "argento": "Radio 105 Foppapedretti Bergamo"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Radio 105 Foppapedretti Bergamo",
+         "argento": "Monte Schiavo Banca Marche Jesi"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Despar Perugia",
+         "argento": "Monte Schiavo Banca Marche Jesi"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Scavolini Pesaro",
+         "argento": "Despar Perugia"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Scavolini Pesaro",
+         "argento": "Asystel Volley Novara"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Scavolini Pesaro",
+         "argento": "MC Carnaghi Villa Cortese"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Norda Foppapedretti Bergamo",
+         "argento": "MC Carnaghi Villa Cortese"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Yamamay Busto Arsizio",
+         "argento": "MC Carnaghi Villa Cortese"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Rebecchi Nordmeccanica Piacenza",
+         "argento": "Imoco Volley Conegliano"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Rebecchi Nordmeccanica Piacenza",
+         "argento": "Unendo Yamamay Busto Arsizio"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Pomì Casalmaggiore",
+         "argento": "Igor Gorgonzola Novara"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Nordmeccanica Piacenza"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Igor Gorgonzola Novara",
+         "argento": "Liu Jo Nordmeccanica Modena"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Igor Gorgonzola Novara"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Igor Gorgonzola Novara"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnato",
+         "argento": "",
+         "nota": "stagione interrotta per la pandemia di COVID-19"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Igor Gorgonzola Novara"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "ProVictoria Monza"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Vero Volley Milano"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Savino Del Bene Scandicci"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Vero Volley Milano"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Imoco Volley Conegliano",
+         "argento": "Vero Volley Milano"
+        }
+       ],
+       "nota": "Oggi Serie A1; le squadre hanno il nome dello sponsor di quella stagione."
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Italian Volleyball League (revisione 1387610588, tabella «Champions»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Italian_Volleyball_League&oldid=1387610588"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "Italian Women's Volleyball League (revisione 1377007798, tabella «Champions»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Italian_Women's_Volleyball_League&oldid=1377007798"
+      },
+      {
+       "i": "Lega Pallavolo Serie A",
+       "t": "Sir Susa Scai Perugia is the 2025/26 Italian Champion",
+       "u": "https://www.legavolley.it/2026/max-colaci-game-3-mvp/?lang=en"
+      },
+      {
+       "i": "Il Post",
+       "t": "Conegliano ha vinto lo Scudetto femminile nella pallavolo (2026)",
+       "u": "https://www.ilpost.it/2026/04/22/conegliano-scudetto-pallavolo-2026/"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   },
   "beach": {
-   "titolo": "Albo d'oro olimpico del beach volley",
-   "tornei": [
+   "titolo": "Albi d'oro",
+   "gruppi": [
     {
-     "nome": "Uomini",
-     "righe": [
+     "id": "olimpiadi",
+     "nome": "Olimpiadi",
+     "nota": "Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.",
+     "tornei": [
       {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Kiraly / Steffes (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Dodd / Whitmarsh (Stati Uniti)",
-       "bronzo": "Child / Heese (Canada)"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Kiraly / Steffes (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Dodd / Whitmarsh (Stati Uniti)",
+         "bronzo": "Child / Heese (Canada)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Blanton / Fonoimoana (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Zé Marco / Ricardo (Brasile)",
+         "bronzo": "Ahmann / Hager (Germania)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "Emanuel / Ricardo (Brasile)",
+         "ris": "2–0",
+         "argento": "Bosma / Herrera (Spagna)",
+         "bronzo": "Heuscher / Kobel (Svizzera)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "Dalhausser / Rogers (Stati Uniti)",
+         "ris": "2–1",
+         "argento": "Márcio / Fábio Luiz (Brasile)",
+         "bronzo": "Emanuel / Ricardo (Brasile)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "Brink / Reckermann (Germania)",
+         "ris": "2–1",
+         "argento": "Alison / Emanuel (Brasile)",
+         "bronzo": "Pļaviņš / Šmēdiņš (Lettonia)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Alison / Bruno (Brasile)",
+         "ris": "2–0",
+         "argento": "Lupo / Nicolai (Italia)",
+         "bronzo": "Brouwer / Meeuwsen (Paesi Bassi)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Mol / Sørum (Norvegia)",
+         "ris": "2–0",
+         "argento": "Krasilnikov / Stoyanovskiy (ROC)",
+         "bronzo": "Tijan / Younousse (Qatar)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Åhman / Hellvig (Svezia)",
+         "ris": "2–0",
+         "argento": "Ehlers / Wickler (Germania)",
+         "bronzo": "Mol / Sørum (Norvegia)"
+        }
+       ],
+       "tipo": "torneo"
       },
       {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "Blanton / Fonoimoana (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Zé Marco / Ricardo (Brasile)",
-       "bronzo": "Ahmann / Hager (Germania)"
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1996,
+         "sede": "Atlanta",
+         "oro": "Pires / Silva (Brasile)",
+         "ris": "2–0",
+         "argento": "Rodrigues / Samuel (Brasile)",
+         "bronzo": "Cook / Pottharst (Australia)"
+        },
+        {
+         "anno": 2000,
+         "sede": "Sydney",
+         "oro": "Cook / Pottharst (Australia)",
+         "ris": "2–0",
+         "argento": "Shelda / Adriana Behar (Brasile)",
+         "bronzo": "Pires / Samuel (Brasile)"
+        },
+        {
+         "anno": 2004,
+         "sede": "Atene",
+         "oro": "May / Walsh (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Shelda / Adriana Behar (Brasile)",
+         "bronzo": "McPeak / Youngs (Stati Uniti)"
+        },
+        {
+         "anno": 2008,
+         "sede": "Pechino",
+         "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Tian / Wang (Cina)",
+         "bronzo": "Xue / Zhang (Cina)"
+        },
+        {
+         "anno": 2012,
+         "sede": "Londra",
+         "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Kessy / Ross (Stati Uniti)",
+         "bronzo": "Larissa / Juliana (Brasile)"
+        },
+        {
+         "anno": 2016,
+         "sede": "Rio de Janeiro",
+         "oro": "Ludwig / Walkenhorst (Germania)",
+         "ris": "2–0",
+         "argento": "Ágatha / Bárbara (Brasile)",
+         "bronzo": "Ross / Walsh Jennings (Stati Uniti)"
+        },
+        {
+         "anno": 2020,
+         "sede": "Tokyo",
+         "oro": "Klineman / Ross (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Artacho del Solar / Clancy (Australia)",
+         "bronzo": "Heidrich / Vergé-Dépré (Svizzera)"
+        },
+        {
+         "anno": 2024,
+         "sede": "Parigi",
+         "oro": "Ana Patrícia / Duda (Brasile)",
+         "ris": "2–1",
+         "argento": "Humana-Paredes / Wilkerson (Canada)",
+         "bronzo": "Brunner / Hüberli (Svizzera)"
+        }
+       ],
+       "tipo": "torneo"
+      }
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Beach volleyball at the Summer Olympics (revisione 1380739173, tabelle «Results summary»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Beach_volleyball_at_the_Summer_Olympics&oldid=1380739173"
       },
       {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "Emanuel / Ricardo (Brasile)",
-       "ris": "2–0",
-       "argento": "Bosma / Herrera (Spagna)",
-       "bronzo": "Heuscher / Kobel (Svizzera)"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "Dalhausser / Rogers (Stati Uniti)",
-       "ris": "2–1",
-       "argento": "Márcio / Fábio Luiz (Brasile)",
-       "bronzo": "Emanuel / Ricardo (Brasile)"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "Brink / Reckermann (Germania)",
-       "ris": "2–1",
-       "argento": "Alison / Emanuel (Brasile)",
-       "bronzo": "Pļaviņš / Šmēdiņš (Lettonia)"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Alison / Bruno (Brasile)",
-       "ris": "2–0",
-       "argento": "Lupo / Nicolai (Italia)",
-       "bronzo": "Brouwer / Meeuwsen (Paesi Bassi)"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Mol / Sørum (Norvegia)",
-       "ris": "2–0",
-       "argento": "Krasilnikov / Stoyanovskiy (ROC)",
-       "bronzo": "Tijan / Younousse (Qatar)"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Åhman / Hellvig (Svezia)",
-       "ris": "2–0",
-       "argento": "Ehlers / Wickler (Germania)",
-       "bronzo": "Mol / Sørum (Norvegia)"
+       "i": "FIVB",
+       "t": "History (beach volleyball)",
+       "u": "https://www.fivb.com/beach-volleyball/the-game/history/"
       }
      ]
     },
     {
-     "nome": "Donne",
-     "righe": [
+     "id": "mondiali",
+     "nome": "Mondiali",
+     "tornei": [
       {
-       "anno": 1996,
-       "sede": "Atlanta",
-       "oro": "Pires / Silva (Brasile)",
-       "ris": "2–0",
-       "argento": "Rodrigues / Samuel (Brasile)",
-       "bronzo": "Cook / Pottharst (Australia)"
+       "nome": "Uomini",
+       "righe": [
+        {
+         "anno": 1997,
+         "sede": "Los Angeles",
+         "oro": "Rogério Ferreira / Guilherme Marques (Brasile)",
+         "ris": "2–1",
+         "argento": "Canyon Ceman / Mike Whitmarsh (Stati Uniti)",
+         "bronzo": "Dain Blanton / Kent Steffes (Stati Uniti); Paulão Moreira / Paulo Emilio Silva (Brasile)"
+        },
+        {
+         "anno": 1999,
+         "sede": "Marsiglia",
+         "oro": "José Loiola / Emanuel Rego (Brasile)",
+         "ris": "1–0",
+         "argento": "Martin Laciga / Paul Laciga (Svizzera)",
+         "bronzo": "Rogério Ferreira / Guilherme Marques (Brasile)"
+        },
+        {
+         "anno": 2001,
+         "sede": "Austria (Klagenfurt)",
+         "oro": "Mariano Baracetti / Martín Conde (Argentina)",
+         "ris": "2–1",
+         "argento": "José Loiola / Ricardo Santos (Brasile)",
+         "bronzo": "Vegard Høidalen / Jørre Kjemperud (Norvegia)"
+        },
+        {
+         "anno": 2003,
+         "sede": "Rio de Janeiro",
+         "oro": "Emanuel Rego / Ricardo Santos (Brasile)",
+         "ris": "2–0",
+         "argento": "Dax Holdren / Stein Metzger (Stati Uniti)",
+         "bronzo": "Márcio Araújo / Benjamin Insfran (Brasile)"
+        },
+        {
+         "anno": 2005,
+         "sede": "Berlino",
+         "oro": "Márcio Araújo / Fábio Luiz Magalhães (Brasile)",
+         "ris": "2–0",
+         "argento": "Sascha Heyer / Paul Laciga (Svizzera)",
+         "bronzo": "Julius Brink / Kjell Schneider (Germania)"
+        },
+        {
+         "anno": 2007,
+         "sede": "Gstaad",
+         "oro": "Phil Dalhausser / Todd Rogers (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Dmitri Barsuk / Igor Kolodinsky (Russia)",
+         "bronzo": "Andrew Schacht / Joshua Slack (Australia)"
+        },
+        {
+         "anno": 2009,
+         "sede": "Stavanger",
+         "oro": "Julius Brink / Jonas Reckermann (Germania)",
+         "ris": "2–0",
+         "argento": "Alison Cerutti / Harley Marques Silva (Brasile)",
+         "bronzo": "Phil Dalhausser / Todd Rogers (Stati Uniti)"
+        },
+        {
+         "anno": 2011,
+         "sede": "Roma",
+         "oro": "Alison Cerutti / Emanuel Rego (Brasile)",
+         "ris": "2–0",
+         "argento": "Márcio Araújo / Ricardo Santos (Brasile)",
+         "bronzo": "Julius Brink / Jonas Reckermann (Germania)"
+        },
+        {
+         "anno": 2013,
+         "sede": "Stare Jabłonki",
+         "oro": "Alexander Brouwer / Robert Meeuwsen (Paesi Bassi)",
+         "ris": "2–0",
+         "argento": "Álvaro Morais Filho / Ricardo Santos (Brasile)",
+         "bronzo": "Jonathan Erdmann / Kay Matysik (Germania)"
+        },
+        {
+         "anno": 2015,
+         "sede": "Paesi Bassi",
+         "oro": "Alison Cerutti / Bruno Oscar Schmidt (Brasile)",
+         "ris": "2–1",
+         "argento": "Reinder Nummerdor / Christiaan Varenhorst (Paesi Bassi)",
+         "bronzo": "Evandro Oliveira / Pedro Solberg (Brasile)"
+        },
+        {
+         "anno": 2017,
+         "sede": "Vienna",
+         "oro": "Evandro Oliveira / André Stein (Brasile)",
+         "ris": "2–0",
+         "argento": "Clemens Doppler / Alexander Horst (Austria)",
+         "bronzo": "Viacheslav Krasilnikov / Nikita Liamin (Russia)"
+        },
+        {
+         "anno": 2019,
+         "sede": "Amburgo",
+         "oro": "Oleg Stoyanovskiy / Viacheslav Krasilnikov (Russia)",
+         "ris": "2–1",
+         "argento": "Julius Thole / Clemens Wickler (Germania)",
+         "bronzo": "Anders Mol / Christian Sørum (Norvegia)"
+        },
+        {
+         "anno": 2022,
+         "sede": "Roma",
+         "oro": "Anders Mol / Christian Sørum (Norvegia)",
+         "ris": "2–0",
+         "argento": "Renato Carvalho / Vitor Felipe (Brasile)",
+         "bronzo": "André Stein / George Wanderley (Brasile)"
+        },
+        {
+         "anno": 2023,
+         "sede": "Messico",
+         "oro": "Ondřej Perušič / David Schweiner (Repubblica Ceca)",
+         "ris": "2–1",
+         "argento": "David Åhman / Jonatan Hellvig (Svezia)",
+         "bronzo": "Bartosz Łosiak / Michał Bryl (Polonia)"
+        },
+        {
+         "anno": 2025,
+         "sede": "Adelaide",
+         "oro": "David Åhman / Jonatan Hellvig (Svezia)",
+         "ris": "2–0",
+         "argento": "Jacob Nilsson / Elmer Andersson (Svezia)",
+         "bronzo": "Téo Rotar / Arnaud Gauthier-Rat (Francia)"
+        }
+       ],
+       "nota": "Nel 1997 la finale per il bronzo non si giocò: bronzo a entrambe le coppie sconfitte in semifinale.",
+       "tipo": "torneo"
       },
       {
-       "anno": 2000,
-       "sede": "Sydney",
-       "oro": "Cook / Pottharst (Australia)",
-       "ris": "2–0",
-       "argento": "Shelda / Adriana Behar (Brasile)",
-       "bronzo": "Pires / Samuel (Brasile)"
-      },
-      {
-       "anno": 2004,
-       "sede": "Atene",
-       "oro": "May / Walsh (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Shelda / Adriana Behar (Brasile)",
-       "bronzo": "McPeak / Youngs (Stati Uniti)"
-      },
-      {
-       "anno": 2008,
-       "sede": "Pechino",
-       "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Tian / Wang (Cina)",
-       "bronzo": "Xue / Zhang (Cina)"
-      },
-      {
-       "anno": 2012,
-       "sede": "Londra",
-       "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Kessy / Ross (Stati Uniti)",
-       "bronzo": "Larissa / Juliana (Brasile)"
-      },
-      {
-       "anno": 2016,
-       "sede": "Rio de Janeiro",
-       "oro": "Ludwig / Walkenhorst (Germania)",
-       "ris": "2–0",
-       "argento": "Ágatha / Bárbara (Brasile)",
-       "bronzo": "Ross / Walsh Jennings (Stati Uniti)"
-      },
-      {
-       "anno": 2020,
-       "sede": "Tokyo",
-       "oro": "Klineman / Ross (Stati Uniti)",
-       "ris": "2–0",
-       "argento": "Artacho del Solar / Clancy (Australia)",
-       "bronzo": "Heidrich / Vergé-Dépré (Svizzera)"
-      },
-      {
-       "anno": 2024,
-       "sede": "Parigi",
-       "oro": "Ana Patrícia / Duda (Brasile)",
-       "ris": "2–1",
-       "argento": "Humana-Paredes / Wilkerson (Canada)",
-       "bronzo": "Brunner / Hüberli (Svizzera)"
+       "nome": "Donne",
+       "righe": [
+        {
+         "anno": 1997,
+         "sede": "Los Angeles",
+         "oro": "Sandra Pires / Jackie Silva (Brasile)",
+         "ris": "2–1",
+         "argento": "Lisa Arce / Holly McPeak (Stati Uniti)",
+         "bronzo": "Shelda Bede / Adriana Behar (Brasile); Karolyn Kirby / Nancy Reno (Stati Uniti)"
+        },
+        {
+         "anno": 1999,
+         "sede": "Marsiglia",
+         "oro": "Shelda Bede / Adriana Behar (Brasile)",
+         "ris": "1–0",
+         "argento": "Annett Davis / Jenny Johnson Jordan (Stati Uniti)",
+         "bronzo": "Liz Masakayan / Elaine Youngs (Stati Uniti)"
+        },
+        {
+         "anno": 2001,
+         "sede": "Austria (Klagenfurt)",
+         "oro": "Shelda Bede / Adriana Behar (Brasile)",
+         "ris": "2–0",
+         "argento": "Tatiana Minello / Sandra Pires (Brasile)",
+         "bronzo": "Eva Celbová / Soňa Nováková (Repubblica Ceca)"
+        },
+        {
+         "anno": 2003,
+         "sede": "Rio de Janeiro",
+         "oro": "Misty May / Kerri Walsh (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Shelda Bede / Adriana Behar (Brasile)",
+         "bronzo": "Natalie Cook / Nicole Sanderson (Australia)"
+        },
+        {
+         "anno": 2005,
+         "sede": "Berlino",
+         "oro": "Misty May-Treanor / Kerri Walsh (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Larissa França / Juliana Silva (Brasile)",
+         "bronzo": "Tian Jia / Wang Fei (Cina)"
+        },
+        {
+         "anno": 2007,
+         "sede": "Gstaad",
+         "oro": "Misty May-Treanor / Kerri Walsh (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Tian Jia / Wang Jie (Cina)",
+         "bronzo": "Larissa França / Juliana Silva (Brasile)"
+        },
+        {
+         "anno": 2009,
+         "sede": "Stavanger",
+         "oro": "Jennifer Kessy / April Ross (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Larissa França / Juliana Silva (Brasile)",
+         "bronzo": "Maria Elisa Antonelli / Talita Antunes (Brasile)"
+        },
+        {
+         "anno": 2011,
+         "sede": "Roma",
+         "oro": "Larissa França / Juliana Silva (Brasile)",
+         "ris": "2–1",
+         "argento": "Misty May-Treanor / Kerri Walsh (Stati Uniti)",
+         "bronzo": "Xue Chen / Zhang Xi (Cina)"
+        },
+        {
+         "anno": 2013,
+         "sede": "Stare Jabłonki",
+         "oro": "Xue Chen / Zhang Xi (Cina)",
+         "ris": "2–1",
+         "argento": "Karla Borger / Britta Büthe (Germania)",
+         "bronzo": "Liliane Maestrini / Bárbara Seixas (Brasile)"
+        },
+        {
+         "anno": 2015,
+         "sede": "Paesi Bassi",
+         "oro": "Ágatha Bednarczuk / Bárbara Seixas (Brasile)",
+         "ris": "2–0",
+         "argento": "Fernanda Alves / Taiana Lima (Brasile)",
+         "bronzo": "Maria Elisa Antonelli / Juliana Silva (Brasile)"
+        },
+        {
+         "anno": 2017,
+         "sede": "Vienna",
+         "oro": "Laura Ludwig / Kira Walkenhorst (Germania)",
+         "ris": "2–1",
+         "argento": "April Ross / Lauren Fendrick (Stati Uniti)",
+         "bronzo": "Larissa França / Talita Antunes (Brasile)"
+        },
+        {
+         "anno": 2019,
+         "sede": "Amburgo",
+         "oro": "Sarah Pavan / Melissa Humana-Paredes (Canada)",
+         "ris": "2–0",
+         "argento": "Alix Klineman / April Ross (Stati Uniti)",
+         "bronzo": "Taliqua Clancy / Mariafe Artacho del Solar (Australia)"
+        },
+        {
+         "anno": 2022,
+         "sede": "Roma",
+         "oro": "Eduarda Santos Lisboa / Ana Patrícia Ramos (Brasile)",
+         "ris": "2–0",
+         "argento": "Sophie Bukovec / Brandie Wilkerson (Canada)",
+         "bronzo": "Svenja Müller / Cinja Tillmann (Germania)"
+        },
+        {
+         "anno": 2023,
+         "sede": "Messico",
+         "oro": "Sara Hughes / Kelly Cheng (Stati Uniti)",
+         "ris": "2–0",
+         "argento": "Ana Patrícia Ramos / Eduarda Santos Lisboa (Brasile)",
+         "bronzo": "Kristen Nuss / Taryn Kloth (Stati Uniti)"
+        },
+        {
+         "anno": 2025,
+         "sede": "Adelaide",
+         "oro": "Tīna Graudiņa / Anastasija Samoilova (Lettonia)",
+         "ris": "2–1",
+         "argento": "Kristen Nuss / Taryn Brasher (Stati Uniti)",
+         "bronzo": "Carolina Solberg Salgado / Rebecca Cavalcante (Brasile)"
+        }
+       ],
+       "nota": "Nel 1997 la finale per il bronzo non si giocò: bronzo a entrambe le coppie sconfitte in semifinale.",
+       "tipo": "torneo"
       }
-     ]
-    }
-   ],
-   "fonti": [
-    {
-     "i": "Wikipedia",
-     "t": "Beach volleyball at the Summer Olympics (revisione 1380739173, tabelle «Results summary»)",
-     "u": "https://en.wikipedia.org/w/index.php?title=Beach_volleyball_at_the_Summer_Olympics&oldid=1380739173"
-    },
-    {
-     "i": "FIVB",
-     "t": "History (beach volleyball)",
-     "u": "https://www.fivb.com/beach-volleyball/the-game/history/"
+     ],
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "Beach Volleyball World Championships (revisione 1360069742, tabella «Results»)",
+       "u": "https://en.wikipedia.org/w/index.php?title=Beach_Volleyball_World_Championships&oldid=1360069742"
+      },
+      {
+       "i": "CEV",
+       "t": "Åhman/Hellvig, Graudina/Samoilova secure double global crown (2025)",
+       "u": "https://www.cev.eu/articles/beach-volleyball/aahmanhellvig-graudinasamoilova-secure-unprecedented-double-global-crown-for-europe"
+      }
+     ],
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   }
  },
- "nota_albi": "Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.",
  "aggiornato": "26 novembre 2026"
 }

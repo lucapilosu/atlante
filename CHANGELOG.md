@@ -1,5 +1,17 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.2 · 26 novembre 2026
+
+- **Pagina di ricerca** (pulsante «Cerca», tasto `/`, indirizzo `#cerca=…`): cerca in tessere e albi d'oro per squadra, nazione, atleta, città o anno, anche combinati («Italia 1982») e senza accenti («peru» trova Perù). Filtri per sport e per tipo (tessere / albi d'oro). Toccando un risultato si apre la tessera o l'albo giusto con la riga evidenziata.
+- **Nuovi albi d'oro** (676 righe in più, 758 in tutto), con più competizioni per sport e un selettore in alto nella scheda:
+  - Calcio: Mondiali uomini (1930–2026) e donne (1991–2023), Europei (1960–2024), Scudetto (1898–2025-26, con titoli revocati e non assegnati annotati).
+  - Basket: Mondiali uomini e donne, Europei uomini e donne, finali NBA (1947–2026).
+  - Pallavolo: Mondiali e Europei uomini e donne, Scudetto maschile (SuperLega) e femminile (Serie A1) dal 1946.
+  - Beach volley: Mondiali uomini e donne (1997–2025).
+- Trascrizione dalle tabelle di Wikipedia a revisione fissata, con controllo d'integrità SHA-256 per ciascuna delle 17 tabelle; i risultati del 2025-2026 riscontrati su fonti ufficiali o giornalistiche (FIFA, NBA, Inter, Lega Pallavolo, CEV, FIVB, Al Jazeera, Il Post).
+- Indirizzi condivisibili anche per competizione e riga (`#sport=basket&g=nba&r=2026`).
+- Prove: 57 controlli su PC e iPhone emulato (erano 27).
+
 ## Pilu Sports Almanac v0.1 · 26 novembre 2026
 
 - Nuova pagina `sport/` (lucapilosu.github.io/atlante/sport/), senza copertina, scelta di Luca: si apre direttamente sul mosaico degli sport.
