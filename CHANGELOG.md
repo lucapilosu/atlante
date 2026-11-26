@@ -1,5 +1,14 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.1 · 26 novembre 2026
+
+- Nuova pagina `sport/` (lucapilosu.github.io/atlante/sport/), senza copertina, scelta di Luca: si apre direttamente sul mosaico degli sport.
+- Titolo «Pilu Sports Almanac 1896–2026»: l'anno finale viene dai dati e si aggiornerà da solo con i risultati degli anni successivi.
+- 11 colonne (Olimpiadi e mondo, basket, pallavolo, beach volley, atletica, calcio, ciclismo, tennis, motori, sci, nuoto) e 52 tessere con fonti verificate (CIO, IPC, FIBA, FIVB, World Athletics, FIFA, FA, Giro d'Italia, Coppa Davis, FIS, World Aquatics, F1, ACO, Britannica). Fascia «Prima del 1896» in fondo. Bandierina tricolore sulle tessere italiane.
+- Albi d'oro olimpici di basket, pallavolo e beach volley, uomini e donne (82 edizioni), con l'Italia evidenziata.
+- Scheda con testo, fonti e note di verifica; indirizzi condivisibili (`#voce=…`, `#sport=…`, `#albi`).
+- Il Tour de France non c'è: la ricerca delle fonti è stata rifiutata due volte dal servizio di ricerca e non è stato possibile verificarlo.
+
 ## v0.76 · 26 novembre 2026
 
 - **Foto per le 31 voci della v0.75**: 66 foto da Wikimedia Commons, tutte le voci nuove ne hanno almeno una. In tutto **567 voci su 580** hanno foto (1.468 foto); restano senza le stesse 13 di prima.

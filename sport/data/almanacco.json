@@ -1,0 +1,2001 @@
+{
+ "sport": [
+  {
+   "id": "olimpiadi",
+   "nome": "Olimpiadi e mondo",
+   "colore": "#c8a85a",
+   "icona": "globo"
+  },
+  {
+   "id": "basket",
+   "nome": "Basket",
+   "colore": "#e2772f",
+   "icona": "basket"
+  },
+  {
+   "id": "pallavolo",
+   "nome": "Pallavolo",
+   "colore": "#3f8fdc",
+   "icona": "volley"
+  },
+  {
+   "id": "beach",
+   "nome": "Beach volley",
+   "colore": "#e8c24a",
+   "icona": "beach"
+  },
+  {
+   "id": "atletica",
+   "nome": "Atletica",
+   "colore": "#d4574f",
+   "icona": "pista"
+  },
+  {
+   "id": "calcio",
+   "nome": "Calcio",
+   "colore": "#3fae62",
+   "icona": "calcio"
+  },
+  {
+   "id": "ciclismo",
+   "nome": "Ciclismo",
+   "colore": "#e3699f",
+   "icona": "bici"
+  },
+  {
+   "id": "tennis",
+   "nome": "Tennis",
+   "colore": "#b7d33f",
+   "icona": "tennis"
+  },
+  {
+   "id": "motori",
+   "nome": "Motori",
+   "colore": "#9aa3ad",
+   "icona": "scacchi"
+  },
+  {
+   "id": "sci",
+   "nome": "Sci",
+   "colore": "#8fd6f6",
+   "icona": "sci"
+  },
+  {
+   "id": "nuoto",
+   "nome": "Nuoto",
+   "colore": "#2fb7b3",
+   "icona": "onde"
+  }
+ ],
+ "voci": [
+  {
+   "id": "olimpia",
+   "sport": "olimpiadi",
+   "anno": -776,
+   "data": "",
+   "circa": true,
+   "titolo": "I Giochi di Olimpia",
+   "testo": "Nel santuario di Zeus a Olimpia, nel Peloponneso, si tengono i Giochi più famosi della Grecia antica. La data del 776 a.C. è quella che citano di solito le fonti scritte; i Giochi si svolgono ogni quattro anni fino al 393 d.C.",
+   "luogo": "Olimpia (Grecia)",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "What is the origin of the Olympic Games?",
+     "u": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/what-is-the-origin-of-the-olympic-games"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Athens 1896 - 125 years of shared Olympic values",
+     "u": "https://www.olympics.com/ioc/news/athens-1896-125-years-of-shared-olympic-values"
+    }
+   ],
+   "italia": false,
+   "nota": "Il CIO scrive che la data esatta d'inizio non si conosce: il 776 a.C. è la data tradizionale."
+  },
+  {
+   "id": "calcio-fa",
+   "sport": "calcio",
+   "anno": 1863,
+   "data": "26 ottobre 1863",
+   "circa": false,
+   "titolo": "Le prime regole del calcio",
+   "testo": "Il 26 ottobre 1863, alla Freemasons' Tavern di Londra, i rappresentanti di una dozzina di club fondano la Football Association e scrivono le prime regole comuni del gioco.",
+   "luogo": "Londra",
+   "fonti": [
+    {
+     "i": "The FA",
+     "t": "The History of The FA",
+     "u": "https://www.thefa.com/about-football-association/who-we-are/history"
+    },
+    {
+     "i": "Britannica",
+     "t": "Football Association (FA)",
+     "u": "https://www.britannica.com/topic/Football-Association"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "tennis-wimbledon",
+   "sport": "tennis",
+   "anno": 1877,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo Wimbledon",
+   "testo": "Nel luglio 1877 l'All England Croquet and Lawn Tennis Club organizza il primo torneo di tennis su prato: 22 iscritti, solo il singolare maschile. Vince Spencer Gore.",
+   "luogo": "Londra, Wimbledon",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Tennis",
+     "u": "https://www.britannica.com/sports/tennis"
+    },
+    {
+     "i": "Wimbledon",
+     "t": "The Championships 1877 Gentlemen's Singles",
+     "u": "https://assets.wimbledon.com/archive/draws/pdfs/draws/1877_MS_A4.pdf"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "basket-naismith",
+   "sport": "basket",
+   "anno": 1891,
+   "data": "21 dicembre 1891",
+   "circa": false,
+   "titolo": "Naismith inventa il basket",
+   "testo": "James Naismith, insegnante di educazione fisica alla scuola della YMCA di Springfield, nel Massachusetts, inventa un gioco da palestra per l'inverno. La prima partita si gioca il 21 dicembre 1891, con due cesti da pesche come canestri.",
+   "luogo": "Springfield (Massachusetts, USA)",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Basketball",
+     "u": "https://www.britannica.com/sports/basketball"
+    },
+    {
+     "i": "Naismith Basketball Hall of Fame",
+     "t": "First Team",
+     "u": "https://www.hoophall.com/hall-of-famers/first-team"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "cio-1894",
+   "sport": "olimpiadi",
+   "anno": 1894,
+   "data": "23 giugno 1894",
+   "circa": false,
+   "titolo": "Nasce il Comitato olimpico internazionale",
+   "testo": "Il 23 giugno 1894, alla Sorbona di Parigi, un congresso organizzato da Pierre de Coubertin approva all'unanimità il ritorno dei Giochi olimpici. È la nascita del CIO.",
+   "luogo": "Parigi, Sorbona",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "International Olympic Committee",
+     "u": "https://www.olympics.com/ioc/overview"
+    },
+    {
+     "i": "olympics.com",
+     "t": "factsheet - Olympic Day (23 June)",
+     "u": "https://stillmed.olympics.com/media/Documents/Beyond-the-Games/Factsheets/Olympic-Day.pdf"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "volley-morgan",
+   "sport": "pallavolo",
+   "anno": 1895,
+   "data": "",
+   "circa": false,
+   "titolo": "Morgan inventa la pallavolo",
+   "testo": "William G. Morgan, direttore sportivo della YMCA di Holyoke, nel Massachusetts, inventa un gioco meno faticoso del basket e lo chiama «mintonette». Presto diventerà volleyball.",
+   "luogo": "Holyoke (Massachusetts, USA)",
+   "fonti": [
+    {
+     "i": "FIVB",
+     "t": "History",
+     "u": "https://www.fivb.com/volleyball/the-game/history/"
+    },
+    {
+     "i": "Britannica",
+     "t": "Who invented volleyball?",
+     "u": "https://www.britannica.com/question/Who-invented-volleyball"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "atene-1896",
+   "sport": "olimpiadi",
+   "anno": 1896,
+   "data": "6–15 aprile 1896",
+   "circa": false,
+   "titolo": "Atene 1896, la prima Olimpiade moderna",
+   "testo": "Dal 6 al 15 aprile 1896 Atene ospita i primi Giochi dell'era moderna, nello Stadio Panatenaico: oltre 300 atleti, tutti uomini, in 43 gare di 9 sport.",
+   "luogo": "Atene, Stadio Panatenaico",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Athens 1896",
+     "u": "https://www.olympics.com/en/sport-events/athens-1896"
+    },
+    {
+     "i": "olympics.com",
+     "t": "The Opening Ceremony",
+     "u": "https://www.olympics.com/en/news/the-opening-ceremony"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "parigi-1900-donne",
+   "sport": "olimpiadi",
+   "anno": 1900,
+   "data": "",
+   "circa": false,
+   "titolo": "Parigi 1900: le prime donne ai Giochi",
+   "testo": "Ai Giochi di Parigi, legati all'Esposizione universale, gareggiano per la prima volta le donne: 22 su 997 atleti. La tennista britannica Charlotte Cooper è la prima campionessa olimpica in una gara individuale.",
+   "luogo": "Parigi",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "The first women Olympians",
+     "u": "https://www.olympics.com/en/news/the-first-women-olympians"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Paris 1900 Summer Olympics",
+     "u": "https://www.olympics.com/en/olympic-games/paris-1900"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "tennis-davis",
+   "sport": "tennis",
+   "anno": 1900,
+   "data": "",
+   "circa": false,
+   "titolo": "Nasce la Coppa Davis",
+   "testo": "Nel 1900 Stati Uniti e Gran Bretagna si sfidano per un trofeo comprato da Dwight Davis: nasce la Coppa Davis, oggi la più grande competizione annuale a squadre nazionali.",
+   "luogo": "Boston (USA)",
+   "fonti": [
+    {
+     "i": "Davis Cup",
+     "t": "History",
+     "u": "https://www.daviscup.com/en/about/history"
+    },
+    {
+     "i": "Britannica",
+     "t": "Davis Cup",
+     "u": "https://www.britannica.com/sports/Davis-Cup"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "calcio-fifa",
+   "sport": "calcio",
+   "anno": 1904,
+   "data": "21 maggio 1904",
+   "circa": false,
+   "titolo": "Nasce la FIFA",
+   "testo": "Il 21 maggio 1904 a Parigi i rappresentanti di sette federazioni europee fondano la Federazione internazionale del calcio.",
+   "luogo": "Parigi",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "FIFA celebrates 119th birthday",
+     "u": "https://inside.fifa.com/organisation/news/fifa-celebrates-119th-birthday"
+    },
+    {
+     "i": "FIFA",
+     "t": "Happy birthday FIFA!",
+     "u": "https://www.fifa.com/who-we-are/news/happy-birthday-fifa-772772"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "nuoto-fina",
+   "sport": "nuoto",
+   "anno": 1908,
+   "data": "19 luglio 1908",
+   "circa": false,
+   "titolo": "Nasce la FINA",
+   "testo": "Il 19 luglio 1908, durante le Olimpiadi di Londra, otto federazioni fondano la Federazione internazionale del nuoto (oggi World Aquatics).",
+   "luogo": "Londra",
+   "fonti": [
+    {
+     "i": "World Aquatics",
+     "t": "Overview and history",
+     "u": "https://www.worldaquatics.com/content/overview-and-history"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "ciclismo-giro-1909",
+   "sport": "ciclismo",
+   "anno": 1909,
+   "data": "13 maggio 1909",
+   "circa": false,
+   "titolo": "Il primo Giro d'Italia",
+   "testo": "Il 13 maggio 1909 parte da Milano il primo Giro d'Italia, organizzato dalla Gazzetta dello Sport: 8 tappe e 2.448 km. Vince Luigi Ganna.",
+   "luogo": "Milano",
+   "fonti": [
+    {
+     "i": "Giro d'Italia",
+     "t": "Giro d'Italia: tutte le edizioni storiche 1909-1922",
+     "u": "https://archivio.giroditalia.it/it/edizioni/1909-1922/"
+    },
+    {
+     "i": "Giro d'Italia",
+     "t": "Ricordi da… Torino, 1909: il primo Giro",
+     "u": "https://www.giroditalia.it/news/ricordi-da-torino-1909-il-primo-giro-e-il-cortese-inganno/"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "atletica-iaaf",
+   "sport": "atletica",
+   "anno": 1912,
+   "data": "17 luglio 1912",
+   "circa": false,
+   "titolo": "Nasce la federazione mondiale",
+   "testo": "Il 17 luglio 1912, a Stoccolma, 17 federazioni fondano la IAAF (oggi World Athletics) per avere regole comuni e un elenco ufficiale dei record del mondo.",
+   "luogo": "Stoccolma",
+   "fonti": [
+    {
+     "i": "World Athletics",
+     "t": "Early origins to 1930s",
+     "u": "https://worldathletics.org/heritage/history/early-origins-to-1930s"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "beach-santa-monica",
+   "sport": "beach",
+   "anno": 1920,
+   "data": "",
+   "circa": true,
+   "titolo": "Due contro due a Santa Monica",
+   "testo": "Sulle spiagge della California, e soprattutto a Santa Monica, negli anni Venti nasce il gioco a due per squadra. Il primo torneo si gioca alla fine degli anni Quaranta.",
+   "luogo": "Santa Monica (California, USA)",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Beach Volleyball",
+     "u": "https://www.olympics.com/en/sports/beach-volleyball/"
+    },
+    {
+     "i": "Britannica",
+     "t": "Beach volleyball",
+     "u": "https://www.britannica.com/sports/beach-volleyball"
+    }
+   ],
+   "italia": false,
+   "nota": "Le fonti non concordano: olympics.com indica il 1920 per il gioco a due e il 1947 per il primo torneo; Britannica indica il 1930 e il 1948 (Will Rogers State Beach)."
+  },
+  {
+   "id": "motori-le-mans",
+   "sport": "motori",
+   "anno": 1923,
+   "data": "26–27 maggio 1923",
+   "circa": false,
+   "titolo": "La prima 24 Ore di Le Mans",
+   "testo": "Il 26 e 27 maggio 1923 33 auto partono per la prima corsa di 24 ore sul circuito di Le Mans. Vincono André Lagache e René Léonard su Chenard & Walcker.",
+   "luogo": "Le Mans (Francia)",
+   "fonti": [
+    {
+     "i": "24h Le Mans",
+     "t": "A century of racing: the 24 Hours of Le Mans is 100 years old!",
+     "u": "https://www.24h-lemans.com/en/news/a-century-of-racing-the-24-hours-of-le-mans-is-100-years-old-57463"
+    },
+    {
+     "i": "24h Le Mans",
+     "t": "First winner of the 24 Hours of Le Mans",
+     "u": "https://www.24h-lemans.com/en/news/first-winner-of-the-24-hours-of-le-mans-who-was-rene-leonard-andre-lagaches-teammate-50683"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "chamonix-1924",
+   "sport": "olimpiadi",
+   "anno": 1924,
+   "data": "25 gennaio – 5 febbraio 1924",
+   "circa": false,
+   "titolo": "Chamonix 1924, i primi Giochi invernali",
+   "testo": "Dal 25 gennaio al 5 febbraio 1924 Chamonix ospita una «Settimana internazionale degli sport invernali» con 258 atleti di 16 paesi. Nel 1926 il CIO la riconosce come prima edizione dei Giochi olimpici invernali.",
+   "luogo": "Chamonix (Francia)",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "When were the first Olympic Winter Games held?",
+     "u": "https://www.olympics.com/ioc/faq/history-and-origin-of-the-games/when-were-the-first-olympic-winter-games-held"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Chamonix 1924 Winter Olympics",
+     "u": "https://www.olympics.com/en/olympic-games/chamonix-1924"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "sci-fis",
+   "sport": "sci",
+   "anno": 1924,
+   "data": "2 febbraio 1924",
+   "circa": false,
+   "titolo": "Nasce la FIS",
+   "testo": "Il 2 febbraio 1924, durante i Giochi di Chamonix, 14 nazioni fondano la Federazione internazionale dello sci, erede della commissione nata a Christiania (Oslo) nel 1910.",
+   "luogo": "Chamonix (Francia)",
+   "fonti": [
+    {
+     "i": "FIS",
+     "t": "History of FIS",
+     "u": "https://www.fis-ski.com/en/inside-fis/about-fis/history/history-of-fis"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "calcio-mondiale-1930",
+   "sport": "calcio",
+   "anno": 1930,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo Mondiale",
+   "testo": "In Uruguay si gioca il primo Campionato del mondo, con 13 squadre. Il 30 luglio, a Montevideo, l'Uruguay batte l'Argentina 4-2 in finale.",
+   "luogo": "Montevideo",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "FIFA World Cup champions: 1930-1978",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "ciclismo-maglia-rosa",
+   "sport": "ciclismo",
+   "anno": 1931,
+   "data": "",
+   "circa": false,
+   "titolo": "Nasce la maglia rosa",
+   "testo": "Nel 1931 Armando Cougnet, giornalista della Gazzetta dello Sport, introduce una maglia rosa per riconoscere subito il primo della classifica.",
+   "luogo": "",
+   "fonti": [
+    {
+     "i": "Giro d'Italia",
+     "t": "90 Years of the Maglia Rosa",
+     "u": "https://www.giroditalia.it/en/magliarosa/"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "sci-murren-1931",
+   "sport": "sci",
+   "anno": 1931,
+   "data": "20–23 febbraio 1931",
+   "circa": false,
+   "titolo": "I primi Mondiali di sci alpino",
+   "testo": "Dal 20 al 23 febbraio 1931 Mürren, in Svizzera, ospita i primi Mondiali di sci alpino: discesa e slalom, maschili e femminili. Tra i paesi in gara c'è anche l'Italia.",
+   "luogo": "Mürren (Svizzera)",
+   "fonti": [
+    {
+     "i": "FIS",
+     "t": "Where it all began: Mürren 1931",
+     "u": "https://100.fis-ski.com/moments/where-it-all-began-muerren-1931"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "basket-fiba",
+   "sport": "basket",
+   "anno": 1932,
+   "data": "18 giugno 1932",
+   "circa": false,
+   "titolo": "Nasce la FIBA",
+   "testo": "Il 18 giugno 1932, a Ginevra, otto federazioni nazionali (Argentina, Cecoslovacchia, Grecia, Italia, Lettonia, Portogallo, Romania e Svizzera) fondano la Federazione internazionale di basket e approvano regole comuni.",
+   "luogo": "Ginevra (Svizzera)",
+   "fonti": [
+    {
+     "i": "FIBA",
+     "t": "FIBA celebrates 85th anniversary",
+     "u": "https://www.fiba.basketball/en/news/fiba-celebrates-85th-anniversary"
+    },
+    {
+     "i": "FIBA",
+     "t": "8 Founding Federations",
+     "u": "https://about.fiba.basketball/en/fiba-hall-of-fame/hall-of-famers/8-founding-federations"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "calcio-italia-1934",
+   "sport": "calcio",
+   "anno": 1934,
+   "data": "",
+   "circa": false,
+   "titolo": "Italia campione del mondo",
+   "testo": "L'Italia di Vittorio Pozzo vince il Mondiale di casa battendo la Cecoslovacchia 2-1 ai supplementari a Roma. Nel 1938, in Francia, rivince: è la prima squadra a confermarsi campione.",
+   "luogo": "Roma",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "FIFA World Cup champions: 1930-1978",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1930-1978-uruguay-italy-germany-brazil-england-argentina"
+    },
+    {
+     "i": "FIFA",
+     "t": "The back-to-back champions",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/italy-brazil-consecutive-titles"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "basket-berlino-1936",
+   "sport": "basket",
+   "anno": 1936,
+   "data": "",
+   "circa": false,
+   "titolo": "Il basket arriva alle Olimpiadi",
+   "testo": "A Berlino il basket entra nel programma olimpico. Si gioca all'aperto su campi in terra: la finale si disputa sotto la pioggia e gli Stati Uniti battono il Canada 19-8.",
+   "luogo": "Berlino",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Olympic basketball's muddy beginnings",
+     "u": "https://www.olympics.com/en/news/olympic-basketball-s-muddy-beginnings"
+    },
+    {
+     "i": "FIBA",
+     "t": "Olympic Games: Berlin 1936",
+     "u": "https://www.fiba.basketball/en/news/olympic-games-berlin-1936"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "basket-nba",
+   "sport": "basket",
+   "anno": 1946,
+   "data": "",
+   "circa": false,
+   "titolo": "Nasce la lega che diventerà la NBA",
+   "testo": "Nel 1946 a New York nasce la Basketball Association of America, che gioca la prima partita il 1° novembre. Nel 1949 si fonde con la National Basketball League: nasce la NBA.",
+   "luogo": "New York",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "National Basketball Association (NBA)",
+     "u": "https://www.britannica.com/topic/National-Basketball-Association"
+    },
+    {
+     "i": "NBA",
+     "t": "About the NBA",
+     "u": "https://www.nba.com/news/about"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "volley-fivb",
+   "sport": "pallavolo",
+   "anno": 1947,
+   "data": "",
+   "circa": false,
+   "titolo": "Nasce la FIVB",
+   "testo": "Nell'aprile 1947 a Parigi quattordici federazioni, tra cui l'Italia, fondano la Federazione internazionale di pallavolo. Dal 1984 ha sede a Losanna.",
+   "luogo": "Parigi",
+   "fonti": [
+    {
+     "i": "FIVB",
+     "t": "Volleyball's Century: The FIVB Legacy",
+     "u": "https://www.fivb.com/inside-fivb/fivb/history/"
+    },
+    {
+     "i": "FIVB",
+     "t": "Volleyball History - Men's World Cup 2015",
+     "u": "http://worldcup.2015.men.fivb.com/en/competition/volleyballhistory"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "volley-mondiale-1949",
+   "sport": "pallavolo",
+   "anno": 1949,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo Mondiale",
+   "testo": "A settembre Praga ospita il primo Campionato del mondo maschile: vince l'Unione Sovietica davanti a Cecoslovacchia e Bulgaria. Il Mondiale femminile arriverà nel 1952.",
+   "luogo": "Praga",
+   "fonti": [
+    {
+     "i": "Volleyball World",
+     "t": "Men's World Championship by the numbers",
+     "u": "https://en.volleyballworld.com/volleyball/competitions/men-world-championship/2022/news/men-s-world-championship-by-the-numbers"
+    },
+    {
+     "i": "FIVB",
+     "t": "Volleyball's Century: The FIVB Legacy",
+     "u": "https://www.fivb.com/inside-fivb/fivb/history/"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "motori-f1-1950",
+   "sport": "motori",
+   "anno": 1950,
+   "data": "13 maggio 1950",
+   "circa": false,
+   "titolo": "Il primo Gran Premio di Formula 1",
+   "testo": "Il 13 maggio 1950 a Silverstone si corre la prima gara del Mondiale di Formula 1. Vince l'italiano Giuseppe «Nino» Farina su Alfa Romeo, che a fine anno sarà il primo campione del mondo.",
+   "luogo": "Silverstone (Inghilterra)",
+   "fonti": [
+    {
+     "i": "Formula 1",
+     "t": "Ten fascinating facts about the very first F1 race",
+     "u": "https://www.formula1.com/en/latest/article/f1-first-race-1950-silverstone.2f2zI6BmGT9bnK4vX10paZ"
+    },
+    {
+     "i": "Formula 1",
+     "t": "Great Britain - Silverstone",
+     "u": "https://www.formula1.com/en/information/great-britain-silverstone-circuit.2DtFVI1FjkYgLVdGhbAIv0"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "roma-1960-paralimpiadi",
+   "sport": "olimpiadi",
+   "anno": 1960,
+   "data": "18–25 settembre 1960",
+   "circa": false,
+   "titolo": "Roma 1960, le prime Paralimpiadi",
+   "testo": "Dal 18 al 25 settembre 1960, sei giorni dopo la chiusura delle Olimpiadi, Roma ospita i primi Giochi paralimpici, organizzati da Ludwig Guttmann e dal neurochirurgo italiano Antonio Maglio.",
+   "luogo": "Roma",
+   "fonti": [
+    {
+     "i": "paralympic.org",
+     "t": "Rome 1960",
+     "u": "https://www.paralympic.org/rome-1960"
+    },
+    {
+     "i": "paralympic.org",
+     "t": "Paralympic Games",
+     "u": "https://www.paralympic.org/paralympic-games"
+    }
+   ],
+   "italia": true,
+   "nota": "Partecipanti: l'IPC indica 400 atleti da 23 paesi nella pagina generale e 319 atleti da 21 paesi nella pagina dedicata a Roma 1960; nel testo non c'è il numero."
+  },
+  {
+   "id": "volley-tokyo-1964",
+   "sport": "pallavolo",
+   "anno": 1964,
+   "data": "",
+   "circa": false,
+   "titolo": "La pallavolo diventa olimpica",
+   "testo": "A Tokyo 1964 la pallavolo debutta ai Giochi, maschile e femminile insieme. Vincono l'Unione Sovietica tra gli uomini e il Giappone tra le donne, che in finale batte proprio l'URSS.",
+   "luogo": "Tokyo",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Volleyball: a brief history",
+     "u": "https://www.olympics.com/en/news/volleyball-a-brief-history"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Bewitched: Japan's 1964 gold in women's volleyball",
+     "u": "https://www.olympics.com/en/news/tokyo-1964-women-volleyball-japan-gold"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "sci-coppa-1967",
+   "sport": "sci",
+   "anno": 1967,
+   "data": "5 gennaio 1967",
+   "circa": false,
+   "titolo": "Nasce la Coppa del Mondo",
+   "testo": "Il 5 gennaio 1967 a Berchtesgaden si corre la prima gara della Coppa del Mondo di sci alpino, nata da un'idea del giornalista francese Serge Lang. La prima stagione conta 17 gare.",
+   "luogo": "Berchtesgaden (Germania)",
+   "fonti": [
+    {
+     "i": "FIS",
+     "t": "Alpine World Cup turns 60",
+     "u": "https://www.fis-ski.com/alpine-skiing/news/2026-27/crystal-globes-prominent-calendars-wild-cards-confirmed-alpine-world-cup-turns-60"
+    },
+    {
+     "i": "FIS",
+     "t": "The Ski World Cup, a success story",
+     "u": "https://100.fis-ski.com/moments/the-ski-world-cup-a-success-story"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "tennis-open",
+   "sport": "tennis",
+   "anno": 1968,
+   "data": "",
+   "circa": false,
+   "titolo": "Comincia l'era Open",
+   "testo": "Nel marzo 1968 la federazione internazionale approva i primi tornei aperti sia ai dilettanti sia ai professionisti: comincia l'era Open.",
+   "luogo": "",
+   "fonti": [
+    {
+     "i": "Britannica",
+     "t": "Tennis - Professional and open tennis",
+     "u": "https://www.britannica.com/sports/tennis/Professional-and-open-tennis"
+    },
+    {
+     "i": "Britannica",
+     "t": "What Is the Open Era in Tennis?",
+     "u": "https://www.britannica.com/sports/What-Is-the-Open-Era-in-Tennis"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "nuoto-mondiali-1973",
+   "sport": "nuoto",
+   "anno": 1973,
+   "data": "",
+   "circa": false,
+   "titolo": "I primi Mondiali di nuoto",
+   "testo": "Nel 1973 Belgrado ospita i primi Campionati del mondo di nuoto, pallanuoto, tuffi e nuoto sincronizzato.",
+   "luogo": "Belgrado",
+   "fonti": [
+    {
+     "i": "World Aquatics",
+     "t": "Overview and history",
+     "u": "https://www.worldaquatics.com/content/overview-and-history"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "basket-donne-1976",
+   "sport": "basket",
+   "anno": 1976,
+   "data": "",
+   "circa": false,
+   "titolo": "Il basket femminile alle Olimpiadi",
+   "testo": "A Montréal 1976 debutta il torneo olimpico femminile: vince l'Unione Sovietica, che in finale batte gli Stati Uniti.",
+   "luogo": "Montréal (Canada)",
+   "fonti": [
+    {
+     "i": "FIBA",
+     "t": "Tokyo 2020 by numbers",
+     "u": "https://www.fiba.basketball/en/news/olympics-men-2020-news-tokyo-2020-by-numbers-stats-and-facts-from-the-olympic-basketball-tournaments"
+    },
+    {
+     "i": "Wikipedia",
+     "t": "Basketball at the Summer Olympics (rev. 1383154364)",
+     "u": "https://en.wikipedia.org/w/index.php?title=Basketball_at_the_Summer_Olympics&oldid=1383154364"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "tennis-davis-1976",
+   "sport": "tennis",
+   "anno": 1976,
+   "data": "",
+   "circa": false,
+   "titolo": "Italia, prima Coppa Davis",
+   "testo": "A dicembre, a Santiago del Cile, l'Italia di Adriano Panatta e Corrado Barazzutti batte il Cile 4-1 e vince la sua prima Coppa Davis.",
+   "luogo": "Santiago del Cile",
+   "fonti": [
+    {
+     "i": "Davis Cup",
+     "t": "Previous Champions",
+     "u": "https://www.daviscup.com/en/previous-champions"
+    },
+    {
+     "i": "Davis Cup",
+     "t": "Italy Davis Cup team profile",
+     "u": "https://www.daviscup.com/en/news/italy-team-profile-article"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "calcio-italia-1982",
+   "sport": "calcio",
+   "anno": 1982,
+   "data": "11 luglio 1982",
+   "circa": false,
+   "titolo": "Campioni del mondo in Spagna",
+   "testo": "L'11 luglio 1982, al Bernabéu di Madrid, l'Italia batte la Germania Ovest 3-1 e vince il suo terzo Mondiale, il primo dal 1938.",
+   "luogo": "Madrid",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "FIFA World Cup champions: 1982-2026",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "atletica-mondiali-1983",
+   "sport": "atletica",
+   "anno": 1983,
+   "data": "7–14 agosto 1983",
+   "circa": false,
+   "titolo": "I primi Mondiali di atletica",
+   "testo": "Dal 7 al 14 agosto 1983 Helsinki ospita i primi Campionati del mondo: 1.355 atleti da 153 paesi. Fino ad allora il titolo mondiale era, di fatto, quello olimpico.",
+   "luogo": "Helsinki",
+   "fonti": [
+    {
+     "i": "World Athletics",
+     "t": "1980s to end of 20th Century",
+     "u": "https://worldathletics.org/heritage/history/1980s-to-end-of-20th-century"
+    },
+    {
+     "i": "World Athletics",
+     "t": "History of the World Athletics Championships",
+     "u": "https://worldathletics.org/en/competitions/world-athletics-championships/world-athletics-championships-tokyo-2025-7190593/event-info/world-athletics-history"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "basket-euro-1983",
+   "sport": "basket",
+   "anno": 1983,
+   "data": "",
+   "circa": false,
+   "titolo": "Italia campione d'Europa",
+   "testo": "Agli Europei in Francia l'Italia di Sandro Gamba vince tutte le sette partite e conquista il suo primo titolo europeo; in finale c'è la Spagna.",
+   "luogo": "Francia (Limoges, Caen, Nantes)",
+   "fonti": [
+    {
+     "i": "FIBA",
+     "t": "All-Time Medalists - FIBA EuroBasket",
+     "u": "https://www.fiba.basketball/en/events/fiba-eurobasket-2025/all-time-medalists"
+    },
+    {
+     "i": "FIBA",
+     "t": "Top Five Italy Teams of All Time",
+     "u": "https://www.fiba.basketball/en/news/top-five-italy-teams-all-time"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "beach-fivb-1987",
+   "sport": "beach",
+   "anno": 1987,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo torneo FIVB",
+   "testo": "Nel 1987 si gioca il primo torneo di beach volley riconosciuto dalla federazione internazionale. Nove anni dopo il beach volley sarà olimpico.",
+   "luogo": "",
+   "fonti": [
+    {
+     "i": "FIVB",
+     "t": "FIVB celebrates 75th Anniversary",
+     "u": "https://www.fivb.com/fivb-celebrates-75th-anniversary/"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "volley-fenomeni",
+   "sport": "pallavolo",
+   "anno": 1990,
+   "data": "",
+   "circa": false,
+   "titolo": "La «generazione dei fenomeni»",
+   "testo": "Con Julio Velasco in panchina l'Italia vince il Mondiale 1990 a Rio de Janeiro. È il primo di tre titoli mondiali di fila: poi Atene 1994 e Tokyo 1998.",
+   "luogo": "Rio de Janeiro",
+   "fonti": [
+    {
+     "i": "Volleyball World",
+     "t": "Worlds' roll of honour: 1949-2018",
+     "u": "https://en.volleyballworld.com/volleyball/competitions/men-world-championship/2022/news/men-s-world-championship-roll-of-honour"
+    },
+    {
+     "i": "olympics.com",
+     "t": "De Giorgi, Velasco e Giani: dalla Generazione dei Fenomeni a Parigi 2024",
+     "u": "https://www.olympics.com/it/notizie/pallavolo-degiorgi-giani-velasco-olimpiadi-parigi-2024-generazione-fenomeni"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "calcio-donne-1991",
+   "sport": "calcio",
+   "anno": 1991,
+   "data": "",
+   "circa": false,
+   "titolo": "Il primo Mondiale femminile",
+   "testo": "La FIFA organizza in Cina il primo Campionato del mondo femminile.",
+   "luogo": "Cina",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "We are FIFA",
+     "u": "https://jobs.fifa.com/we-are-fifa"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "beach-atlanta-1996",
+   "sport": "beach",
+   "anno": 1996,
+   "data": "",
+   "circa": false,
+   "titolo": "Il beach volley diventa olimpico",
+   "testo": "Dopo la prova dimostrativa di Barcellona 1992, il beach volley entra nei Giochi ad Atlanta: oltre 107.000 spettatori in sei giorni. Vincono Karch Kiraly e Kent Steffes (USA) e Jackie Silva e Sandra Pires (Brasile).",
+   "luogo": "Atlanta (USA)",
+   "fonti": [
+    {
+     "i": "FIVB",
+     "t": "Beach volleyball marks 30 years as an Olympic sport",
+     "u": "https://www.fivb.com/beach-volleyball-marks-30-years-as-an-olympic-sport/"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Beach volleyball rules: All you need to know",
+     "u": "https://www.olympics.com/en/news/beach-volleyball-indoor-difference-rules-history-olympics"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "beach-mondiali-1997",
+   "sport": "beach",
+   "anno": 1997,
+   "data": "",
+   "circa": false,
+   "titolo": "I primi Mondiali di beach volley",
+   "testo": "L'anno dopo il debutto olimpico la FIVB organizza i primi Campionati del mondo di beach volley.",
+   "luogo": "",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "History of volleyball: From origins to the Olympics",
+     "u": "https://www.olympics.com/en/news/what-history-volleyball-game-origin-mintonette-ymca-fivb-olympics"
+    }
+   ],
+   "italia": false,
+   "nota": "La sede non è stata verificata in questa sessione e non è indicata."
+  },
+  {
+   "id": "basket-euro-1999",
+   "sport": "basket",
+   "anno": 1999,
+   "data": "",
+   "circa": false,
+   "titolo": "Di nuovo campioni d'Europa",
+   "testo": "Agli Europei del 1999, ancora in Francia, l'Italia vince il suo secondo titolo battendo la Spagna; Gregor Fučka è il miglior giocatore del torneo.",
+   "luogo": "Francia (finale a Parigi)",
+   "fonti": [
+    {
+     "i": "FIBA",
+     "t": "All-Time Medalists - FIBA EuroBasket",
+     "u": "https://www.fiba.basketball/en/events/fiba-eurobasket-2025/all-time-medalists"
+    }
+   ],
+   "italia": true,
+   "nota": "Che la Spagna sia la finalista viene dalla tabella FIBA (Italia prima, Spagna seconda)."
+  },
+  {
+   "id": "basket-atene-2004",
+   "sport": "basket",
+   "anno": 2004,
+   "data": "",
+   "circa": false,
+   "titolo": "Argento olimpico ad Atene",
+   "testo": "Ai Giochi di Atene l'Italia arriva in finale e vince l'argento, la sua medaglia olimpica più recente nel basket; l'oro va all'Argentina.",
+   "luogo": "Atene",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Athens 2004 Basketball Results",
+     "u": "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball"
+    },
+    {
+     "i": "FIBA",
+     "t": "Back to the future: Pozzecco recalls...",
+     "u": "https://www.fiba.basketball/en/events/fiba-eurobasket-2025-qualifiers/news/eurobasket-2025-qualifiers-news-back-to-the-future-pozzecco-recalls-playing-in-eurobasket-qualifiers-1999-2003"
+    }
+   ],
+   "italia": true,
+   "nota": "«La più recente» è una deduzione di Claude dall'albo d'oro olimpico 2008–2024, dove l'Italia non compare sul podio."
+  },
+  {
+   "id": "calcio-italia-2006",
+   "sport": "calcio",
+   "anno": 2006,
+   "data": "",
+   "circa": false,
+   "titolo": "Il quarto titolo mondiale",
+   "testo": "In Germania l'Italia vince il suo quarto Mondiale: la finale con la Francia finisce 1-1 e gli azzurri vincono 5-3 ai rigori.",
+   "luogo": "Germania",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "FIFA World Cup champions: 1982-2026",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/world-cup-champions-1982-2026-italy-argentina-germany-brazil-france-spain"
+    },
+    {
+     "i": "FIFA",
+     "t": "Teams with the most FIFA World Cup titles",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "atletica-958",
+   "sport": "atletica",
+   "anno": 2009,
+   "data": "16 agosto 2009",
+   "circa": false,
+   "titolo": "9\"58 sui 100 metri",
+   "testo": "Ai Mondiali di Berlino, il 16 agosto 2009, Usain Bolt corre i 100 metri in 9\"58: è ancora il record del mondo.",
+   "luogo": "Berlino, Olympiastadion",
+   "fonti": [
+    {
+     "i": "World Athletics",
+     "t": "World records set at Berlin World Championships have been ratified",
+     "u": "https://worldathletics.org/news/news/world-records-set-at-berlin-world-championshi"
+    },
+    {
+     "i": "World Athletics",
+     "t": "100 Metres men - All Time Top Lists",
+     "u": "https://worldathletics.org/records/all-time-toplists/sprints/100-metres/outdoor/men/senior"
+    }
+   ],
+   "italia": false,
+   "nota": ""
+  },
+  {
+   "id": "beach-rio-2016",
+   "sport": "beach",
+   "anno": 2016,
+   "data": "",
+   "circa": false,
+   "titolo": "Nicolai e Lupo d'argento a Rio",
+   "testo": "Paolo Nicolai e Daniele Lupo arrivano in finale sulla spiaggia di Copacabana e vincono l'argento, la prima medaglia olimpica italiana nel beach volley.",
+   "luogo": "Rio de Janeiro, Copacabana",
+   "fonti": [
+    {
+     "i": "Volleyball World",
+     "t": "A fresh start for Nicolai in 2022",
+     "u": "https://en.volleyballworld.com/beachvolleyball/competitions/beach-pro-tour-2022/news/it-s-all-new-for-nicolai-in-2022"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Rio 2016 Beach Volleyball Results",
+     "u": "https://www.olympics.com/en/olympic-games/rio-2016/results/beach-volleyball"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "tennis-davis-tris",
+   "sport": "tennis",
+   "anno": 2023,
+   "data": "",
+   "circa": false,
+   "titolo": "Tre Coppe Davis di fila",
+   "testo": "Dopo 47 anni l'Italia torna a vincere la Coppa Davis nel 2023 a Malaga (2-0 all'Australia). Si ripete nel 2024 (Paesi Bassi) e nel 2025 a Bologna (Spagna).",
+   "luogo": "Malaga e Bologna",
+   "fonti": [
+    {
+     "i": "Davis Cup",
+     "t": "Previous Champions",
+     "u": "https://www.daviscup.com/en/previous-champions"
+    },
+    {
+     "i": "Davis Cup",
+     "t": "Italy: meet the Davis Cup by Generali Final 8 team",
+     "u": "https://www.daviscup.com/en/news/italy-meet-the-davis-cup-by-generali-final-8-team"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "volley-parigi-2024",
+   "sport": "pallavolo",
+   "anno": 2024,
+   "data": "11 agosto 2024",
+   "circa": false,
+   "titolo": "Oro olimpico per l'Italia femminile",
+   "testo": "L'11 agosto 2024 a Parigi l'Italia di Velasco batte gli Stati Uniti 3-0 nella finale olimpica: è la prima medaglia olimpica della pallavolo femminile italiana, e subito d'oro.",
+   "luogo": "Parigi",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Paris 2024 volleyball: Italy's women win first Olympic volleyball gold",
+     "u": "https://www.olympics.com/en/news/paris-2024-results-italy-win-first-olympic-volleyball-gold"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "volley-2025",
+   "sport": "pallavolo",
+   "anno": 2025,
+   "data": "",
+   "circa": false,
+   "titolo": "Doppio titolo mondiale",
+   "testo": "Nel 2025 l'Italia vince entrambi i Mondiali: le donne il 7 settembre a Bangkok (3-2 alla Türkiye), gli uomini il 28 settembre a Manila (3-1 alla Bulgaria), quinto titolo maschile.",
+   "luogo": "Bangkok e Manila",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "FIVB Women's World Championship 2025: Italy clinch world title",
+     "u": "https://www.olympics.com/en/news/fivb-womens-volleyball-world-championship-2025-italy-clinch-title"
+    },
+    {
+     "i": "Volleyball World",
+     "t": "Italy beat Bulgaria to triumph with second consecutive and fifth overall world title",
+     "u": "https://en.volleyballworld.com/volleyball/competitions/men-world-championship/news/italy-beat-bulgaria-to-triumph-with-second-consecutive-and-fifth-overall-world-title"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  },
+  {
+   "id": "calcio-mondiale-2026",
+   "sport": "calcio",
+   "anno": 2026,
+   "data": "",
+   "circa": false,
+   "titolo": "Mondiale 2026: vince la Spagna",
+   "testo": "Le pagine FIFA aggiornate indicano la Spagna campione del mondo 2026: è il suo secondo titolo.",
+   "luogo": "Canada, Messico e Stati Uniti",
+   "fonti": [
+    {
+     "i": "FIFA",
+     "t": "Teams with the most FIFA World Cup titles",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/teams-most-wins-titles-trophies"
+    },
+    {
+     "i": "FIFA",
+     "t": "World Cup-winning teams by total time trailed",
+     "u": "https://www.fifa.com/en/tournaments/mens/worldcup/articles/winners-champions-time-behind-losing"
+    }
+   ],
+   "italia": false,
+   "nota": "Verificato solo su due pagine statistiche FIFA (titoli per squadra e minuti in svantaggio). Paesi organizzatori da conoscenza di Claude, non da una fonte letta in questa sessione."
+  },
+  {
+   "id": "milano-cortina-2026",
+   "sport": "olimpiadi",
+   "anno": 2026,
+   "data": "6–22 febbraio 2026",
+   "circa": false,
+   "titolo": "Milano Cortina 2026, record dell'Italia",
+   "testo": "Ai Giochi invernali di casa, dal 6 al 22 febbraio 2026, l'Italia vince 30 medaglie (10 ori, 6 argenti, 14 bronzi), il suo miglior risultato di sempre. Arianna Fontana arriva a 14 medaglie olimpiche: nessun atleta italiano ne ha vinte di più.",
+   "luogo": "Milano e Cortina d'Ampezzo",
+   "fonti": [
+    {
+     "i": "olympics.com",
+     "t": "Olympic Winter Games Milano Cortina 2026",
+     "u": "https://www.olympics.com/en/olympic-games/milano-cortina-2026"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Hosts Italy breaks all-time medal record at Winter Olympics",
+     "u": "https://www.olympics.com/en/news/hosts-italy-breaks-all-time-medal-record-at-winter-olympics-all-medals-complete-list"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Achievements, emotions and records: the best of the Milano Cortina 2026 Winter Olympics",
+     "u": "https://www.olympics.com/en/milano-cortina-2026/news/imprese-emozioni-e-record-il-meglio-dei-giochi-olimpici-invernali-di-milano-cortina-2026"
+    }
+   ],
+   "italia": true,
+   "nota": ""
+  }
+ ],
+ "albi": {
+  "basket": {
+   "titolo": "Albo d'oro olimpico del basket",
+   "tornei": [
+    {
+     "nome": "Uomini",
+     "righe": [
+      {
+       "anno": 1936,
+       "sede": "Berlino",
+       "oro": "Stati Uniti",
+       "ris": "19–8",
+       "argento": "Canada",
+       "bronzo": "Messico"
+      },
+      {
+       "anno": 1948,
+       "sede": "Londra",
+       "oro": "Stati Uniti",
+       "ris": "65–21",
+       "argento": "Francia",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 1952,
+       "sede": "Helsinki",
+       "oro": "Stati Uniti",
+       "ris": "36–25",
+       "argento": "Unione Sovietica",
+       "bronzo": "Uruguay"
+      },
+      {
+       "anno": 1956,
+       "sede": "Melbourne",
+       "oro": "Stati Uniti",
+       "ris": "89–55",
+       "argento": "Unione Sovietica",
+       "bronzo": "Uruguay"
+      },
+      {
+       "anno": 1960,
+       "sede": "Roma",
+       "oro": "Stati Uniti",
+       "ris": "81–57",
+       "argento": "Unione Sovietica",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 1964,
+       "sede": "Tokyo",
+       "oro": "Stati Uniti",
+       "ris": "73–59",
+       "argento": "Unione Sovietica",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 1968,
+       "sede": "Città del Messico",
+       "oro": "Stati Uniti",
+       "ris": "65–50",
+       "argento": "Jugoslavia",
+       "bronzo": "Unione Sovietica"
+      },
+      {
+       "anno": 1972,
+       "sede": "Monaco di Baviera",
+       "oro": "Unione Sovietica",
+       "ris": "51–50",
+       "argento": "Stati Uniti",
+       "bronzo": "Cuba"
+      },
+      {
+       "anno": 1976,
+       "sede": "Montréal",
+       "oro": "Stati Uniti",
+       "ris": "95–74",
+       "argento": "Jugoslavia",
+       "bronzo": "Unione Sovietica"
+      },
+      {
+       "anno": 1980,
+       "sede": "Mosca",
+       "oro": "Jugoslavia",
+       "ris": "86–77",
+       "argento": "Italia",
+       "bronzo": "Unione Sovietica"
+      },
+      {
+       "anno": 1984,
+       "sede": "Los Angeles",
+       "oro": "Stati Uniti",
+       "ris": "96–65",
+       "argento": "Spagna",
+       "bronzo": "Jugoslavia"
+      },
+      {
+       "anno": 1988,
+       "sede": "Seul",
+       "oro": "Unione Sovietica",
+       "ris": "76–63",
+       "argento": "Jugoslavia",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 1992,
+       "sede": "Barcellona",
+       "oro": "Stati Uniti",
+       "ris": "117–85",
+       "argento": "Croazia",
+       "bronzo": "Lituania"
+      },
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Stati Uniti",
+       "ris": "95–69",
+       "argento": "RF Jugoslavia",
+       "bronzo": "Lituania"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "Stati Uniti",
+       "ris": "85–75",
+       "argento": "Francia",
+       "bronzo": "Lituania"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "Argentina",
+       "ris": "84–69",
+       "argento": "Italia",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "Stati Uniti",
+       "ris": "118–107",
+       "argento": "Spagna",
+       "bronzo": "Argentina"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "Stati Uniti",
+       "ris": "107–100",
+       "argento": "Spagna",
+       "bronzo": "Russia"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Stati Uniti",
+       "ris": "96–66",
+       "argento": "Serbia",
+       "bronzo": "Spagna"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Stati Uniti",
+       "ris": "87–82",
+       "argento": "Francia",
+       "bronzo": "Australia"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Stati Uniti",
+       "ris": "98–87",
+       "argento": "Francia",
+       "bronzo": "Serbia"
+      }
+     ]
+    },
+    {
+     "nome": "Donne",
+     "righe": [
+      {
+       "anno": 1976,
+       "sede": "Montréal",
+       "oro": "Unione Sovietica",
+       "ris": "112–77",
+       "argento": "Stati Uniti",
+       "bronzo": "Bulgaria"
+      },
+      {
+       "anno": 1980,
+       "sede": "Mosca",
+       "oro": "Unione Sovietica",
+       "ris": "104–73",
+       "argento": "Bulgaria",
+       "bronzo": "Jugoslavia"
+      },
+      {
+       "anno": 1984,
+       "sede": "Los Angeles",
+       "oro": "Stati Uniti",
+       "ris": "85–55",
+       "argento": "Corea del Sud",
+       "bronzo": "Cina"
+      },
+      {
+       "anno": 1988,
+       "sede": "Seul",
+       "oro": "Stati Uniti",
+       "ris": "77–70",
+       "argento": "Jugoslavia",
+       "bronzo": "Unione Sovietica"
+      },
+      {
+       "anno": 1992,
+       "sede": "Barcellona",
+       "oro": "Squadra Unificata",
+       "ris": "76–66",
+       "argento": "Cina",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Stati Uniti",
+       "ris": "111–87",
+       "argento": "Brasile",
+       "bronzo": "Australia"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "Stati Uniti",
+       "ris": "76–54",
+       "argento": "Australia",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "Stati Uniti",
+       "ris": "74–63",
+       "argento": "Australia",
+       "bronzo": "Russia"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "Stati Uniti",
+       "ris": "92–65",
+       "argento": "Australia",
+       "bronzo": "Russia"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "Stati Uniti",
+       "ris": "86–50",
+       "argento": "Francia",
+       "bronzo": "Australia"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Stati Uniti",
+       "ris": "101–72",
+       "argento": "Spagna",
+       "bronzo": "Serbia"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Stati Uniti",
+       "ris": "90–75",
+       "argento": "Giappone",
+       "bronzo": "Francia"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Stati Uniti",
+       "ris": "67–66",
+       "argento": "Francia",
+       "bronzo": "Australia"
+      }
+     ]
+    }
+   ],
+   "fonti": [
+    {
+     "i": "Wikipedia",
+     "t": "Basketball at the Summer Olympics (revisione 1383154364, tabelle «Results summary»)",
+     "u": "https://en.wikipedia.org/w/index.php?title=Basketball_at_the_Summer_Olympics&oldid=1383154364"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Athens 2004 Basketball Results",
+     "u": "https://www.olympics.com/en/olympic-games/athens-2004/results/basketball"
+    }
+   ]
+  },
+  "pallavolo": {
+   "titolo": "Albo d'oro olimpico della pallavolo",
+   "tornei": [
+    {
+     "nome": "Uomini",
+     "righe": [
+      {
+       "anno": 1964,
+       "sede": "Tokyo",
+       "oro": "Unione Sovietica",
+       "ris": "girone",
+       "argento": "Cecoslovacchia",
+       "bronzo": "Giappone"
+      },
+      {
+       "anno": 1968,
+       "sede": "Città del Messico",
+       "oro": "Unione Sovietica",
+       "ris": "girone",
+       "argento": "Giappone",
+       "bronzo": "Cecoslovacchia"
+      },
+      {
+       "anno": 1972,
+       "sede": "Monaco di Baviera",
+       "oro": "Giappone",
+       "ris": "3–1",
+       "argento": "Germania Est",
+       "bronzo": "Unione Sovietica"
+      },
+      {
+       "anno": 1976,
+       "sede": "Montréal",
+       "oro": "Polonia",
+       "ris": "3–2",
+       "argento": "Unione Sovietica",
+       "bronzo": "Cuba"
+      },
+      {
+       "anno": 1980,
+       "sede": "Mosca",
+       "oro": "Unione Sovietica",
+       "ris": "3–1",
+       "argento": "Bulgaria",
+       "bronzo": "Romania"
+      },
+      {
+       "anno": 1984,
+       "sede": "Los Angeles",
+       "oro": "Stati Uniti",
+       "ris": "3–0",
+       "argento": "Brasile",
+       "bronzo": "Italia"
+      },
+      {
+       "anno": 1988,
+       "sede": "Seul",
+       "oro": "Stati Uniti",
+       "ris": "3–1",
+       "argento": "Unione Sovietica",
+       "bronzo": "Argentina"
+      },
+      {
+       "anno": 1992,
+       "sede": "Barcellona",
+       "oro": "Brasile",
+       "ris": "3–0",
+       "argento": "Paesi Bassi",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Paesi Bassi",
+       "ris": "3–2",
+       "argento": "Italia",
+       "bronzo": "RF Jugoslavia"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "RF Jugoslavia",
+       "ris": "3–0",
+       "argento": "Russia",
+       "bronzo": "Italia"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "Brasile",
+       "ris": "3–1",
+       "argento": "Italia",
+       "bronzo": "Russia"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "Stati Uniti",
+       "ris": "3–1",
+       "argento": "Brasile",
+       "bronzo": "Russia"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "Russia",
+       "ris": "3–2",
+       "argento": "Brasile",
+       "bronzo": "Italia"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Brasile",
+       "ris": "3–0",
+       "argento": "Italia",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Francia",
+       "ris": "3–2",
+       "argento": "ROC (Russia)",
+       "bronzo": "Argentina"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Francia",
+       "ris": "3–0",
+       "argento": "Polonia",
+       "bronzo": "Stati Uniti"
+      }
+     ]
+    },
+    {
+     "nome": "Donne",
+     "righe": [
+      {
+       "anno": 1964,
+       "sede": "Tokyo",
+       "oro": "Giappone",
+       "ris": "girone",
+       "argento": "Unione Sovietica",
+       "bronzo": "Polonia"
+      },
+      {
+       "anno": 1968,
+       "sede": "Città del Messico",
+       "oro": "Unione Sovietica",
+       "ris": "girone",
+       "argento": "Giappone",
+       "bronzo": "Polonia"
+      },
+      {
+       "anno": 1972,
+       "sede": "Monaco di Baviera",
+       "oro": "Unione Sovietica",
+       "ris": "3–2",
+       "argento": "Giappone",
+       "bronzo": "Corea del Nord"
+      },
+      {
+       "anno": 1976,
+       "sede": "Montréal",
+       "oro": "Giappone",
+       "ris": "3–0",
+       "argento": "Unione Sovietica",
+       "bronzo": "Corea del Sud"
+      },
+      {
+       "anno": 1980,
+       "sede": "Mosca",
+       "oro": "Unione Sovietica",
+       "ris": "3–1",
+       "argento": "Germania Est",
+       "bronzo": "Bulgaria"
+      },
+      {
+       "anno": 1984,
+       "sede": "Los Angeles",
+       "oro": "Cina",
+       "ris": "3–0",
+       "argento": "Stati Uniti",
+       "bronzo": "Giappone"
+      },
+      {
+       "anno": 1988,
+       "sede": "Seul",
+       "oro": "Unione Sovietica",
+       "ris": "3–2",
+       "argento": "Perù",
+       "bronzo": "Cina"
+      },
+      {
+       "anno": 1992,
+       "sede": "Barcellona",
+       "oro": "Cuba",
+       "ris": "3–1",
+       "argento": "Squadra Unificata",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Cuba",
+       "ris": "3–1",
+       "argento": "Cina",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "Cuba",
+       "ris": "3–2",
+       "argento": "Russia",
+       "bronzo": "Brasile"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "Cina",
+       "ris": "3–2",
+       "argento": "Russia",
+       "bronzo": "Cuba"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "Brasile",
+       "ris": "3–1",
+       "argento": "Stati Uniti",
+       "bronzo": "Cina"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "Brasile",
+       "ris": "3–1",
+       "argento": "Stati Uniti",
+       "bronzo": "Giappone"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Cina",
+       "ris": "3–1",
+       "argento": "Serbia",
+       "bronzo": "Stati Uniti"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Stati Uniti",
+       "ris": "3–0",
+       "argento": "Brasile",
+       "bronzo": "Serbia"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Italia",
+       "ris": "3–0",
+       "argento": "Stati Uniti",
+       "bronzo": "Brasile"
+      }
+     ]
+    }
+   ],
+   "fonti": [
+    {
+     "i": "Wikipedia",
+     "t": "Volleyball at the Summer Olympics (revisione 1381863204, tabelle «Results summary»)",
+     "u": "https://en.wikipedia.org/w/index.php?title=Volleyball_at_the_Summer_Olympics&oldid=1381863204"
+    },
+    {
+     "i": "olympics.com",
+     "t": "Volleyball: a brief history",
+     "u": "https://www.olympics.com/en/news/volleyball-a-brief-history"
+    }
+   ]
+  },
+  "beach": {
+   "titolo": "Albo d'oro olimpico del beach volley",
+   "tornei": [
+    {
+     "nome": "Uomini",
+     "righe": [
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Kiraly / Steffes (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Dodd / Whitmarsh (Stati Uniti)",
+       "bronzo": "Child / Heese (Canada)"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "Blanton / Fonoimoana (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Zé Marco / Ricardo (Brasile)",
+       "bronzo": "Ahmann / Hager (Germania)"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "Emanuel / Ricardo (Brasile)",
+       "ris": "2–0",
+       "argento": "Bosma / Herrera (Spagna)",
+       "bronzo": "Heuscher / Kobel (Svizzera)"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "Dalhausser / Rogers (Stati Uniti)",
+       "ris": "2–1",
+       "argento": "Márcio / Fábio Luiz (Brasile)",
+       "bronzo": "Emanuel / Ricardo (Brasile)"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "Brink / Reckermann (Germania)",
+       "ris": "2–1",
+       "argento": "Alison / Emanuel (Brasile)",
+       "bronzo": "Pļaviņš / Šmēdiņš (Lettonia)"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Alison / Bruno (Brasile)",
+       "ris": "2–0",
+       "argento": "Lupo / Nicolai (Italia)",
+       "bronzo": "Brouwer / Meeuwsen (Paesi Bassi)"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Mol / Sørum (Norvegia)",
+       "ris": "2–0",
+       "argento": "Krasilnikov / Stoyanovskiy (ROC)",
+       "bronzo": "Tijan / Younousse (Qatar)"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Åhman / Hellvig (Svezia)",
+       "ris": "2–0",
+       "argento": "Ehlers / Wickler (Germania)",
+       "bronzo": "Mol / Sørum (Norvegia)"
+      }
+     ]
+    },
+    {
+     "nome": "Donne",
+     "righe": [
+      {
+       "anno": 1996,
+       "sede": "Atlanta",
+       "oro": "Pires / Silva (Brasile)",
+       "ris": "2–0",
+       "argento": "Rodrigues / Samuel (Brasile)",
+       "bronzo": "Cook / Pottharst (Australia)"
+      },
+      {
+       "anno": 2000,
+       "sede": "Sydney",
+       "oro": "Cook / Pottharst (Australia)",
+       "ris": "2–0",
+       "argento": "Shelda / Adriana Behar (Brasile)",
+       "bronzo": "Pires / Samuel (Brasile)"
+      },
+      {
+       "anno": 2004,
+       "sede": "Atene",
+       "oro": "May / Walsh (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Shelda / Adriana Behar (Brasile)",
+       "bronzo": "McPeak / Youngs (Stati Uniti)"
+      },
+      {
+       "anno": 2008,
+       "sede": "Pechino",
+       "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Tian / Wang (Cina)",
+       "bronzo": "Xue / Zhang (Cina)"
+      },
+      {
+       "anno": 2012,
+       "sede": "Londra",
+       "oro": "May-Treanor / Walsh Jennings (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Kessy / Ross (Stati Uniti)",
+       "bronzo": "Larissa / Juliana (Brasile)"
+      },
+      {
+       "anno": 2016,
+       "sede": "Rio de Janeiro",
+       "oro": "Ludwig / Walkenhorst (Germania)",
+       "ris": "2–0",
+       "argento": "Ágatha / Bárbara (Brasile)",
+       "bronzo": "Ross / Walsh Jennings (Stati Uniti)"
+      },
+      {
+       "anno": 2020,
+       "sede": "Tokyo",
+       "oro": "Klineman / Ross (Stati Uniti)",
+       "ris": "2–0",
+       "argento": "Artacho del Solar / Clancy (Australia)",
+       "bronzo": "Heidrich / Vergé-Dépré (Svizzera)"
+      },
+      {
+       "anno": 2024,
+       "sede": "Parigi",
+       "oro": "Ana Patrícia / Duda (Brasile)",
+       "ris": "2–1",
+       "argento": "Humana-Paredes / Wilkerson (Canada)",
+       "bronzo": "Brunner / Hüberli (Svizzera)"
+      }
+     ]
+    }
+   ],
+   "fonti": [
+    {
+     "i": "Wikipedia",
+     "t": "Beach volleyball at the Summer Olympics (revisione 1380739173, tabelle «Results summary»)",
+     "u": "https://en.wikipedia.org/w/index.php?title=Beach_volleyball_at_the_Summer_Olympics&oldid=1380739173"
+    },
+    {
+     "i": "FIVB",
+     "t": "History (beach volleyball)",
+     "u": "https://www.fivb.com/beach-volleyball/the-game/history/"
+    }
+   ]
+  }
+ },
+ "nota_albi": "Trascritto il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata); controllato a campione su olympics.com, FIVB e FIBA (Berlino 1936, Tokyo 1964, Atlanta 1996, Atene 2004, Rio 2016, Parigi 2024). Nel 1964 e nel 1968 la pallavolo si giocava a girone unico, senza finale.",
+ "aggiornato": "26 novembre 2026"
+}
