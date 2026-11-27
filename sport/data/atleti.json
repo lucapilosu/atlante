@@ -12684,7 +12684,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1969"
    },
    {
     "anno": 1970,
@@ -12692,7 +12693,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1970"
    },
    {
     "anno": 1971,
@@ -12700,7 +12702,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1971"
    },
    {
     "anno": 1972,
@@ -12708,7 +12711,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1972"
    },
    {
     "anno": 1974,
@@ -12716,7 +12720,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1974"
    },
    {
     "anno": 1968,
@@ -12724,7 +12729,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1968"
    },
    {
     "anno": 1970,
@@ -12732,7 +12738,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1970"
    },
    {
     "anno": 1972,
@@ -12740,7 +12747,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1972"
    },
    {
     "anno": 1973,
@@ -12748,7 +12756,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1973"
    },
    {
     "anno": 1974,
@@ -12756,7 +12765,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1974"
    },
    {
     "anno": 1973,
@@ -12839,7 +12849,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1949"
    },
    {
     "anno": 1952,
@@ -12847,7 +12858,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1952"
    },
    {
     "anno": 1940,
@@ -12855,7 +12867,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1940"
    },
    {
     "anno": 1947,
@@ -12863,7 +12876,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1947"
    },
    {
     "anno": 1949,
@@ -12871,7 +12885,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1949"
    },
    {
     "anno": 1952,
@@ -12879,7 +12894,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1952"
    },
    {
     "anno": 1953,
@@ -12887,7 +12903,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1953"
    }
   ],
   "fonti": [
@@ -12930,7 +12947,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1998"
    },
    {
     "anno": 1998,
@@ -12938,7 +12956,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1998"
    }
   ],
   "fonti": [
@@ -13013,7 +13032,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|2020"
    },
    {
     "anno": 2021,
@@ -13021,7 +13041,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|2021"
    },
    {
     "anno": 2024,
@@ -13029,7 +13050,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|2024"
    },
    {
     "anno": 2025,
@@ -13037,7 +13059,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|2025"
    },
    {
     "anno": 2026,
@@ -13045,7 +13068,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|2026"
    },
    {
     "anno": 2024,
@@ -13053,7 +13077,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|2024"
    }
   ],
   "fonti": [
@@ -13104,7 +13129,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1978"
    },
    {
     "anno": 1979,
@@ -13112,7 +13138,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1979"
    },
    {
     "anno": 1981,
@@ -13120,7 +13147,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1981"
    },
    {
     "anno": 1982,
@@ -13128,7 +13156,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1982"
    },
    {
     "anno": 1985,
@@ -13136,7 +13165,8 @@
     "comp": "Tour de France",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|tour|0|1985"
    },
    {
     "anno": 1980,
@@ -13144,7 +13174,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1980"
    },
    {
     "anno": 1982,
@@ -13152,7 +13183,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1982"
    },
    {
     "anno": 1985,
@@ -13160,7 +13192,8 @@
     "comp": "Giro d'Italia",
     "esito": "vittoria",
     "gara": "classifica generale",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "ciclismo|giro|0|1985"
    },
    {
     "anno": 1978,
@@ -13211,7 +13244,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1988"
    },
    {
     "anno": 1990,
@@ -13219,7 +13253,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1990"
    },
    {
     "anno": 1991,
@@ -13227,7 +13262,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1991"
    }
   ],
   "fonti": [
@@ -13262,7 +13298,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1994"
    },
    {
     "anno": 1995,
@@ -13270,7 +13307,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1995"
    },
    {
     "anno": 2000,
@@ -13278,7 +13316,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2000"
    },
    {
     "anno": 2001,
@@ -13286,7 +13325,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2001"
    },
    {
     "anno": 2002,
@@ -13294,7 +13334,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2002"
    },
    {
     "anno": 2003,
@@ -13302,7 +13343,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2003"
    },
    {
     "anno": 2004,
@@ -13310,7 +13352,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2004"
    }
   ],
   "fonti": [
@@ -13345,7 +13388,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2008"
    },
    {
     "anno": 2014,
@@ -13353,7 +13397,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2014"
    },
    {
     "anno": 2015,
@@ -13361,7 +13406,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2015"
    },
    {
     "anno": 2017,
@@ -13369,7 +13415,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2017"
    },
    {
     "anno": 2018,
@@ -13377,7 +13424,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2018"
    },
    {
     "anno": 2019,
@@ -13385,7 +13433,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2019"
    },
    {
     "anno": 2020,
@@ -13393,7 +13442,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|2020"
    }
   ],
   "fonti": [
@@ -13428,7 +13478,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1951"
    },
    {
     "anno": 1954,
@@ -13436,7 +13487,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1954"
    },
    {
     "anno": 1955,
@@ -13444,7 +13496,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1955"
    },
    {
     "anno": 1956,
@@ -13452,7 +13505,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1956"
    },
    {
     "anno": 1957,
@@ -13460,7 +13514,8 @@
     "comp": "Mondiale di Formula 1",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "motori|f1|0|1957"
    }
   ],
   "fonti": [
@@ -13944,7 +13999,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2016–17"
    },
    {
     "anno": 2018,
@@ -13952,7 +14008,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2017–18"
    },
    {
     "anno": 2019,
@@ -13960,7 +14017,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2018–19"
    },
    {
     "anno": 2022,
@@ -13968,7 +14026,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2021–22"
    },
    {
     "anno": 2023,
@@ -13976,7 +14035,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2022–23"
    },
    {
     "anno": 2026,
@@ -13984,7 +14044,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2025–26"
    }
   ],
   "fonti": [
@@ -14107,7 +14168,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2009–10"
    },
    {
     "anno": 2012,
@@ -14115,7 +14177,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2011–12"
    }
   ],
   "fonti": [
@@ -14222,7 +14285,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|1994–95"
    }
   ],
   "fonti": [
@@ -14369,7 +14433,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2011–12"
    },
    {
     "anno": 2013,
@@ -14377,7 +14442,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2012–13"
    },
    {
     "anno": 2014,
@@ -14385,7 +14451,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2013–14"
    },
    {
     "anno": 2015,
@@ -14393,7 +14460,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2014–15"
    },
    {
     "anno": 2016,
@@ -14401,7 +14469,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2015–16"
    },
    {
     "anno": 2017,
@@ -14409,7 +14478,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2016–17"
    },
    {
     "anno": 2018,
@@ -14417,7 +14487,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2017–18"
    },
    {
     "anno": 2019,
@@ -14425,7 +14496,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|0|2018–19"
    }
   ],
   "fonti": [
@@ -14540,7 +14612,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2019–20"
    },
    {
     "anno": 2025,
@@ -14548,7 +14621,8 @@
     "comp": "Coppa del Mondo generale",
     "esito": "titolo",
     "gara": "",
-    "ruolo": "atleta"
+    "ruolo": "atleta",
+    "albo": "sci|coppa|1|2024–25"
    }
   ],
   "fonti": [

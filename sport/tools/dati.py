@@ -15,6 +15,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
 import albo_atletica  # noqa: E402  (albo olimpico dell'atletica, v0.3)
+import altri_albi  # noqa: E402  (Giro, Tour, Formula 1, Coppa del Mondo di sci, v0.5)
 import atleti  # noqa: E402  (palmarès degli atleti, v0.3)
 import voci_v03  # noqa: E402  (tessere dal mondo, v0.3)
 
@@ -518,11 +519,13 @@ OLIMPIADI["atletica"] = {
                 "https://worldathletics.org/results/olympic-games/2024/the-xxxiii-olympic-games-7087/men/high-jump/final/result")],
 }
 ALTRI = albi.costruisci()
+for _sp, _gg in altri_albi.costruisci().items():
+    ALTRI[_sp] = ALTRI.get(_sp, []) + _gg
 NOTA_ALBI = ("Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, "
              "controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o "
              "giornalistiche, elencate tra le fonti.")
 ALBI = {}
-for sp in ["calcio", "basket", "pallavolo", "beach", "atletica"]:
+for sp in ["calcio", "basket", "pallavolo", "beach", "atletica", "ciclismo", "motori", "sci"]:
     gruppi = []
     if sp in OLIMPIADI:
         gruppi.append({"id": "olimpiadi", "nome": "Olimpiadi", "nota": NOTA_OLIMPIADI, **OLIMPIADI[sp]})
@@ -556,7 +559,8 @@ assert DONNE <= {a["id"] for a in ATL}, DONNE - {a["id"] for a in ATL}
 # Squadre allenate di genere diverso da quello dell'allenatore (palmarès da allenatore presenti nei dati).
 SQUADRA_ALLENATA = {"karch-kiraly": "Donne"}
 GRUPPO = {"Olimpiadi": "olimpiadi", "Mondiali": "mondiali", "Europei": "europei", "Campionato italiano": "scudetto",
-          "Campionato NBA": "nba"}
+          "Campionato NBA": "nba", "Giro d'Italia": "giro", "Tour de France": "tour", "Mondiale di Formula 1": "f1",
+          "Coppa del Mondo generale": "coppa"}
 NOMI_PAESE = {"Unione Sovietica, poi Lituania": {"Unione Sovietica", "Lituania", "Squadra Unificata"},
               "Unione Sovietica, poi Ucraina": {"Unione Sovietica", "Ucraina", "Squadra Unificata"},
               "Cuba, poi Polonia": {"Cuba", "Polonia"}, "Cuba, poi Italia": {"Cuba", "Italia"}, "Cuba, poi Brasile": {"Cuba", "Brasile"}, "Germania Ovest": {"Germania Ovest", "Germania"},
@@ -596,12 +600,12 @@ def collega(atl, albi_):
                 continue
             T = G["tornei"][ti]
             chiave = (p.get("stag") or "").replace("-", "–") or str(p["anno"])
-            if T["tipo"] == "lega" and not p.get("stag"):
-                r = next((r for r in T["righe"] if r["anno"] == p["anno"]), None)  # NBA: anno = fine stagione
+            if not p.get("stag"):  # NBA, sci: l'anno è quello di fine stagione
+                r = next((r for r in T["righe"] if r["anno"] == p["anno"]), None)
                 chiave = r.get("stag", str(r["anno"])) if r else chiave
             else:
                 r = next((r for r in T["righe"] if (r.get("stag") or str(r["anno"])) == chiave), None)
-            cella = {"oro": "oro", "titolo": "oro", "argento": "argento", "bronzo": "bronzo"}.get(p["esito"])
+            cella = {"oro": "oro", "titolo": "oro", "vittoria": "oro", "argento": "argento", "bronzo": "bronzo"}.get(p["esito"])
             if r is None or cella is None:
                 scartati.append((a["id"], p["comp"], p["anno"], p["gara"], "riga assente"))
                 continue

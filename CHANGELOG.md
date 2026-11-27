@@ -1,5 +1,17 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.5 · 27 novembre 2026
+
+- **Nuovi albi d'oro con il podio completo** (419 righe in più, 1.667 in tutto):
+  - Ciclismo: Giro d'Italia (1909–2026) e Tour de France (1903–2026), primo, secondo e terzo. Annotati i titoli revocati (Armstrong 1999–2005, non riassegnati) e quelli assegnati dopo una squalifica (Giro 2011, Tour 2006 e 2010).
+  - Formula 1: i primi tre del Mondiale piloti, stagione per stagione, dal 1950. Il 2026 ha il campione, Kimi Antonelli (titolo deciso in Messico il 1° novembre); secondo e terzo arriveranno dopo Abu Dhabi (6 dicembre).
+  - Sci alpino: podio della Coppa del Mondo generale, uomini e donne, dalla prima edizione (1967) al 2025-26.
+- Colonne con i nomi giusti per ogni albo (Vincitore, Campione, Secondo, Terzo) e «Stagione» per lo sci.
+- Nuovo filtro di ricerca «Giri, Coppe e Slam»; la Formula 1 conta tra i Mondiali.
+- I palmarès di Coppi, Merckx, Hinault, Pantani, Pogačar, dei piloti di F1 e degli sciatori portano alla riga giusta: 758 collegamenti controllati.
+- Fonti: tabelle di Wikipedia a revisione fissata (cinque blocchi controllati con SHA-256); campioni di F1 confrontati con l'elenco ufficiale dei campioni; risultati 2026 riscontrati su giroditalia.it, Euronews, Al Jazeera e FIS.
+- Prove: 113 controlli su PC e iPhone emulato.
+
 ## Pilu Sports Almanac v0.4 · 27 novembre 2026
 
 - **51 atleti nuovi di pallavolo e beach volley** (in tutto 151, con 1.833 risultati nel palmarès):

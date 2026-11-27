@@ -11778,6 +11778,3644 @@
      ]
     }
    ]
+  },
+  "ciclismo": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
+    {
+     "id": "giro",
+     "nome": "Giro d'Italia",
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti.",
+     "fonti": [
+      {
+       "i": "Wikipedia (it)",
+       "t": "Giro d'Italia, albo d'oro (revisione 153194242)",
+       "u": "https://it.wikipedia.org/w/index.php?title=Giro_d%27Italia&oldid=153194242"
+      },
+      {
+       "i": "Giro d'Italia",
+       "t": "Vingegaard makes cycling history, Milan wins in Rome (31 maggio 2026)",
+       "u": "https://www.giroditalia.it/en/news/vingegaard-makes-cycling-history-milan-wins-in-rome/"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "torneo",
+       "colonne": [
+        "Vincitore",
+        "Secondo",
+        "Terzo"
+       ],
+       "righe": [
+        {
+         "anno": 1909,
+         "sede": "",
+         "oro": "Luigi Ganna (Italia)",
+         "ris": "",
+         "argento": "Carlo Galetti (Italia)",
+         "bronzo": "Giovanni Rossignoli (Italia)"
+        },
+        {
+         "anno": 1910,
+         "sede": "",
+         "oro": "Carlo Galetti (Italia)",
+         "ris": "",
+         "argento": "Eberardo Pavesi (Italia)",
+         "bronzo": "Luigi Ganna (Italia)"
+        },
+        {
+         "anno": 1911,
+         "sede": "",
+         "oro": "Carlo Galetti (Italia)",
+         "ris": "",
+         "argento": "Giovanni Rossignoli (Italia)",
+         "bronzo": "Giovanni Gerbi (Italia)"
+        },
+        {
+         "anno": 1912,
+         "sede": "",
+         "oro": "Atala (Italia)",
+         "ris": "",
+         "argento": "Peugeot (Francia)",
+         "bronzo": "Gerbi (Italia)",
+         "nota": "Quell'anno la classifica fu a squadre."
+        },
+        {
+         "anno": 1913,
+         "sede": "",
+         "oro": "Carlo Oriani (Italia)",
+         "ris": "",
+         "argento": "Eberardo Pavesi (Italia)",
+         "bronzo": "Giuseppe Azzini (Italia)"
+        },
+        {
+         "anno": 1914,
+         "sede": "",
+         "oro": "Alfonso Calzolari (Italia)",
+         "ris": "",
+         "argento": "Pierino Albini (Italia)",
+         "bronzo": "Luigi Lucotti (Italia)"
+        },
+        {
+         "anno": 1919,
+         "sede": "",
+         "oro": "Costante Girardengo (Italia)",
+         "ris": "",
+         "argento": "Gaetano Belloni (Italia)",
+         "bronzo": "Marcel Buysse (Belgio)"
+        },
+        {
+         "anno": 1920,
+         "sede": "",
+         "oro": "Gaetano Belloni (Italia)",
+         "ris": "",
+         "argento": "Angelo Gremo (Italia)",
+         "bronzo": "Jean Alavoine (Francia)"
+        },
+        {
+         "anno": 1921,
+         "sede": "",
+         "oro": "Giovanni Brunero (Italia)",
+         "ris": "",
+         "argento": "Gaetano Belloni (Italia)",
+         "bronzo": "Bartolomeo Aymo (Italia)"
+        },
+        {
+         "anno": 1922,
+         "sede": "",
+         "oro": "Giovanni Brunero (Italia)",
+         "ris": "",
+         "argento": "Bartolomeo Aymo (Italia)",
+         "bronzo": "Giuseppe Enrici (Italia)"
+        },
+        {
+         "anno": 1923,
+         "sede": "",
+         "oro": "Costante Girardengo (Italia)",
+         "ris": "",
+         "argento": "Giovanni Brunero (Italia)",
+         "bronzo": "Bartolomeo Aymo (Italia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "",
+         "oro": "Giuseppe Enrici (Italia)",
+         "ris": "",
+         "argento": "Federico Gay (Italia)",
+         "bronzo": "Angiolo Gabrielli (Italia)"
+        },
+        {
+         "anno": 1925,
+         "sede": "",
+         "oro": "Alfredo Binda (Italia)",
+         "ris": "",
+         "argento": "Costante Girardengo (Italia)",
+         "bronzo": "Giovanni Brunero (Italia)"
+        },
+        {
+         "anno": 1926,
+         "sede": "",
+         "oro": "Giovanni Brunero (Italia)",
+         "ris": "",
+         "argento": "Alfredo Binda (Italia)",
+         "bronzo": "Arturo Bresciani (Italia)"
+        },
+        {
+         "anno": 1927,
+         "sede": "",
+         "oro": "Alfredo Binda (Italia)",
+         "ris": "",
+         "argento": "Giovanni Brunero (Italia)",
+         "bronzo": "Antonio Negrini (Italia)"
+        },
+        {
+         "anno": 1928,
+         "sede": "",
+         "oro": "Alfredo Binda (Italia)",
+         "ris": "",
+         "argento": "Giuseppe Pancera (Italia)",
+         "bronzo": "Bartolomeo Aymo (Italia)"
+        },
+        {
+         "anno": 1929,
+         "sede": "",
+         "oro": "Alfredo Binda (Italia)",
+         "ris": "",
+         "argento": "Domenico Piemontesi (Italia)",
+         "bronzo": "Leonida Frascarelli (Italia)"
+        },
+        {
+         "anno": 1930,
+         "sede": "",
+         "oro": "Luigi Marchisio (Italia)",
+         "ris": "",
+         "argento": "Luigi Giacobbe (Italia)",
+         "bronzo": "Allegro Grandi (Italia)"
+        },
+        {
+         "anno": 1931,
+         "sede": "",
+         "oro": "Francesco Camusso (Italia)",
+         "ris": "",
+         "argento": "Luigi Giacobbe (Italia)",
+         "bronzo": "Luigi Marchisio (Italia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "",
+         "oro": "Antonio Pesenti (Italia)",
+         "ris": "",
+         "argento": "Jef Demuysere (Belgio)",
+         "bronzo": "Remo Bertoni (Italia)"
+        },
+        {
+         "anno": 1933,
+         "sede": "",
+         "oro": "Alfredo Binda (Italia)",
+         "ris": "",
+         "argento": "Jef Demuysere (Belgio)",
+         "bronzo": "Domenico Piemontesi (Italia)"
+        },
+        {
+         "anno": 1934,
+         "sede": "",
+         "oro": "Learco Guerra (Italia)",
+         "ris": "",
+         "argento": "Francesco Camusso (Italia)",
+         "bronzo": "Giovanni Cazzulani (Italia)"
+        },
+        {
+         "anno": 1935,
+         "sede": "",
+         "oro": "Vasco Bergamaschi (Italia)",
+         "ris": "",
+         "argento": "Giuseppe Martano (Italia)",
+         "bronzo": "Giuseppe Olmo (Italia)"
+        },
+        {
+         "anno": 1936,
+         "sede": "",
+         "oro": "Gino Bartali (Italia)",
+         "ris": "",
+         "argento": "Giuseppe Olmo (Italia)",
+         "bronzo": "Severino Canavesi (Italia)"
+        },
+        {
+         "anno": 1937,
+         "sede": "",
+         "oro": "Gino Bartali (Italia)",
+         "ris": "",
+         "argento": "Giovanni Valetti (Italia)",
+         "bronzo": "Enrico Mollo (Italia)"
+        },
+        {
+         "anno": 1938,
+         "sede": "",
+         "oro": "Giovanni Valetti (Italia)",
+         "ris": "",
+         "argento": "Ezio Cecchi (Italia)",
+         "bronzo": "Severino Canavesi (Italia)"
+        },
+        {
+         "anno": 1939,
+         "sede": "",
+         "oro": "Giovanni Valetti (Italia)",
+         "ris": "",
+         "argento": "Gino Bartali (Italia)",
+         "bronzo": "Mario Vicini (Italia)"
+        },
+        {
+         "anno": 1940,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Enrico Mollo (Italia)",
+         "bronzo": "Giordano Cottur (Italia)"
+        },
+        {
+         "anno": 1946,
+         "sede": "",
+         "oro": "Gino Bartali (Italia)",
+         "ris": "",
+         "argento": "Fausto Coppi (Italia)",
+         "bronzo": "Vito Ortelli (Italia)"
+        },
+        {
+         "anno": 1947,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Gino Bartali (Italia)",
+         "bronzo": "Giulio Bresci (Italia)"
+        },
+        {
+         "anno": 1948,
+         "sede": "",
+         "oro": "Fiorenzo Magni (Italia)",
+         "ris": "",
+         "argento": "Ezio Cecchi (Italia)",
+         "bronzo": "Giordano Cottur (Italia)"
+        },
+        {
+         "anno": 1949,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Gino Bartali (Italia)",
+         "bronzo": "Giordano Cottur (Italia)"
+        },
+        {
+         "anno": 1950,
+         "sede": "",
+         "oro": "Hugo Koblet (Svizzera)",
+         "ris": "",
+         "argento": "Gino Bartali (Italia)",
+         "bronzo": "Alfredo Martini (Italia)"
+        },
+        {
+         "anno": 1951,
+         "sede": "",
+         "oro": "Fiorenzo Magni (Italia)",
+         "ris": "",
+         "argento": "Rik Van Steenbergen (Belgio)",
+         "bronzo": "Ferdi Kübler (Svizzera)"
+        },
+        {
+         "anno": 1952,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Fiorenzo Magni (Italia)",
+         "bronzo": "Ferdi Kübler (Svizzera)"
+        },
+        {
+         "anno": 1953,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Hugo Koblet (Svizzera)",
+         "bronzo": "Pasquale Fornara (Italia)"
+        },
+        {
+         "anno": 1954,
+         "sede": "",
+         "oro": "Carlo Clerici (Svizzera)",
+         "ris": "",
+         "argento": "Hugo Koblet (Svizzera)",
+         "bronzo": "Nino Assirelli (Italia)"
+        },
+        {
+         "anno": 1955,
+         "sede": "",
+         "oro": "Fiorenzo Magni (Italia)",
+         "ris": "",
+         "argento": "Fausto Coppi (Italia)",
+         "bronzo": "Gastone Nencini (Italia)"
+        },
+        {
+         "anno": 1956,
+         "sede": "",
+         "oro": "Charly Gaul (Lussemburgo)",
+         "ris": "",
+         "argento": "Fiorenzo Magni (Italia)",
+         "bronzo": "Agostino Coletto (Italia)"
+        },
+        {
+         "anno": 1957,
+         "sede": "",
+         "oro": "Gastone Nencini (Italia)",
+         "ris": "",
+         "argento": "Louison Bobet (Francia)",
+         "bronzo": "Ercole Baldini (Italia)"
+        },
+        {
+         "anno": 1958,
+         "sede": "",
+         "oro": "Ercole Baldini (Italia)",
+         "ris": "",
+         "argento": "Jean Brankart (Belgio)",
+         "bronzo": "Charly Gaul (Lussemburgo)"
+        },
+        {
+         "anno": 1959,
+         "sede": "",
+         "oro": "Charly Gaul (Lussemburgo)",
+         "ris": "",
+         "argento": "Jacques Anquetil (Francia)",
+         "bronzo": "Diego Ronchini (Italia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Gastone Nencini (Italia)",
+         "bronzo": "Charly Gaul (Lussemburgo)"
+        },
+        {
+         "anno": 1961,
+         "sede": "",
+         "oro": "Arnaldo Pambianco (Italia)",
+         "ris": "",
+         "argento": "Jacques Anquetil (Francia)",
+         "bronzo": "Antonio Suárez (Spagna)"
+        },
+        {
+         "anno": 1962,
+         "sede": "",
+         "oro": "Franco Balmamion (Italia)",
+         "ris": "",
+         "argento": "Imerio Massignan (Italia)",
+         "bronzo": "Nino Defilippis (Italia)"
+        },
+        {
+         "anno": 1963,
+         "sede": "",
+         "oro": "Franco Balmamion (Italia)",
+         "ris": "",
+         "argento": "Vittorio Adorni (Italia)",
+         "bronzo": "Giorgio Zancanaro (Italia)"
+        },
+        {
+         "anno": 1964,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Italo Zilioli (Italia)",
+         "bronzo": "Guido De Rosso (Italia)"
+        },
+        {
+         "anno": 1965,
+         "sede": "",
+         "oro": "Vittorio Adorni (Italia)",
+         "ris": "",
+         "argento": "Italo Zilioli (Italia)",
+         "bronzo": "Felice Gimondi (Italia)"
+        },
+        {
+         "anno": 1966,
+         "sede": "",
+         "oro": "Gianni Motta (Italia)",
+         "ris": "",
+         "argento": "Italo Zilioli (Italia)",
+         "bronzo": "Jacques Anquetil (Francia)"
+        },
+        {
+         "anno": 1967,
+         "sede": "",
+         "oro": "Felice Gimondi (Italia)",
+         "ris": "",
+         "argento": "Franco Balmamion (Italia)",
+         "bronzo": "Jacques Anquetil (Francia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Vittorio Adorni (Italia)",
+         "bronzo": "Felice Gimondi (Italia)"
+        },
+        {
+         "anno": 1969,
+         "sede": "",
+         "oro": "Felice Gimondi (Italia)",
+         "ris": "",
+         "argento": "Claudio Michelotto (Italia)",
+         "bronzo": "Italo Zilioli (Italia)"
+        },
+        {
+         "anno": 1970,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Felice Gimondi (Italia)",
+         "bronzo": "Martin Van Den Bossche (Belgio)"
+        },
+        {
+         "anno": 1971,
+         "sede": "",
+         "oro": "Gösta Pettersson (Svezia)",
+         "ris": "",
+         "argento": "Herman Van Springel (Belgio)",
+         "bronzo": "Ugo Colombo (Italia)"
+        },
+        {
+         "anno": 1972,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "José Manuel Fuente (Spagna)",
+         "bronzo": "Francisco Galdós (Spagna)"
+        },
+        {
+         "anno": 1973,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Felice Gimondi (Italia)",
+         "bronzo": "Giovanni Battaglin (Italia)"
+        },
+        {
+         "anno": 1974,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Gianbattista Baronchelli (Italia)",
+         "bronzo": "Felice Gimondi (Italia)"
+        },
+        {
+         "anno": 1975,
+         "sede": "",
+         "oro": "Fausto Bertoglio (Italia)",
+         "ris": "",
+         "argento": "Francisco Galdós (Spagna)",
+         "bronzo": "Felice Gimondi (Italia)"
+        },
+        {
+         "anno": 1976,
+         "sede": "",
+         "oro": "Felice Gimondi (Italia)",
+         "ris": "",
+         "argento": "Johan De Muynck (Belgio)",
+         "bronzo": "Fausto Bertoglio (Italia)"
+        },
+        {
+         "anno": 1977,
+         "sede": "",
+         "oro": "Michel Pollentier (Belgio)",
+         "ris": "",
+         "argento": "Francesco Moser (Italia)",
+         "bronzo": "Gianbattista Baronchelli (Italia)"
+        },
+        {
+         "anno": 1978,
+         "sede": "",
+         "oro": "Johan De Muynck (Belgio)",
+         "ris": "",
+         "argento": "Gianbattista Baronchelli (Italia)",
+         "bronzo": "Francesco Moser (Italia)"
+        },
+        {
+         "anno": 1979,
+         "sede": "",
+         "oro": "Giuseppe Saronni (Italia)",
+         "ris": "",
+         "argento": "Francesco Moser (Italia)",
+         "bronzo": "Bernt Johansson (Svezia)"
+        },
+        {
+         "anno": 1980,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Wladimiro Panizza (Italia)",
+         "bronzo": "Giovanni Battaglin (Italia)"
+        },
+        {
+         "anno": 1981,
+         "sede": "",
+         "oro": "Giovanni Battaglin (Italia)",
+         "ris": "",
+         "argento": "Tommy Prim (Svezia)",
+         "bronzo": "Giuseppe Saronni (Italia)"
+        },
+        {
+         "anno": 1982,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Tommy Prim (Svezia)",
+         "bronzo": "Silvano Contini (Italia)"
+        },
+        {
+         "anno": 1983,
+         "sede": "",
+         "oro": "Giuseppe Saronni (Italia)",
+         "ris": "",
+         "argento": "Roberto Visentini (Italia)",
+         "bronzo": "Alberto Fernández (Spagna)"
+        },
+        {
+         "anno": 1984,
+         "sede": "",
+         "oro": "Francesco Moser (Italia)",
+         "ris": "",
+         "argento": "Laurent Fignon (Francia)",
+         "bronzo": "Moreno Argentin (Italia)"
+        },
+        {
+         "anno": 1985,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Francesco Moser (Italia)",
+         "bronzo": "Greg LeMond (Stati Uniti)"
+        },
+        {
+         "anno": 1986,
+         "sede": "",
+         "oro": "Roberto Visentini (Italia)",
+         "ris": "",
+         "argento": "Giuseppe Saronni (Italia)",
+         "bronzo": "Francesco Moser (Italia)"
+        },
+        {
+         "anno": 1987,
+         "sede": "",
+         "oro": "Stephen Roche (Irlanda)",
+         "ris": "",
+         "argento": "Robert Millar (Gran Bretagna)",
+         "bronzo": "Erik Breukink (Paesi Bassi)"
+        },
+        {
+         "anno": 1988,
+         "sede": "",
+         "oro": "Andrew Hampsten (Stati Uniti)",
+         "ris": "",
+         "argento": "Erik Breukink (Paesi Bassi)",
+         "bronzo": "Urs Zimmermann (Svizzera)"
+        },
+        {
+         "anno": 1989,
+         "sede": "",
+         "oro": "Laurent Fignon (Francia)",
+         "ris": "",
+         "argento": "Flavio Giupponi (Italia)",
+         "bronzo": "Andrew Hampsten (Stati Uniti)"
+        },
+        {
+         "anno": 1990,
+         "sede": "",
+         "oro": "Gianni Bugno (Italia)",
+         "ris": "",
+         "argento": "Charly Mottet (Francia)",
+         "bronzo": "Marco Giovannetti (Italia)"
+        },
+        {
+         "anno": 1991,
+         "sede": "",
+         "oro": "Franco Chioccioli (Italia)",
+         "ris": "",
+         "argento": "Claudio Chiappucci (Italia)",
+         "bronzo": "Massimiliano Lelli (Italia)"
+        },
+        {
+         "anno": 1992,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Claudio Chiappucci (Italia)",
+         "bronzo": "Franco Chioccioli (Italia)"
+        },
+        {
+         "anno": 1993,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Pëtr Ugrjumov (Lettonia)",
+         "bronzo": "Claudio Chiappucci (Italia)"
+        },
+        {
+         "anno": 1994,
+         "sede": "",
+         "oro": "Evgenij Berzin (Russia)",
+         "ris": "",
+         "argento": "Marco Pantani (Italia)",
+         "bronzo": "Miguel Indurain (Spagna)"
+        },
+        {
+         "anno": 1995,
+         "sede": "",
+         "oro": "Tony Rominger (Svizzera)",
+         "ris": "",
+         "argento": "Evgenij Berzin (Russia)",
+         "bronzo": "Pëtr Ugrjumov (Lettonia)"
+        },
+        {
+         "anno": 1996,
+         "sede": "",
+         "oro": "Pavel Tonkov (Russia)",
+         "ris": "",
+         "argento": "Enrico Zaina (Italia)",
+         "bronzo": "Abraham Olano (Spagna)"
+        },
+        {
+         "anno": 1997,
+         "sede": "",
+         "oro": "Ivan Gotti (Italia)",
+         "ris": "",
+         "argento": "Pavel Tonkov (Russia)",
+         "bronzo": "Giuseppe Guerini (Italia)"
+        },
+        {
+         "anno": 1998,
+         "sede": "",
+         "oro": "Marco Pantani (Italia)",
+         "ris": "",
+         "argento": "Pavel Tonkov (Russia)",
+         "bronzo": "Giuseppe Guerini (Italia)"
+        },
+        {
+         "anno": 1999,
+         "sede": "",
+         "oro": "Ivan Gotti (Italia)",
+         "ris": "",
+         "argento": "Paolo Savoldelli (Italia)",
+         "bronzo": "Gilberto Simoni (Italia)"
+        },
+        {
+         "anno": 2000,
+         "sede": "",
+         "oro": "Stefano Garzelli (Italia)",
+         "ris": "",
+         "argento": "Francesco Casagrande (Italia)",
+         "bronzo": "Gilberto Simoni (Italia)"
+        },
+        {
+         "anno": 2001,
+         "sede": "",
+         "oro": "Gilberto Simoni (Italia)",
+         "ris": "",
+         "argento": "Abraham Olano (Spagna)",
+         "bronzo": "Unai Osa (Spagna)"
+        },
+        {
+         "anno": 2002,
+         "sede": "",
+         "oro": "Paolo Savoldelli (Italia)",
+         "ris": "",
+         "argento": "Tyler Hamilton (Stati Uniti)",
+         "bronzo": "Pietro Caucchioli (Italia)"
+        },
+        {
+         "anno": 2003,
+         "sede": "",
+         "oro": "Gilberto Simoni (Italia)",
+         "ris": "",
+         "argento": "Stefano Garzelli (Italia)",
+         "bronzo": "Jaroslav Popovyč (Ucraina)"
+        },
+        {
+         "anno": 2004,
+         "sede": "",
+         "oro": "Damiano Cunego (Italia)",
+         "ris": "",
+         "argento": "Serhij Hončar (Ucraina)",
+         "bronzo": "Gilberto Simoni (Italia)"
+        },
+        {
+         "anno": 2005,
+         "sede": "",
+         "oro": "Paolo Savoldelli (Italia)",
+         "ris": "",
+         "argento": "Gilberto Simoni (Italia)",
+         "bronzo": "José Rujano (Venezuela)"
+        },
+        {
+         "anno": 2006,
+         "sede": "",
+         "oro": "Ivan Basso (Italia)",
+         "ris": "",
+         "argento": "José Enrique Gutiérrez (Spagna)",
+         "bronzo": "Gilberto Simoni (Italia)"
+        },
+        {
+         "anno": 2007,
+         "sede": "",
+         "oro": "Danilo Di Luca (Italia)",
+         "ris": "",
+         "argento": "Andy Schleck (Lussemburgo)",
+         "bronzo": "Eddy Mazzoleni (Italia)"
+        },
+        {
+         "anno": 2008,
+         "sede": "",
+         "oro": "Alberto Contador (Spagna)",
+         "ris": "",
+         "argento": "Riccardo Riccò (Italia)",
+         "bronzo": "Marzio Bruseghin (Italia)"
+        },
+        {
+         "anno": 2009,
+         "sede": "",
+         "oro": "Denis Men'šov (Russia)",
+         "ris": "",
+         "argento": "Carlos Sastre (Spagna)",
+         "bronzo": "Ivan Basso (Italia)"
+        },
+        {
+         "anno": 2010,
+         "sede": "",
+         "oro": "Ivan Basso (Italia)",
+         "ris": "",
+         "argento": "David Arroyo (Spagna)",
+         "bronzo": "Vincenzo Nibali (Italia)"
+        },
+        {
+         "anno": 2011,
+         "sede": "",
+         "oro": "Michele Scarponi (Italia)",
+         "ris": "",
+         "argento": "Vincenzo Nibali (Italia)",
+         "bronzo": "John Gadret (Francia)",
+         "nota": "Vittoria assegnata a Scarponi dopo la squalifica per doping di Alberto Contador."
+        },
+        {
+         "anno": 2012,
+         "sede": "",
+         "oro": "Ryder Hesjedal (Canada)",
+         "ris": "",
+         "argento": "Joaquim Rodríguez (Spagna)",
+         "bronzo": "Thomas De Gendt (Belgio)"
+        },
+        {
+         "anno": 2013,
+         "sede": "",
+         "oro": "Vincenzo Nibali (Italia)",
+         "ris": "",
+         "argento": "Rigoberto Urán (Colombia)",
+         "bronzo": "Cadel Evans (Australia)"
+        },
+        {
+         "anno": 2014,
+         "sede": "",
+         "oro": "Nairo Quintana (Colombia)",
+         "ris": "",
+         "argento": "Rigoberto Urán (Colombia)",
+         "bronzo": "Fabio Aru (Italia)"
+        },
+        {
+         "anno": 2015,
+         "sede": "",
+         "oro": "Alberto Contador (Spagna)",
+         "ris": "",
+         "argento": "Fabio Aru (Italia)",
+         "bronzo": "Mikel Landa (Spagna)"
+        },
+        {
+         "anno": 2016,
+         "sede": "",
+         "oro": "Vincenzo Nibali (Italia)",
+         "ris": "",
+         "argento": "Esteban Chaves (Colombia)",
+         "bronzo": "Alejandro Valverde (Spagna)"
+        },
+        {
+         "anno": 2017,
+         "sede": "",
+         "oro": "Tom Dumoulin (Paesi Bassi)",
+         "ris": "",
+         "argento": "Nairo Quintana (Colombia)",
+         "bronzo": "Vincenzo Nibali (Italia)"
+        },
+        {
+         "anno": 2018,
+         "sede": "",
+         "oro": "Chris Froome (Gran Bretagna)",
+         "ris": "",
+         "argento": "Tom Dumoulin (Paesi Bassi)",
+         "bronzo": "Miguel Ángel López (Colombia)"
+        },
+        {
+         "anno": 2019,
+         "sede": "",
+         "oro": "Richard Carapaz (Ecuador)",
+         "ris": "",
+         "argento": "Vincenzo Nibali (Italia)",
+         "bronzo": "Primož Roglič (Slovenia)"
+        },
+        {
+         "anno": 2020,
+         "sede": "",
+         "oro": "Tao Geoghegan Hart (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jai Hindley (Australia)",
+         "bronzo": "Wilco Kelderman (Paesi Bassi)"
+        },
+        {
+         "anno": 2021,
+         "sede": "",
+         "oro": "Egan Bernal (Colombia)",
+         "ris": "",
+         "argento": "Damiano Caruso (Italia)",
+         "bronzo": "Simon Yates (Gran Bretagna)"
+        },
+        {
+         "anno": 2022,
+         "sede": "",
+         "oro": "Jai Hindley (Australia)",
+         "ris": "",
+         "argento": "Richard Carapaz (Ecuador)",
+         "bronzo": "Mikel Landa (Spagna)"
+        },
+        {
+         "anno": 2023,
+         "sede": "",
+         "oro": "Primož Roglič (Slovenia)",
+         "ris": "",
+         "argento": "Geraint Thomas (Gran Bretagna)",
+         "bronzo": "João Almeida (Portogallo)"
+        },
+        {
+         "anno": 2024,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Daniel Martínez (Colombia)",
+         "bronzo": "Geraint Thomas (Gran Bretagna)"
+        },
+        {
+         "anno": 2025,
+         "sede": "",
+         "oro": "Simon Yates (Gran Bretagna)",
+         "ris": "",
+         "argento": "Isaac Del Toro (Messico)",
+         "bronzo": "Richard Carapaz (Ecuador)"
+        },
+        {
+         "anno": 2026,
+         "sede": "",
+         "oro": "Jonas Vingegaard (Danimarca)",
+         "ris": "",
+         "argento": "Felix Gall (Austria)",
+         "bronzo": "Jai Hindley (Australia)"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "tour",
+     "nome": "Tour de France",
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti.",
+     "fonti": [
+      {
+       "i": "Wikipedia (it)",
+       "t": "Tour de France, albo d'oro (revisione 153048517)",
+       "u": "https://it.wikipedia.org/w/index.php?title=Tour_de_France&oldid=153048517"
+      },
+      {
+       "i": "Euronews",
+       "t": "Tour de France 2026: fifth title for Tadej Pogačar (26 luglio 2026)",
+       "u": "https://euronews.com/2026/07/26/tour-de-france-2026-fifth-title-for-tadej-pogacar-van-der-poel-wins-on-champs-elysees"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "torneo",
+       "colonne": [
+        "Vincitore",
+        "Secondo",
+        "Terzo"
+       ],
+       "righe": [
+        {
+         "anno": 1903,
+         "sede": "",
+         "oro": "Maurice Garin (Francia)",
+         "ris": "",
+         "argento": "Lucien Pothier (Francia)",
+         "bronzo": "Fernand Augereau (Francia)"
+        },
+        {
+         "anno": 1904,
+         "sede": "",
+         "oro": "Henri Cornet (Francia)",
+         "ris": "",
+         "argento": "Jean-Baptiste Dortignacq (Francia)",
+         "bronzo": "Aloïs Catteau (Belgio)"
+        },
+        {
+         "anno": 1905,
+         "sede": "",
+         "oro": "Louis Trousselier (Francia)",
+         "ris": "",
+         "argento": "Hippolyte Aucouturier (Francia)",
+         "bronzo": "Jean-Baptiste Dortignacq (Francia)"
+        },
+        {
+         "anno": 1906,
+         "sede": "",
+         "oro": "René Pottier (Francia)",
+         "ris": "",
+         "argento": "Georges Passerieu (Francia)",
+         "bronzo": "Louis Trousselier (Francia)"
+        },
+        {
+         "anno": 1907,
+         "sede": "",
+         "oro": "Lucien Petit-Breton (Francia)",
+         "ris": "",
+         "argento": "Gustave Garrigou (Francia)",
+         "bronzo": "Émile Georget (Francia)"
+        },
+        {
+         "anno": 1908,
+         "sede": "",
+         "oro": "Lucien Petit-Breton (Francia)",
+         "ris": "",
+         "argento": "François Faber (Lussemburgo)",
+         "bronzo": "Georges Passerieu (Francia)"
+        },
+        {
+         "anno": 1909,
+         "sede": "",
+         "oro": "François Faber (Lussemburgo)",
+         "ris": "",
+         "argento": "Gustave Garrigou (Francia)",
+         "bronzo": "Jean Alavoine (Francia)"
+        },
+        {
+         "anno": 1910,
+         "sede": "",
+         "oro": "Octave Lapize (Francia)",
+         "ris": "",
+         "argento": "François Faber (Lussemburgo)",
+         "bronzo": "Gustave Garrigou (Francia)"
+        },
+        {
+         "anno": 1911,
+         "sede": "",
+         "oro": "Gustave Garrigou (Francia)",
+         "ris": "",
+         "argento": "Paul Duboc (Francia)",
+         "bronzo": "Émile Georget (Francia)"
+        },
+        {
+         "anno": 1912,
+         "sede": "",
+         "oro": "Odile Defraye (Belgio)",
+         "ris": "",
+         "argento": "Eugène Christophe (Francia)",
+         "bronzo": "Gustave Garrigou (Francia)"
+        },
+        {
+         "anno": 1913,
+         "sede": "",
+         "oro": "Philippe Thys (Belgio)",
+         "ris": "",
+         "argento": "Gustave Garrigou (Francia)",
+         "bronzo": "Marcel Buysse (Belgio)"
+        },
+        {
+         "anno": 1914,
+         "sede": "",
+         "oro": "Philippe Thys (Belgio)",
+         "ris": "",
+         "argento": "Henri Pélissier (Francia)",
+         "bronzo": "Jean Alavoine (Francia)"
+        },
+        {
+         "anno": 1919,
+         "sede": "",
+         "oro": "Firmin Lambot (Belgio)",
+         "ris": "",
+         "argento": "Jean Alavoine (Francia)",
+         "bronzo": "Eugène Christophe (Francia)"
+        },
+        {
+         "anno": 1920,
+         "sede": "",
+         "oro": "Philippe Thys (Belgio)",
+         "ris": "",
+         "argento": "Hector Heusghem (Belgio)",
+         "bronzo": "Firmin Lambot (Belgio)"
+        },
+        {
+         "anno": 1921,
+         "sede": "",
+         "oro": "Léon Scieur (Belgio)",
+         "ris": "",
+         "argento": "Hector Heusghem (Belgio)",
+         "bronzo": "Honoré Barthélémy (Francia)"
+        },
+        {
+         "anno": 1922,
+         "sede": "",
+         "oro": "Firmin Lambot (Belgio)",
+         "ris": "",
+         "argento": "Jean Alavoine (Francia)",
+         "bronzo": "Félix Sellier (Belgio)"
+        },
+        {
+         "anno": 1923,
+         "sede": "",
+         "oro": "Henri Pélissier (Francia)",
+         "ris": "",
+         "argento": "Ottavio Bottecchia (Italia)",
+         "bronzo": "Romain Bellenger (Francia)"
+        },
+        {
+         "anno": 1924,
+         "sede": "",
+         "oro": "Ottavio Bottecchia (Italia)",
+         "ris": "",
+         "argento": "Nicolas Frantz (Lussemburgo)",
+         "bronzo": "Lucien Buysse (Belgio)"
+        },
+        {
+         "anno": 1925,
+         "sede": "",
+         "oro": "Ottavio Bottecchia (Italia)",
+         "ris": "",
+         "argento": "Lucien Buysse (Belgio)",
+         "bronzo": "Bartolomeo Aymo (Italia)"
+        },
+        {
+         "anno": 1926,
+         "sede": "",
+         "oro": "Lucien Buysse (Belgio)",
+         "ris": "",
+         "argento": "Nicolas Frantz (Lussemburgo)",
+         "bronzo": "Bartolomeo Aymo (Italia)"
+        },
+        {
+         "anno": 1927,
+         "sede": "",
+         "oro": "Nicolas Frantz (Lussemburgo)",
+         "ris": "",
+         "argento": "Maurice Dewaele (Belgio)",
+         "bronzo": "Julien Vervaecke (Belgio)"
+        },
+        {
+         "anno": 1928,
+         "sede": "",
+         "oro": "Nicolas Frantz (Lussemburgo)",
+         "ris": "",
+         "argento": "André Leducq (Francia)",
+         "bronzo": "Maurice Dewaele (Belgio)"
+        },
+        {
+         "anno": 1929,
+         "sede": "",
+         "oro": "Maurice Dewaele (Belgio)",
+         "ris": "",
+         "argento": "Giuseppe Pancera (Italia)",
+         "bronzo": "Jef Demuysere (Belgio)"
+        },
+        {
+         "anno": 1930,
+         "sede": "",
+         "oro": "André Leducq (Francia)",
+         "ris": "",
+         "argento": "Learco Guerra (Italia)",
+         "bronzo": "Antonin Magne (Francia)"
+        },
+        {
+         "anno": 1931,
+         "sede": "",
+         "oro": "Antonin Magne (Francia)",
+         "ris": "",
+         "argento": "Jef Demuysere (Belgio)",
+         "bronzo": "Antonio Pesenti (Italia)"
+        },
+        {
+         "anno": 1932,
+         "sede": "",
+         "oro": "André Leducq (Francia)",
+         "ris": "",
+         "argento": "Kurt Stöpel (Germania)",
+         "bronzo": "Francesco Camusso (Italia)"
+        },
+        {
+         "anno": 1933,
+         "sede": "",
+         "oro": "Georges Speicher (Francia)",
+         "ris": "",
+         "argento": "Learco Guerra (Italia)",
+         "bronzo": "Giuseppe Martano (Italia)"
+        },
+        {
+         "anno": 1934,
+         "sede": "",
+         "oro": "Antonin Magne (Francia)",
+         "ris": "",
+         "argento": "Giuseppe Martano (Italia)",
+         "bronzo": "Roger Lapébie (Francia)"
+        },
+        {
+         "anno": 1935,
+         "sede": "",
+         "oro": "Romain Maes (Belgio)",
+         "ris": "",
+         "argento": "Ambrogio Morelli (Italia)",
+         "bronzo": "Félicien Vervaecke (Belgio)"
+        },
+        {
+         "anno": 1936,
+         "sede": "",
+         "oro": "Sylvère Maes (Belgio)",
+         "ris": "",
+         "argento": "Antonin Magne (Francia)",
+         "bronzo": "Félicien Vervaecke (Belgio)"
+        },
+        {
+         "anno": 1937,
+         "sede": "",
+         "oro": "Roger Lapébie (Francia)",
+         "ris": "",
+         "argento": "Mario Vicini (Italia)",
+         "bronzo": "Leo Amberg (Svizzera)"
+        },
+        {
+         "anno": 1938,
+         "sede": "",
+         "oro": "Gino Bartali (Italia)",
+         "ris": "",
+         "argento": "Félicien Vervaecke (Belgio)",
+         "bronzo": "Victor Cosson (Francia)"
+        },
+        {
+         "anno": 1939,
+         "sede": "",
+         "oro": "Sylvère Maes (Belgio)",
+         "ris": "",
+         "argento": "René Vietto (Francia)",
+         "bronzo": "Lucien Vlaemynck (Belgio)"
+        },
+        {
+         "anno": 1947,
+         "sede": "",
+         "oro": "Jean Robic (Francia)",
+         "ris": "",
+         "argento": "Edouard Fachleitner (Francia)",
+         "bronzo": "Pierre Brambilla (Italia)"
+        },
+        {
+         "anno": 1948,
+         "sede": "",
+         "oro": "Gino Bartali (Italia)",
+         "ris": "",
+         "argento": "Alberic Schotte (Belgio)",
+         "bronzo": "Guy Lapébie (Francia)"
+        },
+        {
+         "anno": 1949,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Gino Bartali (Italia)",
+         "bronzo": "Jacques Marinelli (Francia)"
+        },
+        {
+         "anno": 1950,
+         "sede": "",
+         "oro": "Ferdi Kübler (Svizzera)",
+         "ris": "",
+         "argento": "Stan Ockers (Belgio)",
+         "bronzo": "Louison Bobet (Francia)"
+        },
+        {
+         "anno": 1951,
+         "sede": "",
+         "oro": "Hugo Koblet (Svizzera)",
+         "ris": "",
+         "argento": "Raphaël Géminiani (Francia)",
+         "bronzo": "Lucien Lazaridès (Francia)"
+        },
+        {
+         "anno": 1952,
+         "sede": "",
+         "oro": "Fausto Coppi (Italia)",
+         "ris": "",
+         "argento": "Stan Ockers (Belgio)",
+         "bronzo": "Bernardo Ruiz (Spagna)"
+        },
+        {
+         "anno": 1953,
+         "sede": "",
+         "oro": "Louison Bobet (Francia)",
+         "ris": "",
+         "argento": "Jean Malléjac (Francia)",
+         "bronzo": "Giancarlo Astrua (Italia)"
+        },
+        {
+         "anno": 1954,
+         "sede": "",
+         "oro": "Louison Bobet (Francia)",
+         "ris": "",
+         "argento": "Ferdi Kübler (Svizzera)",
+         "bronzo": "Fritz Schär (Svizzera)"
+        },
+        {
+         "anno": 1955,
+         "sede": "",
+         "oro": "Louison Bobet (Francia)",
+         "ris": "",
+         "argento": "Jean Brankart (Belgio)",
+         "bronzo": "Charly Gaul (Lussemburgo)"
+        },
+        {
+         "anno": 1956,
+         "sede": "",
+         "oro": "Roger Walkowiak (Francia)",
+         "ris": "",
+         "argento": "Gilbert Bauvin (Francia)",
+         "bronzo": "Jan Adriaensens (Belgio)"
+        },
+        {
+         "anno": 1957,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Marcel Janssens (Belgio)",
+         "bronzo": "Adolf Christian (Austria)"
+        },
+        {
+         "anno": 1958,
+         "sede": "",
+         "oro": "Charly Gaul (Lussemburgo)",
+         "ris": "",
+         "argento": "Vito Favero (Italia)",
+         "bronzo": "Raphaël Géminiani (Francia)"
+        },
+        {
+         "anno": 1959,
+         "sede": "",
+         "oro": "Federico Bahamontes (Spagna)",
+         "ris": "",
+         "argento": "Henry Anglade (Francia)",
+         "bronzo": "Jacques Anquetil (Francia)"
+        },
+        {
+         "anno": 1960,
+         "sede": "",
+         "oro": "Gastone Nencini (Italia)",
+         "ris": "",
+         "argento": "Graziano Battistini (Italia)",
+         "bronzo": "Jan Adriaensens (Belgio)"
+        },
+        {
+         "anno": 1961,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Guido Carlesi (Italia)",
+         "bronzo": "Charly Gaul (Lussemburgo)"
+        },
+        {
+         "anno": 1962,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Joseph Planckaert (Belgio)",
+         "bronzo": "Raymond Poulidor (Francia)"
+        },
+        {
+         "anno": 1963,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Federico Bahamontes (Spagna)",
+         "bronzo": "José Pérez Francés (Spagna)"
+        },
+        {
+         "anno": 1964,
+         "sede": "",
+         "oro": "Jacques Anquetil (Francia)",
+         "ris": "",
+         "argento": "Raymond Poulidor (Francia)",
+         "bronzo": "Federico Bahamontes (Spagna)"
+        },
+        {
+         "anno": 1965,
+         "sede": "",
+         "oro": "Felice Gimondi (Italia)",
+         "ris": "",
+         "argento": "Raymond Poulidor (Francia)",
+         "bronzo": "Gianni Motta (Italia)"
+        },
+        {
+         "anno": 1966,
+         "sede": "",
+         "oro": "Lucien Aimar (Francia)",
+         "ris": "",
+         "argento": "Jan Janssen (Paesi Bassi)",
+         "bronzo": "Raymond Poulidor (Francia)"
+        },
+        {
+         "anno": 1967,
+         "sede": "",
+         "oro": "Roger Pingeon (Francia)",
+         "ris": "",
+         "argento": "Julio Jiménez (Spagna)",
+         "bronzo": "Franco Balmamion (Italia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "",
+         "oro": "Jan Janssen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Herman Van Springel (Belgio)",
+         "bronzo": "Ferdinand Bracke (Belgio)"
+        },
+        {
+         "anno": 1969,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Roger Pingeon (Francia)",
+         "bronzo": "Raymond Poulidor (Francia)"
+        },
+        {
+         "anno": 1970,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Gösta Pettersson (Svezia)"
+        },
+        {
+         "anno": 1971,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Lucien Van Impe (Belgio)"
+        },
+        {
+         "anno": 1972,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Felice Gimondi (Italia)",
+         "bronzo": "Raymond Poulidor (Francia)"
+        },
+        {
+         "anno": 1973,
+         "sede": "",
+         "oro": "Luis Ocaña (Spagna)",
+         "ris": "",
+         "argento": "Bernard Thévenet (Francia)",
+         "bronzo": "José Manuel Fuente (Spagna)"
+        },
+        {
+         "anno": 1974,
+         "sede": "",
+         "oro": "Eddy Merckx (Belgio)",
+         "ris": "",
+         "argento": "Raymond Poulidor (Francia)",
+         "bronzo": "Vicente López Carril (Spagna)"
+        },
+        {
+         "anno": 1975,
+         "sede": "",
+         "oro": "Bernard Thévenet (Francia)",
+         "ris": "",
+         "argento": "Eddy Merckx (Belgio)",
+         "bronzo": "Lucien Van Impe (Belgio)"
+        },
+        {
+         "anno": 1976,
+         "sede": "",
+         "oro": "Lucien Van Impe (Belgio)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Raymond Poulidor (Francia)"
+        },
+        {
+         "anno": 1977,
+         "sede": "",
+         "oro": "Bernard Thévenet (Francia)",
+         "ris": "",
+         "argento": "Hennie Kuiper (Paesi Bassi)",
+         "bronzo": "Lucien Van Impe (Belgio)"
+        },
+        {
+         "anno": 1978,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Joaquim Agostinho (Portogallo)"
+        },
+        {
+         "anno": 1979,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Joaquim Agostinho (Portogallo)"
+        },
+        {
+         "anno": 1980,
+         "sede": "",
+         "oro": "Joop Zoetemelk (Paesi Bassi)",
+         "ris": "",
+         "argento": "Hennie Kuiper (Paesi Bassi)",
+         "bronzo": "Raymond Martin (Francia)"
+        },
+        {
+         "anno": 1981,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Lucien Van Impe (Belgio)",
+         "bronzo": "Robert Alban (Francia)"
+        },
+        {
+         "anno": 1982,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Joop Zoetemelk (Paesi Bassi)",
+         "bronzo": "Johan van der Velde (Paesi Bassi)"
+        },
+        {
+         "anno": 1983,
+         "sede": "",
+         "oro": "Laurent Fignon (Francia)",
+         "ris": "",
+         "argento": "Ángel Arroyo (Spagna)",
+         "bronzo": "Peter Winnen (Paesi Bassi)"
+        },
+        {
+         "anno": 1984,
+         "sede": "",
+         "oro": "Laurent Fignon (Francia)",
+         "ris": "",
+         "argento": "Bernard Hinault (Francia)",
+         "bronzo": "Greg LeMond (Stati Uniti)"
+        },
+        {
+         "anno": 1985,
+         "sede": "",
+         "oro": "Bernard Hinault (Francia)",
+         "ris": "",
+         "argento": "Greg LeMond (Stati Uniti)",
+         "bronzo": "Stephen Roche (Irlanda)"
+        },
+        {
+         "anno": 1986,
+         "sede": "",
+         "oro": "Greg LeMond (Stati Uniti)",
+         "ris": "",
+         "argento": "Bernard Hinault (Francia)",
+         "bronzo": "Urs Zimmermann (Svizzera)"
+        },
+        {
+         "anno": 1987,
+         "sede": "",
+         "oro": "Stephen Roche (Irlanda)",
+         "ris": "",
+         "argento": "Pedro Delgado (Spagna)",
+         "bronzo": "Jean-François Bernard (Francia)"
+        },
+        {
+         "anno": 1988,
+         "sede": "",
+         "oro": "Pedro Delgado (Spagna)",
+         "ris": "",
+         "argento": "Steven Rooks (Paesi Bassi)",
+         "bronzo": "Fabio Parra (Colombia)"
+        },
+        {
+         "anno": 1989,
+         "sede": "",
+         "oro": "Greg LeMond (Stati Uniti)",
+         "ris": "",
+         "argento": "Laurent Fignon (Francia)",
+         "bronzo": "Pedro Delgado (Spagna)"
+        },
+        {
+         "anno": 1990,
+         "sede": "",
+         "oro": "Greg LeMond (Stati Uniti)",
+         "ris": "",
+         "argento": "Claudio Chiappucci (Italia)",
+         "bronzo": "Erik Breukink (Paesi Bassi)"
+        },
+        {
+         "anno": 1991,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Gianni Bugno (Italia)",
+         "bronzo": "Claudio Chiappucci (Italia)"
+        },
+        {
+         "anno": 1992,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Claudio Chiappucci (Italia)",
+         "bronzo": "Gianni Bugno (Italia)"
+        },
+        {
+         "anno": 1993,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Tony Rominger (Svizzera)",
+         "bronzo": "Zenon Jaskuła (Polonia)"
+        },
+        {
+         "anno": 1994,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Pëtr Ugrjumov (Lettonia)",
+         "bronzo": "Marco Pantani (Italia)"
+        },
+        {
+         "anno": 1995,
+         "sede": "",
+         "oro": "Miguel Indurain (Spagna)",
+         "ris": "",
+         "argento": "Alex Zülle (Svizzera)",
+         "bronzo": "Bjarne Riis (Danimarca)"
+        },
+        {
+         "anno": 1996,
+         "sede": "",
+         "oro": "Bjarne Riis (Danimarca)",
+         "ris": "",
+         "argento": "Jan Ullrich (Germania)",
+         "bronzo": "Richard Virenque (Francia)"
+        },
+        {
+         "anno": 1997,
+         "sede": "",
+         "oro": "Jan Ullrich (Germania)",
+         "ris": "",
+         "argento": "Richard Virenque (Francia)",
+         "bronzo": "Marco Pantani (Italia)"
+        },
+        {
+         "anno": 1998,
+         "sede": "",
+         "oro": "Marco Pantani (Italia)",
+         "ris": "",
+         "argento": "Jan Ullrich (Germania)",
+         "bronzo": "Bobby Julich (Stati Uniti)"
+        },
+        {
+         "anno": 1999,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Alex Zülle (Svizzera)",
+         "bronzo": "Fernando Escartín (Spagna)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2000,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Jan Ullrich (Germania)",
+         "bronzo": "Joseba Beloki (Spagna)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2001,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Jan Ullrich (Germania)",
+         "bronzo": "Joseba Beloki (Spagna)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2002,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Joseba Beloki (Spagna)",
+         "bronzo": "Raimondas Rumšas (Lituania)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2003,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Jan Ullrich (Germania)",
+         "bronzo": "Aleksandr Vinokurov (Kazakistan)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2004,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Andreas Klöden (Germania)",
+         "bronzo": "Ivan Basso (Italia)",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata."
+        },
+        {
+         "anno": 2005,
+         "sede": "",
+         "oro": "—",
+         "ris": "",
+         "argento": "Ivan Basso (Italia)",
+         "bronzo": "—",
+         "nota": "Vittoria revocata a Lance Armstrong per doping (2012) e non riassegnata. Terzo posto non attribuito."
+        },
+        {
+         "anno": 2006,
+         "sede": "",
+         "oro": "Óscar Pereiro (Spagna)",
+         "ris": "",
+         "argento": "Andreas Klöden (Germania)",
+         "bronzo": "Carlos Sastre (Spagna)",
+         "nota": "Vittoria assegnata a Pereiro dopo la squalifica per doping di Floyd Landis."
+        },
+        {
+         "anno": 2007,
+         "sede": "",
+         "oro": "Alberto Contador (Spagna)",
+         "ris": "",
+         "argento": "Cadel Evans (Australia)",
+         "bronzo": "—",
+         "nota": "Terzo posto non attribuito."
+        },
+        {
+         "anno": 2008,
+         "sede": "",
+         "oro": "Carlos Sastre (Spagna)",
+         "ris": "",
+         "argento": "Cadel Evans (Australia)",
+         "bronzo": "Denis Men'šov (Russia)"
+        },
+        {
+         "anno": 2009,
+         "sede": "",
+         "oro": "Alberto Contador (Spagna)",
+         "ris": "",
+         "argento": "Andy Schleck (Lussemburgo)",
+         "bronzo": "Bradley Wiggins (Gran Bretagna)"
+        },
+        {
+         "anno": 2010,
+         "sede": "",
+         "oro": "Andy Schleck (Lussemburgo)",
+         "ris": "",
+         "argento": "Samuel Sánchez (Spagna)",
+         "bronzo": "Jurgen Van Den Broeck (Belgio)",
+         "nota": "Vittoria assegnata a Schleck dopo la squalifica per doping di Alberto Contador."
+        },
+        {
+         "anno": 2011,
+         "sede": "",
+         "oro": "Cadel Evans (Australia)",
+         "ris": "",
+         "argento": "Andy Schleck (Lussemburgo)",
+         "bronzo": "Fränk Schleck (Lussemburgo)"
+        },
+        {
+         "anno": 2012,
+         "sede": "",
+         "oro": "Bradley Wiggins (Gran Bretagna)",
+         "ris": "",
+         "argento": "Chris Froome (Gran Bretagna)",
+         "bronzo": "Vincenzo Nibali (Italia)"
+        },
+        {
+         "anno": 2013,
+         "sede": "",
+         "oro": "Chris Froome (Gran Bretagna)",
+         "ris": "",
+         "argento": "Nairo Quintana (Colombia)",
+         "bronzo": "Joaquim Rodríguez (Spagna)"
+        },
+        {
+         "anno": 2014,
+         "sede": "",
+         "oro": "Vincenzo Nibali (Italia)",
+         "ris": "",
+         "argento": "Jean-Christophe Péraud (Francia)",
+         "bronzo": "Thibaut Pinot (Francia)"
+        },
+        {
+         "anno": 2015,
+         "sede": "",
+         "oro": "Chris Froome (Gran Bretagna)",
+         "ris": "",
+         "argento": "Nairo Quintana (Colombia)",
+         "bronzo": "Alejandro Valverde (Spagna)"
+        },
+        {
+         "anno": 2016,
+         "sede": "",
+         "oro": "Chris Froome (Gran Bretagna)",
+         "ris": "",
+         "argento": "Romain Bardet (Francia)",
+         "bronzo": "Nairo Quintana (Colombia)"
+        },
+        {
+         "anno": 2017,
+         "sede": "",
+         "oro": "Chris Froome (Gran Bretagna)",
+         "ris": "",
+         "argento": "Rigoberto Urán (Colombia)",
+         "bronzo": "Romain Bardet (Francia)"
+        },
+        {
+         "anno": 2018,
+         "sede": "",
+         "oro": "Geraint Thomas (Gran Bretagna)",
+         "ris": "",
+         "argento": "Tom Dumoulin (Paesi Bassi)",
+         "bronzo": "Chris Froome (Gran Bretagna)"
+        },
+        {
+         "anno": 2019,
+         "sede": "",
+         "oro": "Egan Bernal (Colombia)",
+         "ris": "",
+         "argento": "Geraint Thomas (Gran Bretagna)",
+         "bronzo": "Steven Kruijswijk (Paesi Bassi)"
+        },
+        {
+         "anno": 2020,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Primož Roglič (Slovenia)",
+         "bronzo": "Richie Porte (Australia)"
+        },
+        {
+         "anno": 2021,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Jonas Vingegaard (Danimarca)",
+         "bronzo": "Richard Carapaz (Ecuador)"
+        },
+        {
+         "anno": 2022,
+         "sede": "",
+         "oro": "Jonas Vingegaard (Danimarca)",
+         "ris": "",
+         "argento": "Tadej Pogačar (Slovenia)",
+         "bronzo": "Geraint Thomas (Gran Bretagna)"
+        },
+        {
+         "anno": 2023,
+         "sede": "",
+         "oro": "Jonas Vingegaard (Danimarca)",
+         "ris": "",
+         "argento": "Tadej Pogačar (Slovenia)",
+         "bronzo": "Adam Yates (Gran Bretagna)"
+        },
+        {
+         "anno": 2024,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Jonas Vingegaard (Danimarca)",
+         "bronzo": "Remco Evenepoel (Belgio)"
+        },
+        {
+         "anno": 2025,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Jonas Vingegaard (Danimarca)",
+         "bronzo": "Florian Lipowitz (Germania)"
+        },
+        {
+         "anno": 2026,
+         "sede": "",
+         "oro": "Tadej Pogačar (Slovenia)",
+         "ris": "",
+         "argento": "Remco Evenepoel (Belgio)",
+         "bronzo": "Isaac Del Toro (Messico)"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "motori": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
+    {
+     "id": "f1",
+     "nome": "Formula 1",
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti.",
+     "fonti": [
+      {
+       "i": "Wikipedia (en)",
+       "t": "List of Formula One World Drivers' Champions (revisione 1387384745)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_Formula_One_World_Drivers%27_Champions&oldid=1387384745"
+      },
+      {
+       "i": "Wikipedia (en)",
+       "t": "Voci delle singole stagioni 1950–2025, classifica piloti (revisioni elencate in sport/tools/altri/c4.txt)",
+       "u": "https://en.wikipedia.org/w/index.php?title=2025_Formula_One_World_Championship&oldid=1387367768"
+      },
+      {
+       "i": "Wikipedia (en)",
+       "t": "2026 Formula One World Championship (revisione 1387812162)",
+       "u": "https://en.wikipedia.org/w/index.php?title=2026_Formula_One_World_Championship&oldid=1387812162"
+      },
+      {
+       "i": "Al Jazeera",
+       "t": "Kimi Antonelli becomes Formula One's youngest world champion in Mexico City (2 novembre 2026)",
+       "u": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Piloti",
+       "tipo": "torneo",
+       "colonne": [
+        "Campione",
+        "Secondo",
+        "Terzo"
+       ],
+       "righe": [
+        {
+         "anno": 1950,
+         "sede": "",
+         "oro": "Giuseppe Farina (Italia)",
+         "ris": "",
+         "argento": "Juan Manuel Fangio (Argentina)",
+         "bronzo": "Luigi Fagioli (Italia)"
+        },
+        {
+         "anno": 1951,
+         "sede": "",
+         "oro": "Juan Manuel Fangio (Argentina)",
+         "ris": "",
+         "argento": "Alberto Ascari (Italia)",
+         "bronzo": "José Froilán González (Argentina)"
+        },
+        {
+         "anno": 1952,
+         "sede": "",
+         "oro": "Alberto Ascari (Italia)",
+         "ris": "",
+         "argento": "Giuseppe Farina (Italia)",
+         "bronzo": "Piero Taruffi (Italia)"
+        },
+        {
+         "anno": 1953,
+         "sede": "",
+         "oro": "Alberto Ascari (Italia)",
+         "ris": "",
+         "argento": "Juan Manuel Fangio (Argentina)",
+         "bronzo": "Giuseppe Farina (Italia)"
+        },
+        {
+         "anno": 1954,
+         "sede": "",
+         "oro": "Juan Manuel Fangio (Argentina)",
+         "ris": "",
+         "argento": "José Froilán González (Argentina)",
+         "bronzo": "Mike Hawthorn (Gran Bretagna)"
+        },
+        {
+         "anno": 1955,
+         "sede": "",
+         "oro": "Juan Manuel Fangio (Argentina)",
+         "ris": "",
+         "argento": "Stirling Moss (Gran Bretagna)",
+         "bronzo": "Eugenio Castellotti (Italia)"
+        },
+        {
+         "anno": 1956,
+         "sede": "",
+         "oro": "Juan Manuel Fangio (Argentina)",
+         "ris": "",
+         "argento": "Stirling Moss (Gran Bretagna)",
+         "bronzo": "Peter Collins (Gran Bretagna)"
+        },
+        {
+         "anno": 1957,
+         "sede": "",
+         "oro": "Juan Manuel Fangio (Argentina)",
+         "ris": "",
+         "argento": "Stirling Moss (Gran Bretagna)",
+         "bronzo": "Luigi Musso (Italia)"
+        },
+        {
+         "anno": 1958,
+         "sede": "",
+         "oro": "Mike Hawthorn (Gran Bretagna)",
+         "ris": "",
+         "argento": "Stirling Moss (Gran Bretagna)",
+         "bronzo": "Tony Brooks (Gran Bretagna)"
+        },
+        {
+         "anno": 1959,
+         "sede": "",
+         "oro": "Jack Brabham (Australia)",
+         "ris": "",
+         "argento": "Tony Brooks (Gran Bretagna)",
+         "bronzo": "Stirling Moss (Gran Bretagna)"
+        },
+        {
+         "anno": 1960,
+         "sede": "",
+         "oro": "Jack Brabham (Australia)",
+         "ris": "",
+         "argento": "Bruce McLaren (Nuova Zelanda)",
+         "bronzo": "Stirling Moss (Gran Bretagna)"
+        },
+        {
+         "anno": 1961,
+         "sede": "",
+         "oro": "Phil Hill (Stati Uniti)",
+         "ris": "",
+         "argento": "Wolfgang von Trips (Germania Ovest)",
+         "bronzo": "Stirling Moss (Gran Bretagna)"
+        },
+        {
+         "anno": 1962,
+         "sede": "",
+         "oro": "Graham Hill (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jim Clark (Gran Bretagna)",
+         "bronzo": "Bruce McLaren (Nuova Zelanda)"
+        },
+        {
+         "anno": 1963,
+         "sede": "",
+         "oro": "Jim Clark (Gran Bretagna)",
+         "ris": "",
+         "argento": "Graham Hill (Gran Bretagna)",
+         "bronzo": "Richie Ginther (Stati Uniti)"
+        },
+        {
+         "anno": 1964,
+         "sede": "",
+         "oro": "John Surtees (Gran Bretagna)",
+         "ris": "",
+         "argento": "Graham Hill (Gran Bretagna)",
+         "bronzo": "Jim Clark (Gran Bretagna)"
+        },
+        {
+         "anno": 1965,
+         "sede": "",
+         "oro": "Jim Clark (Gran Bretagna)",
+         "ris": "",
+         "argento": "Graham Hill (Gran Bretagna)",
+         "bronzo": "Jackie Stewart (Gran Bretagna)"
+        },
+        {
+         "anno": 1966,
+         "sede": "",
+         "oro": "Jack Brabham (Australia)",
+         "ris": "",
+         "argento": "John Surtees (Gran Bretagna)",
+         "bronzo": "Jochen Rindt (Austria)"
+        },
+        {
+         "anno": 1967,
+         "sede": "",
+         "oro": "Denny Hulme (Nuova Zelanda)",
+         "ris": "",
+         "argento": "Jack Brabham (Australia)",
+         "bronzo": "Jim Clark (Gran Bretagna)"
+        },
+        {
+         "anno": 1968,
+         "sede": "",
+         "oro": "Graham Hill (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jackie Stewart (Gran Bretagna)",
+         "bronzo": "Denny Hulme (Nuova Zelanda)"
+        },
+        {
+         "anno": 1969,
+         "sede": "",
+         "oro": "Jackie Stewart (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jacky Ickx (Belgio)",
+         "bronzo": "Bruce McLaren (Nuova Zelanda)"
+        },
+        {
+         "anno": 1970,
+         "sede": "",
+         "oro": "Jochen Rindt (Austria)",
+         "ris": "",
+         "argento": "Jacky Ickx (Belgio)",
+         "bronzo": "Clay Regazzoni (Svizzera)",
+         "nota": "Titolo assegnato dopo la morte di Rindt, nelle prove del Gran Premio d'Italia a Monza."
+        },
+        {
+         "anno": 1971,
+         "sede": "",
+         "oro": "Jackie Stewart (Gran Bretagna)",
+         "ris": "",
+         "argento": "Ronnie Peterson (Svezia)",
+         "bronzo": "François Cevert (Francia)"
+        },
+        {
+         "anno": 1972,
+         "sede": "",
+         "oro": "Emerson Fittipaldi (Brasile)",
+         "ris": "",
+         "argento": "Jackie Stewart (Gran Bretagna)",
+         "bronzo": "Denny Hulme (Nuova Zelanda)"
+        },
+        {
+         "anno": 1973,
+         "sede": "",
+         "oro": "Jackie Stewart (Gran Bretagna)",
+         "ris": "",
+         "argento": "Emerson Fittipaldi (Brasile)",
+         "bronzo": "Ronnie Peterson (Svezia)"
+        },
+        {
+         "anno": 1974,
+         "sede": "",
+         "oro": "Emerson Fittipaldi (Brasile)",
+         "ris": "",
+         "argento": "Clay Regazzoni (Svizzera)",
+         "bronzo": "Jody Scheckter (Sudafrica)"
+        },
+        {
+         "anno": 1975,
+         "sede": "",
+         "oro": "Niki Lauda (Austria)",
+         "ris": "",
+         "argento": "Emerson Fittipaldi (Brasile)",
+         "bronzo": "Carlos Reutemann (Argentina)"
+        },
+        {
+         "anno": 1976,
+         "sede": "",
+         "oro": "James Hunt (Gran Bretagna)",
+         "ris": "",
+         "argento": "Niki Lauda (Austria)",
+         "bronzo": "Jody Scheckter (Sudafrica)"
+        },
+        {
+         "anno": 1977,
+         "sede": "",
+         "oro": "Niki Lauda (Austria)",
+         "ris": "",
+         "argento": "Jody Scheckter (Sudafrica)",
+         "bronzo": "Mario Andretti (Stati Uniti)"
+        },
+        {
+         "anno": 1978,
+         "sede": "",
+         "oro": "Mario Andretti (Stati Uniti)",
+         "ris": "",
+         "argento": "Ronnie Peterson (Svezia)",
+         "bronzo": "Carlos Reutemann (Argentina)"
+        },
+        {
+         "anno": 1979,
+         "sede": "",
+         "oro": "Jody Scheckter (Sudafrica)",
+         "ris": "",
+         "argento": "Gilles Villeneuve (Canada)",
+         "bronzo": "Alan Jones (Australia)"
+        },
+        {
+         "anno": 1980,
+         "sede": "",
+         "oro": "Alan Jones (Australia)",
+         "ris": "",
+         "argento": "Nelson Piquet (Brasile)",
+         "bronzo": "Carlos Reutemann (Argentina)"
+        },
+        {
+         "anno": 1981,
+         "sede": "",
+         "oro": "Nelson Piquet (Brasile)",
+         "ris": "",
+         "argento": "Carlos Reutemann (Argentina)",
+         "bronzo": "Alan Jones (Australia)"
+        },
+        {
+         "anno": 1982,
+         "sede": "",
+         "oro": "Keke Rosberg (Finlandia)",
+         "ris": "",
+         "argento": "Didier Pironi (Francia)",
+         "bronzo": "John Watson (Gran Bretagna)"
+        },
+        {
+         "anno": 1983,
+         "sede": "",
+         "oro": "Nelson Piquet (Brasile)",
+         "ris": "",
+         "argento": "Alain Prost (Francia)",
+         "bronzo": "René Arnoux (Francia)"
+        },
+        {
+         "anno": 1984,
+         "sede": "",
+         "oro": "Niki Lauda (Austria)",
+         "ris": "",
+         "argento": "Alain Prost (Francia)",
+         "bronzo": "Elio de Angelis (Italia)"
+        },
+        {
+         "anno": 1985,
+         "sede": "",
+         "oro": "Alain Prost (Francia)",
+         "ris": "",
+         "argento": "Michele Alboreto (Italia)",
+         "bronzo": "Keke Rosberg (Finlandia)"
+        },
+        {
+         "anno": 1986,
+         "sede": "",
+         "oro": "Alain Prost (Francia)",
+         "ris": "",
+         "argento": "Nigel Mansell (Gran Bretagna)",
+         "bronzo": "Nelson Piquet (Brasile)"
+        },
+        {
+         "anno": 1987,
+         "sede": "",
+         "oro": "Nelson Piquet (Brasile)",
+         "ris": "",
+         "argento": "Nigel Mansell (Gran Bretagna)",
+         "bronzo": "Ayrton Senna (Brasile)"
+        },
+        {
+         "anno": 1988,
+         "sede": "",
+         "oro": "Ayrton Senna (Brasile)",
+         "ris": "",
+         "argento": "Alain Prost (Francia)",
+         "bronzo": "Gerhard Berger (Austria)"
+        },
+        {
+         "anno": 1989,
+         "sede": "",
+         "oro": "Alain Prost (Francia)",
+         "ris": "",
+         "argento": "Ayrton Senna (Brasile)",
+         "bronzo": "Riccardo Patrese (Italia)"
+        },
+        {
+         "anno": 1990,
+         "sede": "",
+         "oro": "Ayrton Senna (Brasile)",
+         "ris": "",
+         "argento": "Alain Prost (Francia)",
+         "bronzo": "Nelson Piquet (Brasile)"
+        },
+        {
+         "anno": 1991,
+         "sede": "",
+         "oro": "Ayrton Senna (Brasile)",
+         "ris": "",
+         "argento": "Nigel Mansell (Gran Bretagna)",
+         "bronzo": "Riccardo Patrese (Italia)"
+        },
+        {
+         "anno": 1992,
+         "sede": "",
+         "oro": "Nigel Mansell (Gran Bretagna)",
+         "ris": "",
+         "argento": "Riccardo Patrese (Italia)",
+         "bronzo": "Michael Schumacher (Germania)"
+        },
+        {
+         "anno": 1993,
+         "sede": "",
+         "oro": "Alain Prost (Francia)",
+         "ris": "",
+         "argento": "Ayrton Senna (Brasile)",
+         "bronzo": "Damon Hill (Gran Bretagna)"
+        },
+        {
+         "anno": 1994,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Damon Hill (Gran Bretagna)",
+         "bronzo": "Gerhard Berger (Austria)"
+        },
+        {
+         "anno": 1995,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Damon Hill (Gran Bretagna)",
+         "bronzo": "David Coulthard (Gran Bretagna)"
+        },
+        {
+         "anno": 1996,
+         "sede": "",
+         "oro": "Damon Hill (Gran Bretagna)",
+         "ris": "",
+         "argento": "Jacques Villeneuve (Canada)",
+         "bronzo": "Michael Schumacher (Germania)"
+        },
+        {
+         "anno": 1997,
+         "sede": "",
+         "oro": "Jacques Villeneuve (Canada)",
+         "ris": "",
+         "argento": "Heinz-Harald Frentzen (Germania)",
+         "bronzo": "David Coulthard (Gran Bretagna)"
+        },
+        {
+         "anno": 1998,
+         "sede": "",
+         "oro": "Mika Häkkinen (Finlandia)",
+         "ris": "",
+         "argento": "Michael Schumacher (Germania)",
+         "bronzo": "David Coulthard (Gran Bretagna)"
+        },
+        {
+         "anno": 1999,
+         "sede": "",
+         "oro": "Mika Häkkinen (Finlandia)",
+         "ris": "",
+         "argento": "Eddie Irvine (Gran Bretagna)",
+         "bronzo": "Heinz-Harald Frentzen (Germania)"
+        },
+        {
+         "anno": 2000,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Mika Häkkinen (Finlandia)",
+         "bronzo": "David Coulthard (Gran Bretagna)"
+        },
+        {
+         "anno": 2001,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "David Coulthard (Gran Bretagna)",
+         "bronzo": "Rubens Barrichello (Brasile)"
+        },
+        {
+         "anno": 2002,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Rubens Barrichello (Brasile)",
+         "bronzo": "Juan Pablo Montoya (Colombia)"
+        },
+        {
+         "anno": 2003,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Kimi Räikkönen (Finlandia)",
+         "bronzo": "Juan Pablo Montoya (Colombia)"
+        },
+        {
+         "anno": 2004,
+         "sede": "",
+         "oro": "Michael Schumacher (Germania)",
+         "ris": "",
+         "argento": "Rubens Barrichello (Brasile)",
+         "bronzo": "Jenson Button (Gran Bretagna)"
+        },
+        {
+         "anno": 2005,
+         "sede": "",
+         "oro": "Fernando Alonso (Spagna)",
+         "ris": "",
+         "argento": "Kimi Räikkönen (Finlandia)",
+         "bronzo": "Michael Schumacher (Germania)"
+        },
+        {
+         "anno": 2006,
+         "sede": "",
+         "oro": "Fernando Alonso (Spagna)",
+         "ris": "",
+         "argento": "Michael Schumacher (Germania)",
+         "bronzo": "Felipe Massa (Brasile)"
+        },
+        {
+         "anno": 2007,
+         "sede": "",
+         "oro": "Kimi Räikkönen (Finlandia)",
+         "ris": "",
+         "argento": "Lewis Hamilton (Gran Bretagna)",
+         "bronzo": "Fernando Alonso (Spagna)"
+        },
+        {
+         "anno": 2008,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Felipe Massa (Brasile)",
+         "bronzo": "Kimi Räikkönen (Finlandia)"
+        },
+        {
+         "anno": 2009,
+         "sede": "",
+         "oro": "Jenson Button (Gran Bretagna)",
+         "ris": "",
+         "argento": "Sebastian Vettel (Germania)",
+         "bronzo": "Rubens Barrichello (Brasile)"
+        },
+        {
+         "anno": 2010,
+         "sede": "",
+         "oro": "Sebastian Vettel (Germania)",
+         "ris": "",
+         "argento": "Fernando Alonso (Spagna)",
+         "bronzo": "Mark Webber (Australia)"
+        },
+        {
+         "anno": 2011,
+         "sede": "",
+         "oro": "Sebastian Vettel (Germania)",
+         "ris": "",
+         "argento": "Jenson Button (Gran Bretagna)",
+         "bronzo": "Mark Webber (Australia)"
+        },
+        {
+         "anno": 2012,
+         "sede": "",
+         "oro": "Sebastian Vettel (Germania)",
+         "ris": "",
+         "argento": "Fernando Alonso (Spagna)",
+         "bronzo": "Kimi Räikkönen (Finlandia)"
+        },
+        {
+         "anno": 2013,
+         "sede": "",
+         "oro": "Sebastian Vettel (Germania)",
+         "ris": "",
+         "argento": "Fernando Alonso (Spagna)",
+         "bronzo": "Mark Webber (Australia)"
+        },
+        {
+         "anno": 2014,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Nico Rosberg (Germania)",
+         "bronzo": "Daniel Ricciardo (Australia)"
+        },
+        {
+         "anno": 2015,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Nico Rosberg (Germania)",
+         "bronzo": "Sebastian Vettel (Germania)"
+        },
+        {
+         "anno": 2016,
+         "sede": "",
+         "oro": "Nico Rosberg (Germania)",
+         "ris": "",
+         "argento": "Lewis Hamilton (Gran Bretagna)",
+         "bronzo": "Daniel Ricciardo (Australia)"
+        },
+        {
+         "anno": 2017,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Sebastian Vettel (Germania)",
+         "bronzo": "Valtteri Bottas (Finlandia)"
+        },
+        {
+         "anno": 2018,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Sebastian Vettel (Germania)",
+         "bronzo": "Kimi Räikkönen (Finlandia)"
+        },
+        {
+         "anno": 2019,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Valtteri Bottas (Finlandia)",
+         "bronzo": "Max Verstappen (Paesi Bassi)"
+        },
+        {
+         "anno": 2020,
+         "sede": "",
+         "oro": "Lewis Hamilton (Gran Bretagna)",
+         "ris": "",
+         "argento": "Valtteri Bottas (Finlandia)",
+         "bronzo": "Max Verstappen (Paesi Bassi)"
+        },
+        {
+         "anno": 2021,
+         "sede": "",
+         "oro": "Max Verstappen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Lewis Hamilton (Gran Bretagna)",
+         "bronzo": "Valtteri Bottas (Finlandia)"
+        },
+        {
+         "anno": 2022,
+         "sede": "",
+         "oro": "Max Verstappen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Charles Leclerc (Monaco)",
+         "bronzo": "Sergio Pérez (Messico)"
+        },
+        {
+         "anno": 2023,
+         "sede": "",
+         "oro": "Max Verstappen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Sergio Pérez (Messico)",
+         "bronzo": "Lewis Hamilton (Gran Bretagna)"
+        },
+        {
+         "anno": 2024,
+         "sede": "",
+         "oro": "Max Verstappen (Paesi Bassi)",
+         "ris": "",
+         "argento": "Lando Norris (Gran Bretagna)",
+         "bronzo": "Charles Leclerc (Monaco)"
+        },
+        {
+         "anno": 2025,
+         "sede": "",
+         "oro": "Lando Norris (Gran Bretagna)",
+         "ris": "",
+         "argento": "Max Verstappen (Paesi Bassi)",
+         "bronzo": "Oscar Piastri (Australia)"
+        },
+        {
+         "anno": 2026,
+         "sede": "",
+         "oro": "Kimi Antonelli (Italia)",
+         "ris": "",
+         "argento": "—",
+         "bronzo": "—",
+         "nota": "Stagione in corso: titolo deciso al Gran Premio del Messico (1° novembre 2026); secondo e terzo posto si conosceranno dopo le ultime due gare (Qatar 29 novembre, Abu Dhabi 6 dicembre)."
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "sci": {
+   "titolo": "Albi d'oro",
+   "gruppi": [
+    {
+     "id": "coppa",
+     "nome": "Coppa del Mondo",
+     "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti.",
+     "fonti": [
+      {
+       "i": "Wikipedia (en)",
+       "t": "FIS Alpine Ski World Cup (revisione 1387062415)",
+       "u": "https://en.wikipedia.org/w/index.php?title=FIS_Alpine_Ski_World_Cup&oldid=1387062415"
+      },
+      {
+       "i": "FIS",
+       "t": "Another amazing season cements Odermatt's status as all-time great (2025/26)",
+       "u": "https://www.fis-ski.com/alpine-skiing/news/2025-26/-another-amazing-season-cements-odermatt-s-status-as-all-time-great"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "torneo",
+       "colonne": [
+        "Vincitore",
+        "Secondo",
+        "Terzo"
+       ],
+       "righe": [
+        {
+         "anno": 1967,
+         "sede": "",
+         "oro": "Jean-Claude Killy (Francia)",
+         "ris": "",
+         "argento": "Heinrich Messner (Austria)",
+         "bronzo": "Guy Périllat (Francia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "",
+         "oro": "Jean-Claude Killy (Francia)",
+         "ris": "",
+         "argento": "Dumeng Giovanoli (Svizzera)",
+         "bronzo": "Herbert Huber (Austria)"
+        },
+        {
+         "anno": 1969,
+         "sede": "",
+         "oro": "Karl Schranz (Austria)",
+         "ris": "",
+         "argento": "Jean-Noël Augert (Francia)",
+         "bronzo": "Reinhard Tritscher (Austria)",
+         "stag": "1968–69"
+        },
+        {
+         "anno": 1970,
+         "sede": "",
+         "oro": "Karl Schranz (Austria)",
+         "ris": "",
+         "argento": "Patrick Russel (Francia)",
+         "bronzo": "Gustav Thöni (Italia)",
+         "stag": "1969–70"
+        },
+        {
+         "anno": 1971,
+         "sede": "",
+         "oro": "Gustav Thöni (Italia)",
+         "ris": "",
+         "argento": "Henri Duvillard (Francia)",
+         "bronzo": "Patrick Russel (Francia)",
+         "stag": "1970–71"
+        },
+        {
+         "anno": 1972,
+         "sede": "",
+         "oro": "Gustav Thöni (Italia)",
+         "ris": "",
+         "argento": "Henri Duvillard (Francia)",
+         "bronzo": "Edmund Bruggmann (Svizzera)",
+         "stag": "1971–72"
+        },
+        {
+         "anno": 1973,
+         "sede": "",
+         "oro": "Gustav Thöni (Italia)",
+         "ris": "",
+         "argento": "David Zwilling (Austria)",
+         "bronzo": "Roland Collombin (Svizzera)",
+         "stag": "1972–73"
+        },
+        {
+         "anno": 1974,
+         "sede": "",
+         "oro": "Piero Gros (Italia)",
+         "ris": "",
+         "argento": "Gustav Thöni (Italia)",
+         "bronzo": "Hansi Hinterseer (Austria)",
+         "stag": "1973–74"
+        },
+        {
+         "anno": 1975,
+         "sede": "",
+         "oro": "Gustav Thöni (Italia)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Franz Klammer (Austria)",
+         "stag": "1974–75"
+        },
+        {
+         "anno": 1976,
+         "sede": "",
+         "oro": "Ingemar Stenmark (Svezia)",
+         "ris": "",
+         "argento": "Piero Gros (Italia)",
+         "bronzo": "Gustav Thöni (Italia)",
+         "stag": "1975–76"
+        },
+        {
+         "anno": 1977,
+         "sede": "",
+         "oro": "Ingemar Stenmark (Svezia)",
+         "ris": "",
+         "argento": "Klaus Heidegger (Austria)",
+         "bronzo": "Franz Klammer (Austria)",
+         "stag": "1976–77"
+        },
+        {
+         "anno": 1978,
+         "sede": "",
+         "oro": "Ingemar Stenmark (Svezia)",
+         "ris": "",
+         "argento": "Phil Mahre (Stati Uniti)",
+         "bronzo": "Andreas Wenzel (Liechtenstein)",
+         "stag": "1977–78"
+        },
+        {
+         "anno": 1979,
+         "sede": "",
+         "oro": "Peter Luscher (Svizzera)",
+         "ris": "",
+         "argento": "Leonhard Stock (Austria)",
+         "bronzo": "Phil Mahre (Stati Uniti)",
+         "stag": "1978–79"
+        },
+        {
+         "anno": 1980,
+         "sede": "",
+         "oro": "Andreas Wenzel (Liechtenstein)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Phil Mahre (Stati Uniti)",
+         "stag": "1979–80"
+        },
+        {
+         "anno": 1981,
+         "sede": "",
+         "oro": "Phil Mahre (Stati Uniti)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Aleksandr Zhirov (Unione Sovietica)",
+         "stag": "1980–81"
+        },
+        {
+         "anno": 1982,
+         "sede": "",
+         "oro": "Phil Mahre (Stati Uniti)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Steve Mahre (Stati Uniti)",
+         "stag": "1981–82"
+        },
+        {
+         "anno": 1983,
+         "sede": "",
+         "oro": "Phil Mahre (Stati Uniti)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Andreas Wenzel (Liechtenstein)",
+         "stag": "1982–83"
+        },
+        {
+         "anno": 1984,
+         "sede": "",
+         "oro": "Pirmin Zurbriggen (Svizzera)",
+         "ris": "",
+         "argento": "Ingemar Stenmark (Svezia)",
+         "bronzo": "Marc Girardelli (Lussemburgo)",
+         "stag": "1983–84"
+        },
+        {
+         "anno": 1985,
+         "sede": "",
+         "oro": "Marc Girardelli (Lussemburgo)",
+         "ris": "",
+         "argento": "Pirmin Zurbriggen (Svizzera)",
+         "bronzo": "Andreas Wenzel (Liechtenstein)",
+         "stag": "1984–85"
+        },
+        {
+         "anno": 1986,
+         "sede": "",
+         "oro": "Marc Girardelli (Lussemburgo)",
+         "ris": "",
+         "argento": "Pirmin Zurbriggen (Svizzera)",
+         "bronzo": "Markus Wasmeier (Germania Ovest)",
+         "stag": "1985–86"
+        },
+        {
+         "anno": 1987,
+         "sede": "",
+         "oro": "Pirmin Zurbriggen (Svizzera)",
+         "ris": "",
+         "argento": "Marc Girardelli (Lussemburgo)",
+         "bronzo": "Markus Wasmeier (Germania Ovest)",
+         "stag": "1986–87"
+        },
+        {
+         "anno": 1988,
+         "sede": "",
+         "oro": "Pirmin Zurbriggen (Svizzera)",
+         "ris": "",
+         "argento": "Alberto Tomba (Italia)",
+         "bronzo": "Hubert Strolz (Austria)",
+         "stag": "1987–88"
+        },
+        {
+         "anno": 1989,
+         "sede": "",
+         "oro": "Marc Girardelli (Lussemburgo)",
+         "ris": "",
+         "argento": "Pirmin Zurbriggen (Svizzera)",
+         "bronzo": "Alberto Tomba (Italia)",
+         "stag": "1988–89"
+        },
+        {
+         "anno": 1990,
+         "sede": "",
+         "oro": "Pirmin Zurbriggen (Svizzera)",
+         "ris": "",
+         "argento": "Ole Kristian Furuseth (Norvegia)",
+         "bronzo": "Günther Mader (Austria)",
+         "stag": "1989–90"
+        },
+        {
+         "anno": 1991,
+         "sede": "",
+         "oro": "Marc Girardelli (Lussemburgo)",
+         "ris": "",
+         "argento": "Alberto Tomba (Italia)",
+         "bronzo": "Rudolf Nierlich (Austria)",
+         "stag": "1990–91"
+        },
+        {
+         "anno": 1992,
+         "sede": "",
+         "oro": "Paul Accola (Svizzera)",
+         "ris": "",
+         "argento": "Alberto Tomba (Italia)",
+         "bronzo": "Marc Girardelli (Lussemburgo)",
+         "stag": "1991–92"
+        },
+        {
+         "anno": 1993,
+         "sede": "",
+         "oro": "Marc Girardelli (Lussemburgo)",
+         "ris": "",
+         "argento": "Kjetil André Aamodt (Norvegia)",
+         "bronzo": "Franz Heinzer (Austria)",
+         "stag": "1992–93"
+        },
+        {
+         "anno": 1994,
+         "sede": "",
+         "oro": "Kjetil André Aamodt (Norvegia)",
+         "ris": "",
+         "argento": "Marc Girardelli (Lussemburgo)",
+         "bronzo": "Alberto Tomba (Italia)",
+         "stag": "1993–94"
+        },
+        {
+         "anno": 1995,
+         "sede": "",
+         "oro": "Alberto Tomba (Italia)",
+         "ris": "",
+         "argento": "Günther Mader (Austria)",
+         "bronzo": "Jure Košir (Slovenia)",
+         "stag": "1994–95"
+        },
+        {
+         "anno": 1996,
+         "sede": "",
+         "oro": "Lasse Kjus (Norvegia)",
+         "ris": "",
+         "argento": "Günther Mader (Austria)",
+         "bronzo": "Michael von Grünigen (Svizzera)",
+         "stag": "1995–96"
+        },
+        {
+         "anno": 1997,
+         "sede": "",
+         "oro": "Luc Alphand (Francia)",
+         "ris": "",
+         "argento": "Kjetil André Aamodt (Norvegia)",
+         "bronzo": "Josef Strobl (Austria)",
+         "stag": "1996–97"
+        },
+        {
+         "anno": 1998,
+         "sede": "",
+         "oro": "Hermann Maier (Austria)",
+         "ris": "",
+         "argento": "Andreas Schifferer (Austria)",
+         "bronzo": "Stephan Eberharter (Austria)",
+         "stag": "1997–98"
+        },
+        {
+         "anno": 1999,
+         "sede": "",
+         "oro": "Lasse Kjus (Norvegia)",
+         "ris": "",
+         "argento": "Kjetil André Aamodt (Norvegia)",
+         "bronzo": "Hermann Maier (Austria)",
+         "stag": "1998–99"
+        },
+        {
+         "anno": 2000,
+         "sede": "",
+         "oro": "Hermann Maier (Austria)",
+         "ris": "",
+         "argento": "Kjetil André Aamodt (Norvegia)",
+         "bronzo": "Josef Strobl (Austria)",
+         "stag": "1999–2000"
+        },
+        {
+         "anno": 2001,
+         "sede": "",
+         "oro": "Hermann Maier (Austria)",
+         "ris": "",
+         "argento": "Stephan Eberharter (Austria)",
+         "bronzo": "Lasse Kjus (Norvegia)",
+         "stag": "2000–01"
+        },
+        {
+         "anno": 2002,
+         "sede": "",
+         "oro": "Stephan Eberharter (Austria)",
+         "ris": "",
+         "argento": "Kjetil André Aamodt (Norvegia)",
+         "bronzo": "Bode Miller (Stati Uniti)",
+         "stag": "2001–02"
+        },
+        {
+         "anno": 2003,
+         "sede": "",
+         "oro": "Stephan Eberharter (Austria)",
+         "ris": "",
+         "argento": "Bode Miller (Stati Uniti)",
+         "bronzo": "Kjetil André Aamodt (Norvegia)",
+         "stag": "2002–03"
+        },
+        {
+         "anno": 2004,
+         "sede": "",
+         "oro": "Hermann Maier (Austria)",
+         "ris": "",
+         "argento": "Stephan Eberharter (Austria)",
+         "bronzo": "Benjamin Raich (Austria)",
+         "stag": "2003–04"
+        },
+        {
+         "anno": 2005,
+         "sede": "",
+         "oro": "Bode Miller (Stati Uniti)",
+         "ris": "",
+         "argento": "Benjamin Raich (Austria)",
+         "bronzo": "Hermann Maier (Austria)",
+         "stag": "2004–05"
+        },
+        {
+         "anno": 2006,
+         "sede": "",
+         "oro": "Benjamin Raich (Austria)",
+         "ris": "",
+         "argento": "Aksel Lund Svindal (Norvegia)",
+         "bronzo": "Bode Miller (Stati Uniti)",
+         "stag": "2005–06"
+        },
+        {
+         "anno": 2007,
+         "sede": "",
+         "oro": "Aksel Lund Svindal (Norvegia)",
+         "ris": "",
+         "argento": "Benjamin Raich (Austria)",
+         "bronzo": "Didier Cuche (Svizzera)",
+         "stag": "2006–07"
+        },
+        {
+         "anno": 2008,
+         "sede": "",
+         "oro": "Bode Miller (Stati Uniti)",
+         "ris": "",
+         "argento": "Benjamin Raich (Austria)",
+         "bronzo": "Didier Cuche (Svizzera)",
+         "stag": "2007–08"
+        },
+        {
+         "anno": 2009,
+         "sede": "",
+         "oro": "Aksel Lund Svindal (Norvegia)",
+         "ris": "",
+         "argento": "Benjamin Raich (Austria)",
+         "bronzo": "Didier Cuche (Svizzera)",
+         "stag": "2008–09"
+        },
+        {
+         "anno": 2010,
+         "sede": "",
+         "oro": "Carlo Janka (Svizzera)",
+         "ris": "",
+         "argento": "Benjamin Raich (Austria)",
+         "bronzo": "Didier Cuche (Svizzera)",
+         "stag": "2009–10"
+        },
+        {
+         "anno": 2011,
+         "sede": "",
+         "oro": "Ivica Kostelić (Croazia)",
+         "ris": "",
+         "argento": "Didier Cuche (Svizzera)",
+         "bronzo": "Carlo Janka (Svizzera)",
+         "stag": "2010–11"
+        },
+        {
+         "anno": 2012,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Beat Feuz (Svizzera)",
+         "bronzo": "Aksel Lund Svindal (Norvegia)",
+         "stag": "2011–12"
+        },
+        {
+         "anno": 2013,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Aksel Lund Svindal (Norvegia)",
+         "bronzo": "Ted Ligety (Stati Uniti)",
+         "stag": "2012–13"
+        },
+        {
+         "anno": 2014,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Aksel Lund Svindal (Norvegia)",
+         "bronzo": "Alexis Pinturault (Francia)",
+         "stag": "2013–14"
+        },
+        {
+         "anno": 2015,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Kjetil Jansrud (Norvegia)",
+         "bronzo": "Alexis Pinturault (Francia)",
+         "stag": "2014–15"
+        },
+        {
+         "anno": 2016,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Henrik Kristoffersen (Norvegia)",
+         "bronzo": "Alexis Pinturault (Francia)",
+         "stag": "2015–16"
+        },
+        {
+         "anno": 2017,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Kjetil Jansrud (Norvegia)",
+         "bronzo": "Henrik Kristoffersen (Norvegia)",
+         "stag": "2016–17"
+        },
+        {
+         "anno": 2018,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Henrik Kristoffersen (Norvegia)",
+         "bronzo": "Aksel Lund Svindal (Norvegia)",
+         "stag": "2017–18"
+        },
+        {
+         "anno": 2019,
+         "sede": "",
+         "oro": "Marcel Hirscher (Austria)",
+         "ris": "",
+         "argento": "Alexis Pinturault (Francia)",
+         "bronzo": "Henrik Kristoffersen (Norvegia)",
+         "stag": "2018–19"
+        },
+        {
+         "anno": 2020,
+         "sede": "",
+         "oro": "Aleksander Aamodt Kilde (Norvegia)",
+         "ris": "",
+         "argento": "Alexis Pinturault (Francia)",
+         "bronzo": "Henrik Kristoffersen (Norvegia)",
+         "stag": "2019–20"
+        },
+        {
+         "anno": 2021,
+         "sede": "",
+         "oro": "Alexis Pinturault (Francia)",
+         "ris": "",
+         "argento": "Marco Odermatt (Svizzera)",
+         "bronzo": "Marco Schwarz (Austria)",
+         "stag": "2020–21"
+        },
+        {
+         "anno": 2022,
+         "sede": "",
+         "oro": "Marco Odermatt (Svizzera)",
+         "ris": "",
+         "argento": "Aleksander Aamodt Kilde (Norvegia)",
+         "bronzo": "Henrik Kristoffersen (Norvegia)",
+         "stag": "2021–22"
+        },
+        {
+         "anno": 2023,
+         "sede": "",
+         "oro": "Marco Odermatt (Svizzera)",
+         "ris": "",
+         "argento": "Aleksander Aamodt Kilde (Norvegia)",
+         "bronzo": "Henrik Kristoffersen (Norvegia)",
+         "stag": "2022–23"
+        },
+        {
+         "anno": 2024,
+         "sede": "",
+         "oro": "Marco Odermatt (Svizzera)",
+         "ris": "",
+         "argento": "Loïc Meillard (Svizzera)",
+         "bronzo": "Manuel Feller (Austria)",
+         "stag": "2023–24"
+        },
+        {
+         "anno": 2025,
+         "sede": "",
+         "oro": "Marco Odermatt (Svizzera)",
+         "ris": "",
+         "argento": "Henrik Kristoffersen (Norvegia)",
+         "bronzo": "Loïc Meillard (Svizzera)",
+         "stag": "2024–25"
+        },
+        {
+         "anno": 2026,
+         "sede": "",
+         "oro": "Marco Odermatt (Svizzera)",
+         "ris": "",
+         "argento": "Lucas Pinheiro Braathen (Brasile)",
+         "bronzo": "Atle Lie McGrath (Norvegia)",
+         "stag": "2025–26"
+        }
+       ]
+      },
+      {
+       "nome": "Donne",
+       "tipo": "torneo",
+       "colonne": [
+        "Vincitore",
+        "Secondo",
+        "Terzo"
+       ],
+       "righe": [
+        {
+         "anno": 1967,
+         "sede": "",
+         "oro": "Nancy Greene (Canada)",
+         "ris": "",
+         "argento": "Marielle Goitschel (Francia)",
+         "bronzo": "Annie Famose (Francia)"
+        },
+        {
+         "anno": 1968,
+         "sede": "",
+         "oro": "Nancy Greene (Canada)",
+         "ris": "",
+         "argento": "Isabelle Mir (Svizzera)",
+         "bronzo": "Florence Steurer (Francia)"
+        },
+        {
+         "anno": 1969,
+         "sede": "",
+         "oro": "Gertrude Gabl (Austria)",
+         "ris": "",
+         "argento": "Florence Steurer (Francia)",
+         "bronzo": "Wiltrud Drexel (Austria)",
+         "stag": "1968–69"
+        },
+        {
+         "anno": 1970,
+         "sede": "",
+         "oro": "Michèle Jacot (Francia)",
+         "ris": "",
+         "argento": "Françoise Macchi (Francia)",
+         "bronzo": "Florence Steurer (Francia)",
+         "stag": "1969–70"
+        },
+        {
+         "anno": 1971,
+         "sede": "",
+         "oro": "Annemarie Pröll (Austria)",
+         "ris": "",
+         "argento": "Michèle Jacot (Francia)",
+         "bronzo": "Isabelle Mir (Francia)",
+         "stag": "1970–71"
+        },
+        {
+         "anno": 1972,
+         "sede": "",
+         "oro": "Annemarie Pröll (Austria)",
+         "ris": "",
+         "argento": "Françoise Macchi (Francia)",
+         "bronzo": "Britt Lafforgue (Francia)",
+         "stag": "1971–72"
+        },
+        {
+         "anno": 1973,
+         "sede": "",
+         "oro": "Annemarie Pröll (Austria)",
+         "ris": "",
+         "argento": "Monika Kaserer (Austria)",
+         "bronzo": "Patricia Emonet (Francia)",
+         "stag": "1972–73"
+        },
+        {
+         "anno": 1974,
+         "sede": "",
+         "oro": "Annemarie Pröll (Austria)",
+         "ris": "",
+         "argento": "Monika Kaserer (Austria)",
+         "bronzo": "Hanni Wenzel (Liechtenstein)",
+         "stag": "1973–74"
+        },
+        {
+         "anno": 1975,
+         "sede": "",
+         "oro": "Annemarie Moser-Pröll (Austria)",
+         "ris": "",
+         "argento": "Hanni Wenzel (Liechtenstein)",
+         "bronzo": "Rosi Mittermaier (Germania Ovest)",
+         "stag": "1974–75"
+        },
+        {
+         "anno": 1976,
+         "sede": "",
+         "oro": "Rosi Mittermaier (Germania Ovest)",
+         "ris": "",
+         "argento": "Lise-Marie Morerod (Svizzera)",
+         "bronzo": "Monika Kaserer (Austria)",
+         "stag": "1975–76"
+        },
+        {
+         "anno": 1977,
+         "sede": "",
+         "oro": "Lise-Marie Morerod (Svizzera)",
+         "ris": "",
+         "argento": "Annemarie Moser-Pröll (Austria)",
+         "bronzo": "Monika Kaserer (Austria)",
+         "stag": "1976–77"
+        },
+        {
+         "anno": 1978,
+         "sede": "",
+         "oro": "Hanni Wenzel (Liechtenstein)",
+         "ris": "",
+         "argento": "Annemarie Moser-Pröll (Austria)",
+         "bronzo": "Lise-Marie Morerod (Svizzera)",
+         "stag": "1977–78"
+        },
+        {
+         "anno": 1979,
+         "sede": "",
+         "oro": "Annemarie Moser-Pröll (Austria)",
+         "ris": "",
+         "argento": "Hanni Wenzel (Liechtenstein)",
+         "bronzo": "Irene Epple (Germania Ovest)",
+         "stag": "1978–79"
+        },
+        {
+         "anno": 1980,
+         "sede": "",
+         "oro": "Hanni Wenzel (Liechtenstein)",
+         "ris": "",
+         "argento": "Annemarie Moser-Pröll (Austria)",
+         "bronzo": "Marie-Theres Nadig (Svizzera)",
+         "stag": "1979–80"
+        },
+        {
+         "anno": 1981,
+         "sede": "",
+         "oro": "Marie-Theres Nadig (Svizzera)",
+         "ris": "",
+         "argento": "Erika Hess (Svizzera)",
+         "bronzo": "Hanni Wenzel (Liechtenstein)",
+         "stag": "1980–81"
+        },
+        {
+         "anno": 1982,
+         "sede": "",
+         "oro": "Erika Hess (Svizzera)",
+         "ris": "",
+         "argento": "Irene Epple (Germania Ovest)",
+         "bronzo": "Christin Cooper (Stati Uniti)",
+         "stag": "1981–82"
+        },
+        {
+         "anno": 1983,
+         "sede": "",
+         "oro": "Tamara McKinney (Stati Uniti)",
+         "ris": "",
+         "argento": "Hanni Wenzel (Liechtenstein)",
+         "bronzo": "Erika Hess (Svizzera)",
+         "stag": "1982–83"
+        },
+        {
+         "anno": 1984,
+         "sede": "",
+         "oro": "Erika Hess (Svizzera)",
+         "ris": "",
+         "argento": "Hanni Wenzel (Liechtenstein)",
+         "bronzo": "Tamara McKinney (Stati Uniti)",
+         "stag": "1983–84"
+        },
+        {
+         "anno": 1985,
+         "sede": "",
+         "oro": "Michela Figini (Svizzera)",
+         "ris": "",
+         "argento": "Brigitte Örtli (Svizzera)",
+         "bronzo": "Maria Walliser (Svizzera)",
+         "stag": "1984–85"
+        },
+        {
+         "anno": 1986,
+         "sede": "",
+         "oro": "Maria Walliser (Svizzera)",
+         "ris": "",
+         "argento": "Erika Hess (Svizzera)",
+         "bronzo": "Vreni Schneider (Svizzera)",
+         "stag": "1985–86"
+        },
+        {
+         "anno": 1987,
+         "sede": "",
+         "oro": "Maria Walliser (Svizzera)",
+         "ris": "",
+         "argento": "Vreni Schneider (Svizzera)",
+         "bronzo": "Brigitte Örtli (Svizzera)",
+         "stag": "1986–87"
+        },
+        {
+         "anno": 1988,
+         "sede": "",
+         "oro": "Michela Figini (Svizzera)",
+         "ris": "",
+         "argento": "Brigitte Örtli (Svizzera)",
+         "bronzo": "Anita Wachter (Austria)",
+         "stag": "1987–88"
+        },
+        {
+         "anno": 1989,
+         "sede": "",
+         "oro": "Vreni Schneider (Svizzera)",
+         "ris": "",
+         "argento": "Maria Walliser (Svizzera)",
+         "bronzo": "Michela Figini (Svizzera)",
+         "stag": "1988–89"
+        },
+        {
+         "anno": 1990,
+         "sede": "",
+         "oro": "Petra Kronberger (Austria)",
+         "ris": "",
+         "argento": "Anita Wachter (Austria)",
+         "bronzo": "Michaela Gerg (Germania Ovest)",
+         "stag": "1989–90"
+        },
+        {
+         "anno": 1991,
+         "sede": "",
+         "oro": "Petra Kronberger (Austria)",
+         "ris": "",
+         "argento": "Sabine Ginther (Austria)",
+         "bronzo": "Vreni Schneider (Svizzera)",
+         "stag": "1990–91"
+        },
+        {
+         "anno": 1992,
+         "sede": "",
+         "oro": "Petra Kronberger (Austria)",
+         "ris": "",
+         "argento": "Carole Merle (Francia)",
+         "bronzo": "Katja Seizinger (Germania)",
+         "stag": "1991–92"
+        },
+        {
+         "anno": 1993,
+         "sede": "",
+         "oro": "Anita Wachter (Austria)",
+         "ris": "",
+         "argento": "Katja Seizinger (Germania)",
+         "bronzo": "Carole Merle (Francia)",
+         "stag": "1992–93"
+        },
+        {
+         "anno": 1994,
+         "sede": "",
+         "oro": "Vreni Schneider (Svizzera)",
+         "ris": "",
+         "argento": "Pernilla Wiberg (Svezia)",
+         "bronzo": "Katja Seizinger (Germania)",
+         "stag": "1993–94"
+        },
+        {
+         "anno": 1995,
+         "sede": "",
+         "oro": "Vreni Schneider (Svizzera)",
+         "ris": "",
+         "argento": "Katja Seizinger (Germania)",
+         "bronzo": "Heidi Zeller (Svizzera)",
+         "stag": "1994–95"
+        },
+        {
+         "anno": 1996,
+         "sede": "",
+         "oro": "Katja Seizinger (Germania)",
+         "ris": "",
+         "argento": "Martina Ertl (Germania)",
+         "bronzo": "Anita Wachter (Austria)",
+         "stag": "1995–96"
+        },
+        {
+         "anno": 1997,
+         "sede": "",
+         "oro": "Pernilla Wiberg (Svezia)",
+         "ris": "",
+         "argento": "Katja Seizinger (Germania)",
+         "bronzo": "Hilde Gerg (Germania)",
+         "stag": "1996–97"
+        },
+        {
+         "anno": 1998,
+         "sede": "",
+         "oro": "Katja Seizinger (Germania)",
+         "ris": "",
+         "argento": "Martina Ertl (Germania)",
+         "bronzo": "Hilde Gerg (Germania)",
+         "stag": "1997–98"
+        },
+        {
+         "anno": 1999,
+         "sede": "",
+         "oro": "Alexandra Meissnitzer (Austria)",
+         "ris": "",
+         "argento": "Hilde Gerg (Germania)",
+         "bronzo": "Renate Götschl (Austria)",
+         "stag": "1998–99"
+        },
+        {
+         "anno": 2000,
+         "sede": "",
+         "oro": "Renate Götschl (Austria)",
+         "ris": "",
+         "argento": "Michaela Dorfmeister (Austria)",
+         "bronzo": "Régine Cavagnoud (Francia)",
+         "stag": "1999–2000"
+        },
+        {
+         "anno": 2001,
+         "sede": "",
+         "oro": "Janica Kostelić (Croazia)",
+         "ris": "",
+         "argento": "Renate Götschl (Austria)",
+         "bronzo": "Régine Cavagnoud (Francia)",
+         "stag": "2000–01"
+        },
+        {
+         "anno": 2002,
+         "sede": "",
+         "oro": "Michaela Dorfmeister (Austria)",
+         "ris": "",
+         "argento": "Renate Götschl (Austria)",
+         "bronzo": "Sonja Nef (Svizzera)",
+         "stag": "2001–02"
+        },
+        {
+         "anno": 2003,
+         "sede": "",
+         "oro": "Janica Kostelić (Croazia)",
+         "ris": "",
+         "argento": "Karen Putzer (Italia)",
+         "bronzo": "Anja Pärson (Svezia)",
+         "stag": "2002–03"
+        },
+        {
+         "anno": 2004,
+         "sede": "",
+         "oro": "Anja Pärson (Svezia)",
+         "ris": "",
+         "argento": "Renate Götschl (Austria)",
+         "bronzo": "Maria Riesch (Germania)",
+         "stag": "2003–04"
+        },
+        {
+         "anno": 2005,
+         "sede": "",
+         "oro": "Anja Pärson (Svezia)",
+         "ris": "",
+         "argento": "Janica Kostelić (Croazia)",
+         "bronzo": "Renate Götschl (Austria)",
+         "stag": "2004–05"
+        },
+        {
+         "anno": 2006,
+         "sede": "",
+         "oro": "Janica Kostelić (Croazia)",
+         "ris": "",
+         "argento": "Anja Pärson (Svezia)",
+         "bronzo": "Michaela Dorfmeister (Austria)",
+         "stag": "2005–06"
+        },
+        {
+         "anno": 2007,
+         "sede": "",
+         "oro": "Nicole Hosp (Austria)",
+         "ris": "",
+         "argento": "Marlies Schild (Austria)",
+         "bronzo": "Julia Mancuso (Stati Uniti)",
+         "stag": "2006–07"
+        },
+        {
+         "anno": 2008,
+         "sede": "",
+         "oro": "Lindsey Vonn (Stati Uniti)",
+         "ris": "",
+         "argento": "Nicole Hosp (Austria)",
+         "bronzo": "Maria Riesch (Germania)",
+         "stag": "2007–08"
+        },
+        {
+         "anno": 2009,
+         "sede": "",
+         "oro": "Lindsey Vonn (Stati Uniti)",
+         "ris": "",
+         "argento": "Maria Riesch (Germania)",
+         "bronzo": "Anja Pärson (Svezia)",
+         "stag": "2008–09"
+        },
+        {
+         "anno": 2010,
+         "sede": "",
+         "oro": "Lindsey Vonn (Stati Uniti)",
+         "ris": "",
+         "argento": "Maria Riesch (Germania)",
+         "bronzo": "Anja Pärson (Svezia)",
+         "stag": "2009–10"
+        },
+        {
+         "anno": 2011,
+         "sede": "",
+         "oro": "Maria Riesch (Germania)",
+         "ris": "",
+         "argento": "Lindsey Vonn (Stati Uniti)",
+         "bronzo": "Tina Maze (Slovenia)",
+         "stag": "2010–11"
+        },
+        {
+         "anno": 2012,
+         "sede": "",
+         "oro": "Lindsey Vonn (Stati Uniti)",
+         "ris": "",
+         "argento": "Tina Maze (Slovenia)",
+         "bronzo": "Maria Höfl-Riesch (Germania)",
+         "stag": "2011–12"
+        },
+        {
+         "anno": 2013,
+         "sede": "",
+         "oro": "Tina Maze (Slovenia)",
+         "ris": "",
+         "argento": "Maria Höfl-Riesch (Germania)",
+         "bronzo": "Anna Fenninger (Austria)",
+         "stag": "2012–13"
+        },
+        {
+         "anno": 2014,
+         "sede": "",
+         "oro": "Anna Fenninger (Austria)",
+         "ris": "",
+         "argento": "Maria Höfl-Riesch (Germania)",
+         "bronzo": "Lara Gut (Svizzera)",
+         "stag": "2013–14"
+        },
+        {
+         "anno": 2015,
+         "sede": "",
+         "oro": "Anna Fenninger (Austria)",
+         "ris": "",
+         "argento": "Tina Maze (Slovenia)",
+         "bronzo": "Lindsey Vonn (Stati Uniti)",
+         "stag": "2014–15"
+        },
+        {
+         "anno": 2016,
+         "sede": "",
+         "oro": "Lara Gut (Svizzera)",
+         "ris": "",
+         "argento": "Lindsey Vonn (Stati Uniti)",
+         "bronzo": "Viktoria Rebensburg (Germania)",
+         "stag": "2015–16"
+        },
+        {
+         "anno": 2017,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Ilka Štuhec (Slovenia)",
+         "bronzo": "Sofia Goggia (Italia)",
+         "stag": "2016–17"
+        },
+        {
+         "anno": 2018,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Wendy Holdener (Svizzera)",
+         "bronzo": "Viktoria Rebensburg (Germania)",
+         "stag": "2017–18"
+        },
+        {
+         "anno": 2019,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Petra Vlhová (Slovacchia)",
+         "bronzo": "Wendy Holdener (Svizzera)",
+         "stag": "2018–19"
+        },
+        {
+         "anno": 2020,
+         "sede": "",
+         "oro": "Federica Brignone (Italia)",
+         "ris": "",
+         "argento": "Mikaela Shiffrin (Stati Uniti)",
+         "bronzo": "Petra Vlhová (Slovacchia)",
+         "stag": "2019–20"
+        },
+        {
+         "anno": 2021,
+         "sede": "",
+         "oro": "Petra Vlhová (Slovacchia)",
+         "ris": "",
+         "argento": "Lara Gut-Behrami (Svizzera)",
+         "bronzo": "Michelle Gisin (Svizzera)",
+         "stag": "2020–21"
+        },
+        {
+         "anno": 2022,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Petra Vlhová (Slovacchia)",
+         "bronzo": "Federica Brignone (Italia)",
+         "stag": "2021–22"
+        },
+        {
+         "anno": 2023,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Lara Gut-Behrami (Svizzera)",
+         "bronzo": "Petra Vlhová (Slovacchia)",
+         "stag": "2022–23"
+        },
+        {
+         "anno": 2024,
+         "sede": "",
+         "oro": "Lara Gut-Behrami (Svizzera)",
+         "ris": "",
+         "argento": "Federica Brignone (Italia)",
+         "bronzo": "Mikaela Shiffrin (Stati Uniti)",
+         "stag": "2023–24"
+        },
+        {
+         "anno": 2025,
+         "sede": "",
+         "oro": "Federica Brignone (Italia)",
+         "ris": "",
+         "argento": "Lara Gut-Behrami (Svizzera)",
+         "bronzo": "Sofia Goggia (Italia)",
+         "stag": "2024–25"
+        },
+        {
+         "anno": 2026,
+         "sede": "",
+         "oro": "Mikaela Shiffrin (Stati Uniti)",
+         "ris": "",
+         "argento": "Emma Aicher (Germania)",
+         "bronzo": "Camille Rast (Svizzera)",
+         "stag": "2025–26"
+        }
+       ]
+      }
+     ]
+    }
+   ]
   }
  },
  "aggiornato": "26 novembre 2026"

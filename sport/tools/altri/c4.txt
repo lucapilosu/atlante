@@ -1,0 +1,77 @@
+## f1|en:stagioni di Formula 1 (classifica piloti)
+1950|Giuseppe Farina (Italy)|Juan Manuel Fangio (Argentina)|Luigi Fagioli (Italy)|1386083235
+1951|Juan Manuel Fangio (Argentina)|Alberto Ascari (Italy)|José Froilán González (Argentina)|1388175659
+1952|Alberto Ascari (Italy)|Giuseppe Farina (Italy)|Piero Taruffi (Italy)|1376485602
+1953|Alberto Ascari (Italy)|Juan Manuel Fangio (Argentina)|Nino Farina (Italy)|1387068988
+1954|Juan Manuel Fangio (Argentina)|José Froilán González (Argentina)|Mike Hawthorn (United Kingdom)|1387068777
+1955|Juan Manuel Fangio (Argentina)|Stirling Moss (United Kingdom)|Eugenio Castellotti (Italy)|1376998541
+1956|Juan Manuel Fangio (Argentina)|Stirling Moss (United Kingdom)|Peter Collins (United Kingdom)|1373791054
+1957|Juan Manuel Fangio (Argentina)|Stirling Moss (United Kingdom)|Luigi Musso (Italy)|1387080707
+1958|Mike Hawthorn (United Kingdom)|Stirling Moss (United Kingdom)|Tony Brooks (United Kingdom)|1373795186
+1959|Jack Brabham (Australia)|Tony Brooks (United Kingdom)|Stirling Moss (United Kingdom)|1386985310
+1960|Jack Brabham (Australia)|Bruce McLaren (New Zealand)|Stirling Moss (United Kingdom)|1370951701
+1961|Phil Hill (United States)|Wolfgang von Trips (West Germany)|Stirling Moss (United Kingdom)|1386920721
+1962|Graham Hill (United Kingdom)|Jim Clark (United Kingdom)|Bruce McLaren (New Zealand)|1370951727
+1963|Jim Clark (United Kingdom)|Graham Hill (United Kingdom)|Richie Ginther (United States)|1370951737
+1964|John Surtees (United Kingdom)|Graham Hill (United Kingdom)|Jim Clark (United Kingdom)|1387301482
+1965|Jim Clark (United Kingdom)|Graham Hill (United Kingdom)|Jackie Stewart (United Kingdom)|1387301436
+1966|Jack Brabham (Australia)|John Surtees (United Kingdom)|Jochen Rindt (Austria)|1387067978
+1967|Denny Hulme (New Zealand)|Jack Brabham (Australia)|Jim Clark (United Kingdom)|1387633962
+1968|Graham Hill (United Kingdom)|Jackie Stewart (United Kingdom)|Denny Hulme (New Zealand)|1370951814
+1969|Jackie Stewart (United Kingdom)|Jacky Ickx (Belgium)|Bruce McLaren (New Zealand)|1370910371
+1970|Jochen Rindt† (Austria)|Jacky Ickx (Belgium)|Clay Regazzoni (Switzerland)|1370951855
+1971|Jackie Stewart (United Kingdom)|Ronnie Peterson (Sweden)|François Cevert (France)|1374999515
+1972|Emerson Fittipaldi (Brazil)|Jackie Stewart (United Kingdom)|Denny Hulme (New Zealand)|1370966848
+1973|Jackie Stewart (United Kingdom)|Emerson Fittipaldi (Brazil)|Ronnie Peterson (Sweden)|1373455736
+1974|Emerson Fittipaldi (Brazil)|Clay Regazzoni (Switzerland)|Jody Scheckter (South Africa)|1370966877
+1975|Niki Lauda (Austria)|Emerson Fittipaldi (Brazil)|Carlos Reutemann (Argentina)|1379189425
+1976|James Hunt (United Kingdom)|Niki Lauda (Austria)|Jody Scheckter (South Africa)|1381744983
+1977|Niki Lauda (Austria)|Jody Scheckter (South Africa)|Mario Andretti (United States)|1384394075
+1978|Mario Andretti (United States)|Ronnie Peterson (Sweden)|Carlos Reutemann (Argentina)|1370964821
+1979|Jody Scheckter (South Africa)|Gilles Villeneuve (Canada)|Alan Jones (Australia)|1386903005
+1980|Alan Jones (Australia)|Nelson Piquet (Brazil)|Carlos Reutemann (Argentina)|1387572408
+1981|Nelson Piquet (Brazil)|Carlos Reutemann (Argentina)|Alan Jones (Australia)|1380544974
+1982|Keke Rosberg (Finland)|Didier Pironi (France)|John Watson (United Kingdom)|1386565384
+1983|Nelson Piquet (Brazil)|Alain Prost (France)|René Arnoux (France)|1384927365
+1984|Niki Lauda (Austria)|Alain Prost (France)|Elio de Angelis (Italy)|1387066016
+1985|Alain Prost (France)|Michele Alboreto (Italy)|Keke Rosberg (Finland)|1386470306
+1986|Alain Prost (France)|Nigel Mansell (United Kingdom)|Nelson Piquet (Brazil)|1371098877
+1987|Nelson Piquet (Brazil)|Nigel Mansell (United Kingdom)|Ayrton Senna (Brazil)|1374543474
+1988|Ayrton Senna (Brazil)|Alain Prost (France)|Gerhard Berger (Austria)|1386904966
+1989|Alain Prost (France)|Ayrton Senna (Brazil)|Riccardo Patrese (Italy)|1387034860
+1990|Ayrton Senna (Brazil)|Alain Prost (France)|Nelson Piquet (Brazil)|1388186205
+1991|Ayrton Senna (Brazil)|Nigel Mansell (United Kingdom)|Riccardo Patrese (Italy)|1387028262
+1992|Nigel Mansell (United Kingdom)|Riccardo Patrese (Italy)|Michael Schumacher (Germany)|1378008019
+1993|Alain Prost (France)|Ayrton Senna (Brazil)|Damon Hill (United Kingdom)|1375412761
+1994|Michael Schumacher (Germany)|Damon Hill (United Kingdom)|Gerhard Berger (Austria)|1384183546
+1995|Michael Schumacher (Germany)|Damon Hill (United Kingdom)|David Coulthard (United Kingdom)|1386917153
+1996|Damon Hill (United Kingdom)|Jacques Villeneuve (Canada)|Michael Schumacher (Germany)|1376170380
+1997|Jacques Villeneuve (Canada)|Heinz-Harald Frentzen (Germany)|David Coulthard (United Kingdom)|1377658935
+1998|Mika Häkkinen (Finland)|Michael Schumacher (Germany)|David Coulthard (United Kingdom)|1387065493
+1999|Mika Häkkinen (Finland)|Eddie Irvine (United Kingdom)|Heinz-Harald Frentzen (Germany)|1382222571
+2000|Michael Schumacher (Germany)|Mika Häkkinen (Finland)|David Coulthard (United Kingdom)|1388250272
+2001|Michael Schumacher (Germany)|David Coulthard (United Kingdom)|Rubens Barrichello (Brazil)|1375812110
+2002|Michael Schumacher (Germany)|Rubens Barrichello (Brazil)|Juan Pablo Montoya (Colombia)|1386910864
+2003|Michael Schumacher (Germany)|Kimi Räikkönen (Finland)|Juan Pablo Montoya (Colombia)|1387851143
+2004|Michael Schumacher (Germany)|Rubens Barrichello (Brazil)|Jenson Button (United Kingdom)|1387064464
+2005|Fernando Alonso (Spain)|Kimi Räikkönen (Finland)|Michael Schumacher (Germany)|1387301070
+2006|Fernando Alonso (Spain)|Michael Schumacher (Germany)|Felipe Massa (Brazil)|1384517955
+2007|Kimi Räikkönen (Finland)|Lewis Hamilton (United Kingdom)|Fernando Alonso (Spain)|1368924967
+2008|Lewis Hamilton (United Kingdom)|Felipe Massa (Brazil)|Kimi Räikkönen (Finland)|1386054944
+2009|Jenson Button (United Kingdom)|Sebastian Vettel (Germany)|Rubens Barrichello (Brazil)|1387125677
+2010|Sebastian Vettel (Germany)|Fernando Alonso (Spain)|Mark Webber (Australia)|1384509158
+2011|Sebastian Vettel (Germany)|Jenson Button (United Kingdom)|Mark Webber (Australia)|1386948211
+2012|Sebastian Vettel (Germany)|Fernando Alonso (Spain)|Kimi Räikkönen (Finland)|1386678847
+2013|Sebastian Vettel (Germany)|Fernando Alonso (Spain)|Mark Webber (Australia)|1387514269
+2014|Lewis Hamilton (United Kingdom)|Nico Rosberg (Germany)|Daniel Ricciardo (Australia)|1387617504
+2015|Lewis Hamilton (United Kingdom)|Nico Rosberg (Germany)|Sebastian Vettel (Germany)|1387829401
+2016|Nico Rosberg (Germany)|Lewis Hamilton (United Kingdom)|Daniel Ricciardo (Australia)|1386694217
+2017|Lewis Hamilton (United Kingdom)|Sebastian Vettel (Germany)|Valtteri Bottas (Finland)|1384473166
+2018|Lewis Hamilton (United Kingdom)|Sebastian Vettel (Germany)|Kimi Räikkönen (Finland)|1384990540
+2019|Lewis Hamilton (United Kingdom)|Valtteri Bottas (Finland)|Max Verstappen (Netherlands)|1384471895
+2020|Lewis Hamilton (United Kingdom)|Valtteri Bottas (Finland)|Max Verstappen (Netherlands)|1386573159
+2021|Max Verstappen (Netherlands)|Lewis Hamilton (United Kingdom)|Valtteri Bottas (Finland)|1387980276
+2022|Max Verstappen (Netherlands)|Charles Leclerc (Monaco)|Sergio Pérez (Mexico)|1387980576
+2023|Max Verstappen (Netherlands)|Sergio Pérez (Mexico)|Lewis Hamilton (United Kingdom)|1387573528
+2024|Max Verstappen (Netherlands)|Lando Norris (United Kingdom)|Charles Leclerc (Monaco)|1383575977
+2025|Lando Norris (United Kingdom)|Max Verstappen (Netherlands)|Oscar Piastri (Australia)|1387367768

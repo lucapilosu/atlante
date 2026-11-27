@@ -491,9 +491,9 @@ function tabella(t, hl) {
     return `<table class="albo"><colgroup><col class="c-s"><col>${ris ? '<col class="c-r">' : ''}<col></colgroup><thead><tr><th>Stagione</th><th>Campione</th>${ris ? '<th>Serie</th>' : ''}<th>Secondo</th></tr></thead><tbody>` +
       rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${esc(r.stag)}</td><td>${esc(r.oro)}${nr(r)}</td>${ris ? `<td class="r">${esc(r.ris || '')}</td>` : ''}<td>${esc(r.argento)}</td></tr>`).join('') + '</tbody></table>';
   }
-  const ris = rr.some(r => r.ris);
-  return `<table class="albo"><colgroup><col class="c-a"><col>${ris ? '<col class="c-r">' : ''}<col><col></colgroup><thead><tr><th>Anno</th><th>Oro</th>${ris ? '<th>Finale</th>' : ''}<th>Argento</th><th>Bronzo</th></tr></thead><tbody>` +
-    rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${r.anno}<span class="sede">${esc(r.sede)}</span></td><td>${cella(r.oro)}${nr(r)}</td>${ris ? `<td class="r">${esc(r.ris)}</td>` : ''}<td>${cella(r.argento)}</td><td>${cella(r.bronzo)}</td></tr>`).join('') + '</tbody></table>';
+  const ris = rr.some(r => r.ris), stag = rr.some(r => r.stag), [c1, c2, c3] = t.colonne || ['Oro', 'Argento', 'Bronzo'];
+  return `<table class="albo"><colgroup><col class="c-a"><col>${ris ? '<col class="c-r">' : ''}<col><col></colgroup><thead><tr><th>${stag ? 'Stagione' : 'Anno'}</th><th>${c1}</th>${ris ? '<th>Finale</th>' : ''}<th>${c2}</th><th>${c3}</th></tr></thead><tbody>` +
+    rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${esc(r.stag || r.anno)}${r.sede ? `<span class="sede">${esc(r.sede)}</span>` : ''}</td><td>${cella(r.oro)}${nr(r)}</td>${ris ? `<td class="r">${esc(r.ris)}</td>` : ''}<td>${cella(r.argento)}</td><td>${cella(r.bronzo)}</td></tr>`).join('') + '</tbody></table>';
 }
 function apriSport(id, g = 0, t = 0, hl = null) {
   const s = SP[SPI[id]], a = DATI.albi[id];
@@ -527,7 +527,7 @@ function apriSport(id, g = 0, t = 0, hl = null) {
   const on = panel.querySelector('.tabs.disc button.on'); if (on && !hl) on.scrollIntoView({block: 'nearest', inline: 'nearest'});
 }
 function apriAlbi() {
-  mostra(`<h2>Albi d'oro</h2><p>Olimpiadi, Mondiali, Europei e campionati, edizione per edizione.</p><div class="albi-lista">` +
+  mostra(`<h2>Albi d'oro</h2><p>Olimpiadi, Mondiali, Europei, campionati, Giro e Tour, Formula 1 e Coppa del Mondo di sci, edizione per edizione.</p><div class="albi-lista">` +
     Object.entries(DATI.albi).map(([id, a]) => { const s = SP[SPI[id]]; return `<button type="button" data-sport="${id}">${icona(s.icona, s.colore)}<span><b>${esc(s.nome)}</b><br><small>${esc(a.gruppi.map(g => g.nome).join(' · '))}</small></span></button>`; }).join('') + '</div>', 'albi');
 }
 
@@ -540,7 +540,7 @@ function caricaAtleti() {
 }
 const ESITO = {oro: 'Oro', argento: 'Argento', bronzo: 'Bronzo', titolo: 'Titolo', vittoria: 'Vittoria'};
 const COMP_ORDINE = ['Olimpiadi', 'Mondiali', 'Europei'];
-const categoria = comp => COMP_ORDINE.includes(comp) ? comp : /^Campionato/.test(comp) ? 'Campionati' : 'Altro';
+const categoria = comp => COMP_ORDINE.includes(comp) ? comp : /^Mondiale /.test(comp) ? 'Mondiali' : /^Campionato/.test(comp) ? 'Campionati' : 'Altre';
 const oroLike = e => e === 'oro' || e === 'titolo' || e === 'vittoria';
 function segniAtleta(a) {
   const m = new Map();
@@ -605,7 +605,7 @@ $('vistaEsci').onclick = () => { esciVista(); chiudi(); };
 
 /* ---------- pagina di ricerca ---------- */
 const norm = x => String(x ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[–—-]/g, '-').replace(/[’']/g, ' ');
-const CAT_GRUPPO = {olimpiadi: 'Olimpiadi', mondiali: 'Mondiali', europei: 'Europei'};
+const CAT_GRUPPO = {olimpiadi: 'Olimpiadi', mondiali: 'Mondiali', europei: 'Europei', f1: 'Mondiali', giro: 'Altre', tour: 'Altre', coppa: 'Altre'};
 /* paesi citati in una casella: «Nome (Paese)», «A / B (Paese)», oppure la nazionale stessa */
 const paesiCella = x => !x || x === '—' ? [] : /\(/.test(x) ? [...x.matchAll(/\(([^()]+)\)/g)].map(m => m[1]) : x.split(', ');
 const INDICE = [];
@@ -664,7 +664,7 @@ function filtri() {
     `<h4>Cosa</h4>${chipsF('cosa', [['', 'Tutto'], ['voce', 'Tessere'], ['albo', "Albi d'oro"], ['atleta', 'Atleti']])}` +
     `<h4>Paese</h4><select id="fPaese" aria-label="Paese"><option value="">Tutti i paesi</option>${paesi.map(p => `<option${p === C.paese ? ' selected' : ''}>${esc(p)}</option>`).join('')}</select>` +
     `<h4>Sport</h4>${chipsF('sport', SP.map(s => [s.id, s.nome, icona(s.icona, s.colore)]), true)}` +
-    `<h4>Competizione</h4>${chipsF('cat', [['Olimpiadi', 'Olimpiadi'], ['Mondiali', 'Mondiali'], ['Europei', 'Europei'], ['Campionati', 'Campionati']], true)}` +
+    `<h4>Competizione</h4>${chipsF('cat', [['Olimpiadi', 'Olimpiadi'], ['Mondiali', 'Mondiali'], ['Europei', 'Europei'], ['Campionati', 'Campionati'], ['Altre', 'Giri, Coppe e Slam']], true)}` +
     `<h4>Risultato</h4>${chipsF('esito', [['oro', 'Oro', '<i class="med oro"></i>'], ['argento', 'Argento', '<i class="med argento"></i>'], ['bronzo', 'Bronzo', '<i class="med bronzo"></i>']], true)}` +
     `<h4>Anni</h4><div class="anni-f"><input id="fDa" type="number" inputmode="numeric" placeholder="dal" value="${esc(C.da)}" aria-label="Dall'anno">–<input id="fA" type="number" inputmode="numeric" placeholder="al" value="${esc(C.a)}" aria-label="All'anno"></div>` +
     `<h4>Genere</h4>${chipsF('gen', [['', 'Tutti'], ['Uomini', 'Uomini'], ['Donne', 'Donne']])}` +
@@ -745,7 +745,7 @@ function riga(e, toks) {
   const chi = lega ? `${segna(r.oro, toks)}${r.argento ? ` <span class="rs" style="display:inline">· 2° ${segna(r.argento, toks)}</span>` : ''}`
     : [pezzo('oro', ''), pezzo('argento', ''), pezzo('bronzo', '')].join(' · ');
   const comp = `${g.nome}${nomeT && nomeT !== 'Finali' && (g.tornei.length > 1 || !lega) ? ' ' + nomeT.toLowerCase() : ''}`;
-  return `<li tabindex="0" ${st} data-albo="${e.sport}|${e.gi}|${e.ti}|${esc(chiaveRiga(r))}"><span class="ly">${esc(lega ? r.stag : r.anno)}</span><span class="rt"><b>${chi}</b><span class="rs">${esc(s.nome)} · ${esc(comp)}${r.sede ? ' · ' + segna(r.sede, toks) : ''}${r.nota ? ' · ' + segna(r.nota, toks) : ''}</span></span></li>`;
+  return `<li tabindex="0" ${st} data-albo="${e.sport}|${e.gi}|${e.ti}|${esc(chiaveRiga(r))}"><span class="ly">${esc(r.stag || r.anno)}</span><span class="rt"><b>${chi}</b><span class="rs">${esc(s.nome)} · ${esc(comp)}${r.sede ? ' · ' + segna(r.sede, toks) : ''}${r.nota ? ' · ' + segna(r.nota, toks) : ''}</span></span></li>`;
 }
 function risultati() {
   const toks = norm(C.q).split(/\s+/).filter(Boolean);
