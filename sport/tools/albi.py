@@ -151,6 +151,7 @@ def serie_a(righe):
         if lab in ("Season", "Year") or lab == "1915–19" or lab == "1945":
             continue
         lab = lab.replace("(FIGC)", " (FIGC)").replace("(CCI)", " (CCI)")
+        lab = re.sub(r"^(\d{4})–\d\d(\d\d)$", r"\1–\2", lab)  # «1999–2000» → «1999–00» (v0.7)
         riga = {"anno": anno_stagione(lab), "stag": lab, "oro": club(oro),
                 "argento": "" if arg == "-" else ", ".join(club(x) for x in arg.split("/"))}
         if "/" in arg:

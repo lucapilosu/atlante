@@ -69,8 +69,8 @@ def righe(chiave, B):
         anno = int(m[1]) if not m[2] else int(m[1][:2] + m[2]) if len(m[2]) == 2 else int(m[2])
         oro, arg, bro = (persona(x, inglese) for x in r[1:4])
         riga = {"anno": anno, "sede": "", "oro": oro or "—", "ris": "", "argento": arg or "—", "bronzo": bro or "—"}
-        if m[2]:
-            riga["stag"] = etichetta
+        if m[2]:  # «1999–2000» scritto «1999–00» come negli altri albi (v0.7: non entrava nella colonna)
+            riga["stag"] = f"{m[1]}–{m[2][-2:]}"
         k = {"sciM": "coppa", "sciF": "coppa"}.get(chiave, chiave)
         nota = NOTE.get((k, anno), "")
         if chiave == "tour" and 1999 <= anno <= 2005:

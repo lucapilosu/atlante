@@ -17,6 +17,7 @@ import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
 import albo_atletica  # noqa: E402  (albo olimpico dell'atletica, v0.3)
 import altri_albi  # noqa: E402  (Giro, Tour, Formula 1, Coppa del Mondo di sci, v0.5)
 import albi_v06  # noqa: E402  (Slam di tennis, nuoto e ginnastica olimpici, v0.6)
+import albi_club  # noqa: E402  (Champions League, Coppa Italia, Eurolega, Champions League di pallavolo, v0.7)
 import atleti  # noqa: E402  (palmarès degli atleti, v0.3)
 import voci_v03  # noqa: E402  (tessere dal mondo, v0.3)
 
@@ -529,6 +530,22 @@ ALTRI = albi.costruisci()
 for _sp, _gg in altri_albi.costruisci().items():
     ALTRI[_sp] = ALTRI.get(_sp, []) + _gg
 ALTRI["tennis"] = TENNIS
+_ff = lambda i, t, u: {"i": i, "t": t, "u": u}
+FONTI_CLUB = {  # riscontri della stagione 2025-26 (27/11/2026)
+    "champions": [_ff("Euronews", "PSG batte l'Arsenal ai rigori a Budapest (30 maggio 2026)",
+                      "https://euronews.com/my-europe/2026/05/30/paris-saint-germain-wins-the-champions-league-after-penalty-shootout-victory-against-arsen")],
+    "coppaitalia": [_ff("Il Post", "L'Inter ha vinto la Coppa Italia (13 maggio 2026)",
+                        "https://www.ilpost.it/2026/05/13/inter-lazio-coppa-italia-risultato-vittoria-inter/")],
+    "eurolega": [_ff("Olympiacos BC", "Olympiacos on the top of Europe (24 maggio 2026)",
+                     "https://www.olympiacosbc.gr/en/news/games/19543-olympiacos-on-the-top-of-europe.html"),
+                 _ff("FIBA", "Fenerbahce take Final revenge on Galatasaray (19 aprile 2026)",
+                     "https://www.fiba.basketball/en/news/fenerbahce-take-final-revenge-on-galatasaray")],
+    "champions_volley": [_ff("CEV", "Perugia crowned back-to-back champions (17 maggio 2026)",
+                             "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/perugia-crowned-back-to-back-clvolleym-champions/"),
+                         _ff("CEV", "VakifBank rise again to claim historic seventh European crown (3 maggio 2026)",
+                             "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/vakifbank-rise-again-to-claim-historic-seventh-european-crown/")]}
+for _sp, _gg in albi_club.costruisci(FONTI_CLUB).items():
+    ALTRI[_sp] = ALTRI.get(_sp, []) + _gg
 NOTA_ALBI = ("Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, "
              "controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o "
              "giornalistiche, elencate tra le fonti.")
@@ -574,7 +591,9 @@ SQUADRA_ALLENATA = {"karch-kiraly": "Donne"}
 GRUPPO = {"Olimpiadi": "olimpiadi", "Mondiali": "mondiali", "Europei": "europei", "Campionato italiano": "scudetto",
           "Campionato NBA": "nba", "Giro d'Italia": "giro", "Tour de France": "tour", "Mondiale di Formula 1": "f1",
           "Coppa del Mondo generale": "coppa",
-          "Australian Open": "ao", "Roland Garros": "rg", "Wimbledon": "wimbledon", "US Open": "usopen"}
+          "Australian Open": "ao", "Roland Garros": "rg", "Wimbledon": "wimbledon", "US Open": "usopen",
+          "Coppa dei Campioni / Champions League": "champions", "Champions League (pallavolo)": "champions",
+          "Eurolega": "eurolega"}
 # gara del palmarès -> torneo dell'albo, quando il nome non coincide
 GARA_ALBO = {("ginnastica", ""): "concorso a squadre"}
 NOMI_PAESE = {"Unione Sovietica, poi Lituania": {"Unione Sovietica", "Lituania", "Squadra Unificata"},
@@ -618,7 +637,7 @@ def collega(atl, albi_):
             T = G["tornei"][ti]
             chiave = (p.get("stag") or "").replace("-", "–") or str(p["anno"])
             if not p.get("stag"):  # NBA, sci: l'anno è quello di fine stagione
-                r = next((r for r in T["righe"] if r["anno"] == p["anno"]), None)
+                r = next((r for r in T["righe"] if r["anno"] == p["anno"] and not r.get("parallela")), None)
                 chiave = r.get("stag", str(r["anno"])) if r else chiave
             else:
                 r = next((r for r in T["righe"] if (r.get("stag") or str(r["anno"])) == chiave), None)

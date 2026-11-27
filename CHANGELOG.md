@@ -1,5 +1,17 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.7 · 27 novembre 2026
+
+- **Albi delle coppe di club** (421 righe in più, 2.958 in tutto), con vincitore, punteggio della finale e finalista:
+  - calcio: **Coppa dei Campioni / Champions League** dal 1955-56, con la città della finale, e **Coppa Italia** dal 1922, con le finali di andata e ritorno riunite in una riga e i casi particolari annotati (gol in trasferta, rigori, gironi finali 1967-71, edizione 1926-27 non conclusa);
+  - basket: **Eurolega** uomini dal 1958 e donne dal 1959; nel 2000-01 due righe, la Suproleague FIBA e l'Euroleague ULEB da cui discende l'Eurolega di oggi;
+  - pallavolo: **Champions League** uomini dal 1959-60 e donne dal 1960-61, con le finali a girone annotate.
+  - Club con il paese e la bandierina italiana; edizioni 2019-20 annullate per il COVID segnate come non assegnate.
+- Finali 2025-26 riscontrate su fonti esterne: PSG sull'Arsenal ai rigori (Budapest), Inter sulla Lazio, Olympiacos sul Real Madrid, Fenerbahçe sul Galatasaray, Perugia sullo Zawiercie, VakıfBank sull'Eczacıbaşı.
+- 1.047 voci di palmarès portano all'albo (erano 935), tutte controllate: le Champions di Messi, Cristiano Ronaldo, Zidane e Cruijff (anche da allenatori), le Euroleghe di Meneghin, Ginóbili (all'Euroleague 2001, non alla Suproleague) e Taurasi, le Champions di pallavolo di Bernardi, Giani, Kiraly, Egonu, De Gennaro, Bošković e degli altri.
+- Tabelle su telefono: la specifica tra parentesi va sotto l'anno in piccolo (per esempio «2000–01» sopra e «Euroleague» sotto); i punteggi lunghi vanno a capo; «1999–2000» scritto «1999–00» anche nello Scudetto e nella Coppa del Mondo di sci. Corretti così sette casi, anche vecchi, in cui una casella usciva dalla sua colonna su iPhone SE.
+- Prove: 137 controlli su PC e iPhone emulato, compreso uno nuovo che apre tutte le 85 tabelle d'albo e verifica che nessuna casella esca dalla sua colonna.
+
 ## Pilu Sports Almanac v0.6.1 · 27 novembre 2026
 
 - **Trascinamento col mouse su PC più fluido** (segnalato da Luca). Causa riprodotta: trascinando, il mouse selezionava il testo delle tessere; il trascinamento successivo che partiva da un testo selezionato veniva preso dal browser come spostamento del testo e interrotto dopo pochi pixel. Ora sul mosaico il testo non si seleziona, il trascinamento del browser è bloccato e l'effetto al passaggio del mouse sulle tessere si spegne mentre si trascina.

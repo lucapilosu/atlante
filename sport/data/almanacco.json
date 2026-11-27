@@ -2829,7 +2829,7 @@
         },
         {
          "anno": 2000,
-         "stag": "1999–2000",
+         "stag": "1999–00",
          "oro": "Lazio",
          "argento": "Juventus"
         },
@@ -3008,6 +3008,1269 @@
       }
      ],
      "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "champions",
+     "nome": "Champions League",
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "List of European Cup and UEFA Champions League finals (revisione 1387776343)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_European_Cup_and_UEFA_Champions_League_finals&oldid=1387776343"
+      },
+      {
+       "i": "Euronews",
+       "t": "PSG batte l'Arsenal ai rigori a Budapest (30 maggio 2026)",
+       "u": "https://euronews.com/my-europe/2026/05/30/paris-saint-germain-wins-the-champions-league-after-penalty-shootout-victory-against-arsen"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Finali",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1956,
+         "stag": "1955–56",
+         "sede": "Parigi",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "4–3",
+         "argento": "Reims (Francia)"
+        },
+        {
+         "anno": 1957,
+         "stag": "1956–57",
+         "sede": "Madrid",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "2–0",
+         "argento": "Fiorentina (Italia)"
+        },
+        {
+         "anno": 1958,
+         "stag": "1957–58",
+         "sede": "Bruxelles",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "3–2 d.t.s.",
+         "argento": "Milan (Italia)"
+        },
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "sede": "Stoccarda",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "2–0",
+         "argento": "Reims (Francia)"
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "sede": "Glasgow",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "7–3",
+         "argento": "Eintracht Francoforte (Germania Ovest)"
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "sede": "Berna",
+         "oro": "Benfica (Portogallo)",
+         "ris": "3–2",
+         "argento": "Barcellona (Spagna)"
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "sede": "Amsterdam",
+         "oro": "Benfica (Portogallo)",
+         "ris": "5–3",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "sede": "Londra",
+         "oro": "Milan (Italia)",
+         "ris": "2–1",
+         "argento": "Benfica (Portogallo)"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "sede": "Vienna",
+         "oro": "Inter (Italia)",
+         "ris": "3–1",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "sede": "Milano",
+         "oro": "Inter (Italia)",
+         "ris": "1–0",
+         "argento": "Benfica (Portogallo)"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "sede": "Bruxelles",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "2–1",
+         "argento": "Partizan Belgrado (Jugoslavia)"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "sede": "Lisbona",
+         "oro": "Celtic (Scozia)",
+         "ris": "2–1",
+         "argento": "Inter (Italia)"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "sede": "Londra",
+         "oro": "Manchester United (Inghilterra)",
+         "ris": "4–1 d.t.s.",
+         "argento": "Benfica (Portogallo)"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "sede": "Madrid",
+         "oro": "Milan (Italia)",
+         "ris": "4–1",
+         "argento": "Ajax (Paesi Bassi)"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "sede": "Milano",
+         "oro": "Feyenoord (Paesi Bassi)",
+         "ris": "2–1 d.t.s.",
+         "argento": "Celtic (Scozia)"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "sede": "Londra",
+         "oro": "Ajax (Paesi Bassi)",
+         "ris": "2–0",
+         "argento": "Panathinaikos (Grecia)"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "sede": "Rotterdam",
+         "oro": "Ajax (Paesi Bassi)",
+         "ris": "2–0",
+         "argento": "Inter (Italia)"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "sede": "Belgrado",
+         "oro": "Ajax (Paesi Bassi)",
+         "ris": "1–0",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "sede": "Bruxelles",
+         "oro": "Bayern Monaco (Germania Ovest)",
+         "ris": "1–1; 4–0",
+         "argento": "Atlético Madrid (Spagna)",
+         "nota": "Finale ripetuta: la prima partita era finita 1–1, la ripetizione 4–0."
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "sede": "Parigi",
+         "oro": "Bayern Monaco (Germania Ovest)",
+         "ris": "2–0",
+         "argento": "Leeds United (Inghilterra)"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "sede": "Glasgow",
+         "oro": "Bayern Monaco (Germania Ovest)",
+         "ris": "1–0",
+         "argento": "Saint-Étienne (Francia)"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "sede": "Roma",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "3–1",
+         "argento": "Borussia Mönchengladbach (Germania Ovest)"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "sede": "Londra",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Club Brugge (Belgio)"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "sede": "Monaco di Baviera",
+         "oro": "Nottingham Forest (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Malmö (Svezia)"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "sede": "Madrid",
+         "oro": "Nottingham Forest (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Amburgo (Germania Ovest)"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "sede": "Parigi",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "sede": "Rotterdam",
+         "oro": "Aston Villa (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Bayern Monaco (Germania Ovest)"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "sede": "Atene",
+         "oro": "Amburgo (Germania Ovest)",
+         "ris": "1–0",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "sede": "Roma",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "1–1 (rigori)",
+         "argento": "Roma (Italia)"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "sede": "Bruxelles",
+         "oro": "Juventus (Italia)",
+         "ris": "1–0",
+         "argento": "Liverpool (Inghilterra)"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "sede": "Siviglia",
+         "oro": "Steaua Bucarest (Romania)",
+         "ris": "0–0 (rigori)",
+         "argento": "Barcellona (Spagna)"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "sede": "Vienna",
+         "oro": "Porto (Portogallo)",
+         "ris": "2–1",
+         "argento": "Bayern Monaco (Germania Ovest)"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "sede": "Stoccarda",
+         "oro": "PSV Eindhoven (Paesi Bassi)",
+         "ris": "0–0 (rigori)",
+         "argento": "Benfica (Portogallo)"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "sede": "Barcellona",
+         "oro": "Milan (Italia)",
+         "ris": "4–0",
+         "argento": "Steaua Bucarest (Romania)"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "sede": "Vienna",
+         "oro": "Milan (Italia)",
+         "ris": "1–0",
+         "argento": "Benfica (Portogallo)"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "sede": "Bari",
+         "oro": "Stella Rossa (Jugoslavia)",
+         "ris": "0–0 (rigori)",
+         "argento": "Olympique Marsiglia (Francia)"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "sede": "Londra",
+         "oro": "Barcellona (Spagna)",
+         "ris": "1–0 d.t.s.",
+         "argento": "Sampdoria (Italia)"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "sede": "Monaco di Baviera",
+         "oro": "Olympique Marsiglia (Francia)",
+         "ris": "1–0",
+         "argento": "Milan (Italia)"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "sede": "Atene",
+         "oro": "Milan (Italia)",
+         "ris": "4–0",
+         "argento": "Barcellona (Spagna)"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "sede": "Vienna",
+         "oro": "Ajax (Paesi Bassi)",
+         "ris": "1–0",
+         "argento": "Milan (Italia)"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "sede": "Roma",
+         "oro": "Juventus (Italia)",
+         "ris": "1–1 (rigori)",
+         "argento": "Ajax (Paesi Bassi)"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "sede": "Monaco di Baviera",
+         "oro": "Borussia Dortmund (Germania)",
+         "ris": "3–1",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "sede": "Amsterdam",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "1–0",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "sede": "Barcellona",
+         "oro": "Manchester United (Inghilterra)",
+         "ris": "2–1",
+         "argento": "Bayern Monaco (Germania)"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "sede": "Saint-Denis",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "3–0",
+         "argento": "Valencia (Spagna)"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "sede": "Milano",
+         "oro": "Bayern Monaco (Germania)",
+         "ris": "1–1 (rigori)",
+         "argento": "Valencia (Spagna)"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "sede": "Glasgow",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "2–1",
+         "argento": "Bayer Leverkusen (Germania)"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "sede": "Manchester",
+         "oro": "Milan (Italia)",
+         "ris": "0–0 (rigori)",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "sede": "Gelsenkirchen",
+         "oro": "Porto (Portogallo)",
+         "ris": "3–0",
+         "argento": "AS Monaco (Francia)"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "sede": "Istanbul",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "3–3 (rigori)",
+         "argento": "Milan (Italia)"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "sede": "Saint-Denis",
+         "oro": "Barcellona (Spagna)",
+         "ris": "2–1",
+         "argento": "Arsenal (Inghilterra)"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "sede": "Atene",
+         "oro": "Milan (Italia)",
+         "ris": "2–1",
+         "argento": "Liverpool (Inghilterra)"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "sede": "Mosca",
+         "oro": "Manchester United (Inghilterra)",
+         "ris": "1–1 (rigori)",
+         "argento": "Chelsea (Inghilterra)"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "sede": "Roma",
+         "oro": "Barcellona (Spagna)",
+         "ris": "2–0",
+         "argento": "Manchester United (Inghilterra)"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "sede": "Madrid",
+         "oro": "Inter (Italia)",
+         "ris": "2–0",
+         "argento": "Bayern Monaco (Germania)"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "sede": "Londra",
+         "oro": "Barcellona (Spagna)",
+         "ris": "3–1",
+         "argento": "Manchester United (Inghilterra)"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "sede": "Monaco di Baviera",
+         "oro": "Chelsea (Inghilterra)",
+         "ris": "1–1 (rigori)",
+         "argento": "Bayern Monaco (Germania)"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "sede": "Londra",
+         "oro": "Bayern Monaco (Germania)",
+         "ris": "2–1",
+         "argento": "Borussia Dortmund (Germania)"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "sede": "Lisbona",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "4–1 d.t.s.",
+         "argento": "Atlético Madrid (Spagna)"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "sede": "Berlino",
+         "oro": "Barcellona (Spagna)",
+         "ris": "3–1",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "sede": "Milano",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "1–1 (rigori)",
+         "argento": "Atlético Madrid (Spagna)"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "sede": "Cardiff",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "4–1",
+         "argento": "Juventus (Italia)"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "sede": "Kiev",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "3–1",
+         "argento": "Liverpool (Inghilterra)"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "sede": "Madrid",
+         "oro": "Liverpool (Inghilterra)",
+         "ris": "2–0",
+         "argento": "Tottenham Hotspur (Inghilterra)"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "sede": "Lisbona",
+         "oro": "Bayern Monaco (Germania)",
+         "ris": "1–0",
+         "argento": "Paris Saint-Germain (Francia)"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "sede": "Porto",
+         "oro": "Chelsea (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Manchester City (Inghilterra)"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "sede": "Saint-Denis",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "1–0",
+         "argento": "Liverpool (Inghilterra)"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "sede": "Istanbul",
+         "oro": "Manchester City (Inghilterra)",
+         "ris": "1–0",
+         "argento": "Inter (Italia)"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "sede": "Londra",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "2–0",
+         "argento": "Borussia Dortmund (Germania)"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "sede": "Monaco di Baviera",
+         "oro": "Paris Saint-Germain (Francia)",
+         "ris": "5–0",
+         "argento": "Inter (Italia)"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "sede": "Budapest",
+         "oro": "Paris Saint-Germain (Francia)",
+         "ris": "1–1 (rigori)",
+         "argento": "Arsenal (Inghilterra)"
+        }
+       ],
+       "bandiere": true
+      }
+     ],
+     "nota": "Finali della Coppa dei Campioni (1955–1992) e della Champions League (dal 1992-93), con la città della finale. «d.t.s.» = dopo i tempi supplementari. Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati più recenti sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "coppaitalia",
+     "nome": "Coppa Italia",
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "List of Coppa Italia finals (revisione 1370160847)",
+       "u": "https://en.wikipedia.org/w/index.php?title=List_of_Coppa_Italia_finals&oldid=1370160847"
+      },
+      {
+       "i": "Il Post",
+       "t": "L'Inter ha vinto la Coppa Italia (13 maggio 2026)",
+       "u": "https://www.ilpost.it/2026/05/13/inter-lazio-coppa-italia-risultato-vittoria-inter/"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Finali",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1922,
+         "stag": "1922",
+         "oro": "Vado",
+         "argento": "Udinese",
+         "ris": "1–0 d.t.s.",
+         "sede": "Vado Ligure"
+        },
+        {
+         "anno": 1927,
+         "stag": "1926–27",
+         "oro": "Non assegnata",
+         "ris": "",
+         "argento": "",
+         "nota": "Edizione non conclusa."
+        },
+        {
+         "anno": 1936,
+         "stag": "1935–36",
+         "oro": "Torino",
+         "argento": "Alessandria",
+         "ris": "5–1",
+         "sede": "Genova"
+        },
+        {
+         "anno": 1937,
+         "stag": "1936–37",
+         "oro": "Genova",
+         "argento": "Roma",
+         "ris": "1–0",
+         "sede": "Firenze"
+        },
+        {
+         "anno": 1938,
+         "stag": "1937–38",
+         "oro": "Juventus",
+         "argento": "Torino",
+         "ris": "3–1, 2–1",
+         "nota": "Andata e ritorno, 5–2 nel totale."
+        },
+        {
+         "anno": 1939,
+         "stag": "1938–39",
+         "oro": "Ambrosiana",
+         "argento": "Novara",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1940,
+         "stag": "1939–40",
+         "oro": "Fiorentina",
+         "argento": "Genova",
+         "ris": "1–0",
+         "sede": "Firenze"
+        },
+        {
+         "anno": 1941,
+         "stag": "1940–41",
+         "oro": "Venezia",
+         "argento": "Roma",
+         "ris": "3–3, 1–0",
+         "nota": "Andata e ritorno, 4–3 nel totale."
+        },
+        {
+         "anno": 1942,
+         "stag": "1941–42",
+         "oro": "Juventus",
+         "argento": "Milan",
+         "ris": "1–1, 4–1",
+         "nota": "Andata e ritorno, 5–2 nel totale."
+        },
+        {
+         "anno": 1943,
+         "stag": "1942–43",
+         "oro": "Torino",
+         "argento": "Venezia",
+         "ris": "4–0",
+         "sede": "Milano"
+        },
+        {
+         "anno": 1958,
+         "stag": "1958",
+         "oro": "Lazio",
+         "argento": "Fiorentina",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "oro": "Juventus",
+         "argento": "Inter",
+         "ris": "4–1",
+         "sede": "Milano"
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "Juventus",
+         "argento": "Fiorentina",
+         "ris": "3–2 d.t.s.",
+         "sede": "Milano"
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Fiorentina",
+         "argento": "Lazio",
+         "ris": "2–0",
+         "sede": "Firenze"
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Napoli",
+         "argento": "SPAL",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Atalanta",
+         "argento": "Torino",
+         "ris": "3–1",
+         "sede": "Milano"
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Roma",
+         "argento": "Torino",
+         "ris": "1–0",
+         "sede": "Torino",
+         "nota": "Vinta nella ripetizione della finale."
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Juventus",
+         "argento": "Inter",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Fiorentina",
+         "argento": "Catanzaro",
+         "ris": "2–1 d.t.s.",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Milan",
+         "argento": "Padova",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Torino",
+         "argento": "Milan",
+         "ris": "",
+         "nota": "Assegnata con un girone finale, senza finale."
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Roma",
+         "argento": "Cagliari",
+         "ris": "",
+         "nota": "Assegnata con un girone finale, senza finale."
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Bologna",
+         "argento": "Torino",
+         "ris": "",
+         "nota": "Assegnata con un girone finale, senza finale."
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Torino",
+         "argento": "Milan",
+         "ris": "",
+         "nota": "Assegnata con un girone finale, senza finale."
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Milan",
+         "argento": "Napoli",
+         "ris": "2–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Milan",
+         "argento": "Juventus",
+         "ris": "1–1 (rigori)",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Bologna",
+         "argento": "Palermo",
+         "ris": "1–1 (rigori)",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Fiorentina",
+         "argento": "Milan",
+         "ris": "3–2",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Napoli",
+         "argento": "Hellas Verona",
+         "ris": "4–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Milan",
+         "argento": "Inter",
+         "ris": "2–0",
+         "sede": "Milano"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Inter",
+         "argento": "Napoli",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Juventus",
+         "argento": "Palermo",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Roma",
+         "argento": "Torino",
+         "ris": "0–0 (rigori)",
+         "sede": "Roma"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Roma",
+         "argento": "Torino",
+         "ris": "1–1, 1–1 (rigori)",
+         "nota": "Andata e ritorno, 2–2 nel totale: decisero i rigori (4–2)."
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Inter",
+         "argento": "Torino",
+         "ris": "1–0, 1–1",
+         "nota": "Andata e ritorno, 2–1 nel totale."
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Juventus",
+         "argento": "Hellas Verona",
+         "ris": "0–2, 3–0 d.t.s.",
+         "nota": "Andata e ritorno, 3–2 nel totale."
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Roma",
+         "argento": "Hellas Verona",
+         "ris": "1–1, 1–0",
+         "nota": "Andata e ritorno, 2–1 nel totale."
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Sampdoria",
+         "argento": "Milan",
+         "ris": "1–0, 2–1",
+         "nota": "Andata e ritorno, 3–1 nel totale."
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Roma",
+         "argento": "Sampdoria",
+         "ris": "1–2, 2–0",
+         "nota": "Andata e ritorno, 3–2 nel totale."
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Napoli",
+         "argento": "Atalanta",
+         "ris": "3–0, 1–0",
+         "nota": "Andata e ritorno, 4–0 nel totale."
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Sampdoria",
+         "argento": "Torino",
+         "ris": "2–0, 1–2",
+         "nota": "Andata e ritorno, 3–2 nel totale."
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Sampdoria",
+         "argento": "Napoli",
+         "ris": "0–1, 4–0",
+         "nota": "Andata e ritorno, 4–1 nel totale."
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Juventus",
+         "argento": "Milan",
+         "ris": "0–0, 1–0",
+         "nota": "Andata e ritorno, 1–0 nel totale."
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Roma",
+         "argento": "Sampdoria",
+         "ris": "3–1, 1–1",
+         "nota": "Andata e ritorno, 4–2 nel totale."
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Parma",
+         "argento": "Juventus",
+         "ris": "0–1, 2–0",
+         "nota": "Andata e ritorno, 2–1 nel totale."
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Torino",
+         "argento": "Roma",
+         "ris": "3–0, 2–5",
+         "nota": "Andata e ritorno, 5–5 nel totale: decisero i gol in trasferta."
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Sampdoria",
+         "argento": "Ancona",
+         "ris": "0–0, 6–1",
+         "nota": "Andata e ritorno, 6–1 nel totale."
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Juventus",
+         "argento": "Parma",
+         "ris": "1–0, 2–0",
+         "nota": "Andata e ritorno, 3–0 nel totale."
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Fiorentina",
+         "argento": "Atalanta",
+         "ris": "1–0, 2–0",
+         "nota": "Andata e ritorno, 3–0 nel totale."
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Vicenza",
+         "argento": "Napoli",
+         "ris": "0–1, 3–0 d.t.s.",
+         "nota": "Andata e ritorno, 3–1 nel totale."
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Lazio",
+         "argento": "Milan",
+         "ris": "0–1, 3–1",
+         "nota": "Andata e ritorno, 3–2 nel totale."
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Parma",
+         "argento": "Fiorentina",
+         "ris": "1–1, 2–2",
+         "nota": "Andata e ritorno, 3–3 nel totale: decisero i gol in trasferta."
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Lazio",
+         "argento": "Inter",
+         "ris": "2–1, 0–0",
+         "nota": "Andata e ritorno, 2–1 nel totale."
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Fiorentina",
+         "argento": "Parma",
+         "ris": "1–0, 1–1",
+         "nota": "Andata e ritorno, 2–1 nel totale."
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Parma",
+         "argento": "Juventus",
+         "ris": "1–2, 1–0",
+         "nota": "Andata e ritorno, 2–2 nel totale: decisero i gol in trasferta."
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "Milan",
+         "argento": "Roma",
+         "ris": "4–1, 2–2",
+         "nota": "Andata e ritorno, 6–3 nel totale."
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Lazio",
+         "argento": "Juventus",
+         "ris": "2–0, 2–2",
+         "nota": "Andata e ritorno, 4–2 nel totale."
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Inter",
+         "argento": "Roma",
+         "ris": "2–0, 1–0",
+         "nota": "Andata e ritorno, 3–0 nel totale."
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Inter",
+         "argento": "Roma",
+         "ris": "1–1, 3–1",
+         "nota": "Andata e ritorno, 4–2 nel totale."
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Roma",
+         "argento": "Inter",
+         "ris": "6–2, 1–2",
+         "nota": "Andata e ritorno, 7–4 nel totale."
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Roma",
+         "argento": "Inter",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Lazio",
+         "argento": "Sampdoria",
+         "ris": "1–1 (rigori)",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Inter",
+         "argento": "Roma",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Inter",
+         "argento": "Palermo",
+         "ris": "3–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Napoli",
+         "argento": "Juventus",
+         "ris": "2–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Lazio",
+         "argento": "Roma",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Napoli",
+         "argento": "Fiorentina",
+         "ris": "3–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Juventus",
+         "argento": "Lazio",
+         "ris": "2–1 d.t.s.",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Juventus",
+         "argento": "Milan",
+         "ris": "1–0 d.t.s.",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Juventus",
+         "argento": "Lazio",
+         "ris": "2–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Juventus",
+         "argento": "Milan",
+         "ris": "4–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Lazio",
+         "argento": "Atalanta",
+         "ris": "2–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Napoli",
+         "argento": "Juventus",
+         "ris": "0–0 (rigori)",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Juventus",
+         "argento": "Atalanta",
+         "ris": "2–1",
+         "sede": "Reggio Emilia"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Inter",
+         "argento": "Juventus",
+         "ris": "4–2 d.t.s.",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Inter",
+         "argento": "Fiorentina",
+         "ris": "2–1",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Juventus",
+         "argento": "Atalanta",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Bologna",
+         "argento": "Milan",
+         "ris": "1–0",
+         "sede": "Roma"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Inter",
+         "argento": "Lazio",
+         "ris": "2–0",
+         "sede": "Roma"
+        }
+       ]
+      }
+     ],
+     "nota": "Finali dal 1922. Non disputata nel 1923–1925, nel 1928–1935 e nel 1944–1957; l'edizione 1926-27 non fu conclusa. Dal 1967-68 al 1970-71 un girone finale al posto della finale; andata e ritorno nel 1937-38, 1940-41, 1941-42 e dal 1980-81 al 2006-07. «d.t.s.» = dopo i tempi supplementari. Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati più recenti sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   },
@@ -4940,6 +6203,1055 @@
       }
      ],
      "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "eurolega",
+     "nome": "Eurolega",
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "EuroLeague Championship Game (revisione 1372039838)",
+       "u": "https://en.wikipedia.org/w/index.php?title=EuroLeague_Championship_Game&oldid=1372039838"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "EuroLeague Women (revisione 1380107480)",
+       "u": "https://en.wikipedia.org/w/index.php?title=EuroLeague_Women&oldid=1380107480"
+      },
+      {
+       "i": "Olympiacos BC",
+       "t": "Olympiacos on the top of Europe (24 maggio 2026)",
+       "u": "https://www.olympiacosbc.gr/en/news/games/19543-olympiacos-on-the-top-of-europe.html"
+      },
+      {
+       "i": "FIBA",
+       "t": "Fenerbahce take Final revenge on Galatasaray (19 aprile 2026)",
+       "u": "https://www.fiba.basketball/en/news/fenerbahce-take-final-revenge-on-galatasaray"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1958,
+         "stag": "1957–58",
+         "oro": "Rīgas ASK (Unione Sovietica)",
+         "ris": "86–81, 84–71",
+         "argento": "Academic (Bulgaria)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "oro": "Rīgas ASK (Unione Sovietica)",
+         "ris": "79–58, 69–67",
+         "argento": "Academic (Bulgaria)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "Rīgas ASK (Unione Sovietica)",
+         "ris": "61–51, 69–62",
+         "argento": "Dinamo Tbilisi (Unione Sovietica)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "ris": "61–66, 87–62",
+         "argento": "Rīgas ASK (Unione Sovietica)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Dinamo Tbilisi (Unione Sovietica)",
+         "ris": "90–83",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "ris": "69–86, 91–74, 99–80",
+         "argento": "Real Madrid (Spagna)",
+         "nota": "Finale in 3 partite."
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "99–110, 84–64",
+         "argento": "Spartak ZJŠ Brno (Cecoslovacchia)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "81–88, 76–62",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Simmenthal Milano (Italia)",
+         "ris": "77–72",
+         "argento": "Slavia VŠ Praha (Cecoslovacchia)"
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "91–83",
+         "argento": "Simmenthal Milano (Italia)"
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "98–95",
+         "argento": "Spartak ZJŠ Brno (Cecoslovacchia)"
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "ris": "103–99 (2 suppl.)",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Ignis Varese (Italia)",
+         "ris": "79–74",
+         "argento": "CSKA Mosca (Unione Sovietica)"
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "ris": "67–53",
+         "argento": "Ignis Varese (Italia)"
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Ignis Varese (Italia)",
+         "ris": "70–69",
+         "argento": "Jugoplastika (Jugoslavia)"
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Ignis Varese (Italia)",
+         "ris": "71–66",
+         "argento": "CSKA Mosca (Unione Sovietica)"
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "84–82",
+         "argento": "Ignis Varese (Italia)"
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Ignis Varese (Italia)",
+         "ris": "79–66",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Mobilgirgi Varese (Italia)",
+         "ris": "81–74",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Maccabi Elite Tel Aviv (Israele)",
+         "ris": "78–77",
+         "argento": "Mobilgirgi Varese (Italia)"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "75–67",
+         "argento": "Mobilgirgi Varese (Italia)"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Bosna (Jugoslavia)",
+         "ris": "96–93",
+         "argento": "Emerson Varese (Italia)"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "89–85",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Maccabi Elite Tel Aviv (Israele)",
+         "ris": "80–79",
+         "argento": "Sinudyne Bologna (Italia)"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Squibb Cantù (Italia)",
+         "ris": "86–80",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Ford Cantù (Italia)",
+         "ris": "69–68",
+         "argento": "Billy Milano (Italia)"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Banco di Roma (Italia)",
+         "ris": "79–73",
+         "argento": "FC Barcelona (Spagna)"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Cibona (Jugoslavia)",
+         "ris": "87–78",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Cibona (Jugoslavia)",
+         "ris": "94–82",
+         "argento": "Žalgiris (Unione Sovietica)"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Tracer Milano (Italia)",
+         "ris": "71–69",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Tracer Milano (Italia)",
+         "ris": "90–84",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Jugoplastika (Jugoslavia)",
+         "ris": "75–69",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Jugoplastika (Jugoslavia)",
+         "ris": "72–67",
+         "argento": "FC Barcelona Banca Catalana (Spagna)"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "POP 84 (Jugoslavia)",
+         "ris": "70–65",
+         "argento": "FC Barcelona Banca Catalana (Spagna)"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Partizan (Jugoslavia)",
+         "ris": "71–70",
+         "argento": "Montigalà Joventut (Spagna)"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Limoges CSP (Francia)",
+         "ris": "59–55",
+         "argento": "Benetton Treviso (Italia)"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "7up Joventut (Spagna)",
+         "ris": "59–57",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Real Madrid Teka (Spagna)",
+         "ris": "73–61",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "67–66",
+         "argento": "FC Barcelona Banca Catalana (Spagna)"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Olympiacos (Grecia)",
+         "ris": "73–58",
+         "argento": "FC Barcelona Banca Catalana (Spagna)"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Kinder Bologna (Italia)",
+         "ris": "58–44",
+         "argento": "AEK (Grecia)"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Žalgiris (Lituania)",
+         "ris": "82–74",
+         "argento": "Kinder Bologna (Italia)"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "73–67",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01 (Suproleague)",
+         "oro": "Maccabi Elite Tel Aviv (Israele)",
+         "ris": "81–67",
+         "argento": "Panathinaikos (Grecia)",
+         "parallela": true,
+         "nota": "Stagione divisa: la Suproleague della FIBA si giocò accanto all'Euroleague dei club (ULEB), da cui discende l'Eurolega di oggi."
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01 (Euroleague)",
+         "oro": "Kinder Bologna (Italia)",
+         "ris": "68–85, 94–73, 80–60, 79–96, 82–74",
+         "argento": "Tau Cerámica (Spagna)",
+         "nota": "Euroleague dei club (ULEB). Finale in 5 partite."
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "89–83",
+         "argento": "Kinder Bologna (Italia)"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "FC Barcelona (Spagna)",
+         "ris": "76–65",
+         "argento": "Benetton Treviso (Italia)"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Maccabi Elite Tel Aviv (Israele)",
+         "ris": "118–74",
+         "argento": "Skipper Bologna (Italia)"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Maccabi Elite Tel Aviv (Israele)",
+         "ris": "90–78",
+         "argento": "Tau Cerámica (Spagna)"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "CSKA Mosca (Russia)",
+         "ris": "73–69",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "93–91",
+         "argento": "CSKA Mosca (Russia)"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "CSKA Mosca (Russia)",
+         "ris": "91–77",
+         "argento": "Maccabi Elite Tel Aviv (Israele)"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "73–71",
+         "argento": "CSKA Mosca (Russia)"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Regal FC Barcelona (Spagna)",
+         "ris": "86–68",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "78–70",
+         "argento": "Maccabi Electra Tel Aviv (Israele)"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Olympiacos (Grecia)",
+         "ris": "62–61",
+         "argento": "CSKA Mosca (Russia)"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Olympiacos (Grecia)",
+         "ris": "100–88",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Maccabi Electra Tel Aviv (Israele)",
+         "ris": "98–86 (1 suppl.)",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "78–59",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "CSKA Mosca (Russia)",
+         "ris": "101–96 (1 suppl.)",
+         "argento": "Fenerbahçe (Turchia)"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Fenerbahçe (Turchia)",
+         "ris": "80–64",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "85–80",
+         "argento": "Fenerbahçe (Turchia)"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "CSKA Mosca (Russia)",
+         "ris": "91–83",
+         "argento": "Anadolu Efes (Turchia)"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnata",
+         "ris": "",
+         "argento": "",
+         "nota": "Edizione annullata per la pandemia di COVID-19."
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Anadolu Efes (Turchia)",
+         "ris": "86–81",
+         "argento": "FC Barcelona (Spagna)"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Anadolu Efes (Turchia)",
+         "ris": "58–57",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Real Madrid (Spagna)",
+         "ris": "79–78",
+         "argento": "Olympiacos (Grecia)"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Panathinaikos (Grecia)",
+         "ris": "95–80",
+         "argento": "Real Madrid (Spagna)"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Fenerbahçe (Turchia)",
+         "ris": "81–70",
+         "argento": "Monaco (Francia)"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Olympiacos (Grecia)",
+         "ris": "92–85",
+         "argento": "Real Madrid (Spagna)"
+        }
+       ],
+       "bandiere": true
+      },
+      {
+       "nome": "Donne",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1959,
+         "stag": "1958–59",
+         "oro": "Slavia Sofia (Bulgaria)",
+         "argento": "Dynamo Mosca (Unione Sovietica)",
+         "ris": "63–40, 34–44",
+         "nota": "Andata e ritorno, 97–84 nel totale."
+        },
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Slavia Sofia (Bulgaria)",
+         "ris": "62–28, 49–43",
+         "nota": "Andata e ritorno, 111–71 nel totale."
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Slovan Orbis Prague (Cecoslovacchia)",
+         "ris": "76–77, 72–37",
+         "nota": "Andata e ritorno, 148–114 nel totale."
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "SKA Leningrad (Unione Sovietica)",
+         "ris": "55–38, 48–44",
+         "nota": "Andata e ritorno, 103–82 nel totale."
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Slavia Sofia (Bulgaria)",
+         "argento": "Slovan Orbis Prague (Cecoslovacchia)",
+         "ris": "52–57, 60–49",
+         "nota": "Andata e ritorno, 112–106 nel totale."
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Spartak Sokolovo (Cecoslovacchia)",
+         "ris": "63–58, 40–43",
+         "nota": "Andata e ritorno, 103–101 nel totale."
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Slavia Sofia (Bulgaria)",
+         "ris": "49–31, 52–62",
+         "nota": "Andata e ritorno, 101–93 nel totale."
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Slovan Orbis Prague (Cecoslovacchia)",
+         "ris": "62–39, 73–56",
+         "nota": "Andata e ritorno, 135–95 nel totale."
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Sparta Prague (Cecoslovacchia)",
+         "ris": "56–41, 55–52",
+         "nota": "Andata e ritorno, 111–93 nel totale."
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Sparta Prague (Cecoslovacchia)",
+         "ris": "76–45, 58–47",
+         "nota": "Andata e ritorno, 134–92 nel totale."
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Chemie Halle (Germania Est)",
+         "ris": "62–48, 82–57",
+         "nota": "Andata e ritorno, 144–105 nel totale."
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Wisła Kraków (Polonia)",
+         "ris": "61–45, 59–42",
+         "nota": "Andata e ritorno, 120–87 nel totale."
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Clermont (Francia)",
+         "ris": "72–59, 62–56",
+         "nota": "Andata e ritorno, 134–115 nel totale."
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Sparta Prague (Cecoslovacchia)",
+         "ris": "80–59, 86–59",
+         "nota": "Andata e ritorno, 166–118 nel totale."
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Clermont (Francia)",
+         "ris": "64–44, 83–60",
+         "nota": "Andata e ritorno, 147–104 nel totale."
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Clermont (Francia)",
+         "ris": "96–67, 69–53",
+         "nota": "Andata e ritorno, 164–120 nel totale."
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Sparta Prague (Cecoslovacchia)",
+         "ris": "87–59, 72–56",
+         "nota": "Andata e ritorno, 159–115 nel totale."
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Sparta Prague (Cecoslovacchia)",
+         "argento": "Clermont (Francia)",
+         "ris": "55–58, 77–57",
+         "nota": "Andata e ritorno, 132–115 nel totale."
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Clermont (Francia)",
+         "ris": "76–53"
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Sesto Geas (Italia)",
+         "argento": "Sparta Prague (Cecoslovacchia)",
+         "ris": "74–66"
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Crvena zvezda (Jugoslavia)",
+         "argento": "BSE (Ungheria)",
+         "ris": "97–62"
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "FIAT (Italia)",
+         "argento": "Minyor Pernik (Bulgaria)",
+         "ris": "75–66"
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Crvena zvezda (Jugoslavia)",
+         "ris": "83–65"
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Daugava Rīga (Unione Sovietica)",
+         "argento": "Minyor Pernik (Bulgaria)",
+         "ris": "78–56"
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Zolu Vicenza (Italia)",
+         "argento": "Agon 08 Düsseldorf (Germania Ovest)",
+         "ris": "76–67"
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Levski Sofia (Bulgaria)",
+         "argento": "Zolu Vicenza (Italia)",
+         "ris": "82–77"
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Fiorella Vicenza (Italia)",
+         "argento": "Daugava Rīga (Unione Sovietica)",
+         "ris": "63–55"
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "Primigi Vicenza (Italia)",
+         "argento": "Agon 08 Düsseldorf (Germania Ovest)",
+         "ris": "71–57"
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Primigi Vicenza (Italia)",
+         "argento": "Dynamo Novosibirsk (Unione Sovietica)",
+         "ris": "86–73"
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Primigi Vicenza (Italia)",
+         "argento": "Dynamo Novosibirsk (Unione Sovietica)",
+         "ris": "70–64"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Jedinstvo Tuzla (Jugoslavia)",
+         "argento": "Primigi Vicenza (Italia)",
+         "ris": "74–70"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Enimont Libertas Trogylos (Italia)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "86–71"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Conad Cesena (Italia)",
+         "argento": "Arvika (Svezia)",
+         "ris": "84–66"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Dorna Godella (Spagna)",
+         "argento": "Dynamo Kyiv (Comunità degli Stati Indipendenti)",
+         "ris": "66–56"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Dorna Godella (Spagna)",
+         "argento": "Pool Comense (Italia)",
+         "ris": "66–58"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Pool Comense (Italia)",
+         "argento": "Dorna Godella (Spagna)",
+         "ris": "79–68"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Pool Comense (Italia)",
+         "argento": "Dorna Godella (Spagna)",
+         "ris": "64–57"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Wuppertal (Germania)",
+         "argento": "Pool Comense (Italia)",
+         "ris": "76–62"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Bourges (Francia)",
+         "argento": "Wuppertal (Germania)",
+         "ris": "71–52"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Bourges (Francia)",
+         "argento": "Pool Getafe (Spagna)",
+         "ris": "76–64"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Ružomberok (Slovacchia)",
+         "argento": "Pool Comense (Italia)",
+         "ris": "63–48"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Ružomberok (Slovacchia)",
+         "argento": "Bourges (Francia)",
+         "ris": "67–64"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Bourges (Francia)",
+         "argento": "Valenciennes Olympic (Francia)",
+         "ris": "73–71"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Valenciennes Olympic (Francia)",
+         "argento": "Lotos VBW Clima Gdynia (Polonia)",
+         "ris": "78–72"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Valenciennes Olympic (Francia)",
+         "ris": "82–80"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Valenciennes Olympic (Francia)",
+         "argento": "Lotos VBW Clima Gdynia (Polonia)",
+         "ris": "93–69"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "VBM-SGAU Samara (Russia)",
+         "argento": "Gambrinus Brno (Repubblica Ceca)",
+         "ris": "69–66"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Gambrinus Brno (Repubblica Ceca)",
+         "argento": "VBM-SGAU Samara (Russia)",
+         "ris": "68–54"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Spartak Moscow Region (Russia)",
+         "argento": "Ros Casares Valencia (Spagna)",
+         "ris": "76–62"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Spartak Moscow Region (Russia)",
+         "argento": "Gambrinus Brno (Repubblica Ceca)",
+         "ris": "75–60"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Spartak Moscow Region (Russia)",
+         "argento": "Avenida (Spagna)",
+         "ris": "85–70"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Spartak Moscow Region (Russia)",
+         "argento": "Ros Casares Valencia (Spagna)",
+         "ris": "87–80"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Halcón Avenida (Spagna)",
+         "argento": "Spartak Moscow Region (Russia)",
+         "ris": "68–59"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Ros Casares Valencia (Spagna)",
+         "argento": "Rivas Ecópolis (Spagna)",
+         "ris": "65–52"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Fenerbahçe (Turchia)",
+         "ris": "82–56"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Galatasaray (Turchia)",
+         "argento": "Fenerbahçe (Turchia)",
+         "ris": "69–58"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "USK Praha (Repubblica Ceca)",
+         "argento": "UMMC Ekaterinburg (Russia)",
+         "ris": "72–68"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Nadezhda Orenburg (Russia)",
+         "ris": "72–69"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Dynamo Kursk (Russia)",
+         "argento": "Fenerbahçe (Turchia)",
+         "ris": "77–63"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Sopron Basket (Ungheria)",
+         "ris": "72–53"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Dynamo Kursk (Russia)",
+         "ris": "91–67"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnata",
+         "ris": "",
+         "argento": "",
+         "nota": "Edizione annullata per la pandemia di COVID-19."
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "UMMC Ekaterinburg (Russia)",
+         "argento": "Perfumerías Avenida (Spagna)",
+         "ris": "78–68"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Sopron Basket (Ungheria)",
+         "argento": "Fenerbahçe (Turchia)",
+         "ris": "60–55"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Fenerbahçe (Turchia)",
+         "argento": "ÇBK Mersin Yenişehir Bld. (Turchia)",
+         "ris": "99–60"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Fenerbahçe (Turchia)",
+         "argento": "ESBVA-LM (Francia)",
+         "ris": "106–73"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "ZVVZ USK Praha (Repubblica Ceca)",
+         "argento": "ÇBK Mersin (Turchia)",
+         "ris": "66–53"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Fenerbahçe (Turchia)",
+         "argento": "Galatasaray (Turchia)",
+         "ris": "68–55"
+        }
+       ],
+       "bandiere": true
+      }
+     ],
+     "nota": "Finali della Coppa dei Campioni e dell'Eurolega, uomini dal 1958 e donne dal 1959. Le squadre hanno il nome dello sponsor di quella stagione. Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati più recenti sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   },
@@ -7193,6 +9505,1032 @@
       }
      ],
      "nota": "Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
+    },
+    {
+     "id": "champions",
+     "nome": "Champions League",
+     "fonti": [
+      {
+       "i": "Wikipedia",
+       "t": "CEV Champions League (revisione 1375770286)",
+       "u": "https://en.wikipedia.org/w/index.php?title=CEV_Champions_League&oldid=1375770286"
+      },
+      {
+       "i": "Wikipedia",
+       "t": "CEV Women's Champions League (revisione 1360199826)",
+       "u": "https://en.wikipedia.org/w/index.php?title=CEV_Women's_Champions_League&oldid=1360199826"
+      },
+      {
+       "i": "CEV",
+       "t": "Perugia crowned back-to-back champions (17 maggio 2026)",
+       "u": "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/perugia-crowned-back-to-back-clvolleym-champions/"
+      },
+      {
+       "i": "CEV",
+       "t": "VakifBank rise again to claim historic seventh European crown (3 maggio 2026)",
+       "u": "https://championsleague.cev.eu/en/articles/cev-champions-league-volley-2026/vakifbank-rise-again-to-claim-historic-seventh-european-crown/"
+      }
+     ],
+     "tornei": [
+      {
+       "nome": "Uomini",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1960,
+         "stag": "1959–60",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Rapid București (Romania)",
+         "ris": "3–0, 1–3",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Rapid București (Romania)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "3–0, 3–2",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Rapid București (Romania)",
+         "ris": "2–3, 3–1",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Rapid București (Romania)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "3–1, 3–0",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "SC Leipzig (Germania Est)",
+         "argento": "HAOK Mladost (Jugoslavia)",
+         "ris": "3–1, 3–1",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Rapid București (Romania)",
+         "argento": "Minyor Pernik (Bulgaria)",
+         "ris": "1–3, 3–1, 3–2",
+         "nota": "Finale in 3 partite."
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "Dinamo București (Romania)",
+         "argento": "Rapid București (Romania)",
+         "ris": "3–1, 3–2",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "Dinamo București (Romania)",
+         "argento": "Rapid București (Romania)",
+         "ris": "3–0, 1–3, 3–1",
+         "nota": "Finale in 3 partite."
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Volejbal Brno (Cecoslovacchia)",
+         "argento": "Dinamo București (Romania)",
+         "ris": "1–3, 3–0, 3–2",
+         "nota": "Finale in 3 partite."
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "CSKA Sofia (Bulgaria)",
+         "argento": "Steaua București (Romania)",
+         "ris": "3–0, 3–2",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Burevestnik Almaty (Unione Sovietica)",
+         "argento": "Volejbal Brno (Cecoslovacchia)",
+         "ris": "3–0, 3–1",
+         "nota": "Finale in 2 partite."
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Burevestnik Almaty (Unione Sovietica)",
+         "argento": "Volejbal Brno (Cecoslovacchia)",
+         "ris": "2–3, 3–1, 3–2",
+         "nota": "Finale in 3 partite."
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Volejbal Brno (Cecoslovacchia)",
+         "argento": "AMVJ Amstelveen (Paesi Bassi)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Resovia (Polonia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Dinamo București (Romania)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Volejbal Brno (Cecoslovacchia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Dukla Liberec (Cecoslovacchia)",
+         "argento": "Slavia Sofia (Bulgaria)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Dinamo București (Romania)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Płomień Milowice (Polonia)",
+         "argento": "Starlift Voorburg (Paesi Bassi)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "Červená Hviezda Bratislava (Cecoslovacchia)",
+         "argento": "Steaua București (Romania)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Klippan Torino (Italia)",
+         "argento": "Červená Hviezda Bratislava (Cecoslovacchia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Dinamo București (Romania)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Robe di Kappa Torino (Italia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "AS Cannes (Francia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "Santal Parma (Italia)",
+         "argento": "HAOK Mladost (Jugoslavia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "Santal Parma (Italia)",
+         "argento": "HAOK Mladost (Jugoslavia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Santal Parma (Italia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Panini Modena (Italia)",
+         "ris": "",
+         "nota": "Titolo assegnato in un girone finale."
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Panini Modena (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Panini Modena (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Philips Modena (Italia)",
+         "argento": "AS Fréjus (Francia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Maxicono Parma (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Messaggero Ravenna (Italia)",
+         "argento": "Olympiacos (Grecia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Messaggero Ravenna (Italia)",
+         "argento": "Maxicono Parma (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Messaggero Ravenna (Italia)",
+         "argento": "Maxicono Parma (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Sisley Treviso (Italia)",
+         "argento": "Edilcuoghi Ravenna (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Las Daytona Modena (Italia)",
+         "argento": "ASV Dachau (Germania)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Las Valtur Modena (Italia)",
+         "argento": "Noliko Maaseik (Belgio)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "Casa Modena Unibon (Italia)",
+         "argento": "Unicaja Almería (Spagna)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Sisley Treviso (Italia)",
+         "argento": "Noliko Maaseik (Belgio)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Sisley Treviso (Italia)",
+         "argento": "VfB Friedrichshafen (Germania)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Paris Volley (Francia)",
+         "argento": "Sisley Treviso (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "Lube Banca Macerata (Italia)",
+         "argento": "Olympiacos (Grecia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "Lokomotiv Belgorod (Russia)",
+         "argento": "Kerakoll Modena (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Lokomotiv Belgorod (Russia)",
+         "argento": "Iskra Odintsovo (Russia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Tours VB (Francia)",
+         "argento": "Iraklis Thessaloniki (Grecia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Sisley Treviso (Italia)",
+         "argento": "Iraklis Thessaloniki (Grecia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "VfB Friedrichshafen (Germania)",
+         "argento": "Tours VB (Francia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Dynamo Tattransgaz Kazan (Russia)",
+         "argento": "Copra Piacenza (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Trentino Volley (Italia)",
+         "argento": "Iraklis Thessaloniki (Grecia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Trentino BetClic (Italia)",
+         "argento": "Dynamo Mosca (Russia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "Trentino BetClic (Italia)",
+         "argento": "Zenit Kazan (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Zenit Kazan (Russia)",
+         "argento": "PGE Skra Bełchatów (Polonia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Lokomotiv Novosibirsk (Russia)",
+         "argento": "Bre Banca Lannutti Cuneo (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Belogorie Belgorod (Russia)",
+         "argento": "Halkbank Ankara (Turchia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Zenit Kazan (Russia)",
+         "argento": "Asseco Resovia (Polonia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Zenit Kazan (Russia)",
+         "argento": "Diatec Trentino (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "Zenit Kazan (Russia)",
+         "argento": "Sir Sicoma Colussi Perugia (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "Zenit Kazan (Russia)",
+         "argento": "Cucine Lube Civitanova (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Cucine Lube Civitanova (Italia)",
+         "argento": "Zenit Kazan (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnata",
+         "ris": "",
+         "argento": "",
+         "nota": "Edizione annullata per la pandemia di COVID-19."
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "ZAKSA Kędzierzyn-Koźle (Polonia)",
+         "argento": "Itas Trentino (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "ZAKSA Kędzierzyn-Koźle (Polonia)",
+         "argento": "Itas Trentino (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "ZAKSA Kędzierzyn-Koźle (Polonia)",
+         "argento": "Jastrzębski Węgiel (Polonia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Itas Trentino (Italia)",
+         "argento": "Jastrzębski Węgiel (Polonia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Sir Sicoma Monini Perugia (Italia)",
+         "argento": "Warta Zawiercie (Polonia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "Sir Sicoma Monini Perugia (Italia)",
+         "argento": "Warta Zawiercie (Polonia)",
+         "ris": "3–0"
+        }
+       ],
+       "bandiere": true
+      },
+      {
+       "nome": "Donne",
+       "tipo": "lega",
+       "colonne": [
+        "Vincitore",
+        "Finalista"
+       ],
+       "ris_nome": "Finale",
+       "righe": [
+        {
+         "anno": 1961,
+         "stag": "1960–61",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "AZS AWF Warsaw (Polonia)",
+         "ris": "3–2, 3–0",
+         "nota": "Andata e ritorno, 6–2 nei set vinti."
+        },
+        {
+         "anno": 1962,
+         "stag": "1961–62",
+         "oro": "Burevestnik Odesa (Unione Sovietica)",
+         "argento": "Slavia Sofia (Bulgaria)",
+         "ris": "3–1, 3–0",
+         "nota": "Andata e ritorno, 6–1 nei set vinti."
+        },
+        {
+         "anno": 1963,
+         "stag": "1962–63",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "AZS AWF Warsaw (Polonia)",
+         "ris": "3–1, 3–2",
+         "nota": "Andata e ritorno, 6–3 nei set vinti."
+        },
+        {
+         "anno": 1964,
+         "stag": "1963–64",
+         "oro": "Levski Sofia (Bulgaria)",
+         "argento": "Dynamo Berlin (Germania Est)",
+         "ris": "3–0, 1–3",
+         "nota": "Andata e ritorno, 4–3 nei set vinti."
+        },
+        {
+         "anno": 1965,
+         "stag": "1964–65",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "Dynamo Berlin (Germania Est)",
+         "ris": "3–0, 3–0",
+         "nota": "Andata e ritorno, 6–0 nei set vinti."
+        },
+        {
+         "anno": 1966,
+         "stag": "1965–66",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Dynamo Mosca (Unione Sovietica)",
+         "ris": "3–0, 3–0",
+         "nota": "Andata e ritorno, 6–0 nei set vinti."
+        },
+        {
+         "anno": 1967,
+         "stag": "1966–67",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Dynamo Mosca (Unione Sovietica)",
+         "ris": "3–0, 3–0",
+         "nota": "Andata e ritorno, 6–0 nei set vinti."
+        },
+        {
+         "anno": 1968,
+         "stag": "1967–68",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "3–0, 3–2",
+         "nota": "Andata e ritorno, 6–2 nei set vinti."
+        },
+        {
+         "anno": 1969,
+         "stag": "1968–69",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "CSKA Mosca (Unione Sovietica)",
+         "ris": "3–1, 3–2",
+         "nota": "Andata e ritorno, 6–3 nei set vinti."
+        },
+        {
+         "anno": 1970,
+         "stag": "1969–70",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "NIM-SE Budapest (Ungheria)",
+         "ris": "3–1, 3–0",
+         "nota": "Andata e ritorno, 6–1 nei set vinti."
+        },
+        {
+         "anno": 1971,
+         "stag": "1970–71",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "Tatran Střešovice (Cecoslovacchia)",
+         "ris": "3–0, 3–0",
+         "nota": "Andata e ritorno, 6–0 nei set vinti."
+        },
+        {
+         "anno": 1972,
+         "stag": "1971–72",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "Tatran Střešovice (Cecoslovacchia)",
+         "ris": ""
+        },
+        {
+         "anno": 1973,
+         "stag": "1972–73",
+         "oro": "NIM-SE Budapest (Ungheria)",
+         "argento": "Dynamo Mosca (Unione Sovietica)",
+         "ris": ""
+        },
+        {
+         "anno": 1974,
+         "stag": "1973–74",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "NIM-SE Budapest (Ungheria)",
+         "ris": ""
+        },
+        {
+         "anno": 1975,
+         "stag": "1974–75",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "Levski-Spartak Sofia (Bulgaria)",
+         "ris": ""
+        },
+        {
+         "anno": 1976,
+         "stag": "1975–76",
+         "oro": "Rudá Hvězda Praha (Cecoslovacchia)",
+         "argento": "Levski-Spartak Sofia (Bulgaria)",
+         "ris": ""
+        },
+        {
+         "anno": 1977,
+         "stag": "1976–77",
+         "oro": "Dynamo Mosca (Unione Sovietica)",
+         "argento": "NIM-SE Budapest (Ungheria)",
+         "ris": ""
+        },
+        {
+         "anno": 1978,
+         "stag": "1977–78",
+         "oro": "Traktor Schwerin (Germania Est)",
+         "argento": "NIM-SE Budapest (Ungheria)",
+         "ris": ""
+        },
+        {
+         "anno": 1979,
+         "stag": "1978–79",
+         "oro": "CSKA Sofia (Bulgaria)",
+         "argento": "NIM-SE Budapest (Ungheria)",
+         "ris": ""
+        },
+        {
+         "anno": 1980,
+         "stag": "1979–80",
+         "oro": "Rudá Hvězda Praha (Cecoslovacchia)",
+         "argento": "Eczacıbaşı Istanbul (Turchia)",
+         "ris": ""
+        },
+        {
+         "anno": 1981,
+         "stag": "1980–81",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "Levski-Spartak Sofia (Bulgaria)",
+         "ris": ""
+        },
+        {
+         "anno": 1982,
+         "stag": "1981–82",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "DVC Dokkum (Paesi Bassi)",
+         "ris": ""
+        },
+        {
+         "anno": 1983,
+         "stag": "1982–83",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "Budapesti Vasas Izzó (Ungheria)",
+         "ris": ""
+        },
+        {
+         "anno": 1984,
+         "stag": "1983–84",
+         "oro": "CSKA Sofia (Bulgaria)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1985,
+         "stag": "1984–85",
+         "oro": "ADK Alma-Ata (Unione Sovietica)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1986,
+         "stag": "1985–86",
+         "oro": "CSKA Mosca (Unione Sovietica)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1987,
+         "stag": "1986–87",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1988,
+         "stag": "1987–88",
+         "oro": "Olimpia Teodora Ravenna (Italia)",
+         "argento": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "ris": ""
+        },
+        {
+         "anno": 1989,
+         "stag": "1988–89",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1990,
+         "stag": "1989–90",
+         "oro": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": ""
+        },
+        {
+         "anno": 1991,
+         "stag": "1990–91",
+         "oro": "Mladost Zagreb (Jugoslavia)",
+         "argento": "Uralochka Sverdlovsk (Unione Sovietica)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1992,
+         "stag": "1991–92",
+         "oro": "Olimpia Teodora Ravenna (Italia)",
+         "argento": "Mladost Zagreb (Croazia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 1993,
+         "stag": "1992–93",
+         "oro": "Parmalat Matera (Italia)",
+         "argento": "Olimpia Teodora Ravenna (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 1994,
+         "stag": "1993–94",
+         "oro": "Uralochka Ekaterinburg (Russia)",
+         "argento": "Mladost Zagreb (Croazia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 1995,
+         "stag": "1994–95",
+         "oro": "Uralochka Ekaterinburg (Russia)",
+         "argento": "CV Murcia (Spagna)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1996,
+         "stag": "1995–96",
+         "oro": "Parmalat Matera (Italia)",
+         "argento": "Uralochka Ekaterinburg (Russia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 1997,
+         "stag": "1996–97",
+         "oro": "Foppapedretti Bergamo (Italia)",
+         "argento": "Uralochka Ekaterinburg (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 1998,
+         "stag": "1997–98",
+         "oro": "OK Dubrovnik (Croazia)",
+         "argento": "Vakıfbank Ankara (Turchia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 1999,
+         "stag": "1998–99",
+         "oro": "Foppapedretti Bergamo (Italia)",
+         "argento": "Vakıfbank Ankara (Turchia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2000,
+         "stag": "1999–00",
+         "oro": "Foppapedretti Bergamo (Italia)",
+         "argento": "Uralochka Ekaterinburg (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2001,
+         "stag": "2000–01",
+         "oro": "Volley Modena (Italia)",
+         "argento": "Capo Sud Reggio Calabria (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2002,
+         "stag": "2001–02",
+         "oro": "RC Cannes (Francia)",
+         "argento": "Foppapedretti Bergamo (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2003,
+         "stag": "2002–03",
+         "oro": "RC Cannes (Francia)",
+         "argento": "Uralochka Ekaterinburg (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2004,
+         "stag": "2003–04",
+         "oro": "Tenerife Marichal (Spagna)",
+         "argento": "Pallavolo Sirio Perugia (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2005,
+         "stag": "2004–05",
+         "oro": "Foppapedretti Bergamo (Italia)",
+         "argento": "Sant'Orsola Asystel Novara (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2006,
+         "stag": "2005–06",
+         "oro": "Pallavolo Sirio Perugia (Italia)",
+         "argento": "RC Cannes (Francia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2007,
+         "stag": "2006–07",
+         "oro": "Foppapedretti Bergamo (Italia)",
+         "argento": "Dinamo Mosca (Russia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2008,
+         "stag": "2007–08",
+         "oro": "Colussi Perugia (Italia)",
+         "argento": "Zarechie Odintsovo (Russia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2009,
+         "stag": "2008–09",
+         "oro": "Volley Bergamo (Italia)",
+         "argento": "Dinamo Mosca (Russia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2010,
+         "stag": "2009–10",
+         "oro": "Volley Bergamo (Italia)",
+         "argento": "Fenerbahçe Acıbadem (Turchia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2011,
+         "stag": "2010–11",
+         "oro": "VakıfBank Güneş Sigorta Türk Telekom Istanbul (Turchia)",
+         "argento": "Rabita Baku (Azerbaigian)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2012,
+         "stag": "2011–12",
+         "oro": "Fenerbahçe Universal (Turchia)",
+         "argento": "RC Cannes (Francia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2013,
+         "stag": "2012–13",
+         "oro": "Vakıfbank Istanbul (Turchia)",
+         "argento": "Rabita Baku (Azerbaigian)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2014,
+         "stag": "2013–14",
+         "oro": "Dinamo Kazan (Russia)",
+         "argento": "Vakıfbank Istanbul (Turchia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2015,
+         "stag": "2014–15",
+         "oro": "Eczacıbaşı VitrA Istanbul (Turchia)",
+         "argento": "Unendo Yamamay Busto Arsizio (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2016,
+         "stag": "2015–16",
+         "oro": "Pomì Casalmaggiore (Italia)",
+         "argento": "Vakıfbank Istanbul (Turchia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2017,
+         "stag": "2016–17",
+         "oro": "VakıfBank Istanbul (Turchia)",
+         "argento": "Imoco Volley Conegliano (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2018,
+         "stag": "2017–18",
+         "oro": "VakıfBank Istanbul (Turchia)",
+         "argento": "CSM Volei Alba Blaj (Romania)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2019,
+         "stag": "2018–19",
+         "oro": "Igor Gorgonzola Novara (Italia)",
+         "argento": "Imoco Volley Conegliano (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2020,
+         "stag": "2019–20",
+         "oro": "Non assegnata",
+         "ris": "",
+         "argento": "",
+         "nota": "Edizione annullata per la pandemia di COVID-19."
+        },
+        {
+         "anno": 2021,
+         "stag": "2020–21",
+         "oro": "Imoco Volley Conegliano (Italia)",
+         "argento": "Vakıfbank Istanbul (Turchia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2022,
+         "stag": "2021–22",
+         "oro": "Vakıfbank Istanbul (Turchia)",
+         "argento": "Imoco Volley Conegliano (Italia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2023,
+         "stag": "2022–23",
+         "oro": "Vakıfbank Istanbul (Turchia)",
+         "argento": "Eczacıbaşı Dynavit (Turchia)",
+         "ris": "3–1"
+        },
+        {
+         "anno": 2024,
+         "stag": "2023–24",
+         "oro": "Imoco Volley Conegliano (Italia)",
+         "argento": "Vero Volley Milano (Italia)",
+         "ris": "3–2"
+        },
+        {
+         "anno": 2025,
+         "stag": "2024–25",
+         "oro": "Imoco Volley Conegliano (Italia)",
+         "argento": "Scandicci (Italia)",
+         "ris": "3–0"
+        },
+        {
+         "anno": 2026,
+         "stag": "2025–26",
+         "oro": "VakıfBank Istanbul (Turchia)",
+         "argento": "Eczacıbaşı Dynavit (Turchia)",
+         "ris": "3–1"
+        }
+       ],
+       "bandiere": true,
+       "nota": "Per le edizioni dal 1971-72 al 1989-90 la fonte non riporta il punteggio della finale."
+      }
+     ],
+     "nota": "Finali della Coppa dei Campioni e della CEV Champions League, uomini dal 1959-60 e donne dal 1960-61. Le squadre hanno il nome dello sponsor di quella stagione. Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con impronta SHA-256); i risultati più recenti sono stati riscontrati su fonti ufficiali o giornalistiche, elencate tra le fonti."
     }
    ]
   },
@@ -14626,7 +17964,7 @@
          "ris": "",
          "argento": "Kjetil André Aamodt (Norvegia)",
          "bronzo": "Josef Strobl (Austria)",
-         "stag": "1999–2000"
+         "stag": "1999–00"
         },
         {
          "anno": 2001,
@@ -15175,7 +18513,7 @@
          "ris": "",
          "argento": "Michaela Dorfmeister (Austria)",
          "bronzo": "Régine Cavagnoud (Francia)",
-         "stag": "1999–2000"
+         "stag": "1999–00"
         },
         {
          "anno": 2001,

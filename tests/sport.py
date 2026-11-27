@@ -89,7 +89,7 @@ with sync_playwright() as p:
         pg.goto(U + "#cerca=peru"); pg.wait_for_timeout(300)
         check(f"{nome}: ricerca senza accenti", pg.locator("#cerca").is_visible() and "Perù" in pg.locator("#risultati").inner_text())
         pg.locator("#q").fill("imoco"); pg.wait_for_timeout(300)
-        check(f"{nome}: ricerca Imoco", pg.locator("#risultati li").count() == 10, pg.locator("#risultati li").count())
+        check(f"{nome}: ricerca Imoco (16 risultati, 6 dalle finali di Champions)", pg.locator("#risultati li").count() == 16, pg.locator("#risultati li").count())
         if nome == "iphone":
             check(f"{nome}: filtri chiusi nella riga Filtri", not pg.locator("#filtri").is_visible() and pg.locator("#fBtn").is_visible())
             pg.locator("#fBtn").click(); pg.wait_for_timeout(100)
@@ -180,6 +180,32 @@ with sync_playwright() as p:
         pg.goto(U + "#cerca=sabalenka"); pg.wait_for_timeout(400)
         rr = pg.locator("#risultati li[data-albo^='tennis']")
         check(f"{nome}: ricerca Sabalenka, finali senza bronzo", rr.count() >= 8 and pg.locator("#risultati li[data-albo^='tennis'] .med.bronzo").count() == 0, rr.count())
+        if nome == "iphone":  # v0.7: nessuna casella d'albo deve uscire dalla sua colonna, su tutte le tabelle
+            J = "[...document.querySelectorAll('#panel table.albo tbody tr')].filter(tr=>{const c=[...tr.children];return c.some((td,j)=>j<c.length-1&&td.getBoundingClientRect().right>c[j+1].getBoundingClientRect().left+1)||c.some(td=>td.scrollWidth>td.clientWidth+1)}).map(tr=>tr.dataset.r)"
+            fuori = {}
+            for sp, al in dati["albi"].items():
+                for g in al["gruppi"]:
+                    for ti, _t in enumerate(g["tornei"]):
+                        pg.goto(U + f"#sport={sp}&g={g['id']}&t={ti}"); pg.wait_for_timeout(200)
+                        x = pg.evaluate(J)
+                        if x:
+                            fuori[f"{sp}/{g['id']}/{ti}"] = x[:3]
+            check(f"{nome}: tutte le tabelle d'albo senza caselle che debordano", not fuori, fuori)
+        # v0.7: coppe di club
+        pg.goto(U + "#sport=calcio&g=champions&t=0&r=2025–26"); pg.wait_for_timeout(400)
+        hl = pg.locator("#panel tr.hl"); th = [x.lower() for x in pg.locator("#panel table.albo th").all_inner_texts()]
+        check(f"{nome}: Champions 2025-26, PSG ai rigori a Budapest", "Paris Saint-Germain" in hl.inner_text() and "rigori" in hl.inner_text() and "Budapest" in hl.inner_text() and th == ["stagione", "vincitore", "finale", "finalista"], th)
+        pg.goto(U + "#sport=calcio&g=coppaitalia&t=0&r=1992–93"); pg.wait_for_timeout(400)
+        check(f"{nome}: Coppa Italia 1992-93, Torino con i gol in trasferta", "Torino" in pg.locator("#panel tr.hl").inner_text() and "trasferta" in pg.locator("#panel tr.hl").inner_text())
+        pg.goto(U + "#atleta=manu-ginobili"); pg.wait_for_timeout(900)
+        pg.locator("#panel .palm button[data-albo='basket|eurolega|0|2000–01 (Euroleague)']").click(); pg.wait_for_timeout(400)
+        check(f"{nome}: Ginóbili, Eurolega 2001 alla riga dell'Euroleague (Kinder Bologna)", "Kinder Bologna" in pg.locator("#panel tr.hl").inner_text())
+        pg.locator("#vistaEsci").click(); pg.wait_for_timeout(200)
+        pg.goto(U + "#sport=pallavolo&g=champions&t=1&r=2024–25"); pg.wait_for_timeout(400)
+        hl = pg.locator("#panel tr.hl")
+        check(f"{nome}: Champions di pallavolo donne 2024-25, Conegliano su Scandicci con bandierine", "Conegliano" in hl.inner_text() and hl.locator(".ita").count() == 2)
+        pg.goto(U + "#cerca=varese ignis"); pg.wait_for_timeout(400)
+        check(f"{nome}: ricerca Ignis Varese tra le finali di Eurolega", "finalista" in pg.locator("#risultati").inner_text() and pg.locator("#risultati li[data-albo^='basket']").count() == 6, pg.locator("#risultati li[data-albo^='basket']").count())
         # stile salvato
         pg.locator("#bStile").click(); pg.locator("#stili [data-stile=pastello]").click(); pg.reload(); pg.wait_for_timeout(300)
         check(f"{nome}: stile Pastello ricordato", pg.evaluate("document.documentElement.dataset.stile") == "pastello")
