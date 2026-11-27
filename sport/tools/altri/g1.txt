@@ -1,0 +1,107 @@
+# ginnastica|en:List of Olympic medalists in gymnastics (men)|1386968787|List of Olympic medalists in gymnastics (women)|1388056869
+## M|All-around, individual
+1900|Gustave Sandras (France)|Noël Bas (France)|Lucien Démanet (France)
+1904|Julius Lenhart AUT (United States)|Wilhelm Weber (Germany)|Adolf Spinnler SUI (Germany)
+1908|Alberto Braglia (Italy)|Walter Tysall (Great Britain)|Louis Ségura (France)
+1912|Alberto Braglia (Italy)|Louis Ségura (France)|Adolfo Tunesi (Italy)
+1920|Giorgio Zampori (Italy)|Marco Torrès (France)|Jean Gounot (France)
+1924|Leon Štukelj (Yugoslavia)|Robert Pražák (Czechoslovakia)|Bedřich Šupčík (Czechoslovakia)
+1928|Georges Miez (Switzerland)|Hermann Hänggi (Switzerland)|Leon Štukelj (Yugoslavia)
+1932|Romeo Neri (Italy)|István Pelle (Hungary)|Heikki Savolainen (Finland)
+1936|Alfred Schwarzmann (Germany)|Eugen Mack (Switzerland)|Konrad Frey (Germany)
+1948|Veikko Huhtanen (Finland)|Walter Lehmann (Switzerland)|Paavo Aaltonen (Finland)
+1952|Viktor Chukarin (Soviet Union)|Hrant Shahinyan (Soviet Union)|Josef Stalder (Switzerland)
+1956|Viktor Chukarin (Soviet Union)|Takashi Ono (Japan)|Yuri Titov (Soviet Union)
+1960|Boris Shakhlin (Soviet Union)|Takashi Ono (Japan)|Yuri Titov (Soviet Union)
+1964|Yukio Endo (Japan)|Viktor Lisitsky (Soviet Union)|
+1964|Yukio Endo (Japan)|Boris Shakhlin (Soviet Union)|
+1964|Yukio Endo (Japan)|Shuji Tsurumi (Japan)|
+1968|Sawao Kato (Japan)|Mikhail Voronin (Soviet Union)|Akinori Nakayama (Japan)
+1972|Sawao Kato (Japan)|Eizo Kenmotsu (Japan)|Akinori Nakayama (Japan)
+1976|Nikolai Andrianov (Soviet Union)|Sawao Kato (Japan)|Mitsuo Tsukahara (Japan)
+1980|Alexander Dityatin (Soviet Union)|Nikolai Andrianov (Soviet Union)|Stoyan Deltchev (Bulgaria)
+1984|Kōji Gushiken (Japan)|Peter Vidmar (United States)|Li Ning (China)
+1988|Vladimir Artemov (Soviet Union)|Valeri Liukin (Soviet Union)|Dmitry Bilozerchev (Soviet Union)
+1992|Vitaly Scherbo (Unified Team)|Grigory Misutin (Unified Team)|Valery Belenky (Unified Team)
+1996|Li Xiaoshuang (China)|Alexei Nemov (Russia)|Vitaly Scherbo (Belarus)
+2000|Alexei Nemov (Russia)|Yang Wei (China)|Oleksandr Beresh (Ukraine)
+2004|Paul Hamm (United States)|Kim Dae-eun (South Korea)|Yang Tae-young (South Korea)
+2008|Yang Wei (China)|Kōhei Uchimura (Japan)|Benoît Caranobe (France)
+2012|Kōhei Uchimura (Japan)|Marcel Nguyen (Germany)|Danell Leyva (United States)
+2016|Kōhei Uchimura (Japan)|Oleg Verniaiev (Ukraine)|Max Whitlock (Great Britain)
+2020|Daiki Hashimoto (Japan)|Xiao Ruoteng (China)|Nikita Nagornyy (ROC)
+2024|Shinnosuke Oka (Japan)|Zhang Boheng (China)|Xiao Ruoteng (China)
+## M|All-around, team
+1904|United States ; Julius Lenhart|United States|United States
+1908|Sweden|Norway|Finland
+1912|Italy|Hungary|Great Britain
+1920|Italy|Belgium|France
+1924|Italy|France|Switzerland
+1928|Switzerland|Czechoslovakia|Yugoslavia
+1932|Italy|United States|Finland
+1936|Germany|Switzerland|Finland
+1948|Finland|Switzerland|Hungary
+1952|Soviet Union|Switzerland|Finland
+1956|Soviet Union|Japan|Finland
+1960|Japan|Soviet Union|Italy
+1964|Japan|Soviet Union|United Team of Germany
+1968|Japan|Soviet Union|East Germany
+1972|Japan|Soviet Union|East Germany
+1976|Japan|Soviet Union|East Germany
+1980|Soviet Union|East Germany|Hungary
+1984|United States|China|Japan
+1988|Soviet Union|East Germany|Japan
+1992|Unified Team|China|Japan
+1996|Russia|China|Ukraine
+2000|China|Ukraine|Russia
+2004|Japan|United States|Romania
+2008|China|Japan|United States
+2012|China|Japan|Great Britain
+2016|Japan|Russia|China
+2020|ROC|Japan|China
+2024|Japan|China|United States
+## F|All-around, individual
+1952|Maria Gorokhovskaya (Soviet Union)|Nina Bocharova (Soviet Union)|Margit Korondi (Hungary)
+1956|Larisa Latynina (Soviet Union)|Ágnes Keleti (Hungary)|Sofia Muratova (Soviet Union)
+1960|Larisa Latynina (Soviet Union)|Sofia Muratova (Soviet Union)|Polina Astakhova (Soviet Union)
+1964|Věra Čáslavská (Czechoslovakia)|Larisa Latynina (Soviet Union)|Polina Astakhova (Soviet Union)
+1968|Věra Čáslavská (Czechoslovakia)|Zinaida Voronina (Soviet Union)|Natalia Kuchinskaya (Soviet Union)
+1972|Ludmilla Tourischeva (Soviet Union)|Karin Janz (East Germany)|Tamara Lazakovich (Soviet Union)
+1976|Nadia Comăneci (Romania)|Nellie Kim (Soviet Union)|Ludmilla Tourischeva (Soviet Union)
+1980|Yelena Davydova (Soviet Union)|Nadia Comăneci (Romania)|
+1980|Yelena Davydova (Soviet Union)|Maxi Gnauck (East Germany)|
+1984|Mary Lou Retton (United States)|Ecaterina Szabo (Romania)|Simona Păucă (Romania)
+1988|Yelena Shushunova (Soviet Union)|Daniela Silivaș (Romania)|Svetlana Boginskaya (Soviet Union)
+1992|Tatiana Gutsu (Unified Team)|Shannon Miller (United States)|Lavinia Miloșovici (Romania)
+1996|Lilia Podkopayeva (Ukraine)|Gina Gogean (Romania)|Simona Amânar (Romania)
+1996|Lilia Podkopayeva (Ukraine)|Gina Gogean (Romania)|Lavinia Miloșovici (Romania)
+2000|Simona Amânar (Romania)|Maria Olaru (Romania)|Liu Xuan (China)
+2004|Carly Patterson (United States)|Svetlana Khorkina (Russia)|Zhang Nan (China)
+2008|Nastia Liukin (United States)|Shawn Johnson (United States)|Yang Yilin (China)
+2012|Gabby Douglas (United States)|Viktoria Komova (Russia)|Aliya Mustafina (Russia)
+2016|Simone Biles (United States)|Aly Raisman (United States)|Aliya Mustafina (Russia)
+2020|Sunisa Lee (United States)|Rebeca Andrade (Brazil)|Angelina Melnikova (ROC)
+2024|Simone Biles (United States)|Rebeca Andrade (Brazil)|Sunisa Lee (United States)
+## F|All-around, team
+1928|Netherlands|Italy|Great Britain
+1936|Germany|Czechoslovakia|Hungary
+1948|Czechoslovakia|Hungary|United States
+1952|Soviet Union|Hungary|Czechoslovakia
+1956|Soviet Union|Hungary|Romania
+1960|Soviet Union|Czechoslovakia|Romania
+1964|Soviet Union|Czechoslovakia|Japan
+1968|Soviet Union|Czechoslovakia|East Germany
+1972|Soviet Union|East Germany|Hungary
+1976|Soviet Union|Romania|East Germany
+1980|Soviet Union|Romania|East Germany
+1984|Romania|United States|China
+1988|Soviet Union|Romania|East Germany
+1992|Unified Team|Romania|United States
+1996|United States|Russia|Romania
+2000|Romania|Russia|United States
+2004|Romania|United States|Russia
+2008|China|United States|Romania
+2012|United States|Russia|Romania
+2016|United States|Russia|China
+2020|ROC|United States|Great Britain
+2024|United States|Italy|Brazil

@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 import albi  # noqa: E402  (Mondiali, Europei, campionati: vedi albi.py)
 import albo_atletica  # noqa: E402  (albo olimpico dell'atletica, v0.3)
 import altri_albi  # noqa: E402  (Giro, Tour, Formula 1, Coppa del Mondo di sci, v0.5)
+import albi_v06  # noqa: E402  (Slam di tennis, nuoto e ginnastica olimpici, v0.6)
 import atleti  # noqa: E402  (palmarès degli atleti, v0.3)
 import voci_v03  # noqa: E402  (tessere dal mondo, v0.3)
 
@@ -518,19 +519,31 @@ OLIMPIADI["atletica"] = {
               f("World Athletics", "Parigi 2024, salto in alto uomini",
                 "https://worldathletics.org/results/olympic-games/2024/the-xxxiii-olympic-games-7087/men/high-jump/final/result")],
 }
+TENNIS, NUOTO, GINNASTICA = albi_v06.costruisci()
+NOTA_V06 = ("Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con "
+            "impronta SHA-256). Gli ex aequo sono uniti nella stessa casella; le medaglie riflettono le attribuzioni del CIO.")
+OLIMPIADI["nuoto"] = {**NUOTO, "nota": "Solo le gare principali scelte per l'almanacco: 100 e 200 m stile libero, 100 m dorso, "
+                      "rana e farfalla, 400 m misti, staffette 4×100 stile libero e misti. " + NOTA_V06}
+OLIMPIADI["ginnastica"] = {**GINNASTICA, "nota": "Ginnastica artistica: solo il concorso generale individuale e a squadre. " + NOTA_V06}
 ALTRI = albi.costruisci()
 for _sp, _gg in altri_albi.costruisci().items():
     ALTRI[_sp] = ALTRI.get(_sp, []) + _gg
+ALTRI["tennis"] = TENNIS
 NOTA_ALBI = ("Mondiali, Europei e campionati: trascritti il 26/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, "
              "controllo d'integrità con impronta SHA-256); i risultati 2025–2026 sono stati riscontrati su fonti ufficiali o "
              "giornalistiche, elencate tra le fonti.")
 ALBI = {}
-for sp in ["calcio", "basket", "pallavolo", "beach", "atletica", "ciclismo", "motori", "sci"]:
+NOTA_ALTRI = ("Trascritto il 27/11/2026 dalle tabelle di Wikipedia indicate (revisione fissata, controllo d'integrità con "
+              "impronta SHA-256); i risultati più recenti sono stati riscontrati su fonti ufficiali o giornalistiche, "
+              "elencate tra le fonti.")
+for sp in ["calcio", "basket", "pallavolo", "beach", "atletica", "ciclismo", "motori", "sci", "tennis", "nuoto", "ginnastica"]:
     gruppi = []
     if sp in OLIMPIADI:
         gruppi.append({"id": "olimpiadi", "nome": "Olimpiadi", "nota": NOTA_OLIMPIADI, **OLIMPIADI[sp]})
     for g in ALTRI.get(sp, []):
-        gruppi.append({**g, "nota": NOTA_ALBI})
+        g = dict(g)
+        propria = g.pop("nota_gruppo", None) or (g.get("nota") if g["id"] in ("giro", "tour", "f1", "coppa") else None)
+        gruppi.append({**g, "nota": propria + " " + NOTA_ALTRI if propria else NOTA_ALBI})
     ALBI[sp] = {"titolo": "Albi d'oro", "gruppi": gruppi}
 for a in ALBI.values():
     for g in a["gruppi"]:
@@ -539,7 +552,7 @@ for a in ALBI.values():
 
 dati = {"sport": [{"id": a, "nome": b, "colore": c, "icona": d} for a, b, c, d in SPORT],
         "voci": sorted(V, key=lambda x: (x["anno"], x["id"])), "albi": ALBI,
-        "aggiornato": "26 novembre 2026"}
+        "aggiornato": "27 novembre 2026"}
 ids = [x["id"] for x in V]
 assert len(ids) == len(set(ids))
 assert all(x["sport"] in {s[0] for s in SPORT} for x in V)
@@ -560,7 +573,10 @@ assert DONNE <= {a["id"] for a in ATL}, DONNE - {a["id"] for a in ATL}
 SQUADRA_ALLENATA = {"karch-kiraly": "Donne"}
 GRUPPO = {"Olimpiadi": "olimpiadi", "Mondiali": "mondiali", "Europei": "europei", "Campionato italiano": "scudetto",
           "Campionato NBA": "nba", "Giro d'Italia": "giro", "Tour de France": "tour", "Mondiale di Formula 1": "f1",
-          "Coppa del Mondo generale": "coppa"}
+          "Coppa del Mondo generale": "coppa",
+          "Australian Open": "ao", "Roland Garros": "rg", "Wimbledon": "wimbledon", "US Open": "usopen"}
+# gara del palmarès -> torneo dell'albo, quando il nome non coincide
+GARA_ALBO = {("ginnastica", ""): "concorso a squadre"}
 NOMI_PAESE = {"Unione Sovietica, poi Lituania": {"Unione Sovietica", "Lituania", "Squadra Unificata"},
               "Unione Sovietica, poi Ucraina": {"Unione Sovietica", "Ucraina", "Squadra Unificata"},
               "Cuba, poi Polonia": {"Cuba", "Polonia"}, "Cuba, poi Italia": {"Cuba", "Italia"}, "Cuba, poi Brasile": {"Cuba", "Brasile"}, "Germania Ovest": {"Germania Ovest", "Germania"},
@@ -591,7 +607,8 @@ def collega(atl, albi_):
             G = al["gruppi"][gi]
             gen = SQUADRA_ALLENATA.get(a["id"], a["genere"]) if p["ruolo"] == "allenatore" else a["genere"]
             if any("genere" in t for t in G["tornei"]):
-                ti = next((i for i, t in enumerate(G["tornei"]) if t["genere"] == gen and _n(t["nome"]) == _n(p["gara"])), None)
+                gara = GARA_ALBO.get((p["sport"], p["gara"]), p["gara"])
+                ti = next((i for i, t in enumerate(G["tornei"]) if t["genere"] == gen and _n(t["nome"]) == _n(gara)), None)
             elif len(G["tornei"]) == 1:
                 ti = 0 if gen == "Uomini" else None
             else:
@@ -606,6 +623,8 @@ def collega(atl, albi_):
             else:
                 r = next((r for r in T["righe"] if (r.get("stag") or str(r["anno"])) == chiave), None)
             cella = {"oro": "oro", "titolo": "oro", "vittoria": "oro", "argento": "argento", "bronzo": "bronzo"}.get(p["esito"])
+            if r is None and p["anno"] < min(x["anno"] for x in T["righe"]):
+                continue  # prima dell'inizio dell'albo (es. Slam prima dell'era Open)
             if r is None or cella is None:
                 scartati.append((a["id"], p["comp"], p["anno"], p["gara"], "riga assente"))
                 continue

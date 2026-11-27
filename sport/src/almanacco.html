@@ -128,6 +128,7 @@ table.albo th{text-align:left;color:var(--mute);font-weight:650;font-size:11px;t
 table.albo td{padding:5px 4px;border-bottom:1px solid var(--soft);vertical-align:top}
 table.albo td.a{font-weight:800;color:var(--acct);white-space:nowrap}
 table.albo td.r{color:var(--mute);white-space:nowrap;font-variant-numeric:tabular-nums}
+table.albo col.c-set{width:96px}table.albo td.r.set{white-space:normal}
 table.albo td .sede{display:block;white-space:normal;color:var(--mute);font-size:11.5px;font-weight:400}
 table.albo td .ita{margin-right:5px}
 table.albo td .nr{display:block;color:var(--mute);font-size:11px;margin-top:2px}
@@ -491,9 +492,10 @@ function tabella(t, hl) {
     return `<table class="albo"><colgroup><col class="c-s"><col>${ris ? '<col class="c-r">' : ''}<col></colgroup><thead><tr><th>Stagione</th><th>Campione</th>${ris ? '<th>Serie</th>' : ''}<th>Secondo</th></tr></thead><tbody>` +
       rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${esc(r.stag)}</td><td>${esc(r.oro)}${nr(r)}</td>${ris ? `<td class="r">${esc(r.ris || '')}</td>` : ''}<td>${esc(r.argento)}</td></tr>`).join('') + '</tbody></table>';
   }
-  const ris = rr.some(r => r.ris), stag = rr.some(r => r.stag), [c1, c2, c3] = t.colonne || ['Oro', 'Argento', 'Bronzo'];
-  return `<table class="albo"><colgroup><col class="c-a"><col>${ris ? '<col class="c-r">' : ''}<col><col></colgroup><thead><tr><th>${stag ? 'Stagione' : 'Anno'}</th><th>${c1}</th>${ris ? '<th>Finale</th>' : ''}<th>${c2}</th><th>${c3}</th></tr></thead><tbody>` +
-    rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${esc(r.stag || r.anno)}${r.sede ? `<span class="sede">${esc(r.sede)}</span>` : ''}</td><td>${cella(r.oro)}${nr(r)}</td>${ris ? `<td class="r">${esc(r.ris)}</td>` : ''}<td>${cella(r.argento)}</td><td>${cella(r.bronzo)}</td></tr>`).join('') + '</tbody></table>';
+  const ris = rr.some(r => r.ris), stag = rr.some(r => /^\d{4}–/.test(r.stag || '')), [c1, c2, c3] = t.colonne || ['Oro', 'Argento', 'Bronzo'];
+  /* con due sole colonne (finali di tennis) non c'è il terzo posto */
+  return `<table class="albo"><colgroup><col class="c-a"><col>${ris ? `<col class="${c3 ? 'c-r' : 'c-set'}">` : ''}<col>${c3 ? '<col>' : ''}</colgroup><thead><tr><th>${stag ? 'Stagione' : 'Anno'}</th><th>${c1}</th>${ris ? '<th>Finale</th>' : ''}<th>${c2}</th>${c3 ? `<th>${c3}</th>` : ''}</tr></thead><tbody>` +
+    rr.map(r => `<tr class="${cls(r)}" ${k(r)}><td class="a">${esc(r.stag || r.anno)}${r.sede ? `<span class="sede">${esc(r.sede)}</span>` : ''}</td><td>${cella(r.oro)}${nr(r)}</td>${ris ? `<td class="r${c3 ? '' : ' set'}">${esc(r.ris)}</td>` : ''}<td>${cella(r.argento)}</td>${c3 ? `<td>${cella(r.bronzo)}</td>` : ''}</tr>`).join('') + '</tbody></table>';
 }
 function apriSport(id, g = 0, t = 0, hl = null) {
   const s = SP[SPI[id]], a = DATI.albi[id];
@@ -527,7 +529,7 @@ function apriSport(id, g = 0, t = 0, hl = null) {
   const on = panel.querySelector('.tabs.disc button.on'); if (on && !hl) on.scrollIntoView({block: 'nearest', inline: 'nearest'});
 }
 function apriAlbi() {
-  mostra(`<h2>Albi d'oro</h2><p>Olimpiadi, Mondiali, Europei, campionati, Giro e Tour, Formula 1 e Coppa del Mondo di sci, edizione per edizione.</p><div class="albi-lista">` +
+  mostra(`<h2>Albi d'oro</h2><p>Olimpiadi, Mondiali, Europei, campionati, Giro e Tour, Formula 1, Coppa del Mondo di sci e finali dei tornei del Grande Slam di tennis, edizione per edizione.</p><div class="albi-lista">` +
     Object.entries(DATI.albi).map(([id, a]) => { const s = SP[SPI[id]]; return `<button type="button" data-sport="${id}">${icona(s.icona, s.colore)}<span><b>${esc(s.nome)}</b><br><small>${esc(a.gruppi.map(g => g.nome).join(' · '))}</small></span></button>`; }).join('') + '</div>', 'albi');
 }
 
@@ -605,7 +607,7 @@ $('vistaEsci').onclick = () => { esciVista(); chiudi(); };
 
 /* ---------- pagina di ricerca ---------- */
 const norm = x => String(x ?? '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[–—-]/g, '-').replace(/[’']/g, ' ');
-const CAT_GRUPPO = {olimpiadi: 'Olimpiadi', mondiali: 'Mondiali', europei: 'Europei', f1: 'Mondiali', giro: 'Altre', tour: 'Altre', coppa: 'Altre'};
+const CAT_GRUPPO = {olimpiadi: 'Olimpiadi', mondiali: 'Mondiali', europei: 'Europei', f1: 'Mondiali', giro: 'Altre', tour: 'Altre', coppa: 'Altre', ao: 'Altre', rg: 'Altre', wimbledon: 'Altre', usopen: 'Altre'};
 /* paesi citati in una casella: «Nome (Paese)», «A / B (Paese)», oppure la nazionale stessa */
 const paesiCella = x => !x || x === '—' ? [] : /\(/.test(x) ? [...x.matchAll(/\(([^()]+)\)/g)].map(m => m[1]) : x.split(', ');
 const INDICE = [];
@@ -743,7 +745,7 @@ function riga(e, toks) {
   const nomeT = t.genere ? `${t.nome} ${t.genere.toLowerCase()}` : t.nome;
   const pezzo = (k, nome) => { const su = e.su && e.su.includes(k); return `${su ? '<span class="su">' : ''}<i class="med ${k}"></i>${nome} ${!lega && conItalia(r[k]) ? ITA : ''}${segna(r[k], toks)}${su ? '</span>' : ''}`; };
   const chi = lega ? `${segna(r.oro, toks)}${r.argento ? ` <span class="rs" style="display:inline">· 2° ${segna(r.argento, toks)}</span>` : ''}`
-    : [pezzo('oro', ''), pezzo('argento', ''), pezzo('bronzo', '')].join(' · ');
+    : [pezzo('oro', ''), pezzo('argento', ''), r.bronzo != null ? pezzo('bronzo', '') : ''].filter(Boolean).join(' · ');
   const comp = `${g.nome}${nomeT && nomeT !== 'Finali' && (g.tornei.length > 1 || !lega) ? ' ' + nomeT.toLowerCase() : ''}`;
   return `<li tabindex="0" ${st} data-albo="${e.sport}|${e.gi}|${e.ti}|${esc(chiaveRiga(r))}"><span class="ly">${esc(r.stag || r.anno)}</span><span class="rt"><b>${chi}</b><span class="rs">${esc(s.nome)} · ${esc(comp)}${r.sede ? ' · ' + segna(r.sede, toks) : ''}${r.nota ? ' · ' + segna(r.nota, toks) : ''}</span></span></li>`;
 }

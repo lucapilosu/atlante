@@ -1,5 +1,19 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.6 · 27 novembre 2026
+
+- **Tennis: le finali di singolare dei quattro tornei del Grande Slam nell'era Open** (468 finali): Australian Open dal 1969, Roland Garros, Wimbledon e US Open dal 1968, uomini e donne, con campione, finalista e punteggio.
+  - Le due edizioni dell'Australian Open del 1977 (gennaio e dicembre) sono righe separate; annotate le edizioni non giocate (Australian Open 1986, Wimbledon 2020) e i finalisti senza bandiera nazionale (russi e bielorussi dal 2022).
+  - Finali 2026 riscontrate una per una: Alcaraz e Rybakina in Australia, Zverev e Mirra Andreeva a Parigi, Sinner e Nosková a Wimbledon, Zverev e Rybakina a New York.
+- **Nuoto olimpico, gare principali** (304 righe): 100 e 200 m stile libero, 100 m dorso, rana e farfalla, 400 m misti, staffette 4×100 stile libero e misti, uomini e donne.
+- **Ginnastica artistica olimpica** (98 righe): concorso generale individuale e a squadre, uomini e donne.
+  - Ex aequo nella stessa casella (per esempio l'argento a tre nei 100 farfalla di Rio 2016, o l'argento ex aequo dietro Martinenghi nei 100 rana di Parigi 2024); annotate le medaglie non assegnate e l'attribuzione CIO del 1904 (Lenhart e Spinnler).
+- Le tabelle del tennis hanno due colonne (Campione, Finalista) più il punteggio, che su telefono va a capo set per set; nella ricerca le finali non mostrano il bronzo. Il filtro «Giri, Coppe e Slam» comprende gli Slam.
+- 935 voci di palmarès portano all'albo d'oro (erano 758), tutte controllate: tra le altre le vittorie Slam di Federer, Nadal, Djokovic, Serena Williams, Graf, Laver e Sinner, le medaglie di Phelps, Spitz, Thorpe e Pellegrini, i concorsi di Comăneci, Biles, Latynina e Uchimura. I titoli di Laver prima del 1968 restano nel palmarès senza collegamento (l'albo parte dall'era Open).
+- Correzione: le note di Giro, Tour, Formula 1 e Coppa del Mondo di sci erano coperte da una nota generica su Mondiali ed Europei; ora si vedono, con la data di trascrizione giusta.
+- Fonti: tabelle di Wikipedia a revisione fissata (11 blocchi controllati con SHA-256); finali 2026 riscontrate su siti ATP, WTA, Roland-Garros e Australian Open.
+- Prove: 125 controlli su PC e iPhone emulato.
+
 ## Pilu Sports Almanac v0.5 · 27 novembre 2026
 
 - **Nuovi albi d'oro con il podio completo** (419 righe in più, 1.667 in tutto):
