@@ -11,5 +11,5 @@ Pagina a parte dell'atlante, pubblicata in `lucapilosu.github.io/atlante/sport/`
 - Albo olimpico dell'atletica (v0.3): `tools/atletica/a0..a5.txt` + `tools/albo_atletica.py`.
 - Versione: `build.py` scrive `sport/versione.json` con l'impronta del contenuto; la pagina la ricontrolla quando torna in primo piano e propone «Aggiorna» se è cambiata.
 - Stili Notte e Pastello (scelta salvata nel browser), favicon a medaglia (`favicon.svg`, `favicon-32.png`, `apple-touch-icon.png`).
-- Prove: `python3 tests/sport.py` (PC e iPhone emulato, 101 controlli; avvia da sé un piccolo server locale).
+- Prove: `python3 tests/sport.py` (PC e iPhone emulato, 105 controlli; avvia da sé un piccolo server locale).
 - Grafica originale (nessuna ripresa della copertina dell'almanacco del film, scelta concordata con Luca il 26/11/2026).

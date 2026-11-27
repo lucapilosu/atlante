@@ -1,0 +1,155 @@
+@Samuele Papi|Samuele Papi|1382522195|Samuele Papi|153283220
+X|Men's volleyball
+M|O|S|1996|
+M|O|S|2004|
+M|O|B|2000|
+M|O|B|2012|
+M|W|G|1994|
+M|W|G|1998|
+M|E|G|1995|
+M|E|G|1999|
+M|E|G|2003|
+M|E|S|2001|
+M|E|B|1997|
+I|Campionato italiano|1998-99, 2000-01, 2002-03, 2003-04, 2004-05, 2006-07
+I|Coppa dei Campioni/Champions League|1998-99, 1999-00, 2005-06
+@Luigi Mastrangelo|Luigi Mastrangelo|1382520031|Luigi Mastrangelo|153282905
+X|Men's volleyball
+M|O|S|2004|
+M|O|B|2000|
+M|O|B|2012|
+M|E|G|1999|
+M|E|G|2003|
+M|E|G|2005|
+M|E|S|2011|
+I|Campionato italiano|2009-10
+@Ferdinando De Giorgi|Ferdinando De Giorgi|1382517941|Ferdinando De Giorgi|150442367
+X|Men's volleyball
+M|W|G|1990|
+M|W|G|1994|
+M|W|G|1998|
+M|E|G|1989|
+M|E|S|1991|
+M|W|G|2022| #coach
+M|W|G|2025| #coach
+M|E|G|2021| #coach
+M|E|S|2023| #coach
+I|Campionato italiano|Panini Modena: 1986-87
+I|Campionato italiano|Lube: 2005-06, 2018-19|A
+I|Campionato polacco|ZAKSA: 2015-16, 2016-17|A
+I|CEV Champions League|Lube: 2018-19|A
+@Alessia Orro|Alessia Orro|1382718360|Alessia Orro|152365628
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+M|E|S|2026|Team
+@Myriam Sylla|Myriam Sylla|1386779366|Myriam Sylla|153048443
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|S|2018|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+M|E|S|2026|Team
+I|Campionato italiano|2018-19, 2020-21, 2021-22
+I|CEV Champions League|2020-21
+@Anna Danesi|Anna Danesi|1382721713|Anna Danesi|153349041
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|S|2018|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+M|E|S|2026|Team
+I|Campionato italiano|2017-18, 2018-19
+@Sarah Fahr|Sarah Fahr|1386900597|Sarah Fahr|153056011
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|W|S|2018|Team
+M|E|G|2021|Team
+M|E|B|2019|Team
+M|E|S|2026|Team
+I|Campionato italiano|2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26
+I|CEV Champions League|2020-21, 2023-24, 2024-25
+@Ekaterina Antropova|Ekaterina Antropova|1385863258|Ekaterina Antropova|152490419
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|G|2025|Team
+M|E|S|2026|Team
+@Isabelle Haak|Isabelle Haak|1382518713|Isabelle Haak|153055954
+I|Campionato svedese|2014-15, 2015-16
+I|Campionato turco|2020-21, 2021-22
+I|Campionato italiano|2022-23, 2023-24, 2024-25, 2025-26
+I|CEV Champions League|2021-22, 2023-24, 2024-25
+@Gabriela Guimarães|Gabriela Guimarães|1382762877|Gabriela Guimarães|153055766
+X|Women's volleyball
+M|O|S|2020|Team
+M|O|B|2024|Team
+M|W|S|2022|Team
+M|W|B|2014|Team
+M|W|B|2025|Team
+I|Campionato brasiliano|2012-13, 2013-14, 2014-15, 2015-16, 2016-17, 2018-19
+I|Campionato turco|2020-21, 2021-22
+I|Campionato italiano|2024-25, 2025-26
+I|Campionato Mineiro|2010
+I|Campionato Carioca|2012, 2013, 2014, 2015, 2017
+I|CEV Champions League|2021-22, 2022-23, 2024-25
+@Joanna Wołosz|Joanna Wołosz|1382755816|Joanna Wołosz|153565058
+X|Women's volleyball
+I|Campionato polacco|2015-16, 2016-17
+I|Campionato italiano|2017-18, 2018-19, 2020-21, 2021-22, 2022-23, 2023-24, 2024-25, 2025-26
+I|CEV Champions League|2020-21, 2023-24, 2024-25
+@Caterina Bosetti|Caterina Bosetti|1382741544|Caterina Bosetti|150053182
+X|Women's volleyball
+M|O|G|2024|Team
+M|W|B|2022|Team
+I|Campionato turco|2024-25
+I|Campionato Paulista|2013
+@Eleonora Lo Bianco|Eleonora Lo Bianco|1382748139|Eleonora Lo Bianco|152113780
+X|Women's volleyball
+M|W|G|2002|Team
+M|E|G|2007|Team
+M|E|G|2009|Team
+M|E|S|2001|Team
+M|E|S|2005|Team
+M|E|B|1999|Team
+I|Campionato italiano|2005-06, 2010-11
+I|Campionato turco|2014-15
+I|CEV Champions League|2006-07, 2008-09, 2009-10
+@Simona Gioli|Simona Gioli|1382922328|Simona Gioli|152209765
+X|Women's volleyball
+M|E|G|2009|Team
+M|E|G|2007|Team
+M|E|S|2005|Team
+M|E|B|1999|Team
+I|Campionato italiano|2002-03, 2004-05, 2006-07
+I|Campionato russo|2008-09
+I|CEV Champions League|2007-08
+@Antonella Del Core|Antonella Del Core|1382722415|Antonella Del Core|149243542
+X|Women's volleyball
+M|E|G|2007|Team
+M|E|G|2009|Team
+M|E|S|2005|Team
+I|Campionato italiano|2006-07
+I|Campionato russo|2013-14
+I|CEV Champions League|2007-08, 2008-09, 2009-10, 2013-14
+@Elena Pietrini|Elena Pietrini|1382517613|Elena Pietrini|152770811
+X|Women's volleyball
+M|W|S|2018|Team
+M|W|B|2022|Team
+M|E|G|2021|Team
+I|Campionato russo|2023-24
+@Kimberly Hill|Kimberly Hill|1382758346|Kimberly Hill|143489631
+X|Volleyball
+M|O|G|2020|Team
+M|O|B|2016|Team
+M|W|G|2014|Team
+I|Campionato turco|2015-16
+I|Campionato italiano|2017-18, 2018-19, 2020-21
+I|CEV Champions League|2016-17, 2020-21

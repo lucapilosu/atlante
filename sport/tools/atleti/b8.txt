@@ -1,0 +1,116 @@
+@Sheilla Castro|Sheilla Castro|1382522375|Sheilla de Castro|143466243
+X|Women's volleyball
+M|O|G|2008|Team
+M|O|G|2012|Team
+M|W|S|2006|Team
+M|W|S|2010|Team
+M|W|B|2014|Team
+I|Campionato brasiliano|2001-02, 2010-11
+I|Campionato italiano|2007-08
+I|Campionato turco|2015-16
+I|Campionato Paulista|2012, 2013
+I|Campionato Carioca|2010, 2011
+@Fabiana Claudino|Fabiana Claudino|1382517906|Fabiana Claudino|153029222
+X|Women's volleyball
+M|O|G|2008|Team
+M|O|G|2012|Team
+M|W|S|2006|Team
+M|W|S|2010|Team
+M|W|B|2014|Team
+I|Campionato brasiliano|2001-02, 2005-06, 2006-07, 2007-08, 2008-09, 2017-18
+I|Campionato Mineiro|2003
+I|Campionato Carioca|2004, 2005, 2006, 2007, 2008, 2009
+I|CEV Champions League|2011-12
+@Alison Cerutti|Alison Cerutti|1382719170|Alison Cerutti|140643271
+X|Men's beach volleyball
+M|O|G|2016|Beach
+M|O|S|2012|Beach
+M|W|G|2011|Beach
+M|W|G|2015|Beach
+M|W|S|2009|Beach
+@Evandro Oliveira|Evandro Oliveira|1375460179|Evandro Oliveira|151577299
+X|Men's beach volleyball
+M|W|G|2017|Beach
+M|W|B|2015|Beach
+@Christian Sørum|Christian Sørum|1382517008|Christian Sørum|151648520
+X|Men's beach volleyball
+M|O|G|2020|Beach
+M|O|B|2024|Beach
+M|W|G|2022|Beach
+M|W|B|2019|Beach
+M|E|G|2025|Beach
+M|E|G|2021|Beach
+M|E|G|2020|Beach
+M|E|G|2019|Beach
+M|E|G|2018|Beach
+M|E|S|2026|Beach
+M|E|B|2022|Beach
+@Bruno Oscar Schmidt|Bruno Oscar Schmidt|1382523248|Bruno Oscar Schmidt|150256637
+X|Men's beach volleyball
+M|O|G|2016|Beach
+M|W|G|2015|Beach
+@Aleksandrs Samoilovs|Aleksandrs Samoilovs|1382717984|Aleksandrs Samoilovs|139754643
+X|Men's beach volleyball
+M|E|G|2015|Beach
+M|E|S|2014|Beach
+M|E|S|2013|Beach
+@Tīna Graudiņa|Tīna Graudiņa|1382927917|Tīna Graudiņa|151535211
+X|Women's beach volleyball
+M|W|G|2025|Beach
+M|E|G|2019|Beach
+M|E|G|2022|Beach
+M|E|B|2026|Beach
+@Anastasija Kravčenoka|Anastasija Samoilova|1382720374|Anastasija Samoilova|149454064
+X|Women's beach volleyball
+M|W|G|2025|Beach
+M|E|G|2019|Beach
+M|E|G|2022|Beach
+M|E|B|2026|Beach
+@April Ross|April Ross|1386508916|April Ross|151412946
+X|Women's beach volleyball
+M|O|G|2020|Beach
+M|O|S|2012|Beach
+M|O|B|2016|Beach
+M|W|G|2009|Beach
+M|W|S|2017|Beach
+M|W|S|2019|Beach
+@Larissa França|Larissa França|1382759186|Larissa França|153083668
+X|Women's beach volleyball
+M|O|B|2012|Beach
+M|W|G|2011|Beach
+M|W|S|2005|Beach
+M|W|S|2009|Beach
+M|W|B|2007|Beach
+M|W|B|2017|Beach
+@Juliana Felisberta|Juliana Silva|1382519213|Juliana Felisberta|153083662
+X|Women's beach volleyball
+M|O|B|2012|Beach
+M|W|G|2011|Beach
+M|W|S|2005|Beach
+M|W|S|2009|Beach
+M|W|B|2007|Beach
+M|W|B|2015|Beach
+@Tanja Hüberli|Tanja Hüberli|1382924162||
+X|Women's beach volleyball
+M|O|B|2024|Beach
+M|E|G|2021|Beach
+M|E|G|2023|Beach
+M|E|S|2014|Beach
+M|E|S|2018|Beach
+M|E|S|2022|Beach
+@Nina Brunner|Nina Brunner|1385953918||
+X|Women's beach volleyball
+M|O|B|2024|Beach
+M|E|G|2021|Beach
+M|E|G|2023|Beach
+M|E|S|2018|Beach
+M|E|S|2022|Beach
+@Valentina Gottardi|Valentina Gottardi|1382928191|Valentina Gottardi|151591979
+X|Women's beach volleyball
+M|E|S|2024|Women's
+@Alex Ranghieri|Alex Ranghieri|1382718405|Alex Ranghieri|139774415
+X|Men's beach volleyball
+M|E|S|2015|Beach
+@Adrian Carambula|Adrian Carambula|1387983597|Adrian Carambula|151518857
+X|Men's beach volleyball
+M|E|S|2015|Beach

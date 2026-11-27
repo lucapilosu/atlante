@@ -547,7 +547,11 @@ DONNE = {"shelly-ann-fraser-pryce", "allyson-felix", "sara-simeoni", "katie-lede
          "nadia-comaneci", "simone-biles", "larisa-latynina", "diana-taurasi", "paola-egonu", "francesca-piccinini",
          "monica-de-gennaro", "tijana-boskovic", "zhu-ting", "kim-yeon-koung", "regla-torres", "lang-ping",
          "kerri-walsh-jennings", "misty-may-treanor", "laura-ludwig", "marta-menegatti", "ana-patricia", "duda-lisboa",
-         "marta", "serena-williams", "steffi-graf", "mikaela-shiffrin", "lindsey-vonn", "federica-brignone"}
+         "marta", "serena-williams", "steffi-graf", "mikaela-shiffrin", "lindsey-vonn", "federica-brignone",
+         "alessia-orro", "myriam-sylla", "anna-danesi", "sarah-fahr", "ekaterina-antropova", "isabelle-haak", "gabriela-guimaraes",
+         "joanna-wolosz", "caterina-bosetti", "eleonora-lo-bianco", "simona-gioli", "antonella-del-core", "elena-pietrini",
+         "kimberly-hill", "sheilla-castro", "fabiana-claudino", "tina-graudina", "anastasija-samoilova", "april-ross",
+         "larissa-franca", "juliana-felisberta", "tanja-huberli", "nina-brunner", "valentina-gottardi"}
 assert DONNE <= {a["id"] for a in ATL}, DONNE - {a["id"] for a in ATL}
 # Squadre allenate di genere diverso da quello dell'allenatore (palmarès da allenatore presenti nei dati).
 SQUADRA_ALLENATA = {"karch-kiraly": "Donne"}
@@ -555,7 +559,7 @@ GRUPPO = {"Olimpiadi": "olimpiadi", "Mondiali": "mondiali", "Europei": "europei"
           "Campionato NBA": "nba"}
 NOMI_PAESE = {"Unione Sovietica, poi Lituania": {"Unione Sovietica", "Lituania", "Squadra Unificata"},
               "Unione Sovietica, poi Ucraina": {"Unione Sovietica", "Ucraina", "Squadra Unificata"},
-              "Cuba, poi Polonia": {"Cuba", "Polonia"}, "Germania Ovest": {"Germania Ovest", "Germania"},
+              "Cuba, poi Polonia": {"Cuba", "Polonia"}, "Cuba, poi Italia": {"Cuba", "Italia"}, "Cuba, poi Brasile": {"Cuba", "Brasile"}, "Germania Ovest": {"Germania Ovest", "Germania"},
               "Regno Unito": {"Gran Bretagna", "Regno Unito"}, "Cecoslovacchia": {"Cecoslovacchia"}}
 
 

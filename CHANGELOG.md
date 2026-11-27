@@ -1,5 +1,16 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.4 · 27 novembre 2026
+
+- **51 atleti nuovi di pallavolo e beach volley** (in tutto 151, con 1.833 risultati nel palmarès):
+  - pallavolo maschile: Michieletto, Romanò, Lavia, Balaso, Russo, Anzani, Galassi, Juantorena, Kaziyski, Bruno Rezende, Leal, Atanasijević, Sokolov, Semeniuk, e la «generazione di fenomeni» Cantagalli, Zorzi, Lucchetta, Papi, Mastrangelo, De Giorgi (anche da commissario tecnico);
+  - pallavolo femminile: Orro, Sylla, Danesi, Fahr, Antropova, Haak, Gabi, Wołosz, Bosetti, Lo Bianco, Gioli, Del Core, Pietrini, Kim Hill, Sheilla, Fabiana;
+  - beach volley: Alison, Evandro, Sørum, Bruno Schmidt, Samoilovs, Graudiņa, Samoilova, April Ross, Larissa, Juliana, Hüberli, Brunner, Gottardi, Ranghieri, Carambula.
+- Stesso metodo della v0.3: medaglie di Olimpiadi, Mondiali ed Europei dall'infobox di en.wikipedia, campionati nazionali e Champions League dal palmarès di it.wikipedia, revisioni fissate, tre blocchi controllati con SHA-256. Esclusi i campionati statali brasiliani (Carioca, Paulista, Mineiro, Catarinense): non sono titoli nazionali.
+- 684 voci di palmarès portano all'albo d'oro (erano 398), tutte controllate.
+- Non inseriti Reka Orsi Toth e Samuele Cottafava: non hanno una voce su en.wikipedia, da cui vengono le medaglie.
+- Prove: 105 controlli su PC e iPhone emulato.
+
 ## Pilu Sports Almanac v0.3 · 26 novembre 2026
 
 - **Nuova grafica «Figurine»** in due stili, scelti da Luca: **Notte** (predefinito) e **Pastello**, con il pulsante «Stile» come nell'Atlante; la scelta resta salvata sul dispositivo. Tessere con bordo del colore dello sport, anno in un'etichetta in alto a destra, bandierina in alto a sinistra.

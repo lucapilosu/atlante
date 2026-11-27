@@ -14567,5 +14567,5270 @@
    "atleta"
   ],
   "genere": "Donne"
+ },
+ {
+  "id": "alessandro-michieletto",
+  "nome": "Alessandro Michieletto",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2022–23"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2024–25"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Alessandro Michieletto (revisione 1382718277, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Alessandro_Michieletto&oldid=1382718277"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Alessandro Michieletto (revisione 152589133, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Alessandro_Michieletto&oldid=152589133"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "yuri-romano",
+  "nome": "Yuri Romanò",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Romano",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Yuri Romanò (revisione 1380526996, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Yuri_Romanò&oldid=1380526996"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Yuri Romanò (revisione 152589143, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Yuri_Romanò&oldid=152589143"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "daniele-lavia",
+  "nome": "Daniele Lavia",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2022–23"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2024–25"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Daniele Lavia (revisione 1382743688, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Daniele_Lavia&oldid=1382743688"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Daniele Lavia (revisione 152589142, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Daniele_Lavia&oldid=152589142"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "fabio-balaso",
+  "nome": "Fabio Balaso",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2021–22"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Fabio Balaso (revisione 1382749545, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Fabio_Balaso&oldid=1382749545"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Fabio Balaso (revisione 152609547, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Fabio_Balaso&oldid=152609547"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "roberto-russo",
+  "nome": "Roberto Russo",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2023–24"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2025–26"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Roberto Russo (volleyball) (revisione 1382913177, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Roberto_Russo_(volleyball)&oldid=1382913177"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Roberto Russo (pallavolista) (revisione 152589147, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Roberto_Russo_(pallavolista)&oldid=152589147"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "simone-anzani",
+  "nome": "Simone Anzani",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2015,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2015"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2017–18"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2021–22"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Simone Anzani (revisione 1382922334, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Simone_Anzani&oldid=1382922334"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Simone Anzani (revisione 152589145, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Simone_Anzani&oldid=152589145"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "gianluca-galassi",
+  "nome": "Gianluca Galassi",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Gianluca Galassi (revisione 1382751362, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Gianluca_Galassi&oldid=1382751362"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Gianluca Galassi (revisione 152609539, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Gianluca_Galassi&oldid=152609539"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "osmany-juantorena",
+  "nome": "Osmany Juantorena",
+  "paese": "Cuba, poi Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2016,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2016"
+   },
+   {
+    "anno": 2015,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2015"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2010–11"
+   },
+   {
+    "anno": 2013,
+    "stag": "2012-13",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2012–13"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2016–17"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2021–22"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato spagnolo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Osmany Juantorena (revisione 1382909929, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Osmany_Juantorena&oldid=1382909929"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Osmany Juantorena (revisione 153444297, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Osmany_Juantorena&oldid=153444297"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "matey-kaziyski",
+  "nome": "Matey Kaziyski",
+  "paese": "Bulgaria",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Matej Kazijski",
+  "palmares": [
+   {
+    "anno": 2006,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2006"
+   },
+   {
+    "anno": 2009,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2009"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2007–08"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2010–11"
+   },
+   {
+    "anno": 2013,
+    "stag": "2012-13",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2012–13"
+   },
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2014–15"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2022–23"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato qatariota",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2020,
+    "stag": "2019-20",
+    "sport": "pallavolo",
+    "comp": "Campionato giapponese",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Matey Kaziyski (revisione 1382520460, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Matey_Kaziyski&oldid=1382520460"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Matej Kazijski (revisione 150392332, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Matej_Kazijski&oldid=150392332"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "bruno-rezende",
+  "nome": "Bruno Rezende",
+  "paese": "Brasile",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Bruninho Bruno de Rezende",
+  "palmares": [
+   {
+    "anno": 2016,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2016"
+   },
+   {
+    "anno": 2008,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2008"
+   },
+   {
+    "anno": 2012,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2012"
+   },
+   {
+    "anno": 2010,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2010"
+   },
+   {
+    "anno": 2014,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2014"
+   },
+   {
+    "anno": 2018,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2018"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2004,
+    "stag": "2003-04",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2013,
+    "stag": "2012-13",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2015–16"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Bruno Rezende (revisione 1382739230, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Bruno_Rezende&oldid=1382739230"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Bruno de Rezende (revisione 150654062, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Bruno_de_Rezende&oldid=150654062"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "yoandy-leal",
+  "nome": "Yoandy Leal",
+  "paese": "Cuba, poi Brasile",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2010,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2010"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2020–21"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Yoandy Leal (revisione 1382524974, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Yoandy_Leal&oldid=1382524974"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Yoandy Leal (revisione 151066207, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Yoandy_Leal&oldid=151066207"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "aleksandar-atanasijevic",
+  "nome": "Aleksandar Atanasijević",
+  "paese": "Serbia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Atanasijevic",
+  "palmares": [
+   {
+    "anno": 2011,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2011"
+   },
+   {
+    "anno": 2019,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2019"
+   },
+   {
+    "anno": 2013,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2013"
+   },
+   {
+    "anno": 2017,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2017"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato serbo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2017–18"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato cinese",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Aleksandar Atanasijević (revisione 1382717556, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Aleksandar_Atanasijević&oldid=1382717556"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Aleksandar Atanasijević (revisione 151296908, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Aleksandar_Atanasijević&oldid=151296908"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "tsvetan-sokolov",
+  "nome": "Tsvetan Sokolov",
+  "paese": "Bulgaria",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Cvetan Sokolov",
+  "palmares": [
+   {
+    "anno": 2009,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2009"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2010–11"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2016–17"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Tsvetan Sokolov (revisione 1382927770, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Tsvetan_Sokolov&oldid=1382927770"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Cvetan Sokolov (revisione 152915493, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Cvetan_Sokolov&oldid=152915493"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "kamil-semeniuk",
+  "nome": "Kamil Semeniuk",
+  "paese": "Polonia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2024"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2026"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2023–24"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2025–26"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Kamil Semeniuk (revisione 1382756970, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Kamil_Semeniuk&oldid=1382756970"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Kamil Semeniuk (revisione 153397257, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Kamil_Semeniuk&oldid=153397257"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "luca-cantagalli",
+  "nome": "Luca Cantagalli",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 1996,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|1996"
+   },
+   {
+    "anno": 1990,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1990"
+   },
+   {
+    "anno": 1994,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1994"
+   },
+   {
+    "anno": 1989,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1989"
+   },
+   {
+    "anno": 1993,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1993"
+   },
+   {
+    "anno": 1995,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1995"
+   },
+   {
+    "anno": 1991,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1991"
+   },
+   {
+    "anno": 1986,
+    "stag": "1985-86",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1985–86"
+   },
+   {
+    "anno": 1987,
+    "stag": "1986-87",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1986–87"
+   },
+   {
+    "anno": 1988,
+    "stag": "1987-88",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1987–88"
+   },
+   {
+    "anno": 1989,
+    "stag": "1988-89",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1988–89"
+   },
+   {
+    "anno": 1995,
+    "stag": "1994-95",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1994–95"
+   },
+   {
+    "anno": 1997,
+    "stag": "1996-97",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1996–97"
+   },
+   {
+    "anno": 2002,
+    "stag": "2001-02",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2001–02"
+   },
+   {
+    "anno": 1990,
+    "stag": "1989-90",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 1996,
+    "stag": "1995-96",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 1997,
+    "stag": "1996-97",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 1998,
+    "stag": "1997-98",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Luca Cantagalli (revisione 1382760749, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Luca_Cantagalli&oldid=1382760749"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Luca Cantagalli (revisione 153070814, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Luca_Cantagalli&oldid=153070814"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "andrea-zorzi",
+  "nome": "Andrea Zorzi",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 1996,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|1996"
+   },
+   {
+    "anno": 1990,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1990"
+   },
+   {
+    "anno": 1994,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1994"
+   },
+   {
+    "anno": 1989,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1989"
+   },
+   {
+    "anno": 1993,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1993"
+   },
+   {
+    "anno": 1995,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1995"
+   },
+   {
+    "anno": 1991,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1991"
+   },
+   {
+    "anno": 1990,
+    "stag": "1989-90",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1989–90"
+   },
+   {
+    "anno": 1996,
+    "stag": "1995-96",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1995–96"
+   },
+   {
+    "anno": 1995,
+    "stag": "1994-95",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Andrea Zorzi (revisione 1382515962, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Andrea_Zorzi&oldid=1382515962"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Andrea Zorzi (revisione 152050451, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Andrea_Zorzi&oldid=152050451"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "andrea-lucchetta",
+  "nome": "Andrea Lucchetta",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Lucky",
+  "palmares": [
+   {
+    "anno": 1984,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|1984"
+   },
+   {
+    "anno": 1990,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1990"
+   },
+   {
+    "anno": 1989,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1989"
+   },
+   {
+    "anno": 1991,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1991"
+   },
+   {
+    "anno": 1986,
+    "stag": "1985-86",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1985–86"
+   },
+   {
+    "anno": 1987,
+    "stag": "1986-87",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1986–87"
+   },
+   {
+    "anno": 1988,
+    "stag": "1987-88",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1987–88"
+   },
+   {
+    "anno": 1989,
+    "stag": "1988-89",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1988–89"
+   },
+   {
+    "anno": 1990,
+    "stag": "1989-90",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Andrea Lucchetta (revisione 1382515914, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Andrea_Lucchetta&oldid=1382515914"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Andrea Lucchetta (revisione 153283405, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Andrea_Lucchetta&oldid=153283405"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "samuele-papi",
+  "nome": "Samuele Papi",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 1996,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|1996"
+   },
+   {
+    "anno": 2004,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2004"
+   },
+   {
+    "anno": 2000,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2000"
+   },
+   {
+    "anno": 2012,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2012"
+   },
+   {
+    "anno": 1994,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1994"
+   },
+   {
+    "anno": 1998,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1998"
+   },
+   {
+    "anno": 1995,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1995"
+   },
+   {
+    "anno": 1999,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1999"
+   },
+   {
+    "anno": 2003,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2003"
+   },
+   {
+    "anno": 2001,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2001"
+   },
+   {
+    "anno": 1997,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1997"
+   },
+   {
+    "anno": 1999,
+    "stag": "1998-99",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1998–99"
+   },
+   {
+    "anno": 2001,
+    "stag": "2000-01",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2000–01"
+   },
+   {
+    "anno": 2003,
+    "stag": "2002-03",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2002–03"
+   },
+   {
+    "anno": 2004,
+    "stag": "2003-04",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2003–04"
+   },
+   {
+    "anno": 2005,
+    "stag": "2004-05",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2004–05"
+   },
+   {
+    "anno": 2007,
+    "stag": "2006-07",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2006–07"
+   },
+   {
+    "anno": 1999,
+    "stag": "1998-99",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2000,
+    "stag": "1999-00",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Coppa dei Campioni / Champions League",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Samuele Papi (revisione 1382522195, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Samuele_Papi&oldid=1382522195"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Samuele Papi (revisione 153283220, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Samuele_Papi&oldid=153283220"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "luigi-mastrangelo",
+  "nome": "Luigi Mastrangelo",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2004,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2004"
+   },
+   {
+    "anno": 2000,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2000"
+   },
+   {
+    "anno": 2012,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|0|2012"
+   },
+   {
+    "anno": 1999,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1999"
+   },
+   {
+    "anno": 2003,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2003"
+   },
+   {
+    "anno": 2005,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2005"
+   },
+   {
+    "anno": 2011,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|2011"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|2009–10"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Luigi Mastrangelo (revisione 1382520031, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Luigi_Mastrangelo&oldid=1382520031"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Luigi Mastrangelo (revisione 153282905, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Luigi_Mastrangelo&oldid=153282905"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "ferdinando-de-giorgi",
+  "nome": "Ferdinando De Giorgi",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Fefè Fefe",
+  "palmares": [
+   {
+    "anno": 1990,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1990"
+   },
+   {
+    "anno": 1994,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1994"
+   },
+   {
+    "anno": 1998,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|0|1998"
+   },
+   {
+    "anno": 1989,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1989"
+   },
+   {
+    "anno": 1991,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|0|1991"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|mondiali|0|2022"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|mondiali|0|2025"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|europei|0|2021"
+   },
+   {
+    "anno": 2023,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|europei|0|2023"
+   },
+   {
+    "anno": 1987,
+    "stag": "1986-87",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|0|1986–87"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|scudetto|0|2005–06"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "allenatore",
+    "albo": "pallavolo|scudetto|0|2018–19"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "allenatore"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "allenatore"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "allenatore"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Ferdinando De Giorgi (revisione 1382517941, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Ferdinando_De_Giorgi&oldid=1382517941"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Ferdinando De Giorgi (revisione 150442367, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Ferdinando_De_Giorgi&oldid=150442367"
+   }
+  ],
+  "ruoli": [
+   "allenatore",
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "alessia-orro",
+  "nome": "Alessia Orro",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2021"
+   },
+   {
+    "anno": 2019,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2019"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2026"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Alessia Orro (revisione 1382718360, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Alessia_Orro&oldid=1382718360"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Alessia Orro (revisione 152365628, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Alessia_Orro&oldid=152365628"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "myriam-sylla",
+  "nome": "Myriam Sylla",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2018,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2018"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2021"
+   },
+   {
+    "anno": 2019,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2019"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2026"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2021–22"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Myriam Sylla (revisione 1386779366, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Myriam_Sylla&oldid=1386779366"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Myriam Sylla (revisione 153048443, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Myriam_Sylla&oldid=153048443"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "anna-danesi",
+  "nome": "Anna Danesi",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2018,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2018"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2021"
+   },
+   {
+    "anno": 2019,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2019"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2026"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2017–18"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2018–19"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Anna Danesi (revisione 1382721713, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Anna_Danesi&oldid=1382721713"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Anna Danesi (revisione 153349041, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Anna_Danesi&oldid=153349041"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "sarah-fahr",
+  "nome": "Sarah Fahr",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2018,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2018"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2021"
+   },
+   {
+    "anno": 2019,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2019"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2026"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2021–22"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2022–23"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2023–24"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2024–25"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2025–26"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Sarah Fahr (revisione 1386900597, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Sarah_Fahr&oldid=1386900597"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Sarah Fahr (revisione 153056011, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Sarah_Fahr&oldid=153056011"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "ekaterina-antropova",
+  "nome": "Ekaterina Antropova",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2026,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2026"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Ekaterina Antropova (revisione 1385863258, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Ekaterina_Antropova&oldid=1385863258"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Ekaterina Antropova (revisione 152490419, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Ekaterina_Antropova&oldid=152490419"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "isabelle-haak",
+  "nome": "Isabelle Haak",
+  "paese": "Svezia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato svedese",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato svedese",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2022–23"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2023–24"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2024–25"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2025–26"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Isabelle Haak (revisione 1382518713, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Isabelle_Haak&oldid=1382518713"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Isabelle Haak (revisione 153055954, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Isabelle_Haak&oldid=153055954"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "gabriela-guimaraes",
+  "nome": "Gabriela Guimarães",
+  "paese": "Brasile",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Gabi Guimaraes",
+  "palmares": [
+   {
+    "anno": 2020,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2020"
+   },
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2014,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2014"
+   },
+   {
+    "anno": 2025,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2025"
+   },
+   {
+    "anno": 2013,
+    "stag": "2012-13",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2024–25"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2025–26"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Gabriela Guimarães (revisione 1382762877, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Gabriela_Guimarães&oldid=1382762877"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Gabriela Guimarães (revisione 153055766, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Gabriela_Guimarães&oldid=153055766"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "joanna-wolosz",
+  "nome": "Joanna Wołosz",
+  "paese": "Polonia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Wolosz",
+  "palmares": [
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Campionato polacco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2017–18"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2020–21"
+   },
+   {
+    "anno": 2022,
+    "stag": "2021-22",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2021–22"
+   },
+   {
+    "anno": 2023,
+    "stag": "2022-23",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2022–23"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2023–24"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2024–25"
+   },
+   {
+    "anno": 2026,
+    "stag": "2025-26",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2025–26"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Joanna Wołosz (revisione 1382755816, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Joanna_Wołosz&oldid=1382755816"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Joanna Wołosz (revisione 153565058, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Joanna_Wołosz&oldid=153565058"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "caterina-bosetti",
+  "nome": "Caterina Bosetti",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2025,
+    "stag": "2024-25",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Caterina Bosetti (revisione 1382741544, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Caterina_Bosetti&oldid=1382741544"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Caterina Bosetti (revisione 150053182, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Caterina_Bosetti&oldid=150053182"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "eleonora-lo-bianco",
+  "nome": "Eleonora Lo Bianco",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2002,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2002"
+   },
+   {
+    "anno": 2007,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2007"
+   },
+   {
+    "anno": 2009,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2009"
+   },
+   {
+    "anno": 2001,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2001"
+   },
+   {
+    "anno": 2005,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2005"
+   },
+   {
+    "anno": 1999,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|1999"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2005–06"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2010–11"
+   },
+   {
+    "anno": 2015,
+    "stag": "2014-15",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2007,
+    "stag": "2006-07",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Eleonora Lo Bianco (revisione 1382748139, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Eleonora_Lo_Bianco&oldid=1382748139"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Eleonora Lo Bianco (revisione 152113780, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Eleonora_Lo_Bianco&oldid=152113780"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "simona-gioli",
+  "nome": "Simona Gioli",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2009,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2009"
+   },
+   {
+    "anno": 2007,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2007"
+   },
+   {
+    "anno": 2005,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2005"
+   },
+   {
+    "anno": 1999,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|1999"
+   },
+   {
+    "anno": 2003,
+    "stag": "2002-03",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2002–03"
+   },
+   {
+    "anno": 2005,
+    "stag": "2004-05",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2004–05"
+   },
+   {
+    "anno": 2007,
+    "stag": "2006-07",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2006–07"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Simona Gioli (revisione 1382922328, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Simona_Gioli&oldid=1382922328"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Simona Gioli (revisione 152209765, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Simona_Gioli&oldid=152209765"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "antonella-del-core",
+  "nome": "Antonella Del Core",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2007,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2007"
+   },
+   {
+    "anno": 2009,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2009"
+   },
+   {
+    "anno": 2005,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2005"
+   },
+   {
+    "anno": 2007,
+    "stag": "2006-07",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2006–07"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2010,
+    "stag": "2009-10",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2014,
+    "stag": "2013-14",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Antonella Del Core (revisione 1382722415, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Antonella_Del_Core&oldid=1382722415"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Antonella Del Core (revisione 149243542, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Antonella_Del_Core&oldid=149243542"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "elena-pietrini",
+  "nome": "Elena Pietrini",
+  "paese": "Italia",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2018,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2018"
+   },
+   {
+    "anno": 2022,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2022"
+   },
+   {
+    "anno": 2021,
+    "sport": "pallavolo",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|europei|1|2021"
+   },
+   {
+    "anno": 2024,
+    "stag": "2023-24",
+    "sport": "pallavolo",
+    "comp": "Campionato russo",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Elena Pietrini (revisione 1382517613, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Elena_Pietrini&oldid=1382517613"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Elena Pietrini (revisione 152770811, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Elena_Pietrini&oldid=152770811"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "kimberly-hill",
+  "nome": "Kimberly Hill",
+  "paese": "Stati Uniti",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Kim Hill",
+  "palmares": [
+   {
+    "anno": 2020,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2020"
+   },
+   {
+    "anno": 2016,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2016"
+   },
+   {
+    "anno": 2014,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2014"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2017–18"
+   },
+   {
+    "anno": 2019,
+    "stag": "2018-19",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2018–19"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2020–21"
+   },
+   {
+    "anno": 2017,
+    "stag": "2016-17",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "stag": "2020-21",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Kimberly Hill (revisione 1382758346, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Kimberly_Hill&oldid=1382758346"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Kimberly Hill (revisione 143489631, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Kimberly_Hill&oldid=143489631"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "sheilla-castro",
+  "nome": "Sheilla Castro",
+  "paese": "Brasile",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "Sheilla de Castro",
+  "palmares": [
+   {
+    "anno": 2008,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2008"
+   },
+   {
+    "anno": 2012,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2012"
+   },
+   {
+    "anno": 2006,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2006"
+   },
+   {
+    "anno": 2010,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2010"
+   },
+   {
+    "anno": 2014,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2014"
+   },
+   {
+    "anno": 2002,
+    "stag": "2001-02",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2011,
+    "stag": "2010-11",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Campionato italiano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|scudetto|1|2007–08"
+   },
+   {
+    "anno": 2016,
+    "stag": "2015-16",
+    "sport": "pallavolo",
+    "comp": "Campionato turco",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Sheilla Castro (revisione 1382522375, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Sheilla_Castro&oldid=1382522375"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Sheilla de Castro (revisione 143466243, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Sheilla_de_Castro&oldid=143466243"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "fabiana-claudino",
+  "nome": "Fabiana Claudino",
+  "paese": "Brasile",
+  "sport": [
+   "pallavolo"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2008,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2008"
+   },
+   {
+    "anno": 2012,
+    "sport": "pallavolo",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|olimpiadi|1|2012"
+   },
+   {
+    "anno": 2006,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2006"
+   },
+   {
+    "anno": 2010,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2010"
+   },
+   {
+    "anno": 2014,
+    "sport": "pallavolo",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "pallavolo|mondiali|1|2014"
+   },
+   {
+    "anno": 2002,
+    "stag": "2001-02",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2006,
+    "stag": "2005-06",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2007,
+    "stag": "2006-07",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2008,
+    "stag": "2007-08",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2009,
+    "stag": "2008-09",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "stag": "2017-18",
+    "sport": "pallavolo",
+    "comp": "Campionato brasiliano",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2012,
+    "stag": "2011-12",
+    "sport": "pallavolo",
+    "comp": "Champions League (pallavolo)",
+    "esito": "titolo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Fabiana Claudino (revisione 1382517906, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Fabiana_Claudino&oldid=1382517906"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Fabiana Claudino (revisione 153029222, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Fabiana_Claudino&oldid=153029222"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "alison-cerutti",
+  "nome": "Alison Cerutti",
+  "paese": "Brasile",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Mamute",
+  "palmares": [
+   {
+    "anno": 2016,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|0|2016"
+   },
+   {
+    "anno": 2012,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|0|2012"
+   },
+   {
+    "anno": 2011,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2011"
+   },
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2015"
+   },
+   {
+    "anno": 2009,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2009"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Alison Cerutti (revisione 1382719170, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Alison_Cerutti&oldid=1382719170"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Alison Cerutti (revisione 140643271, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Alison_Cerutti&oldid=140643271"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "evandro-oliveira",
+  "nome": "Evandro Oliveira",
+  "paese": "Brasile",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Evandro Goncalves",
+  "palmares": [
+   {
+    "anno": 2017,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2017"
+   },
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2015"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Evandro Oliveira (revisione 1375460179, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Evandro_Oliveira&oldid=1375460179"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Evandro Oliveira (revisione 151577299, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Evandro_Oliveira&oldid=151577299"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "christian-sorum",
+  "nome": "Christian Sørum",
+  "paese": "Norvegia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Sorum",
+  "palmares": [
+   {
+    "anno": 2020,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|0|2020"
+   },
+   {
+    "anno": 2024,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|0|2024"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2022"
+   },
+   {
+    "anno": 2019,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2019"
+   },
+   {
+    "anno": 2025,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2021,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2020,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2019,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Christian Sørum (revisione 1382517008, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Christian_Sørum&oldid=1382517008"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Christian Sørum (revisione 151648520, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Christian_Sørum&oldid=151648520"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "bruno-schmidt",
+  "nome": "Bruno Oscar Schmidt",
+  "paese": "Brasile",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2016,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|0|2016"
+   },
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|0|2015"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Bruno Oscar Schmidt (revisione 1382523248, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Bruno_Oscar_Schmidt&oldid=1382523248"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Bruno Oscar Schmidt (revisione 150256637, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Bruno_Oscar_Schmidt&oldid=150256637"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "aleksandrs-samoilovs",
+  "nome": "Aleksandrs Samoilovs",
+  "paese": "Lettonia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2014,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2013,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Aleksandrs Samoilovs (revisione 1382717984, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Aleksandrs_Samoilovs&oldid=1382717984"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Aleksandrs Samoilovs (revisione 139754643, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Aleksandrs_Samoilovs&oldid=139754643"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "tina-graudina",
+  "nome": "Tīna Graudiņa",
+  "paese": "Lettonia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Tina Graudina",
+  "palmares": [
+   {
+    "anno": 2025,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2025"
+   },
+   {
+    "anno": 2019,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Tīna Graudiņa (revisione 1382927917, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Tīna_Graudiņa&oldid=1382927917"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Tīna Graudiņa (revisione 151535211, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Tīna_Graudiņa&oldid=151535211"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "anastasija-samoilova",
+  "nome": "Anastasija Samoilova",
+  "paese": "Lettonia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Kravcenoka Kravčenoka",
+  "palmares": [
+   {
+    "anno": 2025,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2025"
+   },
+   {
+    "anno": 2019,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2026,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Anastasija Samoilova (revisione 1382720374, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Anastasija_Samoilova&oldid=1382720374"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Anastasija Samoilova (revisione 149454064, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Anastasija_Samoilova&oldid=149454064"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "april-ross",
+  "nome": "April Ross",
+  "paese": "Stati Uniti",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2020,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2020"
+   },
+   {
+    "anno": 2012,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2012"
+   },
+   {
+    "anno": 2016,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2016"
+   },
+   {
+    "anno": 2009,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2009"
+   },
+   {
+    "anno": 2017,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2017"
+   },
+   {
+    "anno": 2019,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2019"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "April Ross (revisione 1386508916, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=April_Ross&oldid=1386508916"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "April Ross (revisione 151412946, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=April_Ross&oldid=151412946"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "larissa-franca",
+  "nome": "Larissa França",
+  "paese": "Brasile",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Larissa Franca",
+  "palmares": [
+   {
+    "anno": 2012,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2012"
+   },
+   {
+    "anno": 2011,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2011"
+   },
+   {
+    "anno": 2005,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2005"
+   },
+   {
+    "anno": 2009,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2009"
+   },
+   {
+    "anno": 2007,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2007"
+   },
+   {
+    "anno": 2017,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2017"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Larissa França (revisione 1382759186, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Larissa_França&oldid=1382759186"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Larissa França (revisione 153083668, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Larissa_França&oldid=153083668"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "juliana-felisberta",
+  "nome": "Juliana Felisberta",
+  "paese": "Brasile",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Juliana Silva",
+  "palmares": [
+   {
+    "anno": 2012,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2012"
+   },
+   {
+    "anno": 2011,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2011"
+   },
+   {
+    "anno": 2005,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2005"
+   },
+   {
+    "anno": 2009,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2009"
+   },
+   {
+    "anno": 2007,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2007"
+   },
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Mondiali",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|mondiali|1|2015"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Juliana Silva (revisione 1382519213, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Juliana_Silva&oldid=1382519213"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Juliana Felisberta (revisione 153083662, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Juliana_Felisberta&oldid=153083662"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "tanja-huberli",
+  "nome": "Tanja Hüberli",
+  "paese": "Svizzera",
+  "sport": [
+   "beach"
+  ],
+  "alias": "Huberli",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2021,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2023,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2014,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Tanja Hüberli (revisione 1382924162, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Tanja_Hüberli&oldid=1382924162"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "nina-brunner",
+  "nome": "Nina Brunner",
+  "paese": "Svizzera",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "beach",
+    "comp": "Olimpiadi",
+    "esito": "bronzo",
+    "gara": "",
+    "ruolo": "atleta",
+    "albo": "beach|olimpiadi|1|2024"
+   },
+   {
+    "anno": 2021,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2023,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "oro",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2018,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   },
+   {
+    "anno": 2022,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Nina Brunner (revisione 1385953918, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Nina_Brunner&oldid=1385953918"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "valentina-gottardi",
+  "nome": "Valentina Gottardi",
+  "paese": "Italia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2024,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Valentina Gottardi (revisione 1382928191, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Valentina_Gottardi&oldid=1382928191"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Valentina Gottardi (revisione 151591979, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Valentina_Gottardi&oldid=151591979"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Donne"
+ },
+ {
+  "id": "alex-ranghieri",
+  "nome": "Alex Ranghieri",
+  "paese": "Italia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Alex Ranghieri (revisione 1382718405, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Alex_Ranghieri&oldid=1382718405"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Alex Ranghieri (revisione 139774415, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Alex_Ranghieri&oldid=139774415"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
+ },
+ {
+  "id": "adrian-carambula",
+  "nome": "Adrian Carambula",
+  "paese": "Italia",
+  "sport": [
+   "beach"
+  ],
+  "alias": "",
+  "palmares": [
+   {
+    "anno": 2015,
+    "sport": "beach",
+    "comp": "Europei",
+    "esito": "argento",
+    "gara": "",
+    "ruolo": "atleta"
+   }
+  ],
+  "fonti": [
+   {
+    "i": "Wikipedia (en)",
+    "t": "Adrian Carambula (revisione 1387983597, infobox)",
+    "u": "https://en.wikipedia.org/w/index.php?title=Adrian_Carambula&oldid=1387983597"
+   },
+   {
+    "i": "Wikipedia (it)",
+    "t": "Adrian Carambula (revisione 151518857, Palmarès)",
+    "u": "https://it.wikipedia.org/w/index.php?title=Adrian_Carambula&oldid=151518857"
+   }
+  ],
+  "ruoli": [
+   "atleta"
+  ],
+  "genere": "Uomini"
  }
 ]

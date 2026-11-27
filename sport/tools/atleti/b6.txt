@@ -1,0 +1,145 @@
+@Alessandro Michieletto|Alessandro Michieletto|1382718277|Alessandro Michieletto|152589133
+X|Men's volleyball
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|S|2023|
+I|Campionato italiano|2022-23, 2024-25
+I|CEV Champions League|2023-24
+@Yuri Romanò|Yuri Romanò|1380526996|Yuri Romanò|152589143
+X|Men's volleyball
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|S|2023|
+@Daniele Lavia|Daniele Lavia|1382743688|Daniele Lavia|152589142
+X|Men's volleyball
+M|W|G|2022|
+M|E|G|2021|
+M|E|S|2023|
+I|Campionato italiano|2022-23, 2024-25
+I|CEV Champions League|2023-24
+@Fabio Balaso|Fabio Balaso|1382749545|Fabio Balaso|152609547
+X|Men's volleyball
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|S|2023|
+I|Campionato italiano|2018-19, 2020-21, 2021-22
+I|CEV Champions League|2018-19
+@Roberto Russo (volleyball)|Roberto Russo (volleyball)|1382913177|Roberto Russo (pallavolista)|152589147
+M|W|G|2022|
+M|W|G|2025|
+M|E|S|2023|
+I|Campionato italiano|2023-24, 2025-26
+I|CEV Champions League|2024-25, 2025-26
+@Simone Anzani|Simone Anzani|1382922334|Simone Anzani|152589145
+X|Men's volleyball
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|B|2015|
+I|Campionato italiano|2017-18, 2020-21, 2021-22
+@Gianluca Galassi|Gianluca Galassi|1382751362|Gianluca Galassi|152609539
+X|Men's volleyball
+M|W|G|2022|
+M|W|G|2025|
+M|E|G|2021|
+M|E|S|2023|
+@Osmany Juantorena|Osmany Juantorena|1382909929|Osmany Juantorena|153444297
+X|Men's volleyball
+M|O|S|2016|Team
+M|E|B|2015|
+I|Campionato italiano|2010-11, 2012-13, 2016-17, 2018-19, 2020-21, 2021-22
+I|Campionato turco|2013-14, 2022-23
+I|Campionato spagnolo|2025-26
+I|CEV Champions League|2009-10, 2010-11, 2018-19
+@Matey Kaziyski|Matey Kaziyski|1382520460|Matej Kazijski|150392332
+X|Men's volleyball
+M|W|B|2006|
+M|E|B|2009|
+I|Campionato russo|2005-06
+I|Campionato italiano|2007-08, 2010-11, 2012-13, 2014-15, 2022-2023
+I|Campionato turco|2013-14
+I|Campionato qatariota|2014-15
+I|Campionato giapponese|2019-20
+I|CEV Champions League|2008-09, 2009-10, 2010-11
+@Bruno Rezende|Bruno Rezende|1382739230|Bruno de Rezende|150654062
+X|Men's volleyball
+M|O|G|2016|Team
+M|O|S|2008|Team
+M|O|S|2012|Team
+M|W|G|2010|Team
+M|W|S|2014|Team
+M|W|S|2018|Team
+M|W|B|2022|Team
+I|Campionato brasiliano|2003-04, 2005-06, 2007-08, 2008-09, 2009-10, 2012-13, 2020-21
+I|Campionato italiano|2015-16, 2018-19
+I|Campionato Catarinense|2006, 2008, 2009, 2010, 2011, 2012
+I|Campionato Carioca|2012
+I|CEV Champions League|2018-19
+@Yoandy Leal|Yoandy Leal|1382524974|Yoandy Leal|151066207
+X|Men's volleyball
+M|W|B|2022|Team
+M|W|S|2010|
+I|Campionato brasiliano|2013-14, 2014-15, 2015-16, 2016-17, 2017-18
+I|Campionato italiano|2018-19, 2020-21
+I|CEV Champions League|2018-19
+I|Campionato Mineiro|2012, 2013, 2014, 2015, 2016, 2017
+@Aleksandar Atanasijević|Aleksandar Atanasijević|1382717556|Aleksandar Atanasijević|151296908
+X|Men's volleyball
+M|E|G|2011|
+M|E|G|2019|
+M|E|B|2013|
+M|E|B|2017|
+I|Campionato serbo|2010-11
+I|Campionato italiano|2017-18
+I|Campionato cinese|2023-24
+@Tsvetan Sokolov|Tsvetan Sokolov|1382927770|Cvetan Sokolov|152915493
+X|Men's volleyball
+M|E|B|2009|
+I|Campionato italiano|2010-11, 2016-17, 2018-19
+I|Campionato turco|2015-16
+I|Campionato russo|2020-21, 2021-22
+I|CEV Champions League|2009-10, 2010-11, 2018-19
+@Kamil Semeniuk|Kamil Semeniuk|1382756970|Kamil Semeniuk|153397257
+X|Men's volleyball
+M|O|S|2024|Team
+M|W|S|2022|
+M|W|B|2025|
+M|E|G|2023|
+M|E|G|2026|
+M|E|B|2021|
+I|Campionato polacco|2015-16, 2016-17, 2021-22
+I|Campionato italiano|2023-24, 2025-26
+I|CEV Champions League|2020-21, 2021-22, 2024-25, 2025-26
+@Luca Cantagalli|Luca Cantagalli|1382760749|Luca Cantagalli|153070814
+X|Men's volleyball
+M|O|S|1996|Team
+M|W|G|1990|Team
+M|W|G|1994|Team
+M|E|G|1989|
+M|E|G|1993|
+M|E|G|1995|
+M|E|S|1991|
+I|Campionato italiano|Panini/Daytona/Modena: 1985-86, 1986-87, 1987-1988, 1988-1989, 1994-95, 1996-97, 2001-02
+I|Coppa dei Campioni|Panini/Daytona: 1989-90, 1995-96, 1996-97, 1997-98
+@Andrea Zorzi|Andrea Zorzi|1382515962|Andrea Zorzi|152050451
+X|Men's volleyball
+M|O|S|1996|Team
+M|W|G|1990|Team
+M|W|G|1994|Team
+M|E|G|1989|
+M|E|G|1993|
+M|E|G|1995|
+M|E|S|1991|
+I|Campionato italiano|Parma: 1989-90 Treviso: 1995-96
+I|Coppa dei Campioni|Treviso: 1994-95
+@Andrea Lucchetta|Andrea Lucchetta|1382515914|Andrea Lucchetta|153283405
+X|Men's volleyball
+M|O|B|1984|Team
+M|W|G|1990|Team
+M|E|G|1989|
+M|E|S|1991|
+I|Campionato italiano|Panini: 1985-86, 1986-87, 1987-88, 1988-89
+I|Coppa dei Campioni|Panini: 1989-90

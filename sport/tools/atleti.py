@@ -1,4 +1,4 @@
-"""Atleti e palmarès del Pilu Sports Almanac (v0.3).
+"""Atleti e palmarès del Pilu Sports Almanac (v0.3; 51 di pallavolo e beach volley aggiunti nella v0.4).
 
 Fonte: infobox di en.wikipedia (medagliere: Olimpiadi, Mondiali, Europei, Copa América; titoli NBA; Slam di tennis;
 Grandi Giri; titoli mondiali di F1/moto; Coppe del Mondo di sci) e sezione «Palmarès» di it.wikipedia (campionati
@@ -11,7 +11,9 @@ from pathlib import Path
 
 DIR = Path(__file__).with_name("atleti")
 HASH = {"b0": "c1fa7e206be848c1", "b1": "4a36fb63c2029d60", "b2": "0040af2a4421cfdc",
-        "b3": "578f70bc1b2846f1", "b4": "4900dc3e8210a83d", "b5": "2d394637922aaaa1"}
+        "b3": "578f70bc1b2846f1", "b4": "4900dc3e8210a83d", "b5": "2d394637922aaaa1",
+        # v0.4: pallavolo e beach volley (27/11/2026)
+        "b6": "ca8e78204e1c4387", "b7": "37eb256abf1c6bd1", "b8": "25b0e97f66fddeba"}
 
 # id, nome mostrato, paese, sport principale, altri nomi per la ricerca
 META = """
@@ -115,6 +117,57 @@ lindsey-vonn|Lindsey Vonn|Stati Uniti|sci|
 alberto-tomba|Alberto Tomba|Italia|sci|
 marcel-hirscher|Marcel Hirscher|Austria|sci|
 federica-brignone|Federica Brignone|Italia|sci|
+alessandro-michieletto|Alessandro Michieletto|Italia|pallavolo|
+yuri-romano|Yuri Romanò|Italia|pallavolo|Romano
+daniele-lavia|Daniele Lavia|Italia|pallavolo|
+fabio-balaso|Fabio Balaso|Italia|pallavolo|
+roberto-russo|Roberto Russo|Italia|pallavolo|
+simone-anzani|Simone Anzani|Italia|pallavolo|
+gianluca-galassi|Gianluca Galassi|Italia|pallavolo|
+osmany-juantorena|Osmany Juantorena|Cuba, poi Italia|pallavolo|
+matey-kaziyski|Matey Kaziyski|Bulgaria|pallavolo|Matej Kazijski
+bruno-rezende|Bruno Rezende|Brasile|pallavolo|Bruninho Bruno de Rezende
+yoandy-leal|Yoandy Leal|Cuba, poi Brasile|pallavolo|
+aleksandar-atanasijevic|Aleksandar Atanasijević|Serbia|pallavolo|Atanasijevic
+tsvetan-sokolov|Tsvetan Sokolov|Bulgaria|pallavolo|Cvetan Sokolov
+kamil-semeniuk|Kamil Semeniuk|Polonia|pallavolo|
+luca-cantagalli|Luca Cantagalli|Italia|pallavolo|
+andrea-zorzi|Andrea Zorzi|Italia|pallavolo|
+andrea-lucchetta|Andrea Lucchetta|Italia|pallavolo|Lucky
+samuele-papi|Samuele Papi|Italia|pallavolo|
+luigi-mastrangelo|Luigi Mastrangelo|Italia|pallavolo|
+ferdinando-de-giorgi|Ferdinando De Giorgi|Italia|pallavolo|Fefè Fefe
+alessia-orro|Alessia Orro|Italia|pallavolo|
+myriam-sylla|Myriam Sylla|Italia|pallavolo|
+anna-danesi|Anna Danesi|Italia|pallavolo|
+sarah-fahr|Sarah Fahr|Italia|pallavolo|
+ekaterina-antropova|Ekaterina Antropova|Italia|pallavolo|
+isabelle-haak|Isabelle Haak|Svezia|pallavolo|
+gabriela-guimaraes|Gabriela Guimarães|Brasile|pallavolo|Gabi Guimaraes
+joanna-wolosz|Joanna Wołosz|Polonia|pallavolo|Wolosz
+caterina-bosetti|Caterina Bosetti|Italia|pallavolo|
+eleonora-lo-bianco|Eleonora Lo Bianco|Italia|pallavolo|
+simona-gioli|Simona Gioli|Italia|pallavolo|
+antonella-del-core|Antonella Del Core|Italia|pallavolo|
+elena-pietrini|Elena Pietrini|Italia|pallavolo|
+kimberly-hill|Kimberly Hill|Stati Uniti|pallavolo|Kim Hill
+sheilla-castro|Sheilla Castro|Brasile|pallavolo|Sheilla de Castro
+fabiana-claudino|Fabiana Claudino|Brasile|pallavolo|
+alison-cerutti|Alison Cerutti|Brasile|beach|Mamute
+evandro-oliveira|Evandro Oliveira|Brasile|beach|Evandro Goncalves
+christian-sorum|Christian Sørum|Norvegia|beach|Sorum
+bruno-schmidt|Bruno Oscar Schmidt|Brasile|beach|
+aleksandrs-samoilovs|Aleksandrs Samoilovs|Lettonia|beach|
+tina-graudina|Tīna Graudiņa|Lettonia|beach|Tina Graudina
+anastasija-samoilova|Anastasija Samoilova|Lettonia|beach|Kravcenoka Kravčenoka
+april-ross|April Ross|Stati Uniti|beach|
+larissa-franca|Larissa França|Brasile|beach|Larissa Franca
+juliana-felisberta|Juliana Felisberta|Brasile|beach|Juliana Silva
+tanja-huberli|Tanja Hüberli|Svizzera|beach|Huberli
+nina-brunner|Nina Brunner|Svizzera|beach|
+valentina-gottardi|Valentina Gottardi|Italia|beach|
+alex-ranghieri|Alex Ranghieri|Italia|beach|
+adrian-carambula|Adrian Carambula|Italia|beach|
 """
 # ordine dei record nei blocchi = ordine di META
 NOTE = {
@@ -130,7 +183,7 @@ COMP = {"O": "Olimpiadi", "W": "Mondiali", "E": "Europei", "A": "Copa América"}
 MED = {"G": "oro", "S": "argento", "B": "bronzo"}
 SLAM = {"Australian Open": "Australian Open", "French Open": "Roland Garros", "Wimbledon": "Wimbledon", "US Open": "US Open"}
 LEGHE = {"UEFA Champions League": "Coppa dei Campioni / Champions League", "Coppa dei Campioni": "Coppa dei Campioni / Champions League",
-         "CEV Champions League": "Champions League (pallavolo)", "Campeonato Brasileiro Série A": "Campionato brasiliano"}
+         "CEV Champions League": "Champions League (pallavolo)", "Coppa dei Campioni/Champions League": "Coppa dei Campioni / Champions League", "Campeonato Brasileiro Série A": "Campionato brasiliano"}
 EVENTI = [(r"4 ?[×x] ?100 m relay|4 × 100 m$", "staffetta 4×100"), (r"4 ?[×x] ?400 m relay|4 × 400 m$", "staffetta 4×400"),
           (r"4 × 400 m mixed", "staffetta 4×400 mista"),
           (r"Long jump", "salto in lungo"), (r"High [Jj]ump", "salto in alto"), (r"Pole vault", "salto con l'asta"),
@@ -259,6 +312,8 @@ def costruisci():
                 leghe_viste[comp] = True
             elif tipo == "I":
                 nomecomp, testo = r[1], r[2]
+                if re.match(r"Campionato [A-ZÀ-Ý]", nomecomp):
+                    continue  # campionati statali o regionali (Carioca, Paulista, Mineiro...): non sono titoli nazionali
                 if nomecomp in ("Campionato NBA", "Campionato WNBA") or (sport0 == "basket" and nomecomp in ("Eurolega", "Coppa dei Campioni")):
                     continue  # già dai titoli dell'infobox inglese
                 n_occ = leghe_viste.get(("I", nomecomp), 0)
@@ -267,7 +322,7 @@ def costruisci():
                     continue  # 2004-05: titolo revocato alla Juventus
                 if aid == "bill-russell" and n_occ == 1:
                     continue
-                ruolo = "allenatore" if (aid, n_occ) in ALLENATORE_LEGHE or (aid, nomecomp) in ALLENATORE_LEGHE else "atleta"
+                ruolo = "allenatore" if (aid, n_occ) in ALLENATORE_LEGHE or (aid, nomecomp) in ALLENATORE_LEGHE or r[3:] == ["A"] else "atleta"
                 comp = LEGHE.get(nomecomp, nomecomp)
                 if sport0 == "pallavolo" and nomecomp.startswith("Campionato"):
                     pass
