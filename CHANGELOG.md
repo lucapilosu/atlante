@@ -1,5 +1,11 @@
 # Registro delle versioni
 
+## Pilu Sports Almanac v0.6.1 · 27 novembre 2026
+
+- **Trascinamento col mouse su PC più fluido** (segnalato da Luca). Causa riprodotta: trascinando, il mouse selezionava il testo delle tessere; il trascinamento successivo che partiva da un testo selezionato veniva preso dal browser come spostamento del testo e interrotto dopo pochi pixel. Ora sul mosaico il testo non si seleziona, il trascinamento del browser è bloccato e l'effetto al passaggio del mouse sulle tessere si spegne mentre si trascina.
+- Su schermi molto larghi (circa 1900 px e oltre) il mosaico entra quasi o del tutto nella finestra, quindi in orizzontale si sposta poco o niente: è voluto, non è un blocco.
+- Prove: 126 controlli su PC e iPhone emulato; il controllo nuovo fallisce sulla v0.6 e passa sulla v0.6.1.
+
 ## Pilu Sports Almanac v0.6 · 27 novembre 2026
 
 - **Tennis: le finali di singolare dei quattro tornei del Grande Slam nell'era Open** (468 finali): Australian Open dal 1969, Roland Garros, Wimbledon e US Open dal 1968, uomini e donne, con campione, finalista e punteggio.

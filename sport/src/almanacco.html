@@ -40,7 +40,7 @@ html[data-stile=pastello] .bar .btn{border-radius:999px}
 .stili i{display:flex;flex:none;border-radius:6px;overflow:hidden;box-shadow:0 0 0 1px rgba(0,0,0,.15)}
 .stili i span{width:12px;height:24px}
 .stili small{display:block;color:var(--mute);font-size:12px}
-#stage{position:fixed;left:0;right:0;top:var(--top);bottom:0;overflow:hidden;touch-action:none;cursor:grab;background:var(--bgpat),var(--bg)}
+#stage{position:fixed;left:0;right:0;top:var(--top);bottom:0;overflow:hidden;touch-action:none;cursor:grab;-webkit-user-select:none;user-select:none;background:var(--bgpat),var(--bg)}
 #stage.drag{cursor:grabbing}
 #world{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
 .colbg{position:absolute;top:0;border-left:1px dashed var(--col)}
@@ -51,7 +51,7 @@ html[data-stile=pastello] .bar .btn{border-radius:999px}
 .pin{position:absolute;width:9px;height:9px;border-radius:50%;margin:-4.5px 0 0 -4px;border:2px solid var(--bg)}
 .link{position:absolute;height:1px;opacity:.5}
 .tile{position:absolute;width:180px;height:78px;padding:8px 10px;border-radius:var(--tr);background:var(--card);border:var(--tb);border-top:var(--tbt);cursor:pointer;box-shadow:var(--ombra)}
-.tile:hover{filter:brightness(1.06)}
+#stage:not(.drag) .tile:hover{filter:brightness(1.06)}
 .tile.sel{outline:3px solid var(--acc);outline-offset:2px}
 .tile .y{position:absolute;right:-3px;top:-3px;background:var(--c);color:var(--ct);font-size:12px;font-weight:800;padding:2px 8px;border-radius:0 var(--tr) 0 9px;font-variant-numeric:tabular-nums}
 html[data-stile=pastello] .tile .y{right:0;top:-5px}
@@ -368,7 +368,11 @@ function inizio() {
 
 /* trascinamento, due dita, rotella */
 const ptr = new Map(); let moved = false, start = null, pinch = null;
+/* col mouse il browser selezionerebbe il testo e, partendo da un testo selezionato, avvierebbe il suo
+   trascinamento (con pointercancel): il mosaico si fermava a metà gesto */
+stage.addEventListener('dragstart', e => e.preventDefault());
 stage.addEventListener('pointerdown', e => {
+  if (e.pointerType === 'mouse') { e.preventDefault(); const sel = getSelection(); if (sel && !sel.isCollapsed) sel.removeAllRanges(); }
   stage.setPointerCapture(e.pointerId); ptr.set(e.pointerId, {x: e.clientX, y: e.clientY});
   if (ptr.size === 1) { moved = false; start = {x: e.clientX, y: e.clientY, vx: V.x, vy: V.y, t: e.target}; }
   if (ptr.size === 2) { const [a, b] = [...ptr.values()]; pinch = {d: Math.hypot(a.x - b.x, a.y - b.y), s: V.s}; moved = true; }

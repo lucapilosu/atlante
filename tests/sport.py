@@ -45,6 +45,15 @@ with sync_playwright() as p:
         rects = pg.evaluate("[...document.querySelectorAll('.tile')].map(t=>[t.offsetLeft,t.offsetTop,t.offsetWidth,t.offsetHeight])")
         sov = [(a, c) for i, a in enumerate(rects) for c in rects[i+1:] if a[0] == c[0] and a[1] < c[1] + c[3] and c[1] < a[1] + a[3]]
         check(f"{nome}: nessuna sovrapposizione", not sov, sov[:2])
+        if nome == "pc":  # v0.6.1: col mouse il trascinamento non deve fermarsi né selezionare testo
+            x0, y0 = pg.evaluate("(()=>{const r=[...document.querySelectorAll('.tile .t')].map(e=>e.getBoundingClientRect()).find(r=>r.left>80&&r.right<innerWidth-340&&r.top>120&&r.bottom<innerHeight-40);return [r.left+10,r.top+6]})()")
+            pg.evaluate("getSelection().selectAllChildren(document.querySelector('.tile .t'))")
+            pg.evaluate("window.ANN=0;document.addEventListener('pointercancel',()=>ANN++,true)")
+            vx = pg.evaluate("V.x"); pg.mouse.move(x0, y0); pg.mouse.down()
+            for i in range(1, 21): pg.mouse.move(x0 - i * 15, y0); pg.wait_for_timeout(10)
+            pg.mouse.up(); pg.wait_for_timeout(100)
+            check(f"{nome}: trascinamento col mouse da una tessera, 300 px senza interruzioni", vx - pg.evaluate("V.x") > 280 and pg.evaluate("ANN") == 0 and pg.evaluate("String(getSelection())") == "", (vx, pg.evaluate("V.x"), pg.evaluate("ANN")))
+            pg.evaluate("V.x=58;redraw()"); pg.wait_for_timeout(50)
         pg.locator(".head[data-sport='pallavolo']").click(); pg.wait_for_timeout(350)
         check(f"{nome}: albo pallavolo uomini", pg.locator("#panel table.albo tbody tr").count() == 16)
         pg.locator("#panel .tabs button", has_text="Donne").click()
